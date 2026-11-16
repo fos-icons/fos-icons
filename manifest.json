@@ -669,59 +669,6 @@
       }
     },
     {
-      "name": "airpods",
-      "category": "Media & devices",
-      "tags": [
-        "earbuds",
-        "earphones",
-        "headphones",
-        "wireless",
-        "audio",
-        "apple"
-      ],
-      "aliases": [],
-      "componentSet": "45:42219",
-      "source": {
-        "regular": "33:21533",
-        "filled": "33:40747",
-        "duocolor": "49:83316",
-        "duotone": "49:83324"
-      },
-      "keyline": {
-        "key": "Horizontal",
-        "width": 20,
-        "height": 16,
-        "stroke": 1.25,
-        "margin": 2
-      },
-      "files": {
-        "regular": "icons/regular/airpods.svg",
-        "filled": "icons/filled/airpods.svg",
-        "duocolor": "icons/duocolor/airpods.svg",
-        "duotone": "icons/duotone/airpods.svg"
-      },
-      "sha256": {
-        "regular": "80878384baa8f5d21cb2a097bfdf203cd310dcb5367bfbddab66c3c7cac999f0",
-        "filled": "c2ff5854fb6148ecf6d72b1be1d431486ff714806bc680cf3e50fcf5cdec92e4",
-        "duocolor": "3726453a733e1a873d5f8bcf10ef812df11f33befca1d7ebb11a9240be92e9f3",
-        "duotone": "b2089a382c9672984db4c614cf5ff48cdaf5a8688e8b4c121f67cc8f3262db56"
-      },
-      "duoAuthoring": {
-        "version": 2,
-        "approvedPrototype": false,
-        "duocolor": {
-          "contours": 4,
-          "accents": 2,
-          "policy": "dominant-contours-and-details"
-        },
-        "duotone": {
-          "regions": 3,
-          "opacity": 0.16,
-          "policy": "explicit-closed-contours"
-        }
-      }
-    },
-    {
       "name": "alarm",
       "category": "Time & weather",
       "tags": [
@@ -19224,10 +19171,10 @@
         "duotone": "icons/duotone/credit-card.svg"
       },
       "sha256": {
-        "regular": "41bc5d2f9aefaa4c10d74451a76fa9db34b49a5a0c52d6fab754ad59f686fca4",
-        "filled": "80a1fcd500ce39cc8d46e5d6343399bb5ca37813de44740c4ca347766d79d8ba",
-        "duocolor": "59dd714091ef287a9effa8b7a5757deb0980db4181fc7f5647ccbe7c4b973a54",
-        "duotone": "5ee4b2c956693078e36416cb6f2963d569ea1c20001b7b301a5fadc281319058"
+        "regular": "257ef876210d36bdfecb55871e8e0278e922b0c0dacacce23a1f1bc1e4aad8ef",
+        "filled": "111b635b1b0c2462b1bacb140f139eb1e298e73b198d46b4f65074e4721f2cd0",
+        "duocolor": "24dfddca6f6b40e2c140a0d70f4b823049587046d0d7bd5727fa7f5048d3a11d",
+        "duotone": "537d10784622f5f828050fda0c33d7cae7c1da6595773ef0baca7dc260ee4ec7"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19278,10 +19225,10 @@
         "duotone": "icons/duotone/credit-card-check.svg"
       },
       "sha256": {
-        "regular": "74e6deaa88719d5578bf90af3196106101c04bc8af91762a8c10603f195d9cc0",
-        "filled": "d5a5570a990271c92e6792ab9a35688d770be07f63ae88bdfc09f1d845c471d9",
-        "duocolor": "dba10318aab96c966c908d4d9772d7e90f02668b535494498763fec42b93b1cb",
-        "duotone": "63c59ade13cc60494a80b18134ed6da5aae1bc6af2579b98fe66fc286c992d90"
+        "regular": "5e97d56d6658a056a77b063a6e9c53d619a96427a892b92f599367e3411aa3a4",
+        "filled": "8fab095f498a399fdb9ab7d3b933e8ae2d36536aef586c98212a00bede0c39fa",
+        "duocolor": "faaebcba2e40e32ef7de390aed7f6ae96c6f44dcfef6603379587034237dd84f",
+        "duotone": "68f94b2a341225b1221af329f476bf757a76aa44aec2c1b25c3143b41761d1f8"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19337,10 +19284,10 @@
         "duotone": "icons/duotone/credit-card-down.svg"
       },
       "sha256": {
-        "regular": "cc58c9937ab2dcd0360a5e89d1a9a1fae9fd0a95b5a9fa16cc268daba469dd13",
-        "filled": "e3e055478f7cd5c36544c24ca5f570ba1be4b14ccc5b18e48f066f72473cbdb7",
-        "duocolor": "be68d11964099071f022efa5ab440baf4108e367b8b1c375b821a868f55e3c74",
-        "duotone": "83ab9c7724927f09cbc735a821d436eda52c5c36b3c6b29582610648339844da"
+        "regular": "9de3e17302011e1cba141e9d1e0a585ca07356b5c34383e7f3e901a7ee015d64",
+        "filled": "c20e3af89dc42c5e956517aae9365d58a120e94a8bf53e9399dc78bee0894e37",
+        "duocolor": "1de53ae1316cc1901217351465db192b3f7e22915fdf720f8e671dc426ef6258",
+        "duotone": "121c3a7d2ddf2bbaef4fc294a714398ce90a5e818021651efd44db1cfa4cbc87"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19396,10 +19343,10 @@
         "duotone": "icons/duotone/credit-card-download.svg"
       },
       "sha256": {
-        "regular": "1f3f59632f810dbbb158199c7a37703600c59be74f8aa151b60cb41849aa17c1",
-        "filled": "80c909b022a638c288cfaa508e3d1fef89882d285edb5935adb1f28e7fee44ff",
-        "duocolor": "726d1db8f3ec1415d284283c6036f1972a36ddf6b55bea005961d3a0f5da8ca8",
-        "duotone": "9ce1af74136e49c88ebc3e2d479355f91e0f45330466f7c6a1d0429731ea5200"
+        "regular": "ef4cf4e79fc66fb60e3ec963a54bff29472f4f8142c4ef411509c77930596ea3",
+        "filled": "0cfa361f244f67de3e063fe3a97f26e9dc0c536a613d6367a17548c2e6d5a853",
+        "duocolor": "2c229769204b3b8d4582c2eb116d5752be74fc094f670d01ef3a11ce4abd67e9",
+        "duotone": "8aa897cb5a0e6f18ffe92224e76ac1981c39c372948eb0cfea79df6b7f3b5755"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19455,10 +19402,10 @@
         "duotone": "icons/duotone/credit-card-edit.svg"
       },
       "sha256": {
-        "regular": "cf0859eeee8daf04e6b190ece6d6de45c7a073e81f1999c8be8d6384685129d1",
-        "filled": "74d3c1931f756fa2045a987096a7ec0a25c334b429d7a3d9957de81155dfa785",
-        "duocolor": "fd40db37c9b7ffc5e785b28c8cfad84a58a6e3506ed66b10d802312e24af2467",
-        "duotone": "c7aeefe14a052a1ee5c4913ed0ee4aa40e0b73c2bd5640e96119edd946414391"
+        "regular": "f01358afdfe2fb076e3084f29893d47f6a4c9bb9f02ced0b058bde968398e7e1",
+        "filled": "42f0c0ab1cb5cd963051fd746ab9cbb112c45bac020c45ed4765bc887ad64183",
+        "duocolor": "35100aa8884b133b28203eb8f5b538c35c70cffd8f2d25fa8a6d92bbf105ad73",
+        "duotone": "42d7c2803c04f4c0acc06718dae73329e60bfd6f4d1d9161897859ca954094a7"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19514,10 +19461,10 @@
         "duotone": "icons/duotone/credit-card-lock.svg"
       },
       "sha256": {
-        "regular": "0423b5bae0ae98cc9156024614d03d3baa21459fea7ee4b937d4a2d39ed37be2",
-        "filled": "ec451b5e92d03a854e1d6d09e1496cb7ad224ea31af62b3d93401fd44a49f384",
-        "duocolor": "ee870b0d96abe3e6d74cefc9cee683e605d7dbf606471d4a24e05187792ce05c",
-        "duotone": "51d09f64913485e2db1fcad5caedb00755b765efb6a5532093b5a1f7ea8debda"
+        "regular": "fdd0938b32f9ba26ed0c37fe6d7254756657d2435d03726fde651744789dc932",
+        "filled": "55ef5dda4b23e2472a314868780280eb1cd305df4c9bf2d1fd48e908abec6887",
+        "duocolor": "d3c4fb15e71ce61ced49e69165a80ca689020c7fab1087cdb134f60397ed0890",
+        "duotone": "158f80af967abf1677d8bed869adab793dbdf5e4fb57f1a18e86dbb9ed3ed6b1"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19573,10 +19520,10 @@
         "duotone": "icons/duotone/credit-card-minus.svg"
       },
       "sha256": {
-        "regular": "b7fd2e18b45c28b01aaec903e5344665bfc181654876e0a37236d6372c97efd5",
-        "filled": "c186b2895365a1fdd06fcc3b25bc6e8965487ad9a84673acedb6a4f3dfcb7f78",
-        "duocolor": "d0886be10412948ad183db2fb196e2ec7ed8e89683166f6dc180f7c2e5cfff01",
-        "duotone": "8e12ebae4f5cf6a6741f4608fdba34d00174f6350249d81b684f1ba81a22138b"
+        "regular": "7363854a5af405dd3758b12c4e2059add7c1c9578386c0c5d5b7892b4c90b30c",
+        "filled": "da95da819a61c97f41887042955f72ab600009e5afba2be4d5e539ee9dca2c82",
+        "duocolor": "0ed5ebac88f7bd40e6ed67d78479341b54df4b4340c29adeda64945268aad32e",
+        "duotone": "98b88da7bfd9da952acec1f07f53881273635b4256b551ae7bdb3a5ce5397e0e"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19632,10 +19579,10 @@
         "duotone": "icons/duotone/credit-card-plus.svg"
       },
       "sha256": {
-        "regular": "139c0f5dd226cd942f512d3d8a5809cd08770e55293586dda5d54f01ee9c7b81",
-        "filled": "df1ccf5bb0386f22497d64228cc557c3f6adcc0d346444b2d745040f39ebb08c",
-        "duocolor": "33134d623da1e4ff4bd7aef389e2025c8a9bf89c06bd9b32cae433e6895b38ed",
-        "duotone": "433e61ab8ce14e9dc829b67e4e3a307a0726c5526923cdce2d033d6ab152eb57"
+        "regular": "b05180df569e93e9043cbe310400a9c6b086e86744a849b75a5812f9607c83c7",
+        "filled": "3b31b702b2dacd4198c37c0d367c9ee78dfe3c3f4f5e0abe2091070c73ba2390",
+        "duocolor": "073b20c637c7f1ee34402dd78f34654eff36dbc9ef886f935dc9f229cb5e7519",
+        "duotone": "3571a8094080f08c0b25c0011f32fb839eb973632bfca51b4048bf3c83c05dc8"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19692,10 +19639,10 @@
         "duotone": "icons/duotone/credit-card-refresh.svg"
       },
       "sha256": {
-        "regular": "cce37000b0616e85332d5cfe8955a05cbe5020457b98d48ca3ea6bdebb2de84e",
-        "filled": "43dfd478907f7706b3e954f434318f46f446367e1f065710170731d47a5636c2",
-        "duocolor": "a3e24682801ba2d3240e136ec3f2c950aa1e6d271def1a6da8968ec4552e9050",
-        "duotone": "498b7da235281e8d1e446e01f3a530423323ff187d62108ef2842b5e74c0e314"
+        "regular": "3d5f1ed02922cfae5a9d69e944ec3d8d2d0f7a62fbd4a79bacec1d5e4e7a54f5",
+        "filled": "4abd96af311b521d81e76f4c6b91e83cbfd95927b9f24aa7ea8189ea1bb59637",
+        "duocolor": "63a8ce80825d1abb2d48a9bd6a3fd705c80fa69ba11037dbfce38d48ae83e68f",
+        "duotone": "ecc148b7912ba2840da3a63acd4d1288fc2f1816b380f47cd240b09e9df0616a"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19751,10 +19698,10 @@
         "duotone": "icons/duotone/credit-card-search.svg"
       },
       "sha256": {
-        "regular": "369d300d199936717e37a909bf9f17e16f6ae79f3ad8a60692227afac2c6756d",
-        "filled": "81ea8bc64a26ebda2bdb46622422d1b0a376956cac6439b896306611673594a5",
-        "duocolor": "9a32764ac17c43aa8f2a7a54021122add06dad44c3764ea98d221bbe9459c976",
-        "duotone": "ec0ab2949cd959c7a91509ad16f7e85d4519b7c922da484a7c759b5a43302eda"
+        "regular": "640538b070edd4ffdcd7eea70b77064299040784fdd91fa05ee2066c6470b015",
+        "filled": "acc6efe3fb907f7424f0d1430aeea2db90eef63283617ad51aa946c0787ae7ff",
+        "duocolor": "cf4eba7061d2161e6498835d509b74e11e97680d8464fa4b360ffc80834f79e4",
+        "duotone": "da9c5538d1b4f6fb3b5861c9c0f5ba7d0c7ab21577b04740fa159f3506471fea"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19810,10 +19757,10 @@
         "duotone": "icons/duotone/credit-card-shield.svg"
       },
       "sha256": {
-        "regular": "840e3befd84463e28688c3a424fd986f535d22ef1223c2c3bfe99bb066d1301c",
-        "filled": "55bd6c7591f7173024df7628af6cc4cc66b40b3718c98e7d38b2600dad951e38",
-        "duocolor": "2e61972845359e53d0d18c11dc6865f9fe9179de93b91f032227acf0cdefa4bd",
-        "duotone": "d600c87c579469ee53838cc88130b1e12fc11b8ef1b02aac2a333a01e2be1271"
+        "regular": "a4a071018d33b4063cb626eac79c92c5572d595b635b681d6d6a5acb210c4212",
+        "filled": "f2ff858e5058ba0c3401e42733adf7cebf80d1301bbd8221437763960fb08029",
+        "duocolor": "16bacfdedff3d9a08b308eb2cf0a041086dc0f0e525bb7e05fe7d7fc4953452c",
+        "duotone": "f2c3506303a28bedc65c4b4324f75005b8783cb224120621e6479366199fb789"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19869,10 +19816,10 @@
         "duotone": "icons/duotone/credit-card-up.svg"
       },
       "sha256": {
-        "regular": "2d3124659fbbddadff654e760444e083faf49dcbf1997c0a1dcb46373c0e099c",
-        "filled": "41fc02b0deabef3a84bbec854ab49459f25fb0e049ecc9c6a5e59eb0d2472baf",
-        "duocolor": "27957d33f8399d3c9ea5e1cce08cafbc4f5d4e48f983df2f91fddd23b6410c1b",
-        "duotone": "622ae23dbe4c99c7021112e2b80271cdac21619c619ffea57c67e9488aac9870"
+        "regular": "7e2113347be38b9cb7f95bb1f88618eda8ad540eeb0b6240efa388a1b2f8ed8b",
+        "filled": "949424b2f778368c3fdab80bce3d633c4878a5d088c461f70e93c16dbb545b2b",
+        "duocolor": "22b21ec017c59895fa5195c79834ed6954a0d660ed4de2bdf5809b843d07e257",
+        "duotone": "b49dffa4dc5f6d3890cf37aa2b5e65206040bdb2600e5d9bcb32ef61ffecaa61"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19927,10 +19874,10 @@
         "duotone": "icons/duotone/credit-card-upload.svg"
       },
       "sha256": {
-        "regular": "a76b5eb35bd1f3c5c63b0817e599537e17572965e5df86f4657388ba0c995c65",
-        "filled": "7ecc1f3f752453725cdecbdce7935f19b38109b3c91072c7294dcaf9abde95b2",
-        "duocolor": "aff8f660e742b5434ab2f3469d97f4205fcf063767a360f773288210e6b7f502",
-        "duotone": "41101bee825dcfcf78c4ee88f14054c025823a30f62ed0622de53996c9b559ea"
+        "regular": "631fda050e4e0868091968c0441901bcbe8dd235f9a4c64352c5c1c8c7ba8adb",
+        "filled": "4115e140ed53091baf18fac31f9734d0d0b29393a8b69bd5caa3bd68e754fb28",
+        "duocolor": "ecdf5e967dd792790b8c9f39939a82c05cbdcad8ac017cf377adbbb7ea2a3c7b",
+        "duotone": "2200609f57216aa3c413a679afd5b1b01790814b22fe34be96112862b6260775"
       },
       "duoAuthoring": {
         "version": 2,
@@ -19988,10 +19935,10 @@
         "duotone": "icons/duotone/credit-card-x.svg"
       },
       "sha256": {
-        "regular": "9f90bad2759983aa403ca1517492739d7d639fe46f3baeae0b91e126c45c1f57",
-        "filled": "23496fcb39052af25b4bae623d73eea7dd7e99f80cdb028d7aad403c8284eb19",
-        "duocolor": "da925dfd818deddb37cb95a017a92ac681779b25394f47dc657b0948ee100ac9",
-        "duotone": "201e304464dbc142e63ee796755f8dfcbba2b31e8a6e321f086e777e01e92b4f"
+        "regular": "e09691ffbbfce1a9954cb3f9ee4faf8eb1c2f679f568f5f65c0ac675869e48c6",
+        "filled": "7c7f7a4b6f3033c8c6fd55c0c3b568238362c31cb2625b27ace11430afdcb8bf",
+        "duocolor": "9a83ae6d6bad54353e870b5347caf3dd01788e0d5c7f28a2cca2e2c3a0b01e2e",
+        "duotone": "37bd5643083d88ef15c9b40394fab8ae8cf89c25102d041d42871222c9ae32f0"
       },
       "duoAuthoring": {
         "version": 2,
@@ -24382,6 +24329,59 @@
         },
         "duotone": {
           "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "earbuds",
+      "category": "Media & devices",
+      "tags": [
+        "earphones",
+        "in-ear",
+        "wireless",
+        "bluetooth",
+        "headphones",
+        "audio"
+      ],
+      "aliases": [],
+      "componentSet": "45:42219",
+      "source": {
+        "regular": "33:21533",
+        "filled": "33:40747",
+        "duocolor": "49:83316",
+        "duotone": "49:83324"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/earbuds.svg",
+        "filled": "icons/filled/earbuds.svg",
+        "duocolor": "icons/duocolor/earbuds.svg",
+        "duotone": "icons/duotone/earbuds.svg"
+      },
+      "sha256": {
+        "regular": "b2d01240696f44a35592461829567dd766b308e53b96ee2757bee9124414ef5a",
+        "filled": "8b47b292e6577645f0f96d7d8986219bdb4c2882574effcc6c514e64fd4771be",
+        "duocolor": "9bf51b8056336fe81aff8fdda610834e82421d85eaf5fdd905a7d019be9a0380",
+        "duotone": "e077430e7a7c2881698256e08d805dae20fd99a6e5cde582fc409c59e5ce5aa4"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -62805,10 +62805,10 @@
         "duotone": "icons/duotone/tv.svg"
       },
       "sha256": {
-        "regular": "20fa0af4f5ecc348ef6794f43baf72a767018fb7428ca3b55073493e811ae0f9",
-        "filled": "ee7a18d8e063c9a49f66cd2f8a7395da263835c3355b76d0618599908c8e2d10",
-        "duocolor": "cc41bca488dfc562a5c915e914aadb2c7e13c5cfc50800e4974e710fe57f7c15",
-        "duotone": "57d3b463f9baae75a9bf35bab801c7cd3e46484fd019affc294becf93c020493"
+        "regular": "e00fb167bc27eebed917f4338e40c2062cff773ac01f7c209e9764f713676433",
+        "filled": "57d1433800e7ea320afc4bb512de7cb18e37a52e66892e0098a032f58a155d66",
+        "duocolor": "a2d3df20333e30690fcbd730665d55dd0f877bb3c66ba91359a6f4805c2e1692",
+        "duotone": "67549d8f41ea0e5745ec60778547796bf3e0afdd156df59604c34b4509c82723"
       },
       "duoAuthoring": {
         "version": 2,
