@@ -258,6 +258,13 @@ python3 scripts/build_presets.py
 legacy search aliases, paths, SHA-256 digests, keylines, and Figma source IDs.
 Aliases are search terms, not additional files or guaranteed one-to-one names.
 
+Tags are hand-curated search keywords: synonyms, alternate and glyph names, and
+common uses that the name and category don't already cover. Edit them in
+`manifest.json`; the Figma export carries each icon's metadata through from the
+manifest, so re-exporting keeps them. `tests/test_search_tags.py` checks that
+every icon has 3–8 lowercase tags that don't repeat its name, category, or
+aliases.
+
 ```python
 import json
 

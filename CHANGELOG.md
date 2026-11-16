@@ -14,6 +14,11 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- Search tags for every icon: 3–8 lowercase synonyms, alternate names, glyph
+  names, and common uses each (for example `chevron-down`: caret, angle
+  bracket, expand, dropdown), 7,966 in all. Tags that only repeated the icon's
+  name, its category, or a broad group such as "lifestyle" were removed.
+  `tests/test_search_tags.py` keeps new tags to these rules.
 - Eighteen icons in all four styles, bringing the library to 1,252 icons and
   5,008 SVGs:
   - `dataflow-vertical`, `fuel-pump`, and `pause`.
