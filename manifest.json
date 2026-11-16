@@ -8006,10 +8006,10 @@
         "duotone": "icons/duotone/bell.svg"
       },
       "sha256": {
-        "regular": "765c6746d545f76edefda3d8b308bd712b25d635a788ef50335801ca7ce7ca0a",
-        "filled": "4976c92c873d9d4c015735da6781f9bde850806ca51f9662206ea0d4a556a741",
-        "duocolor": "5a555069a68cdb1dc5b64802a81814b859fe41ab5986c3c81ae6ff83551411e6",
-        "duotone": "0004a2dcbad601a81c52da7092007663a884bab0bc0cc34d9226443c055b6825"
+        "regular": "dc69cf2636f0c5016c6acc42fa7df7d8ede3623da16c32a46be76ae425a94468",
+        "filled": "37bf4094a55692b6aec9ced20c71c641b4309a69bdf0c135d7d625b5e43c0065",
+        "duocolor": "767fa15676f240fc902a5f5143d2d7eb92700b6463c9927a1025c0d27f5fdd89",
+        "duotone": "6009d0995e29b83e14ca324b2a552b123dae47a25f11d8724ee0c53c3cbf0d83"
       },
       "duoAuthoring": {
         "version": 2,
@@ -8059,10 +8059,10 @@
         "duotone": "icons/duotone/bell-minus.svg"
       },
       "sha256": {
-        "regular": "b2def7e91b54ddd54fadbec001ea5f8c2cb72b07dbbf6c8bef18961ce24903cd",
-        "filled": "e992d990316f27e5546509ce8d96278e82b17f54a041f4d8706ab0b7d33bc262",
-        "duocolor": "b658d2c79c91f26180bf6fc1fea1fed682d46a36768daef974c9f824edf3e1d2",
-        "duotone": "2d9adae3d6c0d5eb4c5d02dce40b7059bc9f47410ced5bd89e453fc73b382b02"
+        "regular": "543f9157ac379fbd35f759075338292185d1c0e7af05de3f271c049cd837acd5",
+        "filled": "c38447e0f3dfe6597548a878e763ed466fd497286db66151460780b294397934",
+        "duocolor": "b6f7a65739f2d63d2bd36e1888185cb38d64d60e8031aa4cf119b56389421910",
+        "duotone": "cd8eb8ca68ad3b3c3ccc78f20dcbee6fb7b661430989c5f4e93d3cab73dbb3ef"
       },
       "duoAuthoring": {
         "version": 2,
@@ -8113,10 +8113,10 @@
         "duotone": "icons/duotone/bell-off.svg"
       },
       "sha256": {
-        "regular": "d44036f50c16e1252839928bb0661da6a2ed52199612a3a9f13913b7fea679a6",
-        "filled": "ccc7f1bbad4ca73b021f75ffc908a2ae29939479282d7cc6b4bc1374eb9fe3e2",
-        "duocolor": "d768f11ed1742aa6ffcd17d5d20d92e5b3b370fb1e84e0bb6ed73aae600b7726",
-        "duotone": "803cb6a2eb10bb466ef9e067f086dd80aeae5fd670eaf1f8bbd8d5ea19c6b88d"
+        "regular": "7862f92f6bd347501b69f4832c83c1ec5c7da58c1c75375766aa2bb60bb8c0bb",
+        "filled": "1e9153fddfb2c9dd7be2c60197bff3ea83d37544431e00fefcc6ddf2dfb92611",
+        "duocolor": "3b1a0ea64b14d0e0e613757cfab5e7ea5f8750cf7b2644b9c89dface408a5742",
+        "duotone": "a6569a3bb2e5a9947494f7d881e868064a3252993f8cf041b2897949cbf678df"
       },
       "duoAuthoring": {
         "version": 2,
@@ -8166,10 +8166,10 @@
         "duotone": "icons/duotone/bell-plus.svg"
       },
       "sha256": {
-        "regular": "e72bb7224ec1eb6081962013bafa028daf739fb882e9292712dc74d24c4f85e5",
-        "filled": "a5536460b4f01466409bd5138ed94978c0d5cd7e8c13940cc227ad5bb7979a15",
-        "duocolor": "73b57e1293045674575cdac1d93708a74fbfd974fb7abb50bb39da2fd2e374bd",
-        "duotone": "368b78bcf70d6e22fc50c870d593d0f0d3b05391e4d3fc91b4e834214672c1c4"
+        "regular": "3f4052207baf7217e7241d136a64d4b922537b8cb5c26322da94e9c06f1619d1",
+        "filled": "a088f336f525d1b298f37ab591f628b7854840be0a41a4aa755f9d2cc2a4d7c0",
+        "duocolor": "f16ed4c9f4aafc9cfa7921828d20cb28e633d1b4eb3d0208a4a66f3154fb96b7",
+        "duotone": "02f99136a7fe4ee96fa811f5d202f1197ebe43d13512331a024fdfad0474b0cb"
       },
       "duoAuthoring": {
         "version": 2,
@@ -8220,10 +8220,10 @@
         "duotone": "icons/duotone/bell-ringing.svg"
       },
       "sha256": {
-        "regular": "589f8e0f64231720516ef5701f8bd8952c7624a18c5c21aa3ef77be6af7acc6a",
-        "filled": "e905ec9c8b0c541cbca992cebd542d4a4802e7b7d910cb590da1a54c07d3c888",
-        "duocolor": "cb0071d91e7ae3ad39db9fad812aa61112fd790f84c853bbce2cd2f4ad26540c",
-        "duotone": "7b0b4603fce949bf895cf7db92815f3ba4466a191c5b8cc4942f87a65d36d241"
+        "regular": "c9b72b0c4308a5c235a6a7251102256d6f2b15ab62477f13eaa8941f99663eb2",
+        "filled": "f5451a6174220314bdb19ca43958f3873055e7b89cbe9f64d04edc14f6f5463b",
+        "duocolor": "c88337b5feb6dd742ac2ed84b0c60a002edbab4c103cee94fbc472d98a7596d4",
+        "duotone": "e659e4f81ba8bccfc7629195b8dadf299a5a1e54b0716d51cf63c306b3a952a2"
       },
       "duoAuthoring": {
         "version": 2,
