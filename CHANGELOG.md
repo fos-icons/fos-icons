@@ -11,6 +11,8 @@ Changes are recorded under Unreleased until a release is tagged.
   `--fos-secondary`, `--fos-modifier`, and `--fos-glyph-color`, and definition
   IDs use the `fos-` prefix. The previous `--fedora-*` names are no longer read.
   Only names changed: geometry, paints, and fallback colors are identical.
+- Renamed `airpods` to `earbuds` to avoid a trademarked product name. The
+  `icons/*/airpods.svg` files are now `icons/*/earbuds.svg`.
 
 ### Added
 
