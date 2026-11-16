@@ -28,6 +28,12 @@ async function exportFosIcons(manifest) {
     sheet.name = "Export";
     sheet.fills = [];
     sheet.clipsContent = false;
+    // Resolve the stroke variable at the 24px baseline, whatever the file's default mode is.
+    const stroke = await figma.variables.getVariableByIdAsync("VariableID:54:75989");
+    const strokes = await figma.variables.getVariableCollectionByIdAsync(stroke.variableCollectionId);
+    const baseline = strokes.modes.find(mode => mode.name === "24 px");
+    if (!baseline) throw new Error("Missing the 24 px stroke mode");
+    sheet.setExplicitVariableModeForCollection(strokes, baseline.modeId);
     const columns = 20;
     const height = Math.ceil(manifest.icons.length * manifest.styles.length / columns) * 32;
     sheet.resize(columns * 32, height);
