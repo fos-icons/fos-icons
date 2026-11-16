@@ -22967,17 +22967,17 @@
         "duotone": "icons/duotone/feather.svg"
       },
       "sha256": {
-        "regular": "cccc4f3f04280d69ff2fe64b73d57487d79d055eceea7bf68cf5ddd496941969",
-        "filled": "2c6dc04bafe5501c21578d350e85f9f5a437ebbe55d853c661400de061a06387",
-        "duocolor": "b6914d8e4ec64ced9b2f48fd78fbf959b745a2ec85f52b7789a59836b35613ec",
-        "duotone": "f5e7658c892500cd7c994ace22a0c0a82b698141415b51a8ecdfb9f8bd06a89f"
+        "regular": "9fc0448911ff07241dea0a0f7998b5e96e779b3269825bfe5db8019bb8f0d9a5",
+        "filled": "7e44e3f58e70e01e57a517b753438b8a237e9df7f43dc67a0f15c209bd69f5eb",
+        "duocolor": "4f8e5959d7c123ffeb3432cb4e963dbf61b259149dfa23066360fd904ad0aa05",
+        "duotone": "573997bb51ae5fe0a64e820a152c9b460b33c6fc2274c68c76742c3415e9dbb4"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 4,
-          "accents": 3,
+          "contours": 2,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
