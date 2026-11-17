@@ -4,7 +4,7 @@
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
     "section": "49:47102",
-    "exportedOn": "2026-11-11"
+    "exportedOn": "2026-11-17"
   },
   "audit": {
     "presets": 37,
@@ -154,6 +154,12 @@
       "filled": "33:41315",
       "duocolor": "49:89048",
       "duotone": "49:89060"
+    },
+    "calendar": {
+      "regular": "31:5489",
+      "filled": "33:41781",
+      "duocolor": "49:92849",
+      "duotone": "49:92858"
     }
   },
   "presets": [
@@ -1540,6 +1546,216 @@
         "filled": "49:49262"
       },
       "componentSet": "45:42207"
+    },
+    {
+      "name": "calendar-add",
+      "base": "calendar",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39225",
+      "source": {
+        "regular": "31:5494",
+        "filled": "33:41785",
+        "duocolor": "49:92874",
+        "duotone": "49:92888"
+      }
+    },
+    {
+      "name": "calendar-remove",
+      "base": "calendar",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39276",
+      "source": {
+        "regular": "31:5533",
+        "filled": "33:41818",
+        "duocolor": "49:93088",
+        "duotone": "49:93102"
+      }
+    },
+    {
+      "name": "calendar-check",
+      "base": "calendar",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39243",
+      "source": {
+        "regular": "31:5508",
+        "filled": "33:41797",
+        "duocolor": "49:92951",
+        "duotone": "49:92963"
+      }
+    },
+    {
+      "name": "calendar-download",
+      "base": "calendar",
+      "modifier": "download",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39285",
+      "source": {
+        "regular": "31:5540",
+        "filled": "33:41824",
+        "duocolor": "49:93126",
+        "duotone": "49:93141"
+      }
+    },
+    {
+      "name": "calendar-upload",
+      "base": "calendar",
+      "modifier": "upload",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39363",
+      "source": {
+        "regular": "31:5602",
+        "filled": "33:41870",
+        "duocolor": "49:93465",
+        "duotone": "49:93480"
+      }
+    },
+    {
+      "name": "calendar-lock",
+      "base": "calendar",
+      "modifier": "lock",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39324",
+      "source": {
+        "regular": "31:5569",
+        "filled": "33:38639",
+        "duocolor": "49:93280",
+        "duotone": "49:93296"
+      }
+    },
+    {
+      "name": "calendar-alert",
+      "base": "calendar",
+      "modifier": "warning",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39372",
+      "source": {
+        "regular": "31:5609",
+        "filled": "33:41876",
+        "duocolor": "49:93504",
+        "duotone": "49:93517"
+      }
+    },
+    {
+      "name": "calendar-disabled",
+      "base": "calendar",
+      "modifier": "block",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39234",
+      "source": {
+        "regular": "31:5501",
+        "filled": "33:41791",
+        "duocolor": "49:92912",
+        "duotone": "49:92925"
+      }
+    },
+    {
+      "name": "calendar-sparkles",
+      "base": "calendar",
+      "modifier": "sparkle",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:44040",
+      "source": {
+        "regular": "34:96842",
+        "filled": "34:96843",
+        "duocolor": "49:94798",
+        "duotone": "49:94816"
+      }
+    },
+    {
+      "name": "calendar-reply",
+      "base": "calendar",
+      "modifier": "reply",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "127:67782",
+      "source": {
+        "regular": "127:67783",
+        "filled": "127:67787",
+        "duocolor": "127:67789",
+        "duotone": "127:67794"
+      }
+    },
+    {
+      "name": "calendar-note",
+      "base": "calendar",
+      "modifier": "note",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "127:67843",
+      "source": {
+        "regular": "127:67844",
+        "filled": "127:67848",
+        "duocolor": "127:67850",
+        "duotone": "127:67855"
+      }
+    },
+    {
+      "name": "calendar-record",
+      "base": "calendar",
+      "modifier": "record",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "127:67904",
+      "source": {
+        "regular": "127:67905",
+        "filled": "127:67909",
+        "duocolor": "127:67911",
+        "duotone": "127:67916"
+      }
+    },
+    {
+      "name": "calendar-link",
+      "base": "calendar",
+      "modifier": "link",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "127:67965",
+      "source": {
+        "regular": "127:67966",
+        "filled": "127:67970",
+        "duocolor": "127:67972",
+        "duotone": "127:67977"
+      }
+    },
+    {
+      "name": "calendar-person",
+      "base": "calendar",
+      "modifier": "user",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "127:68026",
+      "source": {
+        "regular": "127:68027",
+        "filled": "127:68031",
+        "duocolor": "127:68033",
+        "duotone": "127:68038"
+      }
+    },
+    {
+      "name": "calendar-phone",
+      "base": "calendar",
+      "modifier": "phone",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "127:68095",
+      "source": {
+        "regular": "127:68096",
+        "filled": "127:68100",
+        "duocolor": "127:68102",
+        "duotone": "127:68107"
+      }
     }
   ],
   "styleSafeFamilyAudit": {

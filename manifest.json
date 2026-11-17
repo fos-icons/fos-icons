@@ -10,12 +10,12 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1252,
+  "iconCount": 1268,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
     "exportedOn": "2026-11-11",
-    "componentPairs": 1258,
+    "componentPairs": 1274,
     "excludedBrands": [
       "chrome-cast",
       "figma",
@@ -11093,10 +11093,10 @@
         "duotone": "icons/duotone/calendar.svg"
       },
       "sha256": {
-        "regular": "2a2fab27514a8603166fafa74e887cff3a3b382e67bd764ccad8f9e342247643",
-        "filled": "4fc533ecff8519018d4085a6048eebaa12b1b50e6ee094ec2351735fcba53198",
-        "duocolor": "1e29232e4b6919044319b6ae5dddf9f702c568988cc8d4af40f7dacef856c5d0",
-        "duotone": "1064ad6ef313df8435eaac974269f62ddb951750c2e821ac5b5c3b3f5284c585"
+        "regular": "f14f226e3e3c3d07d054e42506d11c685621c43f91b9e4405ac280d1b5abf07a",
+        "filled": "1f3b4875e23a2afa1313f26206c6d3274430b6964a1658523d84eb26a3024443",
+        "duocolor": "81913a577861b0f5b826fc88d85db156e4759c9d99450133f30e7dd75c0402c1",
+        "duotone": "02565830b43113355eafbb1016f880e20f2eb77aa602bcb170748596223ada8b"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11108,6 +11108,58 @@
         },
         "duotone": {
           "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "calendar-3-day",
+      "category": "Time & weather",
+      "tags": [
+        "three day view",
+        "3 days",
+        "columns",
+        "multi-day",
+        "schedule"
+      ],
+      "aliases": [],
+      "componentSet": "127:68427",
+      "source": {
+        "regular": "127:68428",
+        "filled": "127:68432",
+        "duocolor": "127:68434",
+        "duotone": "127:68439"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-3-day.svg",
+        "filled": "icons/filled/calendar-3-day.svg",
+        "duocolor": "icons/duocolor/calendar-3-day.svg",
+        "duotone": "icons/duotone/calendar-3-day.svg"
+      },
+      "sha256": {
+        "regular": "40b4c1e058b1a1708903d5f3cc9977533e73b399ac3993941f1f659ffd8642a9",
+        "filled": "69dee99bde69fd96ad2ee435110759950b6f0b62d25b94a7e321fa9178470dbd",
+        "duocolor": "284e1af3d783c17c0799c3787d15b7e613d53e66cfb19387a84ec941e8ebe821",
+        "duotone": "df977a331eafecf268b9151392ce0638392696033db97ee696d46ca22ff2f1ac"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -11148,10 +11200,10 @@
         "duotone": "icons/duotone/calendar-add.svg"
       },
       "sha256": {
-        "regular": "ee8fcb9a120f859e4a001db5fdec4d63824b5419c1849519a48312451df80fbd",
-        "filled": "b10a256fd5a3d24d878826cd105e606587981e74be55a90d33ba1164a0fee79d",
-        "duocolor": "73a71333e0333bd719fb3abe7a7b6a7b43744255ae477ec8fccf4be517182862",
-        "duotone": "d453c4e5021245dd68e9a5fc5e35eef50597a99865b8e7e5d5a2832a3299f146"
+        "regular": "127240844794658b2b5814c465a3a4e3858835f74fa8eabf5e715f0f91fb4808",
+        "filled": "7fc1b651c0d3586f69b2003e816ac8d1d87a6007bc9c8675bf41316ede0ecdc5",
+        "duocolor": "3c04ba248558e5498771c14474591948e61d5a99b47f12dc8910052f52c33cac",
+        "duotone": "a9bc68c64f4024a2fce4edd62cf16d75053d53e014243a93b4c8e24228c22e32"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11163,6 +11215,64 @@
         },
         "duotone": {
           "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "add",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "calendar-agenda",
+      "category": "Time & weather",
+      "tags": [
+        "list view",
+        "events list",
+        "itinerary",
+        "schedule",
+        "planner"
+      ],
+      "aliases": [],
+      "componentSet": "127:68453",
+      "source": {
+        "regular": "127:68454",
+        "filled": "127:68458",
+        "duocolor": "127:68460",
+        "duotone": "127:68465"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-agenda.svg",
+        "filled": "icons/filled/calendar-agenda.svg",
+        "duocolor": "icons/duocolor/calendar-agenda.svg",
+        "duotone": "icons/duotone/calendar-agenda.svg"
+      },
+      "sha256": {
+        "regular": "1ddc246089975ee933e43495584c8f67fb7d852c5e88f08375ce078dbba89c0c",
+        "filled": "aa57d0e13b5b05e2d2829a0dfa2ab015febc5634c556a494e56d25676bc9a9c3",
+        "duocolor": "bff3e66d0be8c41b258a68c0779b96357a6d2fccced5cb0c9454bff89bf1ef5a",
+        "duotone": "27c9a22cf439b96bc4f1af03375d8c28f9403d4eb531ad0cd22e34b7538d79e6"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -11204,10 +11314,10 @@
         "duotone": "icons/duotone/calendar-alert.svg"
       },
       "sha256": {
-        "regular": "3f32637bd81475a9e29ee79c7214fc38af2e2692a6a66d6668f50f292132a8aa",
-        "filled": "a318044666ee6cf51b6be2f8bfed3b26ec2aff75cbc3d6942ad87fdd460f5da4",
-        "duocolor": "cf43a246bcf4d666c1fe69a00cb3d682623c1e2adac1a4e88be7fc9cb1fe1bcd",
-        "duotone": "21b2169ebe22813ab57410da21849ff1ad2ac55327a5598f85e50a05bb4cdbf5"
+        "regular": "74159cd6ba51d3cbbc8d3d1bc6deaf2c5984a779aab8ece13e5cfb6e9b8914df",
+        "filled": "3efb430bb3faf8d9b6b4f00e86eae834866d61a27359397716d5b792bf552aaf",
+        "duocolor": "cae7d6bb43460c4b51a9a5cef15f347230d1c4c3dd8375d8b1e76f9610545b3c",
+        "duotone": "dd03249dbb3fa5655ac5c7fcbbc92df9cd0aab61618c85da1b1e032834a9dc59"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11222,6 +11332,12 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "warning",
+        "position": "bottom-right",
+        "fit": null
       }
     },
     {
@@ -11260,10 +11376,10 @@
         "duotone": "icons/duotone/calendar-check.svg"
       },
       "sha256": {
-        "regular": "525261f8ad1419358efcdfb825025bafd6e1342a9ee2e1fa5db51eb8717e4086",
-        "filled": "2d3a8c3967749862dd5a49b32084ead9587a892107e399fdbf6af16fa6e6c480",
-        "duocolor": "26974b3d24c35ff14c16c4941a9a80241e2626c3ff3bb38ba16d2465057c7b86",
-        "duotone": "d01aec8b799e5f1bd0820babf69422d88ed1620b82a95a1210b5403d8ab0bbd3"
+        "regular": "2ead00eb9c0705ae58934cd4a2778e6a0bd0c7d02d42e8c947a8a59f5db09402",
+        "filled": "56baedd350a025ab191018190459e4f970672b39076b4f440764345dc07af536",
+        "duocolor": "49b22b380932e95ab6dd9244544d9f63260edc899e5af1dc2010d9f98f1ff77b",
+        "duotone": "5a8ae3a6ba34ad4d55a090496c9b071bba7d637af817c42da47230c2f0d98dba"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11278,6 +11394,12 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "check",
+        "position": "bottom-right",
+        "fit": null
       }
     },
     {
@@ -11315,10 +11437,10 @@
         "duotone": "icons/duotone/calendar-clock.svg"
       },
       "sha256": {
-        "regular": "ac36c46bedc51284935ae4119a17664caeae1d49236d43d0ebcac3f0c7c787ee",
-        "filled": "3a84ba197234047b319eba59718281e9f508ec30dc5ffcee310df7abaa525189",
-        "duocolor": "fd8f9989f3c1574c4cb9dd810dfc82b67cef0d17ae222b2d9c2f96d3759fd14d",
-        "duotone": "8848be0fa110ec9c2cee40188b378b741cdec9896dd8283fa0205da32c503827"
+        "regular": "2edde2b6bb9f3dce6f6281fa85c9cfc0a8a2282972a8f9dd26b751e05bebd3b9",
+        "filled": "067357884869f9a1bd0272b341ab55cb310f7fadff86a82485008759034f3a51",
+        "duocolor": "dea92405ccfe71aa1e8e106f4ba54f9b44ed9c7318d09021ddeb7a5783f7dcd9",
+        "duotone": "7e10245b29b7c2498dfb217287830011b4234ec5e7a0740ea29b68caeb5edcba"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11336,25 +11458,24 @@
       }
     },
     {
-      "name": "calendar-day",
+      "name": "calendar-copy",
       "category": "Time & weather",
       "tags": [
-        "today",
-        "single day",
-        "date",
-        "daily",
-        "agenda day",
-        "day view"
+        "duplicate event",
+        "copy event",
+        "clone",
+        "multiple calendars",
+        "stack"
       ],
       "aliases": [
-        "interface/calendar-day"
+        "calendar-multiple"
       ],
-      "componentSet": "45:39259",
+      "componentSet": "127:68397",
       "source": {
-        "regular": "31:5521",
-        "filled": "33:41808",
-        "duocolor": "49:93022",
-        "duotone": "49:93035"
+        "regular": "127:68398",
+        "filled": "127:68402",
+        "duocolor": "127:68404",
+        "duotone": "127:68409"
       },
       "keyline": {
         "key": "Squircle",
@@ -11364,27 +11485,27 @@
         "margin": 2
       },
       "files": {
-        "regular": "icons/regular/calendar-day.svg",
-        "filled": "icons/filled/calendar-day.svg",
-        "duocolor": "icons/duocolor/calendar-day.svg",
-        "duotone": "icons/duotone/calendar-day.svg"
+        "regular": "icons/regular/calendar-copy.svg",
+        "filled": "icons/filled/calendar-copy.svg",
+        "duocolor": "icons/duocolor/calendar-copy.svg",
+        "duotone": "icons/duotone/calendar-copy.svg"
       },
       "sha256": {
-        "regular": "340e7572be5ef1c33cf083ddb21e2b6a995050d0c5c398c2ce05572f20767059",
-        "filled": "8dbd659db9ef1ef0db45bb25cf258cb1ba83f2ac7f0c8753bac49013433efc7f",
-        "duocolor": "871f2c4daed9203183216d8a201e19590e92b300ceaae3b339a4a6429d08087d",
-        "duotone": "8d7f5c058e5e606fc5787c733cfdfa8802f21e96e4197896afbbdecb8d5aea49"
+        "regular": "e99051ad0e9a035ecbbc69278a3752565dfa13b4c3dd97ef56a36e64566f1585",
+        "filled": "36f7ba3a00e7ed769229948470b8ba014ecf298656e10a9ea9109706d17b252b",
+        "duocolor": "587c11953c64abf84abbdd72c58e6dc8e527e80ab7b9a398f99ef482e2a44673",
+        "duotone": "40123a1f31aff210059ca18bcc2ed639f513ba61f0a289d425431d552abeab96"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 6,
-          "accents": 5,
+          "contours": 1,
+          "accents": 3,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 1,
+          "regions": 0,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -11425,10 +11546,10 @@
         "duotone": "icons/duotone/calendar-disabled.svg"
       },
       "sha256": {
-        "regular": "52ae50db489deb2c86c41c91aa7a03a5057e6551fd8bf3dcd090deaff5a58a28",
-        "filled": "93b445693d0bd269afc6cee3f301b3522d7814bafe03ae1ce622fd1d1fc53905",
-        "duocolor": "21b76b93bcfdef80f0b3c531486aa5eed8cd17f13c5171fffe5eaa1c6f1e56dd",
-        "duotone": "b174910c136d85a3baf6f5ab434218ca84513f0aae56e4b1f3905164bda39197"
+        "regular": "a3bbb2abab3f6b537bd2e678c88d7c61400f4493da57066819c02b50b054c689",
+        "filled": "da68e9323aa168341590681deb42ac64d00ac0cddfd9db6907db1c0c29cbdf77",
+        "duocolor": "25761568ab7ac504b1f82dd9f776ab55e6715a6abf161109caf2b3ebfea48886",
+        "duotone": "b9b861eaca6d797cab6a654fd521831ac7292a11d491a6e23e0c7e4a547ddd49"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11443,6 +11564,12 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "block",
+        "position": "bottom-right",
+        "fit": null
       }
     },
     {
@@ -11481,10 +11608,10 @@
         "duotone": "icons/duotone/calendar-dots.svg"
       },
       "sha256": {
-        "regular": "fceba3363662408b7395a3b18a3b60e256bbdded44d519617f5ebc3243017304",
-        "filled": "7616f596dd1d0ae3962446ab2045f324f1f0e1076ffcd97e4237687fbf60fc44",
-        "duocolor": "ef4bdd345c5716fb3e01947cc45d4a151a3ce175ac87f945355e536aa989d993",
-        "duotone": "8fa2bc042a4f2718647fc7a400e81033f6fe38d98c3b14354ff88512970ac5e6"
+        "regular": "20fb24098f5f7f109cde7d8d2029185a0d6f727f0c9ed00ada43aabaff9950f3",
+        "filled": "2738c5c943d734bb66785cca13b4e0844a8436b46fc58c4a25bccc6c19739007",
+        "duocolor": "e77b12016002e21687ecca1baa818ceddf23a8dd18a3c0c35f57a9aa9649ad65",
+        "duotone": "fa793b131fb081c255d6775f7c507b61abec6497ba36ecdb09115d758b291982"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11496,6 +11623,59 @@
         },
         "duotone": {
           "regions": 6,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "calendar-dots-rtl",
+      "category": "Time & weather",
+      "tags": [
+        "right to left",
+        "rtl layout",
+        "arabic",
+        "hebrew",
+        "month grid",
+        "dates"
+      ],
+      "aliases": [],
+      "componentSet": "127:68328",
+      "source": {
+        "regular": "127:68329",
+        "filled": "127:68333",
+        "duocolor": "127:68335",
+        "duotone": "127:68340"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-dots-rtl.svg",
+        "filled": "icons/filled/calendar-dots-rtl.svg",
+        "duocolor": "icons/duocolor/calendar-dots-rtl.svg",
+        "duotone": "icons/duotone/calendar-dots-rtl.svg"
+      },
+      "sha256": {
+        "regular": "8fcf9ffa6c1a66e325ea9a1eb39209f8905bca366c7779a0c5d594e756c95dfb",
+        "filled": "a95407227637877cae17ee614e592f7b4fd699475f8fd7e8fdcbd7a42bdb0e11",
+        "duocolor": "b9c169280836134703059bbdde3655489acd280f729bdd1297d14f8af2547037",
+        "duotone": "9af8d2dca854c7f6a3b1221bfe53cc8fd67a9a659c84d0ae4bc62cbfb8c09396"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 13,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -11536,10 +11716,10 @@
         "duotone": "icons/duotone/calendar-download.svg"
       },
       "sha256": {
-        "regular": "720cb370437758574cc493a49bba32964a4660a3fa92f739673b0e9eb6175b45",
-        "filled": "34d4eac8870c975bb06a5569d48f0cea96f0a650b458ec7fdecfcbffe7d37ad7",
-        "duocolor": "81e432c1fcdd1ff72b80a2deaea398a7f3279c15b25cdeabfbca90152329fb26",
-        "duotone": "c920848e2f478f3395de9abfc7080ee6541230504c207db9af7eeae607124201"
+        "regular": "b4c7c1a5530e99b9b210657d326d1dfe75c1bcb7a357b726928bf21827e09d34",
+        "filled": "3ad66ed79887ff4cdd8a9c8e773bcd19fbe6a018fa8cad644ca106d9814ebce3",
+        "duocolor": "07fa57323fba9bb3a19c4a6e6119cac3959d85473a5b7c86dae39c2ae5bb166d",
+        "duotone": "9842736fd1c98d06c93d02c58b5e738e079936b4db591cca5f06ea0413224495"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11551,6 +11731,64 @@
         },
         "duotone": {
           "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "download",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "calendar-event",
+      "category": "Time & weather",
+      "tags": [
+        "timeline",
+        "appointment",
+        "meeting",
+        "time slot",
+        "now line"
+      ],
+      "aliases": [],
+      "componentSet": "127:68479",
+      "source": {
+        "regular": "127:68480",
+        "filled": "127:68484",
+        "duocolor": "127:68486",
+        "duotone": "127:68491"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-event.svg",
+        "filled": "icons/filled/calendar-event.svg",
+        "duocolor": "icons/duocolor/calendar-event.svg",
+        "duotone": "icons/duotone/calendar-event.svg"
+      },
+      "sha256": {
+        "regular": "3d02163f494373653063c3dfdd5f40f2f42b6542493afe6a03c1f72448503ec9",
+        "filled": "9d1714cada2fbc60ac99c6a93ae28c7991135f3fe4313d0d8ef909c7aac16efa",
+        "duocolor": "a7d8d5bcd344053c9ad4760dba40939a0f8bbfe981158d6c21e1a67e33ce7dc1",
+        "duotone": "2d91c8e3524f1dad6f957ba8ba06f53572239a98b09d2f1a2f514830a5ddbcbc"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -11589,10 +11827,10 @@
         "duotone": "icons/duotone/calendar-heart.svg"
       },
       "sha256": {
-        "regular": "76daa9a49a4c96aeadae7871ca3d586fbc5fccfecc3fa9ea7eaaaa75b018f772",
-        "filled": "a25fcc4c45e75cd5a2085bd5391d7ebece37150fa3bc6379ece6544101bc144d",
-        "duocolor": "771b5ea1d2d433919e9a45f83de0238445dd387799b8c737d166b2d74f10725d",
-        "duotone": "e7a699cfc34ec43d385053b6c139294b9e6378d1fd8f33a500685414156aa378"
+        "regular": "3d10336c647742b55fcebae30dbfbb09d4b7db55ec452be7fe1b47a451b7846f",
+        "filled": "b0794a67198e2ff6bb8cd5fc994f99514a5bb36c7ff8e1d355d484372ed90aa1",
+        "duocolor": "933ddd8d50f6872af1d6c67df63695b23e6cad8ca3489d33c3edb7d590f22517",
+        "duotone": "5ef7581f7178769c5e7394c0d2e1dbfcd425348c18e88e920aacdbfb16137b9c"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11644,10 +11882,10 @@
         "duotone": "icons/duotone/calendar-home.svg"
       },
       "sha256": {
-        "regular": "a92a2d1bc4f18eae2f7fabb29a64403da56303a037010e84a09f71d81d01c761",
-        "filled": "ba48590da0fcf77f7a0921bb824911b7e178932c2b47d28c98361f43a4fba15f",
-        "duocolor": "edf2d1cf495df32502e76ec6382f3d9122df7648c55feb540e5a74f8d6f32307",
-        "duotone": "434d42bd97b33013e94a51bb99f76c0995a0ecb868db99f49b2b364d77409976"
+        "regular": "5f3d6ba65ea7c71721d9e91e8675f87e5ed40401c715cc9a48af93bb5a355943",
+        "filled": "bd3cff2d803723163065edf7b81df9e9c648c64d89dae166eb86b8e14e8445a1",
+        "duocolor": "d85ff901d4b7d7f91f55c654d13b2656e4f17205f5fb360746927a81cabe6582",
+        "duotone": "2c6b5cd729179a42845b9df54bd446b3ee095c1c112727530b39bb43aebd2895"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11662,6 +11900,50 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "calendar-link",
+      "category": "Time & weather",
+      "tags": [
+        "share link",
+        "meeting link",
+        "url",
+        "invite link",
+        "hyperlink"
+      ],
+      "aliases": [],
+      "componentSet": "127:67965",
+      "source": {
+        "regular": "127:67966",
+        "filled": "127:67970",
+        "duocolor": "127:67972",
+        "duotone": "127:67977"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-link.svg",
+        "filled": "icons/filled/calendar-link.svg",
+        "duocolor": "icons/duocolor/calendar-link.svg",
+        "duotone": "icons/duotone/calendar-link.svg"
+      },
+      "sha256": {
+        "regular": "f689b1077e2ea940c3647db2cf57416917c1059c2fd31a1a122b7799b3243b09",
+        "filled": "22be50d24227f5399efec8c7ebfa9775e8edda17abe256ee3058d6c8ac913b24",
+        "duocolor": "77e4efd1f8aabeaafd534db9eb395810867da9c7e463c53218aa8531307b808e",
+        "duotone": "092fcf0c2eb112b80ec2fac398b6b2933912494f492ccdf56a456b47282ddfe3"
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "link",
+        "position": "bottom-right",
+        "fit": null
       }
     },
     {
@@ -11699,10 +11981,10 @@
         "duotone": "icons/duotone/calendar-lock.svg"
       },
       "sha256": {
-        "regular": "e14b42c00c2cdaac23e5b6b2cfc7870bdd5da49bff95ee983b7e41ae534bf3ce",
-        "filled": "9d7e1b19a027a13fe309db2fb66d8d9ea84457816d0af686fe6c3932fecd7fab",
-        "duocolor": "2a63c859cc34573ece5c4668b2ca6bd69cb376bd078df18f2f5e416f21d42184",
-        "duotone": "7c527f659c21c1da88230a11a884b18c4c0120e4968ff51d910a63d26e2c879b"
+        "regular": "b6d5395bdb1dcaac5d5c9aef8b4bba36e726ee976727ae8e575dc8709f7c2265",
+        "filled": "7004e111c540b87b210f4a3e0f79b0c11bb8ec071ff7dec8b058ec34ae301403",
+        "duocolor": "a8661897d889b27fd53b5c3b620ee1be12c7f161d4cb0066bbf50b82380c3ab8",
+        "duotone": "c8040496089e249f9f818205ecc3d6f9e0a1f71acd933dfcf87e93894620e1fd"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11717,6 +11999,12 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "lock",
+        "position": "bottom-right",
+        "fit": null
       }
     },
     {
@@ -11754,10 +12042,10 @@
         "duotone": "icons/duotone/calendar-minus.svg"
       },
       "sha256": {
-        "regular": "e9895371a9901a6c568b67dbd3f76fbc753e16dcf2068be3bb640c109073f99c",
-        "filled": "36c60ff4ad9ffb3b9e4057e4c4558ed15e4b65dce99dd90a59dd09dbc0502263",
-        "duocolor": "a6ccd1da295705a2cdc55e89053fdcf9af76a45852a3e7ab6f2b3001faa86311",
-        "duotone": "ba20645751003eeefacfeb16e69b1c820f38824e022f707027b0c10bae2b9bbc"
+        "regular": "39d6e1dd8dd10b1adeb2ff5465b6e4193e99c031a73fe42586c2815d556181e7",
+        "filled": "2031f0dd37b13a6df051a525f95ff8ffc97996d8d9abff0f071c612b7b4132ba",
+        "duocolor": "a5d3d77ece33b21e06caa695a27c0efe4c74d7c7bb241765a457f7f5eeddedc7",
+        "duotone": "88d1af17c68ec21a57aa69386452aa6702aedfeb214371757d39f1cc5ad4f245"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11775,17 +12063,282 @@
       }
     },
     {
-      "name": "calendar-month",
+      "name": "calendar-month-1",
+      "category": "Time & weather",
+      "tags": [
+        "today",
+        "single day",
+        "date",
+        "daily",
+        "agenda day",
+        "day view"
+      ],
+      "aliases": [
+        "calendar-day",
+        "interface/calendar-day"
+      ],
+      "componentSet": "45:39259",
+      "source": {
+        "regular": "31:5521",
+        "filled": "33:41808",
+        "duocolor": "49:93022",
+        "duotone": "49:93035"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-month-1.svg",
+        "filled": "icons/filled/calendar-month-1.svg",
+        "duocolor": "icons/duocolor/calendar-month-1.svg",
+        "duotone": "icons/duotone/calendar-month-1.svg"
+      },
+      "sha256": {
+        "regular": "7873088671e762e96e9d37098670a93cf426326cd57ef168d0691886545eadab",
+        "filled": "c8f84c6e668f1e36ce019fd2c769f55381cfd8d26a2a0acdde3e1833da2ef41f",
+        "duocolor": "2be963e1e210eefaa8888146d94d4e008cdce16c53e280a44fb33cc5aeb8e54a",
+        "duotone": "7c2ceaf0bf3cda6c935a319d02f193ccbacd4a248a9a5c1af6f8b35b71096642"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 5,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "calendar-month-25",
+      "category": "Time & weather",
+      "tags": [
+        "25th",
+        "christmas",
+        "payday",
+        "date",
+        "deadline"
+      ],
+      "aliases": [],
+      "componentSet": "127:68188",
+      "source": {
+        "regular": "127:68189",
+        "filled": "127:68193",
+        "duocolor": "127:68195",
+        "duotone": "127:68200"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-month-25.svg",
+        "filled": "icons/filled/calendar-month-25.svg",
+        "duocolor": "icons/duocolor/calendar-month-25.svg",
+        "duotone": "icons/duotone/calendar-month-25.svg"
+      },
+      "sha256": {
+        "regular": "ec8487976ec5d006b03eac96d6a0218cec4bbebcdaec7bbefff2d844e1539e02",
+        "filled": "418dd96c4d7c9cc5ab9f1317946bf08c44485df4424580b17d247490a7b8ef3b",
+        "duocolor": "f038832a59276248c01192970c5e2d2608f8cf867ffd0417e05162bfa2a248de",
+        "duotone": "4e288d253a3f70679b12efe0175b7a1eeb4d7258c64d75081f374b9bdd22b1dd"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 5,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "calendar-month-28",
+      "category": "Time & weather",
+      "tags": [
+        "28th",
+        "february",
+        "end of february",
+        "date",
+        "deadline"
+      ],
+      "aliases": [],
+      "componentSet": "127:68223",
+      "source": {
+        "regular": "127:68224",
+        "filled": "127:68228",
+        "duocolor": "127:68230",
+        "duotone": "127:68235"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-month-28.svg",
+        "filled": "icons/filled/calendar-month-28.svg",
+        "duocolor": "icons/duocolor/calendar-month-28.svg",
+        "duotone": "icons/duotone/calendar-month-28.svg"
+      },
+      "sha256": {
+        "regular": "7f572b0bbebbd468c8fc698331c984303a5585f8ff3e7a33cb1200ae16411c10",
+        "filled": "ab6eeb35ac6fc9a3c876032f216641b9a8d931fa705cfefee921bae5bca11669",
+        "duocolor": "21e92d98b01d89b079d54dd0bd2948bfc80218e4f01e62a36c8f11d6c7c8997d",
+        "duotone": "32f4c97015e3f0812684ceb301f703b0e9133abd4e5000520a93de38665488cb"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 5,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "calendar-month-29",
+      "category": "Time & weather",
+      "tags": [
+        "29th",
+        "leap day",
+        "leap year",
+        "february",
+        "date"
+      ],
+      "aliases": [],
+      "componentSet": "127:68258",
+      "source": {
+        "regular": "127:68259",
+        "filled": "127:68263",
+        "duocolor": "127:68265",
+        "duotone": "127:68270"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-month-29.svg",
+        "filled": "icons/filled/calendar-month-29.svg",
+        "duocolor": "icons/duocolor/calendar-month-29.svg",
+        "duotone": "icons/duotone/calendar-month-29.svg"
+      },
+      "sha256": {
+        "regular": "dccf7121bd4c33d250bc8c82a591963ed81022cf1ffa340e15d7bcaa1cf4627c",
+        "filled": "5d61a666783b09d43f63e76315ef01d84fd71312f4161677aca1eca19c344f57",
+        "duocolor": "6c1db0046a277b826c9c1f86f09868bbe67725ce509a0952da7f9e1effcef8dd",
+        "duotone": "225057e283afa573eb9ecfdf14e3e61a85d5f2f5fc22c2510acabd9fbd76fe64"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 5,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "calendar-month-30",
+      "category": "Time & weather",
+      "tags": [
+        "30th",
+        "end of the month",
+        "date",
+        "deadline",
+        "monthly"
+      ],
+      "aliases": [],
+      "componentSet": "127:68293",
+      "source": {
+        "regular": "127:68294",
+        "filled": "127:68298",
+        "duocolor": "127:68300",
+        "duotone": "127:68305"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-month-30.svg",
+        "filled": "icons/filled/calendar-month-30.svg",
+        "duocolor": "icons/duocolor/calendar-month-30.svg",
+        "duotone": "icons/duotone/calendar-month-30.svg"
+      },
+      "sha256": {
+        "regular": "b9fd4f002764a342ac16a2bea8186d0e06eea0e16d777b432eda165f6280503f",
+        "filled": "3cb5afa1b369ac787f4eec75fb46bbf2445968621ece729e245644422afda0b7",
+        "duocolor": "312ed40a1f28cc99a46c7ac860c606816fd7384b5352567d6934a82167b388a7",
+        "duotone": "0bfe350eba80a9461e118d27e6e785a3fc2067fd94445291e5e9b34b2904a496"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 5,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "calendar-month-31",
       "category": "Time & weather",
       "tags": [
         "monthly",
         "month view",
-        "31",
         "date",
         "agenda",
-        "planner"
+        "planner",
+        "month end"
       ],
       "aliases": [
+        "calendar-month",
         "interface/calendar-month"
       ],
       "componentSet": "45:39251",
@@ -11803,16 +12356,16 @@
         "margin": 2
       },
       "files": {
-        "regular": "icons/regular/calendar-month.svg",
-        "filled": "icons/filled/calendar-month.svg",
-        "duocolor": "icons/duocolor/calendar-month.svg",
-        "duotone": "icons/duotone/calendar-month.svg"
+        "regular": "icons/regular/calendar-month-31.svg",
+        "filled": "icons/filled/calendar-month-31.svg",
+        "duocolor": "icons/duocolor/calendar-month-31.svg",
+        "duotone": "icons/duotone/calendar-month-31.svg"
       },
       "sha256": {
-        "regular": "e463eb968cf37aec7654482c9d1bafe627fbf8ce9374a917056d139e59966fcb",
-        "filled": "24b05f9187ae80170e12e9466a07841f951a28809ddf7323a6e2f2a1565bfa0e",
-        "duocolor": "1e5ee3a5cc0457af8762058c8453d2881cdc558dff173d1c949d2020b3923ee7",
-        "duotone": "008500c2a50cd69b29cc53206992720530cb6c566de5a2340d79e4b4b5e21d76"
+        "regular": "ba88109cf07eeddb37decd2a576258afe5890dbf41296fcfeb4dec47ea7519c2",
+        "filled": "b070fdfb31d124215abc4d9dce1918d8e3fcf1983a5f5cf90fea58adea8dba4a",
+        "duocolor": "8e9a88cccf3fdb3d2a2108c58209f9d6eb55de221f062ed7a90402997a2ec99f",
+        "duotone": "2ea06257a7074edc2049331346ae6e8145918965656c2c2db651777d26a086bb"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11827,6 +12380,290 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "calendar-month-5",
+      "category": "Time & weather",
+      "tags": [
+        "fifth",
+        "day 5",
+        "date",
+        "schedule",
+        "planner"
+      ],
+      "aliases": [],
+      "componentSet": "127:68156",
+      "source": {
+        "regular": "127:68157",
+        "filled": "127:68161",
+        "duocolor": "127:68163",
+        "duotone": "127:68168"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-month-5.svg",
+        "filled": "icons/filled/calendar-month-5.svg",
+        "duocolor": "icons/duocolor/calendar-month-5.svg",
+        "duotone": "icons/duotone/calendar-month-5.svg"
+      },
+      "sha256": {
+        "regular": "facf1d0bc5624ad6ccda212942568540585ab40cf5a50b4ff167fbb041ea8308",
+        "filled": "96bc3cc2f6c05e72a02273b6b0ce6d46542489c1ab808550a50db4f0a1a54f5a",
+        "duocolor": "af4162a4f07d35f95cb4f0f4f79bf018e678661a851e7fbcb907aa3504757c4c",
+        "duotone": "74ad3a0b7405c5c913765da7c0cb6ac875e789f7a06827872ec0eebd18cee6bd"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "calendar-month-7",
+      "category": "Time & weather",
+      "tags": [
+        "weekly",
+        "week view",
+        "schedule",
+        "planner",
+        "agenda"
+      ],
+      "aliases": [
+        "calendar-week",
+        "interface/calendar-week"
+      ],
+      "componentSet": "45:39267",
+      "source": {
+        "regular": "31:5527",
+        "filled": "33:41813",
+        "duocolor": "49:93056",
+        "duotone": "49:93067"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-month-7.svg",
+        "filled": "icons/filled/calendar-month-7.svg",
+        "duocolor": "icons/duocolor/calendar-month-7.svg",
+        "duotone": "icons/duotone/calendar-month-7.svg"
+      },
+      "sha256": {
+        "regular": "bd4e4ee7b5c63ce42aa008d20496aa076801d1ffd623fdb019d3e35fd96a635c",
+        "filled": "4ee78e7a46078b42435e68098a2e72fa9fd4dc5769086d309af284d90eba6ea6",
+        "duocolor": "52fffce8cd61dbfeef2a20609abdb417de9c455467214bbfd7139a4d49e8c621",
+        "duotone": "9945c85dadc587b2797b3cf7e1a75319eb4fd2ea0edb312f0c6ba4d1b06a8814"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "calendar-note",
+      "category": "Time & weather",
+      "tags": [
+        "memo",
+        "event notes",
+        "sticky note",
+        "annotation",
+        "meeting notes"
+      ],
+      "aliases": [],
+      "componentSet": "127:67843",
+      "source": {
+        "regular": "127:67844",
+        "filled": "127:67848",
+        "duocolor": "127:67850",
+        "duotone": "127:67855"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-note.svg",
+        "filled": "icons/filled/calendar-note.svg",
+        "duocolor": "icons/duocolor/calendar-note.svg",
+        "duotone": "icons/duotone/calendar-note.svg"
+      },
+      "sha256": {
+        "regular": "a30e937b931d920337be1b67435414396815f99159e8da8ac523bdf5806eea90",
+        "filled": "7238a4074d3cf30ef46cd53663b69fcda55a18b7973aed459cfa185f81a79b0a",
+        "duocolor": "536bd0113a4a531bd92958a14437459e33afc18b24667fd174761a1203378153",
+        "duotone": "9277e96323ed96df45375ed49e15e3bdb97fa39098256362e5e35c73b6096326"
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "note",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "calendar-person",
+      "category": "Time & weather",
+      "tags": [
+        "attendee",
+        "organizer",
+        "participant",
+        "invitee",
+        "guest",
+        "user"
+      ],
+      "aliases": [],
+      "componentSet": "127:68026",
+      "source": {
+        "regular": "127:68027",
+        "filled": "127:68031",
+        "duocolor": "127:68033",
+        "duotone": "127:68038"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-person.svg",
+        "filled": "icons/filled/calendar-person.svg",
+        "duocolor": "icons/duocolor/calendar-person.svg",
+        "duotone": "icons/duotone/calendar-person.svg"
+      },
+      "sha256": {
+        "regular": "e287f74f2784cde0d9d9d65318156f0ebf4bf53699942f4c47c3407f704b2263",
+        "filled": "203616b753ee84500f7fc171cfb17a3d45618c2d835b150776286f250f769932",
+        "duocolor": "f329e83aa6577b80190741f4c5cc8462c7616e4e14bd276aa6d0cc3aacf5c3c9",
+        "duotone": "f575d61aa92034cb401135bd17630117ca78975cc59660097d90ebed1aedaa35"
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "user",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "calendar-phone",
+      "category": "Time & weather",
+      "tags": [
+        "phone call",
+        "mobile",
+        "call",
+        "dial-in",
+        "smartphone"
+      ],
+      "aliases": [],
+      "componentSet": "127:68095",
+      "source": {
+        "regular": "127:68096",
+        "filled": "127:68100",
+        "duocolor": "127:68102",
+        "duotone": "127:68107"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-phone.svg",
+        "filled": "icons/filled/calendar-phone.svg",
+        "duocolor": "icons/duocolor/calendar-phone.svg",
+        "duotone": "icons/duotone/calendar-phone.svg"
+      },
+      "sha256": {
+        "regular": "689e2d15e933720a6f09939e7ead9cbf28520f2b5a7018e5524fbbd71b04bc06",
+        "filled": "753f2088511c26721389523b634f6295df5e7e2965ce4a8f58971d80232acdb8",
+        "duocolor": "3cabaa59311477fe0d770e1eeb84bd5148ddfde4e6636d507b121b1c0ad9037f",
+        "duotone": "a393a2c01a71fb78a90a6f41a3b5c4c2728ac8a97bcf55d14156cc5cfded15d9"
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "phone",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "calendar-record",
+      "category": "Time & weather",
+      "tags": [
+        "recording",
+        "record meeting",
+        "capture",
+        "live",
+        "rec"
+      ],
+      "aliases": [],
+      "componentSet": "127:67904",
+      "source": {
+        "regular": "127:67905",
+        "filled": "127:67909",
+        "duocolor": "127:67911",
+        "duotone": "127:67916"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-record.svg",
+        "filled": "icons/filled/calendar-record.svg",
+        "duocolor": "icons/duocolor/calendar-record.svg",
+        "duotone": "icons/duotone/calendar-record.svg"
+      },
+      "sha256": {
+        "regular": "60bd7e0de166f877d1743a67295d4a0c7c34f6e334398bfb30ee033637237775",
+        "filled": "0b9977a3ee2af7f6254dce2b87e50ed99034ab8b2dc4a5c1fe3f261f81f29d3f",
+        "duocolor": "56311f336adaab684c83d8d0121339f4ca4e290888bedaf20dfda86cb6fbb5dc",
+        "duotone": "b909f43d2f0cdc6dad9d15742293a58de741e1710b552140705fb27d4be5224f"
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "record",
+        "position": "bottom-right",
+        "fit": null
       }
     },
     {
@@ -11864,10 +12701,10 @@
         "duotone": "icons/duotone/calendar-remove.svg"
       },
       "sha256": {
-        "regular": "bf8c5ed3c41d2069974db856a6cb22d9431ac165333f67c4ed1f32f63e894cc1",
-        "filled": "ec6597deb2ae2bffbabdf65c5c190b5690d80ca12637dadce07a8cb7e8e9d46e",
-        "duocolor": "088bd6ab941e0caded83f3e3a18c19be39b140b42cf5a7130b83df8fef31cabc",
-        "duotone": "6a6f5788e15f0e31dd85ca2b152cd0a419e21fb7bfbd0c79e73f61eaf7f57733"
+        "regular": "f6d4a333e2687cdb52dcea04ea87b49c21137c55884c1f45d22a94df82cc3279",
+        "filled": "5d87a649c8e4fc43fa685485cd71b7cc4d4c8908de6789d756d950b72af98619",
+        "duocolor": "ecdb4bf286b271250fb8047b84b6c5e8fea78a97d0fb6b95f06f0640736b24c2",
+        "duotone": "3c6022302e575d79f6c5f3c8ca58e8dcef742106c4c54535de88aa5f63449074"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11882,6 +12719,56 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "remove",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "calendar-reply",
+      "category": "Time & weather",
+      "tags": [
+        "respond",
+        "rsvp",
+        "answer invite",
+        "meeting reply",
+        "invitation"
+      ],
+      "aliases": [],
+      "componentSet": "127:67782",
+      "source": {
+        "regular": "127:67783",
+        "filled": "127:67787",
+        "duocolor": "127:67789",
+        "duotone": "127:67794"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-reply.svg",
+        "filled": "icons/filled/calendar-reply.svg",
+        "duocolor": "icons/duocolor/calendar-reply.svg",
+        "duotone": "icons/duotone/calendar-reply.svg"
+      },
+      "sha256": {
+        "regular": "29e7f3455b405bbd1b5543f55068334e027dc6b59ed41e4a8444aab0e6dba25a",
+        "filled": "d42198de6ad77daaf1c938ba81d2329384ea30af2645b6b5bacff0cf1b4cdd69",
+        "duocolor": "087445376c40ea51b3a536f5d84e28c9a93445368af27cec0c22b1c39f61bd6b",
+        "duotone": "108d62f730d24bbc1da28b49863bb17c4d85ddbcb21ab521ff1e10d7df4241b8"
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "reply",
+        "position": "bottom-right",
+        "fit": null
       }
     },
     {
@@ -11919,10 +12806,10 @@
         "duotone": "icons/duotone/calendar-settings.svg"
       },
       "sha256": {
-        "regular": "49d85efb832cf7b01377ebeba3e45eb6e5e875c278ca4805f3660943e3857d98",
-        "filled": "419ed82ac133b8ec6babdff481fc3f6335459990dda004096a4244c5ec52b725",
-        "duocolor": "e3e1ca6f8e73e6920a5c872a4524053ad1da540659b940610415077607b7e07b",
-        "duotone": "afd9ff6a46cc121bcfc932b7a06b5ad0846657a0001fe2597b47d81993498e5b"
+        "regular": "0e46e6b33659ef49726ebd38b4ef3d04911816c7b5073852355f25e633d4d2cf",
+        "filled": "2438b82d7ef378c0288756915ebfacc8d80737eb554b269936ec8f8fdfea088f",
+        "duocolor": "f3812663c2e8c2188b61674955fbbcaa8e316801dfc1acfe7ef8aae25ec099aa",
+        "duotone": "0e042668919af7bde7d2fba5bf8fe68493e870c379c4e193033516bfe67eec2b"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11972,10 +12859,10 @@
         "duotone": "icons/duotone/calendar-sparkles.svg"
       },
       "sha256": {
-        "regular": "49b3cf058ff1b5a691f81eba49314e70bad39386f5c293af4eac23e9a9f10589",
-        "filled": "513189b1730ea98d7316725639bfd730216d3492485fd23688255ac54c635943",
-        "duocolor": "4a6690cb3ff70bbae17b00be28ab2df4ce80fcbd7270985d475bc63ca461aa70",
-        "duotone": "755720f88baf9d38a1a4e82af0777f75883df2e909c3e6e0dffa2327d42444c0"
+        "regular": "3fccecec49da802fc78b64438ee9cedd4a7c6bb600d9380bdeee3d6aa953c8d5",
+        "filled": "ba90f0809ad9ddbb962a4fb7e1797083cb5b8b26a859064a0488a9ee67985200",
+        "duocolor": "170f89c5a2dcd44465d6f376d1d7607d4d6fe17512617ddf7b3b8ae899efa2b3",
+        "duotone": "4e26b701166b6e8c6a6544dafcdad112f96e4c1270bc7f2b45a8d7e1bac26879"
       },
       "duoAuthoring": {
         "version": 2,
@@ -11990,6 +12877,12 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      },
+      "composition": {
+        "base": "calendar",
+        "modifier": "sparkle",
+        "position": "bottom-right",
+        "fit": null
       }
     },
     {
@@ -12027,10 +12920,10 @@
         "duotone": "icons/duotone/calendar-star.svg"
       },
       "sha256": {
-        "regular": "40bf532aa819917305d532523a3fc193701b4e339793807a56aadf99f2aa5b05",
-        "filled": "243819ac0bf8a25c984ffe9791abacc66f6cad9311dcef0e29dcfcafaba11f88",
-        "duocolor": "4e0704baa2c435edd9cf2c141f5229521ca139ad872bb5211a4885e63b7bb05d",
-        "duotone": "e6299299235a397cad2c7f615646970dfe675d03ba0de469f3779a8f2ae5b824"
+        "regular": "140d34166fcfaa8595c50c2b9be07cbf15aad8cde78715df301a2d3cf8b4ab33",
+        "filled": "04827e9339bb6720ea49e4011aaa18416e9f08f23293ab8fac852a22e15f4449",
+        "duocolor": "f46570a2ce6d81eac8e8fe09da0b97f154aaf643bacfee156c2037cf6cc42e10",
+        "duotone": "a87bd725c38b6085418943cfe39913696433847952e8f9469e4cb089782481c3"
       },
       "duoAuthoring": {
         "version": 2,
@@ -12081,10 +12974,10 @@
         "duotone": "icons/duotone/calendar-upload.svg"
       },
       "sha256": {
-        "regular": "217d27d9e0fd0609ae0358ecd9c3c8cce6e417fcc862182cc1e317452eec9e61",
-        "filled": "9c3162120e4bca351e7a538e493e7a3b48542ca70f8bd69bcab48890ceeba383",
-        "duocolor": "edbfb88a4b5bb324c2e9da1d1f18de7d3a469c226aaa3c1f704f92a81b1aefb4",
-        "duotone": "139c12ba6ad63683b30cd03caf20241392dec587b638aba2bc42e13918a2111b"
+        "regular": "dddbc7d007778ef34a093d60954c587dc1ed6227882235a66a39a2c91b75cdbc",
+        "filled": "9e0707557f5ab5a508c2c7f8224d5eaeaa68a2204db818a1163216aca836d996",
+        "duocolor": "6ddafbc2417dddce7aef96dd17b65e325a2eaaab046176e94323e1d5c152cdd0",
+        "duotone": "796abe35e56782b7bc033f01058b3d5cba51b5490dec9eda608bbd76a17719fe"
       },
       "duoAuthoring": {
         "version": 2,
@@ -12099,61 +12992,12 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
-      }
-    },
-    {
-      "name": "calendar-week",
-      "category": "Time & weather",
-      "tags": [
-        "weekly",
-        "week view",
-        "7",
-        "schedule",
-        "planner",
-        "agenda"
-      ],
-      "aliases": [
-        "interface/calendar-week"
-      ],
-      "componentSet": "45:39267",
-      "source": {
-        "regular": "31:5527",
-        "filled": "33:41813",
-        "duocolor": "49:93056",
-        "duotone": "49:93067"
       },
-      "keyline": {
-        "key": "Squircle",
-        "width": 20,
-        "height": 20,
-        "stroke": 1.25,
-        "margin": 2
-      },
-      "files": {
-        "regular": "icons/regular/calendar-week.svg",
-        "filled": "icons/filled/calendar-week.svg",
-        "duocolor": "icons/duocolor/calendar-week.svg",
-        "duotone": "icons/duotone/calendar-week.svg"
-      },
-      "sha256": {
-        "regular": "48c8daf0b6dbe0ac4b25b012fbd09c663be870e76f881d2bddb6f7d6c2527211",
-        "filled": "d198ea0629f46cb3c295223aadf9c178d670a68de51d63557f7333af0e4308d5",
-        "duocolor": "76d633f983a881fc452f93615b1fc1b00b2d68c828db1d238412925afef812db",
-        "duotone": "83ad71fb25456f7db33048d0e8e63e4625d20263a202197245d2c9709ffe66d2"
-      },
-      "duoAuthoring": {
-        "version": 2,
-        "approvedPrototype": false,
-        "duocolor": {
-          "contours": 5,
-          "accents": 4,
-          "policy": "dominant-contours-and-details"
-        },
-        "duotone": {
-          "regions": 1,
-          "opacity": 0.16,
-          "policy": "explicit-closed-contours"
-        }
+      "composition": {
+        "base": "calendar",
+        "modifier": "upload",
+        "position": "bottom-right",
+        "fit": null
       }
     },
     {
