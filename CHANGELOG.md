@@ -13,9 +13,23 @@ Changes are recorded under Unreleased until a release is tagged.
   Only names changed: geometry, paints, and fallback colors are identical.
 - Renamed `airpods` to `earbuds` to avoid a trademarked product name. The
   `icons/*/airpods.svg` files are now `icons/*/earbuds.svg`.
+- Renamed the numbered calendars to one `calendar-month-<n>` family:
+  `calendar-day` is now `calendar-month-1`, `calendar-week` is now
+  `calendar-month-7`, and `calendar-month` is now `calendar-month-31`. The old
+  names stay in each icon's `aliases`; the old SVG files are removed.
 
 ### Added
 
+- Sixteen calendar icons in all four styles, bringing the library to 1,268
+  icons and 5,072 SVGs:
+  - `calendar-month-5`, `-25`, `-28`, `-29`, and `-30`, sharing one fixed-size
+    digit set with `calendar-month-1`, `-7`, and `-31`.
+  - `calendar-3-day`, `calendar-agenda`, `calendar-copy` (alias
+    `calendar-multiple`), `calendar-dots-rtl`, and `calendar-event`.
+  - `calendar-reply`, `calendar-note`, `calendar-record`, `calendar-link`,
+    `calendar-person`, and `calendar-phone` as calendar + modifier presets.
+- Five modifiers: `reply`, `note`, `record`, `link`, and `phone`, in all four
+  corners, in both the colour and monochrome Figma wrappers.
 - Search tags for every icon: 3–8 lowercase synonyms, alternate names, glyph
   names, and common uses each (for example `chevron-down`: caret, angle
   bracket, expand, dropdown), 7,966 in all. Tags that only repeated the icon's
@@ -36,6 +50,18 @@ Changes are recorded under Unreleased until a release is tagged.
   SHA-256 digests. They sit outside `icons/` and the MIT core; see `BRANDS.md`.
 
 ### Changed
+
+- Redrew the calendar family across all four styles: a straight-sided rounded
+  body in place of the egg-shaped squircle, shorter round-capped hooks, and
+  rounded-square dots in `calendar-dots`. Icons with a symbol inside (star,
+  home, heart, clock, settings, minus) drop the divider and centre a larger
+  symbol; their Filled cut-outs are traced from Regular. `calendar-settings`
+  has a new six-tooth cog.
+- `calendar-add`, `-remove`, `-check`, `-download`, `-upload`, `-lock`,
+  `-alert`, `-disabled`, and `-sparkles` are now calendar + modifier presets
+  with a bottom-right badge, bringing the catalog to 107 named presets.
+- `mail-sparkles` and `message-sparkles` use the monochrome sparkle in Regular
+  and Filled in Figma, matching their SVGs.
 
 - Redrew `thermometer`, `thermometer-cold`, `thermometer-warm`, and
   `tool-crossed` across all four styles.

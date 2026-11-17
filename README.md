@@ -1,6 +1,6 @@
 # Fos Icons
 
-1,252 icons in Regular, Filled, Duocolor, and Duotone styles: **5,008 SVGs**,
+1,268 icons in Regular, Filled, Duocolor, and Duotone styles: **5,072 SVGs**,
 drawn on a 24 x 24 grid. Line styles default to 1.25px strokes. Negative space and
 modifier clearances are transparent.
 
@@ -87,8 +87,9 @@ Modifiers compose a base icon with a reusable glyph rather than requiring a
 separate drawing for every combination. The chooser will group actions
 (Add, Delete, Remove, Block, Edit, and four directional arrows), statuses
 (Warning, Check), access/identity (Key, Lock, User, Clip), and file-type labels.
-All twenty-five are reusable Figma components and SVG assets, including
-Sparkle, Download, Upload, Refresh, Search, and Shield.
+All of them are reusable Figma components and SVG assets, including
+Sparkle, Download, Upload, Refresh, Search, Shield, and the scheduling badges
+Reply, Note, Record, Link, and Phone.
 Glyphs remain solid independently of the base style. The six new glyphs,
 Key, Lock, User, and Clip have no colored backplate.
 
@@ -195,7 +196,7 @@ python3 scripts/compose_svg.py home-smile --modifier key --position bottom-right
 Available modifiers: `add`, `delete`, `warning`, `check`, `key`, `lock`, `user`,
 `clip`, `pdf`, `svg`, `eps`, `psd`, `remove`, `block`, `edit`, `arrow-up`,
 `arrow-down`, `arrow-left`, `arrow-right`, `sparkle`, `download`, `upload`,
-`refresh`, `search`, and `shield`. `auto` uses the approved Add/Delete and
+`refresh`, `search`, `shield`, `reply`, `note`, `record`, `link`, and `phone`. `auto` uses the approved Add/Delete and
 file-type defaults. Other modifiers require an explicit `--position`:
 `top-left`, `top-right`, `bottom-left`, or `bottom-right`.
 
@@ -228,8 +229,9 @@ and `message-sparkles`. Their names, paths, and canonical component IDs are unch
 `user-circle`, `user-square`, `user-focus`, `user-identity`, and `user-badge`
 retain their structural artwork.
 
-The catalog now contains **92 named presets**, including the paper/file families,
-`palette-sparkles`, and `scissors-sparkles`. Native family-specific wrappers keep
+The catalog now contains **107 named presets**, including the paper/file families,
+`palette-sparkles`, `scissors-sparkles`, and the calendar actions (`calendar-add`,
+`calendar-reply`, `calendar-phone`, and others, each with a bottom-right badge). Native family-specific wrappers keep
 the selected corner while switching host styles, without pinning the old base
 style. The palette and scissors families pass 128 override-then-style checks.
 
@@ -281,8 +283,8 @@ print(matches)
 
 ## Figma source
 
-The Fos Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`) contains 1,258 native
-icon component sets. The 1,252 core sets on the Components page have
+The Fos Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`) contains 1,274 native
+icon component sets. The 1,268 core sets on the Components page have
 `Style=Regular/Filled/Duocolor/Duotone` and `Size=24`, with original
 Regular/Filled component IDs preserved. The separate Brands page contains the
 Fos Icons mark and five existing third-party sets, with Regular/Filled only
@@ -349,7 +351,7 @@ python3 -m unittest discover -s tests
 ```
 
 The modifier importer preserves the core; the preset builder updates only the
-92 declared named compositions. `exportFosPresets()` in the same JavaScript
+107 declared named compositions. `exportFosPresets()` in the same JavaScript
 file exports the live preset definitions after checking their nested sources.
 Import an updated preset snapshot with
 `python3 scripts/build_presets.py --snapshot /path/to/preset-export.json`.
