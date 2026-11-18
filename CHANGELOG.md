@@ -57,6 +57,9 @@ Changes are recorded under Unreleased until a release is tagged.
   home, heart, clock, settings, minus) drop the divider and centre a larger
   symbol; their Filled cut-outs are traced from Regular. `calendar-settings`
   has a new six-tooth cog.
+- Fitted the calendar family to the 24px keyline grid: Filled calendar bodies
+  end at 21.94 instead of 22, and `calendar-3-day` and `calendar-agenda` sit on
+  the 17.9px square keyline.
 - `calendar-add`, `-remove`, `-check`, `-download`, `-upload`, `-lock`,
   `-alert`, `-disabled`, and `-sparkles` are now calendar + modifier presets
   with a bottom-right badge, bringing the catalog to 107 named presets.
