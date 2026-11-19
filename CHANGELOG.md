@@ -6,6 +6,10 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Breaking
 
+- Split the **Time & weather** category into **Time & calendar** (62 icons:
+  clocks, alarms, calendars, hourglasses, stopwatch, timer, watches) and
+  **Weather** (51 icons: sky, clouds, precipitation, wind, temperature). Code
+  that filters `manifest.json` by the old category name needs updating.
 - Renamed the project from Fedora Icons to **Fos Icons** (`fos-icons`,
   fosicons.com). The SVG color variables are now `--fos-primary`,
   `--fos-secondary`, `--fos-modifier`, and `--fos-glyph-color`, and definition
@@ -19,6 +23,16 @@ Changes are recorded under Unreleased until a release is tagged.
   names stay in each icon's `aliases`; the old SVG files are removed.
 
 ### Added
+
+- Ten icons in all four styles, bringing the library to 1,278 icons and 5,112
+  SVGs:
+  - `hourglass-start`, `hourglass-half`, `hourglass-end`, `hourglass-horizontal`,
+    and `hourglass-horizontal-sand`: sand states with rounded sand inset from the glass.
+  - `temperature-celsius`, `temperature-fahrenheit`, and their `-square`
+    versions, sharing one °C/°F glyph; the badges use the library `squircle`.
+  - `tornado`: a storm seen from the ground, with curved bands.
+- `clock-check` and `clock-plus` are now named presets (`clock` + Check / Add,
+  bottom-left so both hands stay whole), bringing the catalog to 109 presets.
 
 - Sixteen calendar icons in all four styles, bringing the library to 1,268
   icons and 5,072 SVGs:
@@ -51,6 +65,21 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Changed
 
+- Redrew the weather family on one shared cloud fitted to the landscape keyline,
+  with an inner mark. Every `cloud-*` icon uses the same cloud and opens its
+  stroke around the sun, moon, rain, snow, hail, lightning, fog, wind, rainbow,
+  or slash with a 1.25px clearance; Filled cuts the elements out of a solid
+  cloud. The sun's rays now clear the disc, and the lightning bolt is
+  point-symmetric.
+- Redrew `wind`, `snowflake`, `umbrella`, the `thermometer` family (mercury
+  level now reads empty, half, and high), and `hourglass` (round bulbs with pill
+  caps).
+- Redrew the alarm family on one squircle body with ears parallel to its
+  corners and feet, and `clock-refresh`, `history`, `clock-forward`, and
+  `rewind-clock` with an opening, a full arrowhead on the straight edge, and
+  hands that point away from the arrow. Their Filled versions use a solid face
+  inset from the arrow line.
+- `droplets` and `hurricane` are unchanged.
 - Redrew the calendar family across all four styles: a straight-sided rounded
   body in place of the egg-shaped squircle, shorter round-capped hooks, and
   rounded-square dots in `calendar-dots`. Icons with a symbol inside (star,

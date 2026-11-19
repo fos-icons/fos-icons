@@ -160,6 +160,12 @@
       "filled": "33:41781",
       "duocolor": "49:92849",
       "duotone": "49:92858"
+    },
+    "clock": {
+      "regular": "31:6244",
+      "filled": "33:41890",
+      "duocolor": "49:93619",
+      "duotone": "49:93625"
     }
   },
   "presets": [
@@ -1755,6 +1761,34 @@
         "filled": "127:68100",
         "duocolor": "127:68102",
         "duotone": "127:68107"
+      }
+    },
+    {
+      "name": "clock-check",
+      "base": "clock",
+      "modifier": "check",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:43331",
+      "source": {
+        "regular": "33:27914",
+        "filled": "33:41986",
+        "duocolor": "49:94223",
+        "duotone": "49:94232"
+      }
+    },
+    {
+      "name": "clock-plus",
+      "base": "clock",
+      "modifier": "add",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:43340",
+      "source": {
+        "regular": "33:27947",
+        "filled": "33:41992",
+        "duocolor": "49:94256",
+        "duotone": "49:94267"
       }
     }
   ],
