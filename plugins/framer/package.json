@@ -1,0 +1,45 @@
+{
+  "name": "framer-fos",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:preview": "vite --mode browser --port 5174",
+    "dev:https": "vite --mode https",
+    "build": "npm run typecheck && vite build",
+    "typecheck": "tsc --noEmit",
+    "sync": "node scripts/sync-icons.mjs",
+    "sync:check": "node scripts/sync-icons.mjs --check",
+    "test": "node --test scripts/sync-icons.test.mjs && vitest run",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "pack": "framer-plugin-tools pack",
+    "check": "npm run sync:check && npm run lint && npm test && npm run build"
+  },
+  "dependencies": {
+    "@framer/plugin": "^4",
+    "react": "^18",
+    "react-dom": "^18",
+    "vite-plugin-mkcert": "^1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "jsdom": "^26.1.0",
+    "vitest": "^4.1.11",
+    "framer-plugin-tools": "1.2.3",
+    "@eslint/js": "^9",
+    "@types/react-dom": "^18",
+    "@types/react": "^18",
+    "@vitejs/plugin-react": "^6",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "typescript-eslint": "^8.0.1",
+    "vite-plugin-framer": "^1.1.0",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0",
+    "typescript": "^5.9",
+    "vite": "^8"
+  }
+}

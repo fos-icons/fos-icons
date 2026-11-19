@@ -9,6 +9,29 @@ See [CHANGELOG.md](CHANGELOG.md) for unreleased changes.
 The goal of Fos Icons is to help people find the right icon quickly and ship it
 consistently, from design to code. Icon count is not the success metric.
 
+## Packages
+
+| Framework | npm package | Source |
+| --- | --- | --- |
+| React | `@fos-icons/react` | [packages/react](packages/react/) |
+| Vue | `@fos-icons/vue` | [packages/vue](packages/vue/) |
+| Svelte | `@fos-icons/svelte` | [packages/svelte](packages/svelte/) |
+| Angular | `@fos-icons/angular` | [packages/angular](packages/angular/) |
+
+## Plugins
+
+| Plugin | What it does | Source |
+| --- | --- | --- |
+| Framer | Search, customize, and insert Fos Icons in the editor | [plugins/framer](plugins/framer/) |
+
+## Source files
+
+| Path | What's inside |
+| --- | --- |
+| [icons/](icons/) | Canonical SVGs in Regular, Filled, Duocolor, and Duotone |
+| [modifiers/](modifiers/) | Reusable modifier glyphs and backplates |
+| [manifest.json](manifest.json) | Icon names, categories, tags, and Figma source IDs |
+
 ## Product principles
 
 These are research-informed product priorities, not a customer-survey ranking
@@ -37,13 +60,10 @@ For design guidance and the review checklist, see the
 - **Production confidence.** Keep licensing and provenance explicit, delivery
   lightweight, and distribution dependable.
 
-## Planned workflow
+## Core SVGs
 
-The React component package is maintained separately in
-`fos-icons/react-fos`; a searchable website is planned. The core SVG
-package contains all four styles, with reusable modifiers and a Python
-composition tool.
-The versioned core source release is `v0.1.0`.
+The core source release is `v0.1.0`. It contains all four SVG styles, reusable
+modifiers, and a Python composition tool.
 
 The duo styles default to blue, with 12 editable Figma color presets:
 Slate, Blue, Sky, Cyan, Teal, Green, Lime, Yellow, Amber, Orange, Red, and Rose.
@@ -386,14 +406,20 @@ Regression fixtures cover masks, transparent cutouts, namespaced references,
 `npm run optimize:check` detects SVG or hash drift without writing; CI runs it
 alongside the Node and Python tests.
 
-Finish the pipeline by synchronizing the separate React checkout from these
-optimized assets, then run its tests and package build:
+After committing the canonical SVG and manifest changes, run the package sync
+from the repository root and commit the refreshed snapshots in the same PR.
 
 ```sh
-cd ../react-fos
-npm run sync -- --source ../fos-icons
-npm test
-npm pack --silent
+npm run sync:packages
+```
+
+Each package keeps its own lockfile and can be tested independently. For
+example, to test and build the React package from the repository root:
+
+```sh
+npm --prefix packages/react ci
+npm --prefix packages/react test
+npm --prefix packages/react pack --dry-run
 ```
 
 The November 10, 2026 source audit is recorded in

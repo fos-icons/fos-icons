@@ -1,0 +1,88 @@
+{
+  "name": "@fos-icons/angular",
+  "version": "0.1.0",
+  "description": "Fos Icons in four styles as standalone Angular SVG components.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./regular": {
+      "types": "./dist/regular/index.d.ts",
+      "default": "./dist/regular/index.js"
+    },
+    "./filled": {
+      "types": "./dist/filled/index.d.ts",
+      "default": "./dist/filled/index.js"
+    },
+    "./duocolor": {
+      "types": "./dist/duocolor/index.d.ts",
+      "default": "./dist/duocolor/index.js"
+    },
+    "./duotone": {
+      "types": "./dist/duotone/index.d.ts",
+      "default": "./dist/duotone/index.js"
+    },
+    "./regular/*": {
+      "types": "./dist/regular/*.d.ts",
+      "default": "./dist/regular/*.js"
+    },
+    "./filled/*": {
+      "types": "./dist/filled/*.d.ts",
+      "default": "./dist/filled/*.js"
+    },
+    "./duocolor/*": {
+      "types": "./dist/duocolor/*.d.ts",
+      "default": "./dist/duocolor/*.js"
+    },
+    "./duotone/*": {
+      "types": "./dist/duotone/*.d.ts",
+      "default": "./dist/duotone/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "build": "node scripts/generate.mjs && ngc -p tsconfig.lib.json",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "prepack": "npm run build"
+  },
+  "peerDependencies": {
+    "@angular/core": "^20.0.0 || ^21.0.0 || ^22.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@angular/common": "20.0.0",
+    "@angular/compiler": "20.0.0",
+    "@angular/compiler-cli": "20.0.0",
+    "@angular/core": "20.0.0",
+    "@angular/platform-browser": "20.0.0",
+    "@angular/platform-server": "20.0.0",
+    "@babel/core": "7.27.1",
+    "@xmldom/xmldom": "^0.9.0",
+    "esbuild": "^0.25.0",
+    "typescript": "~5.8.3"
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.12.0 || >=24.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fos-icons/fos-icons.git",
+    "directory": "packages/angular"
+  }
+}

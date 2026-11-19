@@ -24,3 +24,28 @@ jobs:
       - run: npm run optimize:check
       - run: python3 -m unittest discover -s tests
       - run: python3 scripts/validate.py
+
+  packages:
+    name: Validate ${{ matrix.directory }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        directory: [packages/react, packages/vue, packages/svelte, packages/angular, plugins/framer]
+    defaults:
+      run:
+        working-directory: ${{ matrix.directory }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: ${{ matrix.directory }}/package-lock.json
+      - run: npm ci
+      - if: matrix.directory != 'plugins/framer'
+        run: npm test
+      - if: matrix.directory == 'plugins/framer'
+        run: npm run check
