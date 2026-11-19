@@ -24,6 +24,12 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- `head-profile-man` and `head-profile-woman` in all four styles, bringing the
+  library to 1,280 icons and 5,120 SVGs. Both use the new `head-profile` head.
+  The man has short hair: a hairline from the forehead to the temple with a small
+  sideburn, passing above the ear. The woman has long hair to the shoulder that
+  stops above the neck base, with a hairline framing the face; the hair covers
+  the ear.
 - Ten icons in all four styles, bringing the library to 1,278 icons and 5,112
   SVGs:
   - `hourglass-start`, `hourglass-half`, `hourglass-end`, `hourglass-horizontal`,
@@ -65,6 +71,11 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Changed
 
+- Redrew `head-profile`. The nose tip, chin and jaw are rounded, and the jaw
+  curves back into the neck. The neck ends in the same curved base as the `user`
+  body. The ear is a rounder curl with a lobe, with its rim at the back of the
+  head. Filled is now the full silhouette (the outer edge of the Regular stroke)
+  with the ear cut out. The nose now stays inside the portrait keyline.
 - Redrew the person figure across every icon that uses it. The body has fuller
   shoulders and a base that curves like the bottom of the `user-circle`
   squircle, with the same 0.86 handle ratio, in place of the flat base and
