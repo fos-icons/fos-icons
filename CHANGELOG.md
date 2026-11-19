@@ -24,6 +24,9 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- `bookmark-off`, `bookmark-block`, `bookmark-square`, and `book-bookmark` in
+  all four styles, bringing the library to 1,458 icons and 5,832 SVGs.
+
 - 135 icons in all four styles, bringing the library to 1,454 icons and 5,816
   SVGs, and the presets to 138.
   - Chevrons: `chevron-outline-*` (hollow, bold) and `chevron-large-*` (longer
@@ -129,6 +132,14 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Changed
 
+- Rounder bookmarks: `bookmark`, `bookmark-add`, `bookmark-check`,
+  `bookmark-minus`, `bookmark-x`, and `bookmarks` have rounded corners and a
+  softened notch instead of the folded corner and sharp points.
+- A softer heart (fuller lobes, a rounded tip) in `heart`, `hearts`,
+  `heart-circle`, `heart-square`, `heart-hexagon`, `heart-octagon`,
+  `heart-hand`, `heart-pulse`, `heart-medical`, `check-heart`,
+  `activity-heart`, `annotation-heart`, `calendar-heart`, `file-heart`, and
+  `message-heart-*`.
 - Redrawn: the `alert-*` exclamation is now a tapered stem, thicker at the
   top; `id-badge` is wider and uses the `user` figure; `cursor` (rounded corners); `magnet` (a horseshoe with pole
   bands); `log-in-circle` and `log-out-circle` (the squircle is pulled in so it

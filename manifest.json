@@ -10,12 +10,12 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1454,
+  "iconCount": 1458,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
     "exportedOn": "2026-11-11",
-    "componentPairs": 1459,
+    "componentPairs": 1463,
     "excludedBrands": [
       "chrome-cast",
       "figma",
@@ -166,10 +166,10 @@
         "duotone": "icons/duotone/activity-heart.svg"
       },
       "sha256": {
-        "regular": "5a1292807cdb994765f44a644dfb299564af2dc99fb9f1b07b863cd46cc9fb28",
-        "filled": "ccad3c9e8508ed3aaccfccd2a115b857887a0ea0dc9fc6fe615d7d22af09d124",
-        "duocolor": "82be57b8fb73a4e48247fe8deceebf4f49a99abf0a5fa1d17a26a2150e92be82",
-        "duotone": "d9ef4f5a234874c8b702072fd9289d488bd52bebcfd93a9e9bdbc5465ac65397"
+        "regular": "6a4be2bd8eba95d42c2b306759bcd33be44db990da1b9ea2914a70c9f4cb1c48",
+        "filled": "b629f8c61f3c168d5ea3eeab62dc9ee7788e79027285ae9dcc406d7fb62b2aa4",
+        "duocolor": "bc5c93ac0dbcd82573334390e06c1bac5cb6eef2d629e18db084dfc550f63ca0",
+        "duotone": "c35f06e1d20964059f88f835024b999247c4ec24755b13d825f4a42ab95da16c"
       },
       "duoAuthoring": {
         "version": 2,
@@ -2219,10 +2219,10 @@
         "duotone": "icons/duotone/annotation-heart.svg"
       },
       "sha256": {
-        "regular": "f0314ebf3890c940f40d67cb63228febd9414fe61e2c8b58adfd6494cd997b65",
-        "filled": "3289778a76bc5fd14c5f441c27bf19c877a79bcb3b33d52d7f12024925b5e7d6",
-        "duocolor": "a8971424008c5a33e5f9ef095a21aef1348d440f173e9eab84ee7788630183f7",
-        "duotone": "34c02291da87f8f8473534a53fda1eb0ffb3411f7afda7d78bfbcc16ff46786f"
+        "regular": "7ad4665250af85fb1df07726ae4b25fb5d83e5b23e5084fae2f788a8045e4219",
+        "filled": "635f1821383038be44f7d1535f26f45f39a8511baa5f14835b77f2e9a8a097a3",
+        "duocolor": "f1728eb154332a4a571c594e9bf49d2e9a2a309018a20d5c216a5672a6f07999",
+        "duotone": "e217d4ed35b9748d7fd11e4c1ddc5029aad1c8a37a0deead694f9aa5fca294c0"
       },
       "duoAuthoring": {
         "version": 2,
@@ -9786,6 +9786,58 @@
       }
     },
     {
+      "name": "book-bookmark",
+      "category": "Files",
+      "tags": [
+        "reading",
+        "saved page",
+        "library",
+        "ribbon",
+        "chapter"
+      ],
+      "aliases": [],
+      "componentSet": "172:123252",
+      "source": {
+        "regular": "172:123224",
+        "filled": "172:123228",
+        "duocolor": "172:123242",
+        "duotone": "172:123246"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/book-bookmark.svg",
+        "filled": "icons/filled/book-bookmark.svg",
+        "duocolor": "icons/duocolor/book-bookmark.svg",
+        "duotone": "icons/duotone/book-bookmark.svg"
+      },
+      "sha256": {
+        "regular": "99d593e64450b14d8bbb023b5a86cfbcce7d85616a2e2f24726c1f0e9767ab09",
+        "filled": "b34014328c0961a49c51462c36280f2add4998af664eb6c03697f1692e773b87",
+        "duocolor": "137bca4d7256528feee6b5b3295b6c29dc25963f1b6bdb87102bd6521e7f2a42",
+        "duotone": "cbdee4bb96d91ddf01260f81be8d64ca96da4fbf7b9636503643deffa8d02ce5"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "book-closed",
       "category": "Workspace",
       "tags": [
@@ -9927,10 +9979,10 @@
         "duotone": "icons/duotone/bookmark.svg"
       },
       "sha256": {
-        "regular": "723154c821d7b9b922bd7ce802b2d7edb06a1eca3b18592e3cb42432ac174979",
-        "filled": "939d0fae76a27c3a118ea15f5c83bff296ab574192872c0912c4832609ff1d52",
-        "duocolor": "74ca9cd3e997abeea840cc86ff8dec9cf38bc38d777641d85044171920d68caf",
-        "duotone": "0e18677912e8f40ca936eb7aa49711112f6b0049e2234130c4c5ceaf44d6b9b1"
+        "regular": "bc44d6da87c1722026a3d85a77642ba670c4613c60479f32ac7db72c9425807a",
+        "filled": "9d696b06eaed8261e32c36df1798a07c7dbdc482b16569f087924dcd1ddae898",
+        "duocolor": "9fa8682a6c555c7d5bd70a571eb7e019e52b595e0ef186baaa86fbf03bde9392",
+        "duotone": "407e71285d51d177b5352d4e9e98b59a733555a81b485b90191931cc9762ad2c"
       },
       "duoAuthoring": {
         "version": 2,
@@ -9981,10 +10033,62 @@
         "duotone": "icons/duotone/bookmark-add.svg"
       },
       "sha256": {
-        "regular": "fd03e28c1e334f4ed58908b1b95a668c09aaf0211cae285ae516b816a51e7ac5",
-        "filled": "357a8120dd38c7a9d62e89866ce51cda3f8121d6f7e99ab9f39637ace3e33782",
-        "duocolor": "d437e902f858cef4febc34c8593044a91a5eea235f0df897d0c1b75be862e4c6",
-        "duotone": "4e85a05096132457ac8dab307f2f92800ea071caea7e443e960de4fbd23666c5"
+        "regular": "5d488b6044684e580dbd3fe90a1c7f42d1540ec316dabce6a5c74e5a11f7e189",
+        "filled": "93b60666dc2c85333800b5be354688ee3f13bd9e3aacabcc7235b537bc777fb8",
+        "duocolor": "6ff5552461493f7cade61c530375889bdc428b58ccb96dc89372912409812515",
+        "duotone": "96bc70602ae71ab8dec2fceca83de5ffe839ce5fd765bc7ad0899b7ee4514be8"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "bookmark-block",
+      "category": "Files",
+      "tags": [
+        "blocked",
+        "not allowed",
+        "restricted",
+        "saved",
+        "forbidden"
+      ],
+      "aliases": [],
+      "componentSet": "172:123199",
+      "source": {
+        "regular": "172:123171",
+        "filled": "172:123175",
+        "duocolor": "172:123189",
+        "duotone": "172:123193"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/bookmark-block.svg",
+        "filled": "icons/filled/bookmark-block.svg",
+        "duocolor": "icons/duocolor/bookmark-block.svg",
+        "duotone": "icons/duotone/bookmark-block.svg"
+      },
+      "sha256": {
+        "regular": "f8683d18591666df3e291d028157465207873c4f397b534db142440d9916eae4",
+        "filled": "108aa95d6c062f61bd1ddfb1986f002511edc5869ca524da1e088ef24bd58593",
+        "duocolor": "2e4f8670e9bec050970e38837c601d4c83e71c51debb1fd14c12d003d7a69776",
+        "duotone": "58c9c78da11e8bc5d0ec7b91e64239c440aea9de9b931de89f292c87eb24c0d2"
       },
       "duoAuthoring": {
         "version": 2,
@@ -10036,10 +10140,10 @@
         "duotone": "icons/duotone/bookmark-check.svg"
       },
       "sha256": {
-        "regular": "e07f240ea392bd39e4a7a0fcfd848582d92a95d7051ad388d2b9e9af7833d98b",
-        "filled": "02bca0360565ae688d77a205e79c5acd85afdcbd9a66101adaa64d91d2e0a6c3",
-        "duocolor": "18eb9d2706d7d33ae35cda419a17d2a9001c013e84f7278ca58daa7224c4194d",
-        "duotone": "9dd1809529317d6f8625b40ad657ef441e53083aaa8cf232227931406e89f239"
+        "regular": "a59d888390e106520af6f0bcc8712e99ea5234c38f2e34377f0f1e1174cc5bd5",
+        "filled": "1ce290f67719673d54dcdbfff96ec501aeee1cf29597372b643d9c1ea263979a",
+        "duocolor": "e1b7a0932c31d087d6c1b00730288229b3edcbfdbd9d4c87e7fb4923f5bd13fb",
+        "duotone": "ce38ae8e68529603ecf40690d5dabf0fe068e5f127b7beea9e4f445dc699e34c"
       },
       "duoAuthoring": {
         "version": 2,
@@ -10089,10 +10193,114 @@
         "duotone": "icons/duotone/bookmark-minus.svg"
       },
       "sha256": {
-        "regular": "b00e9f94d310cb031195750d4ae00ce34a5633de9b78f9245f8b3533df7b7704",
-        "filled": "4be25b01322cd949eb559e38443cbf0848106c1e04152a8b5a42ea384beea7bb",
-        "duocolor": "1280665945ef9ddfca1dc9a6d8f0362248cc38401d2a11d50f4b96b0e85aa2f8",
-        "duotone": "0ccb84ccbe08f4e6575ffa2b1dc418c32bcd7e1949d195956ab1d7d683baec37"
+        "regular": "1da0742f52936628292cdfa295795d1446a065ec2a870e39151bba60671a559a",
+        "filled": "0ea8319d9bfc9c7b715ef3d2c7de069aba3369e5214e6eaed565619ca0902b95",
+        "duocolor": "0c93179729600582c9b9deeb75130b67e9d053177533602dab45c519345950e1",
+        "duotone": "ba97bd9ef7beaabdfa69b5fcdb8359ca76ea71d8deac8a6c2113360114b7b193"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "bookmark-off",
+      "category": "Files",
+      "tags": [
+        "unsave",
+        "remove bookmark",
+        "unfavorite",
+        "hide",
+        "disabled"
+      ],
+      "aliases": [],
+      "componentSet": "172:123170",
+      "source": {
+        "regular": "172:123144",
+        "filled": "172:123147",
+        "duocolor": "172:123162",
+        "duotone": "172:123165"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/bookmark-off.svg",
+        "filled": "icons/filled/bookmark-off.svg",
+        "duocolor": "icons/duocolor/bookmark-off.svg",
+        "duotone": "icons/duotone/bookmark-off.svg"
+      },
+      "sha256": {
+        "regular": "6550e0db727cedb753bab218b6b33a0016bb0f50ec29ad5ebc074b7cd6fca5b7",
+        "filled": "1b8339cf1035e5c553a0201acdfd237c7834ffbe74ae124013df5a06b48f2fba",
+        "duocolor": "5024977edcea6d024ce5a5b5309b08740b24eb40771fb8a3a78387de6530c2ae",
+        "duotone": "7ef066e13a23d580552d43b4f8fd14bc1df631a2e2b6903188a51c8af09c4d2b"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "bookmark-square",
+      "category": "Files",
+      "tags": [
+        "saved",
+        "favorite",
+        "tab",
+        "marker",
+        "ribbon"
+      ],
+      "aliases": [],
+      "componentSet": "172:123223",
+      "source": {
+        "regular": "172:123200",
+        "filled": "172:123203",
+        "duocolor": "172:123215",
+        "duotone": "172:123218"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/bookmark-square.svg",
+        "filled": "icons/filled/bookmark-square.svg",
+        "duocolor": "icons/duocolor/bookmark-square.svg",
+        "duotone": "icons/duotone/bookmark-square.svg"
+      },
+      "sha256": {
+        "regular": "9b0c064b91538d342430482c3e4619d411602ad00d4aa014af0d07eb888a154f",
+        "filled": "4b6275ed8f21adcceb1883f41def08f9c582767fe162f2e1320ae9b136e1c796",
+        "duocolor": "eca140e8f57a3fd2ee33135eccd983382b92c2893e91de6fcec7dc8b971fbb3b",
+        "duotone": "cfe56e17ee36a2aa9eb819cf02bbbea24ca3109e1e4db4d471ec335841f06c2e"
       },
       "duoAuthoring": {
         "version": 2,
@@ -10144,10 +10352,10 @@
         "duotone": "icons/duotone/bookmark-x.svg"
       },
       "sha256": {
-        "regular": "b2c76b0b2ed50866c8323cf04f92e1f8ba1e48907eff65f734ed5199d1face01",
-        "filled": "9fa05716f8c4ec2fe9635eed53e3e532152860a4edbd0e578b316c29ab82883b",
-        "duocolor": "cd1d28262f2483973c79ddde680440dce43ff62231a407631a93f9dba846ee05",
-        "duotone": "84a0695d4d468ff0f6661fd51250e56cab6df0ff3364840d5b4434ea5735b1c1"
+        "regular": "bc9f16c25453dd7216128316ab6d7c40f3689d2b8588fe821926b4368c176647",
+        "filled": "eaa730967f4d9797f54b2bdc2ae1488d3e687b36c5e0c860146a6a0eabc92aa3",
+        "duocolor": "008975b68eae855d1802e67be485d4d2277680a2368523a2e7bb9820b2aa8995",
+        "duotone": "dd10293a8d0e364ca12585dbc125c230461c7821384bd5b364d3d7581aadcd6f"
       },
       "duoAuthoring": {
         "version": 2,
@@ -10200,10 +10408,10 @@
         "duotone": "icons/duotone/bookmarks.svg"
       },
       "sha256": {
-        "regular": "8abd1cb9927f72fdda487a9db00842da70feab007da39ff0c0b3527cc87daa46",
-        "filled": "e29e1e93eb0eb94c4cfc93ae908c3429a2852dd2ee412e7059c0c3ab3ed4c680",
-        "duocolor": "7852a1a5544d6d31e4c52100bc45b75687db7577473fcc5c47d86060b24545e1",
-        "duotone": "bc9a3fe105d0a1e83e4cbbbc650513f4d9bc09bfbe177446bb466d215b9e7b27"
+        "regular": "687c02906dc4816f9f65f139e35477c5a8b7120d59493e12f1ad745720f46537",
+        "filled": "fca64d44472a3362b7d4444ed6c884bff8316d97c98a9bbbce835978637c7fda",
+        "duocolor": "0c0a90d23662c5e1c7919736e83ea7a1a2fcdedf580d5ba2399ecbe357aee042",
+        "duotone": "d5df6a2cd73353f4e1eb317955ddd7a0f070abaf68845ef41cd1e2f798df2d50"
       },
       "duoAuthoring": {
         "version": 2,
@@ -12828,10 +13036,10 @@
         "duotone": "icons/duotone/calendar-heart.svg"
       },
       "sha256": {
-        "regular": "3d10336c647742b55fcebae30dbfbb09d4b7db55ec452be7fe1b47a451b7846f",
-        "filled": "f379cf8b7f2e04b419f27ad5a5677183a17754440085bc3796fbdf3937c1f7f0",
-        "duocolor": "933ddd8d50f6872af1d6c67df63695b23e6cad8ca3489d33c3edb7d590f22517",
-        "duotone": "5ef7581f7178769c5e7394c0d2e1dbfcd425348c18e88e920aacdbfb16137b9c"
+        "regular": "2281057a4acb5cad9f80399ce2c0a8b8f8a183e7ab7a89f9cfd464a70e1f96da",
+        "filled": "8997c8428c102d25d2b63c3884a9216d7123ccdda1f4f5bbf0526187884377c5",
+        "duocolor": "6906fac8bb9bf7bbe2ef6f9b6ab5a9d2cea6a20b4540d67e61ef5c88508fac7b",
+        "duotone": "48c0c175233838f427f4d66b72c7ffef1bcad4a55db2db3cc03caf9f556b04fd"
       },
       "duoAuthoring": {
         "version": 2,
@@ -16523,10 +16731,10 @@
         "duotone": "icons/duotone/check-heart.svg"
       },
       "sha256": {
-        "regular": "5a600a45799bf10d9f83850b6617222aca60c8454c6df3e480dc7a90041d2a4d",
-        "filled": "732bf0b85f3ce41ce4a5027f200afbed164099a823e97e3bbed95394f0016fc8",
-        "duocolor": "7c0eba895e07d820193a0797ec9f1ec508aec9b8fb34d64993d2009123111aa5",
-        "duotone": "dd05d58389496fa42754245d5abcb0999d3a0e49bf3776a7b4237800d9d05949"
+        "regular": "578a8b81dd6bc63239c10aa8ca18ea959dc443cf64e5bc099e6d56c1d2385809",
+        "filled": "2e64fa7acae4c145f2a60accb16f0847a83bce43950515936f9e9ac24e7f3ee3",
+        "duocolor": "19b3da480c182648867930d8309d9cef587c044c817d057104014c88c4ea6249",
+        "duotone": "2d3950796f120e28b43e0de8c8c0a5995015a769306334559d3502a65bf2c41d"
       },
       "duoAuthoring": {
         "version": 2,
@@ -31192,10 +31400,10 @@
         "duotone": "icons/duotone/file-heart.svg"
       },
       "sha256": {
-        "regular": "7c43c0de0b1040f06f695640f2a4fca9e099e83a4e67f96611b10e4a3c9cc89e",
-        "filled": "302c1df4efea9daa8e8e76364ec9380ee6440782d2198b325844b9566f7c63cd",
-        "duocolor": "d32b661c535b7f5741da93f926fb9071330c41b607f079873f9d8d3f69ae9455",
-        "duotone": "b833726389902e022d49a5dfd1734beb3cbee02ce036c1eabf6617ae010379f0"
+        "regular": "7526aa89fb35c5a006d25a51a4c15204db5f6e16ab7428e8f9b11b116c4b7be6",
+        "filled": "3403d5410bc411e967a0316b17f68127014fc76c9a6c4d61daca8f1e8a93026e",
+        "duocolor": "bac9d5eed7517b0d96b13cf8680aaeb6752d96e4ef65f6484bc2a45826c347dd",
+        "duotone": "3059546f672647ce3e7166587d51224bd918e77fddb08620bf9fcacfc6ba6ac2"
       },
       "duoAuthoring": {
         "version": 2,
@@ -38412,10 +38620,10 @@
         "duotone": "icons/duotone/heart.svg"
       },
       "sha256": {
-        "regular": "d5435cfbcff73d7fe1d67a525738faadf88f344431059e8748ad43625337c0ce",
-        "filled": "3f7d383ca2f997e1ba4b6d984d8b258ae295edeb2ef4f32f58d95d9de0e646ca",
-        "duocolor": "4561da199e4c5586bbb8f2562b7aa418231d80a5bea814acbbcef85a771785ea",
-        "duotone": "2ce2878f6aaac36831fa4534ce4313393ec22fa7dfe9b578d9df2883bbfa2bdc"
+        "regular": "ff3217d35e98b1a9a1f99d712ae5cfb9f11a2fd7b5c5a65bea60bd7828ebbcae",
+        "filled": "dcd3b14dcc1dd39738324d6f8733d25614ee91068aaf4a85a91d8902f1209a19",
+        "duocolor": "6b9fd9a89f3fac7d21ee7096b93768c66f786b1d84df3ba9504354c5c0197b76",
+        "duotone": "a8a58df7b791bb600572f1bba845236aedfb0a2a7f3cf269183d28140ecf9caa"
       },
       "duoAuthoring": {
         "version": 2,
@@ -38518,10 +38726,10 @@
         "duotone": "icons/duotone/heart-circle.svg"
       },
       "sha256": {
-        "regular": "475ad7a8f218a40063adaba0265a4c3363db77b046f3a519c0515c4a39a9c5d5",
-        "filled": "bf6f18e9c460990dc31d50a99721af363c12c0d4308f0a8a794b04421076da4a",
-        "duocolor": "2bd63d2c60f530aa1fcb1bbbdc55888e71800199ccdba613aa286a144d793cff",
-        "duotone": "f24d5161ea73ec509e930c1a90a2505b2a428ac1920e0c40894593e81766baf5"
+        "regular": "b2056ecb99c6cc04b23594a30eb91f471d08366685f279f71ac27c1962cbc244",
+        "filled": "093a4337de7345856e58d089edd1da64dfb042c9df0fb1ced8c9640c7eaf0684",
+        "duocolor": "fa89080fe7355ddd8d208c198711b91b210816cc2e8c6319b42136590848a2e3",
+        "duotone": "35afcbb3764742536ee415db01c787966016519d08e14b704238a2f4e9794c8e"
       },
       "duoAuthoring": {
         "version": 2,
@@ -38572,10 +38780,10 @@
         "duotone": "icons/duotone/heart-hand.svg"
       },
       "sha256": {
-        "regular": "f793a52d264315fad3b309503d9711cb1643e8225f7723faad4d745dbf8a8fd2",
-        "filled": "ee17e173ac322c71f7147b00acb0fb5bd851682a27cbeafafb2fcd70e5313942",
-        "duocolor": "c5b552949f93ad8ce03ffd5522bcfa9a727b10fdccb89f3b8191178643154b6c",
-        "duotone": "21febf8e46ca4b22ad928d326b30681108db8cb725c1c75416ce225902b68758"
+        "regular": "b5707b8c7633dad3e519771497fc50aaeeb21ed38a41cdff543a46838148ecb9",
+        "filled": "8e2ead7eaac0666778f31ab3bce33c6a236b8b69ef0da0631d898d0d5c4d9ef5",
+        "duocolor": "66f84f800fc60455a4d2817c0ebc658de08dae451e3dfdd385468f06264a52d6",
+        "duotone": "f7c34362f13de16f65b81dbf5f3db86c0b59b4eab3be935636e7a3d3523ff385"
       },
       "duoAuthoring": {
         "version": 2,
@@ -38625,10 +38833,10 @@
         "duotone": "icons/duotone/heart-hexagon.svg"
       },
       "sha256": {
-        "regular": "6a92e1d4f0da7791766dc63f2e7029ed5a291266b4e4739bc94153e08853a56f",
-        "filled": "a401f617e780e4679eb5308677dfd9f3ee3635214fd5fa3524c3b17e50b1adf8",
-        "duocolor": "a7344742300c7b990d4b6c0cd8261ff3c57e040b6fac1ae1181157cce6339e68",
-        "duotone": "b34afcc14c36568047047d2512c010580987afbf55a2e844f09216142be25f13"
+        "regular": "6b7a96ac630747b1204b7f9abdd84d53ba1d6f446845024fa5cb47bcfb322ca7",
+        "filled": "e5991c9c4590792bb6c9addacc2cba4aeffab8f256d50a6e70a061d4f2226116",
+        "duocolor": "f558d774e95f135c84a9d10e1f556d8c1f40d576e7b51a83cb3352eab06fb5ab",
+        "duotone": "8f65e831477edabf943a4122126d4640cb9207bd67bb9f2488ba13ac6e386ae3"
       },
       "duoAuthoring": {
         "version": 2,
@@ -38678,10 +38886,10 @@
         "duotone": "icons/duotone/heart-medical.svg"
       },
       "sha256": {
-        "regular": "d6a62a08295a666bf01b8538154b09d075114725f0e3b6d11592ffb43e5ab7ab",
-        "filled": "c8dc8ed8a3f1875ecdc9bd997c88e3ad2b7faf2b48d586818001905a0690ceb1",
-        "duocolor": "68addfd28f29453e3014f2aba77fe88e8d313316fd421ff07d449c7cd752bfe2",
-        "duotone": "1cd3cff3d12cab5633012407ce55967d37f51ab2ad6f1192a28d75b4b30b0331"
+        "regular": "daad7daba86ae3b73d1c18403059975a7c1356862a8903103cda2700510f464d",
+        "filled": "f5f9fd7ce7dd545e635a8dcd4bec53b840dbd4f73a1d45131bd9c9cbc8c3cc9b",
+        "duocolor": "054cfda0967b85d05a53bd2998d1ea9b4848a8fbe127b568e3c5765ebe69dc32",
+        "duotone": "7bd363a9fb144304c709a2ce1eaee189c850ff82115775db07f76f9aec7007da"
       },
       "duoAuthoring": {
         "version": 2,
@@ -38731,10 +38939,10 @@
         "duotone": "icons/duotone/heart-octagon.svg"
       },
       "sha256": {
-        "regular": "b21f3883a0d2d4241ce297408f84fa2daff9ce719d2d06a19eb9c6ee10426719",
-        "filled": "5a7d6b7f78bec56262b817317723e16affe7cbf90641e5f81b6a6badf857c931",
-        "duocolor": "a2b00c09101166dd708bbcd921eb6ca4a02ae7a46a13433beffe5dcac62f18c2",
-        "duotone": "53ca13f343f64352c37edc495390b0db17b6250904f68072424dc240179a7836"
+        "regular": "c36187c764b69663cd651b7c94704a9f8bb76fcf3e2729306833dfa8b4bb0fb2",
+        "filled": "8040dbafac54d23cdd1e58eb9bb0d3c2c032fd3db6e9b61e72726d5c74da89c5",
+        "duocolor": "212523376c3225054b0b35561a17f706deb2c8f3ce1c9b078002242efa3abb70",
+        "duotone": "4587fbb39217b7a89fcb206b69971b4bd542cee6e46e40913dbe6985f9887179"
       },
       "duoAuthoring": {
         "version": 2,
@@ -38784,10 +38992,10 @@
         "duotone": "icons/duotone/heart-pulse.svg"
       },
       "sha256": {
-        "regular": "126880adb89cc9be03628c65361e2e3a83c02887806af9298dbbdeaf5bd6c0d9",
-        "filled": "7d7ed3e7231143a1195a0c2e5bbcf0e16a0acb8e556488fd8ebb511cbf1acaa5",
-        "duocolor": "c200fb6f437d1c24757b75a48e22dbac9a713836d9f24b205c46df81939a9380",
-        "duotone": "4d5b3bf3fe7bf1e656c30b1da29a6ec7f370ae89e0d91be8a49872ff15926a09"
+        "regular": "e3e17ad80e861f49cb242aef3fbe1bd86327926b7b4b9d5ebac2758dcbc7b442",
+        "filled": "1ee33ebc132455acb5a36d84c4f74cc1c41b52de5c0d8a58406c02dc91d1e6e4",
+        "duocolor": "9cdde1468d4fc99acc3433ac092a8022e186c123d96fce225cfe6d5249399038",
+        "duotone": "f6c565361c24fbcfb736854f3ecc15e76a25185770c499b6f8c6ac0c5dda2053"
       },
       "duoAuthoring": {
         "version": 2,
@@ -38837,10 +39045,10 @@
         "duotone": "icons/duotone/heart-square.svg"
       },
       "sha256": {
-        "regular": "135c421ba4b62202a107a6fe34188ed1972029464dfd3f5fc04e6be5b9e8d832",
-        "filled": "aa7efb8695a8caf70b6fe29711f9b7a6ea42f892e27920850a5e9a807bfa7df5",
-        "duocolor": "0c966316b872e30cd264a8adfecfcf12f079d61aae0150e046b59841b445f54b",
-        "duotone": "7c14bf80593cfa55afd1d30c15ff09c960b9919a9ed837cecd31d66388b6cfb3"
+        "regular": "8a66c230818799910c622bab4162e0371bb254a128a369a29c659d083fae197f",
+        "filled": "eb9f4d8a23b14aadf9f647199c3be86769c15bb5efa5f879080f7c244d59da23",
+        "duocolor": "72bdff25877efb2ac8161a8c2ca0fc598f63b17d1e4c0f499b3d80bb47283aaf",
+        "duotone": "8a706d98edccba5519a6418dbd620ced0186953bd9136e3f851a22681a1d75bd"
       },
       "duoAuthoring": {
         "version": 2,
@@ -38891,10 +39099,10 @@
         "duotone": "icons/duotone/hearts.svg"
       },
       "sha256": {
-        "regular": "990c6dc905bc9c81abca7c3e8e194a0213493e390c116f191a41a4680654dac9",
-        "filled": "2c430cdd9f00f5e4fb52832d539abcb4bb6577103bce971e3fb4d5ff6be3a3c8",
-        "duocolor": "ddbd3049ecee711b0a39fcdddb0db0bdd61d81d95dfa677514273abbd522e7ad",
-        "duotone": "8edcef51d8128b09b65fe5d498d2c426f180690729122b44c8921bfab0005ed9"
+        "regular": "eae5d18084e1ad891838a5f2d1075e12626eafd9ecd0dc582cb14f10418275d0",
+        "filled": "9668cd730f1ccbcbe9fe5ec763269daf43a24b240d43c9bcca2eda26390f0de0",
+        "duocolor": "4771c5d8b07706a62f0eac8fa961989a15431e298b542d498645f98feee04057",
+        "duotone": "94fbf7eeddc8e04fb8a57481be6da9581d15f4104317cd7b9bc773e8b62ba690"
       },
       "duoAuthoring": {
         "version": 2,
@@ -49778,10 +49986,10 @@
         "duotone": "icons/duotone/message-heart-circle.svg"
       },
       "sha256": {
-        "regular": "fe0cae0d7573175f813b43810316f31d9a56464bf4b224cd6892de9eb160de72",
-        "filled": "e47b4a93a992a20482a549f3a8ea4fcbc12b85ea4d4f943b2932f12284ff9e83",
-        "duocolor": "120707e13812c7e5748907b159bc5d64ae5993ddefd9eb9d8c5bbde541f92996",
-        "duotone": "411f59ae57450daab0bf74551bd5975fc6c31f9e4e966d2cfb8fea5007944fbb"
+        "regular": "f5b2ee1cfc576655e20cdb0edd1a930d529b90d178ece6cf119301e97a1ec231",
+        "filled": "b02a45d19613032da4fa13d46dc086642232c860561706787cfeb03dab1fe66e",
+        "duocolor": "ed06681db47cd68a0f3d4515b58ae98ad12470abcd5803584a796699ac8c44c8",
+        "duotone": "50730a868ecfd9aed771af893df696c3736e6ab50ca4894368fb3918a206fb9f"
       },
       "duoAuthoring": {
         "version": 2,
@@ -49833,10 +50041,10 @@
         "duotone": "icons/duotone/message-heart-square.svg"
       },
       "sha256": {
-        "regular": "cefdf840be519128a470c5c141983ef1ef0443181bc8c31d5d43ec84199002a3",
-        "filled": "7476038912137f747f18d654cdfbd7bc6fcb2b39a717c18e570902444e7621b8",
-        "duocolor": "8c4cee5fe5a519a110cdf17a092ac75a6c932e2a42f778aa27a82cfba8dc941f",
-        "duotone": "426f0c965e8c8797f9e131010ab838cb164cf1cdfdd6e3d44bf1a5fd6cb1a380"
+        "regular": "cffc76119329af8b02b8bdda5f46b6b7444cc084a0727ea0985c4b6fa3ae61e6",
+        "filled": "437ea9ee0c33c905a9543cfc0ec3a98ccebf4f3239eaa4a6de5f95bafb689a56",
+        "duocolor": "6adfa71298a45a3da29a448eb07354c7755cded3d949af2b1a8261fffdbc3c16",
+        "duotone": "030dad5d9b4c50cf4f605ab41aff58a177f91516d03a1bc009645b212110a54f"
       },
       "duoAuthoring": {
         "version": 2,
