@@ -78,6 +78,11 @@ Changes are recorded under Unreleased until a release is tagged.
   same height. Before, it was a taller 5.8px arc.
 - Filled `user-square` and `user-circle` now cut out the body as well as the
   head.
+- `user-badge` now uses the same closed person body, slightly narrower
+  (7.3–16.7), in place of the open shoulder arc. The badge outline stops
+  earlier to keep a 1.25px gap around the body. Duotone tints the body and
+  Duocolor draws it in the secondary colour. Filled has a solid badge with
+  the head cut out and the body set in a 1.25px gap.
 - Redrew the weather family on one shared cloud fitted to the landscape keyline,
   with an inner mark. Every `cloud-*` icon uses the same cloud and opens its
   stroke around the sun, moon, rain, snow, hail, lightning, fog, wind, rainbow,
