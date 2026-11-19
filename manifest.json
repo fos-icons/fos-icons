@@ -10,12 +10,12 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1355,
+  "iconCount": 1363,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
     "exportedOn": "2026-11-11",
-    "componentPairs": 1359,
+    "componentPairs": 1367,
     "excludedBrands": [
       "chrome-cast",
       "figma",
@@ -16866,6 +16866,226 @@
       }
     },
     {
+      "name": "chevron-large-down",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "arrow head",
+        "wide",
+        "angle",
+        "disclosure",
+        "expand",
+        "dropdown",
+        "south"
+      ],
+      "aliases": [],
+      "componentSet": "169:96776",
+      "source": {
+        "regular": "169:96762",
+        "filled": "169:96764",
+        "duocolor": "169:96772",
+        "duotone": "169:96774"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-large-down.svg",
+        "filled": "icons/filled/chevron-large-down.svg",
+        "duocolor": "icons/duocolor/chevron-large-down.svg",
+        "duotone": "icons/duotone/chevron-large-down.svg"
+      },
+      "sha256": {
+        "duocolor": "48044cf79d4d4c7bd8afe5bcf5f473e39e4f097d895bb4fa47cf2522caa4132e",
+        "duotone": "e3c90559f0d107242405fde79bbc59eed34e93f50b4d125b9570fdbea7683b8e",
+        "filled": "5fe8a803eaa20a5dc903e09f56ed5db296089c52cff6ac2e32d4614a866b919b",
+        "regular": "573c064ec5f8669b3b08f46d6d93313f9e14badba5bfb6e0f27e5f4c045ff6d0"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-large-left",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "arrow head",
+        "wide",
+        "angle",
+        "disclosure",
+        "back",
+        "previous",
+        "west"
+      ],
+      "aliases": [],
+      "componentSet": "169:96791",
+      "source": {
+        "regular": "169:96777",
+        "filled": "169:96779",
+        "duocolor": "169:96787",
+        "duotone": "169:96789"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-large-left.svg",
+        "filled": "icons/filled/chevron-large-left.svg",
+        "duocolor": "icons/duocolor/chevron-large-left.svg",
+        "duotone": "icons/duotone/chevron-large-left.svg"
+      },
+      "sha256": {
+        "duocolor": "efc2960a57117b7069df2470df79f77ab7eca8e151c543428f180394cd864dd8",
+        "duotone": "38c4020ea2a669de5620d98088699e7e2f12c445eec9a786712e5db56d9c7e18",
+        "filled": "8b4958d48935d57f784b99a315c6ffa803adbb1acbf7566d65adad5e29ba3220",
+        "regular": "2af6ba857fd40a1c45da6d7636bc0a2dcd8b2bb7a1409609538fda9e5155c158"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-large-right",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "arrow head",
+        "wide",
+        "angle",
+        "disclosure",
+        "next",
+        "forward",
+        "east"
+      ],
+      "aliases": [],
+      "componentSet": "169:96806",
+      "source": {
+        "regular": "169:96792",
+        "filled": "169:96794",
+        "duocolor": "169:96802",
+        "duotone": "169:96804"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-large-right.svg",
+        "filled": "icons/filled/chevron-large-right.svg",
+        "duocolor": "icons/duocolor/chevron-large-right.svg",
+        "duotone": "icons/duotone/chevron-large-right.svg"
+      },
+      "sha256": {
+        "duocolor": "d4961cae0dc1dee7584c7ae0cbdbb4aa52f782132fb3ca3641d2da7bde347907",
+        "duotone": "a517f15b94ac423c75cf3cdf51431e092e2f2fd71794cfdd2740a432e7369657",
+        "filled": "a33ad31eca8ee2651f5f9726d2275b83796f7f123c8bfdd5e4b1cb8e5a65aedb",
+        "regular": "3a3602a1e4cab8b5e7c805cd1f55455df1e391eab22e2c69cc13a42e176e1203"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-large-up",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "arrow head",
+        "wide",
+        "angle",
+        "disclosure",
+        "collapse",
+        "north",
+        "top"
+      ],
+      "aliases": [],
+      "componentSet": "169:96821",
+      "source": {
+        "regular": "169:96807",
+        "filled": "169:96809",
+        "duocolor": "169:96817",
+        "duotone": "169:96819"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-large-up.svg",
+        "filled": "icons/filled/chevron-large-up.svg",
+        "duocolor": "icons/duocolor/chevron-large-up.svg",
+        "duotone": "icons/duotone/chevron-large-up.svg"
+      },
+      "sha256": {
+        "duocolor": "023cec95627169481d754fd983b5909f1d909c6c6c80fb558603e86bec9878de",
+        "duotone": "1e0e8435b77d7d17bbc1684cf65210569574faa25ec769a3d8c67ff66f1afcf2",
+        "filled": "1df26a3362cee80cec8a059b510fa32d89edd05397c1cf54472cdc55e9521feb",
+        "regular": "890ba33e4fd8c093340cee86706cf57f2f9640fe6e10b30d58a18029795d0bb1"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "chevron-left",
       "category": "Navigation",
       "tags": [
@@ -16914,6 +17134,226 @@
         },
         "duotone": {
           "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-outline-down",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "arrow head",
+        "bold",
+        "hollow",
+        "angle",
+        "expand",
+        "dropdown",
+        "south"
+      ],
+      "aliases": [],
+      "componentSet": "169:96839",
+      "source": {
+        "regular": "169:96822",
+        "filled": "169:96824",
+        "duocolor": "169:96833",
+        "duotone": "169:96835"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-outline-down.svg",
+        "filled": "icons/filled/chevron-outline-down.svg",
+        "duocolor": "icons/duocolor/chevron-outline-down.svg",
+        "duotone": "icons/duotone/chevron-outline-down.svg"
+      },
+      "sha256": {
+        "duocolor": "89ce1c59454ce61db609d6d4dbf01ffe9be30b51b5f7af92a2e5d477ff875779",
+        "duotone": "a2423d709e811324d36e4a088bc54c01f830c903f8cd311296767655f73a8014",
+        "filled": "7aa51a257ea732876ef6abaee7a819552fec86a23b43e65295bdff77d5af2193",
+        "regular": "703df9663a7ea5be220d68815987ff223258e4aac0c58b0a1cf44cc36c5cc8a4"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-outline-left",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "arrow head",
+        "bold",
+        "hollow",
+        "angle",
+        "back",
+        "previous",
+        "west"
+      ],
+      "aliases": [],
+      "componentSet": "169:96857",
+      "source": {
+        "regular": "169:96840",
+        "filled": "169:96842",
+        "duocolor": "169:96851",
+        "duotone": "169:96853"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-outline-left.svg",
+        "filled": "icons/filled/chevron-outline-left.svg",
+        "duocolor": "icons/duocolor/chevron-outline-left.svg",
+        "duotone": "icons/duotone/chevron-outline-left.svg"
+      },
+      "sha256": {
+        "duocolor": "60740b5b46a461d113329a4c174af0234e308e9b5d9a92329e8cdab6fbccca47",
+        "duotone": "79491662b97f21465d791d94372167e552d7814a6c712f3bfe8ca992fb0e7249",
+        "filled": "7c31aefdf9cf04357515318c590ce6c833ff5d1ad9fe62c313bd78ea44d99c4a",
+        "regular": "b6f5f39e75bf64982eae8d6ccdc794e21b57ee839db443b904922ed6cc652573"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-outline-right",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "arrow head",
+        "bold",
+        "hollow",
+        "angle",
+        "next",
+        "forward",
+        "east"
+      ],
+      "aliases": [],
+      "componentSet": "169:96875",
+      "source": {
+        "regular": "169:96858",
+        "filled": "169:96860",
+        "duocolor": "169:96869",
+        "duotone": "169:96871"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-outline-right.svg",
+        "filled": "icons/filled/chevron-outline-right.svg",
+        "duocolor": "icons/duocolor/chevron-outline-right.svg",
+        "duotone": "icons/duotone/chevron-outline-right.svg"
+      },
+      "sha256": {
+        "duocolor": "e8bdff0e751bb963495bda1c563ef706ba38501aefbe379acc50c8eecc0c1260",
+        "duotone": "afe0b56adabc3aa05037b174d534ac4f3f049afc7023bf0515eb3580b83a55be",
+        "filled": "ec2d1776a22b1180e22786264340695e4bf03edd789d830043d06bc428cdad57",
+        "regular": "f30ac07f7d02ef9e6e4f15813e9f16b1bf47026dc646438ab0fc80e0b7d03361"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-outline-up",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "arrow head",
+        "bold",
+        "hollow",
+        "angle",
+        "collapse",
+        "north",
+        "top"
+      ],
+      "aliases": [],
+      "componentSet": "169:96893",
+      "source": {
+        "regular": "169:96876",
+        "filled": "169:96878",
+        "duocolor": "169:96887",
+        "duotone": "169:96889"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-outline-up.svg",
+        "filled": "icons/filled/chevron-outline-up.svg",
+        "duocolor": "icons/duocolor/chevron-outline-up.svg",
+        "duotone": "icons/duotone/chevron-outline-up.svg"
+      },
+      "sha256": {
+        "duocolor": "81b4fb3a2faeaff7fc71b5f71ae84de79d46de6c28fe1104b02c07f038283cc8",
+        "duotone": "3cb753fb28731c304171542264c96861da395de596fa2462a97fddf17dd05086",
+        "filled": "b55a0450e7f43b607f1bcc012a7cdf6a9a0074e68507feabf0ae6902320d9576",
+        "regular": "2b45f2aa05129fcfd4336242e1d5e05e3d557c26992aa9117c8c6e31438c9179"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }

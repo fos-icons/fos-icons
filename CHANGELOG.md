@@ -24,8 +24,12 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
-- 36 Security icons in all four styles, bringing the library to 1,355 icons
-  and 5,420 SVGs, and the Security category from 22 to 58 icons.
+- `chevron-outline-up`, `-down`, `-left`, `-right` (a hollow, bold chevron)
+  and `chevron-large-up`, `-down`, `-left`, `-right` (a longer chevron than the
+  compact `chevron-*`) in all four styles, bringing the library to 1,363 icons
+  and 5,452 SVGs.
+- 36 Security icons in all four styles, taking the Security category from 22
+  to 58 icons.
   - Shields: `shield-alert`, `shield-dots`, `shield-wifi`, `shield-block`,
     `shield-user`, `shield-star`, `bug-shield`.
   - Locks: `lock-dots`, plus the presets `lock-check`, `lock-plus`,
