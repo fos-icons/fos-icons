@@ -65,6 +65,24 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Changed
 
+- Redrew the person figure across every icon that uses it. The body has fuller
+  shoulders and a base that curves like the bottom of the `user-circle`
+  squircle, with the same 0.86 handle ratio, in place of the flat base and
+  sharp corners. Width, head, and lowest point are unchanged. This covers
+  `user`, `users`, `user-square`, `user-circle`, `user-focus`, and `home-user`;
+  the 20 `user-*` and `users-*` modifier icons; and, through the `user`
+  modifier glyph and its 1.25px clearance contour, `home-profile`,
+  `image-user`, its eight variants, `calendar-person`, and `settings-user`.
+- The second person's head in `users` and the `users-*` icons now has the same
+  radius as the front head (2.5px; 3.05px outer in Filled) and sits at the
+  same height. Before, it was a taller 5.8px arc.
+- Filled `user-square` and `user-circle` now cut out the body as well as the
+  head.
+- `user-badge` now uses the same closed person body, slightly narrower
+  (7.3–16.7), in place of the open shoulder arc. The badge outline stops
+  earlier to keep a 1.25px gap around the body. Duotone tints the body and
+  Duocolor draws it in the secondary colour. Filled has a solid badge with
+  the head cut out and the body set in a 1.25px gap.
 - Redrew the weather family on one shared cloud fitted to the landscape keyline,
   with an inner mark. Every `cloud-*` icon uses the same cloud and opens its
   stroke around the sun, moon, rain, snow, hail, lightning, fog, wind, rainbow,
