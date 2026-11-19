@@ -9177,17 +9177,17 @@
         "duotone": "icons/duotone/binoculars.svg"
       },
       "sha256": {
-        "regular": "3b6b3b0eff2adffb330b16eed91dc509a842d09a7f8287c712d7aed6a5f0b1c9",
-        "filled": "d3a174399bdaecb59eb8244736584eeb26f2a9f8a94c98e7e20765cdc7b8f8e9",
-        "duocolor": "75b6b277fd4d155d094dde9309b369fe1a1e901d1b5b44d1562f37a234b8448d",
-        "duotone": "154cedd785dde232c36812f754f186f6588f34c8e1adf347a99595c50deb84d5"
+        "regular": "64936cc1cc9c1417c15a32b8e30347152f28e2ab56b873881312152b67508611",
+        "filled": "4883f5677968fb31e5c5bde6beea071fa5f927b87e888f7ba4a9d909f1876e5e",
+        "duocolor": "369a3f3537b676a9c838f65a3485261f16914d7200c7adfa940602e8b0b544eb",
+        "duotone": "7bd45e6308cd3167216d5a784df1f1709104c1f84f878313e98cf4bd91039f20"
       },
       "duoAuthoring": {
         "version": 2,
-        "approvedPrototype": false,
+        "approvedPrototype": true,
         "duocolor": {
-          "contours": 5,
-          "accents": 1,
+          "contours": 3,
+          "accents": 2,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -62032,17 +62032,17 @@
         "duotone": "icons/duotone/saxophone.svg"
       },
       "sha256": {
-        "regular": "3dfbceb17a7a9a250957bf4cdbfb6e6945711339ff57e51137c5b12dab0b28f5",
-        "filled": "d82b45908651dad2b513b97afda7159a32bea6ad177c019e70a4ecd7c9b24cd0",
-        "duocolor": "ddd2e73ee8e428c64a588941066dcd5368c32e0e3cf62d3b59fadd6da405ab68",
-        "duotone": "e030c183b97e482fb82b18595cc94f233eb4d75f5abf1cbc849b3c521b472380"
+        "regular": "480efe827649d62f995b923a7c854dfda2b844aa35ffb2170290d02606d8ea51",
+        "filled": "6f31e5bea6757c714c214f789c6979c403cf6d6a8bc22e1d61e987cedd6ab50c",
+        "duocolor": "635f0e320e3437f1d1aefaa693edecf6747e7ef7084f9721952dd8fa217f4cc1",
+        "duotone": "97ce63eb6457c9d6d913b922d2bc1becb7aae427df8107bb3726589d8bcd173f"
       },
       "duoAuthoring": {
         "version": 2,
-        "approvedPrototype": false,
+        "approvedPrototype": true,
         "duocolor": {
-          "contours": 4,
-          "accents": 3,
+          "contours": 2,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -70598,17 +70598,17 @@
         "duotone": "icons/duotone/telescope.svg"
       },
       "sha256": {
-        "regular": "0e0e8730c4973e61f06c79e3f1a6fc1fee1c45787c724f9b511c99ee2ec4f5b1",
-        "filled": "4a53cfc4e28139c1eee6fd9e651510f088172d658640eac17ff7ce63cc50df04",
-        "duocolor": "c477b97630f38f59b3691e3d45f8be1355abe68078ef421246c99768be92f10a",
-        "duotone": "96c66239014ea9c8bbea0a4451e0e5647e28383c02796ea2a9d8419953e73004"
+        "regular": "d356ae99ceb5fe3df161558ea4e8bbb6cd7175c7334bf3e2c9e0c51947442448",
+        "filled": "d8f3b67b99add2c99709d678e605c4a3b3b6575b52163280c04630ab9289d082",
+        "duocolor": "ba376e62c37df7c852a628edba597636ce918e5cc2b80f0bbca81c7f11e0360e",
+        "duotone": "5bc0821353c571ece2c8408ea89427553ee322dcf05a5f831e77d48112b6f8eb"
       },
       "duoAuthoring": {
         "version": 2,
-        "approvedPrototype": false,
+        "approvedPrototype": true,
         "duocolor": {
-          "contours": 5,
-          "accents": 4,
+          "contours": 2,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
