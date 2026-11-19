@@ -7,7 +7,7 @@
     "exportedOn": "2026-11-17"
   },
   "audit": {
-    "presets": 37,
+    "presets": 119,
     "styles": 4,
     "themes": 2,
     "scales": [
@@ -1790,6 +1790,146 @@
         "duocolor": "49:94256",
         "duotone": "49:94267"
       }
+    },
+    {
+      "name": "lock-check",
+      "base": "lock",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95318",
+        "filled": "169:95334",
+        "duocolor": "169:95347",
+        "duotone": "169:95362"
+      },
+      "componentSet": "169:95379"
+    },
+    {
+      "name": "lock-plus",
+      "base": "lock",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95380",
+        "filled": "169:95396",
+        "duocolor": "169:95409",
+        "duotone": "169:95424"
+      },
+      "componentSet": "169:95441"
+    },
+    {
+      "name": "lock-minus",
+      "base": "lock",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95442",
+        "filled": "169:95458",
+        "duocolor": "169:95471",
+        "duotone": "169:95486"
+      },
+      "componentSet": "169:95503"
+    },
+    {
+      "name": "lock-x",
+      "base": "lock",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95504",
+        "filled": "169:95520",
+        "duocolor": "169:95533",
+        "duotone": "169:95548"
+      },
+      "componentSet": "169:95565"
+    },
+    {
+      "name": "lock-question",
+      "base": "lock",
+      "modifier": "question",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95566",
+        "filled": "169:95583",
+        "duocolor": "169:95597",
+        "duotone": "169:95613"
+      },
+      "componentSet": "169:95631"
+    },
+    {
+      "name": "fingerprint-check",
+      "base": "fingerprint",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95632",
+        "filled": "169:95646",
+        "duocolor": "169:95659",
+        "duotone": "169:95677"
+      },
+      "componentSet": "169:95690"
+    },
+    {
+      "name": "fingerprint-plus",
+      "base": "fingerprint",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95691",
+        "filled": "169:95705",
+        "duocolor": "169:95718",
+        "duotone": "169:95736"
+      },
+      "componentSet": "169:95749"
+    },
+    {
+      "name": "fingerprint-minus",
+      "base": "fingerprint",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95750",
+        "filled": "169:95764",
+        "duocolor": "169:95777",
+        "duotone": "169:95795"
+      },
+      "componentSet": "169:95808"
+    },
+    {
+      "name": "fingerprint-x",
+      "base": "fingerprint",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95809",
+        "filled": "169:95823",
+        "duocolor": "169:95836",
+        "duotone": "169:95854"
+      },
+      "componentSet": "169:95867"
+    },
+    {
+      "name": "id-card-check",
+      "base": "id-card",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95868",
+        "filled": "169:95884",
+        "duocolor": "169:95897",
+        "duotone": "169:95913"
+      },
+      "componentSet": "169:95931"
     }
   ],
   "styleSafeFamilyAudit": {

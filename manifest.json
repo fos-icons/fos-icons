@@ -10,12 +10,12 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1319,
+  "iconCount": 1355,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
     "exportedOn": "2026-11-11",
-    "componentPairs": 1323,
+    "componentPairs": 1359,
     "excludedBrands": [
       "chrome-cast",
       "figma",
@@ -11216,6 +11216,58 @@
       }
     },
     {
+      "name": "bug-shield",
+      "category": "Security",
+      "tags": [
+        "vulnerability",
+        "malware",
+        "antivirus",
+        "exploit",
+        "patch"
+      ],
+      "aliases": [],
+      "componentSet": "169:94522",
+      "source": {
+        "regular": "169:94494",
+        "filled": "169:94498",
+        "duocolor": "169:94512",
+        "duotone": "169:94516"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/bug-shield.svg",
+        "filled": "icons/filled/bug-shield.svg",
+        "duocolor": "icons/duocolor/bug-shield.svg",
+        "duotone": "icons/duotone/bug-shield.svg"
+      },
+      "sha256": {
+        "regular": "367a4036fa7e37acac5a327689513d65539849f460317499eeb792732cc89078",
+        "filled": "b74ef166a6395bad48350fc966b82c7ac23cb84272e22ddfc81333add5d2a1b5",
+        "duocolor": "c477e46c472658048594d116752e921965f59abc39f78a230d861837317706d3",
+        "duotone": "0018189e8ac7d6a4a116395028b38d1e4b0fe239bbf639798719ff09c2fafba0"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "building",
       "category": "Navigation",
       "tags": [
@@ -14476,6 +14528,58 @@
         },
         "duotone": {
           "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "cctv-camera",
+      "category": "Security",
+      "tags": [
+        "surveillance",
+        "spy cam",
+        "monitoring",
+        "video",
+        "watch"
+      ],
+      "aliases": [],
+      "componentSet": "169:94555",
+      "source": {
+        "regular": "169:94523",
+        "filled": "169:94528",
+        "duocolor": "169:94543",
+        "duotone": "169:94548"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cctv-camera.svg",
+        "filled": "icons/filled/cctv-camera.svg",
+        "duocolor": "icons/duocolor/cctv-camera.svg",
+        "duotone": "icons/duotone/cctv-camera.svg"
+      },
+      "sha256": {
+        "regular": "108f3e5678e4ee1e7134290e226cefc0c19acf2b7ae898b3e116a03aa7cb3f7c",
+        "filled": "9860cbf4f41cfbf06c7c7dcf9da7fe8c1999edcaa62c1bfbbf97606eec66681b",
+        "duocolor": "38fd751ff47b739531f6921ca4f900f0d6ffe86d1ec515f0c731c2b1211394bb",
+        "duotone": "349a867db52ac7db7ae5b9994e52bf5117ae7c7d56984de5a9a71e8eb1490cbf"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -27055,6 +27159,58 @@
       }
     },
     {
+      "name": "encryption",
+      "category": "Security",
+      "tags": [
+        "binary",
+        "cipher",
+        "crypto",
+        "encoded",
+        "secret key"
+      ],
+      "aliases": [],
+      "componentSet": "169:94588",
+      "source": {
+        "regular": "169:94556",
+        "filled": "169:94561",
+        "duocolor": "169:94576",
+        "duotone": "169:94581"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/encryption.svg",
+        "filled": "icons/filled/encryption.svg",
+        "duocolor": "icons/duocolor/encryption.svg",
+        "duotone": "icons/duotone/encryption.svg"
+      },
+      "sha256": {
+        "regular": "5f381f04acdaec11d6108a35676adde4fb81c25ce74ebeb1c4e51ec2d6443b3d",
+        "filled": "e89ff97f83513d671eaa8cb73bc70d90858e41fd85d03165a075cb56a625076e",
+        "duocolor": "589dd1c4cb86d6d0219c52b6592f72ea52faf04a19ea3eac58f5b253d4c5fe1c",
+        "duotone": "e7053803384481a345d48c29200dc4c9e1907b83bf74507c320f0f665055a360"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "equal",
       "category": "Essentials",
       "tags": [
@@ -31423,6 +31579,340 @@
         },
         "duotone": {
           "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "fingerprint-check",
+      "category": "Security",
+      "tags": [
+        "verified",
+        "biometric",
+        "authenticated",
+        "touch id",
+        "approved"
+      ],
+      "aliases": [],
+      "componentSet": "169:95690",
+      "source": {
+        "regular": "169:95632",
+        "filled": "169:95646",
+        "duocolor": "169:95659",
+        "duotone": "169:95677"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/fingerprint-check.svg",
+        "filled": "icons/filled/fingerprint-check.svg",
+        "duocolor": "icons/duocolor/fingerprint-check.svg",
+        "duotone": "icons/duotone/fingerprint-check.svg"
+      },
+      "sha256": {
+        "regular": "1f8c2889a745a10e0f7723b0f823ec34dbf61f35d16d1f4eeea41fb96a6fb823",
+        "filled": "5e16baa3b1b53e59f33c3086320062c1c8039df2793e9cfd487a73592280d4d1",
+        "duocolor": "247ac6ae9177bad75adf41e2634214bf52084b3c4ff2a5dcca9939481633281d",
+        "duotone": "0651041ce5c37272abd29c1d06392de13e6c0dab6be2f15106b0df73b732e4ac"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "fingerprint",
+        "modifier": "check",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "fingerprint-minus",
+      "category": "Security",
+      "tags": [
+        "remove biometric",
+        "unenroll",
+        "delete",
+        "touch id"
+      ],
+      "aliases": [],
+      "componentSet": "169:95808",
+      "source": {
+        "regular": "169:95750",
+        "filled": "169:95764",
+        "duocolor": "169:95777",
+        "duotone": "169:95795"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/fingerprint-minus.svg",
+        "filled": "icons/filled/fingerprint-minus.svg",
+        "duocolor": "icons/duocolor/fingerprint-minus.svg",
+        "duotone": "icons/duotone/fingerprint-minus.svg"
+      },
+      "sha256": {
+        "regular": "a38ebd6e4c847abdd18630c9e87c1ec5ee200f1758a813468255a586cd066b76",
+        "filled": "640ceacfdf38e9df9f0de1442457fa3788d337dc05798136e40faa7abfba41a2",
+        "duocolor": "6fc866a4d160e1ae6ab92fc3e43a2056486beeb66218b57d01890fedb31316f0",
+        "duotone": "808893ab1208c950ccd05a7165e38e0edf856226799e6346731aac26fac3c27f"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "fingerprint",
+        "modifier": "remove",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "fingerprint-plus",
+      "category": "Security",
+      "tags": [
+        "enroll",
+        "add biometric",
+        "register",
+        "touch id"
+      ],
+      "aliases": [],
+      "componentSet": "169:95749",
+      "source": {
+        "regular": "169:95691",
+        "filled": "169:95705",
+        "duocolor": "169:95718",
+        "duotone": "169:95736"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/fingerprint-plus.svg",
+        "filled": "icons/filled/fingerprint-plus.svg",
+        "duocolor": "icons/duocolor/fingerprint-plus.svg",
+        "duotone": "icons/duotone/fingerprint-plus.svg"
+      },
+      "sha256": {
+        "regular": "0d2d73f49387f9da252cf1e9ee07f227ec1c906df8f2b08b562affc38825e359",
+        "filled": "d7d1a811edbaa617b845910f3d95994b7e71456a22679a2c75c5a3b5ca2b0b9a",
+        "duocolor": "78d918fd2984399dcd20ab42b821cf6c33af5b4ff2e759df00870441bb754dfb",
+        "duotone": "68b2ea332fb7c357669b98ae9ed75f98e97719c1ede1abd3d6ee35e64399dfe5"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "fingerprint",
+        "modifier": "add",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "fingerprint-scan",
+      "category": "Security",
+      "tags": [
+        "biometric",
+        "touch id",
+        "authentication",
+        "verify",
+        "sensor"
+      ],
+      "aliases": [],
+      "componentSet": "169:94608",
+      "source": {
+        "regular": "169:94589",
+        "filled": "169:94592",
+        "duocolor": "169:94602",
+        "duotone": "169:94605"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/fingerprint-scan.svg",
+        "filled": "icons/filled/fingerprint-scan.svg",
+        "duocolor": "icons/duocolor/fingerprint-scan.svg",
+        "duotone": "icons/duotone/fingerprint-scan.svg"
+      },
+      "sha256": {
+        "regular": "736bc4419ae82556e5971a2d89879b8a5ba1c7d1b44671a9f4a6311ff352749a",
+        "filled": "4deb21ec981f688953b5259e7466d0785bc8855b9173ff47c17c5db70adc64ac",
+        "duocolor": "4261366b60fb0cbcea87cd4a1a0f0db4b2a00868da63d9bba28361b5de4d322b",
+        "duotone": "2343b6dff96f38360bdee429239f4fb8874854d3a11626c84281c460a2454c64"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "fingerprint-x",
+      "category": "Security",
+      "tags": [
+        "failed",
+        "rejected",
+        "denied",
+        "biometric error",
+        "touch id"
+      ],
+      "aliases": [],
+      "componentSet": "169:95867",
+      "source": {
+        "regular": "169:95809",
+        "filled": "169:95823",
+        "duocolor": "169:95836",
+        "duotone": "169:95854"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/fingerprint-x.svg",
+        "filled": "icons/filled/fingerprint-x.svg",
+        "duocolor": "icons/duocolor/fingerprint-x.svg",
+        "duotone": "icons/duotone/fingerprint-x.svg"
+      },
+      "sha256": {
+        "regular": "e0736869d465f32bf76bf0060b427beb611e0cb179423a60daa73389d869cc4b",
+        "filled": "2dad91973d7c82cb165fca3fc9a4f9dabf6c04087da79c522fff9ad3b10a3223",
+        "duocolor": "3c617162f5cb1315a60fce1e97b3d54624cdba83a45b1dec36003791a67a2c58",
+        "duotone": "28a391152e26f39c858e7e09c9da4567e40f0497b9de34f97f9c99add78ee715"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "fingerprint",
+        "modifier": "delete",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "firewall",
+      "category": "Security",
+      "tags": [
+        "network protection",
+        "brick wall",
+        "fire",
+        "block traffic",
+        "perimeter"
+      ],
+      "aliases": [],
+      "componentSet": "169:94638",
+      "source": {
+        "regular": "169:94609",
+        "filled": "169:94613",
+        "duocolor": "169:94628",
+        "duotone": "169:94632"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/firewall.svg",
+        "filled": "icons/filled/firewall.svg",
+        "duocolor": "icons/duocolor/firewall.svg",
+        "duotone": "icons/duotone/firewall.svg"
+      },
+      "sha256": {
+        "regular": "f91cc7c21f63b356c3cfb55b984da382822bc2781af57898d5d876a6cb4ed032",
+        "filled": "ffad0e3ce04a0b85a0d2d9690b36d79b630ee4546b2db89d474c38aac3265c0e",
+        "duocolor": "c13810905a4fca4bbfead85eeff1cec6ca6c4f79029d44af530b186ff6cbfaec",
+        "duotone": "9b20b93e72006dd256abb9e0833912d5b22b14a9eb2d4cb8dc57e6c6c0b298fd"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -37887,6 +38377,168 @@
       }
     },
     {
+      "name": "id-badge",
+      "category": "Security",
+      "tags": [
+        "employee",
+        "staff",
+        "access pass",
+        "name tag",
+        "lanyard"
+      ],
+      "aliases": [],
+      "componentSet": "169:94672",
+      "source": {
+        "regular": "169:94639",
+        "filled": "169:94644",
+        "duocolor": "169:94660",
+        "duotone": "169:94665"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/id-badge.svg",
+        "filled": "icons/filled/id-badge.svg",
+        "duocolor": "icons/duocolor/id-badge.svg",
+        "duotone": "icons/duotone/id-badge.svg"
+      },
+      "sha256": {
+        "regular": "1680d1089f98de3e09f87cc3d101b8dab42f079b6860a5158300f36b5e78d695",
+        "filled": "4091fc2bdb92771e2c97b3fad73cd69d4f4fdb06b23073d4ebb40e94ef7c74c5",
+        "duocolor": "2f05e99a7e2619197c1ac1a279d36c09243e89f07758c4636845c5d66f25807a",
+        "duotone": "458f4700e649e5d4ce79c7c87d4ab9342ecc59b565bb250e71e38155e71a7ff5"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "id-card",
+      "category": "Security",
+      "tags": [
+        "identity",
+        "license",
+        "membership",
+        "profile",
+        "credentials"
+      ],
+      "aliases": [],
+      "componentSet": "169:94706",
+      "source": {
+        "regular": "169:94673",
+        "filled": "169:94678",
+        "duocolor": "169:94694",
+        "duotone": "169:94699"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/id-card.svg",
+        "filled": "icons/filled/id-card.svg",
+        "duocolor": "icons/duocolor/id-card.svg",
+        "duotone": "icons/duotone/id-card.svg"
+      },
+      "sha256": {
+        "regular": "7a47031d7e219a986d5fa30ec1091384bcbd7686a76239f447a97e3aaa2e38d2",
+        "filled": "e09a51c80903139504edb26e45a43e7739c6c73f3a33ab97e4f0bdf8a7db1023",
+        "duocolor": "8ccfb378d634f6511412146586ba8bc51334dffb33eac93688326d20c2654e9e",
+        "duotone": "24bf7e85fbda14b1571f5974193e2f6d7f1eb300b452280f535f378582c40cd5"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "id-card-check",
+      "category": "Security",
+      "tags": [
+        "verified identity",
+        "kyc",
+        "approved",
+        "credentials",
+        "validated"
+      ],
+      "aliases": [],
+      "componentSet": "169:95931",
+      "source": {
+        "regular": "169:95868",
+        "filled": "169:95884",
+        "duocolor": "169:95897",
+        "duotone": "169:95913"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/id-card-check.svg",
+        "filled": "icons/filled/id-card-check.svg",
+        "duocolor": "icons/duocolor/id-card-check.svg",
+        "duotone": "icons/duotone/id-card-check.svg"
+      },
+      "sha256": {
+        "regular": "f4e99ad663c4dcbcc200eaf19a03be4025d4e98e313ab57b260e55d48d6f7c4f",
+        "filled": "370993f7d38cfadeff8ddd96b18da6f7951060af70d0dc0f73b77a8d9fe9fcc3",
+        "duocolor": "8c74b0a69e465e487052de90a12a00f2d3eeff0bd791936518942f1f344031dc",
+        "duotone": "46ae07947c1a746154f279eebcd2b0d636e8a66e2bf64d8b73e5decf871f7bc0"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "id-card",
+        "modifier": "check",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
       "name": "image",
       "category": "Media & devices",
       "tags": [
@@ -39527,6 +40179,58 @@
       }
     },
     {
+      "name": "incognito",
+      "category": "Security",
+      "tags": [
+        "private browsing",
+        "spy",
+        "anonymous",
+        "hidden identity",
+        "disguise"
+      ],
+      "aliases": [],
+      "componentSet": "169:94748",
+      "source": {
+        "regular": "169:94707",
+        "filled": "169:94713",
+        "duocolor": "169:94732",
+        "duotone": "169:94738"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/incognito.svg",
+        "filled": "icons/filled/incognito.svg",
+        "duocolor": "icons/duocolor/incognito.svg",
+        "duotone": "icons/duotone/incognito.svg"
+      },
+      "sha256": {
+        "regular": "49a836d4dc16aed66cf1cf9e3e39711a4d0d0cac68d68801192a77eb1bc20242",
+        "filled": "e5af42f19d22e09cec237220538c756b97bcafbe78499e81c28caf6dcfd739c3",
+        "duocolor": "2a66adb3bdf810aca67dd32b903a279cd6d35fce89524f44227a3820fc6efd1b",
+        "duotone": "d6bb7c4b04e0b04b8ae187236140dbc187a1326f442d5f042b353e066d08f120"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "infinity",
       "category": "Essentials",
       "tags": [
@@ -39947,6 +40651,58 @@
       }
     },
     {
+      "name": "iris-scan",
+      "category": "Security",
+      "tags": [
+        "eye scan",
+        "retina",
+        "biometric",
+        "authentication",
+        "recognition"
+      ],
+      "aliases": [],
+      "componentSet": "169:94777",
+      "source": {
+        "regular": "169:94749",
+        "filled": "169:94753",
+        "duocolor": "169:94767",
+        "duotone": "169:94771"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/iris-scan.svg",
+        "filled": "icons/filled/iris-scan.svg",
+        "duocolor": "icons/duocolor/iris-scan.svg",
+        "duotone": "icons/duotone/iris-scan.svg"
+      },
+      "sha256": {
+        "regular": "485b18fc4e023a0242635a4bed729048701677800c0375b052fcd56f3e565324",
+        "filled": "d4a3b48dee2715454f1acea4522fd95d7b97f60491b0ae606e3aef9b27508bd4",
+        "duocolor": "b8e6bb345ec6e03432ebb9801a0c98cfc1bc3227ca3478000d4fd8b5f96c8097",
+        "duotone": "9da2fa763b64ecdaadb6515be7770f57cb3f9ef14ba05d8d7d72acf22ff0f956"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "italic",
       "category": "Workspace",
       "tags": [
@@ -40205,6 +40961,110 @@
         "duocolor": {
           "contours": 6,
           "accents": 5,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "key-card",
+      "category": "Security",
+      "tags": [
+        "access card",
+        "hotel key",
+        "entry",
+        "smart card",
+        "keycard"
+      ],
+      "aliases": [],
+      "componentSet": "169:94806",
+      "source": {
+        "regular": "169:94778",
+        "filled": "169:94782",
+        "duocolor": "169:94796",
+        "duotone": "169:94800"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/key-card.svg",
+        "filled": "icons/filled/key-card.svg",
+        "duocolor": "icons/duocolor/key-card.svg",
+        "duotone": "icons/duotone/key-card.svg"
+      },
+      "sha256": {
+        "regular": "777f19b3d3b27fce3b6a789897e98fb6226754ff971361f09d133e09de64ebe8",
+        "filled": "7219a9666cf0f66dd415748904223353d528333254b63ab5f5c7d0bc800e4044",
+        "duocolor": "3b4e309243a87686b3425b7db68373f5d9ba6d1f144cd10d9c9b73f1a11727b0",
+        "duotone": "bf89411b114ab5743f30b414ec2ad40ec8588ef59fe0ba98e73ae1198aac0d09"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "key-skeleton",
+      "category": "Security",
+      "tags": [
+        "old key",
+        "antique",
+        "master key",
+        "vintage",
+        "unlock"
+      ],
+      "aliases": [],
+      "componentSet": "169:94845",
+      "source": {
+        "regular": "169:94807",
+        "filled": "169:94813",
+        "duocolor": "169:94831",
+        "duotone": "169:94837"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/key-skeleton.svg",
+        "filled": "icons/filled/key-skeleton.svg",
+        "duocolor": "icons/duocolor/key-skeleton.svg",
+        "duotone": "icons/duotone/key-skeleton.svg"
+      },
+      "sha256": {
+        "regular": "6dba8b0370fe689e8d07f2f03d7756b4f03e1a17755c9e43856fc6753e4f7768",
+        "filled": "bd41d9229db7a50f155c8055cb5db80fe81fc1b05af0a046d027aab03218ba71",
+        "duocolor": "0eae4606896f7545bc5be25d768b756e4c5b50c132f389992eda897a874f5167",
+        "duotone": "9537288f71597cb81bd3b63f95850722026116a87202f761cb84b24997252974"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 3,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -40631,6 +41491,57 @@
         "duocolor": {
           "contours": 3,
           "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "laptop-shield",
+      "category": "Security",
+      "tags": [
+        "antivirus",
+        "endpoint protection",
+        "notebook",
+        "device security"
+      ],
+      "aliases": [],
+      "componentSet": "169:94874",
+      "source": {
+        "regular": "169:94846",
+        "filled": "169:94850",
+        "duocolor": "169:94864",
+        "duotone": "169:94868"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/laptop-shield.svg",
+        "filled": "icons/filled/laptop-shield.svg",
+        "duocolor": "icons/duocolor/laptop-shield.svg",
+        "duotone": "icons/duotone/laptop-shield.svg"
+      },
+      "sha256": {
+        "regular": "99588b4a8b79fa372f97eef4c465d332dca76216c0b8faeee8e2f6ceedadd37e",
+        "filled": "1c4bba5c45e11205c734f08a61d88a0709089e60137ce699642c1ac719da2777",
+        "duocolor": "9db446a1f6f76a9ccf366f794620dc4965b35dcf5d97ad07f503a8e7629e0850",
+        "duotone": "c32d599ef4ab67509a36afa1ca97c55bc6d4bf37c9f0283367d973105bca17a8"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -43277,6 +44188,344 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "lock-check",
+      "category": "Security",
+      "tags": [
+        "secured",
+        "locked",
+        "verified",
+        "protected",
+        "confirmed"
+      ],
+      "aliases": [],
+      "componentSet": "169:95379",
+      "source": {
+        "regular": "169:95318",
+        "filled": "169:95334",
+        "duocolor": "169:95347",
+        "duotone": "169:95362"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lock-check.svg",
+        "filled": "icons/filled/lock-check.svg",
+        "duocolor": "icons/duocolor/lock-check.svg",
+        "duotone": "icons/duotone/lock-check.svg"
+      },
+      "sha256": {
+        "regular": "3ab77b5e0c60323568336203345a86bd87f2c50980cd63add05814d517f656a2",
+        "filled": "7f8a3106b890db4df0818d8aa2fd6430d2d1493a1c2c97fe02551702769cda55",
+        "duocolor": "f672d8bd4f40ffde5297abb578bcf8c3061607e97c161150de186ead4994d793",
+        "duotone": "4bb55561d0745402517e491dc3ef077be5110f109d25fb762a07e8d634358ebc"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "lock",
+        "modifier": "check",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "lock-dots",
+      "category": "Security",
+      "tags": [
+        "password field",
+        "pin",
+        "masked",
+        "hidden",
+        "secret"
+      ],
+      "aliases": [],
+      "componentSet": "169:94910",
+      "source": {
+        "regular": "169:94875",
+        "filled": "169:94881",
+        "duocolor": "169:94896",
+        "duotone": "169:94902"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lock-dots.svg",
+        "filled": "icons/filled/lock-dots.svg",
+        "duocolor": "icons/duocolor/lock-dots.svg",
+        "duotone": "icons/duotone/lock-dots.svg"
+      },
+      "sha256": {
+        "regular": "9f8b17627d6aae1df6666cc1f7c1006ff557f07a8a4bc6a82f0f397aa73f3b27",
+        "filled": "fe7945861116e16d8c32f3fa758b26227337dade7968bfc41313d6e5507c628d",
+        "duocolor": "14e874b2f6f11bca2771ade4865f80f9bf8d67e697c80fef6c615e38da055a41",
+        "duotone": "cd01b0af4dcbfa53ccb050a809aff2c90f393425a6e0c650c8770507689e18a5"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "lock-minus",
+      "category": "Security",
+      "tags": [
+        "remove protection",
+        "unsecure",
+        "delete password"
+      ],
+      "aliases": [],
+      "componentSet": "169:95503",
+      "source": {
+        "regular": "169:95442",
+        "filled": "169:95458",
+        "duocolor": "169:95471",
+        "duotone": "169:95486"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lock-minus.svg",
+        "filled": "icons/filled/lock-minus.svg",
+        "duocolor": "icons/duocolor/lock-minus.svg",
+        "duotone": "icons/duotone/lock-minus.svg"
+      },
+      "sha256": {
+        "regular": "e02c9179be8f5b4d7c1781c71f947d8acc955b41a47658417722413648361517",
+        "filled": "7d1844b25d21dda5a9b95f2a9f7dab6dfe5bc569214d3a6fcf20b768a4420275",
+        "duocolor": "5fcd4f0f271c3e71ca60d706afa81939f6c833c3a80c4b97a2abf755237919d5",
+        "duotone": "6b15ea9fe9c9a77297f7697403d2164606c712b17ab9c92db40e86cc5b6ed9a7"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "lock",
+        "modifier": "remove",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "lock-plus",
+      "category": "Security",
+      "tags": [
+        "add protection",
+        "new password",
+        "secure",
+        "create lock"
+      ],
+      "aliases": [],
+      "componentSet": "169:95441",
+      "source": {
+        "regular": "169:95380",
+        "filled": "169:95396",
+        "duocolor": "169:95409",
+        "duotone": "169:95424"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lock-plus.svg",
+        "filled": "icons/filled/lock-plus.svg",
+        "duocolor": "icons/duocolor/lock-plus.svg",
+        "duotone": "icons/duotone/lock-plus.svg"
+      },
+      "sha256": {
+        "regular": "e403e121b89de2918bc91be574d51f90e09bf3a4237fe16309cdec958f786935",
+        "filled": "24aed5d57dbc57eab4f5afe08b1e0ff08c082faa12cf63a7af42f033d2e7a367",
+        "duocolor": "600213a8d201699d54afedf35ca8bc73d433053c7ed5cbd967ef123344c2982b",
+        "duotone": "f6b02c0c2885d3aadbc33244b6581bfb228872577cc049fc45b96fe61238e220"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "lock",
+        "modifier": "add",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "lock-question",
+      "category": "Security",
+      "tags": [
+        "forgot password",
+        "unknown",
+        "help",
+        "recovery"
+      ],
+      "aliases": [],
+      "componentSet": "169:95631",
+      "source": {
+        "regular": "169:95566",
+        "filled": "169:95583",
+        "duocolor": "169:95597",
+        "duotone": "169:95613"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lock-question.svg",
+        "filled": "icons/filled/lock-question.svg",
+        "duocolor": "icons/duocolor/lock-question.svg",
+        "duotone": "icons/duotone/lock-question.svg"
+      },
+      "sha256": {
+        "regular": "13b3b03dea7575361d68812a6da1760768d4bf8fe1458f1cb8ee91155617223d",
+        "filled": "96ecb41a6484dd27a2f689904a7adad33e7e797073f31488bdd80af0a579d518",
+        "duocolor": "77e1831d1dea1e1b982093aa44e611d7bc5747bdb5a6a06b83b32b7df1cd8e4e",
+        "duotone": "259be89dfdcdb02b2849129beafa929d8af2cc967f80dfe3a5cc1ca98f7ebdf0"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "lock",
+        "modifier": "question",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "lock-x",
+      "category": "Security",
+      "tags": [
+        "unlock failed",
+        "insecure",
+        "denied",
+        "error",
+        "remove lock"
+      ],
+      "aliases": [],
+      "componentSet": "169:95565",
+      "source": {
+        "regular": "169:95504",
+        "filled": "169:95520",
+        "duocolor": "169:95533",
+        "duotone": "169:95548"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lock-x.svg",
+        "filled": "icons/filled/lock-x.svg",
+        "duocolor": "icons/duocolor/lock-x.svg",
+        "duotone": "icons/duotone/lock-x.svg"
+      },
+      "sha256": {
+        "regular": "68ea118b8801b832c07eb5024a3e52825bdf7b3c73e0ead9124d4e57402baccd",
+        "filled": "2de80eede9750bf467c718a3e6a53252b43643839129fe0ea615e5dab691e2ae",
+        "duocolor": "d4efcdd5adaee984b23ac36136811ac34ced13a00dc165e05e2d8322292d7a4e",
+        "duotone": "799d60ac176c3ecc955e8735e3e486618d437b4d36c89ad95efdca4c908541be"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "lock",
+        "modifier": "delete",
+        "position": "bottom-right",
+        "fit": null
       }
     },
     {
@@ -46950,6 +48199,108 @@
       }
     },
     {
+      "name": "monitor-lock",
+      "category": "Security",
+      "tags": [
+        "screen lock",
+        "desktop security",
+        "computer",
+        "locked display"
+      ],
+      "aliases": [],
+      "componentSet": "169:94944",
+      "source": {
+        "regular": "169:94911",
+        "filled": "169:94916",
+        "duocolor": "169:94932",
+        "duotone": "169:94937"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/monitor-lock.svg",
+        "filled": "icons/filled/monitor-lock.svg",
+        "duocolor": "icons/duocolor/monitor-lock.svg",
+        "duotone": "icons/duotone/monitor-lock.svg"
+      },
+      "sha256": {
+        "regular": "216d392c263e2f9a486c969f9414c67a403e5fe5cfaf43330acc75bbc60952f0",
+        "filled": "6639db08127051f4900d79f86f57640a2d03e3decf9d77de7851fadede2c7669",
+        "duocolor": "32fd56a52f621ccf91897d08d37b0c4763b14c380144fdd6a4fa16a126b8b80f",
+        "duotone": "47b451d296b3b3f042de5d362431a65825db20c526bea7849f661b75ca23088b"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "monitor-shield",
+      "category": "Security",
+      "tags": [
+        "antivirus",
+        "desktop protection",
+        "computer security",
+        "endpoint"
+      ],
+      "aliases": [],
+      "componentSet": "169:94973",
+      "source": {
+        "regular": "169:94945",
+        "filled": "169:94949",
+        "duocolor": "169:94963",
+        "duotone": "169:94967"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/monitor-shield.svg",
+        "filled": "icons/filled/monitor-shield.svg",
+        "duocolor": "icons/duocolor/monitor-shield.svg",
+        "duotone": "icons/duotone/monitor-shield.svg"
+      },
+      "sha256": {
+        "regular": "33f234ce282b3f8889abc23fcb76f6bfa2bac08991b7768dd097f1c49a27f691",
+        "filled": "5e4de75b53804fa9400b832afe439737ba4923c66c0d14d3ff5b4411682c078e",
+        "duocolor": "c6dd8a2bb44f3db7827bc39e698f4d5a45617a81149420f88802386eff92becd",
+        "duotone": "b03ddee59aca73a77d2d6f0cfba4f55e5afdc18d9eaa0e30b75f5917bc89fbb0"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "monument",
       "category": "Navigation",
       "tags": [
@@ -50103,6 +51454,58 @@
       }
     },
     {
+      "name": "password-manager",
+      "category": "Security",
+      "tags": [
+        "vault",
+        "credentials",
+        "keychain",
+        "logins",
+        "secrets"
+      ],
+      "aliases": [],
+      "componentSet": "169:95001",
+      "source": {
+        "regular": "169:94974",
+        "filled": "169:94978",
+        "duocolor": "169:94991",
+        "duotone": "169:94995"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/password-manager.svg",
+        "filled": "icons/filled/password-manager.svg",
+        "duocolor": "icons/duocolor/password-manager.svg",
+        "duotone": "icons/duotone/password-manager.svg"
+      },
+      "sha256": {
+        "regular": "a0116e289ab999d40c85afeb9cc000ba51b6c0586bc1247b1edde3fe830ca3bb",
+        "filled": "3d167a93dca303fff85fef2db0b23da49dd1d7dafc444a09b4ded2e08d2dc928",
+        "duocolor": "653e0219b7fd0fcef449c52944dd393c6b701c90e32ac2da21c5550b9edef74e",
+        "duotone": "34d09c3484dbed6806caf481ea57f3cd1f26467f87b5c5f82c13936bb513ff40"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "pause",
       "category": "Media & devices",
       "tags": [
@@ -51889,6 +53292,58 @@
         "filled": "0641921bfa9247247f0422f4a6c72a7d6740c9d935298119fe6ea4909d5fec3b",
         "duocolor": "8e31063f6170ccc86a065edca5321636c4c93e70e1b34666f310c72b1628772f",
         "duotone": "772203e989332f0fcd360d76ed67229254e2e1846db91ab701576a90a78f6be2"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "phone-lock",
+      "category": "Security",
+      "tags": [
+        "mobile security",
+        "device lock",
+        "screen lock",
+        "smartphone",
+        "pin"
+      ],
+      "aliases": [],
+      "componentSet": "169:95035",
+      "source": {
+        "regular": "169:95002",
+        "filled": "169:95007",
+        "duocolor": "169:95023",
+        "duotone": "169:95028"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/phone-lock.svg",
+        "filled": "icons/filled/phone-lock.svg",
+        "duocolor": "icons/duocolor/phone-lock.svg",
+        "duotone": "icons/duotone/phone-lock.svg"
+      },
+      "sha256": {
+        "regular": "dde42e5e416521b8616b7658d1c188d24945be0c250b2a53677b785d3cff037b",
+        "filled": "8fbac7cf2254253070c4d329f69f2447225fcd0b1f004967e9c97c7162c60e38",
+        "duocolor": "b56cb51e78dd3ddbbba8945a9744194cfc41d0a4646615a245e1f5626b8a705b",
+        "duotone": "c6269ea27300a3470716f3d5ec6273695b7fda83c0e95da424e1a39e10ec00fa"
       },
       "duoAuthoring": {
         "version": 2,
@@ -58624,6 +60079,112 @@
       }
     },
     {
+      "name": "shield-alert",
+      "category": "Security",
+      "tags": [
+        "warning",
+        "threat",
+        "danger",
+        "risk",
+        "attention",
+        "caution"
+      ],
+      "aliases": [],
+      "componentSet": "169:95063",
+      "source": {
+        "regular": "169:95036",
+        "filled": "169:95040",
+        "duocolor": "169:95053",
+        "duotone": "169:95057"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/shield-alert.svg",
+        "filled": "icons/filled/shield-alert.svg",
+        "duocolor": "icons/duocolor/shield-alert.svg",
+        "duotone": "icons/duotone/shield-alert.svg"
+      },
+      "sha256": {
+        "regular": "02f164e66b590998644db058aa5943ddc31a9854f737eb623fe4e089640b00a2",
+        "filled": "c90091dd8ccc0a1b5f426cc5896ef96c502f693539c9a3feb4fb59695e8bf5e9",
+        "duocolor": "e5cc54475c06891697a8151a03b3b5763f2f3a9384769b9978726a75e1374f9b",
+        "duotone": "50a3a98bd3f666bbee30efd351e548d53bda498cb2a9198a046793eba4870496"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "shield-block",
+      "category": "Security",
+      "tags": [
+        "blocked",
+        "ad blocker",
+        "forbidden",
+        "prevent",
+        "deny",
+        "stop"
+      ],
+      "aliases": [],
+      "componentSet": "169:95092",
+      "source": {
+        "regular": "169:95064",
+        "filled": "169:95068",
+        "duocolor": "169:95082",
+        "duotone": "169:95086"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/shield-block.svg",
+        "filled": "icons/filled/shield-block.svg",
+        "duocolor": "icons/duocolor/shield-block.svg",
+        "duotone": "icons/duotone/shield-block.svg"
+      },
+      "sha256": {
+        "regular": "a836f2a432122bbeda6663816c72d71566b9189174ec08a3b8447cc8a77dd19e",
+        "filled": "d2b678315f21f645fbfe1e47183ad77b4bcd8aeedab6a49b8887eaa50e526e48",
+        "duocolor": "e0e46d6565dd4efd06be54a6fb68bd6fc34e1e4287c20e0dd28926e121c4d920",
+        "duotone": "8269527efb74beec85852cf77fda14feedd7750e5e2c8418442ae57bc141a59d"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "shield-dollar",
       "category": "Security",
       "tags": [
@@ -58667,6 +60228,58 @@
         "duocolor": {
           "contours": 3,
           "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "shield-dots",
+      "category": "Security",
+      "tags": [
+        "pending",
+        "secure chat",
+        "processing",
+        "encrypted message",
+        "waiting"
+      ],
+      "aliases": [],
+      "componentSet": "169:95123",
+      "source": {
+        "regular": "169:95093",
+        "filled": "169:95098",
+        "duocolor": "169:95111",
+        "duotone": "169:95116"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/shield-dots.svg",
+        "filled": "icons/filled/shield-dots.svg",
+        "duocolor": "icons/duocolor/shield-dots.svg",
+        "duotone": "icons/duotone/shield-dots.svg"
+      },
+      "sha256": {
+        "regular": "83774fcba1b9016c3bd114dec6b28904027a3e91abe2cddbfb3bcfe51257eef5",
+        "filled": "c7f3616038d5d6245138013199b5a9e49c6c14bef693b90e993ba4a82ef644cc",
+        "duocolor": "325365e08f846bd2a59ecf1ca6bb703a6028ec29ea8d5e9250277636e8eec4c9",
+        "duotone": "77cdd279416d4cddf3b03ee0af11972bfeee3c30bfca765d51c8ab7d139dd927"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -58893,6 +60506,58 @@
       }
     },
     {
+      "name": "shield-star",
+      "category": "Security",
+      "tags": [
+        "premium",
+        "favorite",
+        "trusted",
+        "verified",
+        "rating"
+      ],
+      "aliases": [],
+      "componentSet": "169:95147",
+      "source": {
+        "regular": "169:95124",
+        "filled": "169:95127",
+        "duocolor": "169:95139",
+        "duotone": "169:95142"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/shield-star.svg",
+        "filled": "icons/filled/shield-star.svg",
+        "duocolor": "icons/duocolor/shield-star.svg",
+        "duotone": "icons/duotone/shield-star.svg"
+      },
+      "sha256": {
+        "regular": "27ef721a143195a9b4a4011020df71d0366f2de7a26036302650ce0503a77dfb",
+        "filled": "cc0517cbd7ab0a2bb89d26690863db32a48b42e3040e432e9b90f567371a6652",
+        "duocolor": "df7238d0dc75bfffcd1b89b91bdc49d6851b9fea485aa8ec90eb5474a8104ed0",
+        "duotone": "f4b08234f542d3bbf521afd1a7eda63c10ae3e36f90d2f4a1eb1da3670b228c6"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "shield-tick",
       "category": "Security",
       "tags": [
@@ -58936,6 +60601,110 @@
         "duocolor": {
           "contours": 2,
           "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "shield-user",
+      "category": "Security",
+      "tags": [
+        "account protection",
+        "identity",
+        "privacy",
+        "profile",
+        "guard"
+      ],
+      "aliases": [],
+      "componentSet": "169:95176",
+      "source": {
+        "regular": "169:95148",
+        "filled": "169:95152",
+        "duocolor": "169:95166",
+        "duotone": "169:95170"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/shield-user.svg",
+        "filled": "icons/filled/shield-user.svg",
+        "duocolor": "icons/duocolor/shield-user.svg",
+        "duotone": "icons/duotone/shield-user.svg"
+      },
+      "sha256": {
+        "regular": "ed5e6c024cf2025cda6d4aa5d2a810721f8e939b841714f5618939ca9c59705f",
+        "filled": "c3435f895d778d8fd28b7474d1467d3bac8835667556999f7641da1eb20c2ae3",
+        "duocolor": "176d34943f46749a6011f8e13249b8bdb53258c8defb69a2fb313fb279b57512",
+        "duotone": "5e14e9f6339b19ff1e50391113f6c910a7b5613bd07e6fcbdcbe560c812e8dc0"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "shield-wifi",
+      "category": "Security",
+      "tags": [
+        "secure network",
+        "vpn",
+        "wireless",
+        "hotspot",
+        "protected connection"
+      ],
+      "aliases": [],
+      "componentSet": "169:95204",
+      "source": {
+        "regular": "169:95177",
+        "filled": "169:95181",
+        "duocolor": "169:95194",
+        "duotone": "169:95198"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/shield-wifi.svg",
+        "filled": "icons/filled/shield-wifi.svg",
+        "duocolor": "icons/duocolor/shield-wifi.svg",
+        "duotone": "icons/duotone/shield-wifi.svg"
+      },
+      "sha256": {
+        "regular": "1830cb01400abaa74d9c825eefb1e02184d2aec879c7edef81df200f7c30eece",
+        "filled": "2b86d8f19cab5ba2e13954bb23df470fb32c5d116eb01e7f4c38c6260cfcfc4c",
+        "duocolor": "3e6c3b8fd01e6371269da1a3468f5d352020971d8b0bf66a00cb5753be99493a",
+        "duotone": "68a05d77b99442019505afc6bf55a902f40ba1805581ea41058c773160cd165d"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -59378,6 +61147,58 @@
       }
     },
     {
+      "name": "signature",
+      "category": "Security",
+      "tags": [
+        "sign",
+        "contract",
+        "agreement",
+        "e-sign",
+        "document"
+      ],
+      "aliases": [],
+      "componentSet": "169:95238",
+      "source": {
+        "regular": "169:95205",
+        "filled": "169:95210",
+        "duocolor": "169:95226",
+        "duotone": "169:95231"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/signature.svg",
+        "filled": "icons/filled/signature.svg",
+        "duocolor": "icons/duocolor/signature.svg",
+        "duotone": "icons/duotone/signature.svg"
+      },
+      "sha256": {
+        "regular": "ebdd327754c667fd582b9c876b21265cea828dbc7e5f37594ade4306df285f1f",
+        "filled": "7acf72e8005f6ff0c4c752bdaf389fb58114e6fe0b4ef24adff854c8d4b94c7d",
+        "duocolor": "4dddb1ada1cb3ba2ac7bc22f0f28e158a80ceb235ad06fc31428bde232f938fe",
+        "duotone": "7491df0a3e0750dded2aa6bb243328a6fb896883f2710fdad025360da6322b82"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "simcard",
       "category": "Media & devices",
       "tags": [
@@ -59415,6 +61236,58 @@
         "filled": "3ade6ebdcbecec62d0a2e384955b0875c6d07a84c0c4c3dfd3c04b8c059cf824",
         "duocolor": "8c5ce3f033079a1c84ea0e428834ec42dabbe94dc3ed6583d843c52de7d9ddb4",
         "duotone": "581f11d44aa55a734276a934318cc3b4e727a428a672bf2d0579f2c22b96c4f9"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "siren",
+      "category": "Security",
+      "tags": [
+        "alarm",
+        "emergency",
+        "alert",
+        "police light",
+        "beacon"
+      ],
+      "aliases": [],
+      "componentSet": "169:95274",
+      "source": {
+        "regular": "169:95239",
+        "filled": "169:95244",
+        "duocolor": "169:95261",
+        "duotone": "169:95266"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/siren.svg",
+        "filled": "icons/filled/siren.svg",
+        "duocolor": "icons/duocolor/siren.svg",
+        "duotone": "icons/duotone/siren.svg"
+      },
+      "sha256": {
+        "regular": "1be023912800d41c8d8df79c9162d49d2b7d058ca93d1ed19f08cdcf39602481",
+        "filled": "ec17fcc64c9590612d6a119e10e9bf49fe6f1d50cc9435d809ada4d8244dfae4",
+        "duocolor": "a389e6787a893c12d73c9074185fab1560d17b64d47a6a42588a694a369deb3f",
+        "duotone": "d6e811aece7d92f51f2eca3a82180e6036777e6b786f91739801e0ccf357a575"
       },
       "duoAuthoring": {
         "version": 2,
@@ -67302,6 +69175,58 @@
         },
         "duotone": {
           "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "usb-lock",
+      "category": "Security",
+      "tags": [
+        "encrypted drive",
+        "flash drive",
+        "storage",
+        "thumb drive",
+        "secure media"
+      ],
+      "aliases": [],
+      "componentSet": "169:95316",
+      "source": {
+        "regular": "169:95275",
+        "filled": "169:95282",
+        "duocolor": "169:95300",
+        "duotone": "169:95307"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/usb-lock.svg",
+        "filled": "icons/filled/usb-lock.svg",
+        "duocolor": "icons/duocolor/usb-lock.svg",
+        "duotone": "icons/duotone/usb-lock.svg"
+      },
+      "sha256": {
+        "regular": "3b19f9348c76973077494a61f6ddf86807391b17004cafb0403e0b077dada0e5",
+        "filled": "b51a8f3313fc82b8eaf738b61aa16c56e057c30b7181e67b2c3e22b30a131a0b",
+        "duocolor": "9b9bc0c0184dc28e94959dee8f238b0c09f0f56846e3e298292d560c86b1afb0",
+        "duotone": "322f47603838c828a3e7907b58f2e1ce99be60fcc13ef623cacc3397125674c8"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }

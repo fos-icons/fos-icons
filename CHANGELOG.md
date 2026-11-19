@@ -24,6 +24,24 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- 36 Security icons in all four styles, bringing the library to 1,355 icons
+  and 5,420 SVGs, and the Security category from 22 to 58 icons.
+  - Shields: `shield-alert`, `shield-dots`, `shield-wifi`, `shield-block`,
+    `shield-user`, `shield-star`, `bug-shield`.
+  - Locks: `lock-dots`, plus the presets `lock-check`, `lock-plus`,
+    `lock-minus`, `lock-x`, and `lock-question`.
+  - Biometrics: `fingerprint-scan`, `iris-scan`, and the presets
+    `fingerprint-check`, `fingerprint-plus`, `fingerprint-minus`, and
+    `fingerprint-x`.
+  - Identity: `id-card`, `id-badge`, `key-card`, and the preset
+    `id-card-check`.
+  - Devices: `phone-lock`, `monitor-lock`, `monitor-shield`, `laptop-shield`,
+    `usb-lock`.
+  - Threats and credentials: `cctv-camera`, `firewall`, `incognito`, `siren`,
+    `encryption`, `password-manager`, `key-skeleton`, `signature`.
+  The ten presets reuse the shared modifier badges, bringing the catalog to
+  119 presets.
+
 - 39 Navigation icons in all four styles, bringing the library to 1,319 icons
   and 5,276 SVGs.
   - Arrows: `arrow-up-to-line`, `arrow-down-to-line`, `arrow-left-to-line`,
