@@ -10,12 +10,12 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1280,
+  "iconCount": 1319,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
     "exportedOn": "2026-11-11",
-    "componentPairs": 1284,
+    "componentPairs": 1323,
     "excludedBrands": [
       "chrome-cast",
       "figma",
@@ -3878,6 +3878,59 @@
       }
     },
     {
+      "name": "arrow-down-to-line",
+      "category": "Navigation",
+      "tags": [
+        "bottom",
+        "end",
+        "download",
+        "last",
+        "jump",
+        "south"
+      ],
+      "aliases": [],
+      "componentSet": "166:89447",
+      "source": {
+        "regular": "166:89423",
+        "filled": "166:89427",
+        "duocolor": "166:89439",
+        "duotone": "166:89443"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrow-down-to-line.svg",
+        "filled": "icons/filled/arrow-down-to-line.svg",
+        "duocolor": "icons/duocolor/arrow-down-to-line.svg",
+        "duotone": "icons/duotone/arrow-down-to-line.svg"
+      },
+      "sha256": {
+        "duocolor": "b199a8d0a301442899f0788076c0657bb2fbddf5cf538309d4231f8dd8c5e262",
+        "duotone": "924e8649f81c4f9a18cbaeff03f43bd7a3d21444f9c49df38d6915e91279d4b7",
+        "filled": "cf873112f41a731cd91bc39350f1df1a4be439285b4ac628448e7906e18c49e6",
+        "regular": "ccf51591a7bc72205eb03e3da153305ffaa65a1904d947f1fdd3b5059ae905dc"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "arrow-enter",
       "category": "Navigation",
       "tags": [
@@ -4038,6 +4091,59 @@
       }
     },
     {
+      "name": "arrow-left-to-line",
+      "category": "Navigation",
+      "tags": [
+        "start",
+        "beginning",
+        "first",
+        "jump",
+        "west",
+        "home"
+      ],
+      "aliases": [],
+      "componentSet": "166:89472",
+      "source": {
+        "regular": "166:89448",
+        "filled": "166:89452",
+        "duocolor": "166:89464",
+        "duotone": "166:89468"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrow-left-to-line.svg",
+        "filled": "icons/filled/arrow-left-to-line.svg",
+        "duocolor": "icons/duocolor/arrow-left-to-line.svg",
+        "duotone": "icons/duotone/arrow-left-to-line.svg"
+      },
+      "sha256": {
+        "duocolor": "515b42730a13245323952afbbf1579cf558959449e030b743e4984cc6c88b1ca",
+        "duotone": "e16e15e7c934b4f0f1e642463077b2d0f460b77e0661f5b6b552db9d708c151c",
+        "filled": "01bf31ac92f7fd4c65ee7876209ff03db02229d0dc688cb7d77bf515c575ca8a",
+        "regular": "a8341344272269badbafed0d0d370927b5bb565491502dc065e3cc24e4a3c4b1"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "arrow-merge",
       "category": "Navigation",
       "tags": [
@@ -4135,6 +4241,59 @@
         "duocolor": {
           "contours": 2,
           "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "arrow-right-to-line",
+      "category": "Navigation",
+      "tags": [
+        "end",
+        "last",
+        "finish",
+        "jump",
+        "east",
+        "tab"
+      ],
+      "aliases": [],
+      "componentSet": "166:89497",
+      "source": {
+        "regular": "166:89473",
+        "filled": "166:89477",
+        "duocolor": "166:89489",
+        "duotone": "166:89493"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrow-right-to-line.svg",
+        "filled": "icons/filled/arrow-right-to-line.svg",
+        "duocolor": "icons/duocolor/arrow-right-to-line.svg",
+        "duotone": "icons/duotone/arrow-right-to-line.svg"
+      },
+      "sha256": {
+        "duocolor": "5f944488238798b11d7f01287450610356bee56e1f1432dbf4f318657b04b5c8",
+        "duotone": "4abba13ae06b584f693884548b5cc3ce8cd1249802655e13b97ecf65f4fe10d6",
+        "filled": "5d939f231818b9dbc1fe8dacf761f54c52876a9c3a519730c8344e81c04f43fb",
+        "regular": "419f1392f1f6bfe20aea438707aaf9eadc80bf90e88621f864ce501050b2a7ea"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -5309,6 +5468,111 @@
       }
     },
     {
+      "name": "arrow-up-to-line",
+      "category": "Navigation",
+      "tags": [
+        "top",
+        "start",
+        "upload",
+        "first",
+        "jump",
+        "north"
+      ],
+      "aliases": [],
+      "componentSet": "166:89522",
+      "source": {
+        "regular": "166:89498",
+        "filled": "166:89502",
+        "duocolor": "166:89514",
+        "duotone": "166:89518"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrow-up-to-line.svg",
+        "filled": "icons/filled/arrow-up-to-line.svg",
+        "duocolor": "icons/duocolor/arrow-up-to-line.svg",
+        "duotone": "icons/duotone/arrow-up-to-line.svg"
+      },
+      "sha256": {
+        "duocolor": "25fd6256070e13240b31305c70417d6273a964d45883225efdbfce3c9c2a1b66",
+        "duotone": "fc25ce6f00df73c45600d8e71c16a17989bd5f6421907e8ad4f9883c5c8b50cf",
+        "filled": "3a0bfd3d34a91a36d7792552a5263557dda8eb2b4639405b0316fcfc98862401",
+        "regular": "cd6af37443adab991cf2b0766f41e94d653e9c963827d5daf52055d7bf7e66e2"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "arrow-uturn-down",
+      "category": "Navigation",
+      "tags": [
+        "turn back",
+        "return",
+        "reverse",
+        "loop",
+        "bend"
+      ],
+      "aliases": [],
+      "componentSet": "166:89542",
+      "source": {
+        "regular": "166:89523",
+        "filled": "166:89526",
+        "duocolor": "166:89536",
+        "duotone": "166:89539"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrow-uturn-down.svg",
+        "filled": "icons/filled/arrow-uturn-down.svg",
+        "duocolor": "icons/duocolor/arrow-uturn-down.svg",
+        "duotone": "icons/duotone/arrow-uturn-down.svg"
+      },
+      "sha256": {
+        "duocolor": "b666bc0f6c9a0509bc41a0f96c8ab24452542df996f4911699b1efece99cca0d",
+        "duotone": "6776dc29ac275d47a2e974d57d4beebcf9e054434bcb1e86a4d4c70d03073b4c",
+        "filled": "ab474469cd0181a5bbe2e6341ce7faaf3a3769147f7dca71a27fd101d6bd4412",
+        "regular": "8968f6a19d64e97a748d8032da41f48ce13876ca2ef25c004b82af5e3e99c1bb"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "arrow-uturn-left",
       "category": "Navigation",
       "tags": [
@@ -5405,6 +5669,217 @@
         "duocolor": {
           "contours": 2,
           "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "arrow-uturn-up",
+      "category": "Navigation",
+      "tags": [
+        "turn back",
+        "return",
+        "reverse",
+        "loop",
+        "bend"
+      ],
+      "aliases": [],
+      "componentSet": "166:89562",
+      "source": {
+        "regular": "166:89543",
+        "filled": "166:89546",
+        "duocolor": "166:89556",
+        "duotone": "166:89559"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrow-uturn-up.svg",
+        "filled": "icons/filled/arrow-uturn-up.svg",
+        "duocolor": "icons/duocolor/arrow-uturn-up.svg",
+        "duotone": "icons/duotone/arrow-uturn-up.svg"
+      },
+      "sha256": {
+        "duocolor": "2bddba635b4fa58264056484d1682f1dcb10abe3f21275c05f015a4819eaf565",
+        "duotone": "f7a18b38f5e59e31b65f70ff3b3f2adc22554d488c3c1221cd96b78f0954046a",
+        "filled": "a655e9b37bff39adc136266fbd4719f8da71cf8fda80d046d56d5af3aaf6baca",
+        "regular": "820c95702ad647c58686810774958d02f881fb9cc3651b7a448e1cb10af1f15a"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "arrow-wave-right",
+      "category": "Navigation",
+      "tags": [
+        "squiggle",
+        "flow",
+        "signal",
+        "path",
+        "wavy",
+        "journey"
+      ],
+      "aliases": [],
+      "componentSet": "166:89587",
+      "source": {
+        "regular": "166:89563",
+        "filled": "166:89567",
+        "duocolor": "166:89579",
+        "duotone": "166:89583"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrow-wave-right.svg",
+        "filled": "icons/filled/arrow-wave-right.svg",
+        "duocolor": "icons/duocolor/arrow-wave-right.svg",
+        "duotone": "icons/duotone/arrow-wave-right.svg"
+      },
+      "sha256": {
+        "duocolor": "358f82afe79a8fe4233bfce5e48ba9d8fedfafdbe6de5d9c9c15152aa47ed055",
+        "duotone": "3db8d8dfdce67917b51fdd3c82008189a1a08e9ae6f7a95245f25ada2fca383f",
+        "filled": "0ef8f64543ad886d65a916ee8229a24ac991a89c36b2aff9fe072c5979d8be1d",
+        "regular": "e301a903a2c61667067e7f02ab655598ea6ab5912e89bf96e8b53067eba4a650"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "arrows-diagonal",
+      "category": "Navigation",
+      "tags": [
+        "expand",
+        "resize",
+        "scale",
+        "fullscreen",
+        "enlarge",
+        "stretch"
+      ],
+      "aliases": [],
+      "componentSet": "166:89612",
+      "source": {
+        "regular": "166:89588",
+        "filled": "166:89592",
+        "duocolor": "166:89604",
+        "duotone": "166:89608"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrows-diagonal.svg",
+        "filled": "icons/filled/arrows-diagonal.svg",
+        "duocolor": "icons/duocolor/arrows-diagonal.svg",
+        "duotone": "icons/duotone/arrows-diagonal.svg"
+      },
+      "sha256": {
+        "duocolor": "87aeb705333f64e8f5e5209374ec8842f1414d48a8fc9b905ee14ff2629ab29f",
+        "duotone": "d762fcd7e8c7c47bf88984c2047630d797ca2ea44264e904c471909601cd1d8c",
+        "filled": "fed8d71a90848058f68c2edfa6795a68e607224583021eb9bf25ff2a4de0f357",
+        "regular": "7254e0ca12d2603e76212246f6390915a681e4d02b2eeff44c524d360e0a38f2"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "arrows-diagonal-reverse",
+      "category": "Navigation",
+      "tags": [
+        "expand",
+        "resize",
+        "scale",
+        "fullscreen",
+        "enlarge",
+        "stretch"
+      ],
+      "aliases": [],
+      "componentSet": "166:89637",
+      "source": {
+        "regular": "166:89613",
+        "filled": "166:89617",
+        "duocolor": "166:89629",
+        "duotone": "166:89633"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrows-diagonal-reverse.svg",
+        "filled": "icons/filled/arrows-diagonal-reverse.svg",
+        "duocolor": "icons/duocolor/arrows-diagonal-reverse.svg",
+        "duotone": "icons/duotone/arrows-diagonal-reverse.svg"
+      },
+      "sha256": {
+        "duocolor": "0d4f5e1ad5dd8714260ad87f6760dd17eab9f4433429625233d274fc474357d4",
+        "duotone": "e9901c2d5a033ac73e9e72092cdca6b7bf39737551acb1ae896756d79b91dfaa",
+        "filled": "295757c4b8905d1a0a195a747878e951c68712454d183913b1df42c485f677c0",
+        "regular": "46ef4252e950b9f6515169a00fa0c9786f93d375c3770257e57e5167d2ece794"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 0,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -7386,6 +7861,59 @@
       }
     },
     {
+      "name": "barn",
+      "category": "Navigation",
+      "tags": [
+        "farm",
+        "agriculture",
+        "rural",
+        "stable",
+        "countryside",
+        "ranch"
+      ],
+      "aliases": [],
+      "componentSet": "166:89675",
+      "source": {
+        "regular": "166:89638",
+        "filled": "166:89644",
+        "duocolor": "166:89661",
+        "duotone": "166:89667"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/barn.svg",
+        "filled": "icons/filled/barn.svg",
+        "duocolor": "icons/duocolor/barn.svg",
+        "duotone": "icons/duotone/barn.svg"
+      },
+      "sha256": {
+        "duocolor": "81a538cc5936c2ec8db380146aee22fdb327b90d88ac2264df8364ccbafec328",
+        "duotone": "18319c7c0d4bf85b6576d6dab1a515003ecab9b6565490d086e0238d6cf16afa",
+        "filled": "cb41d8af47362d8aa54457dbf098aab4c0432a6e1efb70cc9f084474df20b125",
+        "regular": "b57f08701ea3ea63a739020ff5e886d2741f59a05b32992a6c126a3867b41334"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "bat-baseball",
       "category": "Sports & fitness",
       "tags": [
@@ -7752,6 +8280,59 @@
         },
         "duotone": {
           "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "beach-umbrella",
+      "category": "Navigation",
+      "tags": [
+        "parasol",
+        "summer",
+        "vacation",
+        "holiday",
+        "seaside",
+        "shade"
+      ],
+      "aliases": [],
+      "componentSet": "166:89709",
+      "source": {
+        "regular": "166:89676",
+        "filled": "166:89681",
+        "duocolor": "166:89697",
+        "duotone": "166:89702"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/beach-umbrella.svg",
+        "filled": "icons/filled/beach-umbrella.svg",
+        "duocolor": "icons/duocolor/beach-umbrella.svg",
+        "duotone": "icons/duotone/beach-umbrella.svg"
+      },
+      "sha256": {
+        "duocolor": "032386bb202d3d9354b6885bb738a1366b25301cca87c523121cd6938315ad78",
+        "duotone": "882a5111cf8e50cdc166675abf69dbe0f199ab6a8ec432993b2a7d379d1577d3",
+        "filled": "51f2154ab2779ef209036218e7420603fa0126d7a3fece4ab2687b2756ce0530",
+        "regular": "e047c4dad4af642f112194c4c0f600842db416295db73d7304e032bee663e2c1"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -10325,6 +10906,59 @@
       }
     },
     {
+      "name": "bridge",
+      "category": "Navigation",
+      "tags": [
+        "crossing",
+        "suspension",
+        "river",
+        "connection",
+        "span",
+        "infrastructure"
+      ],
+      "aliases": [],
+      "componentSet": "166:89739",
+      "source": {
+        "regular": "166:89710",
+        "filled": "166:89715",
+        "duocolor": "166:89729",
+        "duotone": "166:89734"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/bridge.svg",
+        "filled": "icons/filled/bridge.svg",
+        "duocolor": "icons/duocolor/bridge.svg",
+        "duotone": "icons/duotone/bridge.svg"
+      },
+      "sha256": {
+        "duocolor": "5f4e31ad8e0c6c57862986f6f9457ba9602415f8fdf2de1b961115cb34f3f438",
+        "duotone": "862e1ba03e716cac45f4e8bd2e1febd9c85dea6323bb682777f5466b14ea96fc",
+        "filled": "e39cdc9a74cad1a6dc66c2de0ad8e79b32e2681a7b2228a3d0250c3bd143684a",
+        "regular": "e9ffa33eeb84048e6cc2bffcb6085db318aa856247f100514e98c7a513401d27"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "briefcase",
       "category": "Workspace",
       "tags": [
@@ -10614,10 +11248,10 @@
         "duotone": "icons/duotone/building.svg"
       },
       "sha256": {
-        "regular": "3a5fe38bc8fd0b3192493ba08331e56fc87d50ec7fdb35e36d8f825db2d22215",
-        "filled": "bd532d4fc1559744e5a887c2b9ce004a448b0973555caa82b52bae568781db8b",
-        "duocolor": "97f5fcbb76d0dea73d9beb06de9d20000a12213161030a4c381f1f99afd60867",
-        "duotone": "498da7dd3c07939647b4dfe93ff9be2db4e1fdb5cc06989eace8cf2161d8d71c"
+        "regular": "4b157d0596d73444ccd66bdbaf174ea83c63ab4c6f1e9208fbc7abba2a533727",
+        "filled": "dc7d154b04d9ecc3a4da234b99b28efbceeb70b602b9b5f2a2be17aa11f974bb",
+        "duocolor": "26b769becdfa034d0e43d824f899ac560ac06e38034534ea3aeae96d144601b9",
+        "duotone": "e302104c5127f7137d44089a7610d4fc02fb1fb6fca06da7254b982cdee004ce"
       },
       "duoAuthoring": {
         "version": 2,
@@ -10629,6 +11263,59 @@
         },
         "duotone": {
           "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "building-apartment",
+      "category": "Navigation",
+      "tags": [
+        "flats",
+        "residential",
+        "housing",
+        "condo",
+        "home",
+        "block"
+      ],
+      "aliases": [],
+      "componentSet": "166:89799",
+      "source": {
+        "regular": "166:89740",
+        "filled": "166:89752",
+        "duocolor": "166:89773",
+        "duotone": "166:89785"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/building-apartment.svg",
+        "filled": "icons/filled/building-apartment.svg",
+        "duocolor": "icons/duocolor/building-apartment.svg",
+        "duotone": "icons/duotone/building-apartment.svg"
+      },
+      "sha256": {
+        "duocolor": "43cde637ecedde140ecfd0f0f7d77e845bc6b24749ca6024d45330a1a686dced",
+        "duotone": "af1862158ba8123329f8a1413dc559e868939cb585eeb9d7695469bc33b90d70",
+        "filled": "afc8f33cbc36826a4814954a9fd46fb0b90d93e74ed3219d17e3da88ba59117c",
+        "regular": "0ed22e29480dcb75d3efffeb904a1fe4afa68766795f4ca14128d43bb34c08b6"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 11,
+          "accents": 10,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -10688,6 +11375,59 @@
       }
     },
     {
+      "name": "building-office",
+      "category": "Navigation",
+      "tags": [
+        "company",
+        "headquarters",
+        "business",
+        "workplace",
+        "corporate",
+        "commercial"
+      ],
+      "aliases": [],
+      "componentSet": "166:89866",
+      "source": {
+        "regular": "166:89800",
+        "filled": "166:89813",
+        "duocolor": "166:89837",
+        "duotone": "166:89850"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/building-office.svg",
+        "filled": "icons/filled/building-office.svg",
+        "duocolor": "icons/duocolor/building-office.svg",
+        "duotone": "icons/duotone/building-office.svg"
+      },
+      "sha256": {
+        "duocolor": "e4d81a4e0fd711b0973d2977dd6463fb57612298bcb58bf8b2dd07cf9821e41c",
+        "duotone": "9a4c39fad9e32a26826549ff96bac7096ec80f03c62a9e8f3a9e409070c878b1",
+        "filled": "82fe082998dd71e40ecd1a8c93802ff3ca2e9888d7ed4857cff7aa135e4f1ca6",
+        "regular": "00d1df35797a19fafaebcdb93dd09be122636b23da7f004731d754813066468d"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 12,
+          "accents": 11,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "building-store",
       "category": "Navigation",
       "tags": [
@@ -10735,6 +11475,59 @@
         },
         "duotone": {
           "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "buildings",
+      "category": "Navigation",
+      "tags": [
+        "city",
+        "skyline",
+        "offices",
+        "urban",
+        "downtown",
+        "company"
+      ],
+      "aliases": [],
+      "componentSet": "166:89937",
+      "source": {
+        "regular": "166:89867",
+        "filled": "166:89881",
+        "duocolor": "166:89906",
+        "duotone": "166:89920"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/buildings.svg",
+        "filled": "icons/filled/buildings.svg",
+        "duocolor": "icons/duocolor/buildings.svg",
+        "duotone": "icons/duotone/buildings.svg"
+      },
+      "sha256": {
+        "duocolor": "6e4599fe0b749c25c5fcc80f2c1c39bc4e81e0b3024f2200ca5d293b996481d6",
+        "duotone": "168954ce5525398a305089f541b1291aff2e714de13a90294e4fd95d9cb00e5a",
+        "filled": "c527882f9c7d85da41ccdbbfef29a1f725f61a2f08ef3806cf1d20f546502331",
+        "regular": "9aa9b2987041df58844a42ed0b116ea14d5aab522577b2e1a248cd7746aed5fe"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 13,
+          "accents": 11,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -13583,6 +14376,59 @@
       }
     },
     {
+      "name": "castle",
+      "category": "Navigation",
+      "tags": [
+        "fortress",
+        "palace",
+        "kingdom",
+        "medieval",
+        "fort",
+        "tower"
+      ],
+      "aliases": [],
+      "componentSet": "166:89973",
+      "source": {
+        "regular": "166:89938",
+        "filled": "166:89944",
+        "duocolor": "166:89959",
+        "duotone": "166:89965"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/castle.svg",
+        "filled": "icons/filled/castle.svg",
+        "duocolor": "icons/duocolor/castle.svg",
+        "duotone": "icons/duotone/castle.svg"
+      },
+      "sha256": {
+        "duocolor": "40122780dc3dc1c37edd20e2cc54d16e46a234a9a668e22f2579080a3b465bb6",
+        "duotone": "5eb230318c63d8f3092758732c4a3a106b11fc5f49a0a90e8b43e6a4a665510f",
+        "filled": "401e7e7c14a154bab2b1ce7b59199a276b8a15b2a17e3036dec3bdb1e25e626d",
+        "regular": "9ee2866dcf1f0d9f68064f69206a29ce738ae2588647039f92ae5347fee0669c"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "cat",
       "category": "Nature & animals",
       "tags": [
@@ -15652,6 +16498,216 @@
       }
     },
     {
+      "name": "chevron-circle-down",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "expand",
+        "dropdown",
+        "open",
+        "disclosure",
+        "button"
+      ],
+      "aliases": [],
+      "componentSet": "166:89997",
+      "source": {
+        "regular": "166:89974",
+        "filled": "166:89977",
+        "duocolor": "166:89989",
+        "duotone": "166:89992"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-circle-down.svg",
+        "filled": "icons/filled/chevron-circle-down.svg",
+        "duocolor": "icons/duocolor/chevron-circle-down.svg",
+        "duotone": "icons/duotone/chevron-circle-down.svg"
+      },
+      "sha256": {
+        "duocolor": "c46c5d74cb502fe53f52739743f66e36f1f34982d7620681364183b781b10283",
+        "duotone": "f13038747182cd4eaae30c1002dc485185786828191cde7d5a2011c4f6135bd3",
+        "filled": "b21af84bb43f1836b757ba4aa6ff7aea88c6c998f9f08024974b7305441ff442",
+        "regular": "940971882fdbe5d52f3ccf2f6f88598016f40e15bc1992db2b28074d937472fc"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-circle-left",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "back",
+        "previous",
+        "button",
+        "return"
+      ],
+      "aliases": [],
+      "componentSet": "166:90021",
+      "source": {
+        "regular": "166:89998",
+        "filled": "166:90001",
+        "duocolor": "166:90013",
+        "duotone": "166:90016"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-circle-left.svg",
+        "filled": "icons/filled/chevron-circle-left.svg",
+        "duocolor": "icons/duocolor/chevron-circle-left.svg",
+        "duotone": "icons/duotone/chevron-circle-left.svg"
+      },
+      "sha256": {
+        "duocolor": "b279d67e55c97e32eb038f6149a3dad76c9185eeb5ae269c3d1ab8c67d93a8c6",
+        "duotone": "ed1c911f74deabecd8a2a64bca19d7e6958225e5809ed738718be0c14de6a277",
+        "filled": "5554f2833176cfca6bb7f8a5f9d4d8c6e17089d65b04abe879cc5426c9967ec5",
+        "regular": "f8cc836ed49395dccfbcd6f05c8da82d2bb801d86d93bacc73d046c9c273f639"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-circle-right",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "next",
+        "forward",
+        "button",
+        "continue"
+      ],
+      "aliases": [],
+      "componentSet": "166:90045",
+      "source": {
+        "regular": "166:90022",
+        "filled": "166:90025",
+        "duocolor": "166:90037",
+        "duotone": "166:90040"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-circle-right.svg",
+        "filled": "icons/filled/chevron-circle-right.svg",
+        "duocolor": "icons/duocolor/chevron-circle-right.svg",
+        "duotone": "icons/duotone/chevron-circle-right.svg"
+      },
+      "sha256": {
+        "duocolor": "8f32ba9cfc30cca6a3ca6fd95620f111ef7de9321e432574cd24cca929c74a53",
+        "duotone": "7601b22e0db96d14f801df21b32fe943155833471e9465304f890746a7a2a08a",
+        "filled": "0c67b58a64081d62b69289122aa396389523372ef678514df44533ed173fc3b3",
+        "regular": "738162302095b3f029c35e954829cc63221ef4e0fbfee0002b747541a8ca372c"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-circle-up",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "collapse",
+        "close",
+        "disclosure",
+        "button",
+        "top"
+      ],
+      "aliases": [],
+      "componentSet": "166:90069",
+      "source": {
+        "regular": "166:90046",
+        "filled": "166:90049",
+        "duocolor": "166:90061",
+        "duotone": "166:90064"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-circle-up.svg",
+        "filled": "icons/filled/chevron-circle-up.svg",
+        "duocolor": "icons/duocolor/chevron-circle-up.svg",
+        "duotone": "icons/duotone/chevron-circle-up.svg"
+      },
+      "sha256": {
+        "duocolor": "d30f40172919e4f6170e20499d553cdedd3c1e11d4498796406e250d7331329d",
+        "duotone": "6b4814086506ae83a62ada162aeee44522cedba64169025d3cc8573119630dd4",
+        "filled": "161c79dfb080b50315e4194a1e6133f1140072feedc9235101ab224a983bb54c",
+        "regular": "433e4d110f5e07421b72dcafd27369f0c929d80f9b5bae0ad0a9d1695e9076bb"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "chevron-down",
       "category": "Navigation",
       "tags": [
@@ -15685,10 +16741,10 @@
         "duotone": "icons/duotone/chevron-down.svg"
       },
       "sha256": {
-        "regular": "421e2c9d230eec75dce926ab82d841711b8c586c6ad0ecfca9afb549308262ea",
-        "filled": "bb1e7ead2a42c3d3379676b8f6e3c357f1f1aa5b605cd27b2f7a1f5a29104441",
-        "duocolor": "e6be70d4bb8802ee4b846acca3b556dfdf07b22f156632737d1ff177e5334d6a",
-        "duotone": "798c28001d75052b929f8d7f2cca047f6c4babcbebe7dc72aa7c8179deb3f21e"
+        "regular": "052b2711b177880cebb15bca15db4e95ec0752e55a99f85d4df575255bb8fe11",
+        "filled": "0cf687c4f1f527e9bdf448444121d3fb7336f23d7896c4dc83e7fc0247b70800",
+        "duocolor": "bddcefe33af284b2fe298eb1c81294ae0d5c203ceb1ce3b5db15406b8d7a8ede",
+        "duotone": "cbb6c58e23710be303a629cdbb2386747949d6a61a0ef899d3ab8480e46d8afc"
       },
       "duoAuthoring": {
         "version": 2,
@@ -15739,10 +16795,10 @@
         "duotone": "icons/duotone/chevron-left.svg"
       },
       "sha256": {
-        "regular": "d4e59707cc7b29841372e0bbe9fc28732b92f85fdd5886367615754d1c517943",
-        "filled": "63dbefa7ac142b92020040f138d41a0a2b1cd7516e0536c49e0e3502521f4446",
-        "duocolor": "567f8e7db2d9b3766d3816b4c5209d1822ccf60fedafe1db44a974acc8492de1",
-        "duotone": "4e66f3d21cefe09e6069dd00e4acb0c38ef35b38afcefe1fb740897e939f4839"
+        "regular": "624ba2f1822cc4ce9257e1c8de8560bdd2ca3f1f1274cfc27900051390a02385",
+        "filled": "00f592cf59e0c8b5bf926b7b79034bfffadda81cce522adbfc3e87c1def1ffb6",
+        "duocolor": "ab52ab88c652cd48b4284a426b4e68e57da52c961877b7313f7bdd30843234c1",
+        "duotone": "5ff9b950f2235252ec2610cb95829dc70cfb75fee41edc3bdec3a389e410be25"
       },
       "duoAuthoring": {
         "version": 2,
@@ -15793,10 +16849,10 @@
         "duotone": "icons/duotone/chevron-right.svg"
       },
       "sha256": {
-        "regular": "842c8258d33de550d92166e538ff61e3299294d0c814205fe40812fddade1792",
-        "filled": "5162fef58e6a52f2ef1929fbd3eb31e3d6ba2bf657f83106c2b921e07b9825b8",
-        "duocolor": "98d8b1b4a3dbc9c353c8c1260c542417a8f3ccabacdcb55ad523aa96453e8bfb",
-        "duotone": "7d9486087d04017445e51d4c40efde8bc24a51fac8356ea68f23134e49cccb60"
+        "regular": "49912bdebed0fe1acd031b2567aced7af9ab8023c06cec8db55428329a854fdc",
+        "filled": "18d121472b480732ae05a78cb0caa24a7040cf914c4eb43d3ebd2e2c9ff1f50d",
+        "duocolor": "a80d6fa1c626818ee2644ef71f0aa694f582a7475e5df9918bbbc60e21c63c15",
+        "duotone": "dd77b55494f520592540ab8cef2c1ac02e439e879647c5b137734b296d761923"
       },
       "duoAuthoring": {
         "version": 2,
@@ -15847,10 +16903,10 @@
         "duotone": "icons/duotone/chevron-selector-horizontal.svg"
       },
       "sha256": {
-        "regular": "b7ace8ef2e5d389d137c5ad95dd300d096ef84d4569e0d1d11aa853011bdc417",
-        "filled": "d604533cd73f2dd7dfcf9d0fefc2f11dc8126cfe652977c0261abe402168d8a2",
-        "duocolor": "9bd8485ecd874e40624cda8b657423e165a7afc54fe9fed012e25988436b284d",
-        "duotone": "86dbb41b40e0bc54edf1d47d9d1a0b6222b92e94ee24cb7c8df5c84dde733475"
+        "regular": "5fda550352dace07a45cd8816483b15825c7ada7cfe493ca1be3bfeff3ecbe46",
+        "filled": "89f3f3f6cf5899126bbcdc7577730a6da8d4df8686a8c9afdc0d8798adfc731b",
+        "duocolor": "0bd03ad81dc45f4a8d6e3126dc2deb28d5ce545bded1a3a1cd2770f31135fa5c",
+        "duotone": "ffb4e7a0f913815fd94b779f29122487a16ad0af38a378e3839a0c773e742e60"
       },
       "duoAuthoring": {
         "version": 2,
@@ -15901,10 +16957,10 @@
         "duotone": "icons/duotone/chevron-selector-vertical.svg"
       },
       "sha256": {
-        "regular": "e6466634520edd3e9305bff88c2e92d92f126bbd608fae6d94e2b033071a3daf",
-        "filled": "305f3cb04395b8070fe0c5ead224aedb0a5a4a460a1d89b8734bb800393f01d0",
-        "duocolor": "29f78f76766e1c68c7e19fb195d7aeb1afa5ea4f656b064ed1626896f0366e64",
-        "duotone": "129392e37eaad5f0ed7b1f90bcf5e92eed568d709e2141bfd3fe370dbb290272"
+        "regular": "929473e06c859dca6ae3be7dcb42d6e8ed08d2580661f83cfa4d84544dbb1b2b",
+        "filled": "90dbadaea562a58d63963e5c0afaf665323b68f92939532b6332fbfac7ccae58",
+        "duocolor": "0190af0d4d44a5fcce8df6035e2fd6dd6ec32d5ba50560a166ca2ef500453c82",
+        "duotone": "1d1ff436fde84b183a1b15d667e29bd02768c53e475c95ea69395b79799227a5"
       },
       "duoAuthoring": {
         "version": 2,
@@ -15916,6 +16972,216 @@
         },
         "duotone": {
           "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-square-down",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "expand",
+        "dropdown",
+        "open",
+        "disclosure",
+        "button"
+      ],
+      "aliases": [],
+      "componentSet": "166:90093",
+      "source": {
+        "regular": "166:90070",
+        "filled": "166:90073",
+        "duocolor": "166:90085",
+        "duotone": "166:90088"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-square-down.svg",
+        "filled": "icons/filled/chevron-square-down.svg",
+        "duocolor": "icons/duocolor/chevron-square-down.svg",
+        "duotone": "icons/duotone/chevron-square-down.svg"
+      },
+      "sha256": {
+        "duocolor": "4b6fde5d9df1887ff6c2c7426701f8fab4ba3ba5f154dd2a7ee3bd3e47ecfdcd",
+        "duotone": "3d7a18245249f38f59cda12ae4fe69234dc4f87cae92b078ca116dc9202a15e8",
+        "filled": "3f62d7753ccb47705f161be0c8f48d68d7d112011f126aee39bbfdb7ba3b7e49",
+        "regular": "15da960d0c3233b0592db1c356fba7488d92bf4109e4c56e79386aae3430d61b"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-square-left",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "back",
+        "previous",
+        "button",
+        "return"
+      ],
+      "aliases": [],
+      "componentSet": "166:90117",
+      "source": {
+        "regular": "166:90094",
+        "filled": "166:90097",
+        "duocolor": "166:90109",
+        "duotone": "166:90112"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-square-left.svg",
+        "filled": "icons/filled/chevron-square-left.svg",
+        "duocolor": "icons/duocolor/chevron-square-left.svg",
+        "duotone": "icons/duotone/chevron-square-left.svg"
+      },
+      "sha256": {
+        "duocolor": "5bbcd7632cb121c900863c1629276926ca689bf71288963dd54bd26d6de6c533",
+        "duotone": "5df23f43394b53aa9551906a14411f5d65fbcc9c392212bdf2104960dbd9f5aa",
+        "filled": "8e46b150369f78197170da2d2346e220b90d265d9b14448b25e81531ded0e67e",
+        "regular": "60e7533fe1de6b47ab9b6ea684278405db323374bf2dbad27d4cfac51e5925f5"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-square-right",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "next",
+        "forward",
+        "button",
+        "continue"
+      ],
+      "aliases": [],
+      "componentSet": "166:90141",
+      "source": {
+        "regular": "166:90118",
+        "filled": "166:90121",
+        "duocolor": "166:90133",
+        "duotone": "166:90136"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-square-right.svg",
+        "filled": "icons/filled/chevron-square-right.svg",
+        "duocolor": "icons/duocolor/chevron-square-right.svg",
+        "duotone": "icons/duotone/chevron-square-right.svg"
+      },
+      "sha256": {
+        "duocolor": "b70454b1e52ea2b7d6eba48853d7c8d0ff695f99aa328161444eab35e3f13e6a",
+        "duotone": "f4019558f5cc9fd8485b1ecd7e9b914e9a4f89864a57430b1227a33046d7a255",
+        "filled": "8d734f0b65b9e6e53d14df2fb90a385e50e131ee52c9d3c3c9b44a640d576d22",
+        "regular": "901a1ea0f90667d0fc2d776379858cbdf4c32ff44f80a01a8eb1c191cb64cdaf"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevron-square-up",
+      "category": "Navigation",
+      "tags": [
+        "caret",
+        "collapse",
+        "close",
+        "disclosure",
+        "button",
+        "top"
+      ],
+      "aliases": [],
+      "componentSet": "166:90165",
+      "source": {
+        "regular": "166:90142",
+        "filled": "166:90145",
+        "duocolor": "166:90157",
+        "duotone": "166:90160"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevron-square-up.svg",
+        "filled": "icons/filled/chevron-square-up.svg",
+        "duocolor": "icons/duocolor/chevron-square-up.svg",
+        "duotone": "icons/duotone/chevron-square-up.svg"
+      },
+      "sha256": {
+        "duocolor": "c9d51ea596569af682d2ec15659dcd3206d62b0a0c6100169985fedb5d3a0eec",
+        "duotone": "449cea5f1cb30d161d38de202dfce18fc667d2a79335d7cca532a76ac9ff045b",
+        "filled": "b988743c22e6be77157d63212799223abe717acea8b326f4445957fdedbca197",
+        "regular": "b528ba224fa4376c244bc8f30041728a3f164527bca95d2be8ef15dd16dccea5"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -15955,16 +17221,69 @@
         "duotone": "icons/duotone/chevron-up.svg"
       },
       "sha256": {
-        "regular": "e09865a91e596723f4245135f2c7858f8bbed22f04aaccb0fce003c7147e4658",
-        "filled": "a9dd2e51b240f705f20e40a90a4e370049c706ec304d7208deb843f589405bde",
-        "duocolor": "0a8aa68d898b5cd650268020eda7a1425925dac607c03a3d62328333678380ec",
-        "duotone": "5a45b477a9324a1d3611b3c177a81c84c503b3e37939d42db4266dec199446a7"
+        "regular": "a53ad2a3403e6b7e6b179595e6f0ed781c52ddcef9076a5db6702f05fc831e90",
+        "filled": "019edd17ec710fa12c950fd6d134822621e3ca242cfd4139dd3af8d3be8d07db",
+        "duocolor": "16bbfe323a2e800952aa504c77ddc6ae1d8f17b372c65a8021f3485ae8442611",
+        "duotone": "7ea1d213c475810ae1588330a538eedee6880cb8a59b6717f1c31c9c41f92fea"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
           "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "chevrons-collapse-vertical",
+      "category": "Navigation",
+      "tags": [
+        "merge",
+        "fold",
+        "compress",
+        "shrink",
+        "close",
+        "minimize"
+      ],
+      "aliases": [],
+      "componentSet": "166:90185",
+      "source": {
+        "regular": "166:90166",
+        "filled": "166:90169",
+        "duocolor": "166:90179",
+        "duotone": "166:90182"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevrons-collapse-vertical.svg",
+        "filled": "icons/filled/chevrons-collapse-vertical.svg",
+        "duocolor": "icons/duocolor/chevrons-collapse-vertical.svg",
+        "duotone": "icons/duotone/chevrons-collapse-vertical.svg"
+      },
+      "sha256": {
+        "duocolor": "c0a94ea3801a991eba74bb34c795753d163398c9af9d8232c0a6afe42f81c396",
+        "duotone": "a2a8e025a7e4f5561b3fdfc07b689e00f35d616a0202c304b5b3093229f913d8",
+        "filled": "79ea8166c8599c0e1b54031516dc31921940eaf75771b75e96bc5d111b144838",
+        "regular": "d0ab221070f5965fe2abc41a8438a878f5b217c64a6b184eea7b766c6b081143"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
           "accents": 0,
           "policy": "dominant-contours-and-details"
         },
@@ -16008,10 +17327,10 @@
         "duotone": "icons/duotone/chevrons-down.svg"
       },
       "sha256": {
-        "regular": "25384d267635b2b2ab65d67192a2eb5c171402f10bd249044edd0ea81ddc8988",
-        "filled": "829d597c13d51ef06bfd9ed1ae99a9fd488796038a899dcb607c91216cceb419",
-        "duocolor": "3f41dd217a62670a3cd0351f8028ea0f53bc8ebcbd91caf990cb574ad891ddbd",
-        "duotone": "7d29dd55d51d114152db808c7d550ecc867fb8817fb62d941ad0eaad17115046"
+        "regular": "c35d0fa35f097ee8b2b56ea4090b118a0738b84fca73eda7e898583abb2e0096",
+        "filled": "d6a9a5ec5bfdeb69fdd07645a7a861803d3bcb5ae8daba6e6fac8fbe8c2ee140",
+        "duocolor": "3475c51da6220513e213da7bb759fd1763fd9d6528b4d01b95b341320f58ae9f",
+        "duotone": "0c18b55b76a1f39ebbb82d6c2901b49a31e690e5e42f4caad53cdbcec1718a46"
       },
       "duoAuthoring": {
         "version": 2,
@@ -16062,10 +17381,10 @@
         "duotone": "icons/duotone/chevrons-left.svg"
       },
       "sha256": {
-        "regular": "b97660abf2ab17038bdf3ff3b3ba617b54981aabe5789a0db4ead2cc05e5e318",
-        "filled": "110ccb91ce6c2ef6d5fd2170ac2011ee8d20e465577f0e21550c8fb1b5cf7ac6",
-        "duocolor": "23379a28602e5fce44a08124d7e6834cc22911db9f2b3cbf97916c3b286875d0",
-        "duotone": "b56d8f0a87fa0f63c06b3e8b3c3c1cef71be3e33a7dc9bdabe5a81058c64b978"
+        "regular": "36e346a7a3ac381ea0de78b2fe525725705bf51d03abed54b2ceef72492d3955",
+        "filled": "296a273a22188b9f2f327b8660114c04fd2c3859a6e37d7844db0a228a4fde96",
+        "duocolor": "17cff0de1030874ae9790980c34706f7071d39ec455f661b0539ab53ed6868d9",
+        "duotone": "668186f15737b6dbaab896d43bd5a4025b46aaae02daf9b4c5b87a62cab147ea"
       },
       "duoAuthoring": {
         "version": 2,
@@ -16116,10 +17435,10 @@
         "duotone": "icons/duotone/chevrons-right.svg"
       },
       "sha256": {
-        "regular": "ac62c9785821dfe119acb52604a2b81e8f92d811a892d03f3dd84ba9902c31b1",
-        "filled": "d64994c4ccce0cdfa5dae2191b0a6bc7f97c72115c40b99e2c689d9790f24e08",
-        "duocolor": "fd1d8bc727bf79bedd02146876b1d581034781973eb4f7a352ddecde4038094b",
-        "duotone": "90e4b8827c8edf64e8f5dabc59471ad8c9020c626fc1055a42ebf9d8e11c575b"
+        "regular": "f0792a369d99d72b99fecf82934a83e9c00b00ac58bb640301590f7f32af2f80",
+        "filled": "095d811ec8f132c7b55cf21589c31925b909740e9d1bc0501ad8333a415d563c",
+        "duocolor": "22dc484948dab2cc1c69898aefa20f52d7f5d65c5fdc98ac27df2c673f26b506",
+        "duotone": "cd9e0d9e4f39be28bdc8fc7fd753ef6b631251573d8ba43e700e77c9a3b6ff28"
       },
       "duoAuthoring": {
         "version": 2,
@@ -16169,10 +17488,10 @@
         "duotone": "icons/duotone/chevrons-up.svg"
       },
       "sha256": {
-        "regular": "7b9438b93ccabce870680184eab0c368f870fe8bc972b009a5ca02d798c29471",
-        "filled": "a05026affee112b487f514d0d6759398d761eddc3ae135e81468ddacdf53edb8",
-        "duocolor": "2da5c0ec941f0c6713c16f1dca3c02f4d1ebf8c2481ed6ab116d186207fcf4cd",
-        "duotone": "6da21607ef41328cb47d9407a5646610cc1ce82eb897eaf79865f0429fcc549e"
+        "regular": "f4b712d71c821b7df4d1e45baacbab5e6bb4228a5d18bb21a94c03c6732e755d",
+        "filled": "533f4e94dd3259a613a3368fd04d34c43a8c5772ec8f56dc018e244b28ca5296",
+        "duocolor": "52103e0645998124608463426e3d0bf38aade76b4c97efe78863b860c876cf67",
+        "duotone": "3e6a7293c95fc4e2b936d284ecd2692d700612d3d1ac2ea1629d7c9372025e70"
       },
       "duoAuthoring": {
         "version": 2,
@@ -26598,6 +27917,59 @@
       }
     },
     {
+      "name": "factory",
+      "category": "Navigation",
+      "tags": [
+        "industry",
+        "manufacturing",
+        "plant",
+        "production",
+        "industrial",
+        "mill"
+      ],
+      "aliases": [],
+      "componentSet": "166:90221",
+      "source": {
+        "regular": "166:90186",
+        "filled": "166:90192",
+        "duocolor": "166:90207",
+        "duotone": "166:90213"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/factory.svg",
+        "filled": "icons/filled/factory.svg",
+        "duocolor": "icons/duocolor/factory.svg",
+        "duotone": "icons/duotone/factory.svg"
+      },
+      "sha256": {
+        "duocolor": "a3356fce3cd1e7441109142f084c21644d8e98cf86098882b3985865cbe2d580",
+        "duotone": "07331c3f140046a27ab6d8082cb6eb707018b0a6ed9c01302e2210d95342ca96",
+        "filled": "1a422f892f0eeab6e1e2d1fe80bcc128c3199d0909b04f9c8dc47ef279b6460a",
+        "regular": "d74219d05fba397b754220746bd73ff17c9d7d7a65046c5d745dc2d9b73c27ca"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "fast-backward",
       "category": "Media & devices",
       "tags": [
@@ -26757,6 +28129,59 @@
       }
     },
     {
+      "name": "fence",
+      "category": "Navigation",
+      "tags": [
+        "boundary",
+        "enclosure",
+        "garden",
+        "yard",
+        "pickets",
+        "barrier"
+      ],
+      "aliases": [],
+      "componentSet": "166:90265",
+      "source": {
+        "regular": "166:90222",
+        "filled": "166:90228",
+        "duocolor": "166:90248",
+        "duotone": "166:90254"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/fence.svg",
+        "filled": "icons/filled/fence.svg",
+        "duocolor": "icons/duocolor/fence.svg",
+        "duotone": "icons/duotone/fence.svg"
+      },
+      "sha256": {
+        "duocolor": "93c6ece7f2d4603177bb8b313f8509529314ddbc29508f471f6b313527338eb2",
+        "duotone": "a78a4b5f72d90f3f6d5595a5a21ade22b11769c64023b5c09326dfdc9bb822b3",
+        "filled": "5eb91162c9428d391375699082e728f60d5dabd836b8aab7bf6e2756248f702d",
+        "regular": "41675c6049b80cf8637d88b4a8a0af07f1a001a36bde038e60b699f46482a2d7"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 4,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "fencing",
       "category": "Sports & fitness",
       "tags": [
@@ -26805,6 +28230,59 @@
         },
         "duotone": {
           "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "ferris-wheel",
+      "category": "Navigation",
+      "tags": [
+        "amusement",
+        "fair",
+        "carnival",
+        "attraction",
+        "theme park",
+        "ride"
+      ],
+      "aliases": [],
+      "componentSet": "166:90323",
+      "source": {
+        "regular": "166:90266",
+        "filled": "166:90277",
+        "duocolor": "166:90299",
+        "duotone": "166:90310"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/ferris-wheel.svg",
+        "filled": "icons/filled/ferris-wheel.svg",
+        "duocolor": "icons/duocolor/ferris-wheel.svg",
+        "duotone": "icons/duotone/ferris-wheel.svg"
+      },
+      "sha256": {
+        "duocolor": "665dc0bb8b34aada75506f779a27fa9fa5932397ff1a9af06a892338e984cb00",
+        "duotone": "5dd7e12ac01e07b623c745c80fda62b57532ccd02e2c47755dd2cfd8313c9fb9",
+        "filled": "99cc52068660003763b9259d8e9279f52994790e8b215c393c2d0a697cca68dd",
+        "regular": "bd0b732c13d02a609fbb96132620a7eb604f817cc265b5f113434f682749d3cc"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 10,
+          "accents": 8,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -35877,6 +37355,59 @@
       }
     },
     {
+      "name": "hotel",
+      "category": "Navigation",
+      "tags": [
+        "lodging",
+        "accommodation",
+        "stay",
+        "travel",
+        "inn",
+        "resort"
+      ],
+      "aliases": [],
+      "componentSet": "166:90368",
+      "source": {
+        "regular": "166:90324",
+        "filled": "166:90332",
+        "duocolor": "166:90350",
+        "duotone": "166:90358"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/hotel.svg",
+        "filled": "icons/filled/hotel.svg",
+        "duocolor": "icons/duocolor/hotel.svg",
+        "duotone": "icons/duotone/hotel.svg"
+      },
+      "sha256": {
+        "duocolor": "69efd7fdf4f63a67e0ba3aa2dd7260d2bbd6889daacb470b839edda74425ac0e",
+        "duotone": "bf9eeac80a5dbff6d3c45363ee680fb367ab840e054eda6cbbaa7396ccd9c3cd",
+        "filled": "d62972eaa25f2f14397bf720a735521899fa8002086d9f9b86f6d9667da6f6ce",
+        "regular": "ed42dfea668a4b806b411c5d1ad60bfd253a42b319e6794905db251d06ee931e"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 7,
+          "accents": 6,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "hourglass",
       "category": "Time & calendar",
       "tags": [
@@ -41209,6 +42740,59 @@
       }
     },
     {
+      "name": "lighthouse",
+      "category": "Navigation",
+      "tags": [
+        "beacon",
+        "coast",
+        "harbor",
+        "maritime",
+        "sea",
+        "guidance"
+      ],
+      "aliases": [],
+      "componentSet": "166:90416",
+      "source": {
+        "regular": "166:90369",
+        "filled": "166:90376",
+        "duocolor": "166:90398",
+        "duotone": "166:90405"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lighthouse.svg",
+        "filled": "icons/filled/lighthouse.svg",
+        "duocolor": "icons/duocolor/lighthouse.svg",
+        "duotone": "icons/duotone/lighthouse.svg"
+      },
+      "sha256": {
+        "duocolor": "1a5d0a53f4b21ba9cb401e6d94b1f0e4bbfe6c04adf780813445a09911b47550",
+        "duotone": "a15a33d226b3c2996d547ec8caabdf26189826a3c150da362749fd20083081a6",
+        "filled": "b7720e8175994e5793422507261b5b98f9cae5feef8c78252f1b7269ccd187dc",
+        "regular": "a36f8adbef961ecf05256f5fd9f37157742d32cb86b9d447929d716301f0c3a0"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "line-height",
       "category": "Workspace",
       "tags": [
@@ -45360,6 +46944,59 @@
         },
         "duotone": {
           "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "monument",
+      "category": "Navigation",
+      "tags": [
+        "obelisk",
+        "memorial",
+        "landmark",
+        "historic",
+        "tribute",
+        "heritage"
+      ],
+      "aliases": [],
+      "componentSet": "166:90446",
+      "source": {
+        "regular": "166:90417",
+        "filled": "166:90421",
+        "duocolor": "166:90435",
+        "duotone": "166:90439"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/monument.svg",
+        "filled": "icons/filled/monument.svg",
+        "duocolor": "icons/duocolor/monument.svg",
+        "duotone": "icons/duotone/monument.svg"
+      },
+      "sha256": {
+        "duocolor": "a967a86c8fdc6e78409d24374cc6d6e06143293c9a9cba05d509eacf85252b84",
+        "duotone": "ecfb0f39162f1922b4d3c8fc6143121c82651c8c896ff1ab81797f9282e726ce",
+        "filled": "4e4933b2c3033acc2fbdea838a29bda082684fceb55c6b1ec339c0c0e4c6a635",
+        "regular": "cf18f9f5b9cccfa094b17cf45a5b512c827aa69567bffbbf44931cb1b59e44f6"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -52923,6 +54560,59 @@
       }
     },
     {
+      "name": "refresh-off",
+      "category": "Navigation",
+      "tags": [
+        "sync disabled",
+        "reload",
+        "paused",
+        "offline",
+        "stop",
+        "rotate"
+      ],
+      "aliases": [],
+      "componentSet": "166:90476",
+      "source": {
+        "regular": "166:90447",
+        "filled": "166:90452",
+        "duocolor": "166:90466",
+        "duotone": "166:90471"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/refresh-off.svg",
+        "filled": "icons/filled/refresh-off.svg",
+        "duocolor": "icons/duocolor/refresh-off.svg",
+        "duotone": "icons/duotone/refresh-off.svg"
+      },
+      "sha256": {
+        "duocolor": "7c3910caac684a455769bdf7f85663e800cd51c57b03b9d6672e4627b6b0d7b9",
+        "duotone": "2dd7acd6eac94c71982135a8837d1849101d1befb9de618c229468f6a379633d",
+        "filled": "2f60b8caa8a0118f829471140cf619ffeb5699c07cfa1b07d7cb48e8ec81d74e",
+        "regular": "611c25fea57f7ef8dddc3ff4c3b54febb8089a7caa69970326e9951fd55cebf0"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "refresh-window",
       "category": "Interfaces",
       "tags": [
@@ -53021,6 +54711,112 @@
         "duocolor": {
           "contours": 4,
           "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "resize-horizontal",
+      "category": "Navigation",
+      "tags": [
+        "width",
+        "column",
+        "split",
+        "divider",
+        "drag",
+        "adjust"
+      ],
+      "aliases": [],
+      "componentSet": "166:90501",
+      "source": {
+        "regular": "166:90477",
+        "filled": "166:90481",
+        "duocolor": "166:90493",
+        "duotone": "166:90497"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/resize-horizontal.svg",
+        "filled": "icons/filled/resize-horizontal.svg",
+        "duocolor": "icons/duocolor/resize-horizontal.svg",
+        "duotone": "icons/duotone/resize-horizontal.svg"
+      },
+      "sha256": {
+        "duocolor": "329afbb014b6aa82f3cd22fae17ef054e8a00dc6024f7b3c04164aa824b00efa",
+        "duotone": "943efde227c282c0d6bddcbfd3fcf0f6059d7a6d52cafe6453c71dfc8f7ee95b",
+        "filled": "01b4f4b5199666d4d63a52397c023a6874d243a14f7840102aa7996e085f39c2",
+        "regular": "a474fbb77f2b1557badbe58f4bb68dea9b0eff2de52a460091c0d5fcd353bcf3"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "resize-vertical",
+      "category": "Navigation",
+      "tags": [
+        "height",
+        "row",
+        "split",
+        "divider",
+        "drag",
+        "adjust"
+      ],
+      "aliases": [],
+      "componentSet": "166:90526",
+      "source": {
+        "regular": "166:90502",
+        "filled": "166:90506",
+        "duocolor": "166:90518",
+        "duotone": "166:90522"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/resize-vertical.svg",
+        "filled": "icons/filled/resize-vertical.svg",
+        "duocolor": "icons/duocolor/resize-vertical.svg",
+        "duotone": "icons/duotone/resize-vertical.svg"
+      },
+      "sha256": {
+        "duocolor": "6c23309166fc5e17d9f3cbd08426e5eaa9984be3419d146f790b7f46fd8753a8",
+        "duotone": "316f60e98d782dc89c793572452a71e2142798ed249b8c874625c3efae6aa807",
+        "filled": "8b2c1bb1ec63e568029e0ce393ff19e9434e794745f594eb37044e36e90cff68",
+        "regular": "a89ead0e57b405811d9387f6640c1597aa59d0b7e5db5e71312cd666a461d2cd"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -54408,6 +56204,59 @@
         },
         "duotone": {
           "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "school",
+      "category": "Navigation",
+      "tags": [
+        "education",
+        "learning",
+        "classroom",
+        "campus",
+        "academy",
+        "college"
+      ],
+      "aliases": [],
+      "componentSet": "166:90582",
+      "source": {
+        "regular": "166:90527",
+        "filled": "166:90537",
+        "duocolor": "166:90560",
+        "duotone": "166:90570"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/school.svg",
+        "filled": "icons/filled/school.svg",
+        "duocolor": "icons/duocolor/school.svg",
+        "duotone": "icons/duotone/school.svg"
+      },
+      "sha256": {
+        "duocolor": "8a2787ce6fc15acc49fc456048b708395b4dfec79c9cd0ba4a2b97c624783c49",
+        "duotone": "c9304335dff411aca8020fed26d4d5db127ae41d8e8625a89ad4ed049d289269",
+        "filled": "a300a5d2f51dc79f9058c605edb61c64f0f2812a71cfbb9da288102d3472391f",
+        "regular": "fdd82d4f9bae423bc52332dbbfdcbe36881b62bf065f00e850993bce89c63043"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 9,
+          "accents": 7,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -59429,6 +61278,59 @@
       }
     },
     {
+      "name": "stadium",
+      "category": "Navigation",
+      "tags": [
+        "arena",
+        "sports",
+        "venue",
+        "match",
+        "concert",
+        "ground"
+      ],
+      "aliases": [],
+      "componentSet": "166:90618",
+      "source": {
+        "regular": "166:90583",
+        "filled": "166:90588",
+        "duocolor": "166:90605",
+        "duotone": "166:90610"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/stadium.svg",
+        "filled": "icons/filled/stadium.svg",
+        "duocolor": "icons/duocolor/stadium.svg",
+        "duotone": "icons/duotone/stadium.svg"
+      },
+      "sha256": {
+        "duocolor": "f23f1a72872fbb2296512fac9bf8bc9fd0b738856955ae73c05115b21b7c3153",
+        "duotone": "22e5139e7cfe2754b202b724290d0652a8ddad461496d14dcc3b05bb5ea5c587",
+        "filled": "5e6c3e855b416b89efc667e723221a0bbe7b87ac80206af0886c283be516d742",
+        "regular": "99d86b867dd8a9c14dc3e1efb24605e73c6277de8053616e95114424ae005a5a"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "stamp",
       "category": "Workspace",
       "tags": [
@@ -61863,6 +63765,59 @@
         "filled": "f55a41c5a713e20aeb75719a0316c89abed015d863f3680152b26f59275bc37f",
         "duocolor": "caba3cfbbb4f72683fe32027fdf70539df58b6a4cd81d67e482e3a8a00b8a523",
         "duotone": "2d2599fd9c044dde59909d3e31a66f46e4ed2be7c892dcd33587b730ed2e58ae"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "tent",
+      "category": "Navigation",
+      "tags": [
+        "camping",
+        "outdoors",
+        "shelter",
+        "campsite",
+        "adventure",
+        "festival"
+      ],
+      "aliases": [],
+      "componentSet": "166:90651",
+      "source": {
+        "regular": "166:90619",
+        "filled": "166:90624",
+        "duocolor": "166:90639",
+        "duotone": "166:90644"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/tent.svg",
+        "filled": "icons/filled/tent.svg",
+        "duocolor": "icons/duocolor/tent.svg",
+        "duotone": "icons/duotone/tent.svg"
+      },
+      "sha256": {
+        "duocolor": "7a9723332040c381f97619dc142c24e70b09783d7417c12e48b1d350656addb3",
+        "duotone": "b6efe058251841f7a07ae39b6d717897fb5316d42e944e9d25dfdfc5071b2b0f",
+        "filled": "c20be0502621c02b4b49529e7c72ba4f1a2e4903c12fa34bdc30cc68c7d1b6b0",
+        "regular": "c5c6ce29802225009299530d657ab840998f5bdcb304239eb69b0caaec7660ed"
       },
       "duoAuthoring": {
         "version": 2,
@@ -67636,6 +69591,59 @@
       }
     },
     {
+      "name": "warehouse",
+      "category": "Navigation",
+      "tags": [
+        "storage",
+        "depot",
+        "logistics",
+        "inventory",
+        "garage",
+        "shed"
+      ],
+      "aliases": [],
+      "componentSet": "166:90690",
+      "source": {
+        "regular": "166:90652",
+        "filled": "166:90658",
+        "duocolor": "166:90676",
+        "duotone": "166:90682"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/warehouse.svg",
+        "filled": "icons/filled/warehouse.svg",
+        "duocolor": "icons/duocolor/warehouse.svg",
+        "duotone": "icons/duotone/warehouse.svg"
+      },
+      "sha256": {
+        "duocolor": "b9ce805cd6fc9fb37684a5969b117aefb2eb5c8a99d5fa63304205183148db2d",
+        "duotone": "7151b37a62e2baf6c8e734cdcbc069c9992fb7ec16d0238f0f0b49b52f4c0e7e",
+        "filled": "dd112ada3ac58ca862cf80c6c9203f551a53cbbd782a0dfbbf359b3861db9cfb",
+        "regular": "56b0ce6e9deb77afc1a3a9f56a3b463330833e65c904fb7c8e4bc1137ffdd84d"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "watch-circle",
       "category": "Time & calendar",
       "tags": [
@@ -67732,6 +69740,59 @@
         "duocolor": {
           "contours": 4,
           "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "water-tower",
+      "category": "Navigation",
+      "tags": [
+        "tank",
+        "reservoir",
+        "utility",
+        "supply",
+        "rural",
+        "storage"
+      ],
+      "aliases": [],
+      "componentSet": "166:90723",
+      "source": {
+        "regular": "166:90691",
+        "filled": "166:90696",
+        "duocolor": "166:90711",
+        "duotone": "166:90716"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/water-tower.svg",
+        "filled": "icons/filled/water-tower.svg",
+        "duocolor": "icons/duocolor/water-tower.svg",
+        "duotone": "icons/duotone/water-tower.svg"
+      },
+      "sha256": {
+        "duocolor": "0eadb78aa0d5d7865a19582bfb7a3a5b8d92375e4de4af961927f7929cbb995c",
+        "duotone": "18428628406e2fb2b95d3ccbb20707c04c405462d1fd6633c8749227d9996e6d",
+        "filled": "e60bcd5c6323aeb9450a3af7a251f3860031f8b67e28f1c3c88eb98e7dabd2ed",
+        "regular": "a13af73080ba27fb4a1fa432f552ad28c52de40fb62ea74f21d8a5e1b8339a8d"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {

@@ -24,6 +24,20 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- 39 Navigation icons in all four styles, bringing the library to 1,319 icons
+  and 5,276 SVGs.
+  - Arrows: `arrow-up-to-line`, `arrow-down-to-line`, `arrow-left-to-line`,
+    `arrow-right-to-line`, `arrows-diagonal`, `arrows-diagonal-reverse`,
+    `arrow-uturn-up`, `arrow-uturn-down`, `arrow-wave-right`, `refresh-off`.
+  - Chevrons: `chevron-circle-*` and `chevron-square-*` (up, down, left,
+    right), `chevrons-collapse-vertical`, `resize-horizontal`,
+    `resize-vertical`.
+  - Buildings and places: `buildings`, `building-office`, `building-apartment`,
+    `hotel`, `school`, `factory`, `warehouse`, `barn`, `water-tower`, `fence`,
+    `castle`, `lighthouse`, `bridge`, `stadium`, `monument`, `tent`,
+    `ferris-wheel`, `beach-umbrella`. Windows use the calendar-dots square, in
+    a slightly larger size.
+
 - `head-profile-man` and `head-profile-woman` in all four styles, bringing the
   library to 1,280 icons and 5,120 SVGs. Both use the new `head-profile` head.
   The man has short hair: a hairline from the forehead to the temple with a small
@@ -71,6 +85,11 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Changed
 
+- Chevrons (`chevron-*`, `chevrons-*`, `chevron-selector-*`) are now straight
+  lines with a rounded corner instead of curves. The single chevrons are more
+  compact (13 × 6.5).
+- `building` has larger windows: a 3 × 3 grid of rounded squares in place of
+  dashes.
 - Redrew `head-profile`. The nose tip, chin and jaw are rounded, and the jaw
   curves back into the neck. The neck ends in the same curved base as the `user`
   body. The ear is a rounder curl with a lobe, with its rim at the back of the
