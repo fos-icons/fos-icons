@@ -10,7 +10,7 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1278,
+  "iconCount": 1280,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
@@ -33556,10 +33556,116 @@
         "duotone": "icons/duotone/head-profile.svg"
       },
       "sha256": {
-        "regular": "9eec3d14b345b5b5e31787f8c713fb6a88b6c38ab1a9d62b089fd34000c7c776",
-        "filled": "092b5befc32480dafc6484b5a8b35f1d2cfd0fd3f87160a58f7fd9f738878358",
-        "duocolor": "a5b5531f105549cac8f9e146c70fb807e00e4eb4c1663809581ce6172124411f",
-        "duotone": "7d7779875512f9a6872b60309b82db5e410f38fe56732f34f583aade048055f8"
+        "regular": "654c021d9cdee16e023ed99c12dcb76a0de58618ba677b5edcdd159d048ed076",
+        "filled": "0d399cb75279105bcba4e7a712a206ac0feeee883947142afe5052af8f1b1ca8",
+        "duocolor": "2c6902f0327872b534171a0c24253475265edacc09ee5bbc21dce861fc5a2fb7",
+        "duotone": "6a3c8ea19b255162e9fa51adcd745961ec06741a2eecab0d8a104168aad7b6bb"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "head-profile-man",
+      "category": "Communication",
+      "tags": [
+        "male",
+        "person",
+        "side view",
+        "avatar",
+        "hair",
+        "gentleman"
+      ],
+      "aliases": [],
+      "componentSet": "165:75395",
+      "source": {
+        "regular": "165:75396",
+        "filled": "165:75400",
+        "duocolor": "165:75403",
+        "duotone": "165:75407"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/head-profile-man.svg",
+        "filled": "icons/filled/head-profile-man.svg",
+        "duocolor": "icons/duocolor/head-profile-man.svg",
+        "duotone": "icons/duotone/head-profile-man.svg"
+      },
+      "sha256": {
+        "regular": "0e97712bd8d94b7d6b27b78f7cd3da226e521058aa4e48df09ee51fd3d627769",
+        "filled": "5ccef432c7fae510bb65c9a09afdfdceb7e642ae294818a266a911e8f27919b7",
+        "duocolor": "7029f417c9185e926756c2cea6d81d70f8fedaf342a25faacd2cc3201600c5ca",
+        "duotone": "887c9ba7878fdb7ca9c07f06b1ef34d1d660fe4b15b2260559ab1d4c8920800e"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "head-profile-woman",
+      "category": "Communication",
+      "tags": [
+        "female",
+        "person",
+        "side view",
+        "avatar",
+        "hair",
+        "lady"
+      ],
+      "aliases": [],
+      "componentSet": "165:75414",
+      "source": {
+        "regular": "165:75415",
+        "filled": "165:75419",
+        "duocolor": "165:75422",
+        "duotone": "165:75426"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/head-profile-woman.svg",
+        "filled": "icons/filled/head-profile-woman.svg",
+        "duocolor": "icons/duocolor/head-profile-woman.svg",
+        "duotone": "icons/duotone/head-profile-woman.svg"
+      },
+      "sha256": {
+        "regular": "7c23a334655026b965feb5122899ebef60c2052ad7fd4d135a0c78a4513f58a7",
+        "filled": "48b5fe7a1bdca6692e9d24185e60e37f6ef4af1f7b9b5a5ccf104801cf3fb6ff",
+        "duocolor": "15dba4768d40372c718d84fde20eb05f5f49bb247ddc53d6df0bd27623be2c44",
+        "duotone": "267494ae5401162ae4c6cab213458dcdd4cc76325a70dd48e2f2f2f9d6bdef09"
       },
       "duoAuthoring": {
         "version": 2,

@@ -57,5 +57,5 @@ test('head-profile Duocolor has a transparent interior and secondary-color ear',
     (Math.floor(y * 10) * size + Math.floor(x * 10)) * 4 + 4,
   )];
   assert.equal(pixel(14, 8)[3], 0, 'head interior must not be filled');
-  assert.deepEqual(pixel(10.55, 11), [23, 163, 152, 255], 'ear uses secondary color');
+  assert.deepEqual(pixel(9.55, 11.55), [23, 163, 152, 255], 'ear uses secondary color');
 });
