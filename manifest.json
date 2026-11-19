@@ -10,12 +10,12 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1363,
+  "iconCount": 1454,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
     "exportedOn": "2026-11-11",
-    "componentPairs": 1367,
+    "componentPairs": 1459,
     "excludedBrands": [
       "chrome-cast",
       "figma",
@@ -6793,6 +6793,162 @@
         "duocolor": {
           "contours": 5,
           "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "award-check",
+      "category": "Sports & fitness",
+      "tags": [
+        "approved",
+        "certified",
+        "verified",
+        "quality",
+        "ribbon"
+      ],
+      "aliases": [],
+      "componentSet": "169:104518",
+      "source": {
+        "regular": "169:104490",
+        "filled": "169:104494",
+        "duocolor": "169:104508",
+        "duotone": "169:104512"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/award-check.svg",
+        "filled": "icons/filled/award-check.svg",
+        "duocolor": "icons/duocolor/award-check.svg",
+        "duotone": "icons/duotone/award-check.svg"
+      },
+      "sha256": {
+        "regular": "f5573b24c009fce1f842bb319b2b2a0ef6cce0dd70baed3c67bad58a54ef40ae",
+        "filled": "2f94968d0f4de535ffbe13f0f4b8475822f8decd156d43d4a785b4d63f3c31e4",
+        "duocolor": "77e2591bda9f425c30503b4c3e4dc13e300a0acd5a1fc030bc653e17538ee485",
+        "duotone": "809df027b029354766252dfe88f396a03012c1296b98fae9b90f804672524c5a"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "award-crystal",
+      "category": "Sports & fitness",
+      "tags": [
+        "glass",
+        "plaque",
+        "recognition",
+        "honor",
+        "prize"
+      ],
+      "aliases": [],
+      "componentSet": "169:104548",
+      "source": {
+        "regular": "169:104519",
+        "filled": "169:104523",
+        "duocolor": "169:104538",
+        "duotone": "169:104542"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/award-crystal.svg",
+        "filled": "icons/filled/award-crystal.svg",
+        "duocolor": "icons/duocolor/award-crystal.svg",
+        "duotone": "icons/duotone/award-crystal.svg"
+      },
+      "sha256": {
+        "regular": "59fa8c49f10c904c0ef95a7f047de736ee74f78d330969c646a694b7b84530d0",
+        "filled": "daeab645b3957597df004da70fc83bf6f122fee8f7ac7bd26e2701ce7b973e70",
+        "duocolor": "d20168749d363c749cdd09005bb83c4593fdc3527222672f7e541441bdcefc59",
+        "duotone": "ede645c45b6be5a24a07daf7184204d6589b4cd88fdbeb59ef1e860c0d0b1046"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "award-star",
+      "category": "Sports & fitness",
+      "tags": [
+        "statuette",
+        "oscar",
+        "prize",
+        "honor",
+        "recognition"
+      ],
+      "aliases": [],
+      "componentSet": "169:104578",
+      "source": {
+        "regular": "169:104549",
+        "filled": "169:104553",
+        "duocolor": "169:104567",
+        "duotone": "169:104571"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/award-star.svg",
+        "filled": "icons/filled/award-star.svg",
+        "duocolor": "icons/duocolor/award-star.svg",
+        "duotone": "icons/duotone/award-star.svg"
+      },
+      "sha256": {
+        "regular": "9f9087521b283b3e11badca9886039bcb1c50bf9b594d1f10dca7e14ccc9e551",
+        "filled": "2ca2b125aef8180ecd3840b029dced6e2e81194370e24ed7454f988861e29b96",
+        "duocolor": "6096451feea598847d9c0c2421f8896bb59a3121c2f23f9b5a41cd163e0a9728",
+        "duotone": "32c3d66ec4dbb3614a5490cfb4f470544048d77d2d1a6506744d769cf18758d1"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -22853,6 +23009,224 @@
       }
     },
     {
+      "name": "crown",
+      "category": "Sports & fitness",
+      "tags": [
+        "king",
+        "queen",
+        "royal",
+        "premium",
+        "vip"
+      ],
+      "aliases": [],
+      "componentSet": "169:104618",
+      "source": {
+        "regular": "169:104579",
+        "filled": "169:104586",
+        "duocolor": "169:104602",
+        "duotone": "169:104609"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/crown.svg",
+        "filled": "icons/filled/crown.svg",
+        "duocolor": "icons/duocolor/crown.svg",
+        "duotone": "icons/duotone/crown.svg"
+      },
+      "sha256": {
+        "regular": "59fdb6661a18dd9b8b762f6500c072628989b9d3575a38594700a0e503396b54",
+        "filled": "6b01fc12fb56920fa5eadf866cfbec6c804b8bf7c4fd1e6edecd62c5ed847734",
+        "duocolor": "eefa4625d27107732ec4809ff013454c1a2702008f0e2b286fac3d180ecf58dd",
+        "duotone": "a92580d08936f3b024fd476fde5a22f56adae0b1b356f79bf9328d9dd8cd8b28"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 5,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "crown-minus",
+      "category": "Sports & fitness",
+      "tags": [
+        "remove premium",
+        "downgrade",
+        "vip",
+        "royal"
+      ],
+      "aliases": [],
+      "componentSet": "169:105574",
+      "source": {
+        "regular": "169:105505",
+        "filled": "169:105523",
+        "duocolor": "169:105536",
+        "duotone": "169:105554"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/crown-minus.svg",
+        "filled": "icons/filled/crown-minus.svg",
+        "duocolor": "icons/duocolor/crown-minus.svg",
+        "duotone": "icons/duotone/crown-minus.svg"
+      },
+      "sha256": {
+        "regular": "87382a967fd1b879d8553e7dcd07ec7c00109d252101aef2f04ac7f3a8c55a13",
+        "filled": "faa3d222b5b5b46a5dbd167c9c3b9a5ac88410f28b69536f7ecaee9c5477f659",
+        "duocolor": "f8e64148cc8a6de0d2edffd992a7be0f2aebb737cc4b1215bbcb4268bba45e98",
+        "duotone": "7aa8cf62bef4104454cf6d59a7ff96bb099792a0b896d264d1d5eb86123a616c"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 5,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "crown",
+        "modifier": "remove",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "crown-plus",
+      "category": "Sports & fitness",
+      "tags": [
+        "add premium",
+        "upgrade",
+        "vip",
+        "royal"
+      ],
+      "aliases": [],
+      "componentSet": "169:105504",
+      "source": {
+        "regular": "169:105435",
+        "filled": "169:105453",
+        "duocolor": "169:105466",
+        "duotone": "169:105484"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/crown-plus.svg",
+        "filled": "icons/filled/crown-plus.svg",
+        "duocolor": "icons/duocolor/crown-plus.svg",
+        "duotone": "icons/duotone/crown-plus.svg"
+      },
+      "sha256": {
+        "regular": "72ec07c396aaa9646519e3718ead47e1e9a81c0c6f2a83fd3c15d54fae47e3c1",
+        "filled": "b28fa2469317bf3cf0775c99496751938e84762ef26b0ecce89b7b044dad0e82",
+        "duocolor": "aa373cac817eab2cb86c466b02a85abca01d25975cd3424c765abc7329098b5d",
+        "duotone": "c04dce17774d06fbc1664e214ce818d75d216d5ee77809dfbb8ebcb3a16530a7"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 5,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "crown",
+        "modifier": "add",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "crown-simple",
+      "category": "Sports & fitness",
+      "tags": [
+        "royal",
+        "premium",
+        "vip",
+        "leader",
+        "best"
+      ],
+      "aliases": [],
+      "componentSet": "169:104641",
+      "source": {
+        "regular": "169:104619",
+        "filled": "169:104622",
+        "duocolor": "169:104633",
+        "duotone": "169:104636"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/crown-simple.svg",
+        "filled": "icons/filled/crown-simple.svg",
+        "duocolor": "icons/duocolor/crown-simple.svg",
+        "duotone": "icons/duotone/crown-simple.svg"
+      },
+      "sha256": {
+        "regular": "7bbc57991214439bcf4fea8cf5a1afc9d9a26fe192c9f10af2e1f21da3fa4b60",
+        "filled": "3af8416fb057037875836a3f212bf963377be0eda6791b8e4856363e140a8b36",
+        "duocolor": "db6ed003fd78de9bf962a3e271e94949651e2f280d73b96df69ba3a2b0a6dd86",
+        "duotone": "fab3a14b95288ea92eb6cc1310695988d5a1b0c81d4b27c96c3f1fcf4aab5a3a"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "crutch",
       "category": "Health & medical",
       "tags": [
@@ -24257,10 +24631,10 @@
         "duotone": "icons/duotone/cursor.svg"
       },
       "sha256": {
-        "regular": "3d6769ccc9c408b4bb4b51004b6d37aa44665cd4c562e15f8c20e501a78a76cf",
-        "filled": "4e8840d1a48fd24fd38e7905b6cd4345f42469d602ad51451b778132289605ee",
-        "duocolor": "b15b3345fb5759d179d05400cf88be77d53a46179df36873296108fc6579bf76",
-        "duotone": "5bd96f2cb2ba355cc581894482e3ac31a336765ba8820ec982a9261150505c75"
+        "regular": "6b7a4212846a9bbcc2d07ccac2d68a7651aea1329265922fe1a2d64730f15d57",
+        "filled": "7c970e33f73a08b01af41a9afa100ee0181a9017c39579af7ed7b32c4386668b",
+        "duocolor": "20b740de4002546066bee3a4d130f31031cd9004cdcf24e3d0b6f9f3b15ecfc1",
+        "duotone": "ab87390eab50e4f29ab91973f585a5daf4ad1522a9b057e746636e49cfea3e12"
       },
       "duoAuthoring": {
         "version": 2,
@@ -24275,6 +24649,63 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "cursor-block",
+      "category": "Workspace",
+      "tags": [
+        "not allowed",
+        "forbidden",
+        "pointer",
+        "disabled"
+      ],
+      "aliases": [],
+      "componentSet": "169:100678",
+      "source": {
+        "regular": "169:100620",
+        "filled": "169:100634",
+        "duocolor": "169:100648",
+        "duotone": "169:100662"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-block.svg",
+        "filled": "icons/filled/cursor-block.svg",
+        "duocolor": "icons/duocolor/cursor-block.svg",
+        "duotone": "icons/duotone/cursor-block.svg"
+      },
+      "sha256": {
+        "regular": "cf9c2ce4cc032c0cdbdd4d2b0347a4de4c42d7f57fdbd4a806728427dda22797",
+        "filled": "b5163e8cb55f0560944660ba6f231ca680ce047ec63a78c324eb25c6ed0a068c",
+        "duocolor": "285a09cd98737350a5ff626026aa4e3f36427e5462e71c145e6410d923b63454",
+        "duotone": "d2a99743e483c73e804d94273fb2dfa41be422fe57d3b7aafa954b18426693b3"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "cursor",
+        "modifier": "block",
+        "position": "bottom-right",
+        "fit": null
       }
     },
     {
@@ -24331,6 +24762,115 @@
       }
     },
     {
+      "name": "cursor-busy",
+      "category": "Workspace",
+      "tags": [
+        "loading",
+        "wait",
+        "hourglass",
+        "pointer",
+        "working"
+      ],
+      "aliases": [],
+      "componentSet": "169:99165",
+      "source": {
+        "regular": "169:99143",
+        "filled": "169:99146",
+        "duocolor": "169:99157",
+        "duotone": "169:99160"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-busy.svg",
+        "filled": "icons/filled/cursor-busy.svg",
+        "duocolor": "icons/duocolor/cursor-busy.svg",
+        "duotone": "icons/duotone/cursor-busy.svg"
+      },
+      "sha256": {
+        "regular": "6aba24498f5f70e2a235dc6a52aeb00848fb7523e31d7c90b3088bb0ef08fcd3",
+        "filled": "9012ac495e72d179e01103aecc3d14c1a7e8e502d42bb4371ced0e52a12895cf",
+        "duocolor": "9ec39a09a52942f193a919e38dde11b198298203f72f32a78298e53b2e1d87c6",
+        "duotone": "b76f55871fb2ac757451b518d0159af63d6c46e922546cf3cc0bdb6188708f94"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "cursor-check",
+      "category": "Workspace",
+      "tags": [
+        "confirm",
+        "pointer",
+        "selected",
+        "done"
+      ],
+      "aliases": [],
+      "componentSet": "169:100733",
+      "source": {
+        "regular": "169:100679",
+        "filled": "169:100692",
+        "duocolor": "169:100705",
+        "duotone": "169:100718"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-check.svg",
+        "filled": "icons/filled/cursor-check.svg",
+        "duocolor": "icons/duocolor/cursor-check.svg",
+        "duotone": "icons/duotone/cursor-check.svg"
+      },
+      "sha256": {
+        "regular": "a1562c23d1f6579e5f80e354cff2f5afac778c12152950deb9d395a0e018de2d",
+        "filled": "0f5f0dbfdb49b2328e090d13589813d18026e9c91a3dff28dc0eae2a4d20ef61",
+        "duocolor": "576cac1a409af5a18c93ee970487287f50507d66dbe53240dacb959e81d8a17a",
+        "duotone": "93bea7bdcdf0c635a5dfb4de62c0cbead4ca186ec371b5a8b5a58b6cbbbbb6e6"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "cursor",
+        "modifier": "check",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
       "name": "cursor-click",
       "category": "Workspace",
       "tags": [
@@ -24374,6 +24914,711 @@
         "duocolor": {
           "contours": 5,
           "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "cursor-hand",
+      "category": "Workspace",
+      "tags": [
+        "pointer",
+        "link",
+        "finger",
+        "click",
+        "hover"
+      ],
+      "aliases": [],
+      "componentSet": "169:99183",
+      "source": {
+        "regular": "169:99166",
+        "filled": "169:99168",
+        "duocolor": "169:99177",
+        "duotone": "169:99179"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-hand.svg",
+        "filled": "icons/filled/cursor-hand.svg",
+        "duocolor": "icons/duocolor/cursor-hand.svg",
+        "duotone": "icons/duotone/cursor-hand.svg"
+      },
+      "sha256": {
+        "regular": "d2e14bef6d87c94e9810f597fc79a895ae44a954ed4f9537513b8de277f67899",
+        "filled": "413a4a61b42e137183b623d8223708064bc760ab267b1b81262c2c61a50dfa4f",
+        "duocolor": "913fd16e6006ba3a68e7551ea502f64224794030bf6b4c4b7751fd29deb0b786",
+        "duotone": "5259eb7cf7fb204b25b07aa3acbb1df5c8dc456ec3020b09e47b694fd239705c"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "cursor-hand-block",
+      "category": "Workspace",
+      "tags": [
+        "not allowed",
+        "pointer",
+        "finger",
+        "forbidden"
+      ],
+      "aliases": [],
+      "componentSet": "169:100957",
+      "source": {
+        "regular": "169:100899",
+        "filled": "169:100913",
+        "duocolor": "169:100927",
+        "duotone": "169:100941"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-hand-block.svg",
+        "filled": "icons/filled/cursor-hand-block.svg",
+        "duocolor": "icons/duocolor/cursor-hand-block.svg",
+        "duotone": "icons/duotone/cursor-hand-block.svg"
+      },
+      "sha256": {
+        "regular": "216878b48f3424035429dcc85b0ba267564762aed0f7c01c68d593f5395d3adc",
+        "filled": "30fdd76fa5c5c7b1a86cd102c2ef814ea47a146017b409d52f1ada6372ac2780",
+        "duocolor": "c3bbfe9b3940bb8efd75a36729567d42382365ef324122ca0cdbeca84f274e14",
+        "duotone": "575821e692b76ec4f1561c4701a6b1af48326cf637261203a5e1179e5e2c4064"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "cursor-hand",
+        "modifier": "block",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "cursor-hand-click",
+      "category": "Workspace",
+      "tags": [
+        "tap",
+        "press",
+        "finger",
+        "select",
+        "interaction"
+      ],
+      "aliases": [],
+      "componentSet": "169:99206",
+      "source": {
+        "regular": "169:99184",
+        "filled": "169:99187",
+        "duocolor": "169:99198",
+        "duotone": "169:99201"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-hand-click.svg",
+        "filled": "icons/filled/cursor-hand-click.svg",
+        "duocolor": "icons/duocolor/cursor-hand-click.svg",
+        "duotone": "icons/duotone/cursor-hand-click.svg"
+      },
+      "sha256": {
+        "regular": "5ab475e6e863f27dd0b7e03f9e2171518f3db68726802e0d8a6e5689cc7c736c",
+        "filled": "5fcb6907f122e9e57749d247debfbf7cd591cb4a67dda1acc0c1476ae78d4b46",
+        "duocolor": "7dda411a881c966cf262d1a7b9b495dff8de60f7da5f221b51bf216933b8a8f9",
+        "duotone": "a6026c4911aa87f53d0421b5bbf326c2859bfa2f8614ddc7ea6c69b44344e0b2"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "cursor-hand-plus",
+      "category": "Workspace",
+      "tags": [
+        "add",
+        "pointer",
+        "finger",
+        "insert"
+      ],
+      "aliases": [],
+      "componentSet": "169:100898",
+      "source": {
+        "regular": "169:100844",
+        "filled": "169:100857",
+        "duocolor": "169:100870",
+        "duotone": "169:100883"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-hand-plus.svg",
+        "filled": "icons/filled/cursor-hand-plus.svg",
+        "duocolor": "icons/duocolor/cursor-hand-plus.svg",
+        "duotone": "icons/duotone/cursor-hand-plus.svg"
+      },
+      "sha256": {
+        "regular": "7e1296c4e24990b2d48603e85d50c94a9f569378fb5ee0f4a50804a503e87fe9",
+        "filled": "f46efec5fcd78b14cc39f39225e4862c68862a074d00284004851b9949c3622d",
+        "duocolor": "4219af1c2bea2d2d9afafc1396d7030eed02074b6701cf1a0b125d840e37d221",
+        "duotone": "c8310dcd2a493c52fa200db761b0ceb443a7e761cc67dbb1c34bfa445a94bde3"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "cursor-hand",
+        "modifier": "add",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "cursor-lasso",
+      "category": "Workspace",
+      "tags": [
+        "free select",
+        "selection",
+        "circle",
+        "pointer",
+        "marquee"
+      ],
+      "aliases": [],
+      "componentSet": "169:99229",
+      "source": {
+        "regular": "169:99207",
+        "filled": "169:99210",
+        "duocolor": "169:99221",
+        "duotone": "169:99224"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-lasso.svg",
+        "filled": "icons/filled/cursor-lasso.svg",
+        "duocolor": "icons/duocolor/cursor-lasso.svg",
+        "duotone": "icons/duotone/cursor-lasso.svg"
+      },
+      "sha256": {
+        "regular": "dbf0c220ca3efb70d98e599fbf8e2723af0552cce0f33470a344093d9af88430",
+        "filled": "5eb1b48dc547a7257ab050e6042695f15b457ec0849a849a1a0b264e111b5b6b",
+        "duocolor": "be998e8c2dff08ecdd37e55737ae3c0acc309e3bb4fc101d9b6cecd273856a15",
+        "duotone": "42198361e4cc0d778d0e5a33c03e139b7bb9aa145521cd5ae05624f22cd23d59"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "cursor-minus",
+      "category": "Workspace",
+      "tags": [
+        "remove",
+        "pointer",
+        "subtract"
+      ],
+      "aliases": [],
+      "componentSet": "169:100619",
+      "source": {
+        "regular": "169:100565",
+        "filled": "169:100578",
+        "duocolor": "169:100591",
+        "duotone": "169:100604"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-minus.svg",
+        "filled": "icons/filled/cursor-minus.svg",
+        "duocolor": "icons/duocolor/cursor-minus.svg",
+        "duotone": "icons/duotone/cursor-minus.svg"
+      },
+      "sha256": {
+        "regular": "361612cbf40b61f147dec5ade0ee6ae3da97df3c9d58922ad5ad2da3c96891ba",
+        "filled": "6e15fedafb83fa39b16469f0d5d1f09904780461c7ba11d0500b9137d53812f5",
+        "duocolor": "a597fdd186b0cc22278882dbb3d763aff134ffff719c07febd4e0bf0175aeaa2",
+        "duotone": "3054baf3ded8283ff0b0846628b65944078a02d23d2d50b0610727652e72d40e"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "cursor",
+        "modifier": "remove",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "cursor-plus",
+      "category": "Workspace",
+      "tags": [
+        "add",
+        "pointer",
+        "copy",
+        "insert"
+      ],
+      "aliases": [],
+      "componentSet": "169:100564",
+      "source": {
+        "regular": "169:100510",
+        "filled": "169:100523",
+        "duocolor": "169:100536",
+        "duotone": "169:100549"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-plus.svg",
+        "filled": "icons/filled/cursor-plus.svg",
+        "duocolor": "icons/duocolor/cursor-plus.svg",
+        "duotone": "icons/duotone/cursor-plus.svg"
+      },
+      "sha256": {
+        "regular": "489661271887e3289df6728187221ee2113d33779f9b11901627c42d0cb7b0aa",
+        "filled": "ed3f1bd653377feba6c9ada091b7f9dde4bf67e8f914c58e0277b4972147008a",
+        "duocolor": "cd8d3ff90afe5bffb1d8b79a8a93678e1ea17367b729a4dd8f35a436cc958049",
+        "duotone": "c23ed222e6ff1268020e11f6e65fcfc8305f4c42ca1e503027bacf14d6857437"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "cursor",
+        "modifier": "add",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "cursor-question",
+      "category": "Workspace",
+      "tags": [
+        "help",
+        "pointer",
+        "what is this",
+        "context help"
+      ],
+      "aliases": [],
+      "componentSet": "169:100792",
+      "source": {
+        "regular": "169:100734",
+        "filled": "169:100748",
+        "duocolor": "169:100762",
+        "duotone": "169:100776"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-question.svg",
+        "filled": "icons/filled/cursor-question.svg",
+        "duocolor": "icons/duocolor/cursor-question.svg",
+        "duotone": "icons/duotone/cursor-question.svg"
+      },
+      "sha256": {
+        "regular": "34b1be906298475e671b9da44238f2f9548c2c76de4409a98577d359e8513344",
+        "filled": "584f56e069f8da51197c5123a31a01ec93b97282c40634f5b6af5451f5ab5040",
+        "duocolor": "ae0216355ee1a29db8be2128ae9e540b41a2b8b1b9c863bb88def2e7f1067a2c",
+        "duotone": "5ae3742b04804b96a68f1a2598da30e86ef1a19b7ab4f9e40b01535a5def597c"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "cursor",
+        "modifier": "question",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "cursor-select",
+      "category": "Workspace",
+      "tags": [
+        "marquee",
+        "selection",
+        "drag select",
+        "pointer",
+        "area"
+      ],
+      "aliases": [],
+      "componentSet": "169:99252",
+      "source": {
+        "regular": "169:99230",
+        "filled": "169:99233",
+        "duocolor": "169:99244",
+        "duotone": "169:99247"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-select.svg",
+        "filled": "icons/filled/cursor-select.svg",
+        "duocolor": "icons/duocolor/cursor-select.svg",
+        "duotone": "icons/duotone/cursor-select.svg"
+      },
+      "sha256": {
+        "regular": "fec0ec0e4444f4c0dd125cd6b15218d6ba1ddd19364b3d8e1f6588c117dd70f5",
+        "filled": "7f54a81506eabd48fb217525eed787e90982c032f47fe2fb36f9cce7be4cd70a",
+        "duocolor": "e37e89cfa65e596c8c6f0bf6285e62beb8038fd0fd0d053734fbb165649397bc",
+        "duotone": "adcfb975d61a9bfb94d8ece33b8a2f55440aad941204e4a1bf9b6a3f089bdefb"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "cursor-sparkle",
+      "category": "Workspace",
+      "tags": [
+        "ai",
+        "magic",
+        "pointer",
+        "smart select"
+      ],
+      "aliases": [],
+      "componentSet": "169:100843",
+      "source": {
+        "regular": "169:100793",
+        "filled": "169:100805",
+        "duocolor": "169:100817",
+        "duotone": "169:100829"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-sparkle.svg",
+        "filled": "icons/filled/cursor-sparkle.svg",
+        "duocolor": "icons/duocolor/cursor-sparkle.svg",
+        "duotone": "icons/duotone/cursor-sparkle.svg"
+      },
+      "sha256": {
+        "regular": "ae8c13423b63661e2c86d259472aceb78981f77627f6056fe9ea2d475274238e",
+        "filled": "fe7674ede5769d1aa306618b3074c8ac418fdec6d3f4b399178b4b8eedb77bf2",
+        "duocolor": "22a90cdd3d6a4bc9d53f7e0b1cb8c71cd02a630dd6104939df7ed82ce5572e45",
+        "duotone": "44e34d30f7ea4a3e5a031d4e6d229744cff5510911ebf932192ceec2e9b15eff"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "cursor",
+        "modifier": "sparkle",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "cursor-target",
+      "category": "Workspace",
+      "tags": [
+        "click",
+        "aim",
+        "focus",
+        "pointer",
+        "hit"
+      ],
+      "aliases": [],
+      "componentSet": "169:99280",
+      "source": {
+        "regular": "169:99253",
+        "filled": "169:99257",
+        "duocolor": "169:99270",
+        "duotone": "169:99274"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-target.svg",
+        "filled": "icons/filled/cursor-target.svg",
+        "duocolor": "icons/duocolor/cursor-target.svg",
+        "duotone": "icons/duotone/cursor-target.svg"
+      },
+      "sha256": {
+        "regular": "b7e6fdc0b7783c5126c399a4ae69081b8da9b1bce7252304a84b50307323fd1c",
+        "filled": "b876082e6856c6d0c2cfc494f64979fe355cc39dfa4751c53763c849316fc71f",
+        "duocolor": "05157a45c6816f34abb1075f8cb7fa49f5433fcce52b7c876861ff3a6080e573",
+        "duotone": "8738a7fd12a8111c4804e06eb02e77c7e3f7efc4142e667ae54ad19ca388930a"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "cursor-text",
+      "category": "Workspace",
+      "tags": [
+        "i-beam",
+        "type",
+        "caret",
+        "edit text",
+        "input"
+      ],
+      "aliases": [],
+      "componentSet": "169:99300",
+      "source": {
+        "regular": "169:99281",
+        "filled": "169:99284",
+        "duocolor": "169:99294",
+        "duotone": "169:99297"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-text.svg",
+        "filled": "icons/filled/cursor-text.svg",
+        "duocolor": "icons/duocolor/cursor-text.svg",
+        "duotone": "icons/duotone/cursor-text.svg"
+      },
+      "sha256": {
+        "regular": "b90aad1f0aa2a6858c6674f7397cae54f3b72545cdca126fdf8dd765850205cc",
+        "filled": "0b6ca1449e63b3bac33c969c5274d5e64d8dfd8b67064417f1f978a0637cb2f8",
+        "duocolor": "194d0ee2c918e1a834d55327f59b3a191ed24d0cb7ec2ceb5ac9975ba2872ce1",
+        "duotone": "7b99cd1d5e50cf83a14765ce918d958a9e848e7f1e9418c274021e2f355cf8f5"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "cursor-window",
+      "category": "Workspace",
+      "tags": [
+        "browser",
+        "web page",
+        "pointer",
+        "app",
+        "click"
+      ],
+      "aliases": [],
+      "componentSet": "169:99323",
+      "source": {
+        "regular": "169:99301",
+        "filled": "169:99304",
+        "duocolor": "169:99315",
+        "duotone": "169:99318"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cursor-window.svg",
+        "filled": "icons/filled/cursor-window.svg",
+        "duocolor": "icons/duocolor/cursor-window.svg",
+        "duotone": "icons/duotone/cursor-window.svg"
+      },
+      "sha256": {
+        "regular": "259df564c994691994a96900fb0ea2a8ef99dad7600022586a44f97a647dc2dd",
+        "filled": "ac8962f0b83df21c6f04205fea0b86db74ce91b564c659a8ba1ef07c8e81d7e7",
+        "duocolor": "cfe4608d5a4cc7dc986c32fa4b73ecf6c9870e035009ad3275b280b59e6c937f",
+        "duotone": "5c57401e4774b24c6ef2bf5f626fa2c0d29f67dbdf58bff6c37a3d68539580e7"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -31918,6 +33163,224 @@
       }
     },
     {
+      "name": "filter-check",
+      "category": "Interfaces",
+      "tags": [
+        "applied",
+        "active",
+        "confirmed",
+        "funnel"
+      ],
+      "aliases": [],
+      "componentSet": "169:100233",
+      "source": {
+        "regular": "169:100178",
+        "filled": "169:100192",
+        "duocolor": "169:100205",
+        "duotone": "169:100218"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/filter-check.svg",
+        "filled": "icons/filled/filter-check.svg",
+        "duocolor": "icons/duocolor/filter-check.svg",
+        "duotone": "icons/duotone/filter-check.svg"
+      },
+      "sha256": {
+        "regular": "ce0a2b86afd2e95fce1ef9d81f750881af57dcfc4c6ce72021048a8edac5ebb8",
+        "filled": "a20f5311d81c079507cf9a31326b05ef5a6207ab1ff4861605abfffc6db88eac",
+        "duocolor": "fb9ea2f169bcf0d425e4ed8e8336a7445fcac788a860848b9858a49ff4ed8dfe",
+        "duotone": "73149d028b97ec460e4bd81fd7353ac578091e770faec93f7b08b2ce07294ab3"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "filter",
+        "modifier": "check",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "filter-circle",
+      "category": "Interfaces",
+      "tags": [
+        "refine",
+        "options",
+        "narrow",
+        "results",
+        "round"
+      ],
+      "aliases": [],
+      "componentSet": "169:99347",
+      "source": {
+        "regular": "169:99324",
+        "filled": "169:99327",
+        "duocolor": "169:99339",
+        "duotone": "169:99342"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/filter-circle.svg",
+        "filled": "icons/filled/filter-circle.svg",
+        "duocolor": "icons/duocolor/filter-circle.svg",
+        "duotone": "icons/duotone/filter-circle.svg"
+      },
+      "sha256": {
+        "regular": "b8d009e40efdfcd13576327a19c1c2a40353fac1017319b8f0a966a66de2ca46",
+        "filled": "ae4766b208a032670ccc8fd4fb7bc1800ba0ec475c2f39b1daf9103a6ecde0b5",
+        "duocolor": "2babf8968b28f418e6c874dadee376b497bcf80d28e616c44b230a22c72aaca2",
+        "duotone": "96e309f77138e85ab4240266b359342e7dbd93a395360a3a795f75fdd58dfd7e"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "filter-dollar",
+      "category": "Interfaces",
+      "tags": [
+        "price",
+        "cost",
+        "budget",
+        "money",
+        "range"
+      ],
+      "aliases": [],
+      "componentSet": "169:99370",
+      "source": {
+        "regular": "169:99348",
+        "filled": "169:99351",
+        "duocolor": "169:99362",
+        "duotone": "169:99365"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/filter-dollar.svg",
+        "filled": "icons/filled/filter-dollar.svg",
+        "duocolor": "icons/duocolor/filter-dollar.svg",
+        "duotone": "icons/duotone/filter-dollar.svg"
+      },
+      "sha256": {
+        "regular": "d966d022a06347ef83bb8afc5de178ea5063c439b9e75c688b8888bc780c9d7e",
+        "filled": "e6514eabb722b79bf48c816eede52a597753cbed8f63f6bef19f8c89331129a1",
+        "duocolor": "e667d3d3ab25d45b6c112e45f47aa2f2e3084a8b2e9d9548e024a2003791bd78",
+        "duotone": "ce3b68f6d96f53ffccca3a0fd25cf3ad1b37dbca547d05f2d5c14b99f08941a9"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "filter-edit",
+      "category": "Interfaces",
+      "tags": [
+        "modify",
+        "change rule",
+        "adjust",
+        "funnel"
+      ],
+      "aliases": [],
+      "componentSet": "169:100289",
+      "source": {
+        "regular": "169:100234",
+        "filled": "169:100248",
+        "duocolor": "169:100261",
+        "duotone": "169:100274"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/filter-edit.svg",
+        "filled": "icons/filled/filter-edit.svg",
+        "duocolor": "icons/duocolor/filter-edit.svg",
+        "duotone": "icons/duotone/filter-edit.svg"
+      },
+      "sha256": {
+        "regular": "9f95a63a2e0c097445d96852fe4e5862288916adb42a20280801291ee2f48e74",
+        "filled": "7c4e8d9b617af948b39a815b210b5466aa0bd4c70bf93986af4a4695026a6c4d",
+        "duocolor": "5b4d6e07db3047a2c2603428dc12b378b62196fd4393654227048e2ea5167a41",
+        "duotone": "572ea3dc2a1a6d328fd2a9b05dcedf103711db68be988d0ddbf56357abc24dc0"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "filter",
+        "modifier": "edit",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
       "name": "filter-lines",
       "category": "Interfaces",
       "tags": [
@@ -31969,6 +33432,449 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "filter-lines-edit",
+      "category": "Interfaces",
+      "tags": [
+        "modify",
+        "change rule",
+        "adjust"
+      ],
+      "aliases": [],
+      "componentSet": "169:100509",
+      "source": {
+        "regular": "169:100454",
+        "filled": "169:100468",
+        "duocolor": "169:100481",
+        "duotone": "169:100496"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/filter-lines-edit.svg",
+        "filled": "icons/filled/filter-lines-edit.svg",
+        "duocolor": "icons/duocolor/filter-lines-edit.svg",
+        "duotone": "icons/duotone/filter-lines-edit.svg"
+      },
+      "sha256": {
+        "regular": "30a16d8d336ba4c50be778828df6ca5bb3e6a244b519b9a92b7f1ae337b3f1a5",
+        "filled": "1ff6bf7bac884249387dd051dbb04336468a1e77601de2fb871bde7c867cfe24",
+        "duocolor": "560b6d0ed050d3220725b4b7854820d64bffa03685caa58da7c1c45e1edf2737",
+        "duotone": "ec79778008d3cbaacb36f3d4f0fe062577e5cc019fe52d90ace3d05e0750f2e6"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "filter-lines",
+        "modifier": "edit",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "filter-lines-plus",
+      "category": "Interfaces",
+      "tags": [
+        "add filter",
+        "new rule",
+        "refine"
+      ],
+      "aliases": [],
+      "componentSet": "169:100397",
+      "source": {
+        "regular": "169:100342",
+        "filled": "169:100356",
+        "duocolor": "169:100369",
+        "duotone": "169:100384"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/filter-lines-plus.svg",
+        "filled": "icons/filled/filter-lines-plus.svg",
+        "duocolor": "icons/duocolor/filter-lines-plus.svg",
+        "duotone": "icons/duotone/filter-lines-plus.svg"
+      },
+      "sha256": {
+        "regular": "9fa2ebfc8c78c33e6d74b0a40f08fd8b8e46ba1b8fe5c8884fa226d7c0269bb1",
+        "filled": "a4093279718c9f13fb3585bbbdcc1078dde7247c683f3c1fe02b33271d5d6405",
+        "duocolor": "b7ae2510279bfec8e33121136a6a20c979a5dcad549d32ddb1a5397e9ea48863",
+        "duotone": "f9c3673cfbfd6e12f5771b49317421072d989cffd99d2f0b41a6242c66a7a916"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "filter-lines",
+        "modifier": "add",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "filter-lines-x",
+      "category": "Interfaces",
+      "tags": [
+        "clear filter",
+        "remove",
+        "reset"
+      ],
+      "aliases": [],
+      "componentSet": "169:100453",
+      "source": {
+        "regular": "169:100398",
+        "filled": "169:100412",
+        "duocolor": "169:100425",
+        "duotone": "169:100440"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/filter-lines-x.svg",
+        "filled": "icons/filled/filter-lines-x.svg",
+        "duocolor": "icons/duocolor/filter-lines-x.svg",
+        "duotone": "icons/duotone/filter-lines-x.svg"
+      },
+      "sha256": {
+        "regular": "e4ce94075aef3cbea3f77730d6ba324e7ba1d9fc37e7b7fcc4be1800c6269c03",
+        "filled": "cb9f3cb8be127ce54c00d6bc78a73da70ede38b0fa716a46d0564ffc24af40db",
+        "duocolor": "c8b3a09f488cd317e0b957e8b8ec42382a53ef8fe9ea02a5a4509c7c54ea066d",
+        "duotone": "4dd173f759d93d6f2680816418439216a8e3775d60fb5a316dbb79363f5c09de"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "filter-lines",
+        "modifier": "delete",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "filter-off",
+      "category": "Interfaces",
+      "tags": [
+        "no filter",
+        "clear",
+        "disabled",
+        "remove filter",
+        "unfiltered"
+      ],
+      "aliases": [],
+      "componentSet": "169:99397",
+      "source": {
+        "regular": "169:99371",
+        "filled": "169:99374",
+        "duocolor": "169:99389",
+        "duotone": "169:99392"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/filter-off.svg",
+        "filled": "icons/filled/filter-off.svg",
+        "duocolor": "icons/duocolor/filter-off.svg",
+        "duotone": "icons/duotone/filter-off.svg"
+      },
+      "sha256": {
+        "regular": "6f0b4422925718edeaceb823f3cba5862bb9fde6b03fc8a85d8d285457216213",
+        "filled": "57b6e0cc91e9c9dc4efb7a55ec896c8037c48bfb89074315e5429bb6dfefe22b",
+        "duocolor": "eb519fe306445fba83894d8820a7a9d77a52f49921efd48794287407922f071c",
+        "duotone": "d252e80fd4f4251892329d8d0d2303933c6a36ef1081c3ac8807e645bfc4c9d4"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "filter-plus",
+      "category": "Interfaces",
+      "tags": [
+        "add filter",
+        "new rule",
+        "refine",
+        "funnel"
+      ],
+      "aliases": [],
+      "componentSet": "169:100121",
+      "source": {
+        "regular": "169:100066",
+        "filled": "169:100080",
+        "duocolor": "169:100093",
+        "duotone": "169:100106"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/filter-plus.svg",
+        "filled": "icons/filled/filter-plus.svg",
+        "duocolor": "icons/duocolor/filter-plus.svg",
+        "duotone": "icons/duotone/filter-plus.svg"
+      },
+      "sha256": {
+        "regular": "4833d6bca540cd4de53f06c6c30378efc8590a186642f52cfd5de51d02cc62cc",
+        "filled": "127607701010e4682c5915f52625877ae253287dc052b3728fc251d2d754047b",
+        "duocolor": "fdfba21ac903f1f4144733f5e7cf64d59dcf13c1cd0d950a4495d67ca5ed91a2",
+        "duotone": "1a85acb1b6eb1a721286e16889ae8a0ac348c0ef5dd820d82797091bc7fb2669"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "filter",
+        "modifier": "add",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "filter-search",
+      "category": "Interfaces",
+      "tags": [
+        "find",
+        "refine",
+        "query",
+        "funnel"
+      ],
+      "aliases": [],
+      "componentSet": "169:100341",
+      "source": {
+        "regular": "169:100290",
+        "filled": "169:100303",
+        "duocolor": "169:100315",
+        "duotone": "169:100327"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/filter-search.svg",
+        "filled": "icons/filled/filter-search.svg",
+        "duocolor": "icons/duocolor/filter-search.svg",
+        "duotone": "icons/duotone/filter-search.svg"
+      },
+      "sha256": {
+        "regular": "7a94047a2b24b1baa25cc12637a8c6c67ddc5639e656b7178710a1f1bc9d6335",
+        "filled": "6ebb7ecd8da78a3dafe647516cba71e88f40d186d9c3076059d1c1bac3c76514",
+        "duocolor": "2357341dd82517b99a6cabbd34ee45f0d10e0ed029f4b3049b6f38b3c8ed1e17",
+        "duotone": "1c5fdb8685dc42d3f8fe1e97097d5249e122999aa0619cc15b814cebee993bab"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "filter",
+        "modifier": "search",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "filter-square",
+      "category": "Interfaces",
+      "tags": [
+        "refine",
+        "options",
+        "narrow",
+        "results",
+        "box"
+      ],
+      "aliases": [],
+      "componentSet": "169:99421",
+      "source": {
+        "regular": "169:99398",
+        "filled": "169:99401",
+        "duocolor": "169:99413",
+        "duotone": "169:99416"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/filter-square.svg",
+        "filled": "icons/filled/filter-square.svg",
+        "duocolor": "icons/duocolor/filter-square.svg",
+        "duotone": "icons/duotone/filter-square.svg"
+      },
+      "sha256": {
+        "regular": "5dc43bc69060de7ba475cb1045135a38c829a7a29b4d616b38a19b636abd98c2",
+        "filled": "22861c69718be750cb04ef8352a3ea58083338c3e494cdb26812254f7374f439",
+        "duocolor": "9ee88c646dc57f4315544765c0b6f736057e52067c51b9e54ea250f046c9f96b",
+        "duotone": "eff87381448273502e4c37033beda0b807c5310a24e6c4e3cb5b33371007c3db"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "filter-x",
+      "category": "Interfaces",
+      "tags": [
+        "clear filter",
+        "remove",
+        "reset",
+        "funnel"
+      ],
+      "aliases": [],
+      "componentSet": "169:100177",
+      "source": {
+        "regular": "169:100122",
+        "filled": "169:100136",
+        "duocolor": "169:100149",
+        "duotone": "169:100162"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/filter-x.svg",
+        "filled": "icons/filled/filter-x.svg",
+        "duocolor": "icons/duocolor/filter-x.svg",
+        "duotone": "icons/duotone/filter-x.svg"
+      },
+      "sha256": {
+        "regular": "94f8fb38ebe425c69ecd080c56f201015721cfafad397e8e71995867ab639c80",
+        "filled": "c3932ef56e01f512ab54e36a8aba0452673dac27fbd080bcf14842090d8f3795",
+        "duocolor": "8c8f00fd65bb56b8289103debede34d0a130a13748ad31e6fbf45e1d3641438d",
+        "duotone": "826ed590490a431933f3c414e4554a5b067d3ae6a60315d9011e2487b99bdffa"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "filter",
+        "modifier": "delete",
+        "position": "bottom-right",
+        "fit": null
       }
     },
     {
@@ -34203,6 +36109,58 @@
         "filled": "ff9630fc4fa213c9ab1f91d5b88cb44fe6c288eeea9a441e3ee2f56071b64d01",
         "duocolor": "3ad9a09d3299634f6a4f88e7a6de1d7c386aaf6ead3c308ab562de2baa17f378",
         "duotone": "77dca219dc1669fd0d0a5cde251143b29ef8e58f3b67a7f653afbb4aec43a10a"
+      }
+    },
+    {
+      "name": "game-controller",
+      "category": "Media & devices",
+      "tags": [
+        "gamepad",
+        "gaming",
+        "console",
+        "play",
+        "video game"
+      ],
+      "aliases": [],
+      "componentSet": "169:107006",
+      "source": {
+        "regular": "169:106975",
+        "filled": "169:106980",
+        "duocolor": "169:106994",
+        "duotone": "169:106999"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/game-controller.svg",
+        "filled": "icons/filled/game-controller.svg",
+        "duocolor": "icons/duocolor/game-controller.svg",
+        "duotone": "icons/duotone/game-controller.svg"
+      },
+      "sha256": {
+        "regular": "dc21ed00d45a9cbbea308f4a4674eed1c3006b258b143a447be8b0261b071445",
+        "filled": "06903ca043d212f34fa145a1c356dfcccee4d0c04e41119b3b55e83de32982e3",
+        "duocolor": "52d89d145d7d0e96f47ba945fd12f9ac3184e7c98ef892486580c57bd29c3b8e",
+        "duotone": "bc8fff9a00226f50eb05fe7f2b99204aa17d167afd858aada2b88d7768441168"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
       }
     },
     {
@@ -41251,6 +43209,58 @@
       }
     },
     {
+      "name": "joystick",
+      "category": "Media & devices",
+      "tags": [
+        "arcade",
+        "gaming",
+        "stick",
+        "retro",
+        "video game"
+      ],
+      "aliases": [],
+      "componentSet": "169:107042",
+      "source": {
+        "regular": "169:107007",
+        "filled": "169:107012",
+        "duocolor": "169:107029",
+        "duotone": "169:107034"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/joystick.svg",
+        "filled": "icons/filled/joystick.svg",
+        "duocolor": "icons/duocolor/joystick.svg",
+        "duotone": "icons/duotone/joystick.svg"
+      },
+      "sha256": {
+        "regular": "6af4dcfdc96cd30effcc5572570a32fc1d24afe256ee3e391826e309d855ec64",
+        "filled": "c43e1a80f00f23c22cd662a361487bc54deaaef51514a3323337c73777c7c0dc",
+        "duocolor": "bb2df5c2f32aad893fc06d02df9e6117ffaad0904b31885aa06aeb7c236b1386",
+        "duotone": "2e24c94fdf9f6fce0c360db24df4f902b242731d07b60ee56a5311e3b1238036"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "jump-rope",
       "category": "Sports & fitness",
       "tags": [
@@ -41986,6 +43996,162 @@
         },
         "duotone": {
           "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "laurel-branch",
+      "category": "Sports & fitness",
+      "tags": [
+        "olive",
+        "peace",
+        "leaf",
+        "nature",
+        "honor"
+      ],
+      "aliases": [],
+      "componentSet": "169:104706",
+      "source": {
+        "regular": "169:104642",
+        "filled": "169:104651",
+        "duocolor": "169:104680",
+        "duotone": "169:104689"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/laurel-branch.svg",
+        "filled": "icons/filled/laurel-branch.svg",
+        "duocolor": "icons/duocolor/laurel-branch.svg",
+        "duotone": "icons/duotone/laurel-branch.svg"
+      },
+      "sha256": {
+        "regular": "f4c53bb7218755cdeaeac40d737fb19d4b3bce8b75487cd3bb3ed9eea6af3dbb",
+        "filled": "3524f73f844bdcae0664f5668ba9efef5c5165b540d6c1d454535cb5c6bca5a4",
+        "duocolor": "cd2d3d05f3a020875ce2466d706f6d767c2afb1975b16f8ffb8fe93d452e6cb6",
+        "duotone": "699306ca848a81d8f34e01d027e7061c4c31873ddc257c22fe34c14e46190afb"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 8,
+          "accents": 7,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 7,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "laurel-wreath",
+      "category": "Sports & fitness",
+      "tags": [
+        "victory",
+        "champion",
+        "olive",
+        "honor",
+        "prize"
+      ],
+      "aliases": [],
+      "componentSet": "169:105011",
+      "source": {
+        "regular": "169:104865",
+        "filled": "169:104886",
+        "duocolor": "169:104950",
+        "duotone": "169:104971"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/laurel-wreath.svg",
+        "filled": "icons/filled/laurel-wreath.svg",
+        "duocolor": "icons/duocolor/laurel-wreath.svg",
+        "duotone": "icons/duotone/laurel-wreath.svg"
+      },
+      "sha256": {
+        "regular": "0e12531fad2562b0d38fad7418d013c27f8ccd0d062b8c765aaeec1a7a5400e7",
+        "filled": "a00ee5ef85f2846a3b7b55512d819b386ea439eef187d093f9ac3d70da4d0294",
+        "duocolor": "b5853c274e84c0d85d1b1af0739120e3bd46d307705cb27baade47ae0e95b72a",
+        "duotone": "ab72970a1b6b1ae67d66710f96b9fefb44d30355603cce596ab9bf6de579a463"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 20,
+          "accents": 18,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 18,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "laurel-wreath-1",
+      "category": "Sports & fitness",
+      "tags": [
+        "first place",
+        "winner",
+        "champion",
+        "victory",
+        "top"
+      ],
+      "aliases": [],
+      "componentSet": "169:105163",
+      "source": {
+        "regular": "169:105012",
+        "filled": "169:105034",
+        "duocolor": "169:105100",
+        "duotone": "169:105122"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/laurel-wreath-1.svg",
+        "filled": "icons/filled/laurel-wreath-1.svg",
+        "duocolor": "icons/duocolor/laurel-wreath-1.svg",
+        "duotone": "icons/duotone/laurel-wreath-1.svg"
+      },
+      "sha256": {
+        "regular": "3169b95351fab40a91537b966de1dd75e8a96f478f11c9d4d178cb883330242a",
+        "filled": "91943ba9e9731731c7941e40605181379bee0a05e2539ffade54a8a6b61532ca",
+        "duocolor": "21fb62671d30c27fb0bbcfd137658f77e5b4e24dc48e51d103153fae2985c06f",
+        "duotone": "c47195a71e625ea5b0fb4e4aa20f1dbfb5a55bfc2ee75bdc84fac9207b434810"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 21,
+          "accents": 18,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 18,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -44468,6 +46634,110 @@
       }
     },
     {
+      "name": "loader-rays",
+      "category": "Interfaces",
+      "tags": [
+        "loading",
+        "progress",
+        "busy",
+        "wait",
+        "activity"
+      ],
+      "aliases": [],
+      "componentSet": "169:99471",
+      "source": {
+        "regular": "169:99422",
+        "filled": "169:99431",
+        "duocolor": "169:99453",
+        "duotone": "169:99462"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/loader-rays.svg",
+        "filled": "icons/filled/loader-rays.svg",
+        "duocolor": "icons/duocolor/loader-rays.svg",
+        "duotone": "icons/duotone/loader-rays.svg"
+      },
+      "sha256": {
+        "regular": "7f2a21b526d641621027b0c37e6192d7fdf469bdcc4d696f20bd25fa49489549",
+        "filled": "471b5068a34302a439bb95176502ed0f9544318cd8a369f6e5faab9c0d431aea",
+        "duocolor": "c7a3a300728bfdac6fd3d8f521e8ded33d431578e766aac1a1e8d8e5c57f594a",
+        "duotone": "0e9564356ee5d78bce00ce72253edb8a35f015e95bab7fa8388a536864c4d281"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 8,
+          "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "loader-spinner",
+      "category": "Interfaces",
+      "tags": [
+        "loading",
+        "progress",
+        "busy",
+        "wait",
+        "activity"
+      ],
+      "aliases": [],
+      "componentSet": "169:99486",
+      "source": {
+        "regular": "169:99472",
+        "filled": "169:99474",
+        "duocolor": "169:99482",
+        "duotone": "169:99484"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/loader-spinner.svg",
+        "filled": "icons/filled/loader-spinner.svg",
+        "duocolor": "icons/duocolor/loader-spinner.svg",
+        "duotone": "icons/duotone/loader-spinner.svg"
+      },
+      "sha256": {
+        "regular": "8decfe78bf2dcf04cb326d6967c97f69918efadaa6b1bf8b2fc916dc202e2093",
+        "filled": "11ea6bd4e698684f16a164ddadca1e74c7d0701e436a11b8b05e70d56e716c66",
+        "duocolor": "d61ac399f624eac20be10526ff7bba1a0d8b1e94471dfa0ec52e783a7a441129",
+        "duotone": "5043a2a96cba7ebb7e3efcd9f4f4c6608cd7064ce976bd65179f2588b11627d6"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "loading",
       "category": "Interfaces",
       "tags": [
@@ -45057,10 +47327,10 @@
         "duotone": "icons/duotone/log-in-circle.svg"
       },
       "sha256": {
-        "regular": "11a36a948d1eb99427a6d143fecf7649a843e4bb05edd926e573aa962458a199",
-        "filled": "a82732b91dcae1376e2dcf3d3df83dcfe9889565109cbf19e3a9301ae5d1bec9",
-        "duocolor": "431561cf7274d3113c3b5a4b3954b31e13d747456815a1190f0820b2aec89f0a",
-        "duotone": "9020d9317660c2d7c0d29acd9cf33b09b6d345f9e20ff9071f161e6dc8ba25cb"
+        "regular": "775131cad92e2b31562222997e3bf4c6abbf8cab25f457b8deb668ed0fd19d4f",
+        "filled": "5220b640741ce2054877559f179b9b62321a4773baaae7d197b4c8cf7b343517",
+        "duocolor": "7076b2a089bee6afd6294c7f06276e7d33aa4d25dabb4fcc823e5cb136b66317",
+        "duotone": "c80892797201108396b383cd1f1cfa87bfed94a4ecb04921df24c429c3f96348"
       },
       "duoAuthoring": {
         "version": 2,
@@ -45166,10 +47436,10 @@
         "duotone": "icons/duotone/log-out-circle.svg"
       },
       "sha256": {
-        "regular": "3c4bc109eca0c69d56ae6518a35dc98ea8bfa83d8d8d500e8e4e83aee834c676",
-        "filled": "880b50adc24c01ca5285e69c65237130ea001be4f6f8cb9fc42e91875c760c0d",
-        "duocolor": "12b1984ae64f7a349bcf730148e05e73b0be8dc65042e9e7b89b511ee80dc295",
-        "duotone": "ae623437bc27e5d60b1e5a024cf749ad02c303d03bf3b9b291a5474ac7605db2"
+        "regular": "dc1d01bcee1d71260aa80104ad0c13c3e0cdeab4796859c3ec4607141e0bd2a3",
+        "filled": "63afcc41bda2c19d12fad549e1e4a35a1822dbc8f57a8e459133f8af6ebd1220",
+        "duocolor": "9a6c79cf665656bce13b44d8f54a69df5b021ca6388fd0d806acd5146531a0e8",
+        "duotone": "92df83c130f08b536e11302530643a3299fadce136d4076a92560cb8a1567c7a"
       },
       "duoAuthoring": {
         "version": 2,
@@ -45385,10 +47655,10 @@
         "duotone": "icons/duotone/magnet.svg"
       },
       "sha256": {
-        "regular": "67724b175255ca836a2f8335cce10cb04c750d1f3b65646dac0d7faf3b80ed61",
-        "filled": "b3e78588280d370ac8f14f2ee5d5c381b9150ea646c9186b21a0f74e6af55c13",
-        "duocolor": "4505083c546ecbd191c66e4fc119a3875776a34e2216e00e7fce7833a97e2ac1",
-        "duotone": "46fee1110b7d53f1d57776e87bd3e6fedcab9bafc8cdcdec2f97660abfed579b"
+        "regular": "6312a798b2073d3d8324194d0490c245de2203ed6c9be73bcc79ea5fb92d0824",
+        "filled": "01369837f0016e6e4c147526deb32457f20364352500352afecd5601498af8af",
+        "duocolor": "0f6df39b3aa24988aac1278f9a2073339c1e0217b08766332395e5e1d5349a04",
+        "duotone": "d6c7862d00999cbe8bfc1fcab68b4d2beae31982e47b6578d1ac01319428e8c5"
       },
       "duoAuthoring": {
         "version": 2,
@@ -45400,6 +47670,58 @@
         },
         "duotone": {
           "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "magnet-zap",
+      "category": "Workspace",
+      "tags": [
+        "attract",
+        "energy",
+        "power",
+        "lightning",
+        "magnetic"
+      ],
+      "aliases": [],
+      "componentSet": "169:102890",
+      "source": {
+        "regular": "169:102860",
+        "filled": "169:102864",
+        "duocolor": "169:102879",
+        "duotone": "169:102883"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/magnet-zap.svg",
+        "filled": "icons/filled/magnet-zap.svg",
+        "duocolor": "icons/duocolor/magnet-zap.svg",
+        "duotone": "icons/duotone/magnet-zap.svg"
+      },
+      "sha256": {
+        "regular": "3e26a3e6afda6af5b9aa6b88ba1e17c510107e0b02ada97f2f3d6bae9264dbd4",
+        "filled": "028fe47e0ef1aa9fc7469d418b11223517b7939dac2ec8eb6325b894c67d18d7",
+        "duocolor": "e9678239fdfc4c99d9afc6149268c14ea978d915217eecc4ad669a3f939596df",
+        "duotone": "bdf34d954c0bb00d1fe5a5da6c2c9fcfc989ff676f0f3e67bcd9e049b3f2cfd3"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -46001,6 +48323,212 @@
         },
         "duotone": {
           "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "medal-1",
+      "category": "Sports & fitness",
+      "tags": [
+        "gold",
+        "first place",
+        "winner",
+        "champion",
+        "top"
+      ],
+      "aliases": [],
+      "componentSet": "169:105194",
+      "source": {
+        "regular": "169:105164",
+        "filled": "169:105168",
+        "duocolor": "169:105183",
+        "duotone": "169:105187"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/medal-1.svg",
+        "filled": "icons/filled/medal-1.svg",
+        "duocolor": "icons/duocolor/medal-1.svg",
+        "duotone": "icons/duotone/medal-1.svg"
+      },
+      "sha256": {
+        "regular": "7b2a065347db9c7d061590687aaa7e49f37365e9d39ccbe794861be63a4c3b7f",
+        "filled": "fcf537438d67b4a08389c0ea9469ce2fed006a3ab2d61c7a2e9fb53a897a87ec",
+        "duocolor": "72b271bc5dda1c0df0786c24ff277bbaac3e81fb9dff3662240c1244d3587281",
+        "duotone": "291e91d1e64d44608f1d3619b837ab5573038eed3bf11f93e9beadbaaaf75c5d"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "medal-2",
+      "category": "Sports & fitness",
+      "tags": [
+        "silver",
+        "second place",
+        "runner up",
+        "podium"
+      ],
+      "aliases": [],
+      "componentSet": "169:105225",
+      "source": {
+        "regular": "169:105195",
+        "filled": "169:105199",
+        "duocolor": "169:105214",
+        "duotone": "169:105218"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/medal-2.svg",
+        "filled": "icons/filled/medal-2.svg",
+        "duocolor": "icons/duocolor/medal-2.svg",
+        "duotone": "icons/duotone/medal-2.svg"
+      },
+      "sha256": {
+        "regular": "4124da057ca6f16c827416d15e0341fba15f6576717169febfc335b2a6c5b8d7",
+        "filled": "f379d2b771a46f73e65faeb10faca0f5423d95a3aac18ac40038476c55c3e33a",
+        "duocolor": "9ce7b662765291853962b2c752066f1e4f5144c4be09b0e393051c04f451d78b",
+        "duotone": "fa588b4af6cea0a6ac408c47d78ba0c8b27401bf1b946ae590fc8922a9c2bce9"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "medal-3",
+      "category": "Sports & fitness",
+      "tags": [
+        "bronze",
+        "third place",
+        "podium",
+        "finisher"
+      ],
+      "aliases": [],
+      "componentSet": "169:105256",
+      "source": {
+        "regular": "169:105226",
+        "filled": "169:105230",
+        "duocolor": "169:105245",
+        "duotone": "169:105249"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/medal-3.svg",
+        "filled": "icons/filled/medal-3.svg",
+        "duocolor": "icons/duocolor/medal-3.svg",
+        "duotone": "icons/duotone/medal-3.svg"
+      },
+      "sha256": {
+        "regular": "edbdf7b063cdb07dd0f5e2d1ca2e576fff444de0ccca03791c7ac341c9f67053",
+        "filled": "eaac54431e34d34975c74884a96ca6bd26f80764afc4c79b61b0e568ee7f7d11",
+        "duocolor": "1da67faf6d51d5f4f641bf544d8a13e594fc88df3756c2c135fe9939d493bdf1",
+        "duotone": "136b4bc67f130241009842967c3688afb61612107e0d20bf39ae2daebec7e8fa"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "medal-military",
+      "category": "Sports & fitness",
+      "tags": [
+        "honor",
+        "service",
+        "decoration",
+        "veteran",
+        "ribbon bar"
+      ],
+      "aliases": [],
+      "componentSet": "169:105287",
+      "source": {
+        "regular": "169:105257",
+        "filled": "169:105261",
+        "duocolor": "169:105276",
+        "duotone": "169:105280"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/medal-military.svg",
+        "filled": "icons/filled/medal-military.svg",
+        "duocolor": "icons/duocolor/medal-military.svg",
+        "duotone": "icons/duotone/medal-military.svg"
+      },
+      "sha256": {
+        "regular": "a44a284beebb0fec8767a0ae447f258caab27e513f7156f24b55d1fedb7c83c7",
+        "filled": "993f0235ae393bd82347ac265abccbf0b988af08bf300bd795faa27662f401b1",
+        "duocolor": "08c8daf5e857a351d4f6a7453f5df89a6a8c2ede0573e14f11387568275f3838",
+        "duotone": "5b4ad17dd48992040a84a86671cf3b831fc0915fcd963a2e8950f51808f73c6e"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -49650,6 +52178,214 @@
       }
     },
     {
+      "name": "mouse-left-click",
+      "category": "Media & devices",
+      "tags": [
+        "primary button",
+        "select",
+        "press",
+        "pointer device",
+        "computer"
+      ],
+      "aliases": [],
+      "componentSet": "169:99514",
+      "source": {
+        "regular": "169:99487",
+        "filled": "169:99491",
+        "duocolor": "169:99504",
+        "duotone": "169:99508"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/mouse-left-click.svg",
+        "filled": "icons/filled/mouse-left-click.svg",
+        "duocolor": "icons/duocolor/mouse-left-click.svg",
+        "duotone": "icons/duotone/mouse-left-click.svg"
+      },
+      "sha256": {
+        "regular": "21f7309856fb57234b50b3be53a23932ec0b8a845e5dea2e0c4f4ae61622f4eb",
+        "filled": "d306b7a4c114825dedd64323ebb60d82a777370abc4231cefbb4a131eae4453a",
+        "duocolor": "51014aad4876f0a2f79a0dabd02e4aeac72610adbffb078a996310ffc9f3716c",
+        "duotone": "c83cb4ea79c265f13e853c47d956be30147d62bada9d86e506cdd782b07040d7"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "mouse-right-click",
+      "category": "Media & devices",
+      "tags": [
+        "context menu",
+        "secondary button",
+        "options",
+        "pointer device",
+        "computer"
+      ],
+      "aliases": [],
+      "componentSet": "169:99542",
+      "source": {
+        "regular": "169:99515",
+        "filled": "169:99519",
+        "duocolor": "169:99532",
+        "duotone": "169:99536"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/mouse-right-click.svg",
+        "filled": "icons/filled/mouse-right-click.svg",
+        "duocolor": "icons/duocolor/mouse-right-click.svg",
+        "duotone": "icons/duotone/mouse-right-click.svg"
+      },
+      "sha256": {
+        "regular": "d8c433c8e00e5b64f218e45233fa958bb524b3ac8441b2a60854fe937d740e53",
+        "filled": "3f0cc1191627af470f601f5cd8bfe3d2eafb02226759910e44e08bdd9b007203",
+        "duocolor": "88ecdba35e0c216051b49fe432ebc7b344e3e072a64f9bd96b366099e6402f53",
+        "duotone": "2a25eca809f4a820e6375ec537a16b8aa5c35357529e422b6579bd58ff3c6191"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "mouse-scroll",
+      "category": "Media & devices",
+      "tags": [
+        "wheel",
+        "scrolling",
+        "pointer device",
+        "navigate",
+        "computer"
+      ],
+      "aliases": [],
+      "componentSet": "169:99571",
+      "source": {
+        "regular": "169:99543",
+        "filled": "169:99547",
+        "duocolor": "169:99561",
+        "duotone": "169:99565"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/mouse-scroll.svg",
+        "filled": "icons/filled/mouse-scroll.svg",
+        "duocolor": "icons/duocolor/mouse-scroll.svg",
+        "duotone": "icons/duotone/mouse-scroll.svg"
+      },
+      "sha256": {
+        "regular": "66fc9cc99d2ac8d954ec5403cc90cba122a8ca9cd8e51e952b774b19274cb6ae",
+        "filled": "cbf15aacd87085b3ecd8f15a0fbdfa48f78c50ac0959440f161ae7a759d899a5",
+        "duocolor": "4d50f3d58ae69d9ea132717c22d666eb80d533c92d063141f7f1a01e0b0bd937",
+        "duotone": "260a65b355abb5b7d0d8f5f14059d9f3e5cc25b0cc9e6af424c7519f4000f294"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "mouse-wired",
+      "category": "Media & devices",
+      "tags": [
+        "cable",
+        "usb",
+        "pointer device",
+        "computer",
+        "peripheral"
+      ],
+      "aliases": [],
+      "componentSet": "169:99600",
+      "source": {
+        "regular": "169:99572",
+        "filled": "169:99576",
+        "duocolor": "169:99590",
+        "duotone": "169:99594"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/mouse-wired.svg",
+        "filled": "icons/filled/mouse-wired.svg",
+        "duocolor": "icons/duocolor/mouse-wired.svg",
+        "duotone": "icons/duotone/mouse-wired.svg"
+      },
+      "sha256": {
+        "regular": "480b8919a29d22101903e11cdb6122612d07c49d758ea88137986d3be391c39e",
+        "filled": "be0a29d0928365a85c07d940fcbfe9ffc8dfdb6ecc2d01b6a3606b630a93a8ad",
+        "duocolor": "53a2248aec18310675e0a20de749c46efc89fa60a3f569ae4df18d8b044a1a61",
+        "duotone": "adb712d54812c6b27e73ca29cd312a1fbf637119b1cf502736513afb3667b026"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "move",
       "category": "Navigation",
       "tags": [
@@ -50099,6 +52835,218 @@
       }
     },
     {
+      "name": "network-3g",
+      "category": "Media & devices",
+      "tags": [
+        "mobile data",
+        "cellular",
+        "signal",
+        "generation",
+        "carrier",
+        "connectivity"
+      ],
+      "aliases": [],
+      "componentSet": "169:99625",
+      "source": {
+        "regular": "169:99601",
+        "filled": "169:99605",
+        "duocolor": "169:99617",
+        "duotone": "169:99621"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/network-3g.svg",
+        "filled": "icons/filled/network-3g.svg",
+        "duocolor": "icons/duocolor/network-3g.svg",
+        "duotone": "icons/duotone/network-3g.svg"
+      },
+      "sha256": {
+        "regular": "cb24f1e60ca3edfc25ae99913cb726c151979f380278148197e9dbc278090a4b",
+        "filled": "7ecd9cbfa0da50431ae53dfb105473de30ba495a1a7f3febcc3041dfd3ef4e36",
+        "duocolor": "0a33eafb548223e0608e15c8988ee595ccb351f09fbc62aab5cdb33fbe5aca4e",
+        "duotone": "aa1ee18bafa10192211fad56e035b40f7de1042dc8f432b41f661b5a69fe58ed"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "network-4g",
+      "category": "Media & devices",
+      "tags": [
+        "mobile data",
+        "cellular",
+        "signal",
+        "generation",
+        "carrier",
+        "connectivity"
+      ],
+      "aliases": [],
+      "componentSet": "169:99650",
+      "source": {
+        "regular": "169:99626",
+        "filled": "169:99630",
+        "duocolor": "169:99642",
+        "duotone": "169:99646"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/network-4g.svg",
+        "filled": "icons/filled/network-4g.svg",
+        "duocolor": "icons/duocolor/network-4g.svg",
+        "duotone": "icons/duotone/network-4g.svg"
+      },
+      "sha256": {
+        "regular": "5c5273e42f3f6808ebcedea5528ce70579ffe92b9df25dc0beb81d11978c0e38",
+        "filled": "5eca8f4ed23dc11d55a0c355813784fa5cb45246087b0a1cd82ea523b59e26e8",
+        "duocolor": "8c9791f8cd0b76d07d5954d574fb475f9a2b002c85cf4b3b8a871a8baa8ccd38",
+        "duotone": "51351ba5bdf7aa8a8c3a8a4e623f274e8c065920dcd225772da710e81b8293e9"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "network-5g",
+      "category": "Media & devices",
+      "tags": [
+        "mobile data",
+        "cellular",
+        "signal",
+        "generation",
+        "carrier",
+        "connectivity"
+      ],
+      "aliases": [],
+      "componentSet": "169:99675",
+      "source": {
+        "regular": "169:99651",
+        "filled": "169:99655",
+        "duocolor": "169:99667",
+        "duotone": "169:99671"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/network-5g.svg",
+        "filled": "icons/filled/network-5g.svg",
+        "duocolor": "icons/duocolor/network-5g.svg",
+        "duotone": "icons/duotone/network-5g.svg"
+      },
+      "sha256": {
+        "regular": "b2640140134d123a2865f9e89ea87226c9a07208a5146d0a3ab9a76c901adb0b",
+        "filled": "ed13e428d266086a0263a1f89f5c35020a10a760f368a436ecf71401b184c05c",
+        "duocolor": "799cba0835ba65ee94ac15abaeeac6dd12be21051707c1157182406aab336bc7",
+        "duotone": "dffc9858a7ea28977ba4ef71eb8473f4629c55271ee51bb70d01d42a9f71ed45"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "network-6g",
+      "category": "Media & devices",
+      "tags": [
+        "mobile data",
+        "cellular",
+        "signal",
+        "generation",
+        "carrier",
+        "connectivity"
+      ],
+      "aliases": [],
+      "componentSet": "169:99700",
+      "source": {
+        "regular": "169:99676",
+        "filled": "169:99680",
+        "duocolor": "169:99692",
+        "duotone": "169:99696"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/network-6g.svg",
+        "filled": "icons/filled/network-6g.svg",
+        "duocolor": "icons/duocolor/network-6g.svg",
+        "duotone": "icons/duotone/network-6g.svg"
+      },
+      "sha256": {
+        "regular": "842bc70f3cbbe8508ceef56d1b7b0dfc854a2823003807c09c979a418c8a84f7",
+        "filled": "e56874b2c414917c4e3ff07b0345fd8b6c7369a7749a511ff37bc7bc44a1754c",
+        "duocolor": "30f098dc271ea51fed602b987e47bba8ae567c8c8928c8c3c9d27b50ba539fee",
+        "duotone": "a727cfef3124d54d9df34f34e1c364ed55cea46531e91b59ea0661a681a23f31"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "neural-network",
       "category": "AI & agents",
       "tags": [
@@ -50519,6 +53467,1066 @@
         "duocolor": {
           "contours": 5,
           "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-1",
+      "category": "Shapes",
+      "tags": [
+        "one",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:107949",
+      "source": {
+        "regular": "169:107926",
+        "filled": "169:107929",
+        "duocolor": "169:107941",
+        "duotone": "169:107944"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-1.svg",
+        "filled": "icons/filled/number-1.svg",
+        "duocolor": "icons/duocolor/number-1.svg",
+        "duotone": "icons/duotone/number-1.svg"
+      },
+      "sha256": {
+        "regular": "83f6dc9c023b7f495e45be258148bfd317ff94ce0eabb8d3d4b6f4a7e811c81b",
+        "filled": "916440d51a5e2b320e6b95f6b2ae40413a77eb21fa441a42b1e9556b52dc7367",
+        "duocolor": "6791eca7f2844fb814e9f232a4c326dab8f3a03ffce1f372c35e5918cc4b7234",
+        "duotone": "6e8d26809172127a6e03997291ac91540072f65cce505c52b3d654a69647158e"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-10",
+      "category": "Shapes",
+      "tags": [
+        "ten",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108165",
+      "source": {
+        "regular": "169:108142",
+        "filled": "169:108145",
+        "duocolor": "169:108157",
+        "duotone": "169:108160"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-10.svg",
+        "filled": "icons/filled/number-10.svg",
+        "duocolor": "icons/duocolor/number-10.svg",
+        "duotone": "icons/duotone/number-10.svg"
+      },
+      "sha256": {
+        "regular": "e63d4037b1ab8304a4158c80116924c4eca0d58a0f81bf49981b10b476a36319",
+        "filled": "9fce36d7f8f7d9b97c12916e91662db904583119ad379fa93ecef69117cd207b",
+        "duocolor": "f4590a011b6bd60060728aae6ec0c9780a0343a11135de178884bccc898b6494",
+        "duotone": "1d3530668fde37d7bcc36d10b170a86288e782e1286a37b027936f2a9602d89f"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-11",
+      "category": "Shapes",
+      "tags": [
+        "eleven",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108189",
+      "source": {
+        "regular": "169:108166",
+        "filled": "169:108169",
+        "duocolor": "169:108181",
+        "duotone": "169:108184"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-11.svg",
+        "filled": "icons/filled/number-11.svg",
+        "duocolor": "icons/duocolor/number-11.svg",
+        "duotone": "icons/duotone/number-11.svg"
+      },
+      "sha256": {
+        "regular": "63682513229b2082cc79e56f16bdaf77dfa0b0536028a5fe6c3949ff822c1acb",
+        "filled": "a1f48c1b4dbbf4b55413d5a154e7b0072b57a3684d0344dc8a16939e4dbd43eb",
+        "duocolor": "35ca40bff1a6d504a0f55b1963a91d9b73e139385384cbedb1bc6a58dfb48be5",
+        "duotone": "a0a02bdcbceee483ed32c47220a4a16ed1b41167f33b013445a46e1dd9c4c6d2"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-12",
+      "category": "Shapes",
+      "tags": [
+        "twelve",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108213",
+      "source": {
+        "regular": "169:108190",
+        "filled": "169:108193",
+        "duocolor": "169:108205",
+        "duotone": "169:108208"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-12.svg",
+        "filled": "icons/filled/number-12.svg",
+        "duocolor": "icons/duocolor/number-12.svg",
+        "duotone": "icons/duotone/number-12.svg"
+      },
+      "sha256": {
+        "regular": "44bafb441c7909054c967e656ae48b5aab97ee56a45bc5eb9de050fce764a412",
+        "filled": "ef8892160fc0924ff22a78bbb7488b6066549116c1d97179e059393cd4e662ba",
+        "duocolor": "4e3123e2172a480390b94fc9ddf59dc8ad7c8c38b65d19f64e2bd2bfb69d1fcf",
+        "duotone": "5543d7e574d41054e8d77a53cdb030da3fb435436a2e69e07b3a235fc011f19b"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-13",
+      "category": "Shapes",
+      "tags": [
+        "thirteen",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108237",
+      "source": {
+        "regular": "169:108214",
+        "filled": "169:108217",
+        "duocolor": "169:108229",
+        "duotone": "169:108232"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-13.svg",
+        "filled": "icons/filled/number-13.svg",
+        "duocolor": "icons/duocolor/number-13.svg",
+        "duotone": "icons/duotone/number-13.svg"
+      },
+      "sha256": {
+        "regular": "e47c993de56e6f0e1833829adfbd7799abdda2bd9815fbbd1fc95367d5af7a0a",
+        "filled": "109ded4edc479ba644f04b21467b775ae8beb57fe111d18af0175c0132de5eda",
+        "duocolor": "960cddacc91ac2d0efc719b9b6fa51938ff776b877d8363e568ade459eaeeddc",
+        "duotone": "6a49795783a028ce987bdf45b0baa9865bcc0140eae99208a2c69f5dcd7fddcf"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-14",
+      "category": "Shapes",
+      "tags": [
+        "fourteen",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108261",
+      "source": {
+        "regular": "169:108238",
+        "filled": "169:108241",
+        "duocolor": "169:108253",
+        "duotone": "169:108256"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-14.svg",
+        "filled": "icons/filled/number-14.svg",
+        "duocolor": "icons/duocolor/number-14.svg",
+        "duotone": "icons/duotone/number-14.svg"
+      },
+      "sha256": {
+        "regular": "91ab588efc1a42791ee419b998735da8d628c523d6a471af84d685d2a4946683",
+        "filled": "912a9392faf0afd4cc41f844620242158f05df74a109b453a588ec99e2814928",
+        "duocolor": "1ca89229c4c2675d4884fa8785715aeaec73f115deec0dd8f017e426ef10936b",
+        "duotone": "053578d34bff888f35818c39007dd68cbb88e57fe815ebc0174cc0cd4481d782"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-15",
+      "category": "Shapes",
+      "tags": [
+        "fifteen",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108285",
+      "source": {
+        "regular": "169:108262",
+        "filled": "169:108265",
+        "duocolor": "169:108277",
+        "duotone": "169:108280"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-15.svg",
+        "filled": "icons/filled/number-15.svg",
+        "duocolor": "icons/duocolor/number-15.svg",
+        "duotone": "icons/duotone/number-15.svg"
+      },
+      "sha256": {
+        "regular": "b13b97d058c4c194805342ef32f18be67da6f23197c7d645eca8ea69f50ec123",
+        "filled": "600746fcbe7aa5790bbdfde71ee013268a30a9efbef016844df104344d6f385d",
+        "duocolor": "07fedde3dd4d754932d3889afe2c6549dfd9da1444c6579fd45c3669798b01c7",
+        "duotone": "4e85fb032790b1680e675825f8926ce54867591a028f44d8c55f255cee902f66"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-16",
+      "category": "Shapes",
+      "tags": [
+        "sixteen",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108309",
+      "source": {
+        "regular": "169:108286",
+        "filled": "169:108289",
+        "duocolor": "169:108301",
+        "duotone": "169:108304"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-16.svg",
+        "filled": "icons/filled/number-16.svg",
+        "duocolor": "icons/duocolor/number-16.svg",
+        "duotone": "icons/duotone/number-16.svg"
+      },
+      "sha256": {
+        "regular": "905a2596b1adfe64b4bc3b552a8f6e9b6bf5a1a9943bc22622312c79e0a7a524",
+        "filled": "cc4a02348b672c2a0d4127206af8c9cd50d894c22333ccaa51a6c0f50c6e44fb",
+        "duocolor": "1af97f51e12662cd9b201a0fc8c1c28968c1cc7ef7e48ace61591bb56619c144",
+        "duotone": "91c2c90208b83814b387454b44d8cd1fea989248fbdd338a4ca4a8fc9c50b25a"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-17",
+      "category": "Shapes",
+      "tags": [
+        "seventeen",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108333",
+      "source": {
+        "regular": "169:108310",
+        "filled": "169:108313",
+        "duocolor": "169:108325",
+        "duotone": "169:108328"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-17.svg",
+        "filled": "icons/filled/number-17.svg",
+        "duocolor": "icons/duocolor/number-17.svg",
+        "duotone": "icons/duotone/number-17.svg"
+      },
+      "sha256": {
+        "regular": "a2c3e6b982cade964767925bf01069579c346a2c0e14c0ea90e857063fd021ff",
+        "filled": "b97f4460e6ea82434da301f0d46a89eed3394ed00b13c46aca19362134619693",
+        "duocolor": "6ee9d657ca97bddf7c4c426c0e56ee035bfadec667660cebaa3d276c424c0b41",
+        "duotone": "596452718e49028b4362becee3bf2a988db1e2a249f23b8e73c2ae62f720f2f8"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-18",
+      "category": "Shapes",
+      "tags": [
+        "eighteen",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108357",
+      "source": {
+        "regular": "169:108334",
+        "filled": "169:108337",
+        "duocolor": "169:108349",
+        "duotone": "169:108352"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-18.svg",
+        "filled": "icons/filled/number-18.svg",
+        "duocolor": "icons/duocolor/number-18.svg",
+        "duotone": "icons/duotone/number-18.svg"
+      },
+      "sha256": {
+        "regular": "b68cb2bbd27cfdc216e5838a3c8561f14d50ceff02f62a9f93b7fcbeea231198",
+        "filled": "e26581dcb0f3c1c7180e0d8fedc5b3bd933cb986ffe78dd526114ba57acb2350",
+        "duocolor": "9588d24e7441abda3babaa93cdc7a3e1fdc18514642971164cadbed285b49300",
+        "duotone": "a206daa53827d6f0cab03488a65946cf44a6328af95862cd7e12a31f1a190c28"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-19",
+      "category": "Shapes",
+      "tags": [
+        "nineteen",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108381",
+      "source": {
+        "regular": "169:108358",
+        "filled": "169:108361",
+        "duocolor": "169:108373",
+        "duotone": "169:108376"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-19.svg",
+        "filled": "icons/filled/number-19.svg",
+        "duocolor": "icons/duocolor/number-19.svg",
+        "duotone": "icons/duotone/number-19.svg"
+      },
+      "sha256": {
+        "regular": "298f287900a514b62d525a7ce73c6bfda5920ba629a79fea355e4e6e675ba6f5",
+        "filled": "3e1a08681fa6313e555fe2546bc6d80db81bad5fe6c98080a27443d01f6398ae",
+        "duocolor": "c9b6d1ee3261fc683d91293e7b89d5302e694b0ef260f343359bd7168ad991c1",
+        "duotone": "1748650387934036392d86b4e842d6d87b8b3da2507ff35c4cb7910ba015ef72"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-2",
+      "category": "Shapes",
+      "tags": [
+        "two",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:107973",
+      "source": {
+        "regular": "169:107950",
+        "filled": "169:107953",
+        "duocolor": "169:107965",
+        "duotone": "169:107968"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-2.svg",
+        "filled": "icons/filled/number-2.svg",
+        "duocolor": "icons/duocolor/number-2.svg",
+        "duotone": "icons/duotone/number-2.svg"
+      },
+      "sha256": {
+        "regular": "29ed0fa5c374115a6bdf3d2b624d52ffb14b156f99ca59c52280f675602c75cb",
+        "filled": "364e04dee69511da08e0581792177bdf6fe6ac8ae1b26031c68be1c957f36a90",
+        "duocolor": "12cabef7ef2ff9a0f12172c24a1cad0712b5118a5f4da7417f497b0cf773c43a",
+        "duotone": "a96be2ad755bfd2456c1b162890097a6a2ba110de99ac24ddf76940a794a26a6"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-20",
+      "category": "Shapes",
+      "tags": [
+        "twenty",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108405",
+      "source": {
+        "regular": "169:108382",
+        "filled": "169:108385",
+        "duocolor": "169:108397",
+        "duotone": "169:108400"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-20.svg",
+        "filled": "icons/filled/number-20.svg",
+        "duocolor": "icons/duocolor/number-20.svg",
+        "duotone": "icons/duotone/number-20.svg"
+      },
+      "sha256": {
+        "regular": "bfe3d07b62a4b0b04c4e694300ffc3522101a3bffa88c513ad64469574460667",
+        "filled": "24033e78458a66eb7c9658386b53cde7e440cc6b6b9ced8c884b52a61a25bc5a",
+        "duocolor": "35775d888ebc49634b277c2475aa53034dc59f6331b27cb1c9faaca56384a7d0",
+        "duotone": "8201a580fcf3d06b503ac92fc1d6ea42ed605657ca94909a7ecd3d90df5e8fa8"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-3",
+      "category": "Shapes",
+      "tags": [
+        "three",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:107997",
+      "source": {
+        "regular": "169:107974",
+        "filled": "169:107977",
+        "duocolor": "169:107989",
+        "duotone": "169:107992"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-3.svg",
+        "filled": "icons/filled/number-3.svg",
+        "duocolor": "icons/duocolor/number-3.svg",
+        "duotone": "icons/duotone/number-3.svg"
+      },
+      "sha256": {
+        "regular": "340061187a1b8ba9205c7b576c998e1947b1d6463378b6797be418e19f3524cc",
+        "filled": "6a77cef9562655d3b81baa67c209bf584cc892b739555f4f981997ddc719422d",
+        "duocolor": "9e006706875532d5c3c518aee04334c674083bfa863d33fa44ffe93f9349b7c2",
+        "duotone": "fb98dd3c37231225325002bc00ae30a25cad68a88548541b1206f2dbb7f3bc74"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-4",
+      "category": "Shapes",
+      "tags": [
+        "four",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108021",
+      "source": {
+        "regular": "169:107998",
+        "filled": "169:108001",
+        "duocolor": "169:108013",
+        "duotone": "169:108016"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-4.svg",
+        "filled": "icons/filled/number-4.svg",
+        "duocolor": "icons/duocolor/number-4.svg",
+        "duotone": "icons/duotone/number-4.svg"
+      },
+      "sha256": {
+        "regular": "d8618a98b27d17de1fba7fc62b74763ac874024f32524204dea7550cfdf44098",
+        "filled": "b67d71be23b9dc609d6eb5443c6058efd699676feade427a3b930ebfbfb45e9c",
+        "duocolor": "5c610a94df73ab5a637ef2196cb87ce57dc44899d20a1dba3b13d0006ef96620",
+        "duotone": "dd76100efd0f26f1d12a78b908749d05e83c4f912d1410706259fe3a8908ff75"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-5",
+      "category": "Shapes",
+      "tags": [
+        "five",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108045",
+      "source": {
+        "regular": "169:108022",
+        "filled": "169:108025",
+        "duocolor": "169:108037",
+        "duotone": "169:108040"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-5.svg",
+        "filled": "icons/filled/number-5.svg",
+        "duocolor": "icons/duocolor/number-5.svg",
+        "duotone": "icons/duotone/number-5.svg"
+      },
+      "sha256": {
+        "regular": "aa19d5b9af0d69b0603136fb6beb90573ab78eb441c15f914ea4bf15cba05397",
+        "filled": "d630a2d05d26e451febfa9780f69e4259a807fb3980d134573c0af0005d5c915",
+        "duocolor": "a38b29d445fa499cfa9337f16fea142c98c701b29dc820d5ceb2ae758dc270f9",
+        "duotone": "c275baadab4b9c558f004fc361ee5ff27524462fde65a5806dc5b6023ab4425c"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-6",
+      "category": "Shapes",
+      "tags": [
+        "six",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108069",
+      "source": {
+        "regular": "169:108046",
+        "filled": "169:108049",
+        "duocolor": "169:108061",
+        "duotone": "169:108064"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-6.svg",
+        "filled": "icons/filled/number-6.svg",
+        "duocolor": "icons/duocolor/number-6.svg",
+        "duotone": "icons/duotone/number-6.svg"
+      },
+      "sha256": {
+        "regular": "83086d771c46ba2b7cd571ccc3f4ea1766e9d5957b223001c7e2f3187e748368",
+        "filled": "f2ff0b5d2a45da9a00a1f04203c5fe4f588d302b27533947ef87ff80efccde26",
+        "duocolor": "964668c8ab123d5cd7ebcbdb07f2dcb118d396f69be7014951b4b8d071a69703",
+        "duotone": "70ed5a19fec9497870ede937f7e3aa6462dd56c034649bc4a19beab74a4b6799"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-7",
+      "category": "Shapes",
+      "tags": [
+        "seven",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108093",
+      "source": {
+        "regular": "169:108070",
+        "filled": "169:108073",
+        "duocolor": "169:108085",
+        "duotone": "169:108088"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-7.svg",
+        "filled": "icons/filled/number-7.svg",
+        "duocolor": "icons/duocolor/number-7.svg",
+        "duotone": "icons/duotone/number-7.svg"
+      },
+      "sha256": {
+        "regular": "8f248c27f5cf2367fbbf3b1385450bbc2f9e6f936eeabfa9c2e1592f14df912d",
+        "filled": "3fd15df0951ff3911d85b91932e816b7b87b7d86e37ed8b2509289f1e51e0452",
+        "duocolor": "259448f1813f327902ba2ff7616669847297b73f4c0c7ca0f43c5f80d7e6733f",
+        "duotone": "99b45545780f1ce14ad59ff7239c8c63f972b766703e321649adf8d0867fb260"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-8",
+      "category": "Shapes",
+      "tags": [
+        "eight",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108117",
+      "source": {
+        "regular": "169:108094",
+        "filled": "169:108097",
+        "duocolor": "169:108109",
+        "duotone": "169:108112"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-8.svg",
+        "filled": "icons/filled/number-8.svg",
+        "duocolor": "icons/duocolor/number-8.svg",
+        "duotone": "icons/duotone/number-8.svg"
+      },
+      "sha256": {
+        "regular": "5a2c978538f915f00c1ea58d591d9b7a4f2472314d8c4c5209b297e2d5d67188",
+        "filled": "26550a7d9907c783de8f88bc6f42c55478f39d5f9bf23a2be9f8204462bb8d72",
+        "duocolor": "67dc22276bedbf0a1cf23c21034e34f570948a89c69a1194afed660aa0140bf1",
+        "duotone": "a3302d2e6a6d3547c64c05db4aede08006e0f6c3bddfe2ece8e03668d4deed9f"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "number-9",
+      "category": "Shapes",
+      "tags": [
+        "nine",
+        "digit",
+        "count",
+        "step",
+        "badge",
+        "ordinal"
+      ],
+      "aliases": [],
+      "componentSet": "169:108141",
+      "source": {
+        "regular": "169:108118",
+        "filled": "169:108121",
+        "duocolor": "169:108133",
+        "duotone": "169:108136"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/number-9.svg",
+        "filled": "icons/filled/number-9.svg",
+        "duocolor": "icons/duocolor/number-9.svg",
+        "duotone": "icons/duotone/number-9.svg"
+      },
+      "sha256": {
+        "regular": "05f437c97a1244dd2edbbcb44ab45d368fc911f0cf926f4ee7ed637bf12696c3",
+        "filled": "3bc06b685ef665e238e055e58b8ab4c739dda24efb313c81c4901f5275ee38a6",
+        "duocolor": "711921d3b032d6660d56b91e1e4fae8a2a8f60854cb21c66f9903f83ad844576",
+        "duotone": "29c11671d4a82e0ace383e66d95f2b59dad773a690ac02739da145dc0d867c47"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -52347,6 +56355,58 @@
         },
         "duotone": {
           "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "pennant",
+      "category": "Sports & fitness",
+      "tags": [
+        "banner",
+        "flag",
+        "league",
+        "team",
+        "star"
+      ],
+      "aliases": [],
+      "componentSet": "169:105311",
+      "source": {
+        "regular": "169:105288",
+        "filled": "169:105291",
+        "duocolor": "169:105303",
+        "duotone": "169:105306"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/pennant.svg",
+        "filled": "icons/filled/pennant.svg",
+        "duocolor": "icons/duocolor/pennant.svg",
+        "duotone": "icons/duotone/pennant.svg"
+      },
+      "sha256": {
+        "regular": "651b1ddd5565d686e69586e11773ec6902cd45f6b815ffb1e77487e3af6d7364",
+        "filled": "58cff1916ebb5cd4bcb6010d069a80e9a8c71853a7f6ee8bcf101b010c43cb4f",
+        "duocolor": "f9c09bffaa67da095f357476a19fbeb88b241b7486e91cd345f8c35a0e978144",
+        "duotone": "6df8096cdb1875e2874b48b041fbb70b3d02ec4a152b3f3203e2ccc6b582fbca"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -57138,6 +61198,58 @@
       }
     },
     {
+      "name": "rosette",
+      "category": "Sports & fitness",
+      "tags": [
+        "ribbon",
+        "prize",
+        "first prize",
+        "show",
+        "star badge"
+      ],
+      "aliases": [],
+      "componentSet": "169:105340",
+      "source": {
+        "regular": "169:105312",
+        "filled": "169:105316",
+        "duocolor": "169:105330",
+        "duotone": "169:105334"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/rosette.svg",
+        "filled": "icons/filled/rosette.svg",
+        "duocolor": "icons/duocolor/rosette.svg",
+        "duotone": "icons/duotone/rosette.svg"
+      },
+      "sha256": {
+        "regular": "cc821d90eaaacf260edec88696f6620dc403492abd8b532531ec766ed4b25b0c",
+        "filled": "89476ee29cf5e06423ae4023b9754cf638ce40d657bfdaa7f39630be83e8df7e",
+        "duocolor": "e4a3fdc695f9fc40ae5273f7c294284a4b7af76288300ba5d4608b28f3bf4b10",
+        "duotone": "d2806fc5af6e8dc8b5bdf44d5c90ece8f03c2bbf3a550d6da5ceea75e4f0e0e1"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "rotate-clockwise",
       "category": "Navigation",
       "tags": [
@@ -59721,10 +63833,10 @@
         "duotone": "icons/duotone/settings-sliders.svg"
       },
       "sha256": {
-        "regular": "93ab512eb86ee9b68a73f0cf354dc3be6a179ad2230945e1af6c38b86d43c8c8",
-        "filled": "a4ec23295fe71380c267c816885de674ecd98baebf65108d8c352ecc0cf2fc3a",
-        "duocolor": "cc2c3324a317e516d7db8b99301684252c442b8229124fa93dbae2e9089dbca3",
-        "duotone": "158c093c39a845228cc218ff37e96109246e555caae23762fd33f05b33e6f3d1"
+        "regular": "d17b55220ed6d28d03e56d0b8a439149f76ff2260e85ab95102321c30b4e0c26",
+        "filled": "33b49815b89bac44d69cdb8f4a11bcd5c648988ede3e22f287222b22adee45a2",
+        "duocolor": "b4024626f99acaa16457be59f833bffb5b62cf25a7af2627730739efdf84ff06",
+        "duotone": "44bc506a3618cea5c6436adb7449f7362f935a43e9a16d7152240b5904ee6589"
       },
       "duoAuthoring": {
         "version": 2,
@@ -62542,10 +66654,10 @@
         "duotone": "icons/duotone/sliders-square.svg"
       },
       "sha256": {
-        "regular": "f55c8a5953e6ed103971719b9473581beed3b372e654b8b47cca213bac69da95",
-        "filled": "aeae9eddaa9bddb56f0a4a5104b31fb918d434cab3e0f5933fdb3f1b9fa0fc03",
-        "duocolor": "1d1cb2a7b0c91901a62b7bd38fcb3e9fdfd87df6a2893743c1ee989503e6b2c0",
-        "duotone": "3d3d81070766ac7eee278f43403338f8bc93bb0acf1e804795e9298387854211"
+        "regular": "cd6e4c655d5cfebe46de542ba0a3beaefe437840045aeea4d98fc99046ed322f",
+        "filled": "9b1a069dff5c33a716286a471c72e20285fa3eae8998054bb3de08efb5b1dff5",
+        "duocolor": "80a19bd730060bb6d61e31e2d2311087eadb388e3e29d1a18206d9090e21aa11",
+        "duotone": "f2b759eb186b24f721d47855591e9206ca5169a7849e71fc0760c4a88ce71b71"
       },
       "duoAuthoring": {
         "version": 2,
@@ -62598,10 +66710,10 @@
         "duotone": "icons/duotone/sliders-vertical.svg"
       },
       "sha256": {
-        "regular": "8807beee5a048c74a4cc264d968935ebef2530ab01938f46ca9f4f5f5cf9e19a",
-        "filled": "881a37354c86c5720f8686aadaef6e6f683ae520d0bfeac458e7eae2f0428065",
-        "duocolor": "0f88884f4b07d83776144853ef35b2e558aca92b6bd2cd398215183ab28f833c",
-        "duotone": "0537d5ad4aa9f067dc5034932406bf5596aa9705efa2350bdf8cd43adb58dfe7"
+        "regular": "0859c655b882a2a7dcf559d2a5630ceb592faa0c668e35f35a20a48da07c8d6f",
+        "filled": "b90f05a48b1db96afc96af3c9dddca1adbc46b404bb7007d8fcafb6035998c5e",
+        "duocolor": "72e46d8f91d690528471d801955e28f7abd15c9739aac0e7599cc334e7e0ba9a",
+        "duotone": "04276ac6410c1dc5f9c1499b8a7ebb458f1dee86bf5959e2bb245d7c236e30a3"
       },
       "duoAuthoring": {
         "version": 2,
@@ -62715,6 +66827,630 @@
         "duocolor": {
           "contours": 18,
           "accents": 12,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sort-0-9-down",
+      "category": "Interfaces",
+      "tags": [
+        "numeric",
+        "order",
+        "arrange",
+        "list",
+        "descending arrow"
+      ],
+      "aliases": [],
+      "componentSet": "169:99730",
+      "source": {
+        "regular": "169:99701",
+        "filled": "169:99706",
+        "duocolor": "169:99720",
+        "duotone": "169:99725"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sort-0-9-down.svg",
+        "filled": "icons/filled/sort-0-9-down.svg",
+        "duocolor": "icons/duocolor/sort-0-9-down.svg",
+        "duotone": "icons/duotone/sort-0-9-down.svg"
+      },
+      "sha256": {
+        "regular": "038ec60245655b4f4f1aa04dc7dee2963618e3639fce6dc4532d4f4e4eca6dfb",
+        "filled": "0c68c8d065c622bfc5f0a54b97a27bebad3cb1b6a2755224a0cd4e88b83521a3",
+        "duocolor": "232be3bc55d2293d5cc688cdcdba5e5cb2749f7338a5ca28192acea4d76f9dc6",
+        "duotone": "e0a40671916cfc259147a08ccf7a7b88d1ea5a7d7b31da1db48fe59cd44387e8"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sort-0-9-up",
+      "category": "Interfaces",
+      "tags": [
+        "numeric",
+        "order",
+        "arrange",
+        "list",
+        "ascending arrow"
+      ],
+      "aliases": [],
+      "componentSet": "169:99760",
+      "source": {
+        "regular": "169:99731",
+        "filled": "169:99736",
+        "duocolor": "169:99750",
+        "duotone": "169:99755"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sort-0-9-up.svg",
+        "filled": "icons/filled/sort-0-9-up.svg",
+        "duocolor": "icons/duocolor/sort-0-9-up.svg",
+        "duotone": "icons/duotone/sort-0-9-up.svg"
+      },
+      "sha256": {
+        "regular": "eae4d2c366bdedc987659634f3a03260dede0e466cb1794229bb458adfb12c22",
+        "filled": "04b537683cf852c439141c9d64fd2d8f4c804054f96392691e75b723a94f8688",
+        "duocolor": "0e0c7e53399191b31d8aeba9652f570869fc7686dc53521883afecd5bd0f50c8",
+        "duotone": "bb3e67ec578d3176f64a3e18c842e5be4201421dfd408f193fcd94aefaf4d766"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sort-9-0-down",
+      "category": "Interfaces",
+      "tags": [
+        "reverse numeric",
+        "order",
+        "arrange",
+        "list",
+        "descending arrow"
+      ],
+      "aliases": [],
+      "componentSet": "169:99790",
+      "source": {
+        "regular": "169:99761",
+        "filled": "169:99766",
+        "duocolor": "169:99780",
+        "duotone": "169:99785"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sort-9-0-down.svg",
+        "filled": "icons/filled/sort-9-0-down.svg",
+        "duocolor": "icons/duocolor/sort-9-0-down.svg",
+        "duotone": "icons/duotone/sort-9-0-down.svg"
+      },
+      "sha256": {
+        "regular": "381d663153a514ece94efea1138985831741cc0334db31115ea66db2911e5056",
+        "filled": "376f59a410161a9723bff5d5f37e23d48e690f9f44561f273ed93a75950f094b",
+        "duocolor": "3dc834b3491eef5a612e4c6fbb6670e24a34ab0a488d2313140f8a8e3e717b81",
+        "duotone": "7b191bc6369a52eb5125797147408e2b49fec120b25c208667b01fa2e94b1b1c"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sort-9-0-up",
+      "category": "Interfaces",
+      "tags": [
+        "reverse numeric",
+        "order",
+        "arrange",
+        "list",
+        "ascending arrow"
+      ],
+      "aliases": [],
+      "componentSet": "169:99820",
+      "source": {
+        "regular": "169:99791",
+        "filled": "169:99796",
+        "duocolor": "169:99810",
+        "duotone": "169:99815"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sort-9-0-up.svg",
+        "filled": "icons/filled/sort-9-0-up.svg",
+        "duocolor": "icons/duocolor/sort-9-0-up.svg",
+        "duotone": "icons/duotone/sort-9-0-up.svg"
+      },
+      "sha256": {
+        "regular": "b1c09129f3a5a3fa1fabbc60417b005ee8b5e66b147149565a2e31774276dd27",
+        "filled": "766633ee4c1b730f9214418702f9d229cd7e5b9df3505ae5d0103be1f19a8984",
+        "duocolor": "95b90e57d054bdecf94c0a57bc921f936649d0bff31bfc843a4ab1878b61e6f6",
+        "duotone": "280fea54649c05ff6c9510d8535cc7880f8f0cf4d3becc5724301f137c62f7e7"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sort-a-z-down",
+      "category": "Interfaces",
+      "tags": [
+        "alphabetical",
+        "order",
+        "arrange",
+        "list",
+        "descending arrow"
+      ],
+      "aliases": [],
+      "componentSet": "169:99850",
+      "source": {
+        "regular": "169:99821",
+        "filled": "169:99826",
+        "duocolor": "169:99840",
+        "duotone": "169:99845"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sort-a-z-down.svg",
+        "filled": "icons/filled/sort-a-z-down.svg",
+        "duocolor": "icons/duocolor/sort-a-z-down.svg",
+        "duotone": "icons/duotone/sort-a-z-down.svg"
+      },
+      "sha256": {
+        "regular": "1cdfaf1c7dda7496ddc058910e32ab3156aacba2188efe8aa418188439c2df3b",
+        "filled": "bc1ea090ce2fbb59a69177cdb2fb7b00147607893b5a27801e8b24c4d5dc969d",
+        "duocolor": "daed89465cb57388a19b9d063022403b426f865efaa0d5e7bc6de12ed10bbb7e",
+        "duotone": "aeb8ee257e9621bff843f3e51c5140a2020be5ffaea1f2e5cb1d658985cd78d4"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sort-a-z-up",
+      "category": "Interfaces",
+      "tags": [
+        "alphabetical",
+        "order",
+        "arrange",
+        "list",
+        "ascending arrow"
+      ],
+      "aliases": [],
+      "componentSet": "169:99880",
+      "source": {
+        "regular": "169:99851",
+        "filled": "169:99856",
+        "duocolor": "169:99870",
+        "duotone": "169:99875"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sort-a-z-up.svg",
+        "filled": "icons/filled/sort-a-z-up.svg",
+        "duocolor": "icons/duocolor/sort-a-z-up.svg",
+        "duotone": "icons/duotone/sort-a-z-up.svg"
+      },
+      "sha256": {
+        "regular": "f20ea788abd27a909dbc73d61ac7f40c3b3ec8bda63bf16b07d82343d5e3c240",
+        "filled": "35a5e9f238208c59e1f7ebc31d51b22dcf317732696f6513d7e889c494c24a73",
+        "duocolor": "729474cf872cafb21e85222f576ab4504d25dab6f7b8eecd8a0c6a36f2991294",
+        "duotone": "aa4436d8b351e3e4a7a62a44740f5386bc3d018514e9979471b4c8b82e985b60"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sort-lines-ascending",
+      "category": "Interfaces",
+      "tags": [
+        "increasing",
+        "smallest first",
+        "order",
+        "rank",
+        "list"
+      ],
+      "aliases": [],
+      "componentSet": "169:99905",
+      "source": {
+        "regular": "169:99881",
+        "filled": "169:99885",
+        "duocolor": "169:99897",
+        "duotone": "169:99901"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sort-lines-ascending.svg",
+        "filled": "icons/filled/sort-lines-ascending.svg",
+        "duocolor": "icons/duocolor/sort-lines-ascending.svg",
+        "duotone": "icons/duotone/sort-lines-ascending.svg"
+      },
+      "sha256": {
+        "regular": "a282baf47fd7e259677d331065f1c90bfa63689a7f23e9e18ed23ccec81f532d",
+        "filled": "777218b627bb74d05ed03b0c5ed2c609d1cf4f300119074cfcc9f0615212c34d",
+        "duocolor": "c262347c710775ee7edad47ddd78dd1adc04dc94a46a1e8f5d4b7db25affa27f",
+        "duotone": "ffe2eb72d861d53de4af62deb9a2e195c9b6c16ff9febeae7f33a9dfecae24ae"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sort-lines-descending",
+      "category": "Interfaces",
+      "tags": [
+        "decreasing",
+        "largest first",
+        "order",
+        "rank",
+        "list"
+      ],
+      "aliases": [],
+      "componentSet": "169:99930",
+      "source": {
+        "regular": "169:99906",
+        "filled": "169:99910",
+        "duocolor": "169:99922",
+        "duotone": "169:99926"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sort-lines-descending.svg",
+        "filled": "icons/filled/sort-lines-descending.svg",
+        "duocolor": "icons/duocolor/sort-lines-descending.svg",
+        "duotone": "icons/duotone/sort-lines-descending.svg"
+      },
+      "sha256": {
+        "regular": "1fbcca1bc988f077f4c99ac4610685920b33d88e147648365f51654eb63d00da",
+        "filled": "3cba6f845b3bcdf3ebb2534a888427f154dfe81867ce54cf682abb5b5ef6683c",
+        "duocolor": "24eb510fc3b59779c5d4e7c75071d1c5f4593772ed3df250cdf3f7c2575a1b01",
+        "duotone": "99019c0dd48d7bbdc6812ccf1dbaaf312a39c7dc64062af01877d059e64206ca"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sort-swap",
+      "category": "Interfaces",
+      "tags": [
+        "reorder",
+        "exchange",
+        "switch order",
+        "move",
+        "arrange"
+      ],
+      "aliases": [],
+      "componentSet": "169:99975",
+      "source": {
+        "regular": "169:99931",
+        "filled": "169:99938",
+        "duocolor": "169:99958",
+        "duotone": "169:99965"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sort-swap.svg",
+        "filled": "icons/filled/sort-swap.svg",
+        "duocolor": "icons/duocolor/sort-swap.svg",
+        "duotone": "icons/duotone/sort-swap.svg"
+      },
+      "sha256": {
+        "regular": "cb94edccccdd1c6c1ca60870864aaa7d749ca7bc50d0178cc23dffb79e96f5ad",
+        "filled": "845b38049b70244c865d5d4ae85f79b75b25ba3341253af1a347f506eaecc172",
+        "duocolor": "409ac17632a9c0a3fe79a82b3610d42d576388e23948b4a0f7164b886522ac3e",
+        "duotone": "d382ae5f8b498ede3a702dbb53da182a9318124e300b408e60a7acfdb51abf6f"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sort-vertical",
+      "category": "Interfaces",
+      "tags": [
+        "reorder",
+        "order",
+        "both directions",
+        "list",
+        "arrange"
+      ],
+      "aliases": [],
+      "componentSet": "169:100005",
+      "source": {
+        "regular": "169:99976",
+        "filled": "169:99981",
+        "duocolor": "169:99995",
+        "duotone": "169:100000"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sort-vertical.svg",
+        "filled": "icons/filled/sort-vertical.svg",
+        "duocolor": "icons/duocolor/sort-vertical.svg",
+        "duotone": "icons/duotone/sort-vertical.svg"
+      },
+      "sha256": {
+        "regular": "55efa2981ac091e0f81551aaa1d74b4f4e8dcc89534220587c30c820ef565ea9",
+        "filled": "1e1ceadca545d686d66a0225dc525da97868ea3eff0bea89a117b4402108fe38",
+        "duocolor": "10a321420eb0e61bb965c44414974d26c36a691815817901d45357d7f62c583b",
+        "duotone": "0be0aaf8d172a350a08c533526230c0fbacafeb32c9ef03541c27dde03e84e0f"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sort-z-a-down",
+      "category": "Interfaces",
+      "tags": [
+        "reverse alphabetical",
+        "order",
+        "arrange",
+        "list",
+        "descending arrow"
+      ],
+      "aliases": [],
+      "componentSet": "169:100035",
+      "source": {
+        "regular": "169:100006",
+        "filled": "169:100011",
+        "duocolor": "169:100025",
+        "duotone": "169:100030"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sort-z-a-down.svg",
+        "filled": "icons/filled/sort-z-a-down.svg",
+        "duocolor": "icons/duocolor/sort-z-a-down.svg",
+        "duotone": "icons/duotone/sort-z-a-down.svg"
+      },
+      "sha256": {
+        "regular": "20126a9d3cef814cec885140c740f27b6acd0bbec4d9118890e8377d97c2f3f4",
+        "filled": "0bded86804bcb8b557a391e312e3956f2c1768366135ba8b78c014a4601308fe",
+        "duocolor": "8c1b428b73037bfd84b72eff29632d4ca2fd8c2524579e589e401f591cb99471",
+        "duotone": "796362cdc4baca7c712c96ce974809844cbcaba143e904cb464debefe0c9b600"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sort-z-a-up",
+      "category": "Interfaces",
+      "tags": [
+        "reverse alphabetical",
+        "order",
+        "arrange",
+        "list",
+        "ascending arrow"
+      ],
+      "aliases": [],
+      "componentSet": "169:100065",
+      "source": {
+        "regular": "169:100036",
+        "filled": "169:100041",
+        "duocolor": "169:100055",
+        "duotone": "169:100060"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sort-z-a-up.svg",
+        "filled": "icons/filled/sort-z-a-up.svg",
+        "duocolor": "icons/duocolor/sort-z-a-up.svg",
+        "duotone": "icons/duotone/sort-z-a-up.svg"
+      },
+      "sha256": {
+        "regular": "1fe9e075c993b370af287968ce4499e57abc52674e05251543ea5179cab84cd4",
+        "filled": "ac016c0f6d66d867109c9d621724ec158d5c211504a4b35a9d5065a85a831b84",
+        "duocolor": "2e5f05916516493f0ce37da600ad468352b668348e9813cccb8a21d0e591b568",
+        "duotone": "115587886278012bf72cae34da7f5eba80da9b9f287fbf10e9645005872ca943"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -68371,6 +73107,115 @@
         "duocolor": {
           "contours": 5,
           "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "trophy-check",
+      "category": "Sports & fitness",
+      "tags": [
+        "winner confirmed",
+        "achieved",
+        "completed",
+        "won"
+      ],
+      "aliases": [],
+      "componentSet": "169:105434",
+      "source": {
+        "regular": "169:105375",
+        "filled": "169:105389",
+        "duocolor": "169:105402",
+        "duotone": "169:105419"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/trophy-check.svg",
+        "filled": "icons/filled/trophy-check.svg",
+        "duocolor": "icons/duocolor/trophy-check.svg",
+        "duotone": "icons/duotone/trophy-check.svg"
+      },
+      "sha256": {
+        "regular": "fd4ee5a3a6783d51dcbdbe1ecb2a0113735cc11c76b10856861e6f2353fd6d7b",
+        "filled": "1a57d73014198b08ac5f42431c40c06da6e999a71f97eedda9c1733c4efa762a",
+        "duocolor": "c83aed04b210c81c7184db27ca428eb55b949b95734782d601138a1f606684ba",
+        "duotone": "8b3e4ac79eff1d3041ea827c32f3a2a24f099bb876e569993155aa51bcdebeac"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "composition": {
+        "base": "trophy",
+        "modifier": "check",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "trophy-star",
+      "category": "Sports & fitness",
+      "tags": [
+        "winner",
+        "champion",
+        "cup",
+        "prize",
+        "first place"
+      ],
+      "aliases": [],
+      "componentSet": "169:105374",
+      "source": {
+        "regular": "169:105341",
+        "filled": "169:105346",
+        "duocolor": "169:105362",
+        "duotone": "169:105367"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/trophy-star.svg",
+        "filled": "icons/filled/trophy-star.svg",
+        "duocolor": "icons/duocolor/trophy-star.svg",
+        "duotone": "icons/duotone/trophy-star.svg"
+      },
+      "sha256": {
+        "regular": "2bce053dec9ff04f8ac006a618cbea9a826ad6f425070dbc319d31144cbd37be",
+        "filled": "bd173f31bec4c17463a7321fbef7b6010cc3b9229e3c8726cfd698e9657509f2",
+        "duocolor": "514f026f002adf744903947852d87e6a29ade35bdf290481e8557b2409c7ac64",
+        "duotone": "e296dbfdff14d5e3063306a9834bbc07b0701d10e114f100bb4cf12841f72b2c"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {

@@ -24,10 +24,32 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
-- `chevron-outline-up`, `-down`, `-left`, `-right` (a hollow, bold chevron)
-  and `chevron-large-up`, `-down`, `-left`, `-right` (a longer chevron than the
-  compact `chevron-*`) in all four styles, bringing the library to 1,363 icons
-  and 5,452 SVGs.
+- 135 icons in all four styles, bringing the library to 1,454 icons and 5,816
+  SVGs, and the presets to 138.
+  - Chevrons: `chevron-outline-*` (hollow, bold) and `chevron-large-*` (longer
+    than the compact `chevron-*`), in four directions.
+  - Filters and sort: `filter-off`, `filter-dollar`, `filter-circle`,
+    `filter-square`, `sort-a-z-*`, `sort-z-a-*`, `sort-0-9-*`, `sort-9-0-*`
+    (down and up), `sort-lines-ascending`, `sort-lines-descending`,
+    `sort-vertical`, `sort-swap`, and the presets `filter-plus`, `filter-x`,
+    `filter-check`, `filter-edit`, `filter-search`, `filter-lines-plus`,
+    `filter-lines-x`, `filter-lines-edit`.
+  - Cursors: `cursor-hand`, `cursor-hand-click`, `cursor-lasso`,
+    `cursor-select`, `cursor-target`, `cursor-window`, `cursor-busy`,
+    `cursor-text`, and the presets `cursor-plus`, `cursor-minus`,
+    `cursor-block`, `cursor-check`, `cursor-question`, `cursor-sparkle`,
+    `cursor-hand-plus`, `cursor-hand-block`.
+  - Devices: `mouse-scroll`, `mouse-left-click`, `mouse-right-click`,
+    `mouse-wired`, `loader-spinner`, `loader-rays`, `network-3g`, `network-4g`,
+    `network-5g`, `network-6g` (signal bars over the generation label),
+    `game-controller`, `joystick`, `magnet-zap`.
+  - Awards: `trophy-star`, `award-star`, `award-crystal`, `crown`,
+    `crown-simple`, `laurel-wreath`, `laurel-wreath-1`, `laurel-branch`,
+    `medal-1`, `medal-2`, `medal-3`, `medal-military`, `rosette`,
+    `award-check`, `pennant`, and the presets `trophy-check`, `crown-plus`,
+    `crown-minus`.
+  - Numbers: `number-1` to `number-20`, in the library squircle with the
+    calendar digit set.
 - 36 Security icons in all four styles, taking the Security category from 22
   to 58 icons.
   - Shields: `shield-alert`, `shield-dots`, `shield-wifi`, `shield-block`,
@@ -107,6 +129,11 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Changed
 
+- Redrawn: `cursor` (rounded corners); `magnet` (a horseshoe with pole
+  bands); `log-in-circle` and `log-out-circle` (the squircle is pulled in so it
+  clears the arrowhead, with shorter arrows); and the knobs in
+  `settings-sliders`, `sliders-square`, and `sliders-vertical`, which are now
+  squircles.
 - Chevrons (`chevron-*`, `chevrons-*`, `chevron-selector-*`) are now straight
   lines with a rounded corner instead of curves. The single chevrons are more
   compact (13 × 6.5).
