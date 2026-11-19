@@ -129,7 +129,8 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Changed
 
-- Redrawn: `cursor` (rounded corners); `magnet` (a horseshoe with pole
+- Redrawn: the `alert-*` exclamation is now a tapered stem, thicker at the
+  top; `id-badge` is wider and uses the `user` figure; `cursor` (rounded corners); `magnet` (a horseshoe with pole
   bands); `log-in-circle` and `log-out-circle` (the squircle is pulled in so it
   clears the arrowhead, with shorter arrows); and the knobs in
   `settings-sliders`, `sliders-square`, and `sliders-vertical`, which are now
