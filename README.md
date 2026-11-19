@@ -14,6 +14,9 @@ consistently, from design to code. Icon count is not the success metric.
 These are research-informed product priorities, not a customer-survey ranking
 or a claim that every planned capability has shipped.
 
+For design guidance and the review checklist, see the
+[Icon Style Principles](ICON_STYLE_PRINCIPLES.md).
+
 - **Recognizable meaning.** Prefer familiar actions and concepts; consider
   cultural differences rather than assuming every metaphor is universal.
 - **One visual family.** Keep stroke weight, proportions, spacing, and optical
