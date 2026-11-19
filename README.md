@@ -1,6 +1,6 @@
 # Fos Icons
 
-1,268 icons in Regular, Filled, Duocolor, and Duotone styles: **5,072 SVGs**,
+1,278 icons in Regular, Filled, Duocolor, and Duotone styles: **5,112 SVGs**,
 drawn on a 24 x 24 grid. Line styles default to 1.25px strokes. Negative space and
 modifier clearances are transparent.
 
@@ -229,9 +229,10 @@ and `message-sparkles`. Their names, paths, and canonical component IDs are unch
 `user-circle`, `user-square`, `user-focus`, `user-identity`, and `user-badge`
 retain their structural artwork.
 
-The catalog now contains **107 named presets**, including the paper/file families,
+The catalog now contains **109 named presets**, including the paper/file families,
 `palette-sparkles`, `scissors-sparkles`, and the calendar actions (`calendar-add`,
-`calendar-reply`, `calendar-phone`, and others, each with a bottom-right badge). Native family-specific wrappers keep
+`calendar-reply`, `calendar-phone`, and others, each with a bottom-right badge), and
+`clock-check` / `clock-plus` (`clock` with a bottom-left badge, so neither hand is clipped). Native family-specific wrappers keep
 the selected corner while switching host styles, without pinning the old base
 style. The palette and scissors families pass 128 override-then-style checks.
 
@@ -284,7 +285,7 @@ print(matches)
 ## Figma source
 
 The Fos Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`) contains 1,274 native
-icon component sets. The 1,268 core sets on the Components page have
+icon component sets. The 1,278 core sets on the Components page have
 `Style=Regular/Filled/Duocolor/Duotone` and `Size=24`, with original
 Regular/Filled component IDs preserved. The separate Brands page contains the
 Fos Icons mark and five existing third-party sets, with Regular/Filled only
@@ -351,7 +352,7 @@ python3 -m unittest discover -s tests
 ```
 
 The modifier importer preserves the core; the preset builder updates only the
-107 declared named compositions. `exportFosPresets()` in the same JavaScript
+109 declared named compositions. `exportFosPresets()` in the same JavaScript
 file exports the live preset definitions after checking their nested sources.
 Import an updated preset snapshot with
 `python3 scripts/build_presets.py --snapshot /path/to/preset-export.json`.

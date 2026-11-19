@@ -10,12 +10,12 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1268,
+  "iconCount": 1278,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
     "exportedOn": "2026-11-11",
-    "componentPairs": 1274,
+    "componentPairs": 1284,
     "excludedBrands": [
       "chrome-cast",
       "figma",
@@ -670,7 +670,7 @@
     },
     {
       "name": "alarm",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "alarm clock",
         "wake up",
@@ -703,17 +703,17 @@
         "duotone": "icons/duotone/alarm.svg"
       },
       "sha256": {
-        "regular": "018669f7b39e8d910190d489b9b15f087916d2c0accdd5126477dbb191048b24",
-        "filled": "cb0e875d617a267e330a4f8c47a3a1b4ca8395d4a2b372a3bdecf457c360fe53",
-        "duocolor": "465d5d087768b2944e9af39494967025a23b91d53aef7dcdbd0a2dbf6ae0e5dd",
-        "duotone": "5afe0a06f5d737edc495baa774aa513e002f0dbccf891a4a2338ab567a42224e"
+        "regular": "16b9ac99275f7dda6b7186f3efe28c2ee1fe487cc4288d594946ea8f76c5064d",
+        "filled": "f8788742fa19aeacae0303ab61779e70991a6c088aa5e9723505e6b9d2bacaf0",
+        "duocolor": "821ef3b5e07b15864a02feebb3aa6f77acae8672cc7685fef8b4305e68d1722e",
+        "duotone": "85d24b43e4279c26cec2d054f020f668054d101275457a95c45980a06a4e9b49"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
           "contours": 6,
-          "accents": 5,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -725,7 +725,7 @@
     },
     {
       "name": "alarm-clock-check",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "alarm set",
         "confirmed",
@@ -758,17 +758,17 @@
         "duotone": "icons/duotone/alarm-clock-check.svg"
       },
       "sha256": {
-        "regular": "b50d49234e352b682d028ad90a5757bdf3e497ce10ba0b60072f2c7fffc49771",
-        "filled": "9189e3c46417e0dc3ad20a8f02b6f1c089d0bb93c8efac6412bd50d14e4be507",
-        "duocolor": "b84449623c144a6489b263ea0d011afd2ec7d3d82646aac190bdcdda6da1c26a",
-        "duotone": "177b368a6264bc2fc1861e779eb97cb3844d12095303d319fdf3061ae1ec37e6"
+        "regular": "be1fa16a0e71a2d45964c5b502e1e8d59b5dd15e63852f5600095d658bcf2d0f",
+        "filled": "a6c4056408a53801240ba8b452e5169e903fbe8686f067179a46330d0a999dd8",
+        "duocolor": "ca6c9edf31ad9c1f0bac22deb84d2d9e6e3817b300e303c9e9c8f3dc09b600fe",
+        "duotone": "d4a93dce09a3b4401b9c855d372095ea6ed608bda81935d0807833b41f93c6a8"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 5,
-          "accents": 4,
+          "contours": 6,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -780,7 +780,7 @@
     },
     {
       "name": "alarm-clock-minus",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "remove",
         "subtract",
@@ -811,17 +811,17 @@
         "duotone": "icons/duotone/alarm-clock-minus.svg"
       },
       "sha256": {
-        "regular": "bceef655d95561cbbd6cc03bf7a31c1549ff69893c681f66aef77481f9f8485d",
-        "filled": "c42e0ee42ea9246157c22487469810e804c61d0970157218c10bcb83b70de60c",
-        "duocolor": "60ffb9015dc9bfa4c8dffed2b557464198788567bfc25ff23c24419e639b942c",
-        "duotone": "4587799e0403f31163a97dde7abfe85bdd4f467d62440e4788078813d7c59109"
+        "regular": "fd127ae4065dffddf8961d17a9c76e57a838dd6bf1e61cba0d360dfd153d2d3a",
+        "filled": "8c48423d84010423cee94992480570af5447318e301efd6798b77c1d847bf3c1",
+        "duocolor": "d8f26e0f897b4d0ed0580e56b9cfdb3b141089fc0877dc6c238c167708cb68c7",
+        "duotone": "305b00060590a7ecc696d1f4e71bd708f90d4e1700fb08e45e9dc6a1b298f97c"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 5,
-          "accents": 4,
+          "contours": 6,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -833,7 +833,7 @@
     },
     {
       "name": "alarm-clock-off",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "mute",
         "disabled",
@@ -865,17 +865,17 @@
         "duotone": "icons/duotone/alarm-clock-off.svg"
       },
       "sha256": {
-        "regular": "005c362945c9eb4f7a73550f97dc341a4c26c91289ea578d4b06a255c9c8eb04",
-        "filled": "7598454a101895e3f63c142655f01b29153c709d0e14ec84415da50cb4a4a916",
-        "duocolor": "3c0997f06407635e5c6bf91d6a0c22c2d68e62337d393ad72085b50ba76d0ed2",
-        "duotone": "0af5f8dceb1046354951c3af39fc7cc11c57449d91e99c8b5bfc8977acc38a40"
+        "regular": "7a1feb2334d842db8a224dba5cbdf9bd5371171326bd300c2ab39a4f2569e943",
+        "filled": "2cc49d6027e6a059d7293b55fe0effe507a3c30fa79348f75fc53b5fb463e865",
+        "duocolor": "0dc9e2f84b8d05b1d4bb431d1c3257144289f114d65873906919f7c03ca764da",
+        "duotone": "961f23448d490fe3f5b578c04766fdffad1c970a49c34f619f913fac8822226d"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 5,
-          "accents": 4,
+          "contours": 6,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -887,7 +887,7 @@
     },
     {
       "name": "alarm-clock-plus",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "add",
         "new",
@@ -918,17 +918,17 @@
         "duotone": "icons/duotone/alarm-clock-plus.svg"
       },
       "sha256": {
-        "regular": "5c4059c1a2b128b2d2d919b435d6cf6d3c67680e120b795f9b0765ac6e3308b0",
-        "filled": "ccd36818b7c20aa5efff179b0e266220413920bbd3f20ceec3f565da268541ad",
-        "duocolor": "a89d8fae86abcaec740d2ea4fea25e93fc69910aa3e723581b827855ff88bd1a",
-        "duotone": "ce18c7aa6c7fe1fb03d7845dd5da063d1be0c62f527326e5524a6f4d75ec012f"
+        "regular": "c860c4630d5011e004381a2b6344aa158e7e70bebbfb2076ba4adfef7fe28036",
+        "filled": "4e70871216fd30f316e8e3da102f20d3e55ad6fe4d3124c9020baf3c9ce2581e",
+        "duocolor": "c6900ccee3ea1f02972bf672581d1dd0dd5e4efa0d77e712b7cdc9d6779c35eb",
+        "duotone": "005d71c5277952a2ad29586fd6666772f95025f478da9bcf7f416be298ed424f"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 6,
-          "accents": 5,
+          "contours": 7,
+          "accents": 2,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -940,7 +940,7 @@
     },
     {
       "name": "alarm-snooze",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "sleep",
         "nap",
@@ -974,17 +974,17 @@
         "duotone": "icons/duotone/alarm-snooze.svg"
       },
       "sha256": {
-        "regular": "d6681c672e2b3ea0903d328dee528b6582031091b3881f50506187e600fc4a83",
-        "filled": "f5b2e8a7c279372e3e7c3922149e209443eaf7d794cf9f0c09add1d4391c655c",
-        "duocolor": "c21e43141f4b925b1e25ce2418a3a17edf4d191d7fc2f7c170ab5230d0f337f6",
-        "duotone": "210062abf84555c87971a37b67df2c66263174fa7e29ef7bd6490eeaa5c06482"
+        "regular": "6a92d76fa8787ac4de631d5928e35eb94bd047f91847ccdf0df7513ae61999f6",
+        "filled": "874986e691dbccf3a108473735502f82aa1554bb85a2eede8c626bd14348e8ff",
+        "duocolor": "21de9fb86672e7e6dfd831d3c996a9b4a6e5894e04f5fb47a8fc74ec469dd34e",
+        "duotone": "b1e029d3e93713990eec6694747413870b36193f4497b5d1eb983a8ab3fe9e29"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 4,
-          "accents": 3,
+          "contours": 6,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -11060,7 +11060,7 @@
     },
     {
       "name": "calendar",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "date",
         "schedule",
@@ -11115,7 +11115,7 @@
     },
     {
       "name": "calendar-3-day",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "three day view",
         "3 days",
@@ -11167,7 +11167,7 @@
     },
     {
       "name": "calendar-add",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "new event",
         "add event",
@@ -11228,7 +11228,7 @@
     },
     {
       "name": "calendar-agenda",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "list view",
         "events list",
@@ -11280,7 +11280,7 @@
     },
     {
       "name": "calendar-alert",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "event warning",
         "reminder",
@@ -11342,7 +11342,7 @@
     },
     {
       "name": "calendar-check",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "event confirmed",
         "done",
@@ -11404,7 +11404,7 @@
     },
     {
       "name": "calendar-clock",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "schedule time",
         "appointment",
@@ -11459,7 +11459,7 @@
     },
     {
       "name": "calendar-copy",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "duplicate event",
         "copy event",
@@ -11513,7 +11513,7 @@
     },
     {
       "name": "calendar-disabled",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "no events",
         "unavailable",
@@ -11574,7 +11574,7 @@
     },
     {
       "name": "calendar-dots",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "events",
         "busy days",
@@ -11630,7 +11630,7 @@
     },
     {
       "name": "calendar-dots-rtl",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "right to left",
         "rtl layout",
@@ -11683,7 +11683,7 @@
     },
     {
       "name": "calendar-download",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "export calendar",
         "save events",
@@ -11744,7 +11744,7 @@
     },
     {
       "name": "calendar-event",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "timeline",
         "appointment",
@@ -11796,7 +11796,7 @@
     },
     {
       "name": "calendar-heart",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "anniversary",
         "date night",
@@ -11849,7 +11849,7 @@
     },
     {
       "name": "calendar-home",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "house events",
         "home schedule",
@@ -11904,7 +11904,7 @@
     },
     {
       "name": "calendar-link",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "share link",
         "meeting link",
@@ -11948,7 +11948,7 @@
     },
     {
       "name": "calendar-lock",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "private calendar",
         "locked schedule",
@@ -12009,7 +12009,7 @@
     },
     {
       "name": "calendar-minus",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "remove event",
         "cancel",
@@ -12064,7 +12064,7 @@
     },
     {
       "name": "calendar-month-1",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "today",
         "single day",
@@ -12120,7 +12120,7 @@
     },
     {
       "name": "calendar-month-25",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "25th",
         "christmas",
@@ -12172,7 +12172,7 @@
     },
     {
       "name": "calendar-month-28",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "28th",
         "february",
@@ -12224,7 +12224,7 @@
     },
     {
       "name": "calendar-month-29",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "29th",
         "leap day",
@@ -12276,7 +12276,7 @@
     },
     {
       "name": "calendar-month-30",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "30th",
         "end of the month",
@@ -12328,7 +12328,7 @@
     },
     {
       "name": "calendar-month-31",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "monthly",
         "month view",
@@ -12384,7 +12384,7 @@
     },
     {
       "name": "calendar-month-5",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "fifth",
         "day 5",
@@ -12436,7 +12436,7 @@
     },
     {
       "name": "calendar-month-7",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "weekly",
         "week view",
@@ -12491,7 +12491,7 @@
     },
     {
       "name": "calendar-note",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "memo",
         "event notes",
@@ -12535,7 +12535,7 @@
     },
     {
       "name": "calendar-person",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "attendee",
         "organizer",
@@ -12580,7 +12580,7 @@
     },
     {
       "name": "calendar-phone",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "phone call",
         "mobile",
@@ -12624,7 +12624,7 @@
     },
     {
       "name": "calendar-record",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "recording",
         "record meeting",
@@ -12668,7 +12668,7 @@
     },
     {
       "name": "calendar-remove",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "delete event",
         "cancel event",
@@ -12729,7 +12729,7 @@
     },
     {
       "name": "calendar-reply",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "respond",
         "rsvp",
@@ -12773,7 +12773,7 @@
     },
     {
       "name": "calendar-settings",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "calendar options",
         "preferences",
@@ -12828,7 +12828,7 @@
     },
     {
       "name": "calendar-sparkles",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "ai schedule",
         "smart planning",
@@ -12887,7 +12887,7 @@
     },
     {
       "name": "calendar-star",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "favorite event",
         "important date",
@@ -12942,7 +12942,7 @@
     },
     {
       "name": "calendar-upload",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "share calendar",
         "publish",
@@ -17163,7 +17163,7 @@
     },
     {
       "name": "clock",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "hour",
         "watch",
@@ -17218,7 +17218,7 @@
     },
     {
       "name": "clock-check",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "time confirmed",
         "on time",
@@ -17250,10 +17250,10 @@
         "duotone": "icons/duotone/clock-check.svg"
       },
       "sha256": {
-        "regular": "ef7d3320ba84523fb39b74435adb56b5dc733b81702601de1968b046f015d9e1",
-        "filled": "8940da7a3a3c316a5fb04c32a98661a127008bd23394f0442487f858e3cf5ff3",
-        "duocolor": "a1f7fd19665d4ad2c971883679c92eec886528252bba114988503cce7dbd9900",
-        "duotone": "6c44f89c3af003f4341725dd59364db082651eccbff153c4843a2667769ba83a"
+        "regular": "878706fbfb54f6d6fb2c514e10c077eefaff25a401a3a79412a476439a045df1",
+        "filled": "57450b13c0566121cbdc8ac036433f493d5e25cd89d976d6903c66db6cef25d1",
+        "duocolor": "15bed784aba68fcdcbfd164014d03dafd1bb56f02a225627042ca2b1edcb88af",
+        "duotone": "d5430b0061247dfca1d7b5156b4438548020b1b13d54a8a9df96c22c95eaf35c"
       },
       "duoAuthoring": {
         "version": 2,
@@ -17268,11 +17268,17 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      },
+      "composition": {
+        "base": "clock",
+        "modifier": "check",
+        "position": "bottom-left",
+        "fit": null
       }
     },
     {
       "name": "clock-forward",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "fast forward",
         "future",
@@ -17291,9 +17297,9 @@
         "duotone": "49:93718"
       },
       "keyline": {
-        "key": "Squircle",
-        "width": 20,
-        "height": 20,
+        "key": "Square",
+        "width": 18,
+        "height": 18,
         "stroke": 1.25,
         "margin": 2
       },
@@ -17304,21 +17310,21 @@
         "duotone": "icons/duotone/clock-forward.svg"
       },
       "sha256": {
-        "regular": "45fa92e085fe87a3d0f555ed85afddf0d800907d7673429f742b590123d4c487",
-        "filled": "fcf7d6f6e86999f85556f09ab03eb5980e7012a42386f5d15f186cf1e06ae10d",
-        "duocolor": "78b57519e46911e422542708da3b9e6d1252397a842a10dd729e22603aa98a60",
-        "duotone": "6bb525eb5fc35a553513adda05843c8f4ca2bcf5b5f1f4cdaba1c7a530798617"
+        "regular": "c76093f281d5bfcb45dd0721ffac0bd2c164f217275f96fea6fb34a0bd87d173",
+        "filled": "987c3fb77b248ada6186e53cd84d115742713c23794dd3ea3f8913c46d173cc3",
+        "duocolor": "3e471c85d39927b381077dd005dcba3b8bfd5d721c6fd98461313ba8a3d09990",
+        "duotone": "6065a60a1a95962a42e71849585f949103289db9649ff0bd0e63910c5d903c6b"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 4,
-          "accents": 2,
+          "contours": 3,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 0,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -17326,7 +17332,7 @@
     },
     {
       "name": "clock-plus",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "add time",
         "new reminder",
@@ -17356,10 +17362,10 @@
         "duotone": "icons/duotone/clock-plus.svg"
       },
       "sha256": {
-        "regular": "9ab26781e49f0e2926fa155bfd3c79995eea6afdde90b6683e30699f84cc572d",
-        "filled": "9200a10e4c731f75fa42e2e10ed28f9d0bf8330e140b1df705c8b8c58a2d5201",
-        "duocolor": "5c9bdedcfa0b02d2b877865f9001b30b9a2ecf5353316fe89b9c86aa1b8e58d1",
-        "duotone": "016dee6b73dece9e1bb7e64a1a95d765e45c3c12bac32240fc6b65fe9a916f1c"
+        "regular": "c1204ea8c3d27451faef227fe0e10cbda31aa9a0eff424416e20a94215b25e07",
+        "filled": "4ed8d922aab3c2e7ac31962a309e222c9af362587cc43d8f8e97705cbadae0a0",
+        "duocolor": "4a4b176efe71aa215e9a482fb6059f3a1ff9960ebf3469acd3017e09e2af8d4f",
+        "duotone": "5cf9db6b7c431aae653448122b9dfacb080d9ed520c53d8d1e3786c10ab07855"
       },
       "duoAuthoring": {
         "version": 2,
@@ -17374,11 +17380,17 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      },
+      "composition": {
+        "base": "clock",
+        "modifier": "add",
+        "position": "bottom-left",
+        "fit": null
       }
     },
     {
       "name": "clock-refresh",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "history",
         "reset time",
@@ -17399,9 +17411,9 @@
         "duotone": "49:93749"
       },
       "keyline": {
-        "key": "Squircle",
-        "width": 20,
-        "height": 20,
+        "key": "Square",
+        "width": 18,
+        "height": 18,
         "stroke": 1.25,
         "margin": 2
       },
@@ -17412,21 +17424,21 @@
         "duotone": "icons/duotone/clock-refresh.svg"
       },
       "sha256": {
-        "regular": "695f5e5825c6a95ac10b56e80fcc7c96da2716f003805d550da4427b70e3a629",
-        "filled": "6ac84dc8a84d73c16371c9e65fc9f53661c2205e12928da559980ae38e299fd2",
-        "duocolor": "bb5e29cf5d4ffd31586b42c48a66261d005e43cce0efc5b2bc45b79388f83be8",
-        "duotone": "69b8bb9d20da9cea56ad9a8acc060dca9072c964596f79e0715699e893ca51fa"
+        "regular": "41fe8f36f88e3a6b7b932cf87d991d3053020505625b9ddf56c4f0be9a7cb150",
+        "filled": "1e212535c3d5e112e0d497a320735d5bf73bf3d319494f28c0b39dcadfc74d00",
+        "duocolor": "7cb3f0e9fe93ac0eb86d66fef5ab8c529a59a5d0882d9a9f072c0f93c916cdef",
+        "duotone": "184e7a2a6bfbdcf1043bf533ca512a18ff16794a79dcea5728befe1ee6f4d744"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 4,
-          "accents": 2,
+          "contours": 3,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 0,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -17434,7 +17446,7 @@
     },
     {
       "name": "clock-square",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "hour",
         "watch",
@@ -17545,7 +17557,7 @@
     },
     {
       "name": "cloud",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "overcast",
         "cloudy",
@@ -17575,10 +17587,10 @@
         "duotone": "icons/duotone/cloud.svg"
       },
       "sha256": {
-        "regular": "e05e7dfc046af46bf8203a66884ac68fb8f9a911a2a20be320e29f244e6e9158",
-        "filled": "245e82332dce3368ed306a3e325ec9cd87348b8ff7be365588e6a06ee547ff51",
-        "duocolor": "abb62e6966ac6ba2331c53fdb56347d1349978337da70766abe36901049859d2",
-        "duotone": "cb4c833cecec792c7859cb5c2b0fcc8f264f278f9be7b8d56323da7d7aa7c1d1"
+        "regular": "08e57d9b83e37a133bfed47663b07db79dfca81f29cd66e29936b6d92749f99e",
+        "filled": "c08b36a3335a9f69bd9203ab7421cd02c7c49ba1760c7b54b7ac80a094a108d1",
+        "duocolor": "802de1956a06f22b4bf74f56f4c35374f67fb06508e9fdbc56bdcd69474906f2",
+        "duotone": "0d0496dc6fb9483e3b7e4a9b0a413fd84ba861a767cd0c5aefddcc13c989a015"
       },
       "duoAuthoring": {
         "version": 2,
@@ -17597,7 +17609,7 @@
     },
     {
       "name": "cloud-drizzle",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "light rain",
         "shower",
@@ -17628,17 +17640,17 @@
         "duotone": "icons/duotone/cloud-drizzle.svg"
       },
       "sha256": {
-        "regular": "1649a61f091d98589df8282ea2bd4dbd9b88d609de02eed6ac36b0116e012f97",
-        "filled": "f0853b09e7677e4b2a82f4c0d4ce866bc94e6c8b9a6d3b86619882403691f6c3",
-        "duocolor": "b9b514a819fd0990f50532797ba164df096ae3ec276361fbd94b7f59d262ec2d",
-        "duotone": "36eb18305a2fc208bccf36e751e723e509274ab34c812ee75bc7f7b1629ed9da"
+        "regular": "abf0d5a5c7ba9594c4bf444cef7bb58c3eedfa5a2a7dabd8bb5e6ada52ae2ce6",
+        "filled": "4824fb1f889b83b1f2bbeb48e4e318121c0f05b0691ba96062c6087b09d560de",
+        "duocolor": "628930611f81f27032facf725f9b099f728f0c46930851086c395ccbb4ce95b8",
+        "duotone": "64fc2cad1ff64a65d6c2da4b50e591a9e2f1cf5d4eedef2aca23e5f018211c7f"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 4,
-          "accents": 3,
+          "contours": 6,
+          "accents": 5,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -17650,7 +17662,7 @@
     },
     {
       "name": "cloud-fog",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "mist",
         "haze",
@@ -17681,10 +17693,10 @@
         "duotone": "icons/duotone/cloud-fog.svg"
       },
       "sha256": {
-        "regular": "c0016a7fe7443e62c4672e37426e9641f6f0e2e70162f4e2768caac30962a16e",
-        "filled": "1a6cc9b2cbdec7d8887ec798b197c2075a4fc1234ee2e345efae1792f207e7ed",
-        "duocolor": "3aa9299890f8c49138c1d1a78b4d95361ca75c76d2080fd09c5b7a8f507b5fc4",
-        "duotone": "99e99594153eaf9518c6f694e16635c6af13812837b003974dff8f25c5bfaf60"
+        "regular": "7c43d86178c8eb02aa9816d8976c7828530f81c1dfd1142e43dabc0f90de878b",
+        "filled": "973e34360528382671d7f57ed04b0ae1ee0b2ff00e0b38bd2e006a4cb867ff4d",
+        "duocolor": "fdd7f5a4adebd35f17b6cdccb0738dc42aa6d1a93da8ee1e6f4db040f8c9ad80",
+        "duotone": "c79374b18bc5458de60d34822ad994c0683041c04c651b2d9462c62b5a20ef60"
       },
       "duoAuthoring": {
         "version": 2,
@@ -17703,7 +17715,7 @@
     },
     {
       "name": "cloud-hail",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "hailstorm",
         "ice",
@@ -17734,10 +17746,10 @@
         "duotone": "icons/duotone/cloud-hail.svg"
       },
       "sha256": {
-        "regular": "7aea6ac75a92e56f4597333982eadabbe88f300e544c731c2c818b6456d09b9f",
-        "filled": "9392949731c976102b0f814144da5c6c713dc1fb04cb926b91afff3d8eae8b35",
-        "duocolor": "f5493f4ddf7e108f5917c13d8fde0d980473629267a1be50137f882f3f307e44",
-        "duotone": "717193594af9388e10352347170fbcb7d9d957d0644ed5fc6fc837d4e10dc299"
+        "regular": "89cb3c4b2111af22d011e8226a1f5cbe5b33e744de6013bb20e9454c5b6213a0",
+        "filled": "ee3ed16325e7bdda627272d63c0d3b68dd5b42c08f036ad99d55183be994abdf",
+        "duocolor": "597f09ffce8c2c8fdd1e9af6d79b2ff37dd7988292fa94930f2eecc1528a3481",
+        "duotone": "0b9006c769f97e1ad302c9514dd8326d8d8d020ff1180261ee412a4ab6b555b2"
       },
       "duoAuthoring": {
         "version": 2,
@@ -17748,7 +17760,7 @@
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 4,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -17756,7 +17768,7 @@
     },
     {
       "name": "cloud-lightning",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "thunderstorm",
         "storm",
@@ -17787,10 +17799,10 @@
         "duotone": "icons/duotone/cloud-lightning.svg"
       },
       "sha256": {
-        "regular": "9cd90c8210c4c47260573b28d4c283844f9b969ac0c662cfacdcade0d43b1142",
-        "filled": "c38c8784195b3f0a740dbd2f7d23e53a5c3c6a14e3c3fac7e730db945730b9ff",
-        "duocolor": "912ae4ca61b993b576e13f3f157435ddb2f77f221f902b2e34e40292a1e35837",
-        "duotone": "9559e1c1869d0da2ce8b8394562931de83acdb4c3e7528961768ded53652d8f9"
+        "regular": "cf2ad1b66ba82ca3fbb81d5e1fdb629891d8d61c4372a28191b597ff0f463d2a",
+        "filled": "a6e30e2185c4657a0ea72734c623e124ea8addad73fa1606df18a962ec94eb3f",
+        "duocolor": "4a5252473b26e2b5e033073cbf5b2e733e7b88004d33c93b599d4b02183edf5d",
+        "duotone": "2b8aee76eb9fa8065d0ee0025907d185b0d133fa29692f7c6b3776dd9fe998c1"
       },
       "duoAuthoring": {
         "version": 2,
@@ -17801,7 +17813,7 @@
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 2,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -17809,7 +17821,7 @@
     },
     {
       "name": "cloud-moon",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "night",
         "cloudy night",
@@ -17839,17 +17851,17 @@
         "duotone": "icons/duotone/cloud-moon.svg"
       },
       "sha256": {
-        "regular": "f1c7cbccb1c6608959a04353ef101050fad331f5436048ee6c0a86db63957870",
-        "filled": "ee2c880315e17f8e40d8294a700597ead2a4d88b36e2d4512b5b6ab4a07bd142",
-        "duocolor": "3cce72e6feb2df911e08334adacfd031f8676702b5c32f4c1c5a556dfa1b7265",
-        "duotone": "e07efedbccf4c6dd1bd5622af52d29d6ec876461ee4693e6e12aac11e06ca546"
+        "regular": "d40d9bc8301edf0ddb491757e543ac06b56919fe91ac13ebbe88688b6325dab8",
+        "filled": "0f9f5d8cda6d5e03c49acd501c02053d90d9f4414927a060927bbe4d64873d30",
+        "duocolor": "a89510c6e0af60a125e48af2624af5909f752b3d2a9693b05f59c73704f7d0fd",
+        "duotone": "1206e192d85ea07041f5017713041c22e5d1047591efd95bb3d6d5b47fa9ee66"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
           "contours": 2,
-          "accents": 0,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -17861,7 +17873,7 @@
     },
     {
       "name": "cloud-moon-lightning",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "night storm",
         "thunderstorm",
@@ -17891,21 +17903,21 @@
         "duotone": "icons/duotone/cloud-moon-lightning.svg"
       },
       "sha256": {
-        "regular": "3bca6f612050bca2c746c3262e52ad592b8959b04e6ab6dc7fa28ed17662b79d",
-        "filled": "e60b2d5b71cb714d049175d869902263fdb16b6a8f048eb78ab8a41454e71572",
-        "duocolor": "bd83115c78b18b708aa5f133c6097a012287ee793884f0b60168a537f2487f5f",
-        "duotone": "8f97ae50884e00a52857dbcddebcdc42f8fe5ef4037783e05ce1333ad59cd1c9"
+        "regular": "f0d4a7892ad5dc20fe1202ec998ac985603222f3a4532089f9586baa64577e41",
+        "filled": "c7ae3842c2b5c991b03cc3ff3341bc6a8b1d3cef15526f352dc1082d1ff4d833",
+        "duocolor": "5b4cc7048ab8ccdada48ad44a2727b6c64e53d60c791f1a27da70564e55376d9",
+        "duotone": "4a8df51c976e5ab31674a304442b3794157b41e240b6e0cf9e8753a9e86f23e8"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
           "contours": 3,
-          "accents": 1,
+          "accents": 2,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 3,
+          "regions": 2,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -17913,7 +17925,7 @@
     },
     {
       "name": "cloud-moon-rain",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "night rain",
         "rainy night",
@@ -17943,17 +17955,17 @@
         "duotone": "icons/duotone/cloud-moon-rain.svg"
       },
       "sha256": {
-        "regular": "923b46f2645f2fab8e74455f730a6b4793cfab3a3246a056dc6e3aee21c7c66a",
-        "filled": "ee7befbe2e4b378cde2020f5c150f3c3bb47b34b99f0d44f156cba0a53172e31",
-        "duocolor": "09844e98134e53f0a6394f0a54218e7f3cbac751b4f17d774d445957da48a698",
-        "duotone": "97e328fb9242d8b477e5fb954aaa736963bcce4cd6509cccf3d78e439f44c771"
+        "regular": "6c4124eb14bc8ba51e2c683eb44e6f6aaa91d5097534868ace92914bd2a7dcf5",
+        "filled": "70f550ebda0c1020e270bf696e6dbc1d36c7bc0203aa505c1f0de040d3a8855b",
+        "duocolor": "6242229c7c535520a75ae35ff4781066b403e91ca647e8ffdba6c92368c184d2",
+        "duotone": "e05ccd61e78b031c3d66c22e211b4ea66074032b240556457b6a238cc74868eb"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
           "contours": 5,
-          "accents": 3,
+          "accents": 4,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -17965,7 +17977,7 @@
     },
     {
       "name": "cloud-moon-snow",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "night snow",
         "snowy night",
@@ -17995,17 +18007,17 @@
         "duotone": "icons/duotone/cloud-moon-snow.svg"
       },
       "sha256": {
-        "regular": "21fa9bd72c4f60281e72aba4068e1aa3856dbe15b9d68550d9f98381fd79c851",
-        "filled": "0d1893919f75959ddebfde6f6066a3b8a18a2885911d16011022d48b372fe01f",
-        "duocolor": "f9d7166d0e7b6a865c9e1bd60d19b0e3fae9453da3c6529bb86112c719c88a71",
-        "duotone": "d8459bc95d51eff436fcec39a0b336f001551152520e339fa9ff4f601c94b3cb"
+        "regular": "43b39cebeee195705681eae13bb77cd97ae0f416aa8478b90d95d2df41021666",
+        "filled": "73d7422e3f3fb4434892f5ad4898df08de25e9956796f8f4c63b13d660d66b10",
+        "duocolor": "935d5cf66b204681a8b3cc5eebdf3e22c62c3684f40ff5398fe7a27df7907dc8",
+        "duotone": "1c3367e5f834fb1777819f66a09df83762b0b34f50c090520c676068bacd7a8b"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 11,
-          "accents": 9,
+          "contours": 5,
+          "accents": 4,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -18017,7 +18029,7 @@
     },
     {
       "name": "cloud-off",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "offline",
         "disconnected",
@@ -18048,10 +18060,10 @@
         "duotone": "icons/duotone/cloud-off.svg"
       },
       "sha256": {
-        "regular": "0e349b2aa24047ec995fd05090b685ce1c0d1b1ba204d7b8f3a66713eeee88e9",
-        "filled": "3a350bbeafff9f967d092d8945bfae54950274bd541f2acfde6093456caca458",
-        "duocolor": "c22d34b1499e16c02f3433c298be51cb1e1e20198d35aefc454e4f9fb95f5009",
-        "duotone": "79b0f3f23f0edba3e66900cfb95c41a743449158ec13b07ac99088e2a91c4cf4"
+        "regular": "431acf0bfeb28024e7006af7e1430841973b9dfa5afad8174980c1797a0f2a67",
+        "filled": "1d6a0c823dd2f11ce938bab8588493efe1dea316d9711f929d93653c16affdc7",
+        "duocolor": "978f9c055e104f184cf2b787abbec474799e4b67127f5a068b02f4de53db4dc4",
+        "duotone": "11b320effe164333e7764dcc5093f85059d05885f1e3a2221c409edc09a637f6"
       },
       "duoAuthoring": {
         "version": 2,
@@ -18062,7 +18074,7 @@
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 1,
+          "regions": 2,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -18070,7 +18082,7 @@
     },
     {
       "name": "cloud-rain",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "rainy",
         "shower",
@@ -18103,10 +18115,10 @@
         "duotone": "icons/duotone/cloud-rain.svg"
       },
       "sha256": {
-        "regular": "47aa4cb16ae32dd4b2850c69e673255636b83c7e080d844ea5a7e0f7ebeac086",
-        "filled": "6e407a99304e16d1810085eeafbcf87264b85f7bc516ddf5011fcf5ffe32bd01",
-        "duocolor": "4e2131da10c549599ab0871c99235903b6cfcb181007cc9319a695536e086131",
-        "duotone": "993d20d4122f673f0bbd6c871742a41c8122acc4d9bfba5896da1da07207c3da"
+        "regular": "afc369ad2c455ae6269bd8a782a8d70a48c85d7a226fff333356ffd80f46ed6f",
+        "filled": "21c2242f8c8de29936f039c95297a58bfad3ee0195d2d742cd61185678a380f4",
+        "duocolor": "bbca845a00545397856aa65f9ed25385127bee7c854d739fa7969eb29c77dfc4",
+        "duotone": "0197a423a0044e9e19165e797c0b86d350af3c397acc3bd82d40bf286a212380"
       },
       "duoAuthoring": {
         "version": 2,
@@ -18125,7 +18137,7 @@
     },
     {
       "name": "cloud-rain-lightning",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "thunderstorm",
         "storm",
@@ -18156,10 +18168,10 @@
         "duotone": "icons/duotone/cloud-rain-lightning.svg"
       },
       "sha256": {
-        "regular": "16c0fd03e527bec3aaa31b75809c57369127a657def18879df3f7d6c34d2683d",
-        "filled": "20cf7b07145d144350f5568db70fa89a3bf1e0f3cc0242377c9cb41a49e47173",
-        "duocolor": "98af3ee5e6e7a36393ae7c6acb70dd3a2fefc6158150ad0b52937b414be88fa8",
-        "duotone": "8e31607426804ca0819f18215fe38b0929b045d9c3d9ae3ac354352de7581daa"
+        "regular": "bb32b5d52fdcc5f65259db74cda99431c1f00b9c6ca1fbd88cc841cc5b11d97a",
+        "filled": "04f6909694d75679088c0cb0b5c8e46cccd0f9fb0a5f128d13804bda5b841408",
+        "duocolor": "12f27503a065a145d7af84a8216bd102d04eb509bbc7f53e711b6cfd7198bd5b",
+        "duotone": "5d5411f0f6509f719560ff2c08266ba8c739258241d639d6c54ad61e00b37ab5"
       },
       "duoAuthoring": {
         "version": 2,
@@ -18170,7 +18182,7 @@
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 2,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -18178,7 +18190,7 @@
     },
     {
       "name": "cloud-rainbow",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "after rain",
         "pride",
@@ -18208,19 +18220,29 @@
         "duotone": "icons/duotone/cloud-rainbow.svg"
       },
       "sha256": {
-        "regular": "fa0205b9edb2a03b851157f82f612d4015c64d2bfd7d5e66ccd5c87a47f5d038",
-        "filled": "d126087bfee09a733b5508bfc700a31d0fd8f7902eb5aae25c59b19c41506028",
-        "duocolor": "cf7db6dd629321984ee7fd2171bc11066151253fd88f1111c138bda10ba6aed5",
-        "duotone": "f433815daa6ed161f1dd072bce21e14524f1e00a128153ee700857a27c28c8e4"
+        "regular": "2a69fa4f8f3c530f14d165902cebfc5dfe8f900f96a797bddfc0b9ae943d0691",
+        "filled": "af00841aedce080a3164ec5b4431d9d7096f420a2bd46b6ae165f335c0155f3d",
+        "duocolor": "1a159cbc8465382c24a14def9f70c12d8a50310730ac0d191eaddcd5342dddff",
+        "duotone": "d7be7431c8b85d9efd6aae1f9e1a34966050651e1b0a66378cf136791e518433"
       },
       "duoAuthoring": {
         "version": 2,
-        "approvedPrototype": true
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
       }
     },
     {
       "name": "cloud-sleet",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "wintry mix",
         "freezing rain",
@@ -18250,17 +18272,17 @@
         "duotone": "icons/duotone/cloud-sleet.svg"
       },
       "sha256": {
-        "regular": "db84b655098adbe8e130a307da03d146dca3e06e545bf780c089cc05fded89a9",
-        "filled": "740bb475f38674208386e16f80ff72d759a2248df5589eb7925b609fbd9af44b",
-        "duocolor": "0181add59dccab1912ec3a052b2f3c2bbc7a5fa7790bcdd09e27275621428340",
-        "duotone": "44e976d114dc2aa22f27f30852d72093e095853bc07975782a574490d7c56125"
+        "regular": "0997355e8e1005881ea1d988e6ac90f96ed5cc93703921514c77d6599d155e9c",
+        "filled": "1b0163111257d034a8b5abd66c0b13a259b316d7d252db26526eb81587a065f6",
+        "duocolor": "974ef7d73a0d54f932e890eb8c3e205593bcf10662882a68ca23026456b12618",
+        "duotone": "8057c2ef3255fd137e81489bb1a730a08f12d9fdea63cc2a4ec57bf724adaa52"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 5,
-          "accents": 4,
+          "contours": 4,
+          "accents": 3,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -18272,7 +18294,7 @@
     },
     {
       "name": "cloud-snowing",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "snow",
         "snowfall",
@@ -18303,17 +18325,17 @@
         "duotone": "icons/duotone/cloud-snowing.svg"
       },
       "sha256": {
-        "regular": "b647f79c5a26d214548dbeb20c77fb6e6d41b2086d32acd56035b90931fe91ef",
-        "filled": "0ebd28d0379d498723adcb94b717ffab59baf69e130e0c30be77b6b1827f5952",
-        "duocolor": "27714079b660f853c8bdf2bf3bfa3483824ecbf66f1892b57730e052a0960a33",
-        "duotone": "1f6a5498f2beb5252c1f36a57e6216c72668d8760b0a7205ab9ac4101c278784"
+        "regular": "8d19bcbdafdd53a6ce42dc1d316961847cea618e883ac4957a8b6ebed2cb1465",
+        "filled": "9cdaabae3f853ee9b33fd2311728d08da6b7f0fdb687edd0222f507b96c32797",
+        "duocolor": "2cf67ac23b836bbe9b8dfd13c6b6c8f801097f1f6415c57c0803d359184aaa8e",
+        "duotone": "61ee305e7cf26e87e82d4e324daebb644dd8e8257a59d1e4ed03a8ecfa1caa73"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 10,
-          "accents": 9,
+          "contours": 4,
+          "accents": 3,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -18325,7 +18347,7 @@
     },
     {
       "name": "cloud-sun",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "partly cloudy",
         "daytime",
@@ -18355,17 +18377,17 @@
         "duotone": "icons/duotone/cloud-sun.svg"
       },
       "sha256": {
-        "regular": "5a05520cd7e8366f9153275beb375cbb17c189d689c470f51c727a1415ceb5c5",
-        "filled": "b73d6f12306b4aae10922c869c6140d9df296f0fa9bb02e304fe46493b58b6ef",
-        "duocolor": "06f0a864a728ec5ba88210732ca3f15f9d7452e98aed4388667a6230218bf8b6",
-        "duotone": "4fed316005bacc44f50b9dab2748b5189318d10ee4188c26aa393d2fb84a8521"
+        "regular": "826f9019062880a006633cbf24f5baa456885ee87ef5dbb76357a120d609785a",
+        "filled": "a963564ecd8494a6f41669d331429906c86e0ddd869fd7e730715dcb197e3acc",
+        "duocolor": "9b873d4728e1ca45b86d77313b22acf2776a0f88b8757f2fd5179ffb1f88f80f",
+        "duotone": "3985347de76f213bc6d4477fb166db1ff64bd6eee449af565b7b4b9b43e18e40"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 2,
-          "accents": 0,
+          "contours": 3,
+          "accents": 2,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -18377,7 +18399,7 @@
     },
     {
       "name": "cloud-sun-lightning",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "thunderstorm",
         "storm",
@@ -18407,21 +18429,21 @@
         "duotone": "icons/duotone/cloud-sun-lightning.svg"
       },
       "sha256": {
-        "regular": "2573c814c808427e4bbf238716dd349d3469aad026e3991b889224e00abd6cc2",
-        "filled": "fc23a9bd48b550e0552ee076d3514a53a1f65f37203d040b6a643ca6e0538b2d",
-        "duocolor": "4d547ab6d91288e96caea5e70506160139c3cecdd4579ed08e78321c95de146a",
-        "duotone": "eff7e57e09bf8532ff21465a5fe24a9a8ea9369f52f40e8cf0985ac4c06fc0bf"
+        "regular": "ad1a7491c8006d10276fb48a7dab0314f49f296a56dc7223e6724cd079a21a00",
+        "filled": "9758353410ee436a5051aeece88c7ae57205f07866140ff0d07dca5b242188ad",
+        "duocolor": "f1da06c38c1e2607eb93d3907067d36385ce63ecf9fa1223ab6d008892a17a52",
+        "duotone": "b23e08bdbec1b306e0e6994a352f000b89552a1cc3cbd3ca31202dd314752cb1"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 3,
-          "accents": 1,
+          "contours": 4,
+          "accents": 3,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 3,
+          "regions": 2,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -18429,7 +18451,7 @@
     },
     {
       "name": "cloud-sun-rain",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "sun shower",
         "showers",
@@ -18459,17 +18481,17 @@
         "duotone": "icons/duotone/cloud-sun-rain.svg"
       },
       "sha256": {
-        "regular": "2166d62730fc1dfe79135557ce47ec2c3af177386630ac16d0699067524e56e1",
-        "filled": "a95a6c5516bc1558095eb15089b7967356b7a6b48ea8db472ad2776c74ef7be0",
-        "duocolor": "4310a8105da47fb7f7ded421adbd24375c505d427e124593a7b945b00e0542fa",
-        "duotone": "5de2b7267bc8ac93dcbe1df821ba849e2e7834bc20f398e58e2f4604e3d79f81"
+        "regular": "cb5fb635037fb0a5fc1c6f895e30e4cc96fbc0688b217c0f81586efa81f3bf17",
+        "filled": "30a28b871f10adc47c918791ae70036d43ec8f7aec99e44c32b7cd6d3a85bdeb",
+        "duocolor": "1dde595fc0c12637e0555805eec0ea0e386b04a9762cd0e5dd742452575c3451",
+        "duotone": "b2fa73b191ea3674d9eb77af5dbb6174239eb1986f594d31f91c001c1c6c5832"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 5,
-          "accents": 3,
+          "contours": 6,
+          "accents": 5,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -18481,7 +18503,7 @@
     },
     {
       "name": "cloud-sun-snow",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "snowfall",
         "winter",
@@ -18510,17 +18532,17 @@
         "duotone": "icons/duotone/cloud-sun-snow.svg"
       },
       "sha256": {
-        "regular": "cdf939c1bb14fbcef1388f14b39871dd6c05ee141a49b658ab116e11987ac1ba",
-        "filled": "72b047baa6d6bb0938b873750f3c2d78691108688aa71d177d06a09788f8972c",
-        "duocolor": "b0630c64acc39be6d3c9cf5257014947dc40cab81c6997d57cf2c9f923a1c4ff",
-        "duotone": "f146240fb8cbd2c8f91401cd3d8415a3a44a9cdba46f76eb4ed26a573dba5a7b"
+        "regular": "d462bbaa89deff584883f1a808bfd953195a13c290ecda2273ceef7163a551d4",
+        "filled": "4a0e0563af4ba8591ea43ddecf6fc21b40dd45e25eb11228b576222c72b10659",
+        "duocolor": "6a149ad12e7b62b454ced73c9a4d7942542b5602469a071d1e17f4ee7e941828",
+        "duotone": "4403927bbdf7cea2a0964cb622fac09bc32726493f761dd03e482e56f13e4a79"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 20,
-          "accents": 18,
+          "contours": 6,
+          "accents": 5,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -18532,7 +18554,7 @@
     },
     {
       "name": "cloud-wind",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "windy",
         "breeze",
@@ -18562,10 +18584,10 @@
         "duotone": "icons/duotone/cloud-wind.svg"
       },
       "sha256": {
-        "regular": "4af4166f486d0e63d0428529c3b9f72c9b55df98136a8e9f9ce8723d581bd0f5",
-        "filled": "f7451d9cd8463c508261231ca32be5b52674b47bf266499b26fe0fbd7f54925b",
-        "duocolor": "7f3b684f6962d5b926092282f06f6a1ab09e35cf8bef9a556481020d8780c7fb",
-        "duotone": "b8ecd7a877c623249ae9478d4742f3250eb739ca82d57e99f56310485552f899"
+        "regular": "d0fe8e99d9e546d4bb6c49d33701bc0cd22f747718512d35bcedc2c3f661d3c1",
+        "filled": "87d348546b9692dc38688a17c208b3df7a7e7d5eae82fdcab245eb5ab69cdb7a",
+        "duocolor": "ae3b65f7c4ea355afdd12d1d301e5a60c83570efe278b3ade4b49aafd6754d1e",
+        "duotone": "0415d6634a5a6f4d92f280cd3d05f9e36eb730f516ce6543e05d72150fa9b9c3"
       },
       "duoAuthoring": {
         "version": 2,
@@ -24911,7 +24933,7 @@
     },
     {
       "name": "droplets",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "water",
         "rain",
@@ -35008,7 +35030,7 @@
     },
     {
       "name": "history",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "clock",
         "past",
@@ -35029,9 +35051,9 @@
         "duotone": "49:93859"
       },
       "keyline": {
-        "key": "Squircle",
-        "width": 20,
-        "height": 20,
+        "key": "Square",
+        "width": 18,
+        "height": 18,
         "stroke": 1.25,
         "margin": 2
       },
@@ -35042,17 +35064,17 @@
         "duotone": "icons/duotone/history.svg"
       },
       "sha256": {
-        "regular": "25bde5422585d3d6324dabdca89c6f03f9f704a40fd4e172bf4528c84436e7e9",
-        "filled": "81d33e3044bfc40f46fb0693d79c1ab8cc32e6883b7253339d31aa9a5bb44523",
-        "duocolor": "52a96b670c6c3de177656be7df8849c9b90d443fcc4a63dfa570280efdad2289",
-        "duotone": "71b8daf7370fc55d4afd7d8a0cfd896cd5b506c9eaaf0cd4082e72763d2eafbd"
+        "regular": "59b3d383d989e0f37e49f1a902caa634d29738a440e4680bcf779bc9a303771c",
+        "filled": "f2dd8e767ca65685163a327162bdd64a13e641fba1c7d7e19f9f5d2b04f49d01",
+        "duocolor": "09494c7a5b0f844f964d60ae2148a59e6e6d6c5813fe7e58738934d030cc6534",
+        "duotone": "0478d55baf8718439882c83464a4c290b8fba87cad51cfde4af360871a7ffc2c"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
           "contours": 3,
-          "accents": 2,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -35750,7 +35772,7 @@
     },
     {
       "name": "hourglass",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "timer",
         "sand",
@@ -35783,21 +35805,285 @@
         "duotone": "icons/duotone/hourglass.svg"
       },
       "sha256": {
-        "regular": "c9926e28d15f474672ee82e9028e2358ad93c483b68eecf54c0042321f886bec",
-        "filled": "a2c77105222d064bd28234cba9a6334a50ac8f3355d1d137412653c22364b6f9",
-        "duocolor": "beaffc0cb6729357121489cbfa5e3f864083846bf3fc47f7c5b7f826b20753e0",
-        "duotone": "767c04fb21cb2c1478a75344fa2c0c65c1050b2e4be8dff5cca4c525ba3d4c39"
+        "regular": "34cd9088a84355f880a674e42722f023ea5f9dbf39cfcc4702d002a405610a18",
+        "filled": "52245b09b0bd9988d6dc3bf68b3ff5a38aef0f8a58e03a130bc9f43d4dbdd031",
+        "duocolor": "e104d2404f403ffa0e0ec3d4711cc2c2d4bfc83d4357ba0f587836afd3748160",
+        "duotone": "570681ddf561de7e291a988a95885b083600e8e17cc4bfc72a37e97e4a76bd27"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 10,
-          "accents": 4,
+          "contours": 4,
+          "accents": 0,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 0,
+          "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "hourglass-end",
+      "category": "Time & calendar",
+      "tags": [
+        "timer",
+        "sand",
+        "time up",
+        "expired",
+        "done",
+        "countdown end"
+      ],
+      "aliases": [],
+      "componentSet": "154:58724",
+      "source": {
+        "regular": "154:58655",
+        "filled": "154:58666",
+        "duocolor": "154:58695",
+        "duotone": "154:58706"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/hourglass-end.svg",
+        "filled": "icons/filled/hourglass-end.svg",
+        "duocolor": "icons/duocolor/hourglass-end.svg",
+        "duotone": "icons/duotone/hourglass-end.svg"
+      },
+      "sha256": {
+        "regular": "c16190284749886fe9b5b103453e0ac62ce924e0e9abdc22aede447be0e9ba35",
+        "filled": "96b530609a0702fab68eb355805ccc64be0561c5cdaccb9bb0744667f5870fee",
+        "duocolor": "9af48ffb0b78e323a69d3ce844484627587db67fe1a4a168f40581cb0ec7245f",
+        "duotone": "3d847934c6e4de42d53eda719e201b63da0a3c5bd6b7b9cc668e462dd1e315ef"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "hourglass-half",
+      "category": "Time & calendar",
+      "tags": [
+        "timer",
+        "sand",
+        "in progress",
+        "halfway",
+        "waiting",
+        "loading"
+      ],
+      "aliases": [],
+      "componentSet": "154:58654",
+      "source": {
+        "regular": "154:58577",
+        "filled": "154:58590",
+        "duocolor": "154:58621",
+        "duotone": "154:58634"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/hourglass-half.svg",
+        "filled": "icons/filled/hourglass-half.svg",
+        "duocolor": "icons/duocolor/hourglass-half.svg",
+        "duotone": "icons/duotone/hourglass-half.svg"
+      },
+      "sha256": {
+        "regular": "3a76ea9b0a4118bd6420808fd96d8bbd18b62a6af973bac28c05a58fc4b4c8c7",
+        "filled": "fa20e51c4a4cc5aa06b3340d1a6d31831957be26bc16800f41914c0a71d7addb",
+        "duocolor": "00459eff55afc13ba378d638aba212e3aa23ef3a24d346e2d2e673414f58d719",
+        "duotone": "969dcde25a0752e6369293c3c950bd152acbe67e797ba33370df61f5e5eefd37"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "hourglass-horizontal",
+      "category": "Time & calendar",
+      "tags": [
+        "paused",
+        "timer",
+        "sand",
+        "idle",
+        "on hold",
+        "stopped"
+      ],
+      "aliases": [],
+      "componentSet": "154:58786",
+      "source": {
+        "regular": "154:58725",
+        "filled": "154:58734",
+        "duocolor": "154:58761",
+        "duotone": "154:58770"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/hourglass-horizontal.svg",
+        "filled": "icons/filled/hourglass-horizontal.svg",
+        "duocolor": "icons/duocolor/hourglass-horizontal.svg",
+        "duotone": "icons/duotone/hourglass-horizontal.svg"
+      },
+      "sha256": {
+        "regular": "b72e8a402336cc894b42fda5b37f8e327d3b89b83a224b79ed54f6dfd509e939",
+        "filled": "c88aa6494ded5b3ef7ef531eb0ad8c991f95ec5b18d62a614d60ba7ad5198f18",
+        "duocolor": "6994fb507ca08f75c280fee88e25e01070d6c630d7e91bb315c89621bf9b2bc0",
+        "duotone": "31ce481b349fb598332d509cfad209cf55108037883bcf256a597abf032ff02a"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "hourglass-horizontal-sand",
+      "category": "Time & calendar",
+      "tags": [
+        "paused",
+        "timer",
+        "on hold",
+        "idle",
+        "settled",
+        "stopped"
+      ],
+      "aliases": [],
+      "componentSet": "154:58856",
+      "source": {
+        "regular": "154:58787",
+        "filled": "154:58798",
+        "duocolor": "154:58827",
+        "duotone": "154:58838"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/hourglass-horizontal-sand.svg",
+        "filled": "icons/filled/hourglass-horizontal-sand.svg",
+        "duocolor": "icons/duocolor/hourglass-horizontal-sand.svg",
+        "duotone": "icons/duotone/hourglass-horizontal-sand.svg"
+      },
+      "sha256": {
+        "regular": "56285c0e0941a8384471610ad8b1f2464259d690c9210cc3db36474d1dc6bef6",
+        "filled": "4179780e380b94ebc76ec628f1a1321f7d06e1662b1270bf01de423df2a907a6",
+        "duocolor": "087a33d1eacd0e279f4d239d098a3e6f0bb75acf0dfc39af0f2a6c28132564c4",
+        "duotone": "90a37a6b8a1615da2e196742e87fd8742a4cec866f2914cf8151ab124a484270"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "hourglass-start",
+      "category": "Time & calendar",
+      "tags": [
+        "timer",
+        "sand",
+        "begin",
+        "countdown",
+        "waiting"
+      ],
+      "aliases": [],
+      "componentSet": "154:58576",
+      "source": {
+        "regular": "154:58507",
+        "filled": "154:58518",
+        "duocolor": "154:58547",
+        "duotone": "154:58558"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/hourglass-start.svg",
+        "filled": "icons/filled/hourglass-start.svg",
+        "duocolor": "icons/duocolor/hourglass-start.svg",
+        "duotone": "icons/duotone/hourglass-start.svg"
+      },
+      "sha256": {
+        "regular": "f38068111297a0aa0da9b7656ccf3d7047bc503c881d309009bad9ce71f43025",
+        "filled": "f81eb0cc4627688cf8e92f3a192674baaf031c60f4254bc93c91e74bb85edf9f",
+        "duocolor": "ffb23ece1ac42611ada9d5bcf991ba61eb509a4909aebea2b72d534665a1c8ad",
+        "duotone": "9af198b6626c2d0abc304fddb0371e28c9dc4de532cc0efafb7061a98627ef6d"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -35805,7 +36091,7 @@
     },
     {
       "name": "hurricane",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "cyclone",
         "typhoon",
@@ -44975,7 +45261,7 @@
     },
     {
       "name": "moon",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "night",
         "crescent",
@@ -45030,7 +45316,7 @@
     },
     {
       "name": "moon-eclipse",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "lunar eclipse",
         "solar eclipse",
@@ -45084,7 +45370,7 @@
     },
     {
       "name": "moon-phase-first-quarter",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "lunar phase",
         "half moon",
@@ -45137,7 +45423,7 @@
     },
     {
       "name": "moon-phase-full",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "lunar phase",
         "night",
@@ -45189,7 +45475,7 @@
     },
     {
       "name": "moon-phase-last-quarter",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "lunar phase",
         "half moon",
@@ -45242,7 +45528,7 @@
     },
     {
       "name": "moon-phase-new",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "lunar phase",
         "dark moon",
@@ -45295,7 +45581,7 @@
     },
     {
       "name": "moon-phase-waning-crescent",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "lunar phase",
         "sliver",
@@ -45348,7 +45634,7 @@
     },
     {
       "name": "moon-phase-waning-gibbous",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "lunar phase",
         "almost full",
@@ -45401,7 +45687,7 @@
     },
     {
       "name": "moon-phase-waxing-crescent",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "lunar phase",
         "sliver",
@@ -45454,7 +45740,7 @@
     },
     {
       "name": "moon-phase-waxing-gibbous",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "lunar phase",
         "almost full",
@@ -45507,7 +45793,7 @@
     },
     {
       "name": "moon-star",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "night",
         "dark mode",
@@ -50142,7 +50428,7 @@
     },
     {
       "name": "pie-clock",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "timer",
         "progress",
@@ -52693,7 +52979,7 @@
     },
     {
       "name": "rewind-clock",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "history",
         "undo",
@@ -52714,9 +53000,9 @@
         "duotone": "49:93888"
       },
       "keyline": {
-        "key": "Squircle",
-        "width": 20,
-        "height": 20,
+        "key": "Square",
+        "width": 18,
+        "height": 18,
         "stroke": 1.25,
         "margin": 2
       },
@@ -52727,17 +53013,17 @@
         "duotone": "icons/duotone/rewind-clock.svg"
       },
       "sha256": {
-        "regular": "bd0573a08414df57bec09a10e02b7878bf87b1af0706255c87ebbd01d8a1a2db",
-        "filled": "298a9f33a87ce87b25a1ecd5cd53dafde557c2a3f6a6a7e0253bd90b2b063ee7",
-        "duocolor": "a89b248ab716777cbe71d797f7d867374e548d89415ea6701e000a5c9d26c824",
-        "duotone": "90fe5657acc59bb3bfd7580a1b94bf9342c05e2c2e1d8c70161352320d606212"
+        "regular": "3d0366cf1ffeb4e648aa1431f7ba5876de9a8e0d9da4e53b1b97d70d796c39d4",
+        "filled": "df29fa4657b5e3c825a5913661dfb12f0cb2ca8153a238884d11e72ae7412eb3",
+        "duocolor": "b9b85fb00852d1e8e8fa48921251e4d53e8c826328b47dc1df8a6855aa2ed95b",
+        "duotone": "e3162b6e1b129519584c80aed6effcccd84712105d9e7af9d968817929394962"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
           "contours": 3,
-          "accents": 2,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -58119,7 +58405,7 @@
     },
     {
       "name": "snowflake",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "cold",
         "winter",
@@ -58150,17 +58436,17 @@
         "duotone": "icons/duotone/snowflake.svg"
       },
       "sha256": {
-        "regular": "ef3c92c2611b211d5d4724444a5da6195faedd1585abf22e76f2cae106475bb2",
-        "filled": "c7b0791b115e14a3c31ac9074c6c90a310408076ede08353749ebba19ed056fe",
-        "duocolor": "5715d77f187ebbf9efc20e50e50abfef711e82345a919074beaa2028c3d90b11",
-        "duotone": "9ca3de78fb42ada02a0afb6836139d7bc6eacc1d39c608b7fe8710b651c5fd19"
+        "regular": "52146c86de93e59cad141ae569702f56c28236857d8f1ca9c6277a59a81593e2",
+        "filled": "62f0dfac40db1299a06cd6c256c556947130e63a02ed6f568c94f737d3c6bac8",
+        "duocolor": "37b3d3d772edb86813bbb9b7566b100eff46d9efa3d5d8410906377f019b99fe",
+        "duotone": "364f5e90aa48d90e198b31783a07a70efaa31f61d9939e45becd668846b03028"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 9,
-          "accents": 6,
+          "contours": 18,
+          "accents": 12,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -59256,7 +59542,7 @@
     },
     {
       "name": "stars",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "favorites",
         "rating",
@@ -59673,7 +59959,7 @@
     },
     {
       "name": "stopwatch",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "timer",
         "clock",
@@ -59938,7 +60224,7 @@
     },
     {
       "name": "sun",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "brightness",
         "sunny",
@@ -59993,7 +60279,7 @@
     },
     {
       "name": "sun-half",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "brightness",
         "contrast",
@@ -60048,7 +60334,7 @@
     },
     {
       "name": "sunrise",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "morning",
         "dawn",
@@ -60102,7 +60388,7 @@
     },
     {
       "name": "sunset",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "evening",
         "dusk",
@@ -60156,7 +60442,7 @@
     },
     {
       "name": "sunset-angle",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "evening",
         "dusk",
@@ -61276,6 +61562,218 @@
       }
     },
     {
+      "name": "temperature-celsius",
+      "category": "Weather",
+      "tags": [
+        "degrees",
+        "centigrade",
+        "metric",
+        "deg c",
+        "forecast",
+        "climate"
+      ],
+      "aliases": [],
+      "componentSet": "154:58889",
+      "source": {
+        "regular": "154:58857",
+        "filled": "154:58862",
+        "duocolor": "154:58876",
+        "duotone": "154:58881"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/temperature-celsius.svg",
+        "filled": "icons/filled/temperature-celsius.svg",
+        "duocolor": "icons/duocolor/temperature-celsius.svg",
+        "duotone": "icons/duotone/temperature-celsius.svg"
+      },
+      "sha256": {
+        "regular": "a699b65efe76cdbc7c33efb59f09b14b02455f17923b3bf66d4bd280edc7f269",
+        "filled": "7b0f33b58e31fa43fd61163206eadc395a1614f919f7b5873bf54731b3b08de6",
+        "duocolor": "14ee62dfb6936440d7c90a7dbcaa174c9fce1e429558f7f5bfeebeb064327143",
+        "duotone": "10e0953a8851924d3707b6c73e7f9511c8fcd5898a36155b5880b5246a173d22"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "temperature-celsius-square",
+      "category": "Weather",
+      "tags": [
+        "degrees",
+        "centigrade",
+        "metric",
+        "deg c",
+        "badge",
+        "unit"
+      ],
+      "aliases": [],
+      "componentSet": "154:58981",
+      "source": {
+        "regular": "154:58934",
+        "filled": "154:58941",
+        "duocolor": "154:58964",
+        "duotone": "154:58971"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/temperature-celsius-square.svg",
+        "filled": "icons/filled/temperature-celsius-square.svg",
+        "duocolor": "icons/duocolor/temperature-celsius-square.svg",
+        "duotone": "icons/duotone/temperature-celsius-square.svg"
+      },
+      "sha256": {
+        "regular": "5c3e415b78e91d6d429a01c50fe64b3b2df537625c96ec3497e2494e25c928d8",
+        "filled": "40b6f76697be5f067bf20c10d9ec79012918f61b91249d010919dd111751bfee",
+        "duocolor": "6ab479053c4aa570a8135629b774a0105395dc99c54c4bb153ed10f72bb7a717",
+        "duotone": "da7771bef8b40c3b2a61c2e6e4961b48c295f5f3b9819a529d0d662fce358430"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "temperature-fahrenheit",
+      "category": "Weather",
+      "tags": [
+        "degrees",
+        "imperial",
+        "deg f",
+        "us units",
+        "forecast",
+        "climate"
+      ],
+      "aliases": [],
+      "componentSet": "154:58933",
+      "source": {
+        "regular": "154:58890",
+        "filled": "154:58897",
+        "duocolor": "154:58916",
+        "duotone": "154:58923"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/temperature-fahrenheit.svg",
+        "filled": "icons/filled/temperature-fahrenheit.svg",
+        "duocolor": "icons/duocolor/temperature-fahrenheit.svg",
+        "duotone": "icons/duotone/temperature-fahrenheit.svg"
+      },
+      "sha256": {
+        "regular": "848e84bd2ba39317597a0888194e073004754e70726a9eaddeaea4b630ec3008",
+        "filled": "5b2ee05a11bac2f3827f5fb4a9f537956e37a331e46b1b1d37dcba33ec33df23",
+        "duocolor": "13b4561c2850ebcd08deed706fa8061d69a0c2382ebbfd5e491ba241dab6b623",
+        "duotone": "ebfcf3c527a4ccbcffce29f1776412eb8ef8c378b590d35402a909b6becbc2ee"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "temperature-fahrenheit-square",
+      "category": "Weather",
+      "tags": [
+        "degrees",
+        "imperial",
+        "deg f",
+        "us units",
+        "badge",
+        "unit"
+      ],
+      "aliases": [],
+      "componentSet": "154:59038",
+      "source": {
+        "regular": "154:58982",
+        "filled": "154:58991",
+        "duocolor": "154:59017",
+        "duotone": "154:59026"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/temperature-fahrenheit-square.svg",
+        "filled": "icons/filled/temperature-fahrenheit-square.svg",
+        "duocolor": "icons/duocolor/temperature-fahrenheit-square.svg",
+        "duotone": "icons/duotone/temperature-fahrenheit-square.svg"
+      },
+      "sha256": {
+        "regular": "31c9092a1d57da372bb85e9a1d8bdd146648095e72e0ef3e6e91541677abbf53",
+        "filled": "f55a41c5a713e20aeb75719a0316c89abed015d863f3680152b26f59275bc37f",
+        "duocolor": "caba3cfbbb4f72683fe32027fdf70539df58b6a4cd81d67e482e3a8a00b8a523",
+        "duotone": "2d2599fd9c044dde59909d3e31a66f46e4ed2be7c892dcd33587b730ed2e58ae"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "terminal",
       "category": "Workspace",
       "tags": [
@@ -61703,7 +62201,7 @@
     },
     {
       "name": "thermometer",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "temperature",
         "celsius",
@@ -61734,21 +62232,21 @@
         "duotone": "icons/duotone/thermometer.svg"
       },
       "sha256": {
-        "regular": "28a94d851d223e35cffb146a422651407b50bdd0b6a89bbfd58745a24c99bf0e",
-        "filled": "f9807a84e284f1e5c23280ac9866c95caea4737c403a00edc58b3220d8637a76",
-        "duocolor": "24371819e9e4b53f87428564db32f32129184cdcdb2e66a636d682e367c8567d",
-        "duotone": "2ee0dcfdf497f1229e526797c002d371edb7866fa9ccf4c75d4df852b5dfac3b"
+        "regular": "e48e8fd9dc56022944e688df0b8fdc2d81ae65064ceb08223ae38cff0446eae8",
+        "filled": "6d8592d15c74d6be079ed48b2f8306191a928f25490625f9347071169de4b82b",
+        "duocolor": "732aabeaadb580abafe2c55115adbab9adb0fb2d19ba9c7b7760e0de74bdedb7",
+        "duotone": "0c259e36e3a65932a8d268bf66b0cae3b02bb357b77e7c8d80e2ee98ea9c23cf"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 5,
-          "accents": 4,
+          "contours": 6,
+          "accents": 2,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 2,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -61756,7 +62254,7 @@
     },
     {
       "name": "thermometer-cold",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "freezing",
         "low temperature",
@@ -61787,21 +62285,21 @@
         "duotone": "icons/duotone/thermometer-cold.svg"
       },
       "sha256": {
-        "regular": "2641d001afa1e84617a766b92686c1437e30be0b6779e5fd957bfc0d698f9e67",
-        "filled": "3a432a43b7b4c078147e03a8aae48b0b82c2c32c8a16db42a6719ad15871ffcc",
-        "duocolor": "8ce47ac0131c5fa32d25c1c7bbf2a9097d0431465beb6de418e85d9cb2727c4a",
-        "duotone": "117e7f78987040114784e80b4d37909907af9e8504a771fc6c6577ea6c0d98e8"
+        "regular": "1bc797ae8e5ae491ed2cc6e2410547d29d802a5669a199492a983eadd9702c3c",
+        "filled": "64396140676e0499c65c74f697dd6249d67bdcb9e2d53a08c250c74a37297c2a",
+        "duocolor": "41c6b5677b737e2f51621a010b293d4c602a66645d6fec997c49a4a10d486529",
+        "duotone": "cc37e32ec54146af1122a88a2b9c1d04b5fece0fa51100eb227f0a025cfd3f6d"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 11,
-          "accents": 10,
+          "contours": 6,
+          "accents": 5,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 2,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -61809,7 +62307,7 @@
     },
     {
       "name": "thermometer-warm",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "high temperature",
         "hot",
@@ -61840,21 +62338,21 @@
         "duotone": "icons/duotone/thermometer-warm.svg"
       },
       "sha256": {
-        "regular": "598a161ad843192b292ac2fce86e1027ea931178b71fa74bf1ebaad51b2cd374",
-        "filled": "dc44948e3a285ed9ccf59893e65b0a1f59fa48b31d3b26bbe53bbb8a97b964c7",
-        "duocolor": "b0fedc4bf24a15b9d6a65debef70e6d2fce70c452e32814e0f87a4bf1b137a2a",
-        "duotone": "a0948cc07ada3d3364d3a7995b95a12b3c516c64ba9632662896b8b449ec3d92"
+        "regular": "e2bea8ab55b089a7961ec96e57ba82ccd9b30f3ab061ead93e391fda9ad4f60d",
+        "filled": "dc8015f99dad83bd06da030c2bd6ddadaa720478ce3fcfddb5a58a3f6121c58d",
+        "duocolor": "0795a0bc516af1cb42d84deb90c3216a93f5eca9ce4ac4618eeb9697f3b5a21f",
+        "duotone": "233d9fde617b11d82facbb4d6916df5b86baf2c567f457115541893e5831b6d5"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 4,
-          "accents": 3,
+          "contours": 5,
+          "accents": 4,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 3,
+          "regions": 2,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -62026,7 +62524,7 @@
     },
     {
       "name": "timer",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "stopwatch",
         "countdown",
@@ -62383,6 +62881,59 @@
         },
         "duotone": {
           "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "tornado",
+      "category": "Weather",
+      "tags": [
+        "twister",
+        "funnel",
+        "storm",
+        "whirlwind",
+        "cyclone",
+        "disaster"
+      ],
+      "aliases": [],
+      "componentSet": "154:59109",
+      "source": {
+        "regular": "154:59039",
+        "filled": "154:59052",
+        "duocolor": "154:59083",
+        "duotone": "154:59096"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/tornado.svg",
+        "filled": "icons/filled/tornado.svg",
+        "duocolor": "icons/duocolor/tornado.svg",
+        "duotone": "icons/duotone/tornado.svg"
+      },
+      "sha256": {
+        "regular": "9f5beffe78792edc21661362bc1bfd9d0f36b3b7446658398ce41dccc923d208",
+        "filled": "f26e528435711b60860e1d9c6039d25b95f07a907c9ec69d7b0611c506a4cf55",
+        "duocolor": "aea66496ceb93703ec4422710170f8d175b9cd608c5fc67af308d60b457c7a8c",
+        "duotone": "ef9b0d90a9cb8a8ffe7411b36931db19cab2fa94d8cc5a9658f2d06e9df8f3e9"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -63883,7 +64434,7 @@
     },
     {
       "name": "umbrella",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "rain",
         "storm",
@@ -63915,17 +64466,17 @@
         "duotone": "icons/duotone/umbrella.svg"
       },
       "sha256": {
-        "regular": "22fd05a5e68e2b6db09b8c73cb5b512aaa9ddc93e7fe0cdbfb67f1a9a1b3b342",
-        "filled": "48d9df85eb19dd4d5e393fe93499bceb1f18a5465c4451768c122e0794b3a4ce",
-        "duocolor": "b24b7dd08e20a9631d9d22c60a00207efda3cf060e1fe17d28d304207353a75d",
-        "duotone": "1d8bf8e3109a174309b01b87d4dc569647a1763fa05874de4029647a2ea4922a"
+        "regular": "337677e0eb7930fb91a57d5f8ef7662ee01b110bf717fc1d328b0b27efc8cfe2",
+        "filled": "5235ab278fc441ce5ae36feba4feb99f3138f13cc17e7c868775fc130afedfc5",
+        "duocolor": "ee64a5b90bdcd51415f784affbc859f7b3a4d6b4f8341f201eb60805d16e96a3",
+        "duotone": "54cab5bda9dd2f5fea2d3f1b50306b54db5829fdb0ed9064a3a502bc9bbedb15"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 4,
-          "accents": 3,
+          "contours": 3,
+          "accents": 2,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -66980,7 +67531,7 @@
     },
     {
       "name": "watch-circle",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "smartwatch",
         "wristwatch",
@@ -67033,7 +67584,7 @@
     },
     {
       "name": "watch-square",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "smartwatch",
         "wristwatch",
@@ -67086,7 +67637,7 @@
     },
     {
       "name": "waves",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "water",
         "sea",
@@ -67470,7 +68021,7 @@
     },
     {
       "name": "wind",
-      "category": "Time & weather",
+      "category": "Weather",
       "tags": [
         "breeze",
         "air",
@@ -67502,10 +68053,10 @@
         "duotone": "icons/duotone/wind.svg"
       },
       "sha256": {
-        "regular": "a78718bd0dd42c2b51d2d64f6d1a5a937f4b8e1a68315f1467f22e66f25a1cc5",
-        "filled": "1a74b161a6632b8b2697cb385b73a0d3d126aefb0e8e1636c70c43009e1de762",
-        "duocolor": "048f2d4919029ff68048d60441b09c63a908f8e9bb47bdb7f56cf3a7f01e6c66",
-        "duotone": "9abd8640ec314964beb704174da1744a71201e761078874e21a4278e72ccedbc"
+        "regular": "3421c34d64418eb3cf7019732ce9464a858bc46543449192ddb627f1073eebf9",
+        "filled": "be82c09e096a3644b3070143665cb802a96270f84e5122e8fa4ff4809e96801a",
+        "duocolor": "fe34739c7f6cb345c6204362915b1c644dfe386db3302450d3ab97f4e101ea00",
+        "duotone": "5650c3113cdfc5fb8246862c2be9980fe7405ba6c0c09a094af4a65e8de9b396"
       },
       "duoAuthoring": {
         "version": 2,
@@ -67524,7 +68075,7 @@
     },
     {
       "name": "wind-clock",
-      "category": "Time & weather",
+      "category": "Time & calendar",
       "tags": [
         "wind forecast",
         "hourly",
