@@ -9,7 +9,7 @@ The page displays: "All brand icons belong to their respective owners."
 Its catalog follows the main Regular catalog (`29:4984`): a 1440px frame,
 96px outer margins, the shared header and category styling, and 24px icons on
 a 60px-column, 56px-row grid without individual captions. The Brands page now
-contains 37 Regular icons and five Solid icons. Third-party marks appear only
+contains 37 Regular icons and 33 Solid icons. Third-party marks appear only
 in the Regular row; Solid is limited to marks that already have a Solid source.
 
 The first-party `fos-icons` mark is adapted from the supplied F Symbol,
@@ -42,7 +42,9 @@ Each of the 28 social marks also has a one-color Solid version in
 the same Figma Social icon set (`71:151402`) — the kit's own monochrome mark for
 that platform — recolored to `currentColor`, with white details kept as
 transparent cutouts. The geometry is unchanged. Each manifest entry records it
-under `solid`, with the Gray component ID and SHA-256 digest.
+under `solid`, with the Gray component ID, the instance on the Figma Brands
+page's Solid row (its fill bound to the library ink color), and the SHA-256
+digest.
 
 Duotone and Duocolor reuse the Solid mark: brand marks are never split into
 primary and secondary colors.
