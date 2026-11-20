@@ -1,9 +1,9 @@
 {
   "collection": "Fos Icons brand assets",
   "retrievedAt": "2026-11-12",
-  "retrievalDateAppliesToAllAssets": true,
+  "retrievalDateAppliesToAllAssets": false,
   "rights": {
-    "authorizationBasis": "The user explicitly confirmed authorization to redistribute the social and Microsoft marks. This records that confirmation and does not independently verify authority or grant rights on behalf of the owners.",
+    "authorizationBasis": "The user explicitly confirmed authorization to redistribute the social marks. The AI marks come from the owners' public brand kits. This records that confirmation and those sources; it does not independently verify authority or grant rights on behalf of the owners.",
     "license": "Third-party artwork is not covered by the Fos Icons MIT license. Copyright and trademark rights remain with their respective owners; use remains subject to each owner's terms and brand guidelines.",
     "attribution": "Each mark remains the property of its respective owner. No affiliation or endorsement is implied."
   },
@@ -623,6 +623,33 @@
         "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts.",
         "brandsPageInstanceId": "174:124448"
       }
+    },
+    {
+      "path": "ai/hugging-face.svg",
+      "owner": "Hugging Face",
+      "source": {
+        "url": "https://huggingface.co/brand",
+        "file": "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg",
+        "fileSha256": "942cad1ccda905ac5a659dfd2d78b344fccfb84a8a3ac3721e08f488205638a0",
+        "figmaComponentNodeId": "179:162386"
+      },
+      "retrieved": "2026-11-20",
+      "sha256": "1e1cd2aa44fc10e0d6228105204da0bbc76ef7c892b3ac6ffc62951a5e5a3f9e",
+      "note": "Scaled uniformly to fill the 24px canvas and optimized with SVGO; shapes and colors are unchanged.",
+      "brandsPageInstanceId": "179:162395",
+      "solid": {
+        "path": "ai-solid/hugging-face.svg",
+        "source": {
+          "url": "https://huggingface.co/brand",
+          "file": "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-monochrome.svg",
+          "fileSha256": "87ac947dc4f0a9146fcd42aad52b657909bef9860eb284c651a6690e935e0595",
+          "figmaComponentNodeId": "179:162392"
+        },
+        "sha256": "1ff603fbeb47921a95faf948494e3a075b061f7307f7ff658b03f61cf47cbf39",
+        "note": "The official monochrome logo, recolored from black to currentColor; details are transparent cutouts. Scaled uniformly to fill the 24px canvas and optimized with SVGO; shapes and colors are unchanged.",
+        "brandsPageInstanceId": "179:162402"
+      }
     }
-  ]
+  ],
+  "retrievalNote": "retrievedAt applies to every asset without its own retrieved date."
 }
