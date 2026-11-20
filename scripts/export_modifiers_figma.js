@@ -55,6 +55,20 @@ async function exportFosModifiers() {
   };
   const actions = await load(sections.actions, "modifierProof");
   const extended = await load(sections.extended, "extendedModifierProof");
+  const dotSource = await figma.getNodeByIdAsync("183:165860");
+  const dotVariants = await figma.getNodeByIdAsync("66:26234");
+  if (dotSource?.type !== "COMPONENT" || dotVariants?.type !== "COMPONENT_SET") {
+    throw new Error("Missing native Dot modifier");
+  }
+  const dot = {
+    badges: { Dot: dotSource.id },
+    sources: { Dot: dotSource.children[0]?.id },
+    variants: { Dot: Object.fromEntries(
+      dotVariants.children
+        .filter(node => node.type === "COMPONENT" && node.variantProperties?.Modifier === "Dot")
+        .map(node => [node.variantProperties.Position, node.id]),
+    ) },
+  };
   const files = await load(sections.files, "fileTypeProof");
   const presets = await load(sections.presets, "namedPresetMigration");
   const collection = await figma.variables.getVariableCollectionByIdAsync(
@@ -73,6 +87,7 @@ async function exportFosModifiers() {
     ["Delete", actions, "actions", "Bottom right", "VariableID:48:40522"],
     ["Warning", extended, "status", null, warning?.id],
     ["Check", extended, "status", null, "VariableID:48:40521"],
+    ["Dot", dot, "status", "Top right", "VariableID:1:1429"],
     ...["Key", "Lock", "User", "Clip"].map(
       name => [name, extended, "access-identity", null, "VariableID:48:36636"],
     ),
@@ -140,6 +155,9 @@ async function exportFosModifiers() {
           : ["Top left", "Top right", "Bottom left", "Bottom right"];
         for (const position of allowed) {
           const wrapper = await figma.getNodeByIdAsync(proof.variants[label][position]);
+          if (wrapper?.type !== "COMPONENT") {
+            throw new Error(`Missing native modifier placement: ${label}/${position}`);
+          }
           const mask = wrapper.findOne(n => n.isMask);
           const badge = wrapper.children.find(n => n.type === "INSTANCE");
           if (!mask || mask.type !== "VECTOR" ||
