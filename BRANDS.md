@@ -26,6 +26,12 @@ Facebook, X, Instagram, LinkedIn, Google, WhatsApp, Apple, Snapchat, Pinterest,
 Dribbble, Reddit, Discord, TikTok, Tumblr, Telegram, Clubhouse, Signal, GitHub,
 AngelList, Layers, Twitch, Slack, Spotify, Stripe, PayPal, Wise, Notion, and
 Webflow. X is used instead of Twitter; one Discord identity is retained.
+Regular is always the brand's full-color mark and Solid its one-color mark.
+The kit draws Instagram in black, so Regular Instagram uses the
+`instagram-brand` component (`181:162422`): the same glyph filled with
+Instagram's official gradient. On the Brands page, Figma uses the kit's
+full-color Figma logo, and Fos Icons uses `fos-icons-brand` (`181:162415`),
+the full-color F Symbol.
 Existing Figma, Framer, YouTube, Chromecast, and Fos icons remain in the
 catalog without duplicating those identities.
 
