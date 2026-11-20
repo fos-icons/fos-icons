@@ -58,8 +58,10 @@ def main():
             'body{margin:0;background:#fff;display:grid;grid-template-columns:repeat(3,96px);'
             'align-content:start}img{display:block}</style>' + tiles
         )
+        # Ubuntu 24.04 runners block Chrome's user-namespace sandbox; CI pages are local files.
+        sandbox = ["--no-sandbox"] if os.environ.get("CI") else []
         subprocess.run(
-            [args.chrome, "--headless", "--hide-scrollbars", "--disable-background-networking",
+            [args.chrome, *sandbox, "--headless", "--hide-scrollbars", "--disable-background-networking",
              "--force-device-scale-factor=1",
              f"--window-size=420,{96 * ((len(cases) + 2) // 3) + 100}",
              "--force-color-profile=srgb",
