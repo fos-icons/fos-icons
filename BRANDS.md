@@ -9,9 +9,8 @@ The page displays: "All brand icons belong to their respective owners."
 Its catalog follows the main Regular catalog (`29:4984`): a 1440px frame,
 96px outer margins, the shared header and category styling, and 24px icons on
 a 60px-column, 56px-row grid without individual captions. The Brands page now
-contains 37 Regular icons and 33 Solid icons. The 28 social marks also
-appear in the Solid row as one-color marks from the kit's Gray variants; the
-Google and Microsoft product marks appear only in the Regular row.
+contains 33 Regular icons and 33 Solid icons. The 28 social marks also
+appear in the Solid row as one-color marks from the kit's Gray variants.
 
 The first-party `fos-icons` mark is adapted from the supplied F Symbol,
 preserving its interlocking contours and proportions. Its native component set
@@ -29,12 +28,11 @@ Webflow. X is used instead of Twitter; one Discord identity is retained.
 Existing Figma, Framer, YouTube, Chromecast, and Fos icons remain in the
 catalog without duplicating those identities.
 
-Google Chrome, Microsoft Edge, Teams, and Windows are separate brand-only
-components. The new Chrome component is `74:164000`; it replaces only the
-Brands-page Regular instance. The existing shared Chrome masters
-(`33:19672` and `33:38771`) and their uses elsewhere remain unchanged. The old
-Solid Chrome instance was removed because no approved Solid brand source was
-provided.
+Every brand mark supports a one-color Solid version. Google Chrome, Microsoft
+Edge, Teams, and Windows were removed on 2026-11-20 because their owners
+publish no monochrome mark and ask that the colors not be changed. Their
+brand-only Figma components remain in the file, but are no longer on the
+Brands page or in `brand-assets/`.
 
 ## Solid brand marks
 
@@ -50,29 +48,18 @@ digest.
 Duotone and Duocolor reuse the Solid mark: brand marks are never split into
 primary and secondary colors.
 
-Google Chrome, Microsoft Edge, Teams, and Windows have no Solid version.
-Microsoft's guidelines limit one-color product icons to UI contexts and ask
-not to alter colors, and Google publishes no Chrome monochrome mark, so these
-four keep their original colors in every style.
-
 Third-party assets are stored under `brand-assets/`, outside `icons/` and the
 core package. `brand-assets/manifest.json` records each asset's owner, source,
 and SHA-256 digest, with a collection retrieval date and shared rights and
-attribution notes that apply to every entry. The collection contains 32 SVGs:
-28 social marks and four Google/Microsoft product marks.
+attribution notes that apply to every entry. The collection contains the 28
+social marks in Regular (`social/`) and Solid (`social-solid/`).
 
 ## Rights and attribution
 
-The user explicitly confirmed authorization to redistribute the social and
-Microsoft marks. This records that confirmation; it is not an independent
+The user explicitly confirmed authorization to redistribute the social marks. This records that confirmation; it is not an independent
 verification or a license from the owners. The repository's MIT license does
 not cover third-party marks. Copyright and trademark rights remain with their
 respective owners; follow each owner's current terms and brand guidelines.
 No affiliation or endorsement is implied.
-
-Official guidance:
-
-- [Microsoft Trademark and Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks)
-- [Google Brand Resource Center: products and services](https://about.google/brand-resource-center/products-and-services/)
 
 All third-party names and marks are the property of their respective owners.

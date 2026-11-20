@@ -9,30 +9,6 @@
   },
   "assets": [
     {
-      "path": "google/chrome.svg",
-      "owner": "Google LLC",
-      "source": "https://www.google.com/chrome/static/images/chrome-logo-m100.svg",
-      "sha256": "1357dd965397a99cbc937ddd2345a9897d527f7229c8b0f2aeebac97680cc66d"
-    },
-    {
-      "path": "microsoft/edge.svg",
-      "owner": "Microsoft Corporation",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/9/98/Microsoft_Edge_logo_%282019%29.svg",
-      "sha256": "228f22cc4bf1603374f4a51ccf824377adc04aa0123aed741f32cd5f0899ed81"
-    },
-    {
-      "path": "microsoft/teams.svg",
-      "owner": "Microsoft Corporation",
-      "source": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Teams-Icon-FY26?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=100",
-      "sha256": "6a33d49f19d1be2bcdf86921935a2171e5c18c3b11abe297ca03d5f4f302ba3a"
-    },
-    {
-      "path": "microsoft/windows.svg",
-      "owner": "Microsoft Corporation",
-      "source": "https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg",
-      "sha256": "0f6b74d8d8ede1ec0e454b3c6fcdfba65fbe989af9a49ad4ff0c498f4dc3afbb"
-    },
-    {
       "path": "social/angellist.svg",
       "owner": "AngelList",
       "source": {
