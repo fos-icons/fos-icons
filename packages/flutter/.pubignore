@@ -1,0 +1,7 @@
+/benchmark/
+/test/
+/tool/
+/.dart_tool/
+/.flutter-plugins-dependencies
+/build/
+/pubspec.lock

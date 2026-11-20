@@ -1,0 +1,9 @@
+name: fos_icons_benchmark
+publish_to: none
+environment:
+  sdk: ^3.12.0
+dependencies:
+  flutter:
+    sdk: flutter
+  fos_icons:
+    path: ..

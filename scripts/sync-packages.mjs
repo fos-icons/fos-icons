@@ -18,6 +18,8 @@ for (const name of frameworkPackages) {
   execFileSync(process.execPath, ['scripts/sync.mjs', '--source', root], { cwd, stdio: 'inherit' });
 }
 
+execFileSync('python3', ['packages/flutter/tool/generate.py'], { cwd: root, stdio: 'inherit' });
+
 const framer = path.join(root, 'plugins', 'framer');
 execFileSync(process.execPath, ['scripts/sync-icons.mjs', '--source', root, '--revision', revision], {
   cwd: framer,
