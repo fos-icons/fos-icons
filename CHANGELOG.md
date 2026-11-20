@@ -24,6 +24,10 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- Added 34 four-style icons from the Figma Scratchpad, including lightbulbs,
+  typography tools, hand gestures, and two recycling bins. The library now has
+  1,492 icons and 5,968 SVGs.
+
 - `bookmark-off`, `bookmark-block`, `bookmark-square`, and `book-bookmark` in
   all four styles, bringing the library to 1,458 icons and 5,832 SVGs.
 
@@ -131,6 +135,10 @@ Changes are recorded under Unreleased until a release is tagged.
   SHA-256 digests. They sit outside `icons/` and the MIT core; see `BRANDS.md`.
 
 ### Changed
+
+- Redrew 18 existing icons in four styles, including block arrows, batteries,
+  gaming pad, mobile phone, tablet, hard drive, graduation hat, and calculator.
+  The battery artwork uses the latest small-bar revision.
 
 - Rounder bookmarks: `bookmark`, `bookmark-add`, `bookmark-check`,
   `bookmark-minus`, `bookmark-x`, and `bookmarks` have rounded corners and a

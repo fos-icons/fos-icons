@@ -23,7 +23,7 @@ For each glyph, the script reads a distinguishing full `d` (path data)
 string from its canonical SVG. It requires none of the six markers in the
 baseline, only regular binoculars in the one-icon build, and all six in the
 all-icons build. The all-icons build is the positive control for the markers.
-It also counts the SVG root prefix shared by all 5,832 generated payloads,
+It also counts the SVG root prefix shared by all 5,968 generated payloads,
 so retaining any additional catalog glyph fails even if the sample checks pass.
 Any mismatch fails the benchmark. The three release builds are saved under
 `build/benchmark/` next to this README.
