@@ -10,12 +10,12 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1458,
+  "iconCount": 1492,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
-    "exportedOn": "2026-11-11",
-    "componentPairs": 1463,
+    "exportedOn": "2026-11-20",
+    "componentPairs": 1497,
     "excludedBrands": [
       "chrome-cast",
       "figma",
@@ -23,7 +23,7 @@
       "google-chrome",
       "youtube"
     ],
-    "duoExportedOn": "2026-11-11"
+    "duoExportedOn": "2026-11-20"
   },
   "icons": [
     {
@@ -170,6 +170,57 @@
         "filled": "b629f8c61f3c168d5ea3eeab62dc9ee7788e79027285ae9dcc406d7fb62b2aa4",
         "duocolor": "bc5c93ac0dbcd82573334390e06c1bac5cb6eef2d629e18db084dfc550f63ca0",
         "duotone": "c35f06e1d20964059f88f835024b999247c4ec24755b13d825f4a42ab95da16c"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "activity-square",
+      "category": "Health & medical",
+      "tags": [
+        "pulse",
+        "heartbeat",
+        "monitor",
+        "waveform"
+      ],
+      "aliases": [],
+      "componentSet": "187:172812",
+      "source": {
+        "regular": "187:172798",
+        "filled": "187:172801",
+        "duocolor": "187:172805",
+        "duotone": "187:172811"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/activity-square.svg",
+        "filled": "icons/filled/activity-square.svg",
+        "duocolor": "icons/duocolor/activity-square.svg",
+        "duotone": "icons/duotone/activity-square.svg"
+      },
+      "sha256": {
+        "regular": "dc07a99605f2fe92e724afced626581e3305fdff455be9d6499b83fba61d3e90",
+        "filled": "75f88318970abc49b81e0596f9544d6bab45367f33fd1572a10c08a04fce045d",
+        "duocolor": "a686a8f6d53fdd8b009eb9f37f9276ac6963331782517816aca08c79d2527498",
+        "duotone": "271621abdbda835b5059c1d623dfaa1539643a012ce27aee76628242820a7d15"
       },
       "duoAuthoring": {
         "version": 2,
@@ -2703,10 +2754,10 @@
         "duotone": "icons/duotone/arrow-block-down.svg"
       },
       "sha256": {
-        "regular": "a58f93824a4daeec588aa878881068f8c8847a1c3340ea514f1f9ccc753d3776",
-        "filled": "a08ddb953db3f5b5093f892b0aef0c14c5231d14a83f93607fe4133506e675a2",
-        "duocolor": "a3fa597e9474c59211af81821dca8d454fb9db067aedaec9b52dacb42bda3807",
-        "duotone": "a2a7277463a57d1082c87b5fa6fc5af8797a1925a36939c8f56c51ba21efb9d5"
+        "regular": "9a2f46cc0c1600848a356720247bdce36597cb7647a37fee8dcba0a81fc3a2dc",
+        "filled": "62ca6c37067305273f5c1a5cbb7e432bce997828106d974a1bcca805d3b5bddd",
+        "duocolor": "e8ac8ad5b11513558a082b585a421b37220fbdb8c4750a99114015269110cd5f",
+        "duotone": "fb749d8a46e094d808474ebd517a6b819e3f8364d9a0648410c017660ea7a666"
       },
       "duoAuthoring": {
         "version": 2,
@@ -2757,10 +2808,10 @@
         "duotone": "icons/duotone/arrow-block-left.svg"
       },
       "sha256": {
-        "regular": "7ead216af73411317b1e368ce5fa42e7d8b40d9751d15aaea4c58d1950828f7f",
-        "filled": "2ea7ccc104d3d60531bf68588d7b8f6d5a12dd60385f40a427e580f6b80a2a3b",
-        "duocolor": "71bb005fbb45492704ddb9f71ddeddce95a1b5aeaa76cb0c88391b5fc2261957",
-        "duotone": "7a99315445bdba1cb2372fe64b9831496da99e86a33ded79647059e8c2e0baec"
+        "regular": "06380093910cd5cc1d1aa093230693242f06a20f63bfd4fc15a501f0ba93f1ba",
+        "filled": "716a52ad32e16633adf0108125da90ced73c573a8170b4fe6040c5c6bbf44583",
+        "duocolor": "15cc62443943733d975dfb832aa7f8f202d2fcd98a6e4b18eb3f559b99d473c5",
+        "duotone": "f4e507f5c2eb12b9496209a10a42500a3067f7a7750590394c0c5f3143fcd87a"
       },
       "duoAuthoring": {
         "version": 2,
@@ -2811,10 +2862,10 @@
         "duotone": "icons/duotone/arrow-block-right.svg"
       },
       "sha256": {
-        "regular": "de21697c2640a77f094184b75f9b0d50b598bc964ce832113044ec48f51dac80",
-        "filled": "4fca91c5b7da24fde80930c8033d209b4e8a297b0bc67c12720c31ed25d013ce",
-        "duocolor": "d73d4aa6b56e66be235e622340a1d9168c6c009b19467f78cda2ae5177dab8e7",
-        "duotone": "6031b3f4e7c6bf244d9f07453663ed4e5d2dea2d5690bf78574d56e7c4f2c393"
+        "regular": "e05e173cdf18e70e16063c7a2f27dcfa467c3c766d27afa5dc0a2def87005b53",
+        "filled": "b6411660283f2c6ddde7b66cdc0fd636b13945c50f41607ff50fa60cf09ebf1c",
+        "duocolor": "9b12c9d2004ee66c08ad8c86dac10b9c5695bb02adceb43201e68efab207500f",
+        "duotone": "45a6de1e0ef6bcdeddfc9ba25ab734c9347e5e68b0793f33d06b0be658436f91"
       },
       "duoAuthoring": {
         "version": 2,
@@ -2865,10 +2916,10 @@
         "duotone": "icons/duotone/arrow-block-up.svg"
       },
       "sha256": {
-        "regular": "f096ccbd31e8623bd8d02fe1ce2f0ae15ac4e142733f8602b1de6818138595c3",
-        "filled": "c5839c837951d4b02ec0b31851f8491715e87cc6bd7a21116abd90279b6cf9c1",
-        "duocolor": "3436cef328cd8cfd640823d7eabb42a251b21fbd686d7bd19557ee25c94dad2d",
-        "duotone": "f05951cf84f418358c2b4a137befad22e63174e0d9efe5662fda2a8f22fdeb91"
+        "regular": "cf7f32e74eebc8bab0a8d0712b1cb6660e339d059b7983f6f60d33949de344f0",
+        "filled": "16d01d358a6d26c5633d031600beaba175bd191d94a0d93e2c14d6ab6e958d05",
+        "duocolor": "a54b3b869d50fa5113863152c2e34a5749580dcdf64daa7d20f35d88802e71f8",
+        "duotone": "37908af826aba251b8771873b3fef8acf44eabc30352ce0c02e3ba83b30a23b7"
       },
       "duoAuthoring": {
         "version": 2,
@@ -8017,6 +8068,59 @@
       }
     },
     {
+      "name": "barcode",
+      "category": "Data & commerce",
+      "tags": [
+        "retail",
+        "product",
+        "code",
+        "label",
+        "checkout",
+        "scan"
+      ],
+      "aliases": [],
+      "componentSet": "187:172685",
+      "source": {
+        "regular": "187:172667",
+        "filled": "187:172670",
+        "duocolor": "187:172677",
+        "duotone": "187:172684"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/barcode.svg",
+        "filled": "icons/filled/barcode.svg",
+        "duocolor": "icons/duocolor/barcode.svg",
+        "duotone": "icons/duotone/barcode.svg"
+      },
+      "sha256": {
+        "regular": "dac06cc1bd5b982a3905b691896e5417a77531f7d188f7de73225536f7d82f20",
+        "filled": "2254430b290861dab70b19bbee0900a4a49e7bf7452e2a0c5659350a3efd5162",
+        "duocolor": "b627de9ecbdb70d84dff548c66ce94224ef488be4a01c18dffd49bd7557ffa82",
+        "duotone": "68e4f08575316c13dc38f620cb8257756f7008435b8780fb3989873e8b3719d9"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "barn",
       "category": "Navigation",
       "tags": [
@@ -8208,21 +8312,21 @@
         "duotone": "icons/duotone/battery-charging.svg"
       },
       "sha256": {
-        "regular": "8712bdd9565ebf15a6ba5fc86145c6a7cd3672c33e0f95ea7d8a45a07664d5f1",
-        "filled": "d4d5fdd5a1bfc28df0875571283e3718e8cdbc82d661fea34e7521ed70780a31",
-        "duocolor": "85bdb09ee21e3e0d43f2b6f598b656835cdb7b56aaa6a49f99f0c41aa3d30341",
-        "duotone": "09a57b152d9ef28c5b4855d0291e0f5299d5168324c70fb8315ffafdb15950fa"
+        "regular": "13c645d8895b7d4d0910d3600d6067e3e2d80f4782f6c63953fffd279cc47298",
+        "filled": "39784a868ea41d6be5f9b803f8839b1e303cbf9998170be3b14f79130257d9bd",
+        "duocolor": "c6b24800b39c83ec130ca9e4806a7f29d9090f068e3b83bb71eb38f63de4e7fc",
+        "duotone": "8393a60314bb4114596ab47de3cb2a5e86a90f4bd17e5c18943dfb87d4b8f482"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
           "contours": 3,
-          "accents": 2,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 2,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -8262,17 +8366,17 @@
         "duotone": "icons/duotone/battery-empty.svg"
       },
       "sha256": {
-        "regular": "49f57ef80782743cda7a18618670995b58cd0fe074b37df61a15cb738d1c5399",
-        "filled": "ee9d425ae449d69e02eb308a5795e3adda3368c8d1dddcc53413f9b3e57c343f",
-        "duocolor": "73206ffa54a733c3f5720519fddb2202e8814153b20399462ea1e0714bb689af",
-        "duotone": "257c1c4cf0d9db550e247a7f3d584adb88471622b6e817a206cf7cbf20a150bb"
+        "regular": "6a4ca47b574f3bd361790290a2fd03c49b12cae792782307402f199a8980ae0a",
+        "filled": "b1516beb12c07328b17f4a73ccf5a8c0609dbccbbf96dbe1e69b24ec1fcd5525",
+        "duocolor": "7d35734ffad9bcec8c9f7d6ddc17dcaafc2006635b608f518c3ea85e5c737cf8",
+        "duotone": "149cf3f5db5e958036e4dba87a717895378a8c40bcd4a05fe52474f56b3596ec"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
           "contours": 2,
-          "accents": 1,
+          "accents": 0,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -8315,21 +8419,21 @@
         "duotone": "icons/duotone/battery-full.svg"
       },
       "sha256": {
-        "regular": "c1b9c4ed0089733ad6db3d8de06ecb1bde31e1740abbd255c9db2b893a67c6d8",
-        "filled": "21f48bda86fbc215874a940eefd89eb36948626c141de8a91a623b672acf25d4",
-        "duocolor": "037e0b20e1a7b5de5ebc5001c4a87c8f080b9309cd15e769fee9234680dcd9b0",
-        "duotone": "1a67513380a9bb38ed57d3fbf22a700b1efb48c613005a52d94e1c5e4f63e18e"
+        "regular": "c2444a0ffd2013bcb4cc6ccdc308e5ba681ec96b345b2ed2301ed54d8ced48ad",
+        "filled": "6210b04e102601c3fb132506f949e827d9b1c21b8fd9122f3e2e4970419b67fe",
+        "duocolor": "04dd85c9cf754e5b24db893eb4ef7208e9a31155fb323010903f8dff7fbf8a96",
+        "duotone": "3ec4cae931960add7eb848c5b5dd691a4ca0c836526e423f63a061cbf72ebedc"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 5,
-          "accents": 4,
+          "contours": 7,
+          "accents": 5,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 4,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -8368,21 +8472,21 @@
         "duotone": "icons/duotone/battery-low.svg"
       },
       "sha256": {
-        "regular": "ea4bd438c2f8be20eee9e8138d21b4f1c75d63c80027b43a5d128ce9b0c1fb03",
-        "filled": "13fbcae6dfc204501da2a8f80ee1773466e02f10e74b28794df7317777d4993c",
-        "duocolor": "2f88e2003f3fc038dba386dc1232b8fa39eb7c8b84b62e5a8517998a82534189",
-        "duotone": "96fa41a9c19dbeb13f8402dba48af99dc9187a3ba0e99929df73f0eebcf45f82"
+        "regular": "0d5f4759edd9a130fffe3aad39e30894bdc1f51f7a7515b4b1e6e9424577cad3",
+        "filled": "0e91fe982244cb95e72b89d5439cb962af6db2fa14c3c887ebcc41ec7096c638",
+        "duocolor": "0d0ceee9fd78c9f808d8b8ec04a925d45e0bc0eee0494d3a5fad7f5edfc75db6",
+        "duotone": "061a8fbc5aebb7d5e3f7269fd6b4b501d0a0660dbe42e2b3e10b3bfcdb7bcb28"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
           "contours": 3,
-          "accents": 2,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 2,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -8421,21 +8525,21 @@
         "duotone": "icons/duotone/battery-mid.svg"
       },
       "sha256": {
-        "regular": "f73fa243e5f4024f8a665f1958ec59e9e8936e8afbb2f662d0e5ffad0aaccdb8",
-        "filled": "3ccfd9da98504c9e0b4a8ce10c18733c3f70849f0fb5dac1498734a7eba062ff",
-        "duocolor": "54cc17042fe323b98ff687b2a1ae5d610945b954f42701af7638cc6445ea7bf3",
-        "duotone": "1f51552571bb6162d4cb09b78a2b3d951b12806ad01981309137e8d21bd22ef9"
+        "regular": "a9fbd285fc35570975b7d392ffcb8adef2a8b8388eefb71586e5392f6e1a6edd",
+        "filled": "8775333a5a79b976daf3962a84c9e9d1476519241c84648cec9de06d3888a1d2",
+        "duocolor": "7b53ad4ceaf9c2cd4faadf6e25aa417d5d20931384033e4376a6c1f7dd4500ec",
+        "duotone": "1d8d82c722737f3f4c6910f3c91f9a373f46204dafa44f5d83b3d4034e6323a3"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 4,
+          "contours": 5,
           "accents": 3,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 3,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -9192,6 +9296,58 @@
         },
         "duotone": {
           "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "biohazard",
+      "category": "Health & medical",
+      "tags": [
+        "hazard",
+        "warning",
+        "infection",
+        "laboratory",
+        "safety"
+      ],
+      "aliases": [],
+      "componentSet": "187:172794",
+      "source": {
+        "regular": "187:172774",
+        "filled": "187:172777",
+        "duocolor": "187:172783",
+        "duotone": "187:172793"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/biohazard.svg",
+        "filled": "icons/filled/biohazard.svg",
+        "duocolor": "icons/duocolor/biohazard.svg",
+        "duotone": "icons/duotone/biohazard.svg"
+      },
+      "sha256": {
+        "regular": "09c2e389980f7305d5d3141f4e227a6ed113867e322f9bc7e36216bf248def69",
+        "filled": "e32c108a2198a412a052f139ae1f5ce1edc389736fe5bb7fc25d142fe23aa852",
+        "duocolor": "92ed9d2831a299fdc6388aefbc8e67e42f79a82acf9a0cf133c6e9ae85c3bcc4",
+        "duotone": "6c89bb71d143326df97fba04c2b4abbcb392fc44cd980b62a855fce603582026"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -12247,21 +12403,21 @@
         "duotone": "icons/duotone/calculator.svg"
       },
       "sha256": {
-        "regular": "d2535abf2b9ff7b3f8fe344a0eefb158d03d06b746f7a925c2dff8164d3ac8c8",
-        "filled": "a2b3e8e1c0f62fe0dda93a830799dc7ca31fcb8ac2b666c5217571cf0eabf45b",
-        "duocolor": "dcb49bea81639073f766c5fbabc4949ac3f2f8a49b33cd9e8656c0b565e15714",
-        "duotone": "c19e6fa6648bd48558b83b28274e9aa15c74fc7ea91fd4472acddce0afbfa113"
+        "regular": "00e13ab965ca3d483de7c99371258839ed30655d17dd3de7b92474f8740d7f04",
+        "filled": "8fe0af3bb9fe073d5bb2b2c2d8a98f28ab8b1f139655d23687f2b0629b8c43f3",
+        "duocolor": "eaea31425c68067cb170ec913b580537d0b5c1a36412e69d4aadc7b16ea0a894",
+        "duotone": "26bc01dbf1d6b1fc53a0edf3316dd657edd4932e101e1e29d1bf7efd2ca49884"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 7,
-          "accents": 6,
+          "contours": 8,
+          "accents": 7,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 2,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -18783,6 +18939,58 @@
         },
         "duotone": {
           "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "clear-formatting",
+      "category": "Workspace",
+      "tags": [
+        "text",
+        "typography",
+        "remove",
+        "reset",
+        "remove styles"
+      ],
+      "aliases": [],
+      "componentSet": "187:172625",
+      "source": {
+        "regular": "187:172613",
+        "filled": "187:172616",
+        "duocolor": "187:172620",
+        "duotone": "187:172624"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/clear-formatting.svg",
+        "filled": "icons/filled/clear-formatting.svg",
+        "duocolor": "icons/duocolor/clear-formatting.svg",
+        "duotone": "icons/duotone/clear-formatting.svg"
+      },
+      "sha256": {
+        "regular": "460157ff30b544297776638aa9b682254653c46cf597c7f0e921844d0ea95517",
+        "filled": "458715a7dc29c4cb8b831c9478c1dc6291f446a6ac5bf920a8dcdf9e161a5bab",
+        "duocolor": "1b6a2a37db651bc6b3b363863e00bfee2cfaa87848dd637680d0cea409163a8c",
+        "duotone": "f668ccc6cda6a4f444b98dfec6f5a16461311121ab728b079eafe7816755fff6"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -30019,6 +30227,58 @@
       }
     },
     {
+      "name": "fan",
+      "category": "Media & devices",
+      "tags": [
+        "air",
+        "cooling",
+        "blower",
+        "propeller",
+        "ventilation"
+      ],
+      "aliases": [],
+      "componentSet": "187:172942",
+      "source": {
+        "regular": "187:172922",
+        "filled": "187:172925",
+        "duocolor": "187:172931",
+        "duotone": "187:172941"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/fan.svg",
+        "filled": "icons/filled/fan.svg",
+        "duocolor": "icons/duocolor/fan.svg",
+        "duotone": "icons/duotone/fan.svg"
+      },
+      "sha256": {
+        "regular": "0d0a272de9f7406031200a45f60ea0f6f3645d6d423f415f8376ae325f2673ef",
+        "filled": "b3628624412f6a3f28e9e1fc2e2cb69ed63c813f168c05fe29f5180042b9581e",
+        "duocolor": "7f91bec1c576afb74e20821b953369243412a06f2ba30021360275253b7d9202",
+        "duotone": "627083b0997559d793d45db9db959ddfe040d65f4e42ac097342d92d02313018"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "fast-backward",
       "category": "Media & devices",
       "tags": [
@@ -30782,6 +31042,58 @@
         "modifier": "delete",
         "position": "bottom-left",
         "fit": null
+      }
+    },
+    {
+      "name": "file-chart",
+      "category": "Files",
+      "tags": [
+        "document",
+        "analytics",
+        "report",
+        "graph",
+        "statistics"
+      ],
+      "aliases": [],
+      "componentSet": "187:172916",
+      "source": {
+        "regular": "187:172896",
+        "filled": "187:172899",
+        "duocolor": "187:172906",
+        "duotone": "187:172915"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/file-chart.svg",
+        "filled": "icons/filled/file-chart.svg",
+        "duocolor": "icons/duocolor/file-chart.svg",
+        "duotone": "icons/duotone/file-chart.svg"
+      },
+      "sha256": {
+        "regular": "ec19991d8df6afce552b16345fcfe8e6b834fb11ffbb3544c13933835871df7d",
+        "filled": "0e225933e650e71caed128afb09b621003089fa8f8be3a07be11b92c75aeb3c4",
+        "duocolor": "004e08f857f354dd71a22e5fcb1f2bb64ff26aee27f1ff004004a10ff8bc9902",
+        "duotone": "c454d05f59387590a20130a085b0d8f202647fa049440aae6fa484c89673f244"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
       }
     },
     {
@@ -36156,6 +36468,58 @@
       }
     },
     {
+      "name": "font-size",
+      "category": "Workspace",
+      "tags": [
+        "type",
+        "typography",
+        "text",
+        "scale",
+        "lettering"
+      ],
+      "aliases": [],
+      "componentSet": "187:172609",
+      "source": {
+        "regular": "187:172593",
+        "filled": "187:172596",
+        "duocolor": "187:172602",
+        "duotone": "187:172608"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/font-size.svg",
+        "filled": "icons/filled/font-size.svg",
+        "duocolor": "icons/duocolor/font-size.svg",
+        "duotone": "icons/duotone/font-size.svg"
+      },
+      "sha256": {
+        "regular": "52bb48285a94943cb981c87b896ecd72c61e9dbd6ffca757be63a264d161d2e2",
+        "filled": "c30a57cc63efe238c64e2f17c4a4557785f0f96df057bb5fc3f34b90c19668dd",
+        "duocolor": "437213648093c1b5ffc25b45873a30f5d04df05549c1b0152663a535a596ec1f",
+        "duotone": "48ff6aed312b146b161fe7988e2ba188258b4717a5353342c7928b5f0a8854e6"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "foot",
       "category": "Health & medical",
       "tags": [
@@ -36405,10 +36769,10 @@
         "duotone": "icons/duotone/gaming-pad.svg"
       },
       "sha256": {
-        "regular": "e16ef50c145c4dfd8891b83e8495803f7fa8c49dec270100cf3f4396d2018273",
-        "filled": "06214011b3110d6e85e061e6ad44cb9cf4fba9e63956def3a6220f36ba7f005f",
-        "duocolor": "6ef3662c57a8afcb8d5ece867de38ae2c82452edbec137f2979b31d5017d39cc",
-        "duotone": "fd5ef245e186a633f68ef1f83c462b227e1ca3f67bc43afc3c6aa1ad7577388a"
+        "regular": "9190ea2ed3b4346a878558db7038d2eacecd6ec28ff4d548edbc0c8f44f3196c",
+        "filled": "8ac5283f9f2784279424386aa22f3a84f76bcfb6e45447af4198c274ff9bca01",
+        "duocolor": "c8ad5deb8bd1580549e3344550d591df80f16ef7abe122f1bcd4b27310f21185",
+        "duotone": "e7698a926e3bc35c27a61115dc7bb3fd86622faa6cb3795fdb77f5e676ac53da"
       },
       "duoAuthoring": {
         "version": 2,
@@ -36419,7 +36783,7 @@
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 3,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -37108,10 +37472,10 @@
         "duotone": "icons/duotone/graduation-hat.svg"
       },
       "sha256": {
-        "regular": "309bb07a2e07b833b3c792ab6879edd8978eb4e4bef38674b5e66fc073958fe7",
-        "filled": "fa201b71796013942b6d7c02728b4f4ea04c55960b82a5eb2d595e02ec866c1f",
-        "duocolor": "438200125e4cdfed804e2167157ed35b77618ef6cfc98d105860f90818944455",
-        "duotone": "a2d538beda41f4c43893dacab7b5910228e5ff460f2b059a257ee8d540179b86"
+        "regular": "ae972e9ce29164ae84c8dd75399bf8bdfb304f0f6ecd1368e200df6051f4b8b0",
+        "filled": "b16fd44cde200797c1960175dedeb61c83890ec123d635c683f4ee788a53156a",
+        "duocolor": "9ca345a07f71499096dd01d1a620474523d8428ed6eae4e12478f5cfd6adf183",
+        "duotone": "882cfdd6c580a76682875462b66e65685f15dd57d108114d289da6b797e9c24c"
       },
       "duoAuthoring": {
         "version": 2,
@@ -37858,10 +38222,10 @@
         "duotone": "icons/duotone/hand.svg"
       },
       "sha256": {
-        "regular": "d935f1575a3950f241a81ae5d4ddd8da5e6977517bb58777b2fed832f583806c",
-        "filled": "f630cca68d84e2579da4545bafed5017f42eadff6284872e1c67a6148895ebec",
-        "duocolor": "edc27c99f404f04f0fab7fb9403be0b40369e72cabbdfc0957123c66adf63c59",
-        "duotone": "ed91303def5cfb273ca618da19db86b767526ecbb5811f5e475b0524aa40b95f"
+        "regular": "ff31c090f5100b08f0733dadcc3222defa5c65d2dd95c980ed621efec8b33f81",
+        "filled": "f196fe7dcb77defc9f136718604534ee5b16f3f2891438949ef9ccb022f902cc",
+        "duocolor": "717c96cb59bf04c1e4ac61812b06114e5a4aad9a4f643c7bd6bba40364d77e15",
+        "duotone": "165110a617d738279ce3fda7d0b5f5ca99b4c8da5858bfee21429125b9f95dca"
       },
       "duoAuthoring": {
         "version": 2,
@@ -37869,6 +38233,57 @@
         "duocolor": {
           "contours": 1,
           "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "hand-draw",
+      "category": "Health & medical",
+      "tags": [
+        "gesture",
+        "touch",
+        "press",
+        "finger"
+      ],
+      "aliases": [],
+      "componentSet": "187:173068",
+      "source": {
+        "regular": "187:173054",
+        "filled": "187:173057",
+        "duocolor": "187:173061",
+        "duotone": "187:173067"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/hand-draw.svg",
+        "filled": "icons/filled/hand-draw.svg",
+        "duocolor": "icons/duocolor/hand-draw.svg",
+        "duotone": "icons/duotone/hand-draw.svg"
+      },
+      "sha256": {
+        "regular": "dc608ff49e3c39f0db84401a9a2ca82c54d0e747e9ce1065d15dc733ee9cc449",
+        "filled": "e1c488b14c1dc19717b2c0157902e584df41b789cc0dd2a3c79bc497550637b3",
+        "duocolor": "7b8be720c8760d20c92c649296aa5a7d613cbe2f2ed428432f32b4edbdcc18dc",
+        "duotone": "6dee0a881f3852e6dadc95fa266b1ab023d5ab3ca7b01011a0ede920477187a3"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -37934,6 +38349,160 @@
       }
     },
     {
+      "name": "hand-off",
+      "category": "Health & medical",
+      "tags": [
+        "gesture",
+        "disabled",
+        "stop",
+        "no",
+        "touch"
+      ],
+      "aliases": [],
+      "componentSet": "187:173029",
+      "source": {
+        "regular": "187:173015",
+        "filled": "187:173018",
+        "duocolor": "187:173022",
+        "duotone": "187:173028"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/hand-off.svg",
+        "filled": "icons/filled/hand-off.svg",
+        "duocolor": "icons/duocolor/hand-off.svg",
+        "duotone": "icons/duotone/hand-off.svg"
+      },
+      "sha256": {
+        "regular": "1c3559f16c58ec4cccd2ca2d67148b1643ba6240eb3a6ea6af63c460aae3bc6d",
+        "filled": "bbc2085db8843b5637b5764885a6cb5df0e70e803998e217d55669062d58ff65",
+        "duocolor": "b46fffe274ce999359e6627dcb768850519e29cb41ee5c992bd3b3f26791ee80",
+        "duotone": "482b502a3b4da02b2526d9b109892306ad3f1a4ab62916d72471ec60ffd2d8fb"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "hand-wave",
+      "category": "Health & medical",
+      "tags": [
+        "gesture",
+        "hello",
+        "goodbye",
+        "greeting"
+      ],
+      "aliases": [],
+      "componentSet": "187:173050",
+      "source": {
+        "regular": "187:173034",
+        "filled": "187:173037",
+        "duocolor": "187:173042",
+        "duotone": "187:173049"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/hand-wave.svg",
+        "filled": "icons/filled/hand-wave.svg",
+        "duocolor": "icons/duocolor/hand-wave.svg",
+        "duotone": "icons/duotone/hand-wave.svg"
+      },
+      "sha256": {
+        "regular": "c5388c2ff681a4758b821833171aa77706aaf5f6d8d6c25c2aaf5d3c58022bcc",
+        "filled": "45ad4e34d9c8eb7871c6f445e779211ce1897ad097739651fcf9c8397f8d0168",
+        "duocolor": "4a3a87f246a3fa79228095a3c29a7bc6ddf05739b91a8770a9bf0d04eb7ab5eb",
+        "duotone": "87a5b8780d215b20cdb0c170706f57c0c95a0f83d25550313ebffe2310d26aeb"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "handshake",
+      "category": "Data & commerce",
+      "tags": [
+        "agreement",
+        "deal",
+        "partnership",
+        "greeting"
+      ],
+      "aliases": [],
+      "componentSet": "187:173101",
+      "source": {
+        "regular": "187:173077",
+        "filled": "187:173080",
+        "duocolor": "187:173089",
+        "duotone": "187:173100"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/handshake.svg",
+        "filled": "icons/filled/handshake.svg",
+        "duocolor": "icons/duocolor/handshake.svg",
+        "duotone": "icons/duotone/handshake.svg"
+      },
+      "sha256": {
+        "regular": "3fdec74291d8253284c2b35b4377342b7531b6bd9a16bed58346e0c00b9a6442",
+        "filled": "cea15e4154445cb69d53e0589776ec5921089dc801edcf54af8c35c3d96919ff",
+        "duocolor": "0d3e6f8f157e2a9ec07c6ac2716c5ade2612761f1aa0b6f43095ec3f6412df6a",
+        "duotone": "47cea39bf83986724a46fffc8be5644f50e09b7298598a082618fc8933b37682"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 7,
+          "accents": 6,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "hard-drive",
       "category": "Media & devices",
       "tags": [
@@ -37967,10 +38536,10 @@
         "duotone": "icons/duotone/hard-drive.svg"
       },
       "sha256": {
-        "regular": "c1b663092239c55b30d8be757832170cd0fc43f26745806884f5c07dddf6d86a",
-        "filled": "7f5387dc912635a0a5d53f60a56c2627e23f4b978dbd7f5ab4352012deba13c6",
-        "duocolor": "24c6bc5ee8a52d4e720a0b95a304e2565f5817c834d464faa072b47ab0936032",
-        "duotone": "a39b82d1b87c75fe7a1d216e5e38defecbe13d8504c3ae48646555f6b8b4280c"
+        "regular": "4a5909296dbb2cec17bb839d73b3bfed7905602856d8da1b99cda20681ae2014",
+        "filled": "5c6a218db0864b49b18d645cb299e9b8ec332a28ec96490a5ca8ae4e5876463c",
+        "duocolor": "519c7a1aabe6c020da6383a31c82ecf7a2e69dd362aa08a51cc00b70f0602031",
+        "duotone": "35156de41609937dbf8bc6a5b7b78a8d04c443b3cc65ea9587605ec014ebf490"
       },
       "duoAuthoring": {
         "version": 2,
@@ -37981,7 +38550,7 @@
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 2,
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -46356,6 +46925,58 @@
       }
     },
     {
+      "name": "library",
+      "category": "Workspace",
+      "tags": [
+        "books",
+        "reading",
+        "learning",
+        "education",
+        "collection"
+      ],
+      "aliases": [],
+      "componentSet": "187:172862",
+      "source": {
+        "regular": "187:172840",
+        "filled": "187:172843",
+        "duocolor": "187:172850",
+        "duotone": "187:172861"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/library.svg",
+        "filled": "icons/filled/library.svg",
+        "duocolor": "icons/duocolor/library.svg",
+        "duotone": "icons/duotone/library.svg"
+      },
+      "sha256": {
+        "regular": "b44ec7d752fc13885338e57719e74a0d31b4f5f512fc1dd9ccc1304512384c16",
+        "filled": "17ede0344efa108a45a5d036c094cb7e376d6f14d8f2bc068dbc3ad44ca795ac",
+        "duocolor": "c72b0903087846f41153c5a637ce9be062684c7ab4b26566ad9c91f271c18a86",
+        "duotone": "ff59adf101d5494408378580633aa86fc1778985ae6aba7391b55585c84ac6c5"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "life-buoy",
       "category": "Essentials",
       "tags": [
@@ -46444,10 +47065,62 @@
         "duotone": "icons/duotone/lightbulb.svg"
       },
       "sha256": {
-        "regular": "d114774bf99d8aeec67cf8273d3287f47a131cb45a54272c208e41b794102b09",
-        "filled": "f5321cea4ac99debd36e96b5c4809494b537fba80bd5c91ad67dcdf92491d730",
-        "duocolor": "bd2009aeff55172c2a355cffcb7a70869eea6933c0f3540ad48ee2fd680c84e5",
-        "duotone": "6210f8c730fbe90e4dcef1ae231842980a618996fe9bb56e93ca167d7d28e9b6"
+        "regular": "cbb417eab74238399461bfdd3aae6e680ce04c7d1752761778e0cda01239045a",
+        "filled": "fc64d4f4ecf7baf3a0eb696416afbc67f151666bf1e63150be245db6fdc1eb09",
+        "duocolor": "5e0b2731330091d49e3e82ef1f165da4a7c63c9b8b2bfd6d131f23f1e41b3e99",
+        "duotone": "ac52f6a0c79603bc53ff766e703420e577e2962c481c7f1d9175c2b655b71bbc"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "lightbulb-ai",
+      "category": "Media & devices",
+      "tags": [
+        "artificial",
+        "intelligence",
+        "idea",
+        "machine",
+        "learning"
+      ],
+      "aliases": [],
+      "componentSet": "187:172132",
+      "source": {
+        "regular": "187:172110",
+        "filled": "187:172113",
+        "duocolor": "187:172121",
+        "duotone": "187:172131"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lightbulb-ai.svg",
+        "filled": "icons/filled/lightbulb-ai.svg",
+        "duocolor": "icons/duocolor/lightbulb-ai.svg",
+        "duotone": "icons/duotone/lightbulb-ai.svg"
+      },
+      "sha256": {
+        "regular": "444e9f96487d2e68b9b4f8b85146cfe912a189312b2f615164ebdd369ae5a2fc",
+        "filled": "26416c841666c7a079ae453e1bd76acd65192137509dc63f36c984bdfe1f90ff",
+        "duocolor": "0806ec3240d5021cef81a5516e633d84f4ef13659d52c558b866966d6ac2412c",
+        "duotone": "34412a18b5de359c7242ac47e7b4c36e6f75ff05c6d105ad35655b623f9b083f"
       },
       "duoAuthoring": {
         "version": 2,
@@ -46455,6 +47128,414 @@
         "duocolor": {
           "contours": 6,
           "accents": 5,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "lightbulb-bolt",
+      "category": "Media & devices",
+      "tags": [
+        "power",
+        "energy",
+        "electricity",
+        "flash"
+      ],
+      "aliases": [],
+      "componentSet": "187:172027",
+      "source": {
+        "regular": "187:172009",
+        "filled": "187:172012",
+        "duocolor": "187:172018",
+        "duotone": "187:172026"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lightbulb-bolt.svg",
+        "filled": "icons/filled/lightbulb-bolt.svg",
+        "duocolor": "icons/duocolor/lightbulb-bolt.svg",
+        "duotone": "icons/duotone/lightbulb-bolt.svg"
+      },
+      "sha256": {
+        "regular": "3ce3e8e325adbd21f19a0b667ae20fa57f0dd2fbd00061cbe661e5096e580c08",
+        "filled": "cca4685de3d2310129e00c99896161201f599608bc5e205b70445f59755f709b",
+        "duocolor": "523ebc3e8603d3f008048f54410d470076c70fb04e905567fc085f691da84b62",
+        "duotone": "2c37bec5168ca3e97f230830a9bb1509e00078dde630d7d5f1831acc4faced5a"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "lightbulb-classic",
+      "category": "Media & devices",
+      "tags": [
+        "incandescent",
+        "lamp",
+        "vintage",
+        "idea"
+      ],
+      "aliases": [],
+      "componentSet": "187:172192",
+      "source": {
+        "regular": "187:172176",
+        "filled": "187:172179",
+        "duocolor": "187:172184",
+        "duotone": "187:172191"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lightbulb-classic.svg",
+        "filled": "icons/filled/lightbulb-classic.svg",
+        "duocolor": "icons/duocolor/lightbulb-classic.svg",
+        "duotone": "icons/duotone/lightbulb-classic.svg"
+      },
+      "sha256": {
+        "regular": "5c468392cf95a8911692a9e31b6ae6391028f50a48616b97ab7027c2733956a3",
+        "filled": "8bfea256edaccd8ed7340430e055af1e9f21b700063a0aa66cb268a66012603b",
+        "duocolor": "76a5e67a64767efebb17b3b18d6bafb50fb838494a0c0527dd51d37288724277",
+        "duotone": "f54804fea13c922c17d3c83ad5d68646202f4bc38a0f311ea642b8f295096e66"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "lightbulb-classic-on",
+      "category": "Media & devices",
+      "tags": [
+        "incandescent",
+        "lit",
+        "glow",
+        "vintage"
+      ],
+      "aliases": [],
+      "componentSet": "187:172255",
+      "source": {
+        "regular": "187:172227",
+        "filled": "187:172230",
+        "duocolor": "187:172241",
+        "duotone": "187:172254"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lightbulb-classic-on.svg",
+        "filled": "icons/filled/lightbulb-classic-on.svg",
+        "duocolor": "icons/duocolor/lightbulb-classic-on.svg",
+        "duotone": "icons/duotone/lightbulb-classic-on.svg"
+      },
+      "sha256": {
+        "regular": "a9a447be2c9dc46efec3197f6d8ee6861e8d7b09cf8f0ffc757a0a6de8569a95",
+        "filled": "01b3c2eca598987f664a5fde3d38f7166974d67255ad7f5438e80b7473b4db4c",
+        "duocolor": "5c3442e98fd7fbc53084559a3d7b458b9fcea854212b235138ffd74681a0d3cf",
+        "duotone": "262360d7964165f663533038257fab26c9b2e0210c04cd4ac3ea8039556de153"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 9,
+          "accents": 8,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "lightbulb-classic-sparkle",
+      "category": "Media & devices",
+      "tags": [
+        "incandescent",
+        "shine",
+        "idea",
+        "magic"
+      ],
+      "aliases": [],
+      "componentSet": "187:172216",
+      "source": {
+        "regular": "187:172198",
+        "filled": "187:172201",
+        "duocolor": "187:172207",
+        "duotone": "187:172215"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lightbulb-classic-sparkle.svg",
+        "filled": "icons/filled/lightbulb-classic-sparkle.svg",
+        "duocolor": "icons/duocolor/lightbulb-classic-sparkle.svg",
+        "duotone": "icons/duotone/lightbulb-classic-sparkle.svg"
+      },
+      "sha256": {
+        "regular": "16208411911cd6913c32eef53373be1b0fd72bdb1df6fb597d8b044d950ca159",
+        "filled": "03e7464ff0e93a5e035603efc415b1467b3e858274e609700a5892947ccc036d",
+        "duocolor": "7c8bfaebc18264121cefc93621a936dd4d1b1c4f17fa43b56680d813274ab75f",
+        "duotone": "f757f61b9caaa7f3cfe102786e4676dbb49ca028b48e29f4c1b3b7a5c1f3f7ae"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "lightbulb-filament",
+      "category": "Media & devices",
+      "tags": [
+        "tungsten",
+        "incandescent",
+        "lamp",
+        "inside"
+      ],
+      "aliases": [],
+      "componentSet": "187:172102",
+      "source": {
+        "regular": "187:172082",
+        "filled": "187:172085",
+        "duocolor": "187:172092",
+        "duotone": "187:172101"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lightbulb-filament.svg",
+        "filled": "icons/filled/lightbulb-filament.svg",
+        "duocolor": "icons/duocolor/lightbulb-filament.svg",
+        "duotone": "icons/duotone/lightbulb-filament.svg"
+      },
+      "sha256": {
+        "regular": "c5e943c85e69fb84ab54dd7d23f61482c3000b4e470344115918de0e14ed574e",
+        "filled": "2957eb959ad1523967296382237fb278522298c5315f99d82810389e2694e73c",
+        "duocolor": "73c0c47da7b2e404037558d7f0d4b8bc1da40c3a0fb2b31b867006bcef5d42c9",
+        "duotone": "5a5b5c02d62e372b530e76c935942f16f1f31bf48190bb01c99ab91b611cc3a8"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "lightbulb-off",
+      "category": "Media & devices",
+      "tags": [
+        "unlit",
+        "disabled",
+        "dark",
+        "lamp"
+      ],
+      "aliases": [],
+      "componentSet": "187:172051",
+      "source": {
+        "regular": "187:172033",
+        "filled": "187:172036",
+        "duocolor": "187:172042",
+        "duotone": "187:172050"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lightbulb-off.svg",
+        "filled": "icons/filled/lightbulb-off.svg",
+        "duocolor": "icons/duocolor/lightbulb-off.svg",
+        "duotone": "icons/duotone/lightbulb-off.svg"
+      },
+      "sha256": {
+        "regular": "be383ad2dc40fde77bf62b8e31a83d00e8fd993e7dddd922d72a1e2b9322dc51",
+        "filled": "8a310958d4cf30bdfc9903b439d12971d605235ae5e250975b743b71b707d406",
+        "duocolor": "e83d9701a69fb353ef15a4ab5a29f54c3452bc3c535ae5ceda3e9dffb0b24c53",
+        "duotone": "736d68d83dbc8b590423bd5bf67cdd03d3efebe4f22533b680b1287b7f1e1cf7"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "lightbulb-on",
+      "category": "Media & devices",
+      "tags": [
+        "glow",
+        "illumination",
+        "lit",
+        "lamp"
+      ],
+      "aliases": [],
+      "componentSet": "187:172171",
+      "source": {
+        "regular": "187:172143",
+        "filled": "187:172146",
+        "duocolor": "187:172157",
+        "duotone": "187:172170"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lightbulb-on.svg",
+        "filled": "icons/filled/lightbulb-on.svg",
+        "duocolor": "icons/duocolor/lightbulb-on.svg",
+        "duotone": "icons/duotone/lightbulb-on.svg"
+      },
+      "sha256": {
+        "regular": "648d508e400af68047923259e72594f8ac3a437fc0f5bd962c6962d0effcc9ba",
+        "filled": "7acd238b22c835f66fca965967c0597e415a9ba68365ca7f5eb797a35bd69789",
+        "duocolor": "b5f037d1fee49d422dbb339de3ece0972e3d2326020df340a060405b473d6174",
+        "duotone": "b64daec86b8bc61edaf3e063399f258d3189ce75ec10214c983604d0db88174d"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 9,
+          "accents": 8,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "lightbulb-sparkle",
+      "category": "Media & devices",
+      "tags": [
+        "shine",
+        "magic",
+        "idea",
+        "highlight"
+      ],
+      "aliases": [],
+      "componentSet": "187:172075",
+      "source": {
+        "regular": "187:172057",
+        "filled": "187:172060",
+        "duocolor": "187:172066",
+        "duotone": "187:172074"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/lightbulb-sparkle.svg",
+        "filled": "icons/filled/lightbulb-sparkle.svg",
+        "duocolor": "icons/duocolor/lightbulb-sparkle.svg",
+        "duotone": "icons/duotone/lightbulb-sparkle.svg"
+      },
+      "sha256": {
+        "regular": "2e0cb592005b7878d4189ea336fcec9e1dcbd6a0bf2e68e7c51d917d10ba7ce1",
+        "filled": "ff40d139548d7256ac5d8a1b896283acd27f087b95d96a51453495367894bbd7",
+        "duocolor": "3602108a6588542eca52c24373dd275e30f61a92be3a6ab37b15171972578261",
+        "duotone": "8b2e0e968e54d76b578803bdca61c4c24da5a41e7ff0f2708d1c52b96afeae26"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -46780,6 +47861,58 @@
         "duocolor": {
           "contours": 3,
           "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "list-ordered",
+      "category": "Workspace",
+      "tags": [
+        "numbered",
+        "steps",
+        "sequence",
+        "text",
+        "outline"
+      ],
+      "aliases": [],
+      "componentSet": "187:172647",
+      "source": {
+        "regular": "187:172631",
+        "filled": "187:172634",
+        "duocolor": "187:172640",
+        "duotone": "187:172646"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/list-ordered.svg",
+        "filled": "icons/filled/list-ordered.svg",
+        "duocolor": "icons/duocolor/list-ordered.svg",
+        "duotone": "icons/duotone/list-ordered.svg"
+      },
+      "sha256": {
+        "regular": "eff6920040af67fa97480d6c88009fb1a6ac8e620a9891407837e72c0ddf2784",
+        "filled": "292079fb9e53bbbb1e11acbedb7fd2bb0298ec20bf75e4f1cbd83ab4bab56e28",
+        "duocolor": "b2990e06c4363398f02bc87d1f2974513329dba5bd43c874cd795ff1463a664b",
+        "duotone": "a85e39f007334a20d3ffa37b2e05ca622c27cb713bc973c358fcf17075048176"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -51248,10 +52381,10 @@
         "duotone": "icons/duotone/mobile-phone.svg"
       },
       "sha256": {
-        "regular": "cf0cc883a410529e33d65d195f13d49f1c818cc62f5d5c5eff2682ea29002d2a",
-        "filled": "2b723f9c3ebf330edb00da9e6ceeaca9982eba680471d676d2fb394b8d95c9ed",
-        "duocolor": "963abb66601fe0a7f12fb0f2e7bf7ffca0af746d0561140e877463b6b244aa6d",
-        "duotone": "f5f0d4f20db97f0d8c4d0406da89b31d3b7fbb21ea7bf4a922b7151118bcce34"
+        "regular": "cf73fc7564bcb1771dfde63c55d5fc1684fde6ae143879a3f7160c105737c1ba",
+        "filled": "2844824622b2d3ee4b4c827f8640d8eb807035d81776d1ec3b131d043b0a16e7",
+        "duocolor": "540dfdd379e7569dff7ed9c89f39574c178744ec131e1e3d7e17f5bd06d12b0e",
+        "duotone": "8ea9596023282742655d9407e2d79851dececfadd28ff433f1feb8861057e7dd"
       },
       "duoAuthoring": {
         "version": 2,
@@ -53517,6 +54650,57 @@
         },
         "duotone": {
           "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "notebook",
+      "category": "Workspace",
+      "tags": [
+        "journal",
+        "notes",
+        "writing",
+        "stationery"
+      ],
+      "aliases": [],
+      "componentSet": "187:172889",
+      "source": {
+        "regular": "187:172869",
+        "filled": "187:172872",
+        "duocolor": "187:172879",
+        "duotone": "187:172888"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/notebook.svg",
+        "filled": "icons/filled/notebook.svg",
+        "duocolor": "icons/duocolor/notebook.svg",
+        "duotone": "icons/duotone/notebook.svg"
+      },
+      "sha256": {
+        "regular": "3f999d61b1a56dab31d3d5d7b932b76a8c411493249c8e67ff7fa80eda00fa24",
+        "filled": "086c103887828bead7af2525055f4f3a6a22d13ecad6285751006dec78989bd4",
+        "duocolor": "d8a708db32d1d2f67420a975db0feadbdfcdafce812534564e16f32380f2f174",
+        "duotone": "d160a6dd1de50c1b656dc4b5535317fe0f1ce62a0dcf0b0e69e9c8d5b4134f1a"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -60030,6 +61214,57 @@
       }
     },
     {
+      "name": "quote",
+      "category": "Workspace",
+      "tags": [
+        "quotation",
+        "speech",
+        "citation",
+        "punctuation"
+      ],
+      "aliases": [],
+      "componentSet": "187:172566",
+      "source": {
+        "regular": "187:172547",
+        "filled": "187:172550",
+        "duocolor": "187:172556",
+        "duotone": "187:172565"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/quote.svg",
+        "filled": "icons/filled/quote.svg",
+        "duocolor": "icons/duocolor/quote.svg",
+        "duotone": "icons/duotone/quote.svg"
+      },
+      "sha256": {
+        "regular": "9f3b0a3767b1080eb326a9af56e71fa7b1cdb4d26e2c4ee7941b1cf9ebacc908",
+        "filled": "f8a590e1efa6c0d62a698a4207d613e078998bfa599b01210cef7a1d53b3984e",
+        "duocolor": "7cb58263d71faecdd70e1ac58bb7f0173a2b0fdbb181bdeea81af0938fb8862a",
+        "duotone": "bea60f98b64acc4ea9ed50ffa106f4af8c072d2378aa34f58c57825253fcac63"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "quran",
       "category": "Religion & spirituality",
       "tags": [
@@ -60237,6 +61472,58 @@
         },
         "duotone": {
           "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "radiation",
+      "category": "Health & medical",
+      "tags": [
+        "hazard",
+        "warning",
+        "radioactive",
+        "safety",
+        "trefoil"
+      ],
+      "aliases": [],
+      "componentSet": "187:172768",
+      "source": {
+        "regular": "187:172748",
+        "filled": "187:172751",
+        "duocolor": "187:172757",
+        "duotone": "187:172767"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/radiation.svg",
+        "filled": "icons/filled/radiation.svg",
+        "duocolor": "icons/duocolor/radiation.svg",
+        "duotone": "icons/duotone/radiation.svg"
+      },
+      "sha256": {
+        "regular": "014ed4544b42829df10b6efada3e12fadbfd0b0181424f157c248220d7bc8309",
+        "filled": "1468b2f8a6aa18fc80af4737a195f98d652e866e1ec2e569238c718250fcc2ae",
+        "duocolor": "4e124a70aaa5c88bb0a3cc41fd311db623e04d5e4c4e88c9a0a981a42a4d214b",
+        "duotone": "125596cfaec8a145ee5b440ab95b5d7953597a8a0504f8c97187c622d5c19a54"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -62425,6 +63712,58 @@
       }
     },
     {
+      "name": "scan-barcode",
+      "category": "Data & commerce",
+      "tags": [
+        "retail",
+        "product",
+        "code",
+        "scanner",
+        "checkout"
+      ],
+      "aliases": [],
+      "componentSet": "187:172719",
+      "source": {
+        "regular": "187:172695",
+        "filled": "187:172698",
+        "duocolor": "187:172708",
+        "duotone": "187:172718"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/scan-barcode.svg",
+        "filled": "icons/filled/scan-barcode.svg",
+        "duocolor": "icons/duocolor/scan-barcode.svg",
+        "duotone": "icons/duotone/scan-barcode.svg"
+      },
+      "sha256": {
+        "regular": "036dd0a596060684d3cc7301ee86ab65e2ca3c5f36b909bf62366f9497fb4382",
+        "filled": "e4302086a33f3ef276821f5c259f20ec365957b07ec5abc5d526dc6dbdc2ae56",
+        "duocolor": "ab984333bb52806db2720b24a621e119a76a9bb84b7cd0899acf2973787b4aea",
+        "duotone": "da224fa4b2d6949496d58708f32367079fdbc05d9a6a3fd406d712aa119689b8"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 8,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "school",
       "category": "Navigation",
       "tags": [
@@ -62802,6 +64141,57 @@
         "duocolor": {
           "contours": 2,
           "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "search-circle",
+      "category": "Interfaces",
+      "tags": [
+        "find",
+        "lookup",
+        "magnifier",
+        "discovery"
+      ],
+      "aliases": [],
+      "componentSet": "187:172833",
+      "source": {
+        "regular": "187:172817",
+        "filled": "187:172820",
+        "duocolor": "187:172825",
+        "duotone": "187:172832"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/search-circle.svg",
+        "filled": "icons/filled/search-circle.svg",
+        "duocolor": "icons/duocolor/search-circle.svg",
+        "duotone": "icons/duotone/search-circle.svg"
+      },
+      "sha256": {
+        "regular": "47e379237f702999adf903d06b780125e615d81c0c9100ef7e97141c5c860376",
+        "filled": "f61bd89d1cb925ed5f2371ea9700c138932cb1376f4e3c56cd6b9f91815c5b9d",
+        "duocolor": "5e1073dfc432e77017767928551e64db8f654c4f2f54cb570e79e63c330e70ed",
+        "duotone": "ec696bfd383d7ccf6a51229eed15f59ea258fd83e86327c13eb426fba340fb3e"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -64570,6 +65960,58 @@
       }
     },
     {
+      "name": "shapes",
+      "category": "Shapes",
+      "tags": [
+        "contour",
+        "circle",
+        "square",
+        "triangle",
+        "drawing"
+      ],
+      "aliases": [],
+      "componentSet": "187:172742",
+      "source": {
+        "regular": "187:172724",
+        "filled": "187:172727",
+        "duocolor": "187:172732",
+        "duotone": "187:172741"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/shapes.svg",
+        "filled": "icons/filled/shapes.svg",
+        "duocolor": "icons/duocolor/shapes.svg",
+        "duotone": "icons/duotone/shapes.svg"
+      },
+      "sha256": {
+        "regular": "7c8c27a208a2b765f745dc0e9af2e31f7eb3ded6c849a4a03592f8607e62e735",
+        "filled": "6dc90418f1f868fa2bfda071fcea34354d878721821301347fe939adb5667b3a",
+        "duocolor": "074bf496334405b9810302b716fd3b6649508565aa4675993e1407990ef5dc8c",
+        "duotone": "2e477145e39b8fb402357303bedfff4558127617eed54797edf98c8daade70af"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "share",
       "category": "Essentials",
       "tags": [
@@ -65847,6 +67289,58 @@
         },
         "duotone": {
           "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "sigma",
+      "category": "Workspace",
+      "tags": [
+        "math",
+        "sum",
+        "summation",
+        "greek",
+        "formula"
+      ],
+      "aliases": [],
+      "componentSet": "187:172660",
+      "source": {
+        "regular": "187:172650",
+        "filled": "187:172653",
+        "duocolor": "187:172656",
+        "duotone": "187:172659"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sigma.svg",
+        "filled": "icons/filled/sigma.svg",
+        "duocolor": "icons/duocolor/sigma.svg",
+        "duotone": "icons/duotone/sigma.svg"
+      },
+      "sha256": {
+        "regular": "ca98eff767880872ec6691615bc1424f496ef467fc75e8175a46ba9a7f8bfae9",
+        "filled": "9862e4bcf338b4f340085f740c5e9702ad6d69829a861636dd8aff2b5c584eb9",
+        "duocolor": "93f9b60f738247aad4d39132016b9a66cb7a7fb66ad52abf0566947acdea2456",
+        "duotone": "510124c2a6ef11cf4932235976087be623e5adf99b735d57ba0da6fb4e0357f3"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 1,
+          "accents": 0,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -69760,6 +71254,58 @@
       }
     },
     {
+      "name": "superscript",
+      "category": "Workspace",
+      "tags": [
+        "text",
+        "typography",
+        "exponent",
+        "power",
+        "formatting"
+      ],
+      "aliases": [],
+      "componentSet": "187:172541",
+      "source": {
+        "regular": "187:172529",
+        "filled": "187:172532",
+        "duocolor": "187:172536",
+        "duotone": "187:172540"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/superscript.svg",
+        "filled": "icons/filled/superscript.svg",
+        "duocolor": "icons/duocolor/superscript.svg",
+        "duotone": "icons/duotone/superscript.svg"
+      },
+      "sha256": {
+        "regular": "1ab6af7c37ed514cf1217ac68c51035f370477c0e237e5cf73f750115aaa7d1a",
+        "filled": "8795599219f1de317b79e73ccd1df3588ca0e849d5950cddf8f5e9fa1a5814b2",
+        "duocolor": "88246c5033852befd66e0dcce11420ef65d171922ed5bc011b40c00377f7801c",
+        "duotone": "468252b7b17b14922b7011a4ad3bf5a97c62f8ff0700bf9c81729f5d5c5d20c7"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
       "name": "surfboard",
       "category": "Sports & fitness",
       "tags": [
@@ -70326,17 +71872,17 @@
         "duotone": "icons/duotone/tablet.svg"
       },
       "sha256": {
-        "regular": "46b60aed2bf89ae8997b9e23e3a603d6b496ea75ef320b15d375a253f299aa2f",
-        "filled": "5332a42e2b30ebfead55ab48fdb864c5c4aca497eb77e86e7dbddda41961e14c",
-        "duocolor": "44bc250aeafe61440dea26346b1382928ba26dadc5c2fe2001edac03c55ea726",
-        "duotone": "f46367dbb29b02ba4b2361253f43f5fca451aa384b48c076f9c56e423a87c261"
+        "regular": "2a59808b012e3d5df5c97ff31d31caea96f79aa1a51b8846376eec20e3e3e2f8",
+        "filled": "e509e791ad25b62b22e189b3335de53f59dddaf2faa9a29c1c6a164417638c8e",
+        "duocolor": "7486b474c8dce00aa58ef9c0a70eb34f6f8b31f57b927b1444fbdf3005ad0932",
+        "duotone": "ab832ecaa69c211fbd859516bc028a7ae8b525ffc17b3208309a033b8ec536f3"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
-          "contours": 2,
-          "accents": 1,
+          "contours": 3,
+          "accents": 2,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
@@ -71459,6 +73005,58 @@
         },
         "duotone": {
           "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "text-color",
+      "category": "Workspace",
+      "tags": [
+        "typography",
+        "font",
+        "ink",
+        "highlight",
+        "formatting"
+      ],
+      "aliases": [],
+      "componentSet": "187:172587",
+      "source": {
+        "regular": "187:172571",
+        "filled": "187:172574",
+        "duocolor": "187:172579",
+        "duotone": "187:172586"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/text-color.svg",
+        "filled": "icons/filled/text-color.svg",
+        "duocolor": "icons/duocolor/text-color.svg",
+        "duotone": "icons/duotone/text-color.svg"
+      },
+      "sha256": {
+        "regular": "67618184902e14c591dd2e141a153ec2b36276353eb345eb2409467db94ed7f7",
+        "filled": "ee42127ffa057868a2d5646240ec39f8843b056e93817c3768780f2e1be482b3",
+        "duocolor": "c3510bbd166cd1d42854ca7be472c35454722da3fe7cf515cee2b9e3cfb05f7c",
+        "duotone": "f2bcab178d13e7821f2d1b142d40431f34b638d78bf0a8967662273c4b0c824b"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -72732,6 +74330,111 @@
         },
         "duotone": {
           "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "trash-recycle",
+      "category": "Essentials",
+      "tags": [
+        "bin",
+        "recycling",
+        "waste",
+        "sustainability",
+        "disposal"
+      ],
+      "aliases": [],
+      "componentSet": "187:173154",
+      "source": {
+        "regular": "187:173113",
+        "filled": "187:173127",
+        "duocolor": "187:173139",
+        "duotone": "187:173153"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/trash-recycle.svg",
+        "filled": "icons/filled/trash-recycle.svg",
+        "duocolor": "icons/duocolor/trash-recycle.svg",
+        "duotone": "icons/duotone/trash-recycle.svg"
+      },
+      "sha256": {
+        "regular": "4bc1204ce02e48e24811b182f932dc9af0623ee3d3303fe88402eb7e997522e9",
+        "filled": "6ee3f6c4fa8228d13ea35a3025dc65192672278fcd3c2e064cd108de051f007e",
+        "duocolor": "d6e1b9dc6243113b717603a6ed7c3b91ef07bd6e263ed40c83e2bf6047908dbd",
+        "duotone": "3ca30b05720bae97a8a4ec6cac20326aa45d79c35ca57b87169aebd359e9e13f"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "trash-recycle-full",
+      "category": "Essentials",
+      "tags": [
+        "bin",
+        "recycling",
+        "waste",
+        "sustainability",
+        "filled",
+        "contents"
+      ],
+      "aliases": [],
+      "componentSet": "187:173210",
+      "source": {
+        "regular": "187:173167",
+        "filled": "187:173181",
+        "duocolor": "187:173194",
+        "duotone": "187:173209"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/trash-recycle-full.svg",
+        "filled": "icons/filled/trash-recycle-full.svg",
+        "duocolor": "icons/duocolor/trash-recycle-full.svg",
+        "duotone": "icons/duotone/trash-recycle-full.svg"
+      },
+      "sha256": {
+        "regular": "e3e521653f9bf8f2dc693af80d9d151a58cc2d02d25da1c3656fbb2ce3d19bf2",
+        "filled": "95d35a332ee10669e7a61609c5de2b7b9c50b2553cff7242ed5b532d5967ea9e",
+        "duocolor": "d5765107ab564cdf2417a8812c717ad03c1249700358c84d0680e466fff586d9",
+        "duotone": "2c0a0b6b140e36061dfc2fe9c94dc98b323c471b8e4254f67bafbc3e0f44f31e"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 5,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
@@ -76817,16 +78520,68 @@
         "duotone": "icons/duotone/wallet.svg"
       },
       "sha256": {
-        "regular": "a28df08078122ed6c88caad515a54e1788d92ce1ea69eafca8dd1232f2cccbe4",
-        "filled": "469174bf971260192830dbfb5086c27faee4f2934732a4e06543e5cc5de3e57c",
-        "duocolor": "48fa83e168d800465df3c4db5d3a63afd5871be9841b1dd83fe4ddb8b68a5e60",
-        "duotone": "f0f5cce6769ac0f0c58aaff92f5287fc3a789c039607eca91120aac1dc4d545f"
+        "regular": "e7c3d782ab34a1bbfb5b427c81bcd715af0c36a8265227e2046b64b455d7c7a3",
+        "filled": "60b22c1345b5e642ff9d0ac4a3e887884589cdebd5d6653f8ec33087c8d2f4b9",
+        "duocolor": "c2229eb750410e4eec7a65d1f8a71f42d1d7c80258fff478923fd479a65e36a9",
+        "duotone": "ee3893ce16f8f160e9271802fb7a6dad93c660a6894129518fb35bfcd016fe10"
       },
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": false,
         "duocolor": {
           "contours": 4,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "wallet-money",
+      "category": "Data & commerce",
+      "tags": [
+        "cash",
+        "bills",
+        "payment",
+        "finance",
+        "banknotes"
+      ],
+      "aliases": [],
+      "componentSet": "187:172996",
+      "source": {
+        "regular": "187:172974",
+        "filled": "187:172977",
+        "duocolor": "187:172985",
+        "duotone": "187:172995"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/wallet-money.svg",
+        "filled": "icons/filled/wallet-money.svg",
+        "duocolor": "icons/duocolor/wallet-money.svg",
+        "duotone": "icons/duotone/wallet-money.svg"
+      },
+      "sha256": {
+        "regular": "8dc89713d2315dc967d8f6bab791d8d2f3a83676641927bec27672a8682b15d3",
+        "filled": "0583ef1f59cf46df4aec6de56a8040ffcafbd1fff24c10b07a94bd4b8b41675c",
+        "duocolor": "387a72091b0d2e695142695ed1117dbd7f47e93fda3eb601c8d1421efa585bc8",
+        "duotone": "b711276a43fe04112ec8ead3fe3db9568605b90cbf297b7eeeb51bb819705e08"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
           "accents": 3,
           "policy": "dominant-contours-and-details"
         },
