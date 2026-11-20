@@ -9,8 +9,9 @@ The page displays: "All brand icons belong to their respective owners."
 Its catalog follows the main Regular catalog (`29:4984`): a 1440px frame,
 96px outer margins, the shared header and category styling, and 24px icons on
 a 60px-column, 56px-row grid without individual captions. The Brands page now
-contains 37 Regular icons and 33 Solid icons. Third-party marks appear only
-in the Regular row; Solid is limited to marks that already have a Solid source.
+contains 37 Regular icons and 33 Solid icons. The 28 social marks also
+appear in the Solid row as one-color marks from the kit's Gray variants; the
+Google and Microsoft product marks appear only in the Regular row.
 
 The first-party `fos-icons` mark is adapted from the supplied F Symbol,
 preserving its interlocking contours and proportions. Its native component set
