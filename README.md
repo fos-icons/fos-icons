@@ -11,13 +11,14 @@ consistently, from design to code. Icon count is not the success metric.
 
 ## Packages
 
-| Framework | npm package | Source |
+| Framework | Package | Source |
 | --- | --- | --- |
 | React | `@fos-icons/react` | [packages/react](packages/react/) |
 | Vue | `@fos-icons/vue` | [packages/vue](packages/vue/) |
 | Svelte | `@fos-icons/svelte` | [packages/svelte](packages/svelte/) |
 | SolidJS | `@fos-icons/solid` | [packages/solid](packages/solid/) |
 | Angular | `@fos-icons/angular` | [packages/angular](packages/angular/) |
+| Flutter | `fos_icons` (unpublished) | [packages/flutter](packages/flutter/) |
 
 ## Plugins
 

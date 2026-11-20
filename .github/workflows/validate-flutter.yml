@@ -1,0 +1,48 @@
+name: Validate Flutter package
+
+on:
+  push:
+    paths:
+      - 'packages/flutter/**'
+      - 'icons/**'
+      - 'manifest.json'
+      - 'LICENSE'
+      - '.github/workflows/validate-flutter.yml'
+  pull_request:
+    paths:
+      - 'packages/flutter/**'
+      - 'icons/**'
+      - 'manifest.json'
+      - 'LICENSE'
+      - '.github/workflows/validate-flutter.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  flutter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      FLUTTER_SUPPRESS_ANALYTICS: 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check generated catalog and license
+        run: |
+          python3 packages/flutter/tool/generate.py --check
+          cmp LICENSE packages/flutter/LICENSE
+      - name: Install Flutter 3.50.1
+        run: |
+          git clone --quiet --depth 1 --branch 3.50.1 https://github.com/flutter/flutter.git "$RUNNER_TEMP/flutter"
+          echo "$RUNNER_TEMP/flutter/bin" >> "$GITHUB_PATH"
+      - name: Analyze and compare with canonical SVGs
+        working-directory: packages/flutter
+        run: |
+          flutter pub get
+          flutter analyze lib test example
+          python3 tool/compare.py
+      - name: Check web release tree shaking
+        run: python3 packages/flutter/benchmark/benchmark.py

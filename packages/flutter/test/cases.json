@@ -1,0 +1,17 @@
+[
+  {"icon":"binoculars", "style":"regular"},
+  {"icon":"binoculars", "style":"filled"},
+  {"icon":"telescope", "style":"duocolor"},
+  {"icon":"telescope", "style":"duotone"},
+  {"icon":"credit-card-down", "style":"regular"},
+  {"icon":"calendar-check", "style":"duocolor"},
+  {"icon":"binoculars", "style":"regular", "primary":"#6A2185", "stroke":2},
+  {"icon":"telescope", "style":"duocolor", "primary":"#BB1133", "secondary":"#00834E", "stroke":2},
+  {"icon":"telescope", "style":"duotone", "primary":"#6A2185"},
+  {"icon":"credit-card-down", "style":"regular", "primary":"#BB1133", "modifier":"#00834E"},
+  {"icon":"calendar-check", "style":"duocolor", "primary":"#BB1133", "secondary":"#00834E", "modifier":"#6A2185"},
+  {"icon":"user-add", "style":"regular"},
+  {"icon":"users-plus", "style":"duotone"},
+  {"icon":"file-svg", "style":"filled", "primary":"#BB1133", "modifier":"#00834E"},
+  {"icon":"gift", "style":"duocolor"}
+]
