@@ -9,8 +9,9 @@ The page displays: "All brand icons belong to their respective owners."
 Its catalog follows the main Regular catalog (`29:4984`): a 1440px frame,
 96px outer margins, the shared header and category styling, and 24px icons on
 a 60px-column, 56px-row grid without individual captions. The Brands page now
-contains 37 Regular icons and five Solid icons. Third-party marks appear only
-in the Regular row; Solid is limited to marks that already have a Solid source.
+contains 37 Regular icons and 33 Solid icons. The 28 social marks also
+appear in the Solid row as one-color marks from the kit's Gray variants; the
+Google and Microsoft product marks appear only in the Regular row.
 
 The first-party `fos-icons` mark is adapted from the supplied F Symbol,
 preserving its interlocking contours and proportions. Its native component set
@@ -34,6 +35,25 @@ Brands-page Regular instance. The existing shared Chrome masters
 (`33:19672` and `33:38771`) and their uses elsewhere remain unchanged. The old
 Solid Chrome instance was removed because no approved Solid brand source was
 provided.
+
+## Solid brand marks
+
+Each of the 28 social marks also has a one-color Solid version in
+`brand-assets/social-solid/`. It is the `Style=Gray, State=Default` variant of
+the same Figma Social icon set (`71:151402`) — the kit's own monochrome mark for
+that platform — recolored to `currentColor`, with white details kept as
+transparent cutouts. The geometry is unchanged. Each manifest entry records it
+under `solid`, with the Gray component ID, the instance on the Figma Brands
+page's Solid row (its fill bound to the library ink color), and the SHA-256
+digest.
+
+Duotone and Duocolor reuse the Solid mark: brand marks are never split into
+primary and secondary colors.
+
+Google Chrome, Microsoft Edge, Teams, and Windows have no Solid version.
+Microsoft's guidelines limit one-color product icons to UI contexts and ask
+not to alter colors, and Google publishes no Chrome monochrome mark, so these
+four keep their original colors in every style.
 
 Third-party assets are stored under `brand-assets/`, outside `icons/` and the
 core package. `brand-assets/manifest.json` records each asset's owner, source,
