@@ -58,10 +58,18 @@ def import_duo(payload, root=ROOT):
                 "secondaryVariable": "VariableID:48:36637",
                 "palettes": payload["palette"], "custom": payload.get("custom"),
             }
-            if len(colors["palettes"]) != 12 or len({p["name"] for p in colors["palettes"]}) != 12:
-                raise ValueError("Expected twelve distinct Figma palettes")
-            (stage / "metadata").mkdir(exist_ok=True)
-            (stage / "metadata/colors.json").write_text(json.dumps(colors, indent=2) + "\n")
+            known = {
+                "Slate", "Blue", "Sky", "Cyan", "Teal", "Green", "Lime",
+                "Yellow", "Amber", "Orange", "Red", "Rose",
+            }
+            color_path = stage / "metadata/colors.json"
+            if color_path.exists():
+                known.update(p["name"] for p in json.loads(color_path.read_text())["palettes"])
+            names = {p["name"] for p in colors["palettes"]}
+            if len(names) != len(colors["palettes"]) or not known <= names:
+                raise ValueError("Expected distinct Figma palettes including all existing names")
+            color_path.parent.mkdir(exist_ok=True)
+            color_path.write_text(json.dumps(colors, indent=2) + "\n")
         original["styles"] = list(ALL_STYLES)
         original["source"]["duoExportedOn"] = payload["exportedOn"]
         for name, icon in icons.items():

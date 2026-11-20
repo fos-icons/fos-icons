@@ -67,8 +67,9 @@ For design guidance and the review checklist, see the
 The core source release is `v0.1.0`. It contains all four SVG styles, reusable
 modifiers, and a Python composition tool.
 
-The duo styles default to blue, with 12 editable Figma color presets:
-Slate, Blue, Sky, Cyan, Teal, Green, Lime, Yellow, Amber, Orange, Red, and Rose.
+The duo styles default to blue, with 16 editable Figma color presets:
+Slate, Blue, Sky, Cyan, Teal, Green, Indigo, Violet, Lime, Yellow, Amber,
+Orange, Red, Rose, Fuchsia, and Stone.
 Each preset has Light/Dark primary and secondary variables in **Fos / Theme**.
 Alias `color/duo-primary` and `color/duo-secondary` to a matching
 `color/palette/{name}` pair to change the library's duo colors. For arbitrary
@@ -202,7 +203,7 @@ Duo SVGs use `--fos-primary` and `--fos-secondary` with blue defaults.
 Set these CSS custom properties on an inline SVG or its ancestor; a CSS
 `color` rule can also override the root's primary default. Named duo presets
 add `--fos-modifier` for their solid glyph. `metadata/colors.json` records
-the twelve Light/Dark Figma palette pairs. Standalone SVGs default to Light;
+the 16 Light/Dark Figma palette pairs. Standalone SVGs default to Light;
 use the composer with `--theme dark` for dark-theme exports.
 
 ## Compose an SVG with a modifier
@@ -363,7 +364,7 @@ deliberately before exporting; unmanifested files are not silently deleted.
 For a duo-only refresh, run `scripts/export_duo_figma.js` and call
 `exportFosDuo()`, then import its snapshot with
 `python3 scripts/import_duo.py /path/to/duo-export.json`. This stages and validates
-the complete expansion, refreshes the twelve live palette pairs, and refuses
+the complete expansion, refreshes the live palette pairs, and refuses
 to rewrite Regular/Filled files or their original source IDs.
 
 For modifier updates, run `scripts/export_modifiers_figma.js` in the same live

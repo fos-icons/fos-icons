@@ -83,6 +83,32 @@
       "secondary": "VariableID:48:43879"
     },
     {
+      "name": "Indigo",
+      "light": {
+        "primary": "#4338CA",
+        "secondary": "#6366D9"
+      },
+      "dark": {
+        "primary": "#A5B4FC",
+        "secondary": "#818CF8"
+      },
+      "primary": "VariableID:197:177651",
+      "secondary": "VariableID:197:177652"
+    },
+    {
+      "name": "Violet",
+      "light": {
+        "primary": "#6D28D9",
+        "secondary": "#8B5BD6"
+      },
+      "dark": {
+        "primary": "#C4B5FD",
+        "secondary": "#A78BFA"
+      },
+      "primary": "VariableID:197:177653",
+      "secondary": "VariableID:197:177654"
+    },
+    {
       "name": "Lime",
       "light": {
         "primary": "#4D7C0F",
@@ -159,6 +185,32 @@
       },
       "primary": "VariableID:48:43890",
       "secondary": "VariableID:48:43891"
+    },
+    {
+      "name": "Fuchsia",
+      "light": {
+        "primary": "#A21CAF",
+        "secondary": "#C34FC5"
+      },
+      "dark": {
+        "primary": "#F0ABFC",
+        "secondary": "#E879F9"
+      },
+      "primary": "VariableID:197:177655",
+      "secondary": "VariableID:197:177656"
+    },
+    {
+      "name": "Stone",
+      "light": {
+        "primary": "#57534E",
+        "secondary": "#78716C"
+      },
+      "dark": {
+        "primary": "#D6D3D1",
+        "secondary": "#A8A29E"
+      },
+      "primary": "VariableID:197:177657",
+      "secondary": "VariableID:197:177658"
     }
   ],
   "custom": {

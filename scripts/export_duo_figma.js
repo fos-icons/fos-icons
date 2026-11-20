@@ -1,7 +1,8 @@
 // Run in the source file's plugin context, then save exportFosDuo() as JSON.
 async function exportFosDuo() {
   const core = await figma.getNodeByIdAsync("45:36965");
-  const state = JSON.parse((await figma.getNodeByIdAsync("48:36638")).getPluginData("duoProof"));
+  const duoPrimary = "VariableID:48:36636";
+  const duoSecondary = "VariableID:48:36637";
   const presetState = JSON.parse((await figma.getNodeByIdAsync("49:47102")).getPluginData("namedPresetMigration"));
   const presetNames = new Set(presetState.records.map(r => r.name));
   const sets = core.findAll(n => n.type === "COMPONENT_SET" && n.getPluginData("duoExpansion"));
@@ -57,8 +58,8 @@ async function exportFosDuo() {
             node[field] = node[field].map(paint => {
               if (paint.type !== "SOLID" || paint.visible === false || paint.opacity === 0) return paint;
               const variable = paint.boundVariables?.color?.id;
-              const role = variable === state.primary ? "primary" :
-                variable === state.secondary ? "secondary" : null;
+              const role = variable === duoPrimary ? "primary" :
+                variable === duoSecondary ? "secondary" : null;
               if (!role) throw new Error(`Unrecognized ${set.name}/${style} paint: ${variable}`);
               const channels = roles[role].slice(1).match(/../g).map(x => parseInt(x, 16) / 255);
               const { boundVariables, ...literal } = paint;
@@ -72,27 +73,50 @@ async function exportFosDuo() {
     const svg = await sheet.exportAsync({
       format: "SVG_STRING", svgIdAttribute: true, svgSimplifyStroke: false,
     });
-    const collection = await figma.variables.getVariableCollectionByIdAsync("VariableCollectionId:1:1427");
-    const palette = [];
-    for (const preset of state.palette) {
-      const current = { ...preset };
-      for (const [theme, mode] of [["light", "1:0"], ["dark", "1:1"]]) {
-        sheet.setExplicitVariableModeForCollection(collection, mode);
-        current[theme] = {};
-        for (const role of ["primary", "secondary"]) {
-          const value = (await figma.variables.getVariableByIdAsync(preset[role])).resolveForConsumer(sheet).value;
-          current[theme][role] = "#" + ["r", "g", "b"].map(
-            channel => Math.round(value[channel] * 255).toString(16).padStart(2, "0"),
-          ).join("").toUpperCase();
-        }
-      }
-      palette.push(current);
-    }
+    const { palette, custom } = await exportFosPalettes();
     return {
-      records, svg, paintRoles: roles, palette, custom: state.custom,
+      records, svg, paintRoles: roles, palette, custom,
       exportedOn: new Date().toISOString().slice(0, 10),
     };
   } finally {
     section.remove();
   }
+}
+
+// Export the palette variables independently of the bulk artwork export.
+async function exportFosPalettes() {
+  const names = [
+    "Slate", "Blue", "Sky", "Cyan", "Teal", "Green", "Indigo", "Violet",
+    "Lime", "Yellow", "Amber", "Orange", "Red", "Rose", "Fuchsia", "Stone",
+  ];
+  const collection = await figma.variables.getVariableCollectionByIdAsync("VariableCollectionId:1:1427");
+  const variables = new Map(
+    (await figma.variables.getLocalVariablesAsync("COLOR"))
+      .filter(variable => variable.variableCollectionId === collection.id)
+      .map(variable => [variable.name, variable]),
+  );
+  const toHex = value => {
+    if (!value || !("r" in value)) throw new Error("Palette color must be an explicit RGB value");
+    return "#" + ["r", "g", "b"].map(
+      channel => Math.round(value[channel] * 255).toString(16).padStart(2, "0"),
+    ).join("").toUpperCase();
+  };
+  const palette = names.map(name => {
+    const row = { name, light: {}, dark: {} };
+    for (const role of ["primary", "secondary"]) {
+      const tokenName = `color/palette/${name.toLowerCase()}/${role}`;
+      const variable = variables.get(tokenName);
+      if (!variable) throw new Error(`Missing palette variable: ${tokenName}`);
+      row[role] = variable.id;
+      row.light[role] = toHex(variable.valuesByMode["1:0"]);
+      row.dark[role] = toHex(variable.valuesByMode["1:1"]);
+    }
+    return row;
+  });
+  const custom = {
+    primary: variables.get("color/custom/primary")?.id,
+    secondary: variables.get("color/custom/secondary")?.id,
+  };
+  if (!custom.primary || !custom.secondary) throw new Error("Missing custom palette variables");
+  return { palette, custom };
 }
