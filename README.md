@@ -16,6 +16,7 @@ consistently, from design to code. Icon count is not the success metric.
 | React | `@fos-icons/react` | [packages/react](packages/react/) |
 | Vue | `@fos-icons/vue` | [packages/vue](packages/vue/) |
 | Svelte | `@fos-icons/svelte` | [packages/svelte](packages/svelte/) |
+| SolidJS | `@fos-icons/solid` | [packages/solid](packages/solid/) |
 | Angular | `@fos-icons/angular` | [packages/angular](packages/angular/) |
 
 ## Plugins
