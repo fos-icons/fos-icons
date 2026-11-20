@@ -35,170 +35,590 @@
     {
       "path": "social/angellist.svg",
       "owner": "AngelList",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151666" },
-      "sha256": "b34b50d164f53ee05b89c61b2d99e22ca53f6edf48066dca475a472c70318c93"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151666"
+      },
+      "sha256": "b34b50d164f53ee05b89c61b2d99e22ca53f6edf48066dca475a472c70318c93",
+      "solid": {
+        "path": "social-solid/angellist.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151668",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "55090119b7c3090a4a10e2de65e41d7cf16a0fa91830bfd97bb0c228f9d498ff",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/apple.svg",
       "owner": "Apple Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151424" },
-      "sha256": "5b1fac0ec7dea09cbeb4083daaecdb020066205146247c4624dffab1a79dbda4"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151424"
+      },
+      "sha256": "5b1fac0ec7dea09cbeb4083daaecdb020066205146247c4624dffab1a79dbda4",
+      "solid": {
+        "path": "social-solid/apple.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151536",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "fc52cab0b036aa861544ef8887a7a1f447d9ac1f324b89e9305dfaa1727058bf",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/clubhouse.svg",
       "owner": "Clubhouse",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151464" },
-      "sha256": "69fedbd09fe58fade0eb23983d319369491b1e5320bce083ae6b0f7b0a44b5ff"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151464"
+      },
+      "sha256": "69fedbd09fe58fade0eb23983d319369491b1e5320bce083ae6b0f7b0a44b5ff",
+      "solid": {
+        "path": "social-solid/clubhouse.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151640",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "329a422b62ea58b0fdb28443668be41274d33f6bc4cf234ece88083c6349805f",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/discord.svg",
       "owner": "Discord",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151452" },
-      "sha256": "2647295c3e0a0ab1486f24aacb8420557960391bdd4fa0620fb98407bee7d864"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151452"
+      },
+      "sha256": "2647295c3e0a0ab1486f24aacb8420557960391bdd4fa0620fb98407bee7d864",
+      "solid": {
+        "path": "social-solid/discord.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151604",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "e89234b9a2ec221c9ffbe72ac00126910035e8e1c8c31dad27596ffd60716a33",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/dribbble.svg",
       "owner": "Dribbble",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151443" },
-      "sha256": "260c5bbacf5817155b933a489c80149973c8f84dbd4bd625eec2a65bb5cc61d8"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151443"
+      },
+      "sha256": "260c5bbacf5817155b933a489c80149973c8f84dbd4bd625eec2a65bb5cc61d8",
+      "solid": {
+        "path": "social-solid/dribbble.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151584",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "2f15fd10861aa9af953d9e3c4a4fa50a87a9cb6c44b3e4300e6d427405786de7",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/facebook.svg",
       "owner": "Meta Platforms, Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151403" },
-      "sha256": "fae74a7dd880356b717485692dcd81db7f79f814a661bdd5ff1d3588b80465e5"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151403"
+      },
+      "sha256": "fae74a7dd880356b717485692dcd81db7f79f814a661bdd5ff1d3588b80465e5",
+      "solid": {
+        "path": "social-solid/facebook.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151468",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "1786e8d8d82d70c3e7391c516b82497732a05a6e76c0800f15c879bf2c933940",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/github.svg",
       "owner": "GitHub, Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151660" },
-      "sha256": "712b110103d5ae3869203fbf112178e62ec85168e32cbb8eb66b3fc241f96e80"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151660"
+      },
+      "sha256": "712b110103d5ae3869203fbf112178e62ec85168e32cbb8eb66b3fc241f96e80",
+      "solid": {
+        "path": "social-solid/github.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151656",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "1c0533ec20f8a93e62da7162cadd0f9c69a93454fbbd278734aeea8718ba3553",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/google.svg",
       "owner": "Google LLC",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151414" },
-      "sha256": "1e0cd6692642e15199c5b5b4635e4219c01295bcfdc7c7c0a7c56580527f2d2d"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151414"
+      },
+      "sha256": "1e0cd6692642e15199c5b5b4635e4219c01295bcfdc7c7c0a7c56580527f2d2d",
+      "solid": {
+        "path": "social-solid/google.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151512",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "87ff6f136631ac43beede52ea21cde388d2d18a5f2dc7219d8453d5562f5d45a",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/instagram.svg",
       "owner": "Meta Platforms, Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151410" },
-      "sha256": "677bdd736d5f8439f8a42cc8091c2da8f316d65e1acc74bff8118c97dfb30c84"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151410"
+      },
+      "sha256": "677bdd736d5f8439f8a42cc8091c2da8f316d65e1acc74bff8118c97dfb30c84",
+      "solid": {
+        "path": "social-solid/instagram.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151492",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "7871587e017919179052a3cc88c9fef4b23471d7a1f6454cfb8b9c9e006f0e1e",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/layers.svg",
       "owner": "Layers",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151676" },
-      "sha256": "25cb7717e7a4bb4f81e39a732fa7a8a30ef7358398fb47b03242df5d80220e75"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151676"
+      },
+      "sha256": "25cb7717e7a4bb4f81e39a732fa7a8a30ef7358398fb47b03242df5d80220e75",
+      "solid": {
+        "path": "social-solid/layers.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151706",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "ac0f2c347c7760805f63bec0af1b86ae5354aec158cac01d358a386f6c1f52d9",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/linkedin.svg",
       "owner": "LinkedIn Corporation",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151412" },
-      "sha256": "d666efc50a00b46baadec4800683707a48e06206a7bf5cef644ad23c845d2de8"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151412"
+      },
+      "sha256": "d666efc50a00b46baadec4800683707a48e06206a7bf5cef644ad23c845d2de8",
+      "solid": {
+        "path": "social-solid/linkedin.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151500",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "fcd9ae09bdcf050885e1093f58e3287eab68f00105bd6964e331d94152f9fb14",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/notion.svg",
       "owner": "Notion Labs, Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151701" },
-      "sha256": "2bbac1af3a96080adfb0020438d307cf16706e721ca264b23f95895b568afea6"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151701"
+      },
+      "sha256": "2bbac1af3a96080adfb0020438d307cf16706e721ca264b23f95895b568afea6",
+      "solid": {
+        "path": "social-solid/notion.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151742",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "0caa1f5602c2f0380bc9c8da4d5c3865f4741f7612162a698fac6a344702425e",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/paypal.svg",
       "owner": "PayPal, Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151694" },
-      "sha256": "39400cbf15dd9c21f07c77835c5470c91c6f0943c5239c8e2236c350d3c98c45"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151694"
+      },
+      "sha256": "39400cbf15dd9c21f07c77835c5470c91c6f0943c5239c8e2236c350d3c98c45",
+      "solid": {
+        "path": "social-solid/paypal.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151730",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "2133bcf2614bec0f7b91af84d7bb5e29df4eefb857f05f372730a4c3aa4cba53",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/pinterest.svg",
       "owner": "Pinterest, Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151429" },
-      "sha256": "0856c202283d5626b79f206de32cc78cd77b86ee0f3e6aa5113e6a94557d603b"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151429"
+      },
+      "sha256": "0856c202283d5626b79f206de32cc78cd77b86ee0f3e6aa5113e6a94557d603b",
+      "solid": {
+        "path": "social-solid/pinterest.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151552",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "02c1c1feedc7b5661fe01c5da645b16ca096e6ca231b442c37101e34848c0df9",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/reddit.svg",
       "owner": "Reddit, Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151446" },
-      "sha256": "b4258822afac0e30c924a737f9278c011141b0a3e09167c177e280cb77eb760c"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151446"
+      },
+      "sha256": "b4258822afac0e30c924a737f9278c011141b0a3e09167c177e280cb77eb760c",
+      "solid": {
+        "path": "social-solid/reddit.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151592",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "a9c17b0384c6e978d9ee610c9b32ef60de12f15691b72a0523aacb71dd581fe8",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/signal.svg",
       "owner": "Signal Messenger, LLC",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151466" },
-      "sha256": "ac67b1cbe20652b59ea26c51e7915ae9e49a6e00251f8775772b0bab90c39b3d"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151466"
+      },
+      "sha256": "ac67b1cbe20652b59ea26c51e7915ae9e49a6e00251f8775772b0bab90c39b3d",
+      "solid": {
+        "path": "social-solid/signal.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151648",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "72910c342b2976f466984f97253616e4791e79fa7e95dba537c6909945485eb6",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/slack.svg",
       "owner": "Salesforce, Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151683" },
-      "sha256": "55c16c9777aa77c8d25be58466b1d003dd7a081771694c251a7c37d3398e3978"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151683"
+      },
+      "sha256": "55c16c9777aa77c8d25be58466b1d003dd7a081771694c251a7c37d3398e3978",
+      "solid": {
+        "path": "social-solid/slack.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151718",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "410bb149a2e3b375f2a403c0e9d109b8120307b6c1bdcef46cdcbba96750177f",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/snapchat.svg",
       "owner": "Snap Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151426" },
-      "sha256": "700c610a9e37bb787eaf0f0176674f6630248f3072418636e5339fcac3bccc4f"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151426"
+      },
+      "sha256": "700c610a9e37bb787eaf0f0176674f6630248f3072418636e5339fcac3bccc4f",
+      "solid": {
+        "path": "social-solid/snapchat.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151544",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "1925dacf78d06beecf55727d57b155d6c3dfb6689611a1c72f7856b1f356a691",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/spotify.svg",
       "owner": "Spotify AB",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151688" },
-      "sha256": "f1146bf711ccb93ee8b899caae37866f3b3ef6b76279980c7b49014b82182a9b"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151688"
+      },
+      "sha256": "f1146bf711ccb93ee8b899caae37866f3b3ef6b76279980c7b49014b82182a9b",
+      "solid": {
+        "path": "social-solid/spotify.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151722",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "c77cb5a3357cfdcf383f99ba85d49b8c0eed0a055c1eef157a2a005960d42bf2",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/stripe.svg",
       "owner": "Stripe, Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151691" },
-      "sha256": "34d6ab306fff71c7f9b3ca49ccce3a1e9374ae819f7b48c81699b2c2d87fe9d7"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151691"
+      },
+      "sha256": "34d6ab306fff71c7f9b3ca49ccce3a1e9374ae819f7b48c81699b2c2d87fe9d7",
+      "solid": {
+        "path": "social-solid/stripe.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151726",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "f91099436a1fe04d66bb761e0da99ef1285409904944d896af87b8b259e6bf79",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/telegram.svg",
       "owner": "Telegram Messenger LLP",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151461" },
-      "sha256": "1dc7a5ed572349222dfac51deb12b56d103672e11b0da9714c5ccc52cda3f621"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151461"
+      },
+      "sha256": "1dc7a5ed572349222dfac51deb12b56d103672e11b0da9714c5ccc52cda3f621",
+      "solid": {
+        "path": "social-solid/telegram.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151632",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "2f7993ae32ece1ea606d0c6531232a320861127c06ea6a96735c19e8073cfbf0",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/tiktok.svg",
       "owner": "ByteDance Ltd.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151455" },
-      "sha256": "114cea9d6bdc1171b451453db03fad1b3c64e024a43bf795b504fc805f863250"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151455"
+      },
+      "sha256": "114cea9d6bdc1171b451453db03fad1b3c64e024a43bf795b504fc805f863250",
+      "solid": {
+        "path": "social-solid/tiktok.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151616",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "78f81e65793ca0e5ff7e59f8793220dcaffdce8fc0253594c71660f38c462617",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/tumblr.svg",
       "owner": "Automattic Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151459" },
-      "sha256": "f407da5c9cbb2e8b7c4b6c03c0586600e217434a5c91a59984884a33c777956a"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151459"
+      },
+      "sha256": "f407da5c9cbb2e8b7c4b6c03c0586600e217434a5c91a59984884a33c777956a",
+      "solid": {
+        "path": "social-solid/tumblr.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151624",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "19c8112898c72b0153c94552b3e7b8593366b87544728cd10e0b74c07dc507e2",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/twitch.svg",
       "owner": "Twitch Interactive, Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151680" },
-      "sha256": "1c2ffc45fd94c7acf4271c33d370c1fd8f07d6e02231a5919fc01da1e2152e73"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151680"
+      },
+      "sha256": "1c2ffc45fd94c7acf4271c33d370c1fd8f07d6e02231a5919fc01da1e2152e73",
+      "solid": {
+        "path": "social-solid/twitch.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151714",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "0b818ebc22d7a43c5436316d3982e89bb9836f6fae4b2e07a2ea105ad06534f4",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/webflow.svg",
       "owner": "Webflow, Inc.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151704" },
-      "sha256": "1d7ef5854f996cf93dfba204553ae01a60a89b3dbbc8743d3613ad30b24182a0"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151704"
+      },
+      "sha256": "1d7ef5854f996cf93dfba204553ae01a60a89b3dbbc8743d3613ad30b24182a0",
+      "solid": {
+        "path": "social-solid/webflow.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151746",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "98e2e21edff6d35e8809ced6832c51c7a8bf701e2d3afa387b4647c67042c2e9",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/whatsapp.svg",
       "owner": "WhatsApp LLC",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151421" },
-      "sha256": "8c1b1cc17c5657336571de5715335d91d3d411890c443d40b7ffcda4c4a77fdb"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151421"
+      },
+      "sha256": "8c1b1cc17c5657336571de5715335d91d3d411890c443d40b7ffcda4c4a77fdb",
+      "solid": {
+        "path": "social-solid/whatsapp.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151524",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "dc67925dd6e7e5f73a0b66c0eb8bcf96d173b5782ffd5ce27743e06bdcf6d3f0",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/wise.svg",
       "owner": "Wise Payments Limited",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151698" },
-      "sha256": "9d7ac533a4720cb5f72c0eb75b139175316fce82038fc1b7760b97a90279af60"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151698"
+      },
+      "sha256": "9d7ac533a4720cb5f72c0eb75b139175316fce82038fc1b7760b97a90279af60",
+      "solid": {
+        "path": "social-solid/wise.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151738",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "db585a33cf4c843838eb0b8ce1e79fc3555f8ee50537a614d39e4291fb1eae95",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     },
     {
       "path": "social/x.svg",
       "owner": "X Corp.",
-      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151408" },
-      "sha256": "66a71341d3b966a524e9ab988204fce2953d24abf9cf611de5beb9164395550b"
+      "source": {
+        "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+        "setNodeId": "71:151402",
+        "componentNodeId": "71:151408"
+      },
+      "sha256": "66a71341d3b966a524e9ab988204fce2953d24abf9cf611de5beb9164395550b",
+      "solid": {
+        "path": "social-solid/x.svg",
+        "source": {
+          "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+          "setNodeId": "71:151402",
+          "componentNodeId": "71:151480",
+          "variant": "Style=Gray, State=Default"
+        },
+        "sha256": "3b49c658bcba5cbdc59c3d3a4193e77f4bb1da8e91e634843ee2bfadf91d65e7",
+        "note": "One-color Gray variant of the same Social icon kit, recolored to currentColor; white details are transparent cutouts."
+      }
     }
   ]
 }

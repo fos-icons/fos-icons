@@ -35,6 +35,23 @@ Brands-page Regular instance. The existing shared Chrome masters
 Solid Chrome instance was removed because no approved Solid brand source was
 provided.
 
+## Solid brand marks
+
+Each of the 28 social marks also has a one-color Solid version in
+`brand-assets/social-solid/`. It is the `Style=Gray, State=Default` variant of
+the same Figma Social icon set (`71:151402`) — the kit's own monochrome mark for
+that platform — recolored to `currentColor`, with white details kept as
+transparent cutouts. The geometry is unchanged. Each manifest entry records it
+under `solid`, with the Gray component ID and SHA-256 digest.
+
+Duotone and Duocolor reuse the Solid mark: brand marks are never split into
+primary and secondary colors.
+
+Google Chrome, Microsoft Edge, Teams, and Windows have no Solid version.
+Microsoft's guidelines limit one-color product icons to UI contexts and ask
+not to alter colors, and Google publishes no Chrome monochrome mark, so these
+four keep their original colors in every style.
+
 Third-party assets are stored under `brand-assets/`, outside `icons/` and the
 core package. `brand-assets/manifest.json` records each asset's owner, source,
 and SHA-256 digest, with a collection retrieval date and shared rights and
