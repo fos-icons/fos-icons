@@ -31,7 +31,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        directory: [packages/react, packages/vue, packages/svelte, packages/angular, plugins/framer]
+        directory: [packages/react, packages/vue, packages/svelte, packages/solid, packages/angular, plugins/framer]
     defaults:
       run:
         working-directory: ${{ matrix.directory }}

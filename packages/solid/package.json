@@ -1,0 +1,79 @@
+{
+  "name": "@fos-icons/solid",
+  "version": "0.1.0",
+  "description": "Fos Icons in four styles as typed, tree-shakeable SolidJS components.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./regular": {
+      "types": "./dist/regular/index.d.ts",
+      "default": "./dist/regular/index.js"
+    },
+    "./filled": {
+      "types": "./dist/filled/index.d.ts",
+      "default": "./dist/filled/index.js"
+    },
+    "./duocolor": {
+      "types": "./dist/duocolor/index.d.ts",
+      "default": "./dist/duocolor/index.js"
+    },
+    "./duotone": {
+      "types": "./dist/duotone/index.d.ts",
+      "default": "./dist/duotone/index.js"
+    },
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "default": "./dist/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "imports": {
+    "#fos-renderer": {
+      "browser": "./dist/client.js",
+      "default": "./dist/server.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run build && node --test tests/*.test.mjs && tsc -p tests/tsconfig.json",
+    "prepack": "npm run build"
+  },
+  "peerDependencies": {
+    "solid-js": "2.0.0-rc.21",
+    "@solidjs/web": "2.0.0-rc.21"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@xmldom/xmldom": "^0.9.0",
+    "esbuild": "^0.28.0",
+    "jsdom": "^26.0.0",
+    "solid-js": "2.0.0-rc.21",
+    "typescript": "^5.9.0",
+    "@solidjs/web": "2.0.0-rc.21",
+    "@solidjs/babel-plugin": "2.0.0-rc.21",
+    "@solidjs/vite-plugin": "3.0.0-next.57",
+    "vite": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fos-icons/fos-icons.git",
+    "directory": "packages/solid"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
