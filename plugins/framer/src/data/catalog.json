@@ -41,6 +41,17 @@
       "aliases": []
     },
     {
+      "name": "activity-square",
+      "category": "Health & medical",
+      "tags": [
+        "pulse",
+        "heartbeat",
+        "monitor",
+        "waveform"
+      ],
+      "aliases": []
+    },
+    {
       "name": "agent",
       "category": "AI & agents",
       "tags": [
@@ -1991,6 +2002,19 @@
       "aliases": []
     },
     {
+      "name": "barcode",
+      "category": "Data & commerce",
+      "tags": [
+        "retail",
+        "product",
+        "code",
+        "label",
+        "checkout",
+        "scan"
+      ],
+      "aliases": []
+    },
+    {
       "name": "barn",
       "category": "Navigation",
       "tags": [
@@ -2290,6 +2314,18 @@
       "aliases": [
         "interface/binoculars"
       ]
+    },
+    {
+      "name": "biohazard",
+      "category": "Health & medical",
+      "tags": [
+        "hazard",
+        "warning",
+        "infection",
+        "laboratory",
+        "safety"
+      ],
+      "aliases": []
     },
     {
       "name": "bird",
@@ -4687,6 +4723,18 @@
         "band",
         "jazz",
         "reed"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "clear-formatting",
+      "category": "Workspace",
+      "tags": [
+        "text",
+        "typography",
+        "remove",
+        "reset",
+        "remove styles"
       ],
       "aliases": []
     },
@@ -7485,6 +7533,18 @@
       "aliases": []
     },
     {
+      "name": "fan",
+      "category": "Media & devices",
+      "tags": [
+        "air",
+        "cooling",
+        "blower",
+        "propeller",
+        "ventilation"
+      ],
+      "aliases": []
+    },
+    {
       "name": "fast-backward",
       "category": "Media & devices",
       "tags": [
@@ -7677,6 +7737,18 @@
       "aliases": [
         "interface/file-cancel"
       ]
+    },
+    {
+      "name": "file-chart",
+      "category": "Files",
+      "tags": [
+        "document",
+        "analytics",
+        "report",
+        "graph",
+        "statistics"
+      ],
+      "aliases": []
     },
     {
       "name": "file-check",
@@ -8936,6 +9008,18 @@
       "aliases": []
     },
     {
+      "name": "font-size",
+      "category": "Workspace",
+      "tags": [
+        "type",
+        "typography",
+        "text",
+        "scale",
+        "lettering"
+      ],
+      "aliases": []
+    },
+    {
       "name": "foot",
       "category": "Health & medical",
       "tags": [
@@ -9379,6 +9463,17 @@
       "aliases": []
     },
     {
+      "name": "hand-draw",
+      "category": "Health & medical",
+      "tags": [
+        "gesture",
+        "touch",
+        "press",
+        "finger"
+      ],
+      "aliases": []
+    },
+    {
       "name": "hand-lock",
       "category": "Security",
       "tags": [
@@ -9392,6 +9487,40 @@
       "aliases": [
         "interface/hand-lock"
       ]
+    },
+    {
+      "name": "hand-off",
+      "category": "Health & medical",
+      "tags": [
+        "gesture",
+        "disabled",
+        "stop",
+        "no",
+        "touch"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "hand-wave",
+      "category": "Health & medical",
+      "tags": [
+        "gesture",
+        "hello",
+        "goodbye",
+        "greeting"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "handshake",
+      "category": "Data & commerce",
+      "tags": [
+        "agreement",
+        "deal",
+        "partnership",
+        "greeting"
+      ],
+      "aliases": []
     },
     {
       "name": "hard-drive",
@@ -11526,6 +11655,18 @@
       "aliases": []
     },
     {
+      "name": "library",
+      "category": "Workspace",
+      "tags": [
+        "books",
+        "reading",
+        "learning",
+        "education",
+        "collection"
+      ],
+      "aliases": []
+    },
+    {
       "name": "life-buoy",
       "category": "Essentials",
       "tags": [
@@ -11551,6 +11692,106 @@
         "light",
         "hint",
         "illumination"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "lightbulb-ai",
+      "category": "Media & devices",
+      "tags": [
+        "artificial",
+        "intelligence",
+        "idea",
+        "machine",
+        "learning"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "lightbulb-bolt",
+      "category": "Media & devices",
+      "tags": [
+        "power",
+        "energy",
+        "electricity",
+        "flash"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "lightbulb-classic",
+      "category": "Media & devices",
+      "tags": [
+        "incandescent",
+        "lamp",
+        "vintage",
+        "idea"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "lightbulb-classic-on",
+      "category": "Media & devices",
+      "tags": [
+        "incandescent",
+        "lit",
+        "glow",
+        "vintage"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "lightbulb-classic-sparkle",
+      "category": "Media & devices",
+      "tags": [
+        "incandescent",
+        "shine",
+        "idea",
+        "magic"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "lightbulb-filament",
+      "category": "Media & devices",
+      "tags": [
+        "tungsten",
+        "incandescent",
+        "lamp",
+        "inside"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "lightbulb-off",
+      "category": "Media & devices",
+      "tags": [
+        "unlit",
+        "disabled",
+        "dark",
+        "lamp"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "lightbulb-on",
+      "category": "Media & devices",
+      "tags": [
+        "glow",
+        "illumination",
+        "lit",
+        "lamp"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "lightbulb-sparkle",
+      "category": "Media & devices",
+      "tags": [
+        "shine",
+        "magic",
+        "idea",
+        "highlight"
       ],
       "aliases": []
     },
@@ -11638,6 +11879,18 @@
       "aliases": [
         "interface/link-off"
       ]
+    },
+    {
+      "name": "list-ordered",
+      "category": "Workspace",
+      "tags": [
+        "numbered",
+        "steps",
+        "sequence",
+        "text",
+        "outline"
+      ],
+      "aliases": []
     },
     {
       "name": "liver",
@@ -13375,6 +13628,17 @@
       ]
     },
     {
+      "name": "notebook",
+      "category": "Workspace",
+      "tags": [
+        "journal",
+        "notes",
+        "writing",
+        "stationery"
+      ],
+      "aliases": []
+    },
+    {
       "name": "notification-box",
       "category": "Communication",
       "tags": [
@@ -15017,6 +15281,17 @@
       "aliases": []
     },
     {
+      "name": "quote",
+      "category": "Workspace",
+      "tags": [
+        "quotation",
+        "speech",
+        "citation",
+        "punctuation"
+      ],
+      "aliases": []
+    },
+    {
       "name": "quran",
       "category": "Religion & spirituality",
       "tags": [
@@ -15066,6 +15341,18 @@
         "game",
         "play",
         "court"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "radiation",
+      "category": "Health & medical",
+      "tags": [
+        "hazard",
+        "warning",
+        "radioactive",
+        "safety",
+        "trefoil"
       ],
       "aliases": []
     },
@@ -15622,6 +15909,18 @@
       ]
     },
     {
+      "name": "scan-barcode",
+      "category": "Data & commerce",
+      "tags": [
+        "retail",
+        "product",
+        "code",
+        "scanner",
+        "checkout"
+      ],
+      "aliases": []
+    },
+    {
       "name": "school",
       "category": "Navigation",
       "tags": [
@@ -15719,6 +16018,17 @@
         "magnifying glass",
         "lookup",
         "zoom"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "search-circle",
+      "category": "Interfaces",
+      "tags": [
+        "find",
+        "lookup",
+        "magnifier",
+        "discovery"
       ],
       "aliases": []
     },
@@ -16195,6 +16505,18 @@
       ]
     },
     {
+      "name": "shapes",
+      "category": "Shapes",
+      "tags": [
+        "contour",
+        "circle",
+        "square",
+        "triangle",
+        "drawing"
+      ],
+      "aliases": []
+    },
+    {
       "name": "share",
       "category": "Essentials",
       "tags": [
@@ -16514,6 +16836,18 @@
         "sport",
         "feathers",
         "game"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "sigma",
+      "category": "Workspace",
+      "tags": [
+        "math",
+        "sum",
+        "summation",
+        "greek",
+        "formula"
       ],
       "aliases": []
     },
@@ -17505,6 +17839,18 @@
       ]
     },
     {
+      "name": "superscript",
+      "category": "Workspace",
+      "tags": [
+        "text",
+        "typography",
+        "exponent",
+        "power",
+        "formatting"
+      ],
+      "aliases": []
+    },
+    {
       "name": "surfboard",
       "category": "Sports & fitness",
       "tags": [
@@ -17930,6 +18276,18 @@
       ]
     },
     {
+      "name": "text-color",
+      "category": "Workspace",
+      "tags": [
+        "typography",
+        "font",
+        "ink",
+        "highlight",
+        "formatting"
+      ],
+      "aliases": []
+    },
+    {
       "name": "text-input",
       "category": "Workspace",
       "tags": [
@@ -18249,6 +18607,31 @@
         "dustbin",
         "empty",
         "rubbish"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "trash-recycle",
+      "category": "Essentials",
+      "tags": [
+        "bin",
+        "recycling",
+        "waste",
+        "sustainability",
+        "disposal"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "trash-recycle-full",
+      "category": "Essentials",
+      "tags": [
+        "bin",
+        "recycling",
+        "waste",
+        "sustainability",
+        "filled",
+        "contents"
       ],
       "aliases": []
     },
@@ -19359,6 +19742,18 @@
       "aliases": []
     },
     {
+      "name": "wallet-money",
+      "category": "Data & commerce",
+      "tags": [
+        "cash",
+        "bills",
+        "payment",
+        "finance",
+        "banknotes"
+      ],
+      "aliases": []
+    },
+    {
       "name": "wand",
       "category": "AI & agents",
       "tags": [
@@ -19832,15 +20227,15 @@
     },
     {
       "name": "Data & commerce",
-      "count": 97
+      "count": 101
     },
     {
       "name": "Essentials",
-      "count": 89
+      "count": 91
     },
     {
       "name": "Files",
-      "count": 110
+      "count": 111
     },
     {
       "name": "Food & drink",
@@ -19848,15 +20243,15 @@
     },
     {
       "name": "Health & medical",
-      "count": 37
+      "count": 43
     },
     {
       "name": "Interfaces",
-      "count": 127
+      "count": 128
     },
     {
       "name": "Media & devices",
-      "count": 111
+      "count": 121
     },
     {
       "name": "Music & instruments",
@@ -19884,7 +20279,7 @@
     },
     {
       "name": "Shapes",
-      "count": 73
+      "count": 74
     },
     {
       "name": "Sports & fitness",
@@ -19904,7 +20299,7 @@
     },
     {
       "name": "Workspace",
-      "count": 149
+      "count": 158
     }
   ],
   "styles": [
