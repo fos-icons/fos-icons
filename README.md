@@ -111,7 +111,7 @@ wallet flap are recorded in `metadata/commerce-refinements.json`.
 Modifiers compose a base icon with a reusable glyph rather than requiring a
 separate drawing for every combination. The chooser will group actions
 (Add, Delete, Remove, Block, Edit, and four directional arrows), statuses
-(Warning, Check), access/identity (Key, Lock, User, Clip), and file-type labels.
+(Warning, Check, Dot), access/identity (Key, Lock, User, Clip), and file-type labels.
 All of them are reusable Figma components and SVG assets, including
 Sparkle, Download, Upload, Refresh, Search, Shield, and the scheduling badges
 Reply, Note, Record, Link, and Phone.
@@ -119,7 +119,8 @@ Glyphs remain solid independently of the base style. The six new glyphs,
 Key, Lock, User, and Clip have no colored backplate.
 
 Add (`+`) defaults to the top-left corner; Delete (a cross) defaults to the
-bottom-right. An explicit corner can override the default. The Add/Delete Figma
+bottom-right. Dot defaults to the top-right. An explicit corner can override
+the default. The Add/Delete Figma
 proof uses squircle backgrounds and a matching 1.25px transparent clearance
 gap so the badge never touches the underlying icon. Warning and Check also use
 squircles. The six extended glyphs have explicit corner variants; no automatic
