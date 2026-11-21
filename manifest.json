@@ -22612,7 +22612,8 @@
         "intellectual property",
         "legal",
         "license",
-        "protected"
+        "protected",
+        "squircle"
       ],
       "aliases": [],
       "componentSet": "201:41257",
@@ -22623,7 +22624,7 @@
         "duotone": "201:41269"
       },
       "keyline": {
-        "key": "Circle",
+        "key": "Squircle",
         "width": 20,
         "height": 20,
         "stroke": 1.25,
@@ -22636,10 +22637,10 @@
         "duotone": "icons/duotone/copyright.svg"
       },
       "sha256": {
-        "regular": "c9167dd28dd0f53f74f5be2f1a3ce68f75937607b57e18f01278e3c9333a2858",
-        "filled": "c5422054496691391836e21b2edaa27bb83f16c39f95af6eadf45624862a7d46",
-        "duocolor": "dae9b9d4dc6715a54e4ef8a34448a0a58cf6c2a0f470634ed17ae0a6f4f745ce",
-        "duotone": "d4881a815e667135d8320caf8f1e23316ec9b307aa1db68324a71db3eba748e9"
+        "regular": "9c976738584d564d7d116e99497985898054a4df57f6c856c6fb01ad045d94a5",
+        "filled": "523e9eb8789cd910e6f08c6c2788c79d237c8da648b8fd8694494a582ec964cc",
+        "duocolor": "aba8b1e6bec78b8fe05eaec90b8677c4dea6fa8f97ad533f9c6e5277a7696b71",
+        "duotone": "b6f4380c2ac4726dd3c839a2f4cd87c8a50a71e6b60689aea7215fd99f45591c"
       }
     },
     {
@@ -63257,7 +63258,8 @@
         "brand",
         "legal",
         "intellectual property",
-        "mark"
+        "mark",
+        "squircle"
       ],
       "aliases": [],
       "componentSet": "201:42266",
@@ -63268,7 +63270,7 @@
         "duotone": "201:42275"
       },
       "keyline": {
-        "key": "Circle",
+        "key": "Squircle",
         "width": 20,
         "height": 20,
         "stroke": 1.25,
@@ -63281,10 +63283,10 @@
         "duotone": "icons/duotone/registered.svg"
       },
       "sha256": {
-        "regular": "87be970fb1cbd7034713cc1d1eaf5d0b4c7a210bcc6b1d839db74f799042a689",
-        "filled": "338dc8315ded938e9b3ac81ffc3abbf16d2346be7fbdf291df9adfe1576fece8",
-        "duocolor": "744fab7516c2097e9eae58e32e9864c8287bb0a690b4981ee29f04d3fc6688ce",
-        "duotone": "b44f27963a4bce45dc1120e2bc43e07290851e3cbeb7c81cfdfd3943b8f74bca"
+        "regular": "38e70e99cb04b8e43f350b859cbf7df62c9e64308c402f6249ae7e6213dbaae6",
+        "filled": "91de4f1f957f6ec7f550a21b61be40ee43dfb2e5749cce1073d6ba9fdebe35b0",
+        "duocolor": "c1384a5f298e0b96604741cec44ac79590db88eb396a0fdf78c2af4685f84bb4",
+        "duotone": "2804808a9d6e3f4163003a8cf9a83d34345729a5ece50c54873ecfa23f05f8c7"
       }
     },
     {
@@ -75282,7 +75284,8 @@
         "legal",
         "intellectual property",
         "mark",
-        "unregistered"
+        "unregistered",
+        "squircle"
       ],
       "aliases": [],
       "componentSet": "201:42297",
@@ -75293,7 +75296,7 @@
         "duotone": "201:42306"
       },
       "keyline": {
-        "key": "Circle",
+        "key": "Squircle",
         "width": 20,
         "height": 20,
         "stroke": 1.25,
@@ -75306,10 +75309,10 @@
         "duotone": "icons/duotone/trademark.svg"
       },
       "sha256": {
-        "regular": "960164ea5e70e19c5d5b4e58b497e86a71986c58cbab8d83d3289ef67e2f7e71",
-        "filled": "3a957175f5a9ed70d458e8ccbf0aece4b670d7158c37e66f4d5ff455bdd37ba2",
-        "duocolor": "44e4db18b2f32cc13f789cd4527e28b9bb46434901f821cb66e53530df61d1d9",
-        "duotone": "014f3226903611de22f56d716a557a8f0e550f0e0994e28a6b814d1139a4670d"
+        "regular": "b9ff926ed1f8ac8b22257b3533a03d0cee90350cf0e599de164435977a17789f",
+        "filled": "6c4661946f311408ede9931514ba143fb1e594e40b5b7a6537da25e721466c2d",
+        "duocolor": "f0c1064a7bbbbbd50f4d3aff7254db4b19d3c54d2b026111bfb3b3b4b048ed75",
+        "duotone": "5094f3e26f8df504fae3564ab3c90c01cce2856b8964904dce26d7610ab934a2"
       }
     },
     {
