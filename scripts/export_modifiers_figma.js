@@ -74,6 +74,8 @@ async function exportFosModifiers() {
   };
   const dot = await native("Dot", "183:165860");
   const money = await native("Money", "199:51338");
+  const coins = await native("Coins", "201:46645");
+  const twentyFour = await native("24", "201:46737");
   const files = await load(sections.files, "fileTypeProof");
   const presets = await load(sections.presets, "namedPresetMigration");
   const collection = await figma.variables.getVariableCollectionByIdAsync(
@@ -94,6 +96,8 @@ async function exportFosModifiers() {
     ["Check", extended, "status", null, "VariableID:48:40521"],
     ["Dot", dot, "status", "Top right", "VariableID:1:1429"],
     ["Money", money, "commerce", null, "VariableID:48:36636"],
+    ["Coins", coins, "commerce", null, "VariableID:48:36636"],
+    ["24", twentyFour, "time", "Bottom right", "VariableID:1:1429"],
     ...["Key", "Lock", "User", "Clip"].map(
       name => [name, extended, "access-identity", null, "VariableID:48:36636"],
     ),

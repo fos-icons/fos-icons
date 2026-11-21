@@ -4,6 +4,19 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ## Unreleased
 
+### Added
+
+- **Coins** modifier (commerce): two overlapping coins with an opaque $ in
+  the modifier glyph color.
+- **24** modifier (time): stroke-weight digits for 24-hour icons such as a
+  clock; it defaults to the bottom-right corner.
+
+### Changed
+
+- Redrew `scissors`, `scissors-dashed`, `scissors-sparkles`, `eyedropper`,
+  `scale`, `piggy-bank`, `paint-roller`, `paintbrush`, `paintbrush-round`, and
+  `paint-pour`.
+
 ### Breaking
 
 - Split the **Time & weather** category into **Time & calendar** (62 icons:
