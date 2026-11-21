@@ -5666,7 +5666,8 @@
         "intellectual property",
         "legal",
         "license",
-        "protected"
+        "protected",
+        "squircle"
       ],
       "aliases": []
     },
@@ -15890,7 +15891,8 @@
         "brand",
         "legal",
         "intellectual property",
-        "mark"
+        "mark",
+        "squircle"
       ],
       "aliases": []
     },
@@ -18967,7 +18969,8 @@
         "legal",
         "intellectual property",
         "mark",
-        "unregistered"
+        "unregistered",
+        "squircle"
       ],
       "aliases": []
     },
