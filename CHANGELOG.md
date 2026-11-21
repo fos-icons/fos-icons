@@ -24,6 +24,23 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- 22 four-style icons, bringing the library to 1,530 icons and 6,120 SVGs:
+  - Legal (Professions): `person-judge`, `copyright`, `registered`,
+    `trademark`, `handcuffs`, `police-badge`, `police-cap`, `prison`,
+    `sheriff-star`, `legal-document`.
+  - Construction (Professions, tagged `construction`): `hard-hat`, `crane`,
+    `traffic-cone`, `road-barrier`, `brick-wall`, `drill`, `pickaxe`, `hammer`,
+    `excavator`, `blueprint`, `trowel`, plus `cement-mixer` in Transport & space.
+
+### Changed
+
+- Redrew the whole **Nature & animals** category (26 icons) with consistent
+  viewpoints: pets as faces, sea and land animals in side profile, insects and
+  octopus from the front or top.
+- Redrew `person-doctor`, `person-engineer`, `person-lawyer`, and
+  `person-professional` on one shared person master.
+- Moved `gavel` and `scales` to **Professions** and redrew them.
+
 - 16 four-style icons, bringing the library to 1,508 icons and 6,032 SVGs:
   `send-folded`, `shopping-basket`, `plane-takeoff`, `plane-landing`,
   `annotation-24`, `annotation-7`, `bill-tag`, `money`, `money-square`,

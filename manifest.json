@@ -10,12 +10,12 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1508,
+  "iconCount": 1530,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
     "exportedOn": "2026-11-21",
-    "componentPairs": 1513,
+    "componentPairs": 1535,
     "excludedBrands": [
       "chrome-cast",
       "figma",
@@ -8764,10 +8764,10 @@
         "duotone": "icons/duotone/bee.svg"
       },
       "sha256": {
-        "regular": "e4d697a94d7dbd6f6a1220c58c77a6d6e0861fc4e0fa357b4b63db7475907097",
-        "filled": "857a6488b9eb7d8e600bdc755bfd97edfb751de3fbfad9b6b7529bcf9efb62d1",
-        "duocolor": "1b59833071d26bbf6257b810a6395369a0c49fd5eec5b1dbd8b8e8d40a02de2f",
-        "duotone": "f2684f5ae773bc569fbcd1765c8306eca335d42e83737b281e9c9d51fa8749ab"
+        "regular": "63f6b32cb16452ea6248ee974169c7281b72aeef213a90060ab51124704a82c3",
+        "filled": "859b4120b3dae0d73e31c87a622465afaec1e9419645448478b5c6804d433443",
+        "duocolor": "f48f25a283addeb1d854405a0132bd7d88f0e63272e69b26f2b5f9afdcfcdab1",
+        "duotone": "785edd25219232f04e88c24b39de10df768556ea5005092457e2a294cacc19e9"
       },
       "duoAuthoring": {
         "version": 2,
@@ -9503,10 +9503,10 @@
         "duotone": "icons/duotone/bird.svg"
       },
       "sha256": {
-        "regular": "67882fd184a99a9f39342f7afcb2c83f9b58b62ab8a00f2d6afea7678758df83",
-        "filled": "a3c6ca1a00685d4e2b6407396db106c15902b30fa6a793a3bdb3357db391920a",
-        "duocolor": "003c581ac890a711de9e692243a2eb5f412f677f27a6162af46d7c0ce36c4d8a",
-        "duotone": "1a6e9ea82893a0e7e7d28f1a4c600fef01c4089f38c0da6bdb61e07ae98ca36d"
+        "regular": "a78271ad90006742513256b43adaa66ceb4ba7348478f2bf7f889f1c605cb36e",
+        "filled": "ac4d917e2d10273d2a879ec83372b9f047b8ecb1b1583e9667f06b02253bfb15",
+        "duocolor": "e81011eb2b80b7d8ba9f88bb0712e94e31c4666a86db65863e5a69f00449f45b",
+        "duotone": "ed6b12d5d39a06aa65f25deb44377de3169447c0de095e9b002f96b0cc5b94df"
       },
       "duoAuthoring": {
         "version": 2,
@@ -9573,6 +9573,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "blueprint",
+      "category": "Professions",
+      "tags": [
+        "construction",
+        "plan",
+        "architecture",
+        "floor plan",
+        "design",
+        "drawing"
+      ],
+      "aliases": [],
+      "componentSet": "201:42185",
+      "source": {
+        "regular": "201:42186",
+        "filled": "201:42190",
+        "duocolor": "201:42192",
+        "duotone": "201:42197"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/blueprint.svg",
+        "filled": "icons/filled/blueprint.svg",
+        "duocolor": "icons/duocolor/blueprint.svg",
+        "duotone": "icons/duotone/blueprint.svg"
+      },
+      "sha256": {
+        "regular": "b3896db91d587c84ede7c780ab4cd0390984fd0a860f074a5a5d84e419d58c00",
+        "filled": "e3e3cd7b96d935b7bc3c10c45554da50c93d057f5b0102dcdf935df4393e8735",
+        "duocolor": "5b44c7bb449e3f42bd2a2f0d9e25efbc9fa29c4d4ee211e1e5cc29b12613262f",
+        "duotone": "22d13ef73a650b1e96ce047ce0e3a6250d5563cb466bbb6f00b4272312f355ca"
       }
     },
     {
@@ -11543,6 +11582,45 @@
       }
     },
     {
+      "name": "brick-wall",
+      "category": "Professions",
+      "tags": [
+        "construction",
+        "masonry",
+        "bricks",
+        "mason",
+        "build",
+        "blocks"
+      ],
+      "aliases": [],
+      "componentSet": "201:41915",
+      "source": {
+        "regular": "201:41916",
+        "filled": "201:41920",
+        "duocolor": "201:41922",
+        "duotone": "201:41927"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/brick-wall.svg",
+        "filled": "icons/filled/brick-wall.svg",
+        "duocolor": "icons/duocolor/brick-wall.svg",
+        "duotone": "icons/duotone/brick-wall.svg"
+      },
+      "sha256": {
+        "regular": "2e7e350b074356633c44592829bd410a2bda2f00f3c7eed4c5130321d25d57b2",
+        "filled": "e8329d849dc761f6ae92a1368d3e675907416e663ee7ff62906b8d8cbb59785e",
+        "duocolor": "b600d7027aab22b39a5c7c4a39b7ba7b62dbb030f26f5c16acd41c9ccff7a479",
+        "duotone": "09718e7795db53afb663bcaa2f82dcacac7ed8f6d5961d272ba8021822f09301"
+      }
+    },
+    {
       "name": "bridge",
       "category": "Navigation",
       "tags": [
@@ -12361,10 +12439,10 @@
         "duotone": "icons/duotone/butterfly.svg"
       },
       "sha256": {
-        "regular": "e88b635e2201942f43c9b4b4a889b04033ab6e7a375883036ea1a21685edd55d",
-        "filled": "020bea876c7817786fa10cd6e7e37149108a64e149292d9a3092c77ac8a1d364",
-        "duocolor": "fb03e0c9c880557efc55dad3ab228def9265cfe92f24729504caeef567003600",
-        "duotone": "2d4b8d62d63f7098ac64c40736cc2248ca57bb03fb0ef97b733639e6f95f47d7"
+        "regular": "4e89db84a5ce46d2b32c5097ae544eec52f9fc8eae5e30e8b688c840835320de",
+        "filled": "28d70ded1782caf8810dc8d94ce13ff8d2852edd2fa28418158801979861c3f9",
+        "duocolor": "cb760609214dc6b262b549e4bb70a30fac3ab1e51abaf51598d5037c349fdf72",
+        "duotone": "b229d5f799dc50c7994a903183adff2b18b62932341c08e9aa6c7662647544d1"
       },
       "duoAuthoring": {
         "version": 2,
@@ -12414,10 +12492,10 @@
         "duotone": "icons/duotone/cactus.svg"
       },
       "sha256": {
-        "regular": "ca8710666d6c0422d5bc0d66830044193731fce5e504d3ebf91de2ec3bd3bcb8",
-        "filled": "0ba3cdb4704ad5b45cd99166e4696701bf3456b0d0b91a3ca6454443f1cfc73c",
-        "duocolor": "614b48af12a038a807987d6ad011bc5eea37b01a94dcc9a0e929fc1197fddd98",
-        "duotone": "2ad49e37f7e83015cc3dada272c0618a1540a491f0c0112565574daa49f8470c"
+        "regular": "6c0f51aeb7eb6e12d741e223d0bfe169eff7c15fcafdf8458eb1b2c3bcdd6807",
+        "filled": "5b29b84b14b6860a47252793eb75f78bc151dd0d27c32dbaba8403cfe8849696",
+        "duocolor": "f1437a851e4cd4d41ea37b56a8cf0a2965571cca0b47a257f309542eaa4a4319",
+        "duotone": "13a308dbad0e2d2783d7209263e28a059c1c2c24de4f746502cb1917bc615cb1"
       },
       "duoAuthoring": {
         "version": 2,
@@ -15189,10 +15267,10 @@
         "duotone": "icons/duotone/cat.svg"
       },
       "sha256": {
-        "regular": "c5b046f9e8e6346ef976a5fe7473ba98c56a4d4dbf3befcf1f61d373fccbbf07",
-        "filled": "c660a5c16c69c2ca431d1edcf15f7e7d13fd242c406f05dcc37730dc9e5c9372",
-        "duocolor": "49abe1f51935e71f9e994d6b367171d1f8d1b9d8b747a361095a40f574d357be",
-        "duotone": "38554f28bc69d6d8c02a5b79ec2cee24a7fb4618897f71e60de697be204df952"
+        "regular": "651afa782415de99d4195dd22d6073979d68b94e7db93b6a738a71d66875f415",
+        "filled": "cb115e1e79d642be4b259004e488fd846cccda8e159347fb55ad36925cbd29c8",
+        "duocolor": "d2921dc03c5842db9a951fba0f62b9181afd14e3f81b04f84fbc8f8fdabe3c69",
+        "duotone": "74b254193246d380c360a02f86de1ab38fca9f1151f9dfb33cc19f8711bff9de"
       },
       "duoAuthoring": {
         "version": 2,
@@ -15259,6 +15337,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "cement-mixer",
+      "category": "Transport & space",
+      "tags": [
+        "construction",
+        "concrete",
+        "truck",
+        "mixer truck",
+        "heavy vehicle",
+        "building"
+      ],
+      "aliases": [],
+      "componentSet": "201:42134",
+      "source": {
+        "regular": "201:42135",
+        "filled": "201:42139",
+        "duocolor": "201:42141",
+        "duotone": "201:42146"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/cement-mixer.svg",
+        "filled": "icons/filled/cement-mixer.svg",
+        "duocolor": "icons/duocolor/cement-mixer.svg",
+        "duotone": "icons/duotone/cement-mixer.svg"
+      },
+      "sha256": {
+        "regular": "470fcd2f6ea5446e14abb1d7edb2da8de384ffedce5193624dedb9df5801c513",
+        "filled": "b3d3c3fbc525521b9367d2eb8da0f9998b33557e3606d9f202d5fb89d08cbd01",
+        "duocolor": "db1a68d154142d97bf4b4e46e65ee49d321013d3c77de32c4ad5e507c2d61790",
+        "duotone": "bebf10ce1ac1296d31127093f36bf6ddc1a17985f65a65ac511c19b58590149c"
       }
     },
     {
@@ -22487,6 +22604,45 @@
       }
     },
     {
+      "name": "copyright",
+      "category": "Professions",
+      "tags": [
+        "c symbol",
+        "rights",
+        "intellectual property",
+        "legal",
+        "license",
+        "protected"
+      ],
+      "aliases": [],
+      "componentSet": "201:41257",
+      "source": {
+        "regular": "201:41258",
+        "filled": "201:41262",
+        "duocolor": "201:41264",
+        "duotone": "201:41269"
+      },
+      "keyline": {
+        "key": "Circle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/copyright.svg",
+        "filled": "icons/filled/copyright.svg",
+        "duocolor": "icons/duocolor/copyright.svg",
+        "duotone": "icons/duotone/copyright.svg"
+      },
+      "sha256": {
+        "regular": "c9167dd28dd0f53f74f5be2f1a3ce68f75937607b57e18f01278e3c9333a2858",
+        "filled": "c5422054496691391836e21b2edaa27bb83f16c39f95af6eadf45624862a7d46",
+        "duocolor": "dae9b9d4dc6715a54e4ef8a34448a0a58cf6c2a0f470634ed17ae0a6f4f745ce",
+        "duotone": "d4881a815e667135d8320caf8f1e23316ec9b307aa1db68324a71db3eba748e9"
+      }
+    },
+    {
       "name": "cpu-chip",
       "category": "Media & devices",
       "tags": [
@@ -22574,10 +22730,10 @@
         "duotone": "icons/duotone/crab.svg"
       },
       "sha256": {
-        "regular": "3b4187db4bb5450c604e8ec315d20939beb37b1a07b55b00ec33a6fbfac83fb3",
-        "filled": "b7500b225046c2dbcdbc908a0de761e4fc85e77b4bca5eafcb3dab7900aebade",
-        "duocolor": "0aebbc4a1bb098b7c87822581f95f4099e5946c06356bd4794507c8b6fb56557",
-        "duotone": "db6bc2f380398826ad7a552866af266bcfc3f183821c6d1e1f0ab2a163f0bdcb"
+        "regular": "eb3167958f901639965fb8af64ae444991f71744b9304c8690d6a1bea1e524b9",
+        "filled": "1a0d1520b9949c2e0758c1f21be9686e4a556e0ab1ad4c0f03b694b995122ac3",
+        "duocolor": "65ab53f8f4c9d985559000682e277640cce91b48a4677cd4e6f5cf49add66f41",
+        "duotone": "646c82299ff9b4d7d2243e0fbf58ae723fc43448b06f8c400752bff93c951889"
       },
       "duoAuthoring": {
         "version": 2,
@@ -22592,6 +22748,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "crane",
+      "category": "Professions",
+      "tags": [
+        "tower crane",
+        "construction",
+        "lifting",
+        "building site",
+        "hoist",
+        "heavy machinery"
+      ],
+      "aliases": [],
+      "componentSet": "201:41778",
+      "source": {
+        "regular": "201:41779",
+        "filled": "201:41783",
+        "duocolor": "201:41785",
+        "duotone": "201:41790"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/crane.svg",
+        "filled": "icons/filled/crane.svg",
+        "duocolor": "icons/duocolor/crane.svg",
+        "duotone": "icons/duotone/crane.svg"
+      },
+      "sha256": {
+        "regular": "6bc4a84a755c779e217d8c610fc3a5b3f3be48145d7b2a2526302f470557dee5",
+        "filled": "f36aaa6a435ea71ca816fde45404f35cb9a1a5096c639bd0c46d68f399a33bf6",
+        "duocolor": "055167204eefd183bd2e202dba6b8179d89ac87ce7c8053d6625b93e315171c5",
+        "duotone": "291b43ed1f8a3a2e2e4ef827975ae4b7a60207dc4053b763be055a7927ff435a"
       }
     },
     {
@@ -27620,10 +27815,10 @@
         "duotone": "icons/duotone/dog.svg"
       },
       "sha256": {
-        "regular": "79805fa55442913e0c6af5767229971115baf3d38bcb2b4d5f1f79396e39c750",
-        "filled": "d46576052204b3610b76f7a42461432adfd0c2b6e707dfc1fd5336f7134c9e61",
-        "duocolor": "fb635531bfee32cb2584a5253d868d151ba5623034127b731060189baebfa3f7",
-        "duotone": "9926c4cacb3cecc7dea5207a6170d5c9e55de3c7adfe1ebe8cdad33ce63fe96f"
+        "regular": "82d0d63640211251330739d6bf659767324c11d096eb5ecd68b38ae446946c79",
+        "filled": "0661eae4873ccb11fdeb58b7ec2244d8ece6894bbcd9905ca7f5c45f4eb3d010",
+        "duocolor": "12b12ec04430c819635ae3253619299c4f16d0e1b416ab9242874e643a0d51ee",
+        "duotone": "70bb29eae884f726c524804909790f9b203eebc903e19b3cc939fc852843d2bb"
       },
       "duoAuthoring": {
         "version": 2,
@@ -27673,10 +27868,10 @@
         "duotone": "icons/duotone/dolphin.svg"
       },
       "sha256": {
-        "regular": "a580b2d473660c33ac2ff03426f97f4d4fabac707d9b3c41f819e04dffb4f2c3",
-        "filled": "ead405b564dea933bbdca8b769bc1169f612f61893a5341c6b682f020b835ed5",
-        "duocolor": "1ae6f03a86db8d381d13b081e7ac6aa5a605e64c611ab4c495d09b9ab0559885",
-        "duotone": "abf90002c49173923e88602cb6def6d85f645d33ca751269bee484439feee8f8"
+        "regular": "b60381c23a58fba67ddeb2fd5c33e75dc71ce04ee258a805064efb82f952b6b7",
+        "filled": "df6868e787d93cbb0f5d5400cc7094290f6f4aec700261d2a59993f0c997e0ec",
+        "duocolor": "921a1290ff067a368ad6b75e080d374bbf2d4bd196fa398eb9994891e7b6bc2f",
+        "duotone": "9f090a5f7fb554c1145e7aed128db0d685abe96146e54e61926c8621c57cbe20"
       },
       "duoAuthoring": {
         "version": 2,
@@ -28505,6 +28700,45 @@
       }
     },
     {
+      "name": "drill",
+      "category": "Professions",
+      "tags": [
+        "power tool",
+        "construction",
+        "screw",
+        "diy",
+        "cordless",
+        "bore"
+      ],
+      "aliases": [],
+      "componentSet": "201:41949",
+      "source": {
+        "regular": "201:41950",
+        "filled": "201:41954",
+        "duocolor": "201:41956",
+        "duotone": "201:41961"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/drill.svg",
+        "filled": "icons/filled/drill.svg",
+        "duocolor": "icons/duocolor/drill.svg",
+        "duotone": "icons/duotone/drill.svg"
+      },
+      "sha256": {
+        "regular": "77e07457d92b4ed912baa6a1b048ad82e856b08a6ccaa245657d4969a0080b80",
+        "filled": "c1f8f33466e80b291def6544a725b1dcef23c78443943b4bf7b537066b8a738e",
+        "duocolor": "088dd79ccda718442f3ce375533a7408195d042f092cf115ca8968ccd99be2b1",
+        "duotone": "600deaef8b85c172c17c6f8be0330c5b280821769d49b54eb8078354ba1c054c"
+      }
+    },
+    {
       "name": "drone",
       "category": "Transport & space",
       "tags": [
@@ -29292,10 +29526,10 @@
         "duotone": "icons/duotone/elephant.svg"
       },
       "sha256": {
-        "regular": "88982477f8cf13516fb85d76921d80b6d4fec35b2a25f5890e284170cb8a57f3",
-        "filled": "ca97b173b925037ffbc4bbd0f6bb8186bc5b2a04bc39653df8c8a598663bf35c",
-        "duocolor": "b2798bf33a47382d6cacefe98fdcaf92a9f5a92f8b6857745cabf4601eaf3398",
-        "duotone": "7d4042f341957e74006fb9d258e18321e52cf9ef79ce431713bdef49ff8e87dd"
+        "regular": "a63e21f500810e7e543f2401447a344a902d83130eb083567dc80c91e6d75888",
+        "filled": "6c3a1552a09164966e9df4de662aba748d6cfc4003cbc0488fe572f5a30c7ca3",
+        "duocolor": "f767e79866d2509b0a37c23d424976579746ae63d74d30fe65d59ddfb3361781",
+        "duotone": "5b3a2d8f758f31927d94c334940bb8aaa43acfd3dca6394209281c74a2a5e95c"
       },
       "duoAuthoring": {
         "version": 2,
@@ -29626,6 +29860,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "excavator",
+      "category": "Professions",
+      "tags": [
+        "construction",
+        "digger",
+        "heavy machinery",
+        "earthmover",
+        "backhoe",
+        "dig"
+      ],
+      "aliases": [],
+      "componentSet": "201:42068",
+      "source": {
+        "regular": "201:42069",
+        "filled": "201:42073",
+        "duocolor": "201:42075",
+        "duotone": "201:42080"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/excavator.svg",
+        "filled": "icons/filled/excavator.svg",
+        "duocolor": "icons/duocolor/excavator.svg",
+        "duotone": "icons/duotone/excavator.svg"
+      },
+      "sha256": {
+        "regular": "70c0464285fd30fd2c7e2d0dccecbc30755b10cbbb4391cfdbea7c5112102099",
+        "filled": "0614848dd2b74bef23206d7d927c90306b7b774f682f6fa19cab05547df5f5f1",
+        "duocolor": "4c96b1c85a8150ca271816559f7ea11c812a98620d3487668deb675a43306c6c",
+        "duotone": "3c1816ac049db54285edee8a508ecc61f8e7e4dbfb1faceea0667beab06438ca"
       }
     },
     {
@@ -35025,10 +35298,10 @@
         "duotone": "icons/duotone/fish.svg"
       },
       "sha256": {
-        "regular": "c26d7d28d20dff426919c4493bb6f5b24b37e77ebcd011cc5227da387c118308",
-        "filled": "b4972f33ff9068bff64b0564a414206309450684de50d11dcd3abd9b20cd4349",
-        "duocolor": "4c2f690d7251b898f76f9a461e20e0adc01c18bf2bf6ade21c4868d9c20a3da1",
-        "duotone": "654b4237f4024dedea77f9f34ccd226c308da3d2a2db615784a4cfca2a4adcc9"
+        "regular": "a918313e7728746ad1e88c14a546d36310b43783525db4f727b60ea82d2225b6",
+        "filled": "ff863c8918c7755a5f7485a77a62d3b4580b3a065302a161875e13aa9d6aee2e",
+        "duocolor": "b292253779070ad9d997914fd27e283a0f4e4dee923ceed0e10c047f46d08217",
+        "duotone": "dd72ad621ba0e9fc6c352f62622ef58feeb99db3202e50b64f3c4842f207b9f7"
       },
       "duoAuthoring": {
         "version": 2,
@@ -35497,10 +35770,10 @@
         "duotone": "icons/duotone/flower.svg"
       },
       "sha256": {
-        "regular": "8f44948e8316774b857bcbe4059a4ef5581ce0c4f37a7834d89fa942bd2b6014",
-        "filled": "ba8d53c317dc2ab0ecc683e13ea4da23c3dabd884025932b5d85fe7e24d49590",
-        "duocolor": "d3d1c3ccda15592a17b46a35e7ad1797f315779c456bc9b4aac9d5e40ffcd087",
-        "duotone": "5b4caed2b2e3b5d22a08c34943055dea3f2378f2afa1d3d55d3fe868fb05da74"
+        "regular": "f17b104d0050875cac5fe78bf4b595ea61afcf456121ce42213bfc45497340e4",
+        "filled": "b277e1df59353b5ef3749d22113bd0bf908209d2742058fff3635d43f6051e55",
+        "duocolor": "507dc3a981521ea6af02a075644720ab77d536820cf9b53c9141fd38c97aaec5",
+        "duotone": "1d1e6e984526212e5920c3e7b0338c2bbb510c1fab01c2cdacd309e51a80f10b"
       },
       "duoAuthoring": {
         "version": 2,
@@ -36947,7 +37220,7 @@
     },
     {
       "name": "gavel",
-      "category": "Workspace",
+      "category": "Professions",
       "tags": [
         "judge",
         "court",
@@ -36982,10 +37255,10 @@
         "duotone": "icons/duotone/gavel.svg"
       },
       "sha256": {
-        "regular": "277efd898807534f10e57917ac6a951e1b7627ccb844348b081580d4df7dc7be",
-        "filled": "64fbfd16a9b41925bbd66c9e45d79b5ad69bd05f9df943e10d3166750c785007",
-        "duocolor": "7050a21f74e7d383d1f28e044bc21d8086c6b3702db95e690051982d3aa50931",
-        "duotone": "702157f35468bafb11918502f91e9dbf3a07d506895cc29eac1a8aaf712bf60f"
+        "regular": "6badb029fb7f5dc2a231601a9ea61ba06a9aebb4009a4330ec9b65fdc07ca095",
+        "filled": "2db757ad206b2d954fa984b4e9eb48e17f6d20de98c600d470882c301ac97022",
+        "duocolor": "7023479548bf1ea1e38d2f9a0fb27971432090e86d6bbd3af2f38a87a52f9742",
+        "duotone": "30a6458386d2fbb8c5b041984ca01ffe6bfab228c26165849af49902dec1338d"
       },
       "duoAuthoring": {
         "version": 2,
@@ -38384,6 +38657,45 @@
       }
     },
     {
+      "name": "hammer",
+      "category": "Professions",
+      "tags": [
+        "construction",
+        "tool",
+        "carpentry",
+        "nail",
+        "build",
+        "diy"
+      ],
+      "aliases": [],
+      "componentSet": "201:42035",
+      "source": {
+        "regular": "201:42036",
+        "filled": "201:42040",
+        "duocolor": "201:42042",
+        "duotone": "201:42047"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/hammer.svg",
+        "filled": "icons/filled/hammer.svg",
+        "duocolor": "icons/duocolor/hammer.svg",
+        "duotone": "icons/duotone/hammer.svg"
+      },
+      "sha256": {
+        "regular": "059f4e819f4b96c946bfccf3fc7d76492f46567a8ce2c3bd7d4de9393a92c878",
+        "filled": "df991139fdb6ab710ff2934b1ecbabbf1ce041724f18fe0a542a7386b157c54a",
+        "duocolor": "2df750a60ffff5c7f2755a7308c9446553264acd5c7324e8b2d6447c9ac6e6ef",
+        "duotone": "e81e6d163e0ad40ead414636dce3a712b3321ddaf79ff18e5959476e5befbfea"
+      }
+    },
+    {
       "name": "hand",
       "category": "Health & medical",
       "tags": [
@@ -38647,6 +38959,45 @@
       }
     },
     {
+      "name": "handcuffs",
+      "category": "Professions",
+      "tags": [
+        "arrest",
+        "police",
+        "crime",
+        "restraint",
+        "law enforcement",
+        "detain"
+      ],
+      "aliases": [],
+      "componentSet": "201:41291",
+      "source": {
+        "regular": "201:41292",
+        "filled": "201:41296",
+        "duocolor": "201:41298",
+        "duotone": "201:41303"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/handcuffs.svg",
+        "filled": "icons/filled/handcuffs.svg",
+        "duocolor": "icons/duocolor/handcuffs.svg",
+        "duotone": "icons/duotone/handcuffs.svg"
+      },
+      "sha256": {
+        "regular": "cdffe0cc018331cfaffecd0245797de4376f2bd0dfe70722408c296947fb5296",
+        "filled": "f6cf27cb0c02c74739c2c0ab6a668309767d9978550c4c267085e32ea5236736",
+        "duocolor": "077248a8c18292ec91edb30c44091d9f8357381bc55edffc8c8950fcbdcde635",
+        "duotone": "fd95192f9fe8dac583d6149ca2b862e5f836b2c92966b35dcd07e7d59ed7af3f"
+      }
+    },
+    {
       "name": "handshake",
       "category": "Data & commerce",
       "tags": [
@@ -38749,6 +39100,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "hard-hat",
+      "category": "Professions",
+      "tags": [
+        "helmet",
+        "safety",
+        "construction",
+        "builder",
+        "worker",
+        "site"
+      ],
+      "aliases": [],
+      "componentSet": "201:41737",
+      "source": {
+        "regular": "201:41738",
+        "filled": "201:41742",
+        "duocolor": "201:41744",
+        "duotone": "201:41749"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/hard-hat.svg",
+        "filled": "icons/filled/hard-hat.svg",
+        "duocolor": "icons/duocolor/hard-hat.svg",
+        "duotone": "icons/duotone/hard-hat.svg"
+      },
+      "sha256": {
+        "regular": "e0678384e9b4394316fa735f46de7f192cb24ffeda33c958745b8dfa1ecffe20",
+        "filled": "c9f24c0423cc7cb2aa83cd812d836fcbb6cc9fa9d0240d622d7d2e2a2e6710e1",
+        "duocolor": "f57f6c70c35a162af57e9ce6d738830b95eb94b0c8cfb400c0a4efbac02e0e50",
+        "duotone": "70bba7149c747c661ebecde08a836c0fc0cf76cc82db57408f507108f0c10ace"
       }
     },
     {
@@ -41127,10 +41517,10 @@
         "duotone": "icons/duotone/horse.svg"
       },
       "sha256": {
-        "regular": "82c18ef8af5f3657d9bc444021684d1774b8b42f2c15044ee7eebd9b6cfaed6d",
-        "filled": "5b7f5ec4344fd55776c5913b3d58e877b65481742447569714978ff43033b5c0",
-        "duocolor": "2a44c30fbd5712430f977a4eb991a26a6735e8cc26048d0c8a0a444ed312f215",
-        "duotone": "63978470c15c31bd1ef36edc2e45b6dc931dd2c71037dccf4c5fa1d0f2caf78f"
+        "regular": "8a88280e6868dda7ad05b57876f71b9ff5bb62c0cd920b00e9af59906e7049f0",
+        "filled": "5c43e56735f4dc9a63fb55c6d073e8b087fffae93d9bdca3b4e3693bf025bc8a",
+        "duocolor": "2c13c34cffeddfaaa61d3d1c055b01722eafc98055aab6e352dec1e8bc35adb6",
+        "duotone": "a8821924d3ff28d63c87d2f5eb295cc81674b5a470260d5dc2296094bec7d6af"
       },
       "duoAuthoring": {
         "version": 2,
@@ -44887,10 +45277,10 @@
         "duotone": "icons/duotone/ladybug.svg"
       },
       "sha256": {
-        "regular": "91517511039f55a2394c03b40bdb09e6d6dd959b8a8d9903dea138ef0ada8c1f",
-        "filled": "14dfc9b6d157851d3bf816728350422c6760d82d4eaac786b340b0907cbbb520",
-        "duocolor": "f73dba1b8c4458e5377c66c0bffa9a74c834a7fe44910fe0ce4e7fabecd07e8c",
-        "duotone": "1741783f8862585d7a08ebe5cfd3a78972a4025eabf6fd3cdd5f01f33adc2031"
+        "regular": "c48872875643d3e9ecc5bd87425c0d9c68a40509c1d688a599b809dc039f83b1",
+        "filled": "1d2c5abcf532893fffedf9ff60c5fc5568e28812ba4df68f834a2113bee594eb",
+        "duocolor": "7d2cad1dde02d75f19753aaaed8bed721bee17e40954ab998c4021a8cbd2b460",
+        "duotone": "9746baea18401cdbc3720fb33e497950c3bb3c9584358222dc6741fdc8aca925"
       },
       "duoAuthoring": {
         "version": 2,
@@ -46921,10 +47311,10 @@
         "duotone": "icons/duotone/leaf.svg"
       },
       "sha256": {
-        "regular": "d2d4d788a5d357b59a06dbccb2ad33d611da8acb5a35e3563a997d4d004cd6ca",
-        "filled": "953f646a3852cecd79a018b295557d4a2902416fb5d8aee6a0191eee4db04f08",
-        "duocolor": "24f6efb35c744f5c81bd89e8223d73ddf65bc1537235de84df20f87b24684f8d",
-        "duotone": "6860f2e311a9e0b64eb44242fce46e7f3be3b68b682f8953d1e6eb587e063325"
+        "regular": "b11ccb62d452be5ffd3d07db019b7e573b908ffa4900a24f48fe67060c51d8d8",
+        "filled": "15563f12ff888f1902f4d75bb5ca94bbb2e52eae6c17418e424a21c44a7fa315",
+        "duocolor": "8bebbddafc6592d95a1e82a47d8a2fb2cfcef6008707ef4b49dbe26904f57bb2",
+        "duotone": "e9e2ed14fe88a1e9554ac51e55ed0b9a39e968ef7dc73d53297c522903d58165"
       },
       "duoAuthoring": {
         "version": 2,
@@ -46977,10 +47367,10 @@
         "duotone": "icons/duotone/leaf-split.svg"
       },
       "sha256": {
-        "regular": "d98ec746842d711d88dc53f92613738887b63c6fd46bf0a47c56c79690b27e15",
-        "filled": "066e2533e05fb8d611136cba1363b8ff1f5aa434c88f0c1a1b5d2a359754c840",
-        "duocolor": "481dab3888c35caa2f0b7cc5264c3406d3546ea79f2bb0cd372771c23571e0c5",
-        "duotone": "2dc8f7b78e44cb2811f306e4da3d3d3cf317681b4e5773edede27de040d21a66"
+        "regular": "d5de073bdfada393f4800a47e9255f3ebd78a9e6d2b70b3bdecbfdba9e2b66fd",
+        "filled": "610e065c506af4b4d96823c293a6b59f024c976601a594feb5c01bfa0bed7879",
+        "duocolor": "f4c84428af79e2d9ea6d7af9afe2832ace2df7a7acb13203a003bf4ce95df771",
+        "duotone": "b840e983b159043cbd514684e84ec047b1efc2ba096f06c5e7b8d0f8cc07d2d5"
       },
       "duoAuthoring": {
         "version": 2,
@@ -47102,6 +47492,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "legal-document",
+      "category": "Professions",
+      "tags": [
+        "contract",
+        "agreement",
+        "seal",
+        "certificate",
+        "paperwork",
+        "notarized"
+      ],
+      "aliases": [],
+      "componentSet": "201:41688",
+      "source": {
+        "regular": "201:41689",
+        "filled": "201:41693",
+        "duocolor": "201:41695",
+        "duotone": "201:41700"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/legal-document.svg",
+        "filled": "icons/filled/legal-document.svg",
+        "duocolor": "icons/duocolor/legal-document.svg",
+        "duotone": "icons/duotone/legal-document.svg"
+      },
+      "sha256": {
+        "regular": "0a390d5a6c53c23ce5bb7b721e0f7da8a2ae83350857b4f87814e9bc19c4dc6c",
+        "filled": "2873000020f1afeb29450177125f173e8786602f079651142fcb3f6bc3b5076d",
+        "duocolor": "9b0301ac4608e80d2a52a88066b29b24d29ce4e2947dcf657d24dfd403c5c319",
+        "duotone": "4c6b2cf62a2f7feeeaed110e3f7997cdbc99b3c7fa245959cb4e763becab24d4"
       }
     },
     {
@@ -56421,10 +56850,10 @@
         "duotone": "icons/duotone/octopus.svg"
       },
       "sha256": {
-        "regular": "0afa6e3e28e8fe575bd19c0267e2fa9b56f4cde1dad3817dfd240bfaa47c0a11",
-        "filled": "201493d5d2dcc5abe7dc8554f9e5ca5e3c44ca8fb675b34868ed92758572972c",
-        "duocolor": "740e7304c8d6e776b72dabae09a1486160b542df3b08f8ea26a8acec2592bd7b",
-        "duotone": "c33e9b2a89996d2b9d6b0dc9e56669fda1e1e77b247fa4611f21bb7b76d1ee75"
+        "regular": "0e8fdb8127e1d3585c4620deb67c6b7155aa0a4dc062826f892a9cf6990a48ac",
+        "filled": "0002875b80ff5dedd9146dc1329aab4fca6b28311eda26019474802196e165e9",
+        "duocolor": "573a1011ee8f63d4fa4758cfdec7e6e101f279f6626bda583a4799e06c571d60",
+        "duotone": "2011e40c05530054e2645fbacae58781253533a7034d987dbb8c5f985bf6a4f5"
       },
       "duoAuthoring": {
         "version": 2,
@@ -57247,10 +57676,10 @@
         "duotone": "icons/duotone/palm-tree.svg"
       },
       "sha256": {
-        "regular": "8eb690222d43743b392cfe4e7fc018723338c7440622459f8480d4739051be56",
-        "filled": "1b314235c877b6f809e24177171cf54b4a736a9b9ef459ce84eefcf368566dd2",
-        "duocolor": "ac5e9e9b23cfba83dd8401607168253154d815c9e80a086ae7bb6dec81ead30a",
-        "duotone": "86e322efad6ee2a2451467ae3139ffd8c81b90c407d963db210b4666e03e2e3a"
+        "regular": "d9efdb2f9b0a2951d55c3a3dd26c6c38066c2106852e200e74ff4cb988c01db0",
+        "filled": "7f2a6b77fc2c9bbd89bfff30e0354dafc56aa97c7ff1645b99645691dc86a59a",
+        "duocolor": "b54cfb26bf46cfb652651b8044dc7df209a3db4f02177beb861c8cd49f5df297",
+        "duotone": "69bfc29d6affaca94b740a3c0f983c25a2afe219f7d2e5bf00e4059a33212eb1"
       },
       "duoAuthoring": {
         "version": 2,
@@ -57865,10 +58294,10 @@
         "duotone": "icons/duotone/paw.svg"
       },
       "sha256": {
-        "regular": "d2c1ce719a8a16c9fbe57e9798b74a450f7318499084029e3e0fb929ec654b87",
-        "filled": "9efccde5453912f1c1ce1c8750f8f706270e18a958f7c6da55d7a3f638d22b62",
-        "duocolor": "d3137d3975a2f7fef3c5948921d2314ad57c24ed76a363738ee2943e4578859e",
-        "duotone": "657e6aa6885d857d8ad9af185ca4cfe6e0cbe802dd216bb2a24f424413113756"
+        "regular": "496d7f9068f5af1ce7b3775a8e5afa5df859a4c60cc8fdff749a25f0c88cbe65",
+        "filled": "5ab4fa7672af125111c9143ef53939d5201bcfd706a13e6b94f4c1cc0e047499",
+        "duocolor": "570ec38bb709d4ab4291ca654a01e027bc3cfa6dea2a5fcd8fba441e2060030d",
+        "duotone": "3fb4ebcea8f4cc50b06e31a91e809055c6d1f2428a7f5d466992073da99497d5"
       },
       "duoAuthoring": {
         "version": 2,
@@ -58511,10 +58940,10 @@
         "duotone": "icons/duotone/person-doctor.svg"
       },
       "sha256": {
-        "regular": "46f1945c5680599a9ccd89e95a007d7541d766edb52dc140a0faffb4b203be40",
-        "filled": "6de6b172232b80f2fd25e7c35e49e5afbe7e0c3fbc3ca0b02e12783d1ac56114",
-        "duocolor": "e17a380f8866c49124a6d65d6e79d3e1655770c7cdd2772e6520bb534acca6ac",
-        "duotone": "473a3a32bae694a557efdf66002926b35bebac1d55744370496d42ade495ed15"
+        "regular": "650205b80dec826b568856f58447b488ab9cfb2ee4b1544235622c2a98b02ec3",
+        "filled": "06663e068811480e097e8c3e9aa3edb484958b901d88eb154a6eafb5dc7f1412",
+        "duocolor": "361007ccb2d54bef1d5a607c88b575ea029b72eb49c1bb170e6e9e4b3595fc3e",
+        "duotone": "72654092ba8bf481b6729d7da78ccd6deb11a810f5c3d5926c69b945e4635a12"
       },
       "duoAuthoring": {
         "version": 2,
@@ -58565,10 +58994,10 @@
         "duotone": "icons/duotone/person-engineer.svg"
       },
       "sha256": {
-        "regular": "b842ecaaff75dedadc2efa9ef73496455ed780506bf20dd8eab8eb9114b43b26",
-        "filled": "55ed152d975669523ab74fb9bd1752870a30a8e0deb9955811b53169723b33a0",
-        "duocolor": "c20aca2ea4c1a16fbfcc8236f6c8b45294d71915d12731208484b5f409c228e1",
-        "duotone": "e911cdd7a8e851fb261b59e638b16c2ad77415b2b3fe5c689286735f92be9a63"
+        "regular": "d5716086e95048fe97e8e6a5aac14e153349a84a2544dd7aa625f129e1e2977e",
+        "filled": "eb43491b4eebcb52b1b3493cd161010f43a1054965985bafd5a7e0481daa2767",
+        "duocolor": "baef50a3c6ce760b6b8776bb80691cc3215ede351de714dcfdf52376d686fd40",
+        "duotone": "3a53268b8cdfe5ac94cc74299009d5b611095b141a41ecc4657f6f71ed10d2c4"
       },
       "duoAuthoring": {
         "version": 2,
@@ -58693,6 +59122,45 @@
       }
     },
     {
+      "name": "person-judge",
+      "category": "Professions",
+      "tags": [
+        "court",
+        "wig",
+        "magistrate",
+        "justice",
+        "legal",
+        "bench"
+      ],
+      "aliases": [],
+      "componentSet": "201:41142",
+      "source": {
+        "regular": "201:41143",
+        "filled": "201:41147",
+        "duocolor": "201:41149",
+        "duotone": "201:41154"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/person-judge.svg",
+        "filled": "icons/filled/person-judge.svg",
+        "duocolor": "icons/duocolor/person-judge.svg",
+        "duotone": "icons/duotone/person-judge.svg"
+      },
+      "sha256": {
+        "regular": "9cf25a2060ca34ad7d4f8bc0e0afa66fd88ea52386d2eba3de8c15bf545664b5",
+        "filled": "24a8cbbcab5c40bb229c4e0aeb811c587eae4711b92583041208d35b9aee51f5",
+        "duocolor": "c0e6c3ebf8c46d3426f801887858ab5e50e22d78e86be63790844666d3dce011",
+        "duotone": "247aca6a3523baf7d83efd8da64370271a101254274184db274f8209db7da6ec"
+      }
+    },
+    {
       "name": "person-lawyer",
       "category": "Professions",
       "tags": [
@@ -58726,10 +59194,10 @@
         "duotone": "icons/duotone/person-lawyer.svg"
       },
       "sha256": {
-        "regular": "84fabec4ccda502b90ae8b082817211740ff9303772435b99dd0908a4da6f50f",
-        "filled": "fdde38a5a45ae1bd58e277ba4c43bea6055d42f9aaf15ad19d6bebf6e2dcaac8",
-        "duocolor": "dca9ebc681669b1aab4f77b5e602a2f555aa90c4eaae286c3781083fbb1a932b",
-        "duotone": "aad2011e466cfb5a26fcf8e98f7d28e1cbf35f34c5e3bf805f7cc746b63561ce"
+        "regular": "c62425b09a9ac2d88ddac3c14ef420cdc65c312421cd43a06ba5478f4704cdbb",
+        "filled": "1da286951ec6d24af3e97b6677ace39cf8e7531ba23a10042c0be48a95a8c8b3",
+        "duocolor": "5655b9271daad3a909f5a79f39251817fd428707b5030d193705bbe082a34c80",
+        "duotone": "ac98ae008a6dd71ce64e74958a6e22c61a714be64e76de9ca312030c76d285ec"
       },
       "duoAuthoring": {
         "version": 2,
@@ -58942,10 +59410,10 @@
         "duotone": "icons/duotone/person-professional.svg"
       },
       "sha256": {
-        "regular": "16b0cc381779f9b130f633fd0dda808e6bf58bcd15fe680a8e6aae8af01d53d5",
-        "filled": "2a3448c8cfdd4c709f83868da81586db58a0551af0b12bb0c53ad70da0f1f1f0",
-        "duocolor": "27bf86302c40badb4f3f1c6780f9dd3c09845abd1653f559246c05d735ad4c61",
-        "duotone": "ad8757f3de550ee569d20e3edf4088dee5f1465689ac49dae9e61cc99f179cef"
+        "regular": "bab038b7ddb88f61043319142f7c7360556df9abf9351a51fc422edefa0b98bd",
+        "filled": "3f6e0115564aa63ecfbf3c9a0d7ba1f06d4ad6cb5926f8402e3531cc5c3196ae",
+        "duocolor": "b53a6db034b3eae32da71fe301b09153aa8480242bc0b704af8dc7fe76f51763",
+        "duotone": "0a3578d7510df71d23ba8bae68527d6dfc4a47a6fc31d693337e7c33a444eff0"
       },
       "duoAuthoring": {
         "version": 2,
@@ -59943,6 +60411,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "pickaxe",
+      "category": "Professions",
+      "tags": [
+        "mining",
+        "construction",
+        "dig",
+        "pick",
+        "tool",
+        "excavate"
+      ],
+      "aliases": [],
+      "componentSet": "201:42002",
+      "source": {
+        "regular": "201:42003",
+        "filled": "201:42007",
+        "duocolor": "201:42009",
+        "duotone": "201:42014"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/pickaxe.svg",
+        "filled": "icons/filled/pickaxe.svg",
+        "duocolor": "icons/duocolor/pickaxe.svg",
+        "duotone": "icons/duotone/pickaxe.svg"
+      },
+      "sha256": {
+        "regular": "d1e84e60045d7b50b455749205022b3cb9a3de03fb09297fe6797d34623af562",
+        "filled": "5655cf355cf2de7390fdb2a517028d8cf36e6b2b234c43adc656dc1933f832d0",
+        "duocolor": "dd43e4a2422718d84eb5a2d2f7677a977f90f1e20b03b8fd04b61ae2592964e5",
+        "duotone": "7bae7129bea60ad60a42fd849c03780401e47066738973803de76a8065ea8481"
       }
     },
     {
@@ -61133,6 +61640,84 @@
       }
     },
     {
+      "name": "police-badge",
+      "category": "Professions",
+      "tags": [
+        "law enforcement",
+        "officer",
+        "shield",
+        "star",
+        "security",
+        "cop"
+      ],
+      "aliases": [],
+      "componentSet": "201:41361",
+      "source": {
+        "regular": "201:41362",
+        "filled": "201:41366",
+        "duocolor": "201:41368",
+        "duotone": "201:41373"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/police-badge.svg",
+        "filled": "icons/filled/police-badge.svg",
+        "duocolor": "icons/duocolor/police-badge.svg",
+        "duotone": "icons/duotone/police-badge.svg"
+      },
+      "sha256": {
+        "regular": "3aa4ea584b2079ad10f5fff59f5117f05503fbf885edfaab59224160e4d097d9",
+        "filled": "3409eb96ccf99c4ff332526a90e5991322e7c2d7485dd64bfb6e50909036190b",
+        "duocolor": "f2f065c249cc13841c29dbb5069415f5b3301f8ce68bd42dc3ecab2dadf75d40",
+        "duotone": "9ae3d4587f92de9521856d99fbb6f901f94a5c91d30eede2d6d07d13ccad97bd"
+      }
+    },
+    {
+      "name": "police-cap",
+      "category": "Professions",
+      "tags": [
+        "officer",
+        "hat",
+        "law enforcement",
+        "uniform",
+        "cop",
+        "security"
+      ],
+      "aliases": [],
+      "componentSet": "201:41395",
+      "source": {
+        "regular": "201:41396",
+        "filled": "201:41400",
+        "duocolor": "201:41402",
+        "duotone": "201:41407"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/police-cap.svg",
+        "filled": "icons/filled/police-cap.svg",
+        "duocolor": "icons/duocolor/police-cap.svg",
+        "duotone": "icons/duotone/police-cap.svg"
+      },
+      "sha256": {
+        "regular": "c002b14a66e9efb74cd6195ce513ad06c3655dd23f50a4cf85903688b80af48a",
+        "filled": "b18a7c4a16f55a2e7794547daea333f8a4763e7a4d3c9c338616165f09577a4c",
+        "duocolor": "9b55771694e2b7c6d1971de7913fc16ff2ea201552b2a4501fa2593c7530ae8b",
+        "duotone": "cb0fb813d9148b59bce966b002f2f1b432d768e06838e8c8ffa7e809d03a8db8"
+      }
+    },
+    {
       "name": "power",
       "category": "Media & devices",
       "tags": [
@@ -61400,6 +61985,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "prison",
+      "category": "Professions",
+      "tags": [
+        "jail",
+        "cell",
+        "bars",
+        "incarceration",
+        "crime",
+        "detention"
+      ],
+      "aliases": [],
+      "componentSet": "201:41439",
+      "source": {
+        "regular": "201:41440",
+        "filled": "201:41444",
+        "duocolor": "201:41446",
+        "duotone": "201:41451"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/prison.svg",
+        "filled": "icons/filled/prison.svg",
+        "duocolor": "icons/duocolor/prison.svg",
+        "duotone": "icons/duotone/prison.svg"
+      },
+      "sha256": {
+        "regular": "5ec417cd8f015f1e592e09ce457c17eb5b4793a56aca9704fccc6f1cec93917f",
+        "filled": "c4c5f25b6521d3249e595c61de229f92f0daf68cdee68735e1af1a5b82406b89",
+        "duocolor": "62a396a01accaff3e90ddc104439d283bd1b3f7401f9ede47ddb480279da4a82",
+        "duotone": "2a115fbeb4fcad17e19c0b622275ad66f01a6f5ba9fb9ca2d7f499c49a8a7d4c"
       }
     },
     {
@@ -61858,10 +62482,10 @@
         "duotone": "icons/duotone/rabbit.svg"
       },
       "sha256": {
-        "regular": "ed6ba31375fe7b6ec8d741c85a1a997eb8100b4bdcfda371dbd41ff9a1fb23ef",
-        "filled": "a50fa5ca222198f824cffddaa3ebf9e5a297718e83c553fd1f5abfca703d76f3",
-        "duocolor": "a7d449ea71e877c8ea8b17c817a9d576d2dbacb5cbad2ec322255ed3cc96d2ea",
-        "duotone": "b9e2d9b1b190d4a11a3c35ac86454623920923e7daf22fc084d87befc8bf05e5"
+        "regular": "d11aa5efbce850c882c07c320ead25d6cab9eb0c5102145da4bf10070083bbc8",
+        "filled": "0fb61581f372b00c0b487e9224d62600da1148bf4f20ffd3cbcfd9aedbb18ea4",
+        "duocolor": "1687d765dbc7442ea7fd8f36173752cd376cf37326f2f039f1494cb91d7a4207",
+        "duotone": "3c690582585141706a7f2d286586275c4c005b3b185b30e28abbb6ff6d208486"
       },
       "duoAuthoring": {
         "version": 2,
@@ -62625,6 +63249,45 @@
       }
     },
     {
+      "name": "registered",
+      "category": "Professions",
+      "tags": [
+        "r symbol",
+        "trademark",
+        "brand",
+        "legal",
+        "intellectual property",
+        "mark"
+      ],
+      "aliases": [],
+      "componentSet": "201:42266",
+      "source": {
+        "regular": "201:42267",
+        "filled": "201:42270",
+        "duocolor": "201:42272",
+        "duotone": "201:42275"
+      },
+      "keyline": {
+        "key": "Circle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/registered.svg",
+        "filled": "icons/filled/registered.svg",
+        "duocolor": "icons/duocolor/registered.svg",
+        "duotone": "icons/duotone/registered.svg"
+      },
+      "sha256": {
+        "regular": "87be970fb1cbd7034713cc1d1eaf5d0b4c7a210bcc6b1d839db74f799042a689",
+        "filled": "338dc8315ded938e9b3ac81ffc3abbf16d2346be7fbdf291df9adfe1576fece8",
+        "duocolor": "744fab7516c2097e9eae58e32e9864c8287bb0a690b4981ee29f04d3fc6688ce",
+        "duotone": "b44f27963a4bce45dc1120e2bc43e07290851e3cbeb7c81cfdfd3943b8f74bca"
+      }
+    },
+    {
       "name": "repeat",
       "category": "Navigation",
       "tags": [
@@ -62996,6 +63659,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "road-barrier",
+      "category": "Professions",
+      "tags": [
+        "construction",
+        "roadblock",
+        "detour",
+        "closed",
+        "warning",
+        "barricade"
+      ],
+      "aliases": [],
+      "componentSet": "201:41861",
+      "source": {
+        "regular": "201:41862",
+        "filled": "201:41866",
+        "duocolor": "201:41868",
+        "duotone": "201:41873"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/road-barrier.svg",
+        "filled": "icons/filled/road-barrier.svg",
+        "duocolor": "icons/duocolor/road-barrier.svg",
+        "duotone": "icons/duotone/road-barrier.svg"
+      },
+      "sha256": {
+        "regular": "d25bc518b756d9d55c2a27fd1125041bf708a8648cf7fad518b5a4cc17934539",
+        "filled": "032758cf718a9de319e2c832d4669cc0acf62e56ca925d54d0a5448280806bde",
+        "duocolor": "13027f3270686e6961bed26fa25fc938eadbe747ad6aa48a20ae792bb297b6c7",
+        "duotone": "f311037c70a5edf8f0e9600460e4ca9a12c4ff70fa4815de3b0bbfa14a7cb97f"
       }
     },
     {
@@ -64110,7 +64812,7 @@
     },
     {
       "name": "scales",
-      "category": "Data & commerce",
+      "category": "Professions",
       "tags": [
         "justice",
         "law",
@@ -64142,10 +64844,10 @@
         "duotone": "icons/duotone/scales.svg"
       },
       "sha256": {
-        "regular": "a50a2d4b47b3661b3e9030049d0fc5f24d8e2eee4ae31568df193eb17c88079d",
-        "filled": "954535974c0eb1a11f3a915b1a825644a7101798761fb134395a7c8ba82cdf3f",
-        "duocolor": "4cfee19fb7f453b037337965ef499e6fc9e478008adc654a3d4059ef01cb664a",
-        "duotone": "f771bbd24fe5d3f213e95031b439c78658f1d566dea643f1cd7a0c9ccbd39ce3"
+        "regular": "a0a854ade49bf68bf3e4570ad7591edc2b5ddeb8a8e98d97a339aeac0c16c9c6",
+        "filled": "93a4f6bb66c024bd6b070355aff908fd065dba25dba38da164915175382cd378",
+        "duocolor": "cb2c39d0836a99e837e814b088432d85f28a1fab4c3df6c5b359073c73d560eb",
+        "duotone": "1987a703446936abdad03dae1a9c2afc94a9600164408282fb96dd07640d7fc4"
       },
       "duoAuthoring": {
         "version": 2,
@@ -65011,10 +65713,10 @@
         "duotone": "icons/duotone/seedling.svg"
       },
       "sha256": {
-        "regular": "01ca3f2b72d06f0433bc2942bf6eafdbf9b93eebb591dc20955cfeac86b5b16c",
-        "filled": "6138f97ced61d6277960c2c2bbc203e051799fc8ada041afdd7816396dd2671b",
-        "duocolor": "9f3abe7b1cedfcd529154f1568ec20556956d12b56f4ba25eb93276738a13eb2",
-        "duotone": "06e1483ab3b3bcc68d13d36d15cad9321129af9539f37dbd54b10e58a3267b70"
+        "regular": "4b5664db4195de9cffb368f4f1b78a3a440763b58052c709128f1b692623055b",
+        "filled": "344e34ff60bbba5de7d0b7c83c470869bbe5bd1329b01478ef4f368c0034f11b",
+        "duocolor": "6b976fafcb87bc8bdf4a4ec03db97522bfc7fc555d12d5b99a49aba96bd919d8",
+        "duotone": "4a9e4d9fd1ed0d52e6ccebdabddbc4c868b692b9719db0351dcd7c4cb9eb4feb"
       },
       "duoAuthoring": {
         "version": 2,
@@ -66753,10 +67455,10 @@
         "duotone": "icons/duotone/shark.svg"
       },
       "sha256": {
-        "regular": "fca8ab677d02fa3d04e0c3e014f1b2a8cfe3be76fbbc9efc5074578c0928b25c",
-        "filled": "2cf06344d33850640674d70d8c8b85a07a20c8d3826b78b9b783fc6161f22aec",
-        "duocolor": "12fad0591cd0c809d57ab85bc01e45bff7f8b77f727d2125a1c7ddae9bd43bfb",
-        "duotone": "937b6bccae80a7a83322f13a099cabc67c10c5478472a11ce6a667ee80a5862b"
+        "regular": "70d96398ce5e0cbc84cd213a4ff45372f34ee2c661e1ef2155c744b265d36bf2",
+        "filled": "270432f4512d74e4bbfbc119d27e9c21fe65882832b05637500f00aded1938d6",
+        "duocolor": "7095119092bd86ff88991d3c51b91a91101c9ffc419b3f7cd151c7d4dd321c9c",
+        "duotone": "5b096c72be58277cc5fa7db0c975867764f80c424923c22cd58a93e283c310ac"
       },
       "duoAuthoring": {
         "version": 2,
@@ -66771,6 +67473,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "sheriff-star",
+      "category": "Professions",
+      "tags": [
+        "badge",
+        "law",
+        "marshal",
+        "deputy",
+        "western",
+        "lawman"
+      ],
+      "aliases": [],
+      "componentSet": "201:41478",
+      "source": {
+        "regular": "201:41479",
+        "filled": "201:41483",
+        "duocolor": "201:41485",
+        "duotone": "201:41490"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sheriff-star.svg",
+        "filled": "icons/filled/sheriff-star.svg",
+        "duocolor": "icons/duocolor/sheriff-star.svg",
+        "duotone": "icons/duotone/sheriff-star.svg"
+      },
+      "sha256": {
+        "regular": "1d95e1b6a7602aca05974b9d533c16edd2569b98b065ed62a6e9639d99a7e214",
+        "filled": "06c65b54256c5aab7ab70ed4060f59352d87e8851a938e5db598368b03e3a0a7",
+        "duocolor": "0681864aa0934de6848dbd99802d744c6894fda53bf4ca548cfa4a3c9c0d4d3f",
+        "duotone": "208de799e72a99eab5554a1a2e05c151e95c8a8ae777a8abf72300e9c0d49d8c"
       }
     },
     {
@@ -74533,6 +75274,84 @@
       }
     },
     {
+      "name": "trademark",
+      "category": "Professions",
+      "tags": [
+        "tm symbol",
+        "brand",
+        "legal",
+        "intellectual property",
+        "mark",
+        "unregistered"
+      ],
+      "aliases": [],
+      "componentSet": "201:42297",
+      "source": {
+        "regular": "201:42298",
+        "filled": "201:42301",
+        "duocolor": "201:42303",
+        "duotone": "201:42306"
+      },
+      "keyline": {
+        "key": "Circle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/trademark.svg",
+        "filled": "icons/filled/trademark.svg",
+        "duocolor": "icons/duocolor/trademark.svg",
+        "duotone": "icons/duotone/trademark.svg"
+      },
+      "sha256": {
+        "regular": "960164ea5e70e19c5d5b4e58b497e86a71986c58cbab8d83d3289ef67e2f7e71",
+        "filled": "3a957175f5a9ed70d458e8ccbf0aece4b670d7158c37e66f4d5ff455bdd37ba2",
+        "duocolor": "44e4db18b2f32cc13f789cd4527e28b9bb46434901f821cb66e53530df61d1d9",
+        "duotone": "014f3226903611de22f56d716a557a8f0e550f0e0994e28a6b814d1139a4670d"
+      }
+    },
+    {
+      "name": "traffic-cone",
+      "category": "Professions",
+      "tags": [
+        "construction",
+        "roadwork",
+        "safety",
+        "warning",
+        "pylon",
+        "detour"
+      ],
+      "aliases": [],
+      "componentSet": "201:41822",
+      "source": {
+        "regular": "201:41823",
+        "filled": "201:41827",
+        "duocolor": "201:41829",
+        "duotone": "201:41834"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/traffic-cone.svg",
+        "filled": "icons/filled/traffic-cone.svg",
+        "duocolor": "icons/duocolor/traffic-cone.svg",
+        "duotone": "icons/duotone/traffic-cone.svg"
+      },
+      "sha256": {
+        "regular": "a7f332056e9adf359a7b934af0ee4386385bda2dd58a4f138da2defa3fbf405f",
+        "filled": "2b2a4f3beebf1e6293683dd1667beb790af4ffd18deb4e1695d515386d0122bb",
+        "duocolor": "ac65ef1998989d048802939bf8a8c799a6ae047f48323c6783320cd459703ff5",
+        "duotone": "ca303b512a2062b30e17fccccdf1e317bfd9d36f7ed2582832ee1f7f679c0787"
+      }
+    },
+    {
       "name": "train",
       "category": "Transport & space",
       "tags": [
@@ -75097,10 +75916,10 @@
         "duotone": "icons/duotone/tree.svg"
       },
       "sha256": {
-        "regular": "d27fd8972bfacfa7662b12cc431920c9e551050a84b0687db7c1433a070f0711",
-        "filled": "42025129ba157a9e12fe63334742be3ae07a52e6239b5f5092114ec08ea38b93",
-        "duocolor": "65e5b1c285bd6921a58544ff9dd01aaa89fcd647256b6492d70981dcf460925d",
-        "duotone": "0dadb107b28d78abc7c34201f140d7a11118a71ecdf9829d5bbf2a8c614f3191"
+        "regular": "060bec7335fb4aec8913394c94ccdc68cf283d03b929ddbf46526cd6d664db9b",
+        "filled": "6e55324c8e06fdda097043095488de386025369666a46822dd6195bb3a6adc6b",
+        "duocolor": "b42d3c526ed1ffd061f01645b4614388e4d5700ec777e24d37deaec3a628f924",
+        "duotone": "f8d2965a252f293a1c00f254650ff28dce69af2bc7f068f566a039fbdf687ba9"
       },
       "duoAuthoring": {
         "version": 2,
@@ -75150,10 +75969,10 @@
         "duotone": "icons/duotone/tree-pine.svg"
       },
       "sha256": {
-        "regular": "6ed122f724062b7cde249250fa2c85b676a55c33247eed8088e263b3e4205b10",
-        "filled": "f3cd04eab2ac2dd167ff6dd81029b03402f865ea4645e68c6acd32eea92cca4e",
-        "duocolor": "7d6b48cfd30611f1dff9882c6b3ac716c2233797fd7ae21120e42b7ed3382018",
-        "duotone": "38d32acf189bd7ac733176085a750b714a70af06731d36d83a87fae2924e92be"
+        "regular": "ff85f5d9db01d143675c1ad0319be04de49cb0786804d4c7636b0102d155b16c",
+        "filled": "709a2692db91f93790e7990f5a00ceaaf6f119ad74f4a53757af5da1c820342a",
+        "duocolor": "e25c95024615bdc7326c5a91a58bd4ee44ffcf76b8ec2ee372590c3821c41fe9",
+        "duotone": "cf2f766089cc7919630a4caba944f86c6f82b125383c0631682f37ab14bdb828"
       },
       "duoAuthoring": {
         "version": 2,
@@ -75761,6 +76580,45 @@
       }
     },
     {
+      "name": "trowel",
+      "category": "Professions",
+      "tags": [
+        "construction",
+        "masonry",
+        "plaster",
+        "cement",
+        "bricklaying",
+        "tool"
+      ],
+      "aliases": [],
+      "componentSet": "201:42226",
+      "source": {
+        "regular": "201:42227",
+        "filled": "201:42231",
+        "duocolor": "201:42233",
+        "duotone": "201:42238"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/trowel.svg",
+        "filled": "icons/filled/trowel.svg",
+        "duocolor": "icons/duocolor/trowel.svg",
+        "duotone": "icons/duotone/trowel.svg"
+      },
+      "sha256": {
+        "regular": "dc949bc7fa6ba315c9e0aaf22c1da4ce8875630d1db520ead1491c9922752e29",
+        "filled": "a2b5d544c4e0461d85bf8d5c2249eec52a94cd68648bb2dcaeea6d596f6e7b21",
+        "duocolor": "1d0b07921020f5126c5416910dd69e349e3069682c86ed2308f7e306738e1358",
+        "duotone": "a895a476f7c423490b33e9d11391a8354c5a7a809821f9db51b3765e76af32a7"
+      }
+    },
+    {
       "name": "truck",
       "category": "Transport & space",
       "tags": [
@@ -75900,10 +76758,10 @@
         "duotone": "icons/duotone/turtle.svg"
       },
       "sha256": {
-        "regular": "059b4ecc086937266c25e52b28742c69dca14aa33959c9e98eedc5391d36d899",
-        "filled": "a4148aed1d7543e348515a674a028c5508ef438a02f4cb7f4b7f08a6f83bfe62",
-        "duocolor": "8e152230c85f9ab2f1a9cf113242ad5395033726ebd3364d53af0517dfce71e0",
-        "duotone": "632ea5654628a07e2fb50924ed434700b5bd7ee92f59821cb508aeebc8fbecda"
+        "regular": "0de7523d62543e41d27474ca7fd613990462f64c047670f0d9d6ae35a5e18369",
+        "filled": "fa261b23809c7cb3fb95f84eadb4024c0da6a7397e56abf90beddde7c59ca678",
+        "duocolor": "3491d3cadeca3b57a5c9a77b5a8be145af38b46a4e63445f99824cac12e0ed45",
+        "duotone": "773acd3e8a06efe230b26cd1b056fa639a560be36d26b559fab1278618361f3e"
       },
       "duoAuthoring": {
         "version": 2,
@@ -79744,10 +80602,10 @@
         "duotone": "icons/duotone/whale.svg"
       },
       "sha256": {
-        "regular": "a4a347a645b2925843bca996174f97e17f45d2327f8f6e948ff9d52261224c94",
-        "filled": "6aabf7b1d5a09ca850d005f4bd2c698b8665eec44fd965b02dfb012a75a9e9a5",
-        "duocolor": "f5ae944d44ec302dd5c8e1435f7c88f9350ad0068d1725980e522c59a4cc9330",
-        "duotone": "efcd1af663a3d036a8f164b17a87071598fb1fc87d26999a2fe420994a156115"
+        "regular": "c4d78f68d12ce335d1f5f58de66b1eb6ba06db614131c66dc22285f97f885553",
+        "filled": "284c5528814a0dbe15be1b9fe6ee54645e23f3801e2a5bb44066a34143056bab",
+        "duocolor": "1accf3d9aec33820012b9a0f17519ae0833976c8dd5be70c9bfc1b7248d81035",
+        "duotone": "1b9d5a22089bbaf5e261822229d219b14a77acef5169cbfde188de95385f2751"
       },
       "duoAuthoring": {
         "version": 2,
@@ -80784,10 +81642,10 @@
         "duotone": "icons/duotone/zen-stones.svg"
       },
       "sha256": {
-        "regular": "5944847691dd2b24c8dfc864c67aed2903f65389848a8e9021b49a6e1b03fbcc",
-        "filled": "245bfb581fa286bcdbcfd54e76eefb80380a5384b3329e4f5a76794c5694a50a",
-        "duocolor": "540be02c619eb370f84b6974dee417f604f0cb8cebf1ebeb18e8b63853977817",
-        "duotone": "b3d1e5b8637613a78a417c3d641474005af8711d331c07a6c09f17dfcba5c691"
+        "regular": "6614da5b7d6b5d25fde4368d0ac89d8c23d5345f89155552be2168bb03b2edb4",
+        "filled": "ad2d85114f5d307572baa95d72e49e34cbe6745eb1b31d0230c4fcb8ac93e6f0",
+        "duocolor": "856810ce68e1ebe000382cb091716d126a6b66e6a5492054e8cec93f44ca9085",
+        "duotone": "271a1cf9e5ae39eb82617673e8170f0510d542a262652854c9a31410457a62be"
       },
       "duoAuthoring": {
         "version": 2,
