@@ -514,6 +514,32 @@
       "aliases": []
     },
     {
+      "name": "annotation-24",
+      "category": "Communication",
+      "tags": [
+        "24/7",
+        "support",
+        "always open",
+        "help desk",
+        "around the clock",
+        "hours"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "annotation-7",
+      "category": "Communication",
+      "tags": [
+        "seven",
+        "week",
+        "days",
+        "comment",
+        "speech bubble",
+        "count"
+      ],
+      "aliases": []
+    },
+    {
       "name": "annotation-alert",
       "category": "Communication",
       "tags": [
@@ -2283,6 +2309,19 @@
       "aliases": []
     },
     {
+      "name": "bill-tag",
+      "category": "Data & commerce",
+      "tags": [
+        "bill manager",
+        "invoice",
+        "price",
+        "payment due",
+        "statement",
+        "ticket"
+      ],
+      "aliases": []
+    },
+    {
       "name": "binder-clip",
       "category": "Workspace",
       "tags": [
@@ -3453,6 +3492,19 @@
         "calendar-week",
         "interface/calendar-week"
       ]
+    },
+    {
+      "name": "calendar-month-go",
+      "category": "Time & calendar",
+      "tags": [
+        "start",
+        "launch",
+        "kickoff",
+        "go live",
+        "date",
+        "schedule"
+      ],
+      "aliases": []
     },
     {
       "name": "calendar-note",
@@ -9122,6 +9174,19 @@
       "aliases": []
     },
     {
+      "name": "gift-bow",
+      "category": "Data & commerce",
+      "tags": [
+        "present",
+        "ribbon",
+        "birthday",
+        "reward",
+        "surprise",
+        "wrapped"
+      ],
+      "aliases": []
+    },
+    {
       "name": "git-branch",
       "category": "Workspace",
       "tags": [
@@ -10101,6 +10166,19 @@
       "aliases": [
         "interface/home-user"
       ]
+    },
+    {
+      "name": "home-wifi",
+      "category": "Navigation",
+      "tags": [
+        "smart home",
+        "internet",
+        "wireless",
+        "router",
+        "network",
+        "house"
+      ],
+      "aliases": []
     },
     {
       "name": "home-window",
@@ -12917,6 +12995,19 @@
       "aliases": []
     },
     {
+      "name": "microphone-live",
+      "category": "Media & devices",
+      "tags": [
+        "on air",
+        "recording",
+        "broadcast",
+        "streaming",
+        "podcast",
+        "voice"
+      ],
+      "aliases": []
+    },
+    {
       "name": "microphone-off",
       "category": "Media & devices",
       "tags": [
@@ -13059,6 +13150,32 @@
         "network",
         "broadband",
         "wireless"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "money",
+      "category": "Data & commerce",
+      "tags": [
+        "cash",
+        "bank note",
+        "payment",
+        "currency",
+        "finance",
+        "bill"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "money-square",
+      "category": "Data & commerce",
+      "tags": [
+        "cash",
+        "bank note",
+        "payment",
+        "currency",
+        "finance",
+        "squircle"
       ],
       "aliases": []
     },
@@ -14775,6 +14892,19 @@
       "aliases": []
     },
     {
+      "name": "phone-in",
+      "category": "Communication",
+      "tags": [
+        "incoming call",
+        "receive",
+        "answer",
+        "telephone",
+        "chevron",
+        "inbound"
+      ],
+      "aliases": []
+    },
+    {
       "name": "phone-incoming",
       "category": "Communication",
       "tags": [
@@ -14796,6 +14926,19 @@
         "screen lock",
         "smartphone",
         "pin"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "phone-out",
+      "category": "Communication",
+      "tags": [
+        "outgoing call",
+        "dial",
+        "telephone",
+        "chevron",
+        "make call",
+        "outbound"
       ],
       "aliases": []
     },
@@ -14977,6 +15120,32 @@
         "airport",
         "fly",
         "jet"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "plane-landing",
+      "category": "Transport & space",
+      "tags": [
+        "arrival",
+        "flight",
+        "airport",
+        "travel",
+        "arrive",
+        "aviation"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "plane-takeoff",
+      "category": "Transport & space",
+      "tags": [
+        "departure",
+        "flight",
+        "airport",
+        "travel",
+        "depart",
+        "aviation"
       ],
       "aliases": []
     },
@@ -16293,6 +16462,19 @@
       "aliases": []
     },
     {
+      "name": "send-folded",
+      "category": "Communication",
+      "tags": [
+        "paper plane",
+        "telegram",
+        "message",
+        "dispatch",
+        "submit",
+        "folded paper"
+      ],
+      "aliases": []
+    },
+    {
       "name": "send-right",
       "category": "Communication",
       "tags": [
@@ -16783,6 +16965,19 @@
       "aliases": []
     },
     {
+      "name": "shopping-basket",
+      "category": "Data & commerce",
+      "tags": [
+        "groceries",
+        "cart",
+        "buy",
+        "store",
+        "checkout",
+        "ecommerce"
+      ],
+      "aliases": []
+    },
+    {
       "name": "shopping-cart",
       "category": "Data & commerce",
       "tags": [
@@ -17136,6 +17331,19 @@
       "aliases": [
         "interface/sliders-vertical"
       ]
+    },
+    {
+      "name": "sms",
+      "category": "Communication",
+      "tags": [
+        "text message",
+        "chat",
+        "envelope",
+        "mobile",
+        "inbox",
+        "texting"
+      ],
+      "aliases": []
     },
     {
       "name": "snowboard",
@@ -20223,11 +20431,11 @@
     },
     {
       "name": "Communication",
-      "count": 101
+      "count": 107
     },
     {
       "name": "Data & commerce",
-      "count": 101
+      "count": 106
     },
     {
       "name": "Essentials",
@@ -20251,7 +20459,7 @@
     },
     {
       "name": "Media & devices",
-      "count": 121
+      "count": 122
     },
     {
       "name": "Music & instruments",
@@ -20263,7 +20471,7 @@
     },
     {
       "name": "Navigation",
-      "count": 157
+      "count": 158
     },
     {
       "name": "Professions",
@@ -20287,11 +20495,11 @@
     },
     {
       "name": "Time & calendar",
-      "count": 62
+      "count": 63
     },
     {
       "name": "Transport & space",
-      "count": 39
+      "count": 41
     },
     {
       "name": "Weather",

@@ -1,7 +1,7 @@
 # Fos Icons for Flutter
 
-Fos Icons for Flutter provides 1,492 icons in Regular, Filled, Duocolor, and
-Duotone styles, for 5,968 glyphs. It requires Flutter 3.44 or later and is not
+Fos Icons for Flutter provides 1,508 icons in Regular, Filled, Duocolor, and
+Duotone styles, for 6,032 glyphs. It requires Flutter 3.44 or later and is not
 published to pub.dev yet.
 
 Add a path dependency in your Flutter app's `pubspec.yaml`:
