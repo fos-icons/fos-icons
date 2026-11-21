@@ -24,6 +24,24 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- 16 four-style icons, bringing the library to 1,508 icons and 6,032 SVGs:
+  `send-folded`, `shopping-basket`, `plane-takeoff`, `plane-landing`,
+  `annotation-24`, `annotation-7`, `bill-tag`, `money`, `money-square`,
+  `home-wifi`, `gift-bow`, `phone-out`, `phone-in`, `calendar-month-go`,
+  `microphone-live`, and `sms`.
+- A **Money** modifier (`modifiers/money.svg`): a curled bank note in the new
+  `commerce` group, with clearance contours for all four corners.
+
+### Changed
+
+- `send`, `send-right`, and `send-up` have softer rounded corners, and the
+  midline now stops halfway to the tip.
+- `globe` has curved parallels (a slightly tilted view).
+- `gift`, `microphone`, `microphone-off`, `headset`, `headset-mic`, and
+  `microscope` are redrawn with rounder, fuller forms.
+- The `calendar-month-*` family moves the divider below the number, near the
+  bottom edge, and the number moves up into the open space.
+
 - Added 34 four-style icons from the Figma Scratchpad, including lightbulbs,
   typography tools, hand gestures, and two recycling bins. The library now has
   1,492 icons and 5,968 SVGs.
