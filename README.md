@@ -1,6 +1,6 @@
 # Fos Icons
 
-1,492 icons in Regular, Filled, Duocolor, and Duotone styles: **5,968 SVGs**,
+1,508 icons in Regular, Filled, Duocolor, and Duotone styles: **6,032 SVGs**,
 drawn on a 24 x 24 grid. Line styles default to 1.25px strokes. Negative space and
 modifier clearances are transparent.
 
@@ -112,7 +112,8 @@ wallet flap are recorded in `metadata/commerce-refinements.json`.
 Modifiers compose a base icon with a reusable glyph rather than requiring a
 separate drawing for every combination. The chooser will group actions
 (Add, Delete, Remove, Block, Edit, and four directional arrows), statuses
-(Warning, Check, Dot), access/identity (Key, Lock, User, Clip), and file-type labels.
+(Warning, Check, Dot), access/identity (Key, Lock, User, Clip), commerce
+(Money, a curled bank note), and file-type labels.
 All of them are reusable Figma components and SVG assets, including
 Sparkle, Download, Upload, Refresh, Search, Shield, and the scheduling badges
 Reply, Note, Record, Link, and Phone.
@@ -223,7 +224,7 @@ python3 scripts/compose_svg.py home-smile --modifier key --position bottom-right
 Available modifiers: `add`, `delete`, `warning`, `check`, `key`, `lock`, `user`,
 `clip`, `pdf`, `svg`, `eps`, `psd`, `remove`, `block`, `edit`, `arrow-up`,
 `arrow-down`, `arrow-left`, `arrow-right`, `sparkle`, `download`, `upload`,
-`refresh`, `search`, `shield`, `reply`, `note`, `record`, `link`, and `phone`. `auto` uses the approved Add/Delete and
+`refresh`, `search`, `shield`, `reply`, `note`, `record`, `link`, `phone`, `dot`, and `money`. `auto` uses the approved Add/Delete and
 file-type defaults. Other modifiers require an explicit `--position`:
 `top-left`, `top-right`, `bottom-left`, or `bottom-right`.
 
@@ -311,7 +312,7 @@ print(matches)
 
 ## Figma source
 
-The Fos Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`) has 1,492 core sets on
+The Fos Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`) has 1,508 core sets on
 the Components page with
 `Style=Regular/Filled/Duocolor/Duotone` and `Size=24`, with original
 Regular/Filled component IDs preserved. The separate Brands page contains the

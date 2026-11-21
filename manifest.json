@@ -10,12 +10,12 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1492,
+  "iconCount": 1508,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
-    "exportedOn": "2026-11-20",
-    "componentPairs": 1497,
+    "exportedOn": "2026-11-21",
+    "componentPairs": 1513,
     "excludedBrands": [
       "chrome-cast",
       "figma",
@@ -23,7 +23,7 @@
       "google-chrome",
       "youtube"
     ],
-    "duoExportedOn": "2026-11-20"
+    "duoExportedOn": "2026-11-21"
   },
   "icons": [
     {
@@ -2017,6 +2017,84 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "annotation-24",
+      "category": "Communication",
+      "tags": [
+        "24/7",
+        "support",
+        "always open",
+        "help desk",
+        "around the clock",
+        "hours"
+      ],
+      "aliases": [],
+      "componentSet": "199:51577",
+      "source": {
+        "regular": "199:51578",
+        "filled": "199:51582",
+        "duocolor": "199:51584",
+        "duotone": "199:51589"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/annotation-24.svg",
+        "filled": "icons/filled/annotation-24.svg",
+        "duocolor": "icons/duocolor/annotation-24.svg",
+        "duotone": "icons/duotone/annotation-24.svg"
+      },
+      "sha256": {
+        "regular": "297c216ea3d4e84ad645b70ec4a5bc99e8b6b348d2c8e9b1ce2f0564219fd121",
+        "filled": "b48e8283c2968c56189193bab0081e7b19da7f6dc94b0ef569f8732fb2ac1503",
+        "duocolor": "2f45845c258b72519d8f5cdd672a84cef2ee1d2813e31ce9510ef5b12adef511",
+        "duotone": "e4a64a2d479c19f4909856d30e3a53416cc059f32dab7a03b704ad1cf7e78515"
+      }
+    },
+    {
+      "name": "annotation-7",
+      "category": "Communication",
+      "tags": [
+        "seven",
+        "week",
+        "days",
+        "comment",
+        "speech bubble",
+        "count"
+      ],
+      "aliases": [],
+      "componentSet": "199:53620",
+      "source": {
+        "regular": "199:53621",
+        "filled": "199:53624",
+        "duocolor": "199:53626",
+        "duotone": "199:53629"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/annotation-7.svg",
+        "filled": "icons/filled/annotation-7.svg",
+        "duocolor": "icons/duocolor/annotation-7.svg",
+        "duotone": "icons/duotone/annotation-7.svg"
+      },
+      "sha256": {
+        "regular": "e5176ea0bef05f488c33fcd073e8c52ae2c9ea53414e8e6cb8ed3012c806ed2b",
+        "filled": "2d7f0d97749cc9af02b35ead6c1a3d55dfc9a3cd941fd1f809876a37eec5dd14",
+        "duocolor": "78f4eeeb7087142a1de82a48ae74cbbd88b2b944ed42ab5925640b9a18eecdc5",
+        "duotone": "953a891b5fd24926dc58b5a7877f07664223fac1d8e5943575e9a1a3c35082ef"
       }
     },
     {
@@ -9189,6 +9267,45 @@
       }
     },
     {
+      "name": "bill-tag",
+      "category": "Data & commerce",
+      "tags": [
+        "bill manager",
+        "invoice",
+        "price",
+        "payment due",
+        "statement",
+        "ticket"
+      ],
+      "aliases": [],
+      "componentSet": "199:51608",
+      "source": {
+        "regular": "199:51609",
+        "filled": "199:51613",
+        "duocolor": "199:51615",
+        "duotone": "199:51620"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/bill-tag.svg",
+        "filled": "icons/filled/bill-tag.svg",
+        "duocolor": "icons/duocolor/bill-tag.svg",
+        "duotone": "icons/duotone/bill-tag.svg"
+      },
+      "sha256": {
+        "regular": "9e541acfe5d741bc31ee4fbff5c9a79f902eacdfcd01103bf9f5b5a0db59bd89",
+        "filled": "d18b58fda3c671d01938e38e9da2980fa7d319bfcb4568c9ed7255c02e5e099f",
+        "duocolor": "e6de1918230c247c4d0434a4d14b634f6d7bc1d63923d863f4295aa778bbba65",
+        "duotone": "6223bc64d6ccf85bef9ef2e00b58a31fb54a2ad8d13ce7017de9e5808daff58c"
+      }
+    },
+    {
       "name": "binder-clip",
       "category": "Workspace",
       "tags": [
@@ -13463,10 +13580,10 @@
         "duotone": "icons/duotone/calendar-month-1.svg"
       },
       "sha256": {
-        "regular": "7873088671e762e96e9d37098670a93cf426326cd57ef168d0691886545eadab",
-        "filled": "8942b4380bb532ffa5adb5007b02c0f0c206ebc7098b44f5b4161c2adc5a4ab4",
-        "duocolor": "2be963e1e210eefaa8888146d94d4e008cdce16c53e280a44fb33cc5aeb8e54a",
-        "duotone": "7c2ceaf0bf3cda6c935a319d02f193ccbacd4a248a9a5c1af6f8b35b71096642"
+        "regular": "02505819175d60933062ce7c9c0181c8201316c714982a2ed1fc64c43833b154",
+        "filled": "689276739e60a173e8ae3642ca2bb0cb3a7b7607fbfa82f4c3a3cc5b4c0498ad",
+        "duocolor": "5fb6854c70be2dd87fe4dc8daa86621dfaa71f2b0b2cc589ed9a8b802d0eb307",
+        "duotone": "f7a92f50bac25888de2f8290801ce30a9feb5ecc885c9a42054c5cf0a091060c"
       },
       "duoAuthoring": {
         "version": 2,
@@ -13515,10 +13632,10 @@
         "duotone": "icons/duotone/calendar-month-25.svg"
       },
       "sha256": {
-        "regular": "ec8487976ec5d006b03eac96d6a0218cec4bbebcdaec7bbefff2d844e1539e02",
-        "filled": "329093796f222b31d573036a358ed47a74f81bc3af4bf2b065ea92b3edb3ae28",
-        "duocolor": "f038832a59276248c01192970c5e2d2608f8cf867ffd0417e05162bfa2a248de",
-        "duotone": "4e288d253a3f70679b12efe0175b7a1eeb4d7258c64d75081f374b9bdd22b1dd"
+        "regular": "db8ada3d4feec0ffbafc000bd1faab077f67af2e9d654351c0a0c5caa3458ad7",
+        "filled": "a3d1a9d72a31c5614ece92cf1795518003b7143357bd24582b738347f05599d6",
+        "duocolor": "62476eb32d5e2a5d174bc0f2c8eea7509f5bddc7509803eba7095f87f4d9a301",
+        "duotone": "98196f35721ca8a6581da1fc4052630b269c11a0f237e3b3aa08e7b26e292e8a"
       },
       "duoAuthoring": {
         "version": 2,
@@ -13567,10 +13684,10 @@
         "duotone": "icons/duotone/calendar-month-28.svg"
       },
       "sha256": {
-        "regular": "7f572b0bbebbd468c8fc698331c984303a5585f8ff3e7a33cb1200ae16411c10",
-        "filled": "509eddaaeb28b0b59af8137da064fe0f20adbce625c708810339513255996704",
-        "duocolor": "21e92d98b01d89b079d54dd0bd2948bfc80218e4f01e62a36c8f11d6c7c8997d",
-        "duotone": "32f4c97015e3f0812684ceb301f703b0e9133abd4e5000520a93de38665488cb"
+        "regular": "48fd198b11e358c2bb5a5cf1bb9607e448de5c2c1bce7a3838af09ab0072a751",
+        "filled": "22b5411158926ff3ea4bd8b1ff31d89f43c6cd5b0dd959f69ac55fe1e50e93e4",
+        "duocolor": "0b6c46c262fe51852304fe21219e8594956b6d1454381e4f7bc81d9afab7458f",
+        "duotone": "65eb3cd6a7252316599295e05f847dc6959e012067eb6ce01c155b03094ef7eb"
       },
       "duoAuthoring": {
         "version": 2,
@@ -13619,10 +13736,10 @@
         "duotone": "icons/duotone/calendar-month-29.svg"
       },
       "sha256": {
-        "regular": "dccf7121bd4c33d250bc8c82a591963ed81022cf1ffa340e15d7bcaa1cf4627c",
-        "filled": "6676d14d0908a15958cc5b6f9330aaa4734fcc89c4bbcfd32ce0594eabc66242",
-        "duocolor": "6c1db0046a277b826c9c1f86f09868bbe67725ce509a0952da7f9e1effcef8dd",
-        "duotone": "225057e283afa573eb9ecfdf14e3e61a85d5f2f5fc22c2510acabd9fbd76fe64"
+        "regular": "40156e6e8226b9806dbdd44daf2ab9bb133db42753b19fa0797a80d3698d3237",
+        "filled": "3f275cf784c8af62deb331ded42ec76c62420501e0cb6d35e939451c6e6e06fd",
+        "duocolor": "d8f18a45aa7b092bc5092aa8b898b9f0807a772c93f871875a280dadb74ed839",
+        "duotone": "7cc21478ba1aeb0e0cc55ce5df3cd96c186a9a1ddcf5037233de71dd286cb4d7"
       },
       "duoAuthoring": {
         "version": 2,
@@ -13671,10 +13788,10 @@
         "duotone": "icons/duotone/calendar-month-30.svg"
       },
       "sha256": {
-        "regular": "b9fd4f002764a342ac16a2bea8186d0e06eea0e16d777b432eda165f6280503f",
-        "filled": "4f21bf8c6249a8ed4b955fcd6d7f1cd9697f7dee5f5480736477bc637ebbcb9a",
-        "duocolor": "312ed40a1f28cc99a46c7ac860c606816fd7384b5352567d6934a82167b388a7",
-        "duotone": "0bfe350eba80a9461e118d27e6e785a3fc2067fd94445291e5e9b34b2904a496"
+        "regular": "2d7e9fb41513ee95b7190f7a36455c1a1a87824b114f4477bfaadc39f1ae56ea",
+        "filled": "bc42f560a4ad00121e9fe64bf77be1d6f1258570fde260d2694e7a8a2ab36e75",
+        "duocolor": "5514bdc0907e8ac312bcaea7d6e2df35512efe15f2e20bc93fd9d0752f90fd32",
+        "duotone": "a52b383d8fd4f392ae4255fb51f4795e302255b604ba781b09babefd0eb65f9c"
       },
       "duoAuthoring": {
         "version": 2,
@@ -13727,10 +13844,10 @@
         "duotone": "icons/duotone/calendar-month-31.svg"
       },
       "sha256": {
-        "regular": "ba88109cf07eeddb37decd2a576258afe5890dbf41296fcfeb4dec47ea7519c2",
-        "filled": "ac7199d742c996467d4188b07c864cde8802cc088c05afb4018759edc71634a7",
-        "duocolor": "8e9a88cccf3fdb3d2a2108c58209f9d6eb55de221f062ed7a90402997a2ec99f",
-        "duotone": "2ea06257a7074edc2049331346ae6e8145918965656c2c2db651777d26a086bb"
+        "regular": "b51d8989aeea6033c6d46d419196b2c81070d5dc5b47557f573f4007b2e25359",
+        "filled": "b8c1493704d649d7745b08f6f109ee6a0032dee717f8ab6a295fd90e125f4d38",
+        "duocolor": "e9e7bbce89ac9424eebead77861a39b5c412d542074adb4d4b8cbf18749408a8",
+        "duotone": "674a33ce7cc899305e5c2abd896b6d9d8093beb4824f8c1e2e4dadf196654d81"
       },
       "duoAuthoring": {
         "version": 2,
@@ -13779,10 +13896,10 @@
         "duotone": "icons/duotone/calendar-month-5.svg"
       },
       "sha256": {
-        "regular": "facf1d0bc5624ad6ccda212942568540585ab40cf5a50b4ff167fbb041ea8308",
-        "filled": "108a8fd091e0cc75318b3e8027cb7c7c5134dbe3caa0ee57388c3cb989a18911",
-        "duocolor": "af4162a4f07d35f95cb4f0f4f79bf018e678661a851e7fbcb907aa3504757c4c",
-        "duotone": "74ad3a0b7405c5c913765da7c0cb6ac875e789f7a06827872ec0eebd18cee6bd"
+        "regular": "62f321420f1854efd6d629b8223bed05a008d803260766a65291f9e04947319a",
+        "filled": "7ba1965fa363bade012136e88d7b621e52641605791fb04e230cbb3641151d9f",
+        "duocolor": "a9e6ab738586aa6e5c40dc20ce72059d4c6e3cdac205efb5824a01844b31b79d",
+        "duotone": "b1eb82ee1d6d8edd317da7d0769cfccb4450a9df6622566c70adec08ce5d7088"
       },
       "duoAuthoring": {
         "version": 2,
@@ -13834,10 +13951,10 @@
         "duotone": "icons/duotone/calendar-month-7.svg"
       },
       "sha256": {
-        "regular": "bd4e4ee7b5c63ce42aa008d20496aa076801d1ffd623fdb019d3e35fd96a635c",
-        "filled": "5f96e23c7b5849a7d5971f1e2c019cc5ef10bdb35a17cf2287b9be7411995fa5",
-        "duocolor": "52fffce8cd61dbfeef2a20609abdb417de9c455467214bbfd7139a4d49e8c621",
-        "duotone": "9945c85dadc587b2797b3cf7e1a75319eb4fd2ea0edb312f0c6ba4d1b06a8814"
+        "regular": "6f5a72e12090b4aabccfc4b6fefb8c39db079bc52bc8a43b6004609eb78f42bc",
+        "filled": "6776e5ab9bada673b1c39acd37cf4bc86fb7f259a28668ceb9b005ac8226baa5",
+        "duocolor": "3765079765e61603263f6e2fbb433eb96590fb771744d19a0be2bfd1467b713f",
+        "duotone": "8226126cda4106966ea760c6414e55cde1e0a9d747395f7b4b7d6fef43890ec7"
       },
       "duoAuthoring": {
         "version": 2,
@@ -13852,6 +13969,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "calendar-month-go",
+      "category": "Time & calendar",
+      "tags": [
+        "start",
+        "launch",
+        "kickoff",
+        "go live",
+        "date",
+        "schedule"
+      ],
+      "aliases": [],
+      "componentSet": "199:50150",
+      "source": {
+        "regular": "199:50151",
+        "filled": "199:50156",
+        "duocolor": "199:50158",
+        "duotone": "199:50164"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/calendar-month-go.svg",
+        "filled": "icons/filled/calendar-month-go.svg",
+        "duocolor": "icons/duocolor/calendar-month-go.svg",
+        "duotone": "icons/duotone/calendar-month-go.svg"
+      },
+      "sha256": {
+        "regular": "34d5d6821027e63332bc4ca6c3e7acaad519fa7e1daff1c6e9f526587d8b03fc",
+        "filled": "7bc625c365bf623ac0a726ed71ce22ec21ea38638a5e3f3341d750f1ad8be473",
+        "duocolor": "7d47aad37ff01f1e766444bca4965c68491bc8073566b08cb0db8f8f6321504e",
+        "duotone": "72c7c28173cd868592391fb107582daf1b4bfd4b4d6ec4a4c635b3f632d7a4b4"
       }
     },
     {
@@ -36881,10 +37037,10 @@
         "duotone": "icons/duotone/gift.svg"
       },
       "sha256": {
-        "regular": "f7f4d872478b165a35b2b12c0858dad218a3f88b557556d64b33ba3f2d824e6e",
-        "filled": "c6d923548d1496590e5dc59b0804ddbe104d904acc87c2c0cabcbd0ef19a2b0d",
-        "duocolor": "337c96bc406dcae5c999b9bc9ffd22b81ae0c145414faffdfaf995f8d1b64ac7",
-        "duotone": "e8715a0eb9ecd3eb0258fa4d84cd94a6e3f587762d36a9afadc6f0e8916d78c3"
+        "regular": "50caa4023a90a6fab92020488dd04bddd6014ff4c9c35e99632cf4d6361b1495",
+        "filled": "51f4824f34aa330d8b8cd4f485dfd4e37930754fd32638a1ad4625acfcc94edb",
+        "duocolor": "2de1cf444a5216da60b89452034e8db15e1af0b52d4f18ced6372492c63fd5c9",
+        "duotone": "cd6d23c524106faf2c77fda048151ce6b04902617d2ba992b6d020b37cd752fb"
       },
       "duoAuthoring": {
         "version": 2,
@@ -36899,6 +37055,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "gift-bow",
+      "category": "Data & commerce",
+      "tags": [
+        "present",
+        "ribbon",
+        "birthday",
+        "reward",
+        "surprise",
+        "wrapped"
+      ],
+      "aliases": [],
+      "componentSet": "199:50898",
+      "source": {
+        "regular": "199:50899",
+        "filled": "199:50903",
+        "duocolor": "199:50905",
+        "duotone": "199:50910"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/gift-bow.svg",
+        "filled": "icons/filled/gift-bow.svg",
+        "duocolor": "icons/duocolor/gift-bow.svg",
+        "duotone": "icons/duotone/gift-bow.svg"
+      },
+      "sha256": {
+        "regular": "4645d849877de3775068ab7ec835fbb2d3eae2a1b1d24a38f26aceda8bb05684",
+        "filled": "cccc124526f0759ed71bd6706d11372db6402834d60b491506d059045cb86d71",
+        "duocolor": "561bd33ec5af4cfbabfda7b83e7b71fdae584cc692dcfc558ad72aefc3060904",
+        "duotone": "bb9b68e15c1d5703caaff827bd903bc1422ed8f96deaadeee5ff0cbeaf936b64"
       }
     },
     {
@@ -37255,10 +37450,10 @@
         "duotone": "icons/duotone/globe.svg"
       },
       "sha256": {
-        "regular": "0d44cfb6a6fbb3ad0d28b766e1f8290bbff2d3d7dba81c416b851f15d64901d1",
-        "filled": "a682bee02d8509e9daa4b0584614ab87b14e26a9cd188863358391b8a82dc4cb",
-        "duocolor": "c677d9aab9ed72e2f847426b17ff7cd7f49d16648c690323341abd7020c90127",
-        "duotone": "77f5264a33354d8ea57df9fadae32bf9b4e82cdc5265d6b33d2f1940fdbcaf13"
+        "regular": "c4fb5e28b28c70093adae945c1600b7a8d053167d0387ea97e5214cf3d815fcc",
+        "filled": "3df10f9655a8dd4196cd5bcb5bc379545f3e237d24be04326a36d9ec628dc1e5",
+        "duocolor": "0e31f68293b0870b2a962c0018ef18437fb4ac0fb4e091feb08a73fa71f2cb7c",
+        "duotone": "a95564fb5ccaf51afb3625f18941465108ad94efe19bb78fd6407498711f1f1d"
       },
       "duoAuthoring": {
         "version": 2,
@@ -39079,10 +39274,10 @@
         "duotone": "icons/duotone/headset.svg"
       },
       "sha256": {
-        "regular": "690e7bd1372f8f7b2ae928bc8d38b5a5f515c96e11836803392abfbf4d30b414",
-        "filled": "dbab960b0df883ffb434c6556df1544977ffb0aae0a944cc708cc51fa47dbd29",
-        "duocolor": "3cf306f5585ba874f8c6145853deae4827abc0843473b6cac2e6df36a8a5df98",
-        "duotone": "f912dc84f5137e590a77cbcc5c4e3781b8f1d5358de12090e5a68ccd37dc9542"
+        "regular": "68053203217ae1037dc8e0c2d029c0fffa026516290612913d1b2c796d52e566",
+        "filled": "8f306249f97f575e963c2ea7c2afaa13d81e4dd88d34f125d2f38702af1cddd0",
+        "duocolor": "51ac258c51ddab11346fac124f866ff47d3ec7397dc4cdd19deeec38838b8e16",
+        "duotone": "7573f03ef2cce762b2e2f4770566da2907640bfb48bcec65b48dc134389cd72f"
       },
       "duoAuthoring": {
         "version": 2,
@@ -39135,10 +39330,10 @@
         "duotone": "icons/duotone/headset-mic.svg"
       },
       "sha256": {
-        "regular": "f90398268a051cfdbb7246155145a3e830a3c19cc805520a5585e35f9f5f0335",
-        "filled": "9c8346680c77e9f9174697d7e129c59fbf0dad00bf83f9a87a5e0912ca3e7953",
-        "duocolor": "f648c1efb1c19090c6dc69d73cae5ab36a4f8826b4aedd4666fa63f3942d759a",
-        "duotone": "59cfa2d2fc3f48a3d2abdeb845bd33e66e1654f86d744283330c9f22bac1684c"
+        "regular": "2e37a10d466ec4a65df4b56ee1d8b2aecdca68d5ca989c145bc7d0990ded27da",
+        "filled": "b73fbabad31f4efe40bbc5d9ac091e4b96ecb4bfdb447ae4c2dfc53a8a5f196f",
+        "duocolor": "0c3ad2ec4d414cb6e4b6564310e7c084e0bc2c365abe0f1c3b41dc040017364b",
+        "duotone": "fae28acb5df7cb45bbb43f5540b9970fdaff2422f40143d2b722da732344e760"
       },
       "duoAuthoring": {
         "version": 2,
@@ -40750,6 +40945,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "home-wifi",
+      "category": "Navigation",
+      "tags": [
+        "smart home",
+        "internet",
+        "wireless",
+        "router",
+        "network",
+        "house"
+      ],
+      "aliases": [],
+      "componentSet": "199:50834",
+      "source": {
+        "regular": "199:50835",
+        "filled": "199:50839",
+        "duocolor": "199:50841",
+        "duotone": "199:50846"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/home-wifi.svg",
+        "filled": "icons/filled/home-wifi.svg",
+        "duocolor": "icons/duocolor/home-wifi.svg",
+        "duotone": "icons/duotone/home-wifi.svg"
+      },
+      "sha256": {
+        "regular": "2cd58d1f0c04cd7cf51747477f42a65c795c28c4ff819a8082bf5f5470e08392",
+        "filled": "0a85dd6a818d173623f714a7a4883b5ac9c82e6037d2be20fee982bae3f67f20",
+        "duocolor": "6583326a0a47b4deb6b73b7ed84ee045d175e3dc063ae4f5013f2d5b5c848da9",
+        "duotone": "15ffc26009bcddd982aa5dec0288410caa0c677569f97897dbd126efb7ff9eee"
       }
     },
     {
@@ -51888,10 +52122,10 @@
         "duotone": "icons/duotone/microphone.svg"
       },
       "sha256": {
-        "regular": "081a4e77c7cf6272c9d459d295ccf4f0947d2ce72c25b375ee6910c92e072693",
-        "filled": "f9c682cda6c3238b0248baf2d17826fe7df97160e553b2273e0933ba279ee3b0",
-        "duocolor": "2cf6f4062ff0ad44404b8ae9916243cd04f79dc746973df6cbf81c4a20e6f73f",
-        "duotone": "3e3b5166ce7ec7e45748e45f8a9a7f19938dbeff516cc9780cbdb6cb7f2166a5"
+        "regular": "50dbf58b1ee82b1a0f747f9eee927913e94053d8580af4beb74bbc68ea3def68",
+        "filled": "3c1a6d2b88d3df30e0dd60b316ffd3771ee8209dde98fc56f40a1413a6ed21d8",
+        "duocolor": "827320f2081cf8e9e36e1aa3ab998b213f9e7fc2eafbc119f55aa124ada345d3",
+        "duotone": "ba958efa131d29659c54513f088e0e3702d1614944b112552bd12dc15bcc723c"
       },
       "duoAuthoring": {
         "version": 2,
@@ -51906,6 +52140,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "microphone-live",
+      "category": "Media & devices",
+      "tags": [
+        "on air",
+        "recording",
+        "broadcast",
+        "streaming",
+        "podcast",
+        "voice"
+      ],
+      "aliases": [],
+      "componentSet": "199:52699",
+      "source": {
+        "regular": "199:52700",
+        "filled": "199:52704",
+        "duocolor": "199:52706",
+        "duotone": "199:52710"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/microphone-live.svg",
+        "filled": "icons/filled/microphone-live.svg",
+        "duocolor": "icons/duocolor/microphone-live.svg",
+        "duotone": "icons/duotone/microphone-live.svg"
+      },
+      "sha256": {
+        "regular": "8d94fbf7dac0b0e7d10f29e4d70a661e5df566e1eb09ac97d3a7c2d697e88555",
+        "filled": "288c3a8ece6effe6aa8c63bb45b81a7b693cdbe4a79cdb8ccfcf937bcc023313",
+        "duocolor": "179b50b53d8cb0d71f64693adcefa0df1f281acdf5fa89ac54c1001ed5a93c39",
+        "duotone": "54ab1715ce43bb278426b3e0db8e7d50b60531ceac35d1770900b2e643f01d0c"
       }
     },
     {
@@ -51943,10 +52216,10 @@
         "duotone": "icons/duotone/microphone-off.svg"
       },
       "sha256": {
-        "regular": "ed6e6049fb650d163ffb611526cd3af164a6a314b26a38a93237ce3ca37d6630",
-        "filled": "a05f6a02f34075d41a40d79b02b2982af560c54ab29fdf3336de84a9700e0097",
-        "duocolor": "1be412e268cb51723f2a7cfd3f72407695da76d31ff580afd430da95cfc03180",
-        "duotone": "b29db7b29eb0fc899102170240c7f9cc93a41913e94b305190c71c0cab98fa42"
+        "regular": "19c1bb4c3947df73055adeab6cf2b711f1ca49d910985165a97aa247abaf1f0d",
+        "filled": "a981989da51b4d558b8a676b3a96ee08dd6a6693bef61d964966260e4c9e9b24",
+        "duocolor": "c0fe9c11392c30e4369f9aea2a12410954b1db8ad5b56d5fb61cb6b5221b7cd7",
+        "duotone": "5ac9539ab5e4551d116b9dd5e0ca14f1ed18f1f9646bcf113ace267465054840"
       },
       "duoAuthoring": {
         "version": 2,
@@ -51998,10 +52271,10 @@
         "duotone": "icons/duotone/microscope.svg"
       },
       "sha256": {
-        "regular": "8192f54fc1d0eebd05d4c9a3f7983970cdf12fbb6c954788199e737aa31f7c7c",
-        "filled": "9a282447e5d8eb5fbe8b90406e24940d41cd6c9880ef850ba7e311ed68c7fbba",
-        "duocolor": "3e0cc72fdb40c974303dcc8d457f7f62ee2c1dfec5404ba1e0afdd73875a8cb9",
-        "duotone": "0241891fc1f0544986c742811c9ae0ef957bcafd624aa462db4350c83aac29d3"
+        "regular": "47cb7058d327cac26821d7d85938a46d12bf137c245cd574686035c180476dc4",
+        "filled": "2d25eadd5bf1f477f3ed491283f19c50b6257027b04cbaf73ce1f060630fda46",
+        "duocolor": "7c9afa8061fdf1e77b7f497fbd4d6487c1b93ded9d054bba7c6133734795e167",
+        "duotone": "89cf7639dff8795cfb2532e838de15d42cffd5b93027ae9c7b680976484ae4df"
       },
       "duoAuthoring": {
         "version": 2,
@@ -52452,6 +52725,84 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "money",
+      "category": "Data & commerce",
+      "tags": [
+        "cash",
+        "bank note",
+        "payment",
+        "currency",
+        "finance",
+        "bill"
+      ],
+      "aliases": [],
+      "componentSet": "199:51676",
+      "source": {
+        "regular": "199:51677",
+        "filled": "199:51681",
+        "duocolor": "199:51683",
+        "duotone": "199:51688"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/money.svg",
+        "filled": "icons/filled/money.svg",
+        "duocolor": "icons/duocolor/money.svg",
+        "duotone": "icons/duotone/money.svg"
+      },
+      "sha256": {
+        "regular": "57e4c90fa9f8821e8b72d451aa8a6103809a727de8679c660c85aef7ac1489e8",
+        "filled": "370fd52e29cf990a4627b747e6cd943ce58101075f105f7d8b77bb942f564b71",
+        "duocolor": "56692c8bbaa1b3624f23df6bf5fbbf7f4c6baf25942327cbd244c684a346c940",
+        "duotone": "1f42e0fe1f3d261ff7afb05d68a4ab6fdccd07ae73077783cbe085b80e3007d5"
+      }
+    },
+    {
+      "name": "money-square",
+      "category": "Data & commerce",
+      "tags": [
+        "cash",
+        "bank note",
+        "payment",
+        "currency",
+        "finance",
+        "squircle"
+      ],
+      "aliases": [],
+      "componentSet": "199:51645",
+      "source": {
+        "regular": "199:51646",
+        "filled": "199:51650",
+        "duocolor": "199:51652",
+        "duotone": "199:51657"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/money-square.svg",
+        "filled": "icons/filled/money-square.svg",
+        "duocolor": "icons/duocolor/money-square.svg",
+        "duotone": "icons/duotone/money-square.svg"
+      },
+      "sha256": {
+        "regular": "d8dad3ca7d433f8f22577e5388e7370b25f075ec0580390beb7436163d565e7a",
+        "filled": "62ac2008e4571892d44d3a85f096c1c705770c3633779890f0bbfcc7a5bea1db",
+        "duocolor": "42885c8928bd211d5d404f260a496bea47dc4c6ba98b19153f096b1566821936",
+        "duotone": "6ca1d6cc2c50fedac364eaf530d5fdebb30b79273f6b89f3d5c5c56f730e983b"
       }
     },
     {
@@ -59148,6 +59499,45 @@
       }
     },
     {
+      "name": "phone-in",
+      "category": "Communication",
+      "tags": [
+        "incoming call",
+        "receive",
+        "answer",
+        "telephone",
+        "chevron",
+        "inbound"
+      ],
+      "aliases": [],
+      "componentSet": "199:50994",
+      "source": {
+        "regular": "199:50995",
+        "filled": "199:50999",
+        "duocolor": "199:51001",
+        "duotone": "199:51006"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/phone-in.svg",
+        "filled": "icons/filled/phone-in.svg",
+        "duocolor": "icons/duocolor/phone-in.svg",
+        "duotone": "icons/duotone/phone-in.svg"
+      },
+      "sha256": {
+        "regular": "3b5ad1093ccf2db1c52c740a8302446a36d039984bc79e87e04a14609692507c",
+        "filled": "8710d4f70f41c6593b52b981bdd18d70b3d63e4ff7f742a31002c217511b3831",
+        "duocolor": "769d1f2d0736267c46bb0237d68d8a771eae38711112bb43df5d9f20c63604eb",
+        "duotone": "0f427b39adb3d3ff5acf63a528221fdc4ba92a2aa7421ed29726e104bcee45d9"
+      }
+    },
+    {
       "name": "phone-incoming",
       "category": "Communication",
       "tags": [
@@ -59250,6 +59640,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "phone-out",
+      "category": "Communication",
+      "tags": [
+        "outgoing call",
+        "dial",
+        "telephone",
+        "chevron",
+        "make call",
+        "outbound"
+      ],
+      "aliases": [],
+      "componentSet": "199:50961",
+      "source": {
+        "regular": "199:50962",
+        "filled": "199:50966",
+        "duocolor": "199:50968",
+        "duotone": "199:50973"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/phone-out.svg",
+        "filled": "icons/filled/phone-out.svg",
+        "duocolor": "icons/duocolor/phone-out.svg",
+        "duotone": "icons/duotone/phone-out.svg"
+      },
+      "sha256": {
+        "regular": "edf24551065506027db5dfc7845826d31e60978f044a316940d4f77f4f411917",
+        "filled": "ae456bcdc4d483f15ed15cdec73667ab041f6cc1704a81f19ee05e28193ffcb0",
+        "duocolor": "9a713afc5ea83a250c4ed67151f12d173095e3c7f78df89880fd80d399d4848f",
+        "duotone": "3efca2127e5c25d466df6c8ab02bcbbf8bae6654669ffaab281ec2968d5264eb"
       }
     },
     {
@@ -59991,6 +60420,84 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "plane-landing",
+      "category": "Transport & space",
+      "tags": [
+        "arrival",
+        "flight",
+        "airport",
+        "travel",
+        "arrive",
+        "aviation"
+      ],
+      "aliases": [],
+      "componentSet": "199:51546",
+      "source": {
+        "regular": "199:51547",
+        "filled": "199:51551",
+        "duocolor": "199:51553",
+        "duotone": "199:51558"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/plane-landing.svg",
+        "filled": "icons/filled/plane-landing.svg",
+        "duocolor": "icons/duocolor/plane-landing.svg",
+        "duotone": "icons/duotone/plane-landing.svg"
+      },
+      "sha256": {
+        "regular": "bbffda501f5686a3641a10ddba0b05fffb422d2841cf455aeaee3545ce289620",
+        "filled": "1b4e41838d3662f8ea374a90a740afb0f20ef4ae0344b8ede2c778f25574c3bc",
+        "duocolor": "3dfca016f4159ed2feb033881cf7a136ce0c11fe1a5a26cbd2ef3191db788a5f",
+        "duotone": "453e27e1d37dcebf2fe43f4ddd67f8021bbe4d40451aff2f1ab065ccf9ea1ecc"
+      }
+    },
+    {
+      "name": "plane-takeoff",
+      "category": "Transport & space",
+      "tags": [
+        "departure",
+        "flight",
+        "airport",
+        "travel",
+        "depart",
+        "aviation"
+      ],
+      "aliases": [],
+      "componentSet": "199:51515",
+      "source": {
+        "regular": "199:51516",
+        "filled": "199:51520",
+        "duocolor": "199:51522",
+        "duotone": "199:51527"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/plane-takeoff.svg",
+        "filled": "icons/filled/plane-takeoff.svg",
+        "duocolor": "icons/duocolor/plane-takeoff.svg",
+        "duotone": "icons/duotone/plane-takeoff.svg"
+      },
+      "sha256": {
+        "regular": "9655bc80dcac3a2868946fd0e8ff3596a4a8b0fcf3dbdae853ced896b2b0a887",
+        "filled": "01f30ff0e7f7ecdfdd334982311bb23b1f98bb35664216537d0a7f96e4b3dc55",
+        "duocolor": "a2d6e2fd148dc3746fc16751114d37329f2c713e3d92115582c9762f24d67abf",
+        "duotone": "0de55a887a6b9564b579daf2a5501b927c9b2064a97a7ca65fdef97ef100f127"
       }
     },
     {
@@ -65161,10 +65668,10 @@
         "duotone": "icons/duotone/send.svg"
       },
       "sha256": {
-        "regular": "afdfb829c1e05049e6efed37dca1802160d6164be309f2510ed6744442e43b11",
-        "filled": "ed5f332d09e74a423e1c10e19a83f7b086120ef4652579e4aca5f97d2c94c789",
-        "duocolor": "c10ed5705f61c9a833c17cde5c650ee7fea411bd371e6579bc8da8f316cfff99",
-        "duotone": "0d02523e0c642bc6bc1d8781965a72a30947defe0f09ef4c8fddce5962a54a40"
+        "regular": "6516b4d13699ae25a66714fa714f7a4111c25a66d149f092c4472af18dd4005e",
+        "filled": "de1764d24467b9d48ea6cdf62c7f544be2b7ccc28fd7838c53b0cdaeb7ea0433",
+        "duocolor": "cff43a7b6b204fb640a9e5fb057c67956db4aec9e63cc12aafd39273c0bc12b6",
+        "duotone": "f1dbb781194cb5696a91d074fbfcb6fc3bd8bc7d0fe55bfe68315ce92116bdc7"
       },
       "duoAuthoring": {
         "version": 2,
@@ -65179,6 +65686,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "send-folded",
+      "category": "Communication",
+      "tags": [
+        "paper plane",
+        "telegram",
+        "message",
+        "dispatch",
+        "submit",
+        "folded paper"
+      ],
+      "aliases": [],
+      "componentSet": "199:51456",
+      "source": {
+        "regular": "199:51457",
+        "filled": "199:51461",
+        "duocolor": "199:51463",
+        "duotone": "199:51468"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/send-folded.svg",
+        "filled": "icons/filled/send-folded.svg",
+        "duocolor": "icons/duocolor/send-folded.svg",
+        "duotone": "icons/duotone/send-folded.svg"
+      },
+      "sha256": {
+        "regular": "cda36baa8c78435da9f19b54458f7f56f76f0421a6979bd5d38ddd44efdf87be",
+        "filled": "08f7328609191d9f3fe8977f7c936c8afc2219d14d43fa05e6ee240ce6546018",
+        "duocolor": "461dd62681c6ad71ac4873e6d43c337d4d7e191b81871de2b836d8d49d861e3a",
+        "duotone": "099ca09fd37bdae057690e013ecb6e6d8e3e3b15a6b2f052d9b0041c50e21845"
       }
     },
     {
@@ -65215,10 +65761,10 @@
         "duotone": "icons/duotone/send-right.svg"
       },
       "sha256": {
-        "regular": "d656cc59a47f42360a11759684db8d088e49b7a0b7b6d29ed93e16f2974dd1a5",
-        "filled": "abe26616535a518696e48ac390077c0197c02abf2fcd9a3105339334b303959d",
-        "duocolor": "e5bc7cbbc501d8c550462bf54410c1af856590e037e19e393ef8fe0785c4ddf0",
-        "duotone": "60ed40f527059212347ec68b44f586592477f7aa6a7ece66cfb5830c96da17ca"
+        "regular": "eb9c6cfca94251e981d77dac152bc59d4b61b59707c3a9d34152c19c52e4ac16",
+        "filled": "7394d6d043491a1863d9741a811b1c315aee83b4977ee9e43650ab5e17071220",
+        "duocolor": "6d9cde92d5ff1b6426d2a00829179653f24baf18fd1b724d29ef44e093025431",
+        "duotone": "21229243a16b8953a62037a7fa9f68f181e970a2122d7a6162f80d39922c3f64"
       },
       "duoAuthoring": {
         "version": 2,
@@ -65269,10 +65815,10 @@
         "duotone": "icons/duotone/send-up.svg"
       },
       "sha256": {
-        "regular": "89c1fd03b03cba98a6b5e806d64a7f73946a0740f4aa9cc9bfdd6ce4292b6a49",
-        "filled": "b14f1c19d9047c6ad95e8373a0716d35958c7aa5ceb9ef6727587cecc50df5fa",
-        "duocolor": "e4ed339fd257cd31cc25d66fdc640bc0bad661951d80fce137fda79d8661e6fd",
-        "duotone": "6bad0c1394b7d3ac2d4c7d4469f075934a980e1bd97bdaf15050eea64da915fc"
+        "regular": "8217c6012068c0a12c9d44c52b2587afe49c24612ca5df36d5216387aa6ddd59",
+        "filled": "6f3ab79ca93ba86929482d07778301ddd3a72475e2c3e5110c712851de933aaa",
+        "duocolor": "579489688c02471099d6803447f77416e20c873a8c9cc2c4b6d3c07b5555b9c5",
+        "duotone": "0c1db8b2dae0b56ae50d1a9fac11b11a4e8f2dfb20eaeca1a4c201c838f8fd1a"
       },
       "duoAuthoring": {
         "version": 2,
@@ -67078,6 +67624,45 @@
       }
     },
     {
+      "name": "shopping-basket",
+      "category": "Data & commerce",
+      "tags": [
+        "groceries",
+        "cart",
+        "buy",
+        "store",
+        "checkout",
+        "ecommerce"
+      ],
+      "aliases": [],
+      "componentSet": "199:51485",
+      "source": {
+        "regular": "199:51486",
+        "filled": "199:51490",
+        "duocolor": "199:51492",
+        "duotone": "199:51497"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/shopping-basket.svg",
+        "filled": "icons/filled/shopping-basket.svg",
+        "duocolor": "icons/duocolor/shopping-basket.svg",
+        "duotone": "icons/duotone/shopping-basket.svg"
+      },
+      "sha256": {
+        "regular": "e1d4f427398a589b303e94db181e6369ab0d65047ea20cb7a10c4001f8de0a90",
+        "filled": "8d523a5216869927d5e34f9e2c406637f1d7d5d7c0eb92d0db3707562357a5f5",
+        "duocolor": "b81204954a6b83175ff2451c670f01035521ac904dda31edce8c95a8c6c63be8",
+        "duotone": "ee9c54d735c0cecdaf688529c90ca7de357397d265cca75a9e5d3c429894df1b"
+      }
+    },
+    {
       "name": "shopping-cart",
       "category": "Data & commerce",
       "tags": [
@@ -68430,6 +69015,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "sms",
+      "category": "Communication",
+      "tags": [
+        "text message",
+        "chat",
+        "envelope",
+        "mobile",
+        "inbox",
+        "texting"
+      ],
+      "aliases": [],
+      "componentSet": "199:53651",
+      "source": {
+        "regular": "199:53652",
+        "filled": "199:53655",
+        "duocolor": "199:53657",
+        "duotone": "199:53660"
+      },
+      "keyline": {
+        "key": "Horizontal",
+        "width": 20,
+        "height": 16,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/sms.svg",
+        "filled": "icons/filled/sms.svg",
+        "duocolor": "icons/duocolor/sms.svg",
+        "duotone": "icons/duotone/sms.svg"
+      },
+      "sha256": {
+        "regular": "29b51b5204ca46df078e41c4edce53fb3a9a53eefecbadb33ee60068135004d0",
+        "filled": "a25be370f4e0a18c9e1abd170b38b48d049a0d4f0f7bf18635d94a585f990b5b",
+        "duocolor": "ac54bc9e56aebaa1e4e46bb8ff9225173df71594857c31f3a74b209600037560",
+        "duotone": "56c80b7836d2705a8240fe0a785ea234aecaa2de490d1f1a567e45a67cdf61c4"
       }
     },
     {
