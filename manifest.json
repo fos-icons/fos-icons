@@ -10,7 +10,7 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1530,
+  "iconCount": 1587,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
@@ -2580,6 +2580,355 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "apps",
+      "category": "Interfaces",
+      "tags": [
+        "app grid",
+        "launcher",
+        "menu",
+        "modules",
+        "widgets",
+        "dashboard"
+      ],
+      "aliases": [],
+      "componentSet": "209:75377",
+      "source": {
+        "regular": "209:75378",
+        "filled": "209:75382",
+        "duocolor": "209:75384",
+        "duotone": "209:75389"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/apps.svg",
+        "filled": "icons/filled/apps.svg",
+        "duocolor": "icons/duocolor/apps.svg",
+        "duotone": "icons/duotone/apps.svg"
+      },
+      "sha256": {
+        "regular": "0663fa9f76c89af2ac33a9f6b4e0e174669c16cb2f652f34cd09d73c121b7ff2",
+        "filled": "18e03305af41fc0705a9904c299a452a54b67b729ede90ac9f2a3148dbde4454",
+        "duocolor": "0d2ae2f915c53470e7c996d596a96685e06ddff8aca2bef0de36b458da37f0a5",
+        "duotone": "0f729af89d6c462431df7f090eb0c32df9bdf1a1e837fe5e034185027e994493"
+      }
+    },
+    {
+      "name": "apps-add",
+      "category": "Interfaces",
+      "tags": [
+        "app grid",
+        "launcher",
+        "new app",
+        "plus",
+        "modules",
+        "install"
+      ],
+      "aliases": [],
+      "componentSet": "209:75426",
+      "source": {
+        "regular": "209:75427",
+        "filled": "209:75431",
+        "duocolor": "209:75433",
+        "duotone": "209:75438"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/apps-add.svg",
+        "filled": "icons/filled/apps-add.svg",
+        "duocolor": "icons/duocolor/apps-add.svg",
+        "duotone": "icons/duotone/apps-add.svg"
+      },
+      "sha256": {
+        "regular": "6925231e72dfce2a33af954cce76b2e36296392782c29bd8128097a0fc9468b0",
+        "filled": "a2e7a75f6b992c3e400488b7561ca250fa790d0208227f845895b5fa26d1f58b",
+        "duocolor": "c4dbe03f5a955f48f9ffedd0604160607a33321b5eef424a18ffdb523f8ae7c7",
+        "duotone": "1aa15190552d05571be910a23b7f6d9a84b4ad6633851b4caed518affb35330e"
+      }
+    },
+    {
+      "name": "apps-edit",
+      "category": "Interfaces",
+      "tags": [
+        "app grid",
+        "customize",
+        "pencil",
+        "modules",
+        "arrange",
+        "modify"
+      ],
+      "aliases": [],
+      "componentSet": "209:75473",
+      "source": {
+        "regular": "209:75474",
+        "filled": "209:75478",
+        "duocolor": "209:75480",
+        "duotone": "209:75485"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/apps-edit.svg",
+        "filled": "icons/filled/apps-edit.svg",
+        "duocolor": "icons/duocolor/apps-edit.svg",
+        "duotone": "icons/duotone/apps-edit.svg"
+      },
+      "sha256": {
+        "regular": "b6e75c47fb7ba4c1074248e4d02ae63c0e60dff77a2fc56e205fcedb28dae9e0",
+        "filled": "4b4a8ac25344f62aa289b89f83fc5f9abfb7e65598d582df50fbe9f2bbd17f93",
+        "duocolor": "350e361eb95d1654102cfc5950e738a5f0bff887860de206a7e1c125be2f578b",
+        "duotone": "d28bfad3f199418ae24edcc5f40fdd78193fc5a9d2092fa7ba8c627bcff3dc52"
+      }
+    },
+    {
+      "name": "apps-remove",
+      "category": "Interfaces",
+      "tags": [
+        "app grid",
+        "uninstall",
+        "minus",
+        "modules",
+        "delete"
+      ],
+      "aliases": [],
+      "componentSet": "209:75521",
+      "source": {
+        "regular": "209:75522",
+        "filled": "209:75526",
+        "duocolor": "209:75528",
+        "duotone": "209:75533"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/apps-remove.svg",
+        "filled": "icons/filled/apps-remove.svg",
+        "duocolor": "icons/duocolor/apps-remove.svg",
+        "duotone": "icons/duotone/apps-remove.svg"
+      },
+      "sha256": {
+        "regular": "66e0493eafa2b39e26e4320f7ba217b28f5dc9fc92bf448873a29cb16dce72f8",
+        "filled": "bd9f55223837c8f6a1e4334f009c6ede5db4dafc4acbb995716c78869b0016c4",
+        "duocolor": "6df0264beb817a039b34519f6fea4d75b6a8f67c45868713d6d7a592a86d874e",
+        "duotone": "cc1aaf50e1f41e898880c43eb3d686cfbcdc253ae7b875add3ff5f18b0399ba4"
+      }
+    },
+    {
+      "name": "apps-settings",
+      "category": "Interfaces",
+      "tags": [
+        "app grid",
+        "configure",
+        "gear",
+        "modules",
+        "preferences"
+      ],
+      "aliases": [],
+      "componentSet": "209:75568",
+      "source": {
+        "regular": "209:75569",
+        "filled": "209:75573",
+        "duocolor": "209:75575",
+        "duotone": "209:75580"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/apps-settings.svg",
+        "filled": "icons/filled/apps-settings.svg",
+        "duocolor": "icons/duocolor/apps-settings.svg",
+        "duotone": "icons/duotone/apps-settings.svg"
+      },
+      "sha256": {
+        "regular": "9eddfeb2747152fef02e2b0781a1e89211cede28a9360baf592f6dfe237b104b",
+        "filled": "282250b97a35ded8c283c79e3c8caac437034ece804a2d2f5a9cc7f7fc9b3b56",
+        "duocolor": "76bc83d6f04e5f5d476944bc67144170ea1dc39d7f60584d87ddea0036d43d16",
+        "duotone": "347400400cd7bc230b4a1720a4d54aca97358678e3f104a7719308e99a9b9be4"
+      }
+    },
+    {
+      "name": "apps-square-add",
+      "category": "Interfaces",
+      "tags": [
+        "tiles",
+        "dashboard",
+        "new widget",
+        "plus",
+        "modules",
+        "grid"
+      ],
+      "aliases": [],
+      "componentSet": "209:75616",
+      "source": {
+        "regular": "209:75617",
+        "filled": "209:75621",
+        "duocolor": "209:75623",
+        "duotone": "209:75628"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/apps-square-add.svg",
+        "filled": "icons/filled/apps-square-add.svg",
+        "duocolor": "icons/duocolor/apps-square-add.svg",
+        "duotone": "icons/duotone/apps-square-add.svg"
+      },
+      "sha256": {
+        "regular": "7b0fb62c3d94b6ba30d05bb417d2f62af778bd32f87aefdbc9a9bc8b34b9c9e7",
+        "filled": "b381601123a432b9bae9cd310dfa5b842da13678ba32d144f3bb4a6bcc48404e",
+        "duocolor": "dcb7e51443b256406b6dbcadcaa02180d1c94d6702674a086677efca468d5c8a",
+        "duotone": "7199ec24495bd8040c572df7700d4898a97e69f5304b64bb6ae62717b70af9a6"
+      }
+    },
+    {
+      "name": "apps-square-edit",
+      "category": "Interfaces",
+      "tags": [
+        "tiles",
+        "dashboard",
+        "customize",
+        "pencil",
+        "modules",
+        "grid"
+      ],
+      "aliases": [],
+      "componentSet": "209:75663",
+      "source": {
+        "regular": "209:75664",
+        "filled": "209:75668",
+        "duocolor": "209:75670",
+        "duotone": "209:75675"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/apps-square-edit.svg",
+        "filled": "icons/filled/apps-square-edit.svg",
+        "duocolor": "icons/duocolor/apps-square-edit.svg",
+        "duotone": "icons/duotone/apps-square-edit.svg"
+      },
+      "sha256": {
+        "regular": "01c387daacba082984e621841f58b4ca501959d19330d495f80b266462069c6a",
+        "filled": "3aeb523f08bb7ffc0e5950589f96368f87feea5fed9ae5e48e1c0e85d57216eb",
+        "duocolor": "432fdc6509710d66d90989d637aa771c80ed1e0378e468921b18e3d9b618cc96",
+        "duotone": "51c8305166353695ac98b6e611c3aa92cded204f2971adb5ceb07cea217b69eb"
+      }
+    },
+    {
+      "name": "apps-square-remove",
+      "category": "Interfaces",
+      "tags": [
+        "tiles",
+        "dashboard",
+        "remove widget",
+        "minus",
+        "modules",
+        "grid"
+      ],
+      "aliases": [],
+      "componentSet": "209:75711",
+      "source": {
+        "regular": "209:75712",
+        "filled": "209:75716",
+        "duocolor": "209:75718",
+        "duotone": "209:75723"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/apps-square-remove.svg",
+        "filled": "icons/filled/apps-square-remove.svg",
+        "duocolor": "icons/duocolor/apps-square-remove.svg",
+        "duotone": "icons/duotone/apps-square-remove.svg"
+      },
+      "sha256": {
+        "regular": "7c594fc7326aa9e096d2aed91b80c1589e1e46a0ca22cf624196f0cbda2a2f63",
+        "filled": "f8dcd81c5e4141f556185d53f4bc8fbb26e24296a16e5d1b4b92e0e7159f8a6e",
+        "duocolor": "f22f4a3fd466b88b4b88cc628cb60565a0b9d6284c76ad0872f635b81ae2ffd0",
+        "duotone": "6e632572d6319ab42be95117dc4ede5de7e8aa3955ee0ace99a2d71425e67334"
+      }
+    },
+    {
+      "name": "apps-square-settings",
+      "category": "Interfaces",
+      "tags": [
+        "tiles",
+        "dashboard",
+        "configure",
+        "gear",
+        "modules",
+        "grid"
+      ],
+      "aliases": [],
+      "componentSet": "209:75758",
+      "source": {
+        "regular": "209:75759",
+        "filled": "209:75763",
+        "duocolor": "209:75765",
+        "duotone": "209:75770"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/apps-square-settings.svg",
+        "filled": "icons/filled/apps-square-settings.svg",
+        "duocolor": "icons/duocolor/apps-square-settings.svg",
+        "duotone": "icons/duotone/apps-square-settings.svg"
+      },
+      "sha256": {
+        "regular": "2c38c78007552a35ca80f53d4b7c0bf64a8c99a4fe80d4300ed9e1378b7ae67f",
+        "filled": "0505d66dfe4766c22da20e1b42a7ad9757ef28b1054826656790169794b3b74d",
+        "duocolor": "ec660986b9795daa5d942be2778f6a3e7b68cae15cc3c3220442bca944ab2ba2",
+        "duotone": "450d202489487f99285f896d1b0ff7d6e000b1a9e71b0695f210cc6dc4c5a29b"
       }
     },
     {
@@ -6019,6 +6368,44 @@
       }
     },
     {
+      "name": "arrows-diagonal-square",
+      "category": "Navigation",
+      "tags": [
+        "expand",
+        "resize",
+        "fullscreen",
+        "enlarge",
+        "box"
+      ],
+      "aliases": [],
+      "componentSet": "206:50112",
+      "source": {
+        "regular": "206:50113",
+        "filled": "206:50117",
+        "duocolor": "206:50119",
+        "duotone": "206:50124"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrows-diagonal-square.svg",
+        "filled": "icons/filled/arrows-diagonal-square.svg",
+        "duocolor": "icons/duocolor/arrows-diagonal-square.svg",
+        "duotone": "icons/duotone/arrows-diagonal-square.svg"
+      },
+      "sha256": {
+        "regular": "7b79500ae8ce855aa23476679b0fdedc2cada290063d9e0bab62c7484cc250aa",
+        "filled": "09b621b69a9d63f4cd581e2dc7ebe968e252c3ec04e052ae0084ec0d8ff7ae71",
+        "duocolor": "93a69ed5b338c7e0a33233a33d36e216d336e8b08d577f0abbe15500b8514236",
+        "duotone": "cf5b8ec7fc79a5ed7fd24d56ce93fca6f22af7492351bd3cb58cd7bd637eb8fa"
+      }
+    },
+    {
       "name": "arrows-down",
       "category": "Navigation",
       "tags": [
@@ -6446,6 +6833,121 @@
       }
     },
     {
+      "name": "arrows-swap-vertical-circle",
+      "category": "Navigation",
+      "tags": [
+        "sort",
+        "reorder",
+        "exchange",
+        "up down",
+        "round"
+      ],
+      "aliases": [],
+      "componentSet": "206:49956",
+      "source": {
+        "regular": "206:49957",
+        "filled": "206:49961",
+        "duocolor": "206:49963",
+        "duotone": "206:49968"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrows-swap-vertical-circle.svg",
+        "filled": "icons/filled/arrows-swap-vertical-circle.svg",
+        "duocolor": "icons/duocolor/arrows-swap-vertical-circle.svg",
+        "duotone": "icons/duotone/arrows-swap-vertical-circle.svg"
+      },
+      "sha256": {
+        "regular": "4a3d612d5f82cc609080998e239e8de6916690f3ded056cf90edf3eb8c72bc60",
+        "filled": "95ac21764b47ffd2f11d08d1c776556f6f6efa86681a4d6ef97e7c063f48df70",
+        "duocolor": "f0875ac5f1bd6d4b9e670436ad1e4cc239949832e6bd238da0a88a0789670562",
+        "duotone": "0172fbe753c6d4f30aad68f5c8756944c7f73ccfe8675991464dcb297114791c"
+      }
+    },
+    {
+      "name": "arrows-swap-vertical-square",
+      "category": "Navigation",
+      "tags": [
+        "sort",
+        "reorder",
+        "exchange",
+        "up down",
+        "box"
+      ],
+      "aliases": [],
+      "componentSet": "206:49995",
+      "source": {
+        "regular": "206:49996",
+        "filled": "206:50000",
+        "duocolor": "206:50002",
+        "duotone": "206:50007"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrows-swap-vertical-square.svg",
+        "filled": "icons/filled/arrows-swap-vertical-square.svg",
+        "duocolor": "icons/duocolor/arrows-swap-vertical-square.svg",
+        "duotone": "icons/duotone/arrows-swap-vertical-square.svg"
+      },
+      "sha256": {
+        "regular": "088519282d25487f119a8a589a00c8721b075ca81cea13f7fa14d83b4ebbc2f7",
+        "filled": "b1f0e6b4c0f364c68ae37313184efee6a730fb69e557f531a9e15c99ed8d7b27",
+        "duocolor": "6dfd86dee26348dfbe95b0041850535ccc5db5f41a1c9ab57eeee55e6768e38f",
+        "duotone": "53bf59f599b9effe9a2cd38567f7d9dcad66d08401f1d45ec6c88066be3fd4fd"
+      }
+    },
+    {
+      "name": "arrows-to-circle",
+      "category": "Navigation",
+      "tags": [
+        "focus",
+        "converge",
+        "center",
+        "gather",
+        "merge",
+        "inward"
+      ],
+      "aliases": [],
+      "componentSet": "206:49752",
+      "source": {
+        "regular": "206:49753",
+        "filled": "206:49757",
+        "duocolor": "206:49759",
+        "duotone": "206:49764"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrows-to-circle.svg",
+        "filled": "icons/filled/arrows-to-circle.svg",
+        "duocolor": "icons/duocolor/arrows-to-circle.svg",
+        "duotone": "icons/duotone/arrows-to-circle.svg"
+      },
+      "sha256": {
+        "regular": "23349171454e8dcb0250050d90e49ee2d2edf9900a1e9211c18bf26ccd447cc5",
+        "filled": "a654fb2182921a9386e620f1841aaad9cde585ced4117871ed2f51161cfd3e8e",
+        "duocolor": "0902fa62d33e36d76ba6de1250e710e62aac1be4e5ffb93c170f32b0c706115e",
+        "duotone": "bd4d6e063e049a9eb670d8e1688d80eab1e0018d0b37160095d67a9ad6bf5062"
+      }
+    },
+    {
       "name": "arrows-triangle",
       "category": "Navigation",
       "tags": [
@@ -6604,6 +7106,82 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "arrows-vertical-circle",
+      "category": "Navigation",
+      "tags": [
+        "resize",
+        "height",
+        "up down",
+        "stretch",
+        "round"
+      ],
+      "aliases": [],
+      "componentSet": "206:50034",
+      "source": {
+        "regular": "206:50035",
+        "filled": "206:50039",
+        "duocolor": "206:50041",
+        "duotone": "206:50046"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrows-vertical-circle.svg",
+        "filled": "icons/filled/arrows-vertical-circle.svg",
+        "duocolor": "icons/duocolor/arrows-vertical-circle.svg",
+        "duotone": "icons/duotone/arrows-vertical-circle.svg"
+      },
+      "sha256": {
+        "regular": "1ff45f0c75ca01e5ca909308e9f2667744ce8fff5482c1b030f5ff7d804e85c2",
+        "filled": "6c69bf111d71edea1841b16fc1280ca402149cd28998093c0ad6a36112f96c4f",
+        "duocolor": "c8f00dd0ffd59cf41d480b3aa92e5fb2072baeea2ead9daccfb8fb4871c9d89c",
+        "duotone": "e97317f76bd3fed51c64045b32e140af186911cd09e833eb2a90bf4ff626a8cd"
+      }
+    },
+    {
+      "name": "arrows-vertical-square",
+      "category": "Navigation",
+      "tags": [
+        "resize",
+        "height",
+        "up down",
+        "stretch",
+        "box"
+      ],
+      "aliases": [],
+      "componentSet": "206:50073",
+      "source": {
+        "regular": "206:50074",
+        "filled": "206:50078",
+        "duocolor": "206:50080",
+        "duotone": "206:50085"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/arrows-vertical-square.svg",
+        "filled": "icons/filled/arrows-vertical-square.svg",
+        "duocolor": "icons/duocolor/arrows-vertical-square.svg",
+        "duotone": "icons/duotone/arrows-vertical-square.svg"
+      },
+      "sha256": {
+        "regular": "788eac746f6168728cab757ef6788873db384f0ba883a5e3c49b469155779262",
+        "filled": "caebfbbb06f508126228adf6a09a280cd0660e59fb6379287fbb6f2385033327",
+        "duocolor": "873cbae98727a585ba9878ec138e5a95e8f8db209e367d5d5f2597309d50c68d",
+        "duotone": "b5f82ce44d692126bd080d5b7345efe0906b2fbbaf09f0e7db83be2c55d82965"
       }
     },
     {
@@ -7139,6 +7717,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "badge-minus",
+      "category": "Essentials",
+      "tags": [
+        "remove",
+        "unverified",
+        "revoke",
+        "subtract",
+        "seal",
+        "delete"
+      ],
+      "aliases": [],
+      "componentSet": "206:50310",
+      "source": {
+        "regular": "206:50311",
+        "filled": "206:50315",
+        "duocolor": "206:50317",
+        "duotone": "206:50322"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/badge-minus.svg",
+        "filled": "icons/filled/badge-minus.svg",
+        "duocolor": "icons/duocolor/badge-minus.svg",
+        "duotone": "icons/duotone/badge-minus.svg"
+      },
+      "sha256": {
+        "regular": "30ed838805abc2c7108387c0a9cb804e9aac04c8ffa177e3db2cad07151ea29e",
+        "filled": "5eddc12f89435e06f44d369ba5ce556de171fb4dfd43c33467aa9117988fa9b3",
+        "duocolor": "57400f0bfcd802dafdd2f07ee77fe2221415037f264a2250fdc6c22469eb3bd7",
+        "duotone": "5af43bcf8ab02f31b9a16aa761d7d58c967e9a4454b86af5814bcff933caa21a"
       }
     },
     {
@@ -18579,6 +19196,82 @@
       }
     },
     {
+      "name": "chevrons-circle-down",
+      "category": "Navigation",
+      "tags": [
+        "scroll down",
+        "expand",
+        "more",
+        "double",
+        "round"
+      ],
+      "aliases": [],
+      "componentSet": "206:50151",
+      "source": {
+        "regular": "206:50152",
+        "filled": "206:50156",
+        "duocolor": "206:50158",
+        "duotone": "206:50163"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevrons-circle-down.svg",
+        "filled": "icons/filled/chevrons-circle-down.svg",
+        "duocolor": "icons/duocolor/chevrons-circle-down.svg",
+        "duotone": "icons/duotone/chevrons-circle-down.svg"
+      },
+      "sha256": {
+        "regular": "3ed3306b2957e680faabbb916596c25d7965b493ed0e33b2a252cbea4c4db01e",
+        "filled": "54634dd2ed3a70fd05b98116647523dad16c4d863aa53bcd0a5b3d8555294eef",
+        "duocolor": "5034bab8b059aa839f6c31c8afefa1d3a06b23f208bb36fb9dff86813dbe7f64",
+        "duotone": "7cb9feaabf6c38d60084a376aeeabc9283f5d9d8bb31e8d462f07d94f34ffbe6"
+      }
+    },
+    {
+      "name": "chevrons-collapse-horizontal",
+      "category": "Navigation",
+      "tags": [
+        "shrink",
+        "narrow",
+        "compress",
+        "inward",
+        "width"
+      ],
+      "aliases": [],
+      "componentSet": "206:50253",
+      "source": {
+        "regular": "206:50254",
+        "filled": "206:50258",
+        "duocolor": "206:50260",
+        "duotone": "206:50265"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevrons-collapse-horizontal.svg",
+        "filled": "icons/filled/chevrons-collapse-horizontal.svg",
+        "duocolor": "icons/duocolor/chevrons-collapse-horizontal.svg",
+        "duotone": "icons/duotone/chevrons-collapse-horizontal.svg"
+      },
+      "sha256": {
+        "regular": "3427fdd7706b863affc10272fad4990eef1866a4835c4834f1993f3aeb3e8482",
+        "filled": "5c5044c6d8e3ca554c82d7a7b1c56ff276c411f28e8ce2f1c0955ccff0586ef3",
+        "duocolor": "bef5ddef7f39f431c2056e033221d4253bd5eebc4acd4375f877233f1c3da13d",
+        "duotone": "6ebcaac15b7183ebf4651144753d6ba6a5c3b3a21d7c374a05bc0e2bfc09eb16"
+      }
+    },
+    {
       "name": "chevrons-collapse-vertical",
       "category": "Navigation",
       "tags": [
@@ -18790,6 +19483,82 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "chevrons-square-down",
+      "category": "Navigation",
+      "tags": [
+        "scroll down",
+        "expand",
+        "more",
+        "double",
+        "box"
+      ],
+      "aliases": [],
+      "componentSet": "206:50185",
+      "source": {
+        "regular": "206:50186",
+        "filled": "206:50190",
+        "duocolor": "206:50192",
+        "duotone": "206:50197"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevrons-square-down.svg",
+        "filled": "icons/filled/chevrons-square-down.svg",
+        "duocolor": "icons/duocolor/chevrons-square-down.svg",
+        "duotone": "icons/duotone/chevrons-square-down.svg"
+      },
+      "sha256": {
+        "regular": "197097c8821cfde010b0e5df01d47435cc09cb79a6d3db0c97ca298cc961cfce",
+        "filled": "dc7d17a2924d5ba7718ead59a82ea2b34dd57321a3cc62b455105a28b09cbcd5",
+        "duocolor": "3f19873c4baefddba24a5ca4bef5e42dd319675cf896d4c45e45b79da5e7f952",
+        "duotone": "1c59f3e64fd7186346a48a2b39d763e8c4328a552fbfbffbde5a1d7ef45d6abd"
+      }
+    },
+    {
+      "name": "chevrons-square-left",
+      "category": "Navigation",
+      "tags": [
+        "rewind",
+        "previous",
+        "back",
+        "double",
+        "box"
+      ],
+      "aliases": [],
+      "componentSet": "206:50219",
+      "source": {
+        "regular": "206:50220",
+        "filled": "206:50224",
+        "duocolor": "206:50226",
+        "duotone": "206:50231"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/chevrons-square-left.svg",
+        "filled": "icons/filled/chevrons-square-left.svg",
+        "duocolor": "icons/duocolor/chevrons-square-left.svg",
+        "duotone": "icons/duotone/chevrons-square-left.svg"
+      },
+      "sha256": {
+        "regular": "ae1750463618dd8a1a4237399901316ea486e1810c7d4ba7c3c042a64840a99e",
+        "filled": "bde9d650fef1d5fdc813d09ae12529a7254dd23657bd054599d547aef8134f22",
+        "duocolor": "5e20aa36acc33ff74bf937dd25a11b56ed0fbd39cf04f9ff1bcc9444aa23fd2b",
+        "duotone": "f41cded2ee4c8eadad14909b7e87a391cee9b3c059549c18774bb46a1ed252f8"
       }
     },
     {
@@ -19922,6 +20691,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "clock-24",
+      "category": "Time & calendar",
+      "tags": [
+        "all day",
+        "round the clock",
+        "open hours",
+        "nonstop",
+        "availability",
+        "hours"
+      ],
+      "aliases": [],
+      "componentSet": "206:47033",
+      "source": {
+        "regular": "206:47034",
+        "filled": "206:47038",
+        "duocolor": "206:47040",
+        "duotone": "206:47043"
+      },
+      "keyline": {
+        "key": "Circle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/clock-24.svg",
+        "filled": "icons/filled/clock-24.svg",
+        "duocolor": "icons/duocolor/clock-24.svg",
+        "duotone": "icons/duotone/clock-24.svg"
+      },
+      "sha256": {
+        "regular": "0193e37f90502bb0fe73835030fd8234652f0bb4f8a82b3b0035daad2fa2fbbc",
+        "filled": "7b00afd397259ebb38ff02e73bbecf60802d3498a261cf634cf8512eb6b16780",
+        "duocolor": "f66a9a6a4f7c2ec7e163cd1d40544d468e0fd0069d2945a19f596df54efa47ea",
+        "duotone": "5b86a8869fee8ec5cc3ccff219098d5c5b09247966577e45b49a2be6e35cd64a"
       }
     },
     {
@@ -21526,6 +22334,45 @@
       }
     },
     {
+      "name": "code-dots",
+      "category": "Workspace",
+      "tags": [
+        "snippet",
+        "placeholder",
+        "developer",
+        "markup",
+        "programming",
+        "embed"
+      ],
+      "aliases": [],
+      "componentSet": "206:50275",
+      "source": {
+        "regular": "206:50276",
+        "filled": "206:50280",
+        "duocolor": "206:50282",
+        "duotone": "206:50287"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/code-dots.svg",
+        "filled": "icons/filled/code-dots.svg",
+        "duocolor": "icons/duocolor/code-dots.svg",
+        "duotone": "icons/duotone/code-dots.svg"
+      },
+      "sha256": {
+        "regular": "46992ed9b51f2dbbac286fd1333d48bb1e6ecbe31a8efce9eb861a8c180a6a12",
+        "filled": "bbe242f22084731ffb125226fc5c2fdb444536b9dff9ae6e81cac14588cbc9ef",
+        "duocolor": "0289375779b70615124bbbc94e75ac75ddd6d959dbccf0dcd758467ecf8d5f9b",
+        "duotone": "10dc9471ddcd64843d3dafbeee6e0ffdb33b90aed05ec04f22e3e6928eab04c3"
+      }
+    },
+    {
       "name": "code-snippet",
       "category": "Workspace",
       "tags": [
@@ -21772,10 +22619,10 @@
         "duotone": "icons/duotone/coffee.svg"
       },
       "sha256": {
-        "regular": "9ae678252492d711c8f6a67552752445b3cbbaacc741cbaf32b7d8edb2804111",
-        "filled": "1c2affd2901c5e6dfc5488f4fd399d9d7d90cc8de75247a52d43e1fe7da5fd24",
-        "duocolor": "9509af613b8241070d2f5d24b5f6680ae627afac13c05660af08477f5b1ced4c",
-        "duotone": "1da992d0ef11e60e1c858209d391e2c2eed54b6962ddfd9d80671be876a0b9fc"
+        "regular": "1c9aef4a97dcee99ae3f20c9730e8ffbbcbdd56f4cb9eda4175c30eb8712822f",
+        "filled": "5d7884288fbeaec93b1c935521c3ff8eff123eeb367a181552165b1355e3db99",
+        "duocolor": "8374d91bdd7b39fcdd974dd498f5fbe7a0618653a7ced11cbfdc55e29c3f498c",
+        "duotone": "981024bc9b4e288b18d8f02d193331a72c265ccf58d6f1ef12996bcc83f36e5b"
       },
       "duoAuthoring": {
         "version": 2,
@@ -21790,6 +22637,84 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "coffee-beans",
+      "category": "Food & drink",
+      "tags": [
+        "roast",
+        "cafe",
+        "espresso",
+        "arabica",
+        "barista",
+        "grind"
+      ],
+      "aliases": [],
+      "componentSet": "209:76324",
+      "source": {
+        "regular": "209:76325",
+        "filled": "209:76329",
+        "duocolor": "209:76331",
+        "duotone": "209:76336"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/coffee-beans.svg",
+        "filled": "icons/filled/coffee-beans.svg",
+        "duocolor": "icons/duocolor/coffee-beans.svg",
+        "duotone": "icons/duotone/coffee-beans.svg"
+      },
+      "sha256": {
+        "regular": "013e5a65889b2732a0877afaa4271ee3464eca516ba0bee08a62f864b0a5f79f",
+        "filled": "e895e1fc0990449df91c91e4497c7e9933f5fc1125cf61cf054fb1959a3edd56",
+        "duocolor": "3d9ae476d6675fae443cef35c7c84d60e61110304306111b9903d5098401331a",
+        "duotone": "c2f96d2dfc03382af44feea9e07fa10c26c08bd692d116199604b448a82263e8"
+      }
+    },
+    {
+      "name": "coffee-takeaway",
+      "category": "Food & drink",
+      "tags": [
+        "to go",
+        "cafe",
+        "latte",
+        "paper cup",
+        "takeout",
+        "espresso"
+      ],
+      "aliases": [],
+      "componentSet": "209:76278",
+      "source": {
+        "regular": "209:76279",
+        "filled": "209:76283",
+        "duocolor": "209:76285",
+        "duotone": "209:76290"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/coffee-takeaway.svg",
+        "filled": "icons/filled/coffee-takeaway.svg",
+        "duocolor": "icons/duocolor/coffee-takeaway.svg",
+        "duotone": "icons/duotone/coffee-takeaway.svg"
+      },
+      "sha256": {
+        "regular": "6a7233732774d02bafb827b42ae9f41296842bced658d0b26e96d9006ac63a13",
+        "filled": "245a60feeb63ca75f1eff7e4e7dbfebeb0c50f22114d66a337a3b25b748db627",
+        "duocolor": "80aacd6ca42d3a62337ac0ecbae062ad714dbe4da4a74158225232793e5d60d9",
+        "duotone": "2e71b3998f4965aef03eca71a4a3f6522a56ff09275bba84f61e48c0a03ce974"
       }
     },
     {
@@ -22062,6 +22987,273 @@
       }
     },
     {
+      "name": "collapse-circle",
+      "category": "Navigation",
+      "tags": [
+        "minimize",
+        "shrink",
+        "exit fullscreen",
+        "compress",
+        "round"
+      ],
+      "aliases": [],
+      "componentSet": "206:49800",
+      "source": {
+        "regular": "206:49801",
+        "filled": "206:49805",
+        "duocolor": "206:49807",
+        "duotone": "206:49812"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/collapse-circle.svg",
+        "filled": "icons/filled/collapse-circle.svg",
+        "duocolor": "icons/duocolor/collapse-circle.svg",
+        "duotone": "icons/duotone/collapse-circle.svg"
+      },
+      "sha256": {
+        "regular": "9d9fc54185876995139febf141a64ab20edceea6825ea70bbd5399d9d985dc3f",
+        "filled": "3542444bf6a8a8f7810b5ee9c1533cf00b2ed55a60920aa1011d1e2687a30738",
+        "duocolor": "24f1ac3eb8794705d58fa2a0327bdc3d799b90aa9de1d159835067f1f1b4b265",
+        "duotone": "66254ac6aef2bf15ee299a180c440fbe7154eb954a583da746c9ed3e1e4a29bd"
+      }
+    },
+    {
+      "name": "collapse-circle-reverse",
+      "category": "Navigation",
+      "tags": [
+        "expand",
+        "fullscreen",
+        "enlarge",
+        "maximize",
+        "round"
+      ],
+      "aliases": [],
+      "componentSet": "206:49839",
+      "source": {
+        "regular": "206:49840",
+        "filled": "206:49844",
+        "duocolor": "206:49846",
+        "duotone": "206:49851"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/collapse-circle-reverse.svg",
+        "filled": "icons/filled/collapse-circle-reverse.svg",
+        "duocolor": "icons/duocolor/collapse-circle-reverse.svg",
+        "duotone": "icons/duotone/collapse-circle-reverse.svg"
+      },
+      "sha256": {
+        "regular": "0ccf86d5128dca9996eca29b392637481597af5946b32fe0d268da0a2141c21e",
+        "filled": "38ff13b4918ed7b2e0546a6375096df7fe9dd32ac28f774ce6e886ccea41ad28",
+        "duocolor": "fe176294a6114e8ef7f6708ca2a8cd8a37bb62e25e1f089522d0e2fa47ef0e47",
+        "duotone": "a2373116bd6a110e03a21dc4d51fa16a080cdbc6d45c26d490c2d0b31498ce1c"
+      }
+    },
+    {
+      "name": "collapse-dot",
+      "category": "Navigation",
+      "tags": [
+        "focus",
+        "center",
+        "shrink",
+        "converge",
+        "target",
+        "inward"
+      ],
+      "aliases": [],
+      "componentSet": "206:49707",
+      "source": {
+        "regular": "206:49708",
+        "filled": "206:49712",
+        "duocolor": "206:49714",
+        "duotone": "206:49719"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/collapse-dot.svg",
+        "filled": "icons/filled/collapse-dot.svg",
+        "duocolor": "icons/duocolor/collapse-dot.svg",
+        "duotone": "icons/duotone/collapse-dot.svg"
+      },
+      "sha256": {
+        "regular": "9f6e8eed6f0ec5847152551a5b26065edbe4c0741b0e4b5866d495b170d98584",
+        "filled": "5c9aca77e9b04d1be65b76d13692a87f6133e689bbd91395ddc1d3e6c747da83",
+        "duocolor": "b47e1a531cf669ed0f04366514092cd7cd0cd9555e861eca222424b2dcc17811",
+        "duotone": "7c019e15c9ceaa874cad0c85ef0c7ad59f33688f4360fba0cdfaec4309b136f4"
+      }
+    },
+    {
+      "name": "collapse-four",
+      "category": "Navigation",
+      "tags": [
+        "minimize",
+        "shrink",
+        "exit fullscreen",
+        "compress",
+        "inward"
+      ],
+      "aliases": [],
+      "componentSet": "206:49667",
+      "source": {
+        "regular": "206:49668",
+        "filled": "206:49672",
+        "duocolor": "206:49674",
+        "duotone": "206:49679"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/collapse-four.svg",
+        "filled": "icons/filled/collapse-four.svg",
+        "duocolor": "icons/duocolor/collapse-four.svg",
+        "duotone": "icons/duotone/collapse-four.svg"
+      },
+      "sha256": {
+        "regular": "7db144160825ba07e50ae3a33a889f1f40ba94c39a91c2a263d0d09e0e59e913",
+        "filled": "5edc797dacf31f855c8815de901995849616a2f0620157fb2705e17930e119d1",
+        "duocolor": "c2a880c7f27fc3868d76be83f76fe7c46d57aaf9e88954dc30986a208cf0cadd",
+        "duotone": "192cf7181a203b69058fcb9e9881479e4c1f6253ccd31fc58387be5651344938"
+      }
+    },
+    {
+      "name": "collapse-reverse",
+      "category": "Navigation",
+      "tags": [
+        "expand",
+        "fullscreen",
+        "enlarge",
+        "maximize",
+        "outward"
+      ],
+      "aliases": [],
+      "componentSet": "206:49637",
+      "source": {
+        "regular": "206:49638",
+        "filled": "206:49642",
+        "duocolor": "206:49644",
+        "duotone": "206:49649"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/collapse-reverse.svg",
+        "filled": "icons/filled/collapse-reverse.svg",
+        "duocolor": "icons/duocolor/collapse-reverse.svg",
+        "duotone": "icons/duotone/collapse-reverse.svg"
+      },
+      "sha256": {
+        "regular": "38a4cefb360edf141b301cdb7d481dc60635819faf2c4f777db74aa42b879c1b",
+        "filled": "44ba05761a838b4a628b75b597fbde3273dc4d16138c6d81fdb572b618ea4a41",
+        "duocolor": "09d83ba7b8a7beb0df37439f29f8a801b3cd2384bb0770bb371f7f6de829aa18",
+        "duotone": "672ee96588f5f5a2c7b36fed93dba45a30f70cc177895e300c37bc6aa1f18639"
+      }
+    },
+    {
+      "name": "collapse-square",
+      "category": "Navigation",
+      "tags": [
+        "minimize",
+        "shrink",
+        "exit fullscreen",
+        "compress",
+        "box"
+      ],
+      "aliases": [],
+      "componentSet": "206:49878",
+      "source": {
+        "regular": "206:49879",
+        "filled": "206:49883",
+        "duocolor": "206:49885",
+        "duotone": "206:49890"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/collapse-square.svg",
+        "filled": "icons/filled/collapse-square.svg",
+        "duocolor": "icons/duocolor/collapse-square.svg",
+        "duotone": "icons/duotone/collapse-square.svg"
+      },
+      "sha256": {
+        "regular": "681d1e7457726665c156feacc0bcb10ee9fdb03f3894539effe4396432822217",
+        "filled": "d68dc859942adb49e74e44d06c86e9f0e6a3abbda1a0c71327a61634d7fed911",
+        "duocolor": "d2f5ee3ef596e8b6d45418af0ec0aad28b4c90e42a69e9c55ff76a3b6e44dd69",
+        "duotone": "d81935f9b3d9511670f5d9726145975c91ad540be6a0f5f31e1fca73dbd94e84"
+      }
+    },
+    {
+      "name": "collapse-square-reverse",
+      "category": "Navigation",
+      "tags": [
+        "expand",
+        "fullscreen",
+        "enlarge",
+        "maximize",
+        "box"
+      ],
+      "aliases": [],
+      "componentSet": "206:49917",
+      "source": {
+        "regular": "206:49918",
+        "filled": "206:49922",
+        "duocolor": "206:49924",
+        "duotone": "206:49929"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/collapse-square-reverse.svg",
+        "filled": "icons/filled/collapse-square-reverse.svg",
+        "duocolor": "icons/duocolor/collapse-square-reverse.svg",
+        "duotone": "icons/duotone/collapse-square-reverse.svg"
+      },
+      "sha256": {
+        "regular": "d0314577d423fce1982d594302e858ff4956932b6b508cae98f4e1ac5426d7c5",
+        "filled": "649945f75720badb4bbdb4dc9d0104b3f84a1103f4b8fc98f61ab70f839aebf4",
+        "duocolor": "c71a69d50849f4fe766798da96862fb8961f1526292ae9ebf9f91240fbdcf554",
+        "duotone": "1e69d35cf199a5e1c9cabb344f6cd0ffd2eb0e54397a6ae6764e71c895505a12"
+      }
+    },
+    {
       "name": "colors",
       "category": "Media & devices",
       "tags": [
@@ -22222,6 +23414,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "compass-square",
+      "category": "Navigation",
+      "tags": [
+        "explore",
+        "direction",
+        "discover",
+        "browse",
+        "north",
+        "bearing"
+      ],
+      "aliases": [],
+      "componentSet": "209:76035",
+      "source": {
+        "regular": "209:76036",
+        "filled": "209:76040",
+        "duocolor": "209:76042",
+        "duotone": "209:76047"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/compass-square.svg",
+        "filled": "icons/filled/compass-square.svg",
+        "duocolor": "icons/duocolor/compass-square.svg",
+        "duotone": "icons/duotone/compass-square.svg"
+      },
+      "sha256": {
+        "regular": "8e64fc2e1fcada45223a1d8a6d9c8c2e6596159c1a8eb1d9272cb61ba570cbb8",
+        "filled": "60b8e69f124cc7b760a65a7800073e0d9bce235adf8c04f0cf5663a827e1a271",
+        "duocolor": "ea523aa44297d6871aaf38f5bc662c13d768e14d64961a66cf452f35c9423b20",
+        "duotone": "2a47d578896a5b7a44694784f6b3db6482be8b2755d4808e00ff73d53a09620a"
       }
     },
     {
@@ -23055,10 +24286,10 @@
         "duotone": "icons/duotone/credit-card-edit.svg"
       },
       "sha256": {
-        "regular": "f01358afdfe2fb076e3084f29893d47f6a4c9bb9f02ced0b058bde968398e7e1",
-        "filled": "42f0c0ab1cb5cd963051fd746ab9cbb112c45bac020c45ed4765bc887ad64183",
-        "duocolor": "35100aa8884b133b28203eb8f5b538c35c70cffd8f2d25fa8a6d92bbf105ad73",
-        "duotone": "42d7c2803c04f4c0acc06718dae73329e60bfd6f4d1d9161897859ca954094a7"
+        "regular": "1c28e80cb26b747d517ab7bafed856b3a2a027bddbd100c47356bfd4306a0541",
+        "filled": "3f7e10902b2f12194637422a260e35cc69acdcad55f7f98ee3d3d1566bcbe959",
+        "duocolor": "bd68c493142d9a882c99c4dceda414f3795ef712e19021c6865b549e672f8c71",
+        "duotone": "79837443fbe07ae92540b4490662c1cd10d8e1558a49a053c37b3005339ffc83"
       },
       "duoAuthoring": {
         "version": 2,
@@ -34304,10 +35535,10 @@
         "duotone": "icons/duotone/filter-edit.svg"
       },
       "sha256": {
-        "regular": "9f95a63a2e0c097445d96852fe4e5862288916adb42a20280801291ee2f48e74",
-        "filled": "7c4e8d9b617af948b39a815b210b5466aa0bd4c70bf93986af4a4695026a6c4d",
-        "duocolor": "5b4d6e07db3047a2c2603428dc12b378b62196fd4393654227048e2ea5167a41",
-        "duotone": "572ea3dc2a1a6d328fd2a9b05dcedf103711db68be988d0ddbf56357abc24dc0"
+        "regular": "61373c2a1dddeb59789bdff94fa5ee617c4b394873dbefd26830abbfaaac8ad6",
+        "filled": "e81228f1f9bad852a2f9946007f2eecbc4dda6437ece2e238a9063307f454b40",
+        "duocolor": "e90f08fe335e3d83e4ebe96e7614f5d59bcf43b4ea10cb5285c05f90774517ec",
+        "duotone": "fdca11aea1a01a0d6fc6a8b63835361d4b8d3d3cdb171fdf507f37c4dd3319e9"
       },
       "duoAuthoring": {
         "version": 2,
@@ -34414,10 +35645,10 @@
         "duotone": "icons/duotone/filter-lines-edit.svg"
       },
       "sha256": {
-        "regular": "30a16d8d336ba4c50be778828df6ca5bb3e6a244b519b9a92b7f1ae337b3f1a5",
-        "filled": "1ff6bf7bac884249387dd051dbb04336468a1e77601de2fb871bde7c867cfe24",
-        "duocolor": "560b6d0ed050d3220725b4b7854820d64bffa03685caa58da7c1c45e1edf2737",
-        "duotone": "ec79778008d3cbaacb36f3d4f0fe062577e5cc019fe52d90ace3d05e0750f2e6"
+        "regular": "8e5a7669b4907410eed3d6a538041ad97367fbf6f4dc5ff60ce4d977e9773fef",
+        "filled": "deeded18eab491ca062736e54973de055c4d2bd37b381d2d9f3e40d903174abb",
+        "duocolor": "b553d7fa08915469bea7b35593b997bae0428f8eeefefcf1cb4fd2360ecdfcdf",
+        "duotone": "70dedfa941d94c4dc454e240bbcf495ea47083af29b88f8a4ef67e6d15773a17"
       },
       "duoAuthoring": {
         "version": 2,
@@ -37220,6 +38451,123 @@
       }
     },
     {
+      "name": "gauge-circle-low",
+      "category": "Data & commerce",
+      "tags": [
+        "speedometer",
+        "empty",
+        "meter",
+        "performance",
+        "dashboard",
+        "minimum"
+      ],
+      "aliases": [],
+      "componentSet": "209:75991",
+      "source": {
+        "regular": "209:75992",
+        "filled": "209:75996",
+        "duocolor": "209:75998",
+        "duotone": "209:76003"
+      },
+      "keyline": {
+        "key": "Circle",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/gauge-circle-low.svg",
+        "filled": "icons/filled/gauge-circle-low.svg",
+        "duocolor": "icons/duocolor/gauge-circle-low.svg",
+        "duotone": "icons/duotone/gauge-circle-low.svg"
+      },
+      "sha256": {
+        "regular": "cd657fe0f52c04b7147c00d5447b36d5b9b30322ccbc7829ca9474272fc3eaa3",
+        "filled": "afaeb97a9da31580b7a04f7f0e44fdfd685f8c33c60c403d6d1f9c461a07b08b",
+        "duocolor": "fb960c8b7661ce6b6c350b57e4d873636767ffdb20e8cacba1c6d38e70caab19",
+        "duotone": "4de7655a452eaeeccbcd195d2c3487c77b942281339726e20cd8eb29c24dfb31"
+      }
+    },
+    {
+      "name": "gauge-square",
+      "category": "Data & commerce",
+      "tags": [
+        "speedometer",
+        "dashboard",
+        "performance",
+        "meter",
+        "metrics",
+        "speed"
+      ],
+      "aliases": [],
+      "componentSet": "209:75904",
+      "source": {
+        "regular": "209:75905",
+        "filled": "209:75909",
+        "duocolor": "209:75911",
+        "duotone": "209:75916"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/gauge-square.svg",
+        "filled": "icons/filled/gauge-square.svg",
+        "duocolor": "icons/duocolor/gauge-square.svg",
+        "duotone": "icons/duotone/gauge-square.svg"
+      },
+      "sha256": {
+        "regular": "731eb8d9e782023883b90854b160b1a52f3c89f4399e16c2186e23b3dceea7c3",
+        "filled": "e7770701bdafa8538cf0981156912e5b149f8860059ad549988e9158bc9d96b1",
+        "duocolor": "9a3395f02d036180c3c7927841027fdaef7ce35d7085d9c3ac2d3bdd6fb06f1e",
+        "duotone": "90a1f73558f00f084558d74b4c4a0047d85f6ea89685871327a2912fdbc0f70f"
+      }
+    },
+    {
+      "name": "gauge-window",
+      "category": "Data & commerce",
+      "tags": [
+        "dashboard",
+        "analytics",
+        "performance",
+        "meter",
+        "app window",
+        "metrics"
+      ],
+      "aliases": [],
+      "componentSet": "209:75947",
+      "source": {
+        "regular": "209:75948",
+        "filled": "209:75952",
+        "duocolor": "209:75954",
+        "duotone": "209:75959"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/gauge-window.svg",
+        "filled": "icons/filled/gauge-window.svg",
+        "duocolor": "icons/duocolor/gauge-window.svg",
+        "duotone": "icons/duotone/gauge-window.svg"
+      },
+      "sha256": {
+        "regular": "af4266c9f539951ba38981e588ebdc55b1a721999fa4d25da781eec6b85265fa",
+        "filled": "ec1655add8253909ec0438ecc8afbb7239aaf8b5aaac23a51ff1699fb0b70b96",
+        "duocolor": "c248de477dc023dc9136290d4031677790974d0b7e00a27e1e3366d17078c5aa",
+        "duotone": "c66dfe874f6329167af5f39ecd72e12d24c323f7e1b06e416109d41436dbcf96"
+      }
+    },
+    {
       "name": "gavel",
       "category": "Professions",
       "tags": [
@@ -38906,6 +40254,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "hand-pinch",
+      "category": "Health & medical",
+      "tags": [
+        "zoom",
+        "gesture",
+        "touch",
+        "pinch to zoom",
+        "fingers",
+        "scale"
+      ],
+      "aliases": [],
+      "componentSet": "206:50378",
+      "source": {
+        "regular": "206:50379",
+        "filled": "206:50383",
+        "duocolor": "206:50385",
+        "duotone": "206:50390"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/hand-pinch.svg",
+        "filled": "icons/filled/hand-pinch.svg",
+        "duocolor": "icons/duocolor/hand-pinch.svg",
+        "duotone": "icons/duotone/hand-pinch.svg"
+      },
+      "sha256": {
+        "regular": "5cc472444a389701151cb4040f1a6de2ea0357da2567c989d94e45b3ef38ef00",
+        "filled": "8937dcc3d4f7cfec63c9e8a177f9d503a63fdf6d55298acb5f72e42682b3ad1e",
+        "duocolor": "af58dca3cad02b4d6db28cdae0c33ba95676cdcad0f7ba9442d97f61f2c85377",
+        "duotone": "74cd19b14f77ebe5bf11bb4cd85e557eba3920a6d3767ff3bc55e8d446a38dfb"
       }
     },
     {
@@ -45784,6 +47171,84 @@
       }
     },
     {
+      "name": "layout-bento",
+      "category": "Interfaces",
+      "tags": [
+        "dashboard",
+        "tiles",
+        "masonry",
+        "widgets",
+        "cards",
+        "grid"
+      ],
+      "aliases": [],
+      "componentSet": "209:75806",
+      "source": {
+        "regular": "209:75807",
+        "filled": "209:75811",
+        "duocolor": "209:75813",
+        "duotone": "209:75818"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/layout-bento.svg",
+        "filled": "icons/filled/layout-bento.svg",
+        "duocolor": "icons/duocolor/layout-bento.svg",
+        "duotone": "icons/duotone/layout-bento.svg"
+      },
+      "sha256": {
+        "regular": "8ef7aae1de2dcea5c6123247b8b844bab5c9b6a433e5e383cf148ce0132a9eb4",
+        "filled": "dd42e2299ce38bb5951de70d2142113137665ddde68435d83159172557f760d8",
+        "duocolor": "80e0ed72d39a0bf565cc5b23b6e6b602f6ca943a9cc2e0859b19287bd97ad0c8",
+        "duotone": "09eee0d293e99aec07ee8dbf3d1286ee3a91f199857c23dd9bf2fc248be1d117"
+      }
+    },
+    {
+      "name": "layout-bento-alt",
+      "category": "Interfaces",
+      "tags": [
+        "dashboard",
+        "tiles",
+        "masonry",
+        "widgets",
+        "cards",
+        "grid"
+      ],
+      "aliases": [],
+      "componentSet": "209:75855",
+      "source": {
+        "regular": "209:75856",
+        "filled": "209:75860",
+        "duocolor": "209:75862",
+        "duotone": "209:75867"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/layout-bento-alt.svg",
+        "filled": "icons/filled/layout-bento-alt.svg",
+        "duocolor": "icons/duocolor/layout-bento-alt.svg",
+        "duotone": "icons/duotone/layout-bento-alt.svg"
+      },
+      "sha256": {
+        "regular": "0cc3c96f4bf8ac9d29fca044330adbb3609e1062de4059bb6f4aff363d0e60a0",
+        "filled": "397dea793b7fcc33d885c281286d07969c7e1bfe56c578a7a67df86a75629385",
+        "duocolor": "e92224a8d42980b5c0df999cde7bbb837a7656ff2e921e34e546a2ff1a0de691",
+        "duotone": "eb56c5b156073172236ed5423bcb42c19fb428252ef9505c3fb0cecf84edad3f"
+      }
+    },
+    {
       "name": "layout-bottom",
       "category": "Interfaces",
       "tags": [
@@ -45835,6 +47300,44 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "layout-bottom-dots",
+      "category": "Interfaces",
+      "tags": [
+        "footer",
+        "tab bar",
+        "status bar",
+        "drawer",
+        "panel"
+      ],
+      "aliases": [],
+      "componentSet": "209:76069",
+      "source": {
+        "regular": "209:76070",
+        "filled": "209:76074",
+        "duocolor": "209:76076",
+        "duotone": "209:76081"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/layout-bottom-dots.svg",
+        "filled": "icons/filled/layout-bottom-dots.svg",
+        "duocolor": "icons/duocolor/layout-bottom-dots.svg",
+        "duotone": "icons/duotone/layout-bottom-dots.svg"
+      },
+      "sha256": {
+        "regular": "445862ddb8f27aeebff4906394114b493670c5dc5f753bad4dcfdf0f698be7ea",
+        "filled": "25aec8e8ac08202db9541033fff15d41b89860143b176a4860b4c40f432f7756",
+        "duocolor": "7b64dc9668cbfbaedb3b6e58de61eb7e80e9495813809904007f2045bbe57924",
+        "duotone": "e1084ba9892432fd54339a053b2b63eaaa02b2640b115e65e543911651bd0234"
       }
     },
     {
@@ -46949,6 +48452,82 @@
       }
     },
     {
+      "name": "layout-panel-bottom-open",
+      "category": "Interfaces",
+      "tags": [
+        "expand footer",
+        "show panel",
+        "console",
+        "drawer",
+        "toggle"
+      ],
+      "aliases": [],
+      "componentSet": "206:50650",
+      "source": {
+        "regular": "206:50651",
+        "filled": "206:50655",
+        "duocolor": "206:50657",
+        "duotone": "206:50662"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/layout-panel-bottom-open.svg",
+        "filled": "icons/filled/layout-panel-bottom-open.svg",
+        "duocolor": "icons/duocolor/layout-panel-bottom-open.svg",
+        "duotone": "icons/duotone/layout-panel-bottom-open.svg"
+      },
+      "sha256": {
+        "regular": "ed8331804fca573bcd646592575155ce66b0fd4121a51b317d998087905a9967",
+        "filled": "ae69aa56fc548d1b2601ebf3fcdd6453729511d45b88f25adfd5871b91a35238",
+        "duocolor": "21d55d5d10d79eb82cd73075ce8b077a7cb6a0f025d34747e0cd84fe96ad7c5f",
+        "duotone": "92608f6533606fe57a5ee62672f8d196301c1bf6de9d519e216a6f5ea504cfb5"
+      }
+    },
+    {
+      "name": "layout-panel-top-close",
+      "category": "Interfaces",
+      "tags": [
+        "collapse header",
+        "hide panel",
+        "toolbar",
+        "drawer",
+        "toggle"
+      ],
+      "aliases": [],
+      "componentSet": "206:50611",
+      "source": {
+        "regular": "206:50612",
+        "filled": "206:50616",
+        "duocolor": "206:50618",
+        "duotone": "206:50623"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/layout-panel-top-close.svg",
+        "filled": "icons/filled/layout-panel-top-close.svg",
+        "duocolor": "icons/duocolor/layout-panel-top-close.svg",
+        "duotone": "icons/duotone/layout-panel-top-close.svg"
+      },
+      "sha256": {
+        "regular": "abd1340a05e265818f92aa0387e944ca17779150ba20bc15b0a9d7dbe0dc378c",
+        "filled": "80371dad41f823f9a735a1ffb5ea8fbd97a9329bdbbf9560cb5c0b5ddccc81d2",
+        "duocolor": "906736c7b402d9434c147bee91d7b0d4290759147a32ddef8ebf6217d47c2b99",
+        "duotone": "5ab116764f43b2a0a8c3c1e72e79d35a9d247681678b43dc54b501fcc78d8f3f"
+      }
+    },
+    {
       "name": "layout-rows-two",
       "category": "Interfaces",
       "tags": [
@@ -47037,10 +48616,10 @@
         "duotone": "icons/duotone/layout-sidebar-left.svg"
       },
       "sha256": {
-        "regular": "95f742def708ab0419b595095996e937fdcf2e8a8ac579d422c16893cd364709",
-        "filled": "b690c2c452becce9dd664bd176a17aefb2b75e759959c4e65f2bbf0bcce7653b",
-        "duocolor": "6b03f7d6246c23d56565c1ed91c20bd73acaa1ed85db96f4549a15db87d99fc6",
-        "duotone": "7337c806ac2b169944a0d1dc18ab6a12f3e82618c131bff460c78435a7c9d566"
+        "regular": "a4298a3d531e71b3e541f08c767de4ac0481b3a56eddc65c464a680d57d7e866",
+        "filled": "3a6297749ff6495f0a6120983a4b03cf1e855e33b16b05620faa14789762a9e6",
+        "duocolor": "f51cc28aa2dc28d440003895411150f0d29b9bbbcebb3b9471c1d83333072d59",
+        "duotone": "710af15b20d068de70bddc4329cf3956fbefb4d24ca717e094f4596401743567"
       },
       "duoAuthoring": {
         "version": 2,
@@ -47055,6 +48634,120 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "layout-sidebar-left-close-dashed",
+      "category": "Interfaces",
+      "tags": [
+        "collapse panel",
+        "hide sidebar",
+        "navigation",
+        "drawer",
+        "toggle"
+      ],
+      "aliases": [],
+      "componentSet": "206:50533",
+      "source": {
+        "regular": "206:50534",
+        "filled": "206:50538",
+        "duocolor": "206:50540",
+        "duotone": "206:50545"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/layout-sidebar-left-close-dashed.svg",
+        "filled": "icons/filled/layout-sidebar-left-close-dashed.svg",
+        "duocolor": "icons/duocolor/layout-sidebar-left-close-dashed.svg",
+        "duotone": "icons/duotone/layout-sidebar-left-close-dashed.svg"
+      },
+      "sha256": {
+        "regular": "68f8790350e4a362268b91a6b31fa5c00ed8577dded4dd9802213839102742a8",
+        "filled": "a3daa93728e53a01a7f4df9b0c5adf4ae55dbeafded46cb62e24e3619e681cd1",
+        "duocolor": "92b36dbef0630e7b76164152f12e1b21a319a16b501179b298c9e17a0f37e3bc",
+        "duotone": "43400ab4990a81d87e3ef5cdbb068604b8d5057c474531581cc99f4b491b7a27"
+      }
+    },
+    {
+      "name": "layout-sidebar-left-dots",
+      "category": "Interfaces",
+      "tags": [
+        "navigation",
+        "panel",
+        "menu",
+        "drawer",
+        "side rail"
+      ],
+      "aliases": [],
+      "componentSet": "209:76108",
+      "source": {
+        "regular": "209:76109",
+        "filled": "209:76113",
+        "duocolor": "209:76115",
+        "duotone": "209:76120"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/layout-sidebar-left-dots.svg",
+        "filled": "icons/filled/layout-sidebar-left-dots.svg",
+        "duocolor": "icons/duocolor/layout-sidebar-left-dots.svg",
+        "duotone": "icons/duotone/layout-sidebar-left-dots.svg"
+      },
+      "sha256": {
+        "regular": "f67e3af528888861f708a540de86c0c62b12e39fe71b9db091d160339d091bdf",
+        "filled": "970f11b737e998990ac4361c8fd6e5edcd3d31e95ccac687b347b6f140b12ec4",
+        "duocolor": "0827d0bfe803844b8b8a05463f0d0a14c8abb185fd081f11fedadaf46a895289",
+        "duotone": "e8c4235acde34da82c8481bcdaf625453100610e5c1ae67588e6a0e395df2213"
+      }
+    },
+    {
+      "name": "layout-sidebar-left-open",
+      "category": "Interfaces",
+      "tags": [
+        "expand panel",
+        "show sidebar",
+        "navigation",
+        "drawer",
+        "toggle"
+      ],
+      "aliases": [],
+      "componentSet": "206:50494",
+      "source": {
+        "regular": "206:50495",
+        "filled": "206:50499",
+        "duocolor": "206:50501",
+        "duotone": "206:50506"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/layout-sidebar-left-open.svg",
+        "filled": "icons/filled/layout-sidebar-left-open.svg",
+        "duocolor": "icons/duocolor/layout-sidebar-left-open.svg",
+        "duotone": "icons/duotone/layout-sidebar-left-open.svg"
+      },
+      "sha256": {
+        "regular": "1d17e57833fec8dcf8eb6779956701b15a3f7415c94af936f20830a00c69c1bd",
+        "filled": "bda2e76c55ad06ea412757d52816d9728a4c91218d0195de69e281aae60b7631",
+        "duocolor": "63731783a6c37430a6696788812647acc72264d1407b8fb55346303d0345efb3",
+        "duotone": "5f60a72e0375c5a1fe2f07374cce112f03e88501f7eaf042b2a356110c33fe6d"
       }
     },
     {
@@ -47092,10 +48785,10 @@
         "duotone": "icons/duotone/layout-sidebar-narrow-left.svg"
       },
       "sha256": {
-        "regular": "2557d6c0dfde07058eb4530a4c50ab5737f2a34e9e8b5959ac141cd4fe8961c6",
-        "filled": "bad9da59bf665a073912cfefbb5c4a32a94766e1eeae9c8801455d72f3261a54",
-        "duocolor": "f02e3faad3c1617f9b5bfc833dc7499fa6f1f8cd9cf4b5e33626d789c75cd3be",
-        "duotone": "fdf2d9e7b3f506aa6ee094c222f8274120c4f21a8cc0592669c5552cd975e35a"
+        "regular": "a1b39e7893ee3f0a34364d241be59e0018135d83af1e6ca61b26e06531e36fac",
+        "filled": "0a77f2b22ac1db7c7ce153eecb4665f96c61d005345ecbeef896cfe6aa9b2351",
+        "duocolor": "2561e4d1a1852c000dcd3378432da77463121c41edf22e71a062300866764c57",
+        "duotone": "012bb097afb263dbc10d869de7b5af887e81086bdb89b9ea42637fdfda7c7230"
       },
       "duoAuthoring": {
         "version": 2,
@@ -47147,10 +48840,10 @@
         "duotone": "icons/duotone/layout-sidebar-narrow-right.svg"
       },
       "sha256": {
-        "regular": "8db2f0fe4fcd6fe96277836a1b89aba139c1939e22380864177620a536b61de7",
-        "filled": "0d9524e0c6a9e0327cf98214d70243ed57ae37b1238d0f6f02c4aa7f08731103",
-        "duocolor": "b633394945e57a090f44282eeb983366b97b10547cec7f649863b641c78db774",
-        "duotone": "31498b54b8d23b72eaebe934e81bc78aeb7bb8bb6e6bb44e941bbaf86e4cdcb7"
+        "regular": "14f2f8ef44ee14a8e9eee644772f3521a02fc02162ba8324b27bdeedf2d88330",
+        "filled": "ac3a6a63e2e3145ba1a84e8fb62fb879e06e0802096c5adc40edc55051a5d97a",
+        "duocolor": "ae13ea264f258d0ff2e6617ef71d4853e2046bf1f02e86ffabb56e4eb8a7be38",
+        "duotone": "cd1f92b61f776fb9abb766485e367b9d9f505d056a187a978182f9a37aa5cda3"
       },
       "duoAuthoring": {
         "version": 2,
@@ -47202,10 +48895,10 @@
         "duotone": "icons/duotone/layout-sidebar-right.svg"
       },
       "sha256": {
-        "regular": "1b388c5e135e72ed82bfe084bde1866762f7c74d875c779baac2898f8c58b0b2",
-        "filled": "5008d483e2e52e8819a9f6069cf6bd0aee215ad743b3dcf17a134c5434033be2",
-        "duocolor": "f48041b2844e448288c1cbc2ba9f1db87a1e3289748e95ab503a6e9602517b36",
-        "duotone": "8b93d87af551d87171554d88f0bc8e77f1b37f3ff18b7a89bd22a968a658872b"
+        "regular": "ee19c12811c801747a5fa6adb377bf58eeff49f33a3b9337c04fc7e6aabc723f",
+        "filled": "2c70a80febf7da3ff9e97c7599d4c4a8f1908488c15c199204bc5ef21c3a76c8",
+        "duocolor": "8e73c040d8e19135688883a387032fb47732f4415b97482e2b72fc6e87394147",
+        "duotone": "c4d8bc1f77f9394deb66cc2709f2770f6684b0f33063e5efdf92c78cf2553355"
       },
       "duoAuthoring": {
         "version": 2,
@@ -47220,6 +48913,82 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "layout-sidebar-right-close",
+      "category": "Interfaces",
+      "tags": [
+        "collapse panel",
+        "hide sidebar",
+        "inspector",
+        "drawer",
+        "toggle"
+      ],
+      "aliases": [],
+      "componentSet": "206:50572",
+      "source": {
+        "regular": "206:50573",
+        "filled": "206:50577",
+        "duocolor": "206:50579",
+        "duotone": "206:50584"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/layout-sidebar-right-close.svg",
+        "filled": "icons/filled/layout-sidebar-right-close.svg",
+        "duocolor": "icons/duocolor/layout-sidebar-right-close.svg",
+        "duotone": "icons/duotone/layout-sidebar-right-close.svg"
+      },
+      "sha256": {
+        "regular": "94ec6b17aa93d374694b61ac5945de5527c3ff7d98e04f866b68938699ccc785",
+        "filled": "774b97a42f84cfc3a7ed4a461aa2109812ddea540ad67a0b13d7e072ec448859",
+        "duocolor": "1888befa3517c12e00c112b45d5c03a2e11c4f06894b119439198bdf61fcc061",
+        "duotone": "fda8905f690fd981c1a29005b2fc761e20a7b018b9b893a9d32b18143865bc3e"
+      }
+    },
+    {
+      "name": "layout-sidebar-right-dots",
+      "category": "Interfaces",
+      "tags": [
+        "inspector",
+        "panel",
+        "details",
+        "drawer",
+        "side rail"
+      ],
+      "aliases": [],
+      "componentSet": "209:76147",
+      "source": {
+        "regular": "209:76148",
+        "filled": "209:76152",
+        "duocolor": "209:76154",
+        "duotone": "209:76159"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/layout-sidebar-right-dots.svg",
+        "filled": "icons/filled/layout-sidebar-right-dots.svg",
+        "duocolor": "icons/duocolor/layout-sidebar-right-dots.svg",
+        "duotone": "icons/duotone/layout-sidebar-right-dots.svg"
+      },
+      "sha256": {
+        "regular": "fdfe7962ae1e18766bf5dbc9ab4cae18042d261419ba3abffbdba7dd35d0f195",
+        "filled": "d3c2b79e47156c6a0fc4dc883042fe8a728859694215297fefbf5b525c21ae10",
+        "duocolor": "3c25490f9f06f447e78117584a9c3db9fae3b9f9764a3ada054a140a336d8f1d",
+        "duotone": "f353baeb34718d07a45981c579db0a58ff453c1d380bfef49645f4b20ccef81d"
       }
     },
     {
@@ -47257,10 +49026,10 @@
         "duotone": "icons/duotone/layout-sidebar-rows.svg"
       },
       "sha256": {
-        "regular": "04f99fcb573f6a3651e7942260237cdf376ce064f3d04f2ab8af062cbd34f2dd",
-        "filled": "3342bdb117a5d203bcbb4554ebb086135ecf488435f97341374cecc746e53c5c",
-        "duocolor": "4b537dfc99a5f4cd8befd4539f6abbf3d22106e482d60fd0251bd1cc075b03cc",
-        "duotone": "b4210711d70e03d664f4fe70e08ac8e37c9b3861a5bc709e1683bcca72c73606"
+        "regular": "611e1273ac61ec3011449f347569ccdbc81ff501ee865a7ae815575741fcf6d4",
+        "filled": "fb4a092cff400d06b1d22f6ef249be8d5c97e7e6c059edd5a58c275f6e2bf9ce",
+        "duocolor": "94a1b06ed086fcb6ad87e21f2a759cf1ff3a3c14bc5ca9d1f030a186d9eaeb10",
+        "duotone": "f206ea9705f30bc3208eec7f2c7fbad2eb51e7854070bf7f7fcfd62e8eed9921"
       },
       "duoAuthoring": {
         "version": 2,
@@ -53105,6 +54874,96 @@
       }
     },
     {
+      "name": "mobile-phone-chat",
+      "category": "Media & devices",
+      "tags": [
+        "message",
+        "sms",
+        "text",
+        "conversation",
+        "smartphone",
+        "messaging"
+      ],
+      "aliases": [],
+      "componentSet": "209:74318",
+      "source": {
+        "regular": "209:74319",
+        "filled": "209:74321",
+        "duocolor": "209:74323",
+        "duotone": "209:74325"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/mobile-phone-chat.svg",
+        "filled": "icons/filled/mobile-phone-chat.svg",
+        "duocolor": "icons/duocolor/mobile-phone-chat.svg",
+        "duotone": "icons/duotone/mobile-phone-chat.svg"
+      },
+      "sha256": {
+        "regular": "34f4c1e7c7b8d99d1a011320f2eb8484442d56561cac7d9a68ce26e6a24bfd65",
+        "filled": "5ffe5896395118dd1cc32b085a1a5e42208c1d30c5da620712b63177054f6c8a",
+        "duocolor": "958f8efbfdc787c66ee29b6e12f2b12b28e100afe52187fb3ecc68dc19b4040f",
+        "duotone": "25ece596217c3cba3a1bf531f0088fd760e47a12996b17c70266c54935062350"
+      },
+      "composition": {
+        "base": "mobile-phone",
+        "modifier": "chat",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
+      "name": "mobile-phone-edit",
+      "category": "Media & devices",
+      "tags": [
+        "write",
+        "compose",
+        "notes",
+        "smartphone",
+        "pencil",
+        "modify"
+      ],
+      "aliases": [],
+      "componentSet": "209:74413",
+      "source": {
+        "regular": "209:74414",
+        "filled": "209:74416",
+        "duocolor": "209:74418",
+        "duotone": "209:74420"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/mobile-phone-edit.svg",
+        "filled": "icons/filled/mobile-phone-edit.svg",
+        "duocolor": "icons/duocolor/mobile-phone-edit.svg",
+        "duotone": "icons/duotone/mobile-phone-edit.svg"
+      },
+      "sha256": {
+        "regular": "9eb72667bfc079f459af89f351c1f6e04e25fc58b2d7470d48db48071491fa8d",
+        "filled": "5cb3955b51d2c90306e56992605302e0ff737a11acd40c370bb0831197486f3b",
+        "duocolor": "c46d7c88038397d17aa711962168d09798409b64f663086cf2be7c9b7927bd19",
+        "duotone": "4c1ea54cd7e46b0bc7f6fd208136c5f6279db33fe3e47d603e44bb7a7994cc13"
+      },
+      "composition": {
+        "base": "mobile-phone",
+        "modifier": "edit",
+        "position": "top-right",
+        "fit": null
+      }
+    },
+    {
       "name": "modem",
       "category": "Media & devices",
       "tags": [
@@ -58854,6 +60713,45 @@
       }
     },
     {
+      "name": "person-burst",
+      "category": "Communication",
+      "tags": [
+        "verified",
+        "profile",
+        "member",
+        "account",
+        "featured",
+        "badge"
+      ],
+      "aliases": [],
+      "componentSet": "206:50754",
+      "source": {
+        "regular": "206:50755",
+        "filled": "206:50759",
+        "duocolor": "206:50761",
+        "duotone": "206:50766"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/person-burst.svg",
+        "filled": "icons/filled/person-burst.svg",
+        "duocolor": "icons/duocolor/person-burst.svg",
+        "duotone": "icons/duotone/person-burst.svg"
+      },
+      "sha256": {
+        "regular": "f9a4b77352bf8152f989a9a4013065ce8e129e865b39b6db6f7f51804ae07ac6",
+        "filled": "eb8fd5f0e8a29982b0bb303e0b6c47ca0d0cd5fcb14210f034b6552572867bf0",
+        "duocolor": "3daea0a9c52bbb1a782c0167b498b71082ca6a9ae53b83b5a757a13bf1174169",
+        "duotone": "2fda77d3873e0b54ee941414b8947bc04ccfa8d55c48388902f9df7fadcfdb48"
+      }
+    },
+    {
       "name": "person-cycling",
       "category": "Sports & fitness",
       "tags": [
@@ -61535,6 +63433,44 @@
       }
     },
     {
+      "name": "pocket",
+      "category": "Interfaces",
+      "tags": [
+        "save for later",
+        "read later",
+        "bookmark",
+        "stash",
+        "collection"
+      ],
+      "aliases": [],
+      "componentSet": "206:50344",
+      "source": {
+        "regular": "206:50345",
+        "filled": "206:50349",
+        "duocolor": "206:50351",
+        "duotone": "206:50356"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/pocket.svg",
+        "filled": "icons/filled/pocket.svg",
+        "duocolor": "icons/duocolor/pocket.svg",
+        "duotone": "icons/duotone/pocket.svg"
+      },
+      "sha256": {
+        "regular": "8b45217651f46ded7d0ab084c973f95c000ef8220aa7371c0a4e36c6824f3202",
+        "filled": "4af00ff32ca1399d76241fc78862ccfea8c627f6bad8ad62d8a639261a882a39",
+        "duocolor": "1653bf807fc462b6549a4886e234a5cad6dad3e23311424e918dfad9ecff0a5d",
+        "duotone": "5fc6fd7a2261e9bbf207f0daac5c2f64136004808fa7d46f8ddfa0c79e1daf30"
+      }
+    },
+    {
       "name": "podcast",
       "category": "Media & devices",
       "tags": [
@@ -62078,6 +64014,122 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "pulse",
+      "category": "Health & medical",
+      "tags": [
+        "signal",
+        "waveform",
+        "oscillation",
+        "frequency",
+        "sine",
+        "heartbeat"
+      ],
+      "aliases": [],
+      "componentSet": "209:76186",
+      "source": {
+        "regular": "209:76187",
+        "filled": "209:76191",
+        "duocolor": "209:76193",
+        "duotone": "209:76198"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/pulse.svg",
+        "filled": "icons/filled/pulse.svg",
+        "duocolor": "icons/duocolor/pulse.svg",
+        "duotone": "icons/duotone/pulse.svg"
+      },
+      "sha256": {
+        "regular": "7ac15ee375f5d7e646ac0eb9d9f651f6277a2def639411649c9c92880176d28c",
+        "filled": "750d9e92cd4b1ca4176bc0507785616bc1383cd7dc4827b82a0cdfc7f9fc735b",
+        "duocolor": "71db38644f9e970b28b2d5476fbf75d9cdc05af5707f12cdf89a77c7f2df4fe3",
+        "duotone": "374720e3e2a5ee47d524af5361213930ce9f57397ebccb9c7c1181a68e88e1c7"
+      }
+    },
+    {
+      "name": "pulse-sharp",
+      "category": "Health & medical",
+      "tags": [
+        "signal",
+        "waveform",
+        "spike",
+        "frequency",
+        "heartbeat",
+        "ecg"
+      ],
+      "aliases": [],
+      "componentSet": "209:76230",
+      "source": {
+        "regular": "209:76231",
+        "filled": "209:76235",
+        "duocolor": "209:76237",
+        "duotone": "209:76242"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/pulse-sharp.svg",
+        "filled": "icons/filled/pulse-sharp.svg",
+        "duocolor": "icons/duocolor/pulse-sharp.svg",
+        "duotone": "icons/duotone/pulse-sharp.svg"
+      },
+      "sha256": {
+        "regular": "150fca109f2ef141c3b57f5494e6bc2ef1ee81e7a26155a5ac8e2fbc31549930",
+        "filled": "6ea7b2cf340efb3d85e31af00cf1e5c124695f3095a6f29117fbf206a2c5f1c2",
+        "duocolor": "efa5baa527f598c02a427f2743582a376d798fd47db106c1b623daae62b5541b",
+        "duotone": "4f5eca97150612a3c770362b1582c194dd59b002249a865f9901154a626cd827"
+      }
+    },
+    {
+      "name": "pulse-square-wave",
+      "category": "Health & medical",
+      "tags": [
+        "signal",
+        "waveform",
+        "digital",
+        "frequency",
+        "clock signal"
+      ],
+      "aliases": [],
+      "componentSet": "209:76208",
+      "source": {
+        "regular": "209:76209",
+        "filled": "209:76213",
+        "duocolor": "209:76215",
+        "duotone": "209:76220"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/pulse-square-wave.svg",
+        "filled": "icons/filled/pulse-square-wave.svg",
+        "duocolor": "icons/duocolor/pulse-square-wave.svg",
+        "duotone": "icons/duotone/pulse-square-wave.svg"
+      },
+      "sha256": {
+        "regular": "28e4b497e771aaa8cfb80c45bd93ee18a944a02b47cf8e154ae37380759d40bc",
+        "filled": "642e57a6eccb3403c2e4e5d4653dd89910d61ae57ec7be774d576f170bd4016c",
+        "duocolor": "72968c3a6c263c035fc44bf5ab8510839d2a8834a65a53d5f2e669eec20b3462",
+        "duotone": "370cdbdd32530a2f8ff76c592064c65d6b0af2b69328c484e5a249527dadf1a8"
       }
     },
     {
@@ -67421,6 +69473,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "share-square",
+      "category": "Essentials",
+      "tags": [
+        "export",
+        "forward",
+        "send",
+        "open in",
+        "external",
+        "redirect"
+      ],
+      "aliases": [],
+      "componentSet": "209:76370",
+      "source": {
+        "regular": "209:76371",
+        "filled": "209:76375",
+        "duocolor": "209:76377",
+        "duotone": "209:76382"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/share-square.svg",
+        "filled": "icons/filled/share-square.svg",
+        "duocolor": "icons/duocolor/share-square.svg",
+        "duotone": "icons/duotone/share-square.svg"
+      },
+      "sha256": {
+        "regular": "be124c78e4985cd2742d9ed47099172dc2dc8829e8e254e973195130ab8c2458",
+        "filled": "8827f9105bb7b8761ba2c66e533a0db97923f502f85fbb978dbf9ca6d52153b5",
+        "duocolor": "1884912ff938172eb31faa281f24f26db907e5a12a6c699ccaa88b33dc62c50c",
+        "duotone": "645014609662b1129316144d2cf9f154a20a28a933cca098e9546f72a552f409"
       }
     },
     {
@@ -78320,10 +80411,10 @@
         "duotone": "icons/duotone/user-edit.svg"
       },
       "sha256": {
-        "regular": "39649a62c6e575a11758f0912f22e3fd66047f9596c9b57c90210cc757e3dccb",
-        "filled": "850548a5c89200badb4948de1daa0c6ea1b66860dcab4edadf3340b84e85329d",
-        "duocolor": "3a98c88063b441503c71a4b9f49d8cf482689843add10bfe6b4fcf4188446339",
-        "duotone": "32d9340d9f37034bdf8b192101eb98a0bb4ec4df49f287fb833ccc2a3b8f22ce"
+        "regular": "51245a798054450fb61821578dac14a1afc6ae49cc433a524ec342273debd8cf",
+        "filled": "2068a611717bb05717a74591e41bc53414958dacddfe2dc71431a5767933f20d",
+        "duocolor": "248331175190a8907458d681261c3610db29cc68572e79477ec66fc6feb71d0b",
+        "duotone": "c79d628d8d31e98a1d962a8208567664869dbd3b320065199af50e82a36bc69f"
       },
       "composition": {
         "base": "user",
@@ -78390,6 +80481,45 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "user-headset",
+      "category": "Communication",
+      "tags": [
+        "support",
+        "customer service",
+        "call center",
+        "agent",
+        "helpdesk",
+        "operator"
+      ],
+      "aliases": [],
+      "componentSet": "209:76450",
+      "source": {
+        "regular": "209:76451",
+        "filled": "209:76455",
+        "duocolor": "209:76457",
+        "duotone": "209:76462"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/user-headset.svg",
+        "filled": "icons/filled/user-headset.svg",
+        "duocolor": "icons/duocolor/user-headset.svg",
+        "duotone": "icons/duotone/user-headset.svg"
+      },
+      "sha256": {
+        "regular": "bc4fc69941d9053ca2b846a637968795772b4953b0800952c7db9918ddcf6b09",
+        "filled": "e7ac71f49fec4019e6277d5f133c60565dd1965959990f5822d9c7fe117b1bf4",
+        "duocolor": "049ef90239f9dcfd50a10da25a63eb40730ba03573dc44c14eb289f57b99d95a",
+        "duotone": "e180e977271e6bd5147165ef980c174dc600f42531303a8009ba09e170b6121c"
       }
     },
     {
@@ -78763,6 +80893,51 @@
       }
     },
     {
+      "name": "user-tag",
+      "category": "Communication",
+      "tags": [
+        "label",
+        "tagged",
+        "mention",
+        "identify",
+        "profile",
+        "account"
+      ],
+      "aliases": [],
+      "componentSet": "206:57182",
+      "source": {
+        "regular": "206:57183",
+        "filled": "206:57185",
+        "duocolor": "206:57187",
+        "duotone": "206:57189"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/user-tag.svg",
+        "filled": "icons/filled/user-tag.svg",
+        "duocolor": "icons/duocolor/user-tag.svg",
+        "duotone": "icons/duotone/user-tag.svg"
+      },
+      "sha256": {
+        "regular": "ed8c7539afe818db8c1a6a6bd40cf6f7b5aec4970089efe61acef43d2e90662c",
+        "filled": "5c9493b651aba0c56a9c35ad8ff6c9d1ac42f28e7937bbd4176e2bb42403aaca",
+        "duocolor": "3876fd36ca4486bd484fb4e24e3801ab6b6f8507fe783fe59e40dcd0e8069a88",
+        "duotone": "878750ea249cbae49e0bf23281d32b94e01ae05bc754d02d3d12388d50876433"
+      },
+      "composition": {
+        "base": "user",
+        "modifier": "tag",
+        "position": "bottom-right",
+        "fit": null
+      }
+    },
+    {
       "name": "user-up",
       "category": "Communication",
       "tags": [
@@ -78810,6 +80985,45 @@
       "duoAuthoring": {
         "version": 2,
         "approvedPrototype": true
+      }
+    },
+    {
+      "name": "user-voice",
+      "category": "Communication",
+      "tags": [
+        "speaking",
+        "talk",
+        "announcement",
+        "voice chat",
+        "speaker",
+        "audio"
+      ],
+      "aliases": [],
+      "componentSet": "209:76405",
+      "source": {
+        "regular": "209:76406",
+        "filled": "209:76410",
+        "duocolor": "209:76412",
+        "duotone": "209:76417"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/user-voice.svg",
+        "filled": "icons/filled/user-voice.svg",
+        "duocolor": "icons/duocolor/user-voice.svg",
+        "duotone": "icons/duotone/user-voice.svg"
+      },
+      "sha256": {
+        "regular": "7b82fc3d7c72de9e04bc7ae43be6d4f248dd1df43f5c3d99e47345793afa324c",
+        "filled": "745a5768dd0cd0ebef7881bd8dfd6e15f9f656c580be915466b585fa938ef5f9",
+        "duocolor": "d28973f2f17ada80ca4c69882bc76ce3d9122c97c05fff87c31534a2635ed674",
+        "duotone": "34b44a50a9dd39a197ad119ca057149557f6970969ca1095ce9bf56c17c0cf15"
       }
     },
     {
@@ -78994,10 +81208,10 @@
         "duotone": "icons/duotone/users-edit.svg"
       },
       "sha256": {
-        "regular": "aa2b65df3b5dd3016366b1cf95f28677027898c7c75e9aedbe52351c03f5880a",
-        "filled": "4a02eac98b85491b7f5b27038f0db8084c9b40ed3969b5634b7cc4ee5975bec0",
-        "duocolor": "8225326851aaa142ae2c3eba1c451982dd876f2da25c4ad86c9fe88f8f55551b",
-        "duotone": "dd2d7b2fdcdba0c236919ac3c120f91230c065438b15672291eafde58c03a965"
+        "regular": "fe0e9429fea2c20c415126ddf2dcc0067f800967e746bf62219ec5ed7b52c8a2",
+        "filled": "48099489b3a1168affb0565fa99b48b5a8391ed39b64ee653812c000543f91f1",
+        "duocolor": "e0503b46bc8e79abe51f89785adc542fafe4739ed72d6b28a5099053c995cdcf",
+        "duotone": "dd8030884a40a84228f787ef1fdd8b2e269825b6316fcb608aa3760abcc3266d"
       },
       "composition": {
         "base": "users",
