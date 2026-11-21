@@ -113,7 +113,7 @@ Modifiers compose a base icon with a reusable glyph rather than requiring a
 separate drawing for every combination. The chooser will group actions
 (Add, Delete, Remove, Block, Edit, and four directional arrows), statuses
 (Warning, Check, Dot), access/identity (Key, Lock, User, Clip), commerce
-(Money, a curled bank note), and file-type labels.
+(Money, a curled bank note; Coins), time (24), and file-type labels.
 All of them are reusable Figma components and SVG assets, including
 Sparkle, Download, Upload, Refresh, Search, Shield, and the scheduling badges
 Reply, Note, Record, Link, and Phone.
@@ -224,7 +224,7 @@ python3 scripts/compose_svg.py home-smile --modifier key --position bottom-right
 Available modifiers: `add`, `delete`, `warning`, `check`, `key`, `lock`, `user`,
 `clip`, `pdf`, `svg`, `eps`, `psd`, `remove`, `block`, `edit`, `arrow-up`,
 `arrow-down`, `arrow-left`, `arrow-right`, `sparkle`, `download`, `upload`,
-`refresh`, `search`, `shield`, `reply`, `note`, `record`, `link`, `phone`, `dot`, and `money`. `auto` uses the approved Add/Delete and
+`refresh`, `search`, `shield`, `reply`, `note`, `record`, `link`, `phone`, `dot`, `money`, `coins`, and `24`. `auto` uses the approved Add/Delete and
 file-type defaults. Other modifiers require an explicit `--position`:
 `top-left`, `top-right`, `bottom-left`, or `bottom-right`.
 
