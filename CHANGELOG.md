@@ -6,6 +6,31 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- 57 icons:
+  - Navigation: `collapse-reverse`, `collapse-four`, `collapse-dot`,
+    `arrows-to-circle`, `collapse-circle`, `collapse-circle-reverse`,
+    `collapse-square`, `collapse-square-reverse`,
+    `arrows-swap-vertical-circle`, `arrows-swap-vertical-square`,
+    `arrows-vertical-circle`, `arrows-vertical-square`,
+    `arrows-diagonal-square`, `chevrons-circle-down`, `chevrons-square-down`,
+    `chevrons-square-left`, `chevrons-collapse-horizontal`, `compass-square`.
+  - Interfaces: `apps`, `apps-add`, `apps-edit`, `apps-remove`,
+    `apps-settings`, `apps-square-add`, `apps-square-edit`,
+    `apps-square-remove`, `apps-square-settings`, `layout-bento`,
+    `layout-bento-alt`, `layout-bottom-dots`, `layout-sidebar-left-dots`,
+    `layout-sidebar-right-dots`, `layout-sidebar-left-open`,
+    `layout-sidebar-left-close-dashed`, `layout-sidebar-right-close`,
+    `layout-panel-top-close`, `layout-panel-bottom-open`, `pocket`.
+  - Data & commerce: `gauge-square`, `gauge-window`, `gauge-circle-low`.
+  - Health & medical: `pulse`, `pulse-square-wave`, `pulse-sharp`,
+    `hand-pinch`.
+  - Food & drink: `coffee-takeaway`, `coffee-beans`.
+  - Communication: `person-burst`, `user-tag`, `user-voice`, `user-headset`.
+  - Media & devices: `mobile-phone-chat`, `mobile-phone-edit`.
+  - Other: `clock-24`, `code-dots`, `badge-minus`, `share-square`.
+- **Tag** modifier (commerce): a solid price tag with a hole in the modifier
+  glyph color.
+- **Chat** modifier: a solid speech bubble with two glyph lines.
 - **Coins** modifier (commerce): two overlapping coins with an opaque $ in
   the modifier glyph color.
 - **24** modifier (time): stroke-weight digits for 24-hour icons such as a
@@ -13,6 +38,16 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Changed
 
+- The **Edit** modifier is now a bare solid pencil instead of a pencil
+  cut out of a squircle. Its clearance follows the pencil, so `user-edit`,
+  `users-edit`, `credit-card-edit`, `filter-edit`, and `filter-lines-edit`
+  show more of their base icon.
+- Redrew the **Key** modifier: the ring is at the top right with a centered
+  hole, and the teeth are at the end of the shaft.
+- Redrew `layout-sidebar-left`, `layout-sidebar-right`,
+  `layout-sidebar-narrow-left`, `layout-sidebar-narrow-right`, and
+  `layout-sidebar-rows` on a rounded-square frame.
+- `coffee` now has wavy steam.
 - Redrew `scissors`, `scissors-dashed`, `scissors-sparkles`, `eyedropper`,
   `scale`, `piggy-bank`, `paint-roller`, `paintbrush`, `paintbrush-round`, and
   `paint-pour`.

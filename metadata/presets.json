@@ -2196,6 +2196,48 @@
         "duotone": "169:105554"
       },
       "componentSet": "169:105574"
+    },
+    {
+      "name": "user-tag",
+      "base": "user",
+      "modifier": "tag",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "206:57183",
+        "filled": "206:57185",
+        "duocolor": "206:57187",
+        "duotone": "206:57189"
+      },
+      "componentSet": "206:57182"
+    },
+    {
+      "name": "mobile-phone-chat",
+      "base": "mobile-phone",
+      "modifier": "chat",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "209:74319",
+        "filled": "209:74321",
+        "duocolor": "209:74323",
+        "duotone": "209:74325"
+      },
+      "componentSet": "209:74318"
+    },
+    {
+      "name": "mobile-phone-edit",
+      "base": "mobile-phone",
+      "modifier": "edit",
+      "position": "top-right",
+      "fit": null,
+      "source": {
+        "regular": "209:74414",
+        "filled": "209:74416",
+        "duocolor": "209:74418",
+        "duotone": "209:74420"
+      },
+      "componentSet": "209:74413"
     }
   ],
   "styleSafeFamilyAudit": {

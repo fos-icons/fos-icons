@@ -1,6 +1,6 @@
 # Fos Icons
 
-1,530 icons in Regular, Filled, Duocolor, and Duotone styles: **6,120 SVGs**,
+1,587 icons in Regular, Filled, Duocolor, and Duotone styles: **6,348 SVGs**,
 drawn on a 24 x 24 grid. Line styles default to 1.25px strokes. Negative space and
 modifier clearances are transparent.
 
@@ -257,7 +257,7 @@ and `message-sparkles`. Their names, paths, and canonical component IDs are unch
 `user-circle`, `user-square`, `user-focus`, `user-identity`, and `user-badge`
 retain their structural artwork.
 
-The catalog now contains **109 named presets**, including the paper/file families,
+The catalog now contains **141 named presets**, including the paper/file families,
 `palette-sparkles`, `scissors-sparkles`, and the calendar actions (`calendar-add`,
 `calendar-reply`, `calendar-phone`, and others, each with a bottom-right badge), and
 `clock-check` / `clock-plus` (`clock` with a bottom-left badge, so neither hand is clipped). Native family-specific wrappers keep
@@ -312,7 +312,7 @@ print(matches)
 
 ## Figma source
 
-The Fos Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`) has 1,530 core sets on
+The Fos Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`) has 1,587 core sets on
 the Components page with
 `Style=Regular/Filled/Duocolor/Duotone` and `Size=24`, with original
 Regular/Filled component IDs preserved. The separate Brands page contains the
