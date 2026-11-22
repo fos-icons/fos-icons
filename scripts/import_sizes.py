@@ -72,7 +72,7 @@ def register_sizes(root=ROOT):
 
 
 def split_sheet(text, size, names, root=ROOT, styles=STYLES):
-    if size not in OPTICAL_SIZES:
+    if size not in SIZES:
         raise ValueError(f"Unsupported optical size: {size}")
     pitch = size + 32
     sheet = ET.fromstring(text)

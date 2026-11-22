@@ -43,6 +43,11 @@ Changes are recorded under Unreleased until a release is tagged.
 - **24** modifier (time): stroke-weight digits for 24-hour icons such as a
   clock; it defaults to the bottom-right corner.
 
+### Fixed
+
+- `burger` and `ufo` Filled were missing parts (the top bun and the dome)
+  at 24px; both are complete again.
+
 ### Changed
 
 - The **Edit** modifier is now a bare solid pencil instead of a pencil

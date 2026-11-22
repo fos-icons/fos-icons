@@ -86,7 +86,7 @@ class SplitSheetTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory, self.assertRaises(ValueError):
             split_sheet(stray, 32, ["alpha"], Path(directory))
         with self.assertRaises(ValueError):
-            split_sheet(stray, 24, ["alpha"])
+            split_sheet(stray, 20, ["alpha"])
 
 
 class LibrarySizeTests(unittest.TestCase):
