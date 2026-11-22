@@ -71,7 +71,7 @@ def register_sizes(root=ROOT):
     return manifest
 
 
-def split_sheet(text, size, names, root=ROOT):
+def split_sheet(text, size, names, root=ROOT, styles=STYLES):
     if size not in OPTICAL_SIZES:
         raise ValueError(f"Unsupported optical size: {size}")
     pitch = size + 32
@@ -94,15 +94,19 @@ def split_sheet(text, size, names, root=ROOT):
     for (column, row), elements in cells.items():
         group = ET.SubElement(grouped, f"{{{SVG}}}g", id=f"cell-{column}-{row}")
         group.extend(elements)
+    wanted = [(column, style) for column, style in enumerate(STYLES) if style in styles]
     missing = [
         f"{name}/{style}" for row, name in enumerate(names)
-        for column, style in enumerate(STYLES) if (column, row) not in cells
+        for column, style in wanted if (column, row) not in cells
     ]
+    extra = sorted({STYLES[column] for column, _ in cells} - set(styles))
+    if extra:
+        raise ValueError(f"Sheet has columns outside --styles: {extra}")
     if missing:
         raise ValueError(f"Empty cells: {missing}")
     written = []
     for row, name in enumerate(names):
-        for column, style in enumerate(STYLES):
+        for column, style in wanted:
             svg = extract_icon(
                 grouped, {"id": f"cell-{column}-{row}", "x": column * pitch, "y": row * pitch},
                 f"{name}-{size}-{style}", style=style, paint_roles=PAINT_ROLES, size=size,
@@ -121,6 +125,8 @@ if __name__ == "__main__":
     parser.add_argument("size", type=int, nargs="?")
     parser.add_argument("names", nargs="?", help="Comma-separated icon names, one per sheet row")
     parser.add_argument("--root", type=Path, default=ROOT)
+    parser.add_argument("--styles", default=",".join(STYLES),
+                        help="Comma-separated styles present in the sheet (columns keep their places)")
     parser.add_argument("--register", action="store_true",
                         help="Record the optical-size digests in manifest.json")
     args = parser.parse_args()
@@ -128,5 +134,8 @@ if __name__ == "__main__":
         manifest = register_sizes(args.root)
         print(f"Registered {len(OPTICAL_SIZES)} optical sizes for {manifest['iconCount']} icons")
         raise SystemExit
-    files = split_sheet(args.sheet.read_text(encoding="utf-8"), args.size, args.names.split(","), args.root)
+    files = split_sheet(
+        args.sheet.read_text(encoding="utf-8"), args.size, args.names.split(","), args.root,
+        styles=tuple(args.styles.split(",")),
+    )
     print(f"Wrote {len(files)} SVGs at {args.size}px")
