@@ -13,6 +13,7 @@ from pathlib import Path
 from import_figma import SVG
 from import_modifiers import GLYPH_PAINT, POSITIONS, allowed_positions, namespace_ids
 from duo import DUO_STYLES, apply_colors
+from sizes import BASE_SIZE, SIZES, icon_digest, icon_path
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -55,7 +56,7 @@ def cutout_stencil(badge, prefix):
     badge.append(visible)
 
 
-def fit_base(base, fit):
+def fit_base(base, fit, size=BASE_SIZE):
     if not isinstance(fit, dict) or set(fit) != {"scale", "x", "y"}:
         raise ValueError("Base fit needs scale, x, and y")
     if any(
@@ -65,13 +66,20 @@ def fit_base(base, fit):
         not 0 <= fit[key] <= 24 for key in ("x", "y")
     ):
         raise ValueError("Invalid base fit")
-    base.set("width", str(24 * fit["scale"]))
-    base.set("height", str(24 * fit["scale"]))
-    base.set("x", str(fit["x"]))
-    base.set("y", str(fit["y"]))
+    k = size / BASE_SIZE
+    base.set("width", str(size * fit["scale"]))
+    base.set("height", str(size * fit["scale"]))
+    base.set("x", str(fit["x"] * k))
+    base.set("y", str(fit["y"] * k))
     for node in base.iter():
         if node.get("stroke-width") is not None:
             node.set("stroke-width", str(float(node.get("stroke-width")) / fit["scale"]))
+    if base.get("stroke-width") is None and any(
+        node.get("stroke") not in (None, "none") and node.get("stroke-width") is None
+        for node in base.iter()
+    ):
+        # Strokes that rely on the 1-unit default (Figma omits stroke-width="1").
+        base.set("stroke-width", str(1 / fit["scale"]))
 
 
 def color_value(value):
@@ -97,6 +105,7 @@ def compose_svg(
     name, modifier, *, style="regular", position="auto", theme="light",
     color="currentColor", modifier_color=None, glyph_color=None,
     root=ROOT, id_prefix=None, base_fit=None, cutout=False, secondary_color=None,
+    size=BASE_SIZE,
 ):
     root = Path(root)
     core = json.loads((root / "manifest.json").read_text(encoding="utf-8"))
@@ -107,6 +116,9 @@ def compose_svg(
         raise ValueError("Unknown canonical icon or modifier")
     if style not in core["styles"] or theme not in ("light", "dark"):
         raise ValueError("Unsupported icon style or theme")
+    if size not in SIZES:
+        raise ValueError(f"Unsupported optical size: {size}")
+    k = size / BASE_SIZE
     if position == "auto":
         position = glyph["defaultPosition"]
     if position not in POSITIONS:
@@ -135,7 +147,8 @@ def compose_svg(
     prefix = id_prefix or f"fos-{uuid.uuid4().hex}"
     if not re.fullmatch(r"[a-zA-Z_][a-zA-Z0-9_-]*", prefix):
         raise ValueError("Invalid SVG ID prefix")
-    base = read_asset(root, icon["files"][style], icon["sha256"][style])
+    relative = icon["files"][style] if size == BASE_SIZE else icon_path(name, style, size)
+    base = read_asset(root, relative, icon_digest(icon, style, size))
     if style in DUO_STYLES:
         apply_colors(base, theme, color, secondary_color)
         color = base.get("color")
@@ -144,7 +157,7 @@ def compose_svg(
     namespace_ids(base, prefix + "-base")
     namespace_ids(badge, prefix + "-glyph")
     if base_fit is not None:
-        fit_base(base, base_fit)
+        fit_base(base, base_fit, size)
     if cutout:
         cutout_stencil(badge, prefix)
     else:
@@ -153,7 +166,7 @@ def compose_svg(
                 if node.get(attr) == GLYPH_PAINT:
                     node.set(attr, glyph_color)
     result = ET.Element(
-        f"{{{SVG}}}svg", width="24", height="24", viewBox="0 0 24 24",
+        f"{{{SVG}}}svg", width=str(size), height=str(size), viewBox=f"0 0 {size} {size}",
         fill="none", color=color,
     )
     defs = ET.SubElement(result, f"{{{SVG}}}defs")
@@ -164,16 +177,20 @@ def compose_svg(
     placement = glyph["positions"][position]
     for path in placement["clearance"]:
         rule = "evenodd" if path["windingRule"] == "EVENODD" else "nonzero"
-        ET.SubElement(
-            clip, f"{{{SVG}}}path",
-            {"d": path["data"], "fill-rule": rule, "clip-rule": rule},
-        )
+        attributes = {"d": path["data"], "fill-rule": rule, "clip-rule": rule}
+        if size != BASE_SIZE:
+            attributes["transform"] = f"scale({k:g})"
+        ET.SubElement(clip, f"{{{SVG}}}path", attributes)
     masked = ET.SubElement(
         result, f"{{{SVG}}}g", {"clip-path": f"url(#{clip_id})"},
     )
     masked.append(copy.deepcopy(base))
-    badge.set("x", str(placement["x"]))
-    badge.set("y", str(placement["y"]))
+    badge.set("x", str(placement["x"] * k if size != BASE_SIZE else placement["x"]))
+    badge.set("y", str(placement["y"] * k if size != BASE_SIZE else placement["y"]))
+    if size != BASE_SIZE:
+        # Badges scale with the icon (matching the Figma modifier sets).
+        badge.set("width", f"{float(badge.get('width')) * k:g}")
+        badge.set("height", f"{float(badge.get('height')) * k:g}")
     badge.set("color", modifier_color)
     result.append(badge)
     return ET.tostring(result, encoding="unicode") + "\n"
@@ -192,6 +209,7 @@ if __name__ == "__main__":
     parser.add_argument("--glyph-color")
     parser.add_argument("--cutout", action="store_true",
                         help="Use a transparent stencil instead of a glyph color")
+    parser.add_argument("--size", type=int, default=BASE_SIZE, choices=SIZES)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     try:
@@ -200,7 +218,7 @@ if __name__ == "__main__":
             theme=args.theme, color=args.color, modifier_color=args.modifier_color,
             glyph_color=args.glyph_color,
             cutout=args.cutout,
-            secondary_color=args.secondary_color,
+            secondary_color=args.secondary_color, size=args.size,
         )
     except (ValueError, OSError) as error:
         parser.exit(2, f"{error}\n")

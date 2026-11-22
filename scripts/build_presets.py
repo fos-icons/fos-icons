@@ -9,6 +9,7 @@ from pathlib import Path
 from compose_svg import ROOT, compose_svg
 from validate import validate_svg
 from duo import DUO_STYLES
+from sizes import BASE_SIZE, icon_path
 
 
 def build_presets(root=ROOT, snapshot=None):
@@ -37,29 +38,37 @@ def build_presets(root=ROOT, snapshot=None):
         for style in manifest["styles"]:
             if icons[name]["source"][style] != preset["source"][style]:
                 raise ValueError(f"Figma component ID changed: {name}/{style}")
-            svg = compose_svg(
-                base, preset["modifier"], style=style,
-                position=preset["position"], base_fit=preset.get("fit"),
-                cutout=True, modifier_color=None if style in DUO_STYLES else "currentColor", root=root,
-                id_prefix=f"fos-{name}-{style}",
-            )
-            if style in DUO_STYLES:
-                document = ET.fromstring(svg)
-                badge = list(document)[-1]
-                badge.set("color", f"var(--fos-modifier, {badge.get('color')})")
-                svg = ET.tostring(document, encoding="unicode") + "\n"
-            failures = validate_svg(svg, style)
-            if failures:
-                raise ValueError(f"{name}/{style}: {failures}")
-            relative = icons[name]["files"][style]
-            if relative != f"icons/{style}/{name}.svg":
-                raise ValueError(f"Invalid canonical preset path: {relative}")
-            icons[name]["sha256"][style] = hashlib.sha256(svg.encode()).hexdigest()
-            prepared.append((root / relative, svg))
+            for size in manifest.get("sizes", [BASE_SIZE]):
+                svg = compose_svg(
+                    base, preset["modifier"], style=style,
+                    position=preset["position"], base_fit=preset.get("fit"),
+                    cutout=True, modifier_color=None if style in DUO_STYLES else "currentColor",
+                    root=root, size=size,
+                    id_prefix=f"fos-{name}-{style}" + ("" if size == BASE_SIZE else f"-{size}"),
+                )
+                if style in DUO_STYLES:
+                    document = ET.fromstring(svg)
+                    badge = list(document)[-1]
+                    badge.set("color", f"var(--fos-modifier, {badge.get('color')})")
+                    svg = ET.tostring(document, encoding="unicode") + "\n"
+                failures = validate_svg(svg, style, size)
+                if failures:
+                    raise ValueError(f"{name}/{style}/{size}: {failures}")
+                digest = hashlib.sha256(svg.encode()).hexdigest()
+                if size == BASE_SIZE:
+                    relative = icons[name]["files"][style]
+                    if relative != icon_path(name, style):
+                        raise ValueError(f"Invalid canonical preset path: {relative}")
+                    icons[name]["sha256"][style] = digest
+                else:
+                    relative = icon_path(name, style, size)
+                    icons[name].setdefault("sizes", {}).setdefault(str(size), {})[style] = digest
+                prepared.append((root / relative, svg))
         icons[name]["composition"] = {
             key: preset[key] for key in ("base", "modifier", "position", "fit")
         }
     for path, svg in prepared:
+        path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(svg, encoding="utf-8")
     (root / "metadata/presets.json").write_text(
         json.dumps(data, indent=2) + "\n", encoding="utf-8",

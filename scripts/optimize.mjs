@@ -24,6 +24,14 @@ export async function optimizeLibrary(root = ROOT, { check = false } = {}) {
   for (const row of manifest.icons) {
     for (const style of manifest.styles) {
       assets.push({ relative: row.files[style], hashes: row.sha256, key: style });
+      for (const size of manifest.sizes ?? [24]) {
+        if (size === 24) continue;
+        const hashes = row.sizes?.[size];
+        if (!hashes) throw new Error(`Missing ${size}px digests: ${row.name}`);
+        const relative = manifest.sizePath
+          .replace('{size}', size).replace('{style}', style).replace('{name}', row.name);
+        assets.push({ relative, hashes, key: style });
+      }
     }
   }
   for (const row of modifiers.modifiers) {

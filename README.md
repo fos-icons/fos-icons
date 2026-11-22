@@ -1,8 +1,10 @@
 # Fos Icons
 
-1,587 icons in Regular, Filled, Duocolor, and Duotone styles: **6,348 SVGs**,
-drawn on a 24 x 24 grid. Line styles default to 1.25px strokes. Negative space and
-modifier clearances are transparent.
+1,587 icons in Regular, Filled, Duocolor, and Duotone styles, each drawn at five
+optical sizes (16, 24, 32, 48, and 64px): **31,740 SVGs**. The canonical 24 x 24
+grid uses 1.25px strokes; each other size has its own grid and stroke (see
+[Optical sizes](#optical-sizes)). Negative space and modifier clearances are
+transparent.
 
 See [CHANGELOG.md](CHANGELOG.md) for unreleased changes.
 
@@ -53,7 +55,8 @@ For design guidance and the review checklist, see the
 - **Design-to-code parity.** Keep canonical names and source geometry aligned
   across Figma, SVGs, and generated packages. Handoff should not require redrawing.
 - **Native-size clarity.** Judge detail at actual UI sizes, not only enlarged.
-  The current artwork targets 24px; other optical sizes need their own validation.
+  Every icon is drawn at five optical sizes (16, 24, 32, 48, and 64px), each
+  checked on its own grid at its own stroke.
 - **Controlled flexibility.** Support color, size, style, and reusable modifiers
   without manual path edits. New weights or optical sizes must be designed and
   validated, not implied by arbitrary stroke overrides.
@@ -159,14 +162,17 @@ Duocolor, and Duotone. Select a frame or instance and apply a collection mode:
 | 16 px | 1px |
 | 24 px (default) | 1.25px |
 | 32 px | 1.5px |
+| 48 px | 2px |
+| 64 px | 2.5px |
 
 Edit a mode's value in local variables to customize its weight. All 10,094 live
 core outline strokes are bound; Solid silhouettes, filled accents, and legacy
 brands are excluded. The default 24px appearance is preserved.
 
-Modes change stroke weight, **not icon dimensions**. Current masters are
-authored at 24px; the other presets are not separately authored optical sizes.
-Resize separately and check at the final size. SVG exports resolve the current
+Modes change stroke weight, **not icon dimensions**. Each component set also
+has **Size** variants (16, 24, 32, 48, 64): separately drawn optical sizes with
+their own grid, stroke, and squircle corners (see [Optical sizes](#optical-sizes)).
+Pick the Size variant for the final size rather than scaling 24. SVG exports resolve the current
 appearance rather than retaining Figma variable bindings; the checked-in SVGs
 keep their default strokes. `metadata/stroke-variables.json` records native
 bindings and verification, and `metadata/get-started.json` identifies the guide.
@@ -191,6 +197,31 @@ dependency, framework wrapper, or icon font.
 
 ```html
 <img src="./icons/regular/text-align-left.svg" width="24" height="24"
+     alt="Align text left">
+```
+
+### Optical sizes
+
+Each icon is drawn at five sizes. The 24px files stay where they always were;
+the other sizes live under `icons/<size>/<style>/<name>.svg`:
+
+| Size | Folder | Stroke | Grid (live area) |
+| --- | --- | --- | --- |
+| 16 | `icons/16/regular/` | 1px | 13.33 in 16 |
+| 24 | `icons/regular/` | 1.25px | 20 in 24 |
+| 32 | `icons/32/regular/` | 1.5px | 26.67 in 32 |
+| 48 | `icons/48/regular/` | 2px | 40 in 48 |
+| 64 | `icons/64/regular/` | 2.5px | 53.33 in 64 |
+
+Use the size you render at, or the nearest one when you render in between
+(say, 48 for 40px). Larger sizes get a lighter stroke relative to the icon
+and squarer squircle corners, so they don't read heavy; small sizes keep a
+relatively heavier stroke so they stay legible. Every size has the same
+names, styles, color roles, and presets. `manifest.json` lists `sizes`, the
+`sizePath` pattern, `strokeWidths`, and per-icon `sizes` digests.
+
+```html
+<img src="./icons/48/regular/text-align-left.svg" width="48" height="48"
      alt="Align text left">
 ```
 
@@ -339,9 +370,10 @@ python3 -m unittest discover -s tests
 python3 scripts/validate.py
 ```
 
-Validation checks four files per name, XML, 24px dimensions, explicit color roles,
-line-style stroke widths, internal references, unique source IDs, searchable
-metadata, SHA-256 digests, and unmanifested SVGs.
+Validation checks twenty files per name (four styles at five sizes), XML, each
+size's dimensions, explicit color roles, line-style stroke widths for that size
+(including strokes that rely on the 1-unit default), internal references, unique
+source IDs, searchable metadata, SHA-256 digests, and unmanifested SVGs.
 
 For updates, run `scripts/export_figma.js` in a Figma plugin context and call
 `exportFosIcons(manifest)` with the current manifest object. Save the returned
@@ -361,6 +393,23 @@ paints explicitly, retains referenced definitions, and regenerates the manifest.
 An old two-style snapshot cannot downgrade an existing four-style library.
 Add or remove icons in the manifest
 deliberately before exporting; unmanifested files are not silently deleted.
+
+Optical sizes are exported from the `Size=16/32/48/64` variants. Clone each
+size's variants into a sheet (one row per icon; Regular, Filled, Duocolor,
+Duotone columns on a pitch of size + 32px; duo paints swapped to `#123456` and
+`#654321`), export it as SVG, and split it:
+
+```sh
+python3 scripts/import_sizes.py /path/to/sheet.svg 48 accordion,activity,...
+python3 scripts/import_sizes.py --register   # record the size digests
+python3 scripts/build_presets.py             # compose presets at every size
+npm run optimize
+python3 scripts/validate.py
+```
+
+A 24px re-import keeps the recorded optical sizes; presets are recomposed at
+every size from their base and modifier, with the badge and clearance scaled
+to the size.
 
 For a duo-only refresh, run `scripts/export_duo_figma.js` and call
 `exportFosDuo()`, then import its snapshot with

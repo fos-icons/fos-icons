@@ -15,6 +15,7 @@ from compose_svg import compose_svg
 from import_figma import SVG, import_sheet, references
 from import_modifiers import GLYPH_PAINT
 from validate import validate_library, validate_svg
+from sizes import OPTICAL_SIZES, icon_path
 
 NS = {"s": SVG}
 
@@ -27,7 +28,11 @@ def fixture(root):
     manifest["iconCount"] = 2
     for row in manifest["icons"]:
         row.pop("composition", None)
-        for path in row["files"].values():
+        paths = list(row["files"].values()) + [
+            icon_path(row["name"], style, size)
+            for size in OPTICAL_SIZES for style in manifest["styles"]
+        ]
+        for path in paths:
             target = root / path
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(ROOT / path, target)
