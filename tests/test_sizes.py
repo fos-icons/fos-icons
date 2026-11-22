@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from compose_svg import compose_svg
-from import_sizes import mask_type_attribute, split_sheet
+from import_sizes import mask_type_attribute, shift_path, split_sheet
 from sizes import OPTICAL_SIZES, SIZES, STROKES, icon_path
 from validate import validate_svg
 
@@ -75,11 +75,51 @@ class SplitSheetTests(unittest.TestCase):
             self.assertEqual(len(written), 8)
             beta = (Path(directory) / icon_path("beta", "duocolor", size)).read_text()
             self.assertIn('viewBox="0 0 32 32"', beta)
-            self.assertIn("translate(-128 -64)", beta)
+            # Each cell is moved to the origin: no sheet offset is left behind.
+            self.assertNotIn("translate", beta)
+            self.assertIn('d="M4 4H24"', beta)
             self.assertEqual(validate_svg(beta, "duocolor", size), [])
             secondary = (Path(directory) / icon_path("alpha", "duotone", size)).read_text()
             self.assertIn("var(--fos-secondary", secondary)
         self.assertIn('mask-type="luminance"', mask_type_attribute(paths[-1]))
+
+    def test_long_lists_wrap_into_blocks(self):
+        size, pitch, rows = 16, 32, 2
+        paths = []
+        for index in range(5):
+            block, row = divmod(index, rows)
+            for column in range(4):
+                x = (block * 4 + column) * pitch + 2.12345
+                y = row * pitch + 3.5
+                paths.append(f'<path d="M{x} {y}L{x + 10} {y + 1}C{x} {y} {x} {y} {x} {y}V{y + 2}Z" stroke="#123456" stroke-width="1"/>')
+        sheet = f'<svg xmlns="{SVG}" width="384" height="64">{"".join(paths)}</svg>'
+        names = ["a", "b", "c", "d", "e"]
+        with tempfile.TemporaryDirectory() as directory:
+            split_sheet(sheet, size, names, Path(directory), pitch=pitch, rows=rows)
+            for name in names:
+                svg = (Path(directory) / icon_path(name, "regular", size)).read_text()
+                self.assertIn('d="M2.12345 3.5L12.12345 4.5C2.12345 3.5 2.12345 3.5 2.12345 3.5V5.5Z"', svg)
+
+    def test_definitions_move_with_their_cell(self):
+        sheet = (
+            f'<svg xmlns="{SVG}" width="128" height="64">'
+            '<path d="M2 2H10" stroke="#212121"/><path d="M34 2H40" stroke="#212121"/>'
+            '<path d="M2 34H10" stroke="#212121"/>'
+            '<g clip-path="url(#clip0)"><path d="M34 34H40" stroke="#212121"/></g>'
+            '<defs><clipPath id="clip0"><rect width="16" height="16" fill="white" transform="translate(32 32)"/></clipPath></defs>'
+            '</svg>'
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            split_sheet(sheet, 16, ["a", "b"], Path(directory), styles=("regular", "filled"), pitch=32, rows=2)
+            svg = (Path(directory) / icon_path("b", "filled", 16)).read_text()
+            self.assertIn('d="M2 2H8"', svg)
+            self.assertIn("<clipPath", svg)
+            self.assertNotIn("translate", svg)
+
+    def test_shift_path(self):
+        self.assertEqual(shift_path("M100 200H110V-5C1 2 3 4 5 6Z", -100, -200), "M0 0H10V-205C-99-198-97-196-95-194Z")
+        with self.assertRaises(ValueError):
+            shift_path("M0 0a1 1 0 0 1 2 2", 0, 0)
 
     def test_strays_and_empty_cells_fail(self):
         stray = f'<svg xmlns="{SVG}"><path d="M300 4H310" stroke="#212121"/></svg>'

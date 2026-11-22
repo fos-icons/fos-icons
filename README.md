@@ -396,16 +396,24 @@ deliberately before exporting; unmanifested files are not silently deleted.
 
 Optical sizes are exported from the `Size=16/32/48/64` variants. Clone each
 size's variants into a sheet (one row per icon; Regular, Filled, Duocolor,
-Duotone columns on a pitch of size + 32px; duo paints swapped to `#123456` and
-`#654321`), export it as SVG, and split it:
+Duotone columns on a fixed pitch; duo paints swapped to `#123456` and
+`#654321`), export it as SVG, and split it. Figma writes about six significant
+digits, so keep each sheet under 1000px: long lists wrap into side-by-side
+blocks of `--rows` icons (block after block, left to right). The split moves
+every cell to the origin, so the files carry no sheet offset.
 
 ```sh
-python3 scripts/import_sizes.py /path/to/sheet.svg 48 accordion,activity,...
+# 48px: pitch 64, 15 rows per block, 3 blocks (45 icons) per sheet
+python3 scripts/import_sizes.py /path/to/sheet.svg 48 accordion,activity,... --pitch 64 --rows 15
+npm run optimize
 python3 scripts/import_sizes.py --register   # record the size digests
 python3 scripts/build_presets.py             # compose presets at every size
 npm run optimize
 python3 scripts/validate.py
 ```
+
+The current sheets use pitch 32/48/64/80 with 31/20/15/12 rows per block for
+16/32/48/64px.
 
 A 24px re-import keeps the recorded optical sizes; presets are recomposed at
 every size from their base and modifier, with the badge and clearance scaled

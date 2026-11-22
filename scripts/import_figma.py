@@ -80,11 +80,9 @@ def extract_icon(sheet, position, prefix, *, style="regular", paint_roles=None, 
         defs = ET.SubElement(icon, f"{{{SVG}}}defs")
         for key in sorted(selected):
             defs.append(selected[key])
-    wrapper = ET.SubElement(
-        icon,
-        f"{{{SVG}}}g",
-        transform=f"translate({-position['x']} {-position['y']})",
-    )
+    wrapper = ET.SubElement(icon, f"{{{SVG}}}g")
+    if position["x"] or position["y"]:
+        wrapper.set("transform", f"translate({-position['x']} {-position['y']})")
     wrapper.append(group)
     used = references(icon)
     mapping = {key: f"{prefix}-{index}" for index, key in enumerate(sorted(used))}
