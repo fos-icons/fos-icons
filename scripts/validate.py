@@ -7,6 +7,7 @@ import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from duo import DUO_STYLES
+from sizes import BASE_SIZE, OPTICAL_SIZES, SIZE_PATH, SIZES, STROKES, icon_path
 
 ROOT = Path(__file__).resolve().parents[1]
 SVG = "http://www.w3.org/2000/svg"
@@ -18,7 +19,7 @@ ALLOWED = {
 }
 
 
-def validate_svg(text, style):
+def validate_svg(text, style, size=BASE_SIZE):
     errors = []
     if "<!DOCTYPE" in text.upper() or "<!ENTITY" in text.upper():
         return ["XML declarations/entities are not allowed"]
@@ -28,10 +29,13 @@ def validate_svg(text, style):
         return [f"Invalid XML: {error}"]
     if root.tag != f"{{{SVG}}}svg":
         errors.append("Expected an SVG namespace root")
-    if root.get("viewBox") != "0 0 24 24":
-        errors.append("Expected viewBox 0 0 24 24")
-    if root.get("width") != "24" or root.get("height") != "24":
-        errors.append("Expected 24px dimensions")
+    if size not in STROKES:
+        return [f"Unsupported optical size: {size}"]
+    target = STROKES[size]
+    if root.get("viewBox") != f"0 0 {size} {size}":
+        errors.append(f"Expected viewBox 0 0 {size} {size}")
+    if root.get("width") != str(size) or root.get("height") != str(size):
+        errors.append(f"Expected {size}px dimensions")
     identifiers = [node.get("id") for node in root.iter() if node.get("id")]
     if len(identifiers) != len(set(identifiers)):
         errors.append("Duplicate SVG IDs")
@@ -39,7 +43,9 @@ def validate_svg(text, style):
     visible_paints = 0
     geometry = 0
 
-    def visit(node, definition=False, stroke_scale=1.0):
+    stroked_styles = ("regular", *DUO_STYLES)
+
+    def visit(node, definition=False, stroke_scale=1.0, width=None, painted=False):
         nonlocal visible_paints, geometry
         tag = node.tag.rsplit("}", 1)[-1]
         definition = definition or tag in {"defs", "mask", "clipPath"}
@@ -54,8 +60,16 @@ def validate_svg(text, style):
                 errors.append("Invalid nested SVG viewport")
         if tag not in ALLOWED or not node.tag.startswith(f"{{{SVG}}}"):
             errors.append(f"Unsupported SVG element: {tag}")
+        if node.get("stroke-width") is not None:
+            width = node.get("stroke-width")
+        if node.get("stroke") is not None:
+            painted = node.get("stroke") != "none"
         if not definition and tag in {"path", "circle", "ellipse", "rect", "line", "polyline", "polygon"}:
             geometry += 1
+            # A stroke without any stroke-width is 1 user unit wide.
+            if painted and width is None and style in stroked_styles:
+                if abs(stroke_scale - target) > 0.001:
+                    errors.append(f"{style.title()} stroke is not {target:g}px: default 1")
         for key, value in node.attrib.items():
             attr = key.rsplit("}", 1)[-1]
             if attr.startswith("on") or attr == "style":
@@ -77,14 +91,14 @@ def validate_svg(text, style):
                 if value not in {"none", "currentColor"} and not secondary:
                     errors.append(f"Non-themable {attr}: {value}")
                 visible_paints += value == "currentColor" or bool(secondary)
-            if attr == "stroke-width" and style in ("regular", *DUO_STYLES) and not definition:
+            if attr == "stroke-width" and painted and style in stroked_styles and not definition:
                 try:
-                    if abs(float(value) * stroke_scale - 1.25) > 0.001:
-                        errors.append(f"{style.title()} stroke is not 1.25px: {value}")
+                    if abs(float(value) * stroke_scale - target) > 0.001:
+                        errors.append(f"{style.title()} stroke is not {target:g}px: {value}")
                 except ValueError:
                     errors.append(f"Invalid stroke width: {value}")
         for child in node:
-            visit(child, definition, stroke_scale)
+            visit(child, definition, stroke_scale, width, painted)
 
     visit(root)
     if not geometry or not visible_paints:
@@ -106,6 +120,14 @@ def validate_library(root):
     styles = manifest.get("styles", [])
     if styles not in (list(STYLES), list(ALL_STYLES)) or manifest.get("license") != "MIT":
         errors.append("Unexpected styles/license")
+    sizes = manifest.get("sizes", [BASE_SIZE])
+    if sizes not in ([BASE_SIZE], list(SIZES)):
+        errors.append(f"Unsupported sizes: {sizes}")
+    elif sizes != [BASE_SIZE] and (
+        manifest.get("sizePath") != SIZE_PATH
+        or manifest.get("strokeWidths") != {str(size): STROKES[size] for size in SIZES}
+    ):
+        errors.append("Size path/stroke widths do not match the optical size spec")
     if manifest.get("iconCount") != len(icons):
         errors.append("Icon count does not match manifest")
     names = [row.get("name", "") for row in icons]
@@ -143,6 +165,22 @@ def validate_library(root):
                     errors.append(f"{relative}: {error}")
             except (OSError, UnicodeError) as error:
                 errors.append(f"{relative}: {error}")
+            for size in sizes:
+                if size == BASE_SIZE:
+                    continue
+                relative = icon_path(name, style, size)
+                expected.add(relative)
+                try:
+                    data = (root / relative).read_bytes()
+                    digest = row.get("sizes", {}).get(str(size), {}).get(style)
+                    if hashlib.sha256(data).hexdigest() != digest:
+                        errors.append(f"Digest mismatch: {relative}")
+                    for error in validate_svg(data.decode("utf-8"), style, size):
+                        errors.append(f"{relative}: {error}")
+                except (OSError, UnicodeError) as error:
+                    errors.append(f"{relative}: {error}")
+        if sizes != [BASE_SIZE] and set(row.get("sizes", {})) != {str(size) for size in OPTICAL_SIZES}:
+            errors.append(f"Missing optical sizes: {name}")
     if len(source_ids) != len(set(source_ids)):
         errors.append("Figma source IDs must be unique")
     actual = {str(path.relative_to(root)) for path in (root / "icons").rglob("*.svg")}
@@ -162,5 +200,6 @@ if __name__ == "__main__":
         print("\n".join(failures))
         raise SystemExit(1)
     count = len(json.loads((args.root / "manifest.json").read_text())["icons"])
-    styles = json.loads((args.root / "manifest.json").read_text())["styles"]
-    print(f"PASS: {count} icons / {count * len(styles)} SVGs; XML, themes, links, metadata and SHA-256")
+    manifest = json.loads((args.root / "manifest.json").read_text())
+    files = count * len(manifest["styles"]) * len(manifest.get("sizes", [BASE_SIZE]))
+    print(f"PASS: {count} icons / {files} SVGs; XML, themes, sizes, strokes, links, metadata and SHA-256")

@@ -6,6 +6,13 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- **Optical sizes.** Every icon in every style is now also drawn at 16, 32,
+  48, and 64px (`icons/<size>/<style>/<name>.svg`), beside the canonical 24px
+  files. Each size has its own stroke (1, 1.25, 1.5, 2, and 2.5px), grid,
+  and squircle corners; presets are composed at every size. `manifest.json`
+  gains `sizes`, `sizePath`, `strokeWidths`, and per-icon `sizes` digests.
+  The 24px paths and digests are unchanged.
+
 - 57 icons:
   - Navigation: `collapse-reverse`, `collapse-four`, `collapse-dot`,
     `arrows-to-circle`, `collapse-circle`, `collapse-circle-reverse`,
@@ -35,6 +42,11 @@ Changes are recorded under Unreleased until a release is tagged.
   the modifier glyph color.
 - **24** modifier (time): stroke-weight digits for 24-hour icons such as a
   clock; it defaults to the bottom-right corner.
+
+### Fixed
+
+- `burger` and `ufo` Filled were missing parts (the top bun and the dome)
+  at 24px; both are complete again.
 
 ### Changed
 

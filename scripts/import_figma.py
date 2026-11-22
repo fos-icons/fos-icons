@@ -44,7 +44,7 @@ def references(element):
     return result
 
 
-def extract_icon(sheet, position, prefix, *, style="regular", paint_roles=None):
+def extract_icon(sheet, position, prefix, *, style="regular", paint_roles=None, size=24):
     matches = [
         node for node in sheet.iter() if node.get("id") == position["id"]
     ]
@@ -71,9 +71,9 @@ def extract_icon(sheet, position, prefix, *, style="regular", paint_roles=None):
         required.difference_update(available)
     icon = ET.Element(
         f"{{{SVG}}}svg",
-        width="24",
-        height="24",
-        viewBox="0 0 24 24",
+        width=str(size),
+        height=str(size),
+        viewBox=f"0 0 {size} {size}",
         fill="none",
     )
     if selected:
@@ -182,6 +182,17 @@ def import_sheet(payload, output):
             record["files"][style] = relative
             record["sha256"][style] = hashlib.sha256(data).hexdigest()
         manifest["icons"].append(record)
+    if previous.exists():
+        # Optical sizes come from a separate export (scripts/import_sizes.py);
+        # a 24px re-import keeps them. Presets are recomposed below.
+        before = json.loads(previous.read_text(encoding="utf-8"))
+        if "sizes" in before:
+            for key in ("sizes", "sizePath", "strokeWidths"):
+                manifest[key] = before[key]
+            kept = {row["name"]: row["sizes"] for row in before["icons"] if "sizes" in row}
+            for row in manifest["icons"]:
+                if row["name"] in kept and row["name"] not in preset_names:
+                    row["sizes"] = kept[row["name"]]
     (output / "manifest.json").write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
