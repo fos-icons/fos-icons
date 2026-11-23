@@ -4,6 +4,12 @@ Changes are recorded under Unreleased until a release is published to npm.
 
 ## Unreleased
 
+### Breaking
+
+- `Mark*` components (for example `MarkRegular`) are now `MarkerPinAdd*`,
+  following the core `mark` → `marker-pin-add` rename. Update the imports.
+  `MarkerPin*` and `MarkerPinAdd*` are redrawn with a symmetric pin.
+
 ### Changed
 
 - Synchronized the core snapshot (fos-icons@8af0d8b): 1,319 icons and 5,276
