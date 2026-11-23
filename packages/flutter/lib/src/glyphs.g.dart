@@ -31299,38 +31299,6 @@ abstract final class FosIcons {
     null,
   );
 
-  /// mark: regular.
-  static const markRegular = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-256 -2368)"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M268 2389.11C264.762 2383.44 259.905 2381.82 260.715 2376.96C261.524 2368.87 276.095 2368.87 275.285 2376.96C276.095 2381.82 271.238 2383.44 268 2389.11Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M265.521 2376.96H268M268 2376.96H270.479M268 2376.96V2374.49M268 2376.96V2379.44" /></g></svg>''',
-    null,
-    null,
-    null,
-  );
-
-  /// mark: filled.
-  static const markFilled = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" fill-rule="evenodd" d="M300.606 2370C302.524 2370 304.436 2370.53 305.831 2371.65C307.232 2372.77 308.071 2374.45 307.878 2376.64C308.295 2379.29 307.143 2381.07 305.604 2382.82C304.038 2384.59 302.101 2386.32 300.527 2389.08L300 2390L299.475 2389.08C297.901 2386.32 295.963 2384.59 294.398 2382.82C292.845 2381.06 291.684 2379.26 292.134 2376.56C292.603 2372.11 296.825 2370 300.606 2370ZM300.001 2373.46C299.6 2373.46 299.274 2373.79 299.274 2374.19V2375.94H297.528C297.127 2375.94 296.801 2376.26 296.801 2376.66C296.801 2377.06 297.127 2377.39 297.528 2377.39H299.274V2379.14C299.274 2379.54 299.6 2379.86 300.001 2379.86C300.403 2379.86 300.728 2379.54 300.728 2379.14V2377.39H302.475C302.876 2377.39 303.201 2377.06 303.201 2376.66C303.201 2376.26 302.876 2375.94 302.475 2375.94H300.728V2374.19C300.728 2373.79 300.403 2373.46 300.001 2373.46Z" clip-rule="evenodd" transform="translate(-288 -2368)" /></svg>''',
-    null,
-    null,
-    null,
-  );
-
-  /// mark: duocolor.
-  static const markDuocolor = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-448 -1088)"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M460 1109.11C456.762 1103.44 451.905 1101.82 452.715 1096.96C453.524 1088.87 468.095 1088.87 467.285 1096.96C468.095 1101.82 463.238 1103.44 460 1109.11Z" /><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M457.521 1096.96H462.48" /><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M460 1094.49V1099.44" /></g></svg>''',
-    Color(0xFF245B9E),
-    Color(0xFF5B87B7),
-    null,
-  );
-
-  /// mark: duotone.
-  static const markDuotone = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-480 -1088)"><path fill="#0102A1" fill-rule="evenodd" d="M492 1109.11C488.762 1103.44 483.905 1101.82 484.715 1096.96C485.524 1088.87 500.095 1088.87 499.285 1096.96C500.095 1101.82 495.238 1103.44 492 1109.11Z" clip-rule="evenodd" opacity="0.16" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M492 1109.11C488.762 1103.44 483.905 1101.82 484.715 1096.96C485.524 1088.87 500.095 1088.87 499.285 1096.96C500.095 1101.82 495.238 1103.44 492 1109.11Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M489.521 1096.96H492.001M492.001 1096.96H494.48M492.001 1096.96V1094.49M492.001 1096.96V1099.44" /></g></svg>''',
-    Color(0xFF245B9E),
-    null,
-    null,
-  );
-
   /// marker: regular.
   static const markerRegular = FosGlyph._(
     r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M328.434 2386.09L326.251 2383.91L324.717 2382.38L332.593 2372.75C334.343 2371 336.385 2371.29 338.718 2373.63C340.469 2375.38 340.469 2377.13 338.718 2378.88M338.718 2378.88L332.593 2372.75M326.251 2383.91C326.37 2384.03 326.37 2384.22 326.251 2384.34L324.058 2386.54C323.939 2386.65 323.939 2386.85 324.058 2386.97L325.375 2388.29C325.495 2388.41 325.689 2388.41 325.809 2388.29L328.001 2386.09C328.12 2385.97 328.314 2385.97 328.434 2386.09L328.434 2386.09L329.968 2387.63L338.718 2378.88" transform="translate(-320 -2368)" /></svg>''',
@@ -31365,7 +31333,7 @@ abstract final class FosIcons {
 
   /// marker-pin: regular.
   static const markerPinRegular = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-384 -2368)"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M396 2389.09C391.96 2384.24 387.921 2381.01 388.729 2376.97C389.537 2368.89 404.078 2368.89 403.271 2376.97C404.078 2381.01 400.039 2384.24 396 2389.09Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M398.423 2376.97C398.423 2378.31 397.338 2379.39 396 2379.39C394.661 2379.39 393.576 2378.31 393.576 2376.97C393.576 2375.63 394.661 2374.55 396 2374.55C397.338 2374.55 398.423 2375.63 398.423 2376.97Z" /></g></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M14.5 9.625C14.5 11.0057 13.3807 12.125 12 12.125C10.6193 12.125 9.5 11.0057 9.5 9.625C9.5 8.2443 10.6193 7.125 12 7.125C13.3807 7.125 14.5 8.2443 14.5 9.625Z" /></svg>''',
     null,
     null,
     null,
@@ -31373,7 +31341,7 @@ abstract final class FosIcons {
 
   /// marker-pin: filled.
   static const markerPinFilled = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" fill-rule="evenodd" d="M428.608 2370.11C430.531 2370.11 432.448 2370.64 433.847 2371.76C435.251 2372.88 436.091 2374.57 435.9 2376.76C436.316 2379 435.389 2380.98 433.956 2382.92C433.229 2383.91 432.352 2384.92 431.416 2385.97C430.474 2387.02 429.472 2388.13 428.468 2389.33L428.001 2389.89L427.534 2389.33C426.53 2388.13 425.527 2387.02 424.586 2385.97C423.65 2384.92 422.772 2383.91 422.045 2382.92C420.598 2380.96 419.665 2378.96 420.113 2376.69C420.584 2372.23 424.817 2370.11 428.608 2370.11ZM428.001 2374.36C426.659 2374.36 425.571 2375.45 425.571 2376.79C425.571 2378.13 426.659 2379.22 428.001 2379.22C429.343 2379.22 430.431 2378.13 430.431 2376.79C430.431 2375.45 429.343 2374.36 428.001 2374.36Z" clip-rule="evenodd" transform="translate(-416 -2368)" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" fill-rule="evenodd" d="M12 2C16.2112 2 19.625 5.4138 19.625 9.625C19.625 11.733 18.7653 13.8677 17.6455 15.8027C16.5211 17.7458 15.0974 19.5501 13.8984 21.0039C13.3886 21.6216 12.7279 22 12 22C11.2721 22 10.6114 21.6216 10.1016 21.0039C8.9026 19.5501 7.4789 17.7458 6.3545 15.8027C5.2347 13.8677 4.375 11.733 4.375 9.625C4.375 5.4138 7.7888 2 12 2ZM12 7.125C10.6193 7.125 9.5 8.2443 9.5 9.625C9.5 11.0057 10.6193 12.125 12 12.125C13.3807 12.125 14.5 11.0057 14.5 9.625C14.5 8.2443 13.3807 7.125 12 7.125Z" clip-rule="evenodd" /></svg>''',
     null,
     null,
     null,
@@ -31381,7 +31349,7 @@ abstract final class FosIcons {
 
   /// marker-pin: duocolor.
   static const markerPinDuocolor = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-512 -1088)"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M524 1109.09C519.96 1104.24 515.921 1101.01 516.729 1096.97C517.537 1088.89 532.078 1088.89 531.271 1096.97C532.078 1101.01 528.039 1104.24 524 1109.09Z" /><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M526.423 1096.97C526.423 1098.31 525.338 1099.39 524 1099.39C522.661 1099.39 521.576 1098.31 521.576 1096.97C521.576 1095.63 522.661 1094.55 524 1094.55C525.338 1094.55 526.423 1095.63 526.423 1096.97Z" /></g></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" /><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M14.5 9.625C14.5 11.0057 13.381 12.125 12 12.125C10.619 12.125 9.5 11.0057 9.5 9.625C9.5 8.2443 10.619 7.125 12 7.125C13.381 7.125 14.5 8.2443 14.5 9.625Z" /></svg>''',
     Color(0xFF245B9E),
     Color(0xFF5B87B7),
     null,
@@ -31389,7 +31357,39 @@ abstract final class FosIcons {
 
   /// marker-pin: duotone.
   static const markerPinDuotone = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-544 -1088)"><g opacity="0.16"><path fill="#0102A1" fill-rule="evenodd" d="M556 1109.09C551.96 1104.24 547.921 1101.01 548.729 1096.97C549.537 1088.89 564.078 1088.89 563.271 1096.97C564.078 1101.01 560.039 1104.24 556 1109.09Z" clip-rule="evenodd" /><path fill="#0102A1" fill-rule="evenodd" d="M558.423 1096.97C558.423 1098.31 557.338 1099.39 556 1099.39C554.661 1099.39 553.576 1098.31 553.576 1096.97C553.576 1095.63 554.661 1094.55 556 1094.55C557.338 1094.55 558.423 1095.63 558.423 1096.97Z" clip-rule="evenodd" /></g><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M556 1109.09C551.96 1104.24 547.921 1101.01 548.729 1096.97C549.537 1088.89 564.078 1088.89 563.271 1096.97C564.078 1101.01 560.039 1104.24 556 1109.09Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M558.423 1096.97C558.423 1098.31 557.338 1099.39 556 1099.39C554.661 1099.39 553.576 1098.31 553.576 1096.97C553.576 1095.63 554.661 1094.55 556 1094.55C557.338 1094.55 558.423 1095.63 558.423 1096.97Z" /></g></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g opacity="0.16"><path fill="#0102A1" fill-rule="evenodd" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" clip-rule="evenodd" /><path fill="#0102A1" fill-rule="evenodd" d="M14.5 9.625C14.5 11.0057 13.381 12.125 12 12.125C10.619 12.125 9.5 11.0057 9.5 9.625C9.5 8.2443 10.619 7.125 12 7.125C13.381 7.125 14.5 8.2443 14.5 9.625Z" clip-rule="evenodd" /></g><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M14.5 9.625C14.5 11.0057 13.381 12.125 12 12.125C10.619 12.125 9.5 11.0057 9.5 9.625C9.5 8.2443 10.619 7.125 12 7.125C13.381 7.125 14.5 8.2443 14.5 9.625Z" /></svg>''',
+    Color(0xFF245B9E),
+    null,
+    null,
+  );
+
+  /// marker-pin-add: regular.
+  static const markerPinAddRegular = FosGlyph._(
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M9.5 9.625H14.5M12 7.125V12.125" /></svg>''',
+    null,
+    null,
+    null,
+  );
+
+  /// marker-pin-add: filled.
+  static const markerPinAddFilled = FosGlyph._(
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" fill-rule="evenodd" d="M12 2C16.2112 2 19.625 5.41382 19.625 9.625C19.625 11.733 18.7653 13.8677 17.6455 15.8027C16.5211 17.7458 15.0974 19.5501 13.8984 21.0039C13.3886 21.6216 12.7279 22 12 22C11.2721 22 10.6114 21.6216 10.1016 21.0039C8.9026 19.5501 7.4789 17.7458 6.3545 15.8027C5.2347 13.8677 4.375 11.733 4.375 9.625C4.375 5.41382 7.7888 2 12 2ZM12 6.375C11.5858 6.375 11.25 6.71079 11.25 7.125V8.875H9.5C9.0858 8.875 8.75 9.21079 8.75 9.625C8.75 10.0392 9.0858 10.375 9.5 10.375H11.25V12.125C11.25 12.5392 11.5858 12.875 12 12.875C12.4142 12.875 12.75 12.5392 12.75 12.125V10.375H14.5C14.9142 10.375 15.25 10.0392 15.25 9.625C15.25 9.21079 14.9142 8.875 14.5 8.875H12.75V7.125C12.75 6.71079 12.4142 6.375 12 6.375Z" clip-rule="evenodd" /></svg>''',
+    null,
+    null,
+    null,
+  );
+
+  /// marker-pin-add: duocolor.
+  static const markerPinAddDuocolor = FosGlyph._(
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" /><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M9.5 9.625H14.5" /><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 7.125V12.125" /></svg>''',
+    Color(0xFF245B9E),
+    Color(0xFF5B87B7),
+    null,
+  );
+
+  /// marker-pin-add: duotone.
+  static const markerPinAddDuotone = FosGlyph._(
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" fill-rule="evenodd" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" clip-rule="evenodd" opacity="0.16" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M9.5 9.625H14.5M12 7.125V12.125" /></svg>''',
     Color(0xFF245B9E),
     null,
     null,

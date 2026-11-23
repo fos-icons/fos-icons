@@ -13059,20 +13059,6 @@
       "aliases": []
     },
     {
-      "name": "mark",
-      "category": "Navigation",
-      "tags": [
-        "map pin",
-        "location",
-        "add place",
-        "new location",
-        "marker",
-        "waypoint",
-        "drop pin"
-      ],
-      "aliases": []
-    },
-    {
       "name": "marker",
       "category": "Workspace",
       "tags": [
@@ -13101,6 +13087,21 @@
         "address"
       ],
       "aliases": []
+    },
+    {
+      "name": "marker-pin-add",
+      "category": "Navigation",
+      "tags": [
+        "map pin",
+        "location",
+        "add place",
+        "new location",
+        "waypoint",
+        "drop pin"
+      ],
+      "aliases": [
+        "mark"
+      ]
     },
     {
       "name": "maximize",

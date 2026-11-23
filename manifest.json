@@ -77327,86 +77327,6 @@
       }
     },
     {
-      "name": "mark",
-      "category": "Navigation",
-      "tags": [
-        "map pin",
-        "location",
-        "add place",
-        "new location",
-        "marker",
-        "waypoint",
-        "drop pin"
-      ],
-      "aliases": [],
-      "componentSet": "45:43536",
-      "source": {
-        "regular": "33:29581",
-        "filled": "33:39405",
-        "duocolor": "49:71021",
-        "duotone": "49:71030"
-      },
-      "keyline": {
-        "key": "Vertical",
-        "width": 16,
-        "height": 20,
-        "stroke": 1.25,
-        "margin": 2
-      },
-      "files": {
-        "regular": "icons/regular/mark.svg",
-        "filled": "icons/filled/mark.svg",
-        "duocolor": "icons/duocolor/mark.svg",
-        "duotone": "icons/duotone/mark.svg"
-      },
-      "sha256": {
-        "regular": "c3d5d101eb30fa790702c58d277d206bdce510ea4e90f2d19208d1db92edf8ed",
-        "filled": "d454a7af2cdda0219e157fc0f3e8a7ffb41ed504ac5de10353c8c6aaa7b6f3e5",
-        "duocolor": "23b42694a1e420abc8726c4d329db77b9083df538dd5d7361e437e41af626b09",
-        "duotone": "c973c6c4795727ffbf4132c07dca325a827baa3e88dd4f632f57188aa4389ed1"
-      },
-      "duoAuthoring": {
-        "version": 2,
-        "approvedPrototype": false,
-        "duocolor": {
-          "contours": 3,
-          "accents": 2,
-          "policy": "dominant-contours-and-details"
-        },
-        "duotone": {
-          "regions": 1,
-          "opacity": 0.16,
-          "policy": "explicit-closed-contours"
-        }
-      },
-      "sizes": {
-        "16": {
-          "regular": "abf0db97e1450321232dd836b98f491b536a0b8e115319047f50e90ced583303",
-          "filled": "afb1bbda3aa035f8559efb4dc0ca84df7abd24d3aa72e7444ecde7a5078912d9",
-          "duocolor": "a09668a0d0faf87f816b2f609663b1e399c05dc6d55ccee9b26d151ac9374fbc",
-          "duotone": "6da549a03147abd764c8cbc1c07feb0464cd142aec469502297a9a264dc8c092"
-        },
-        "32": {
-          "regular": "f82b8503166f09e1f5f7dac3f29753b1db587d163e6693d7fd1a9edefb5cb5aa",
-          "filled": "fb4a343a91c6c921165f2435d8b40df883b50035cdabf8aebf7c4395ec08a3c6",
-          "duocolor": "bdf96375f0468498ebf96cb01db7c5fbb67f2f3a21656696cae3d60ffd5d3ea0",
-          "duotone": "e43a7db02cf518e2fc6e0ff8ea1a56aafce7ff11580fbe65e4b75f005a49066f"
-        },
-        "48": {
-          "regular": "4c43af9648878b1c953dd2ff6e35f667f4b6bbdf9c8125e2da3e94138e10ae5a",
-          "filled": "df686e560c0e3e1ea026e9e5d7bbeb70c4c553077cbf2b29807d63a1e0bd228c",
-          "duocolor": "4ce2721e47b1ca81452e4c99459e58238e6275cc1b53701277d0c3187b8d47b8",
-          "duotone": "3e67030ed2ed4a65c0a69da791958eada594481ae97fead607211fab26b6e075"
-        },
-        "64": {
-          "regular": "b90bbf6eeb77dc1f3af8d3b01816fcddff78e437cf9f55bc2bb13b4a0644ca7a",
-          "filled": "40c252b502bc7827b4ae4df0119126fa49ca764141b8f215086375bf879221f8",
-          "duocolor": "de6de8a79da0cd25c6260db0b59de9ed7cd7d79c8a5e1bc7a7e967d19e3c2a4b",
-          "duotone": "8b2fca2f34e08a431b4c2c150090a11b3ad070210ba827cee3dd120bb0df35ab"
-        }
-      }
-    },
-    {
       "name": "marker",
       "category": "Workspace",
       "tags": [
@@ -77522,10 +77442,10 @@
         "duotone": "icons/duotone/marker-pin.svg"
       },
       "sha256": {
-        "regular": "6cb063dba10e596115a0a87fcd2bd18b7724823784516ae4c8460e0304d1bc5b",
-        "filled": "8622fd5a2663b483b61c9543b7c1b78c71a610aa1f34682e07be95ba769ea431",
-        "duocolor": "0db79872e762bcd447f6166ad37375f6a908b43ecb7668b611b17c4397c357d9",
-        "duotone": "2e11073ab64f7ffeda55f1c45c919f8e960e2ee44324726ec3561f66df5570ad"
+        "regular": "3a08ec99853ac148f00fb6a544e3bd5f380910bd8a896080a4bcef4bf5781277",
+        "filled": "5320a64424d329a153c58015335f98ab9a22317498cf367d8d0c153f2014cf65",
+        "duocolor": "28a46065899c67b3bccb4986b91fd46df140515610423fde0c67b5d9657d816b",
+        "duotone": "eac6b50ed131ab87c2fc0072f663161e0285c7fef65e810d778ec6e7bfc3df92"
       },
       "duoAuthoring": {
         "version": 2,
@@ -77543,28 +77463,109 @@
       },
       "sizes": {
         "16": {
-          "regular": "c8b6e68d67f9ada86a9d53405658d540154e3852c798bf0bf6897e1280daabaa",
-          "filled": "80ec2f1636a49a611873658519cae08340f93efce6e59123fe7e0afd2c0c8505",
-          "duocolor": "f7e1dc5b28ff724173303828f5b391b9a172d88ee263ab4eefe2cb30ef3a0549",
-          "duotone": "ed6bb863e62ba4091666b29c6941fc14d52ceed62353d5f6ab41863e6064bf8a"
+          "regular": "7ee2bf9a00e90b10ecb9d44d48561a1f9d49a134eb7b4c7095e7588c01c3e4fe",
+          "filled": "e7d631c1d3e48fa087f3cec790e1c00b7655c09b54dc5bd6b293b45d2aa735a1",
+          "duocolor": "a59d50e9081c2ce2711da812dc26155662422f84b64b127f0bed5f22b903497b",
+          "duotone": "1499571429665b199cff86b74b5b784a650adc916120da6b4936084fe613302b"
         },
         "32": {
-          "regular": "0f6ad01b2f24dd2d9586b7f69ce57e698cddffd9cb8957987303c10a0ec05b4e",
-          "filled": "c0849bbaa596f9c97da65ffc1d1cfc751eb33a2c634cb5b1bfdb34955f70cde7",
-          "duocolor": "5774737cc56ec14090bcb61265744a6e0f8a7803053f28630db73e6aba3d9b00",
-          "duotone": "5f4297c2f9caa22df88499ab90e0361f18e1129a67317f4b13f7dc2ff63fe281"
+          "regular": "9e0d9c4f4673b157fb50067e1fde911d589a4c14dcf06680883a38c66706d019",
+          "filled": "b2c51b864dabaa1d8cbd895f75da8553ee996bfddbada1042feb1ac84c31d681",
+          "duocolor": "af5c2f823034511f1427b3fb27a00631776ccf5a19f26c5e7c11e337fa8e21c8",
+          "duotone": "da1ef300eed53539caacfb188f940e4bd513e5ee8031ec3c08eded335ef5dc7b"
         },
         "48": {
-          "regular": "5741b1aba409fa1c1a50c31a9f44a19c556d73a9f521f4c98d45836449626068",
-          "filled": "d6942fcb7db60de364ed3c5cd6c8abf9d456418070436632a5ef11d00c5dc1b3",
-          "duocolor": "70412793f228171de9902647c1545d614ad9a16864bf9d189d5590f7a9b32ed8",
-          "duotone": "ba76b291b8fc0dbe50ab9f6c639872cdf3a98468b7072c0d8cb2f511fb1577c2"
+          "regular": "aaa8b76bc8f368b5198b69eda179eab91192fc89f46b3a94f325b757d12e5d73",
+          "filled": "cd2f3b22de84f20f1088a4d24c9a9de937bc2a265ac6890f281f5d3d497b4871",
+          "duocolor": "078588c07b957f480c484e1a42a19182f1e36103bb38c9578482b7434f7bb508",
+          "duotone": "43b3552971f43c0ee0608e6b53b003355f7a44754089e0acdc1cabb568774424"
         },
         "64": {
-          "regular": "12c3036df559c6d5dd5468e9397da178f72f004cd8661ed1b266b422121c9c4b",
-          "filled": "88134ed9beb48acb33a7a6ab87ddcc9d984c8d59320c07ca4e8b2ae624e40810",
-          "duocolor": "c1b9c4cdab1ffbf1a8a8cd80a788056b917e394de3e6e618fb1c89fa65269aed",
-          "duotone": "d45fbb30fea07e6e1eebfc0f985887a9e335c69ecc6694ac1bae5a53dc71b42c"
+          "regular": "2daddd7b532e6ef8a85555e97c08158268cf33bd9428a64636bb0cb49ed6d6b6",
+          "filled": "16a4fd06388401afd9cbfeb28cd26348dc71ba0cf92bf1973572737b8a806768",
+          "duocolor": "79d46255d06c3f82482f2e9c3c9fc7a997f44d434c1c903800a584ed8234197c",
+          "duotone": "1c0df433f1c750d1caff2604c3a510878911a13c897d4391867bffd3770b93ae"
+        }
+      }
+    },
+    {
+      "name": "marker-pin-add",
+      "category": "Navigation",
+      "tags": [
+        "map pin",
+        "location",
+        "add place",
+        "new location",
+        "waypoint",
+        "drop pin"
+      ],
+      "aliases": [
+        "mark"
+      ],
+      "componentSet": "45:43536",
+      "source": {
+        "regular": "33:29581",
+        "filled": "33:39405",
+        "duocolor": "49:71021",
+        "duotone": "49:71030"
+      },
+      "keyline": {
+        "key": "Vertical",
+        "width": 16,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "files": {
+        "regular": "icons/regular/marker-pin-add.svg",
+        "filled": "icons/filled/marker-pin-add.svg",
+        "duocolor": "icons/duocolor/marker-pin-add.svg",
+        "duotone": "icons/duotone/marker-pin-add.svg"
+      },
+      "sha256": {
+        "regular": "e9d74cc069c94232e947112e0ac0a74f51cd24c8a3ffb1f38eccd1bf25c41f3a",
+        "filled": "71af9ec9b908da73613f2c825012364ed03de5e7d9c7dd06f14d9abef6ce9700",
+        "duocolor": "80bd542a6d500bb9a38a1b623b409de677a2f5310bc81b504264ad34cc1df9c6",
+        "duotone": "00e45d9b43d5b39eac857f6f25af17e46b02aa403aeb59e8d0df0e6c89e6f0e8"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "sizes": {
+        "16": {
+          "regular": "ba6e4e2f7c1b17537b7451cab6039a8d3bbebccbbf5c017db6ad9d5334d9ac42",
+          "filled": "472d346730e56132f2a57b385e7fe49c676f8352bb8210f4fba8458ad273ec59",
+          "duocolor": "2705b0394e8275ced947f7c3619c20ba1b50d72a0f29d98ab71e03f0c3af2b77",
+          "duotone": "c9a4eca8714df02acf7cfdc764f625129f9633423d6b9cc69f515c36ecf1a23d"
+        },
+        "32": {
+          "regular": "eb9075ae8b2862258b67d0bed77e60bcb5a3f9cca1930170c530cee965366711",
+          "filled": "e6c4c0046ef19d17140cf25915c0e37b6abe0ed5ce6d7089e439372c8634685d",
+          "duocolor": "bd1dffedd9882e3161c4deaba811a6b4e73e65885e87b66ce0a883573ac251fc",
+          "duotone": "81f9839010e239e757a58f22c3c1e40a432800d0e37eec356a8c6d7c083d8dbb"
+        },
+        "48": {
+          "regular": "45fe61c926fea72985623cf27fa74571ee22348115ea8e4ab310bc7997134769",
+          "filled": "f98dfac8fcc1e28de53bf4a535017683c2b87d3ba4669978ac9d4bfe78b08ff0",
+          "duocolor": "0889405e06bc558bc1842da3bce6a09a7c880a1dfb2bb3e9eeaa8a91b9ad730a",
+          "duotone": "dd7d0a93bef8c883f0c143f942ce96e639d0488c1627e0bc0485f4f4adbc6556"
+        },
+        "64": {
+          "regular": "055c9d214b88461a62cb320b033aa788f629051044eafa9b2524f177cc3061a0",
+          "filled": "d5fb0ffabd4850e97c763435d762c6fbcc2269e5b29fa29cfe573463b5c30b73",
+          "duocolor": "1532d3107b17d349045e1888f670b73febad6cb630fbfff4195a4964c4c84b5a",
+          "duotone": "0834394afccf8a36d6580fd77afcee0380ed69104bd8e617f1435400a7525c2e"
         }
       }
     },
