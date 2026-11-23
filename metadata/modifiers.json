@@ -3349,7 +3349,7 @@
       "sourceGlyph": "66:25452",
       "width": 10,
       "height": 10,
-      "defaultPosition": null,
+      "defaultPosition": "bottom-right",
       "clearance": 1.25,
       "colors": {
         "light": {

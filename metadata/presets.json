@@ -1131,7 +1131,7 @@
       "name": "message-sparkles",
       "base": "message-dots-square",
       "modifier": "sparkle",
-      "position": "top-right",
+      "position": "bottom-right",
       "fit": null,
       "source": {
         "regular": "34:96404",
@@ -1167,6 +1167,20 @@
         "filled": "54:71754",
         "duocolor": "54:71763",
         "duotone": "54:71770"
+      }
+    },
+    {
+      "name": "edit-sparkles",
+      "base": "edit",
+      "modifier": "sparkle",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43946",
+      "source": {
+        "regular": "34:95929",
+        "filled": "34:95930",
+        "duocolor": "49:57088",
+        "duotone": "49:57093"
       }
     },
     {
