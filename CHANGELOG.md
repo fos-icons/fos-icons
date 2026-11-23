@@ -67,6 +67,11 @@ Changes are recorded under Unreleased until a release is tagged.
   at the bottom right, instead of a glyph drawn inside a squircle.
 - Redrew `wand`: three even rays fan out from the tip instead of uneven
   sparks.
+- Redrew `coins`: two flat coins overlap on a diagonal, and the front one has
+  an inner ring. Before, a flat coin sat over a tilted ellipse.
+- `pencils` and `mail-open` Filled are rebuilt: the pencils have clean bodies
+  with the band cut out, and the open envelope's flap fold is cut so it no
+  longer reads as a house.
 - `edit-sparkles` is now a preset: the `edit` pencil with the shared Sparkle
   modifier at the bottom right, replacing the hand-drawn version whose sparks
   looked unbalanced. `message-sparkles` moves its sparkle to the bottom right,
