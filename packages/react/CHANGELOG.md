@@ -4,6 +4,12 @@ Changes are recorded under Unreleased until a release is published to npm.
 
 ## Unreleased
 
+### Added
+
+- `BadgeVerified*` and `Window*` components. The `*Window*` icons, `Wand*`,
+  `EditSparkles*`, `MessageSparkles*`, and the bottom-right Edit presets are
+  redrawn (same component names).
+
 ### Changed
 
 - Synchronized the core snapshot (fos-icons@8af0d8b): 1,319 icons and 5,276
