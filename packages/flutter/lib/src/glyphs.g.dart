@@ -31301,7 +31301,7 @@ abstract final class FosIcons {
 
   /// marker-pin: regular.
   static const markerPinRegular = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 21.375C9.75 18.625 5 14.375 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 14.375 14.25 18.625 12 21.375Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M14.5 9.625C14.5 11.0057 13.3807 12.125 12 12.125C10.6193 12.125 9.5 11.0057 9.5 9.625C9.5 8.2443 10.6193 7.125 12 7.125C13.3807 7.125 14.5 8.2443 14.5 9.625Z" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M14.5 9.625C14.5 11.0057 13.3807 12.125 12 12.125C10.6193 12.125 9.5 11.0057 9.5 9.625C9.5 8.2443 10.6193 7.125 12 7.125C13.3807 7.125 14.5 8.2443 14.5 9.625Z" /></svg>''',
     null,
     null,
     null,
@@ -31309,7 +31309,7 @@ abstract final class FosIcons {
 
   /// marker-pin: filled.
   static const markerPinFilled = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" fill-rule="evenodd" d="M12 2C16.2112 2 19.625 5.4138 19.625 9.625C19.625 12.2023 18.3408 14.5869 16.8477 16.6201C16.096 17.6437 15.2759 18.5986 14.5107 19.4619C13.737 20.3348 13.0354 21.0958 12.4834 21.7705C12.3647 21.9156 12.1875 22 12 22C11.8125 22 11.6353 21.9156 11.5166 21.7705C10.9646 21.0958 10.263 20.3348 9.4893 19.4619C8.7241 18.5986 7.904 17.6437 7.1523 16.6201C5.6592 14.5869 4.375 12.2023 4.375 9.625C4.375 5.4138 7.7888 2 12 2ZM12 7.125C10.6193 7.125 9.5 8.2443 9.5 9.625C9.5 11.0057 10.6193 12.125 12 12.125C13.3807 12.125 14.5 11.0057 14.5 9.625C14.5 8.2443 13.3807 7.125 12 7.125Z" clip-rule="evenodd" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" fill-rule="evenodd" d="M12 2C16.2112 2 19.625 5.4138 19.625 9.625C19.625 11.733 18.7653 13.8677 17.6455 15.8027C16.5211 17.7458 15.0974 19.5501 13.8984 21.0039C13.3886 21.6216 12.7279 22 12 22C11.2721 22 10.6114 21.6216 10.1016 21.0039C8.9026 19.5501 7.4789 17.7458 6.3545 15.8027C5.2347 13.8677 4.375 11.733 4.375 9.625C4.375 5.4138 7.7888 2 12 2ZM12 7.125C10.6193 7.125 9.5 8.2443 9.5 9.625C9.5 11.0057 10.6193 12.125 12 12.125C13.3807 12.125 14.5 11.0057 14.5 9.625C14.5 8.2443 13.3807 7.125 12 7.125Z" clip-rule="evenodd" /></svg>''',
     null,
     null,
     null,
@@ -31317,7 +31317,7 @@ abstract final class FosIcons {
 
   /// marker-pin: duocolor.
   static const markerPinDuocolor = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 21.375C9.75 18.625 5 14.375 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 14.375 14.25 18.625 12 21.375Z" /><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M14.5 9.625C14.5 11.0057 13.381 12.125 12 12.125C10.619 12.125 9.5 11.0057 9.5 9.625C9.5 8.2443 10.619 7.125 12 7.125C13.381 7.125 14.5 8.2443 14.5 9.625Z" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" /><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M14.5 9.625C14.5 11.0057 13.381 12.125 12 12.125C10.619 12.125 9.5 11.0057 9.5 9.625C9.5 8.2443 10.619 7.125 12 7.125C13.381 7.125 14.5 8.2443 14.5 9.625Z" /></svg>''',
     Color(0xFF245B9E),
     Color(0xFF5B87B7),
     null,
@@ -31325,7 +31325,7 @@ abstract final class FosIcons {
 
   /// marker-pin: duotone.
   static const markerPinDuotone = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g opacity="0.16"><path fill="#0102A1" fill-rule="evenodd" d="M12 21.375C9.75 18.625 5 14.375 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 14.375 14.25 18.625 12 21.375Z" clip-rule="evenodd" /><path fill="#0102A1" fill-rule="evenodd" d="M14.5 9.625C14.5 11.0057 13.381 12.125 12 12.125C10.619 12.125 9.5 11.0057 9.5 9.625C9.5 8.2443 10.619 7.125 12 7.125C13.381 7.125 14.5 8.2443 14.5 9.625Z" clip-rule="evenodd" /></g><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 21.375C9.75 18.625 5 14.375 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 14.375 14.25 18.625 12 21.375Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M14.5 9.625C14.5 11.0057 13.381 12.125 12 12.125C10.619 12.125 9.5 11.0057 9.5 9.625C9.5 8.2443 10.619 7.125 12 7.125C13.381 7.125 14.5 8.2443 14.5 9.625Z" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g opacity="0.16"><path fill="#0102A1" fill-rule="evenodd" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" clip-rule="evenodd" /><path fill="#0102A1" fill-rule="evenodd" d="M14.5 9.625C14.5 11.0057 13.381 12.125 12 12.125C10.619 12.125 9.5 11.0057 9.5 9.625C9.5 8.2443 10.619 7.125 12 7.125C13.381 7.125 14.5 8.2443 14.5 9.625Z" clip-rule="evenodd" /></g><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M14.5 9.625C14.5 11.0057 13.381 12.125 12 12.125C10.619 12.125 9.5 11.0057 9.5 9.625C9.5 8.2443 10.619 7.125 12 7.125C13.381 7.125 14.5 8.2443 14.5 9.625Z" /></svg>''',
     Color(0xFF245B9E),
     null,
     null,
@@ -31333,7 +31333,7 @@ abstract final class FosIcons {
 
   /// marker-pin-add: regular.
   static const markerPinAddRegular = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 21.375C9.75 18.625 5 14.375 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 14.375 14.25 18.625 12 21.375Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M9.5 9.625H14.5M12 7.125V12.125" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M9.5 9.625H14.5M12 7.125V12.125" /></svg>''',
     null,
     null,
     null,
@@ -31341,7 +31341,7 @@ abstract final class FosIcons {
 
   /// marker-pin-add: filled.
   static const markerPinAddFilled = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" fill-rule="evenodd" d="M12 2C16.2112 2 19.625 5.41382 19.625 9.625C19.625 12.2023 18.3408 14.5869 16.8477 16.6201C16.096 17.6437 15.2759 18.5986 14.5107 19.4619C13.737 20.3348 13.0354 21.0958 12.4834 21.7705C12.3647 21.9156 12.1875 22 12 22C11.8125 22 11.6353 21.9156 11.5166 21.7705C10.9646 21.0958 10.263 20.3348 9.4893 19.4619C8.7241 18.5986 7.904 17.6437 7.1523 16.6201C5.6592 14.5869 4.375 12.2023 4.375 9.625C4.375 5.41382 7.7888 2 12 2ZM12 6.375C11.5858 6.375 11.25 6.71079 11.25 7.125V8.875H9.5C9.0858 8.875 8.75 9.21079 8.75 9.625C8.75 10.0392 9.0858 10.375 9.5 10.375H11.25V12.125C11.25 12.5392 11.5858 12.875 12 12.875C12.4142 12.875 12.75 12.5392 12.75 12.125V10.375H14.5C14.9142 10.375 15.25 10.0392 15.25 9.625C15.25 9.21079 14.9142 8.875 14.5 8.875H12.75V7.125C12.75 6.71079 12.4142 6.375 12 6.375Z" clip-rule="evenodd" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" fill-rule="evenodd" d="M12 2C16.2112 2 19.625 5.41382 19.625 9.625C19.625 11.733 18.7653 13.8677 17.6455 15.8027C16.5211 17.7458 15.0974 19.5501 13.8984 21.0039C13.3886 21.6216 12.7279 22 12 22C11.2721 22 10.6114 21.6216 10.1016 21.0039C8.9026 19.5501 7.4789 17.7458 6.3545 15.8027C5.2347 13.8677 4.375 11.733 4.375 9.625C4.375 5.41382 7.7888 2 12 2ZM12 6.375C11.5858 6.375 11.25 6.71079 11.25 7.125V8.875H9.5C9.0858 8.875 8.75 9.21079 8.75 9.625C8.75 10.0392 9.0858 10.375 9.5 10.375H11.25V12.125C11.25 12.5392 11.5858 12.875 12 12.875C12.4142 12.875 12.75 12.5392 12.75 12.125V10.375H14.5C14.9142 10.375 15.25 10.0392 15.25 9.625C15.25 9.21079 14.9142 8.875 14.5 8.875H12.75V7.125C12.75 6.71079 12.4142 6.375 12 6.375Z" clip-rule="evenodd" /></svg>''',
     null,
     null,
     null,
@@ -31349,7 +31349,7 @@ abstract final class FosIcons {
 
   /// marker-pin-add: duocolor.
   static const markerPinAddDuocolor = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 21.375C9.75 18.625 5 14.375 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 14.375 14.25 18.625 12 21.375Z" /><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M9.5 9.625H14.5" /><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 7.125V12.125" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" /><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M9.5 9.625H14.5" /><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 7.125V12.125" /></svg>''',
     Color(0xFF245B9E),
     Color(0xFF5B87B7),
     null,
@@ -31357,7 +31357,7 @@ abstract final class FosIcons {
 
   /// marker-pin-add: duotone.
   static const markerPinAddDuotone = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" fill-rule="evenodd" d="M12 21.375C9.75 18.625 5 14.375 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 14.375 14.25 18.625 12 21.375Z" clip-rule="evenodd" opacity="0.16" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 21.375C9.75 18.625 5 14.375 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 14.375 14.25 18.625 12 21.375Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M9.5 9.625H14.5M12 7.125V12.125" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" fill-rule="evenodd" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" clip-rule="evenodd" opacity="0.16" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M13.416 20.606C12.57 21.631 11.43 21.631 10.584 20.606C8.194 17.708 5 13.52 5 9.625C5 5.759 8.134 2.625 12 2.625C15.866 2.625 19 5.759 19 9.625C19 13.52 15.806 17.708 13.416 20.606Z" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M9.5 9.625H14.5M12 7.125V12.125" /></svg>''',
     Color(0xFF245B9E),
     null,
     null,

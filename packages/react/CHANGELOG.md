@@ -8,7 +8,7 @@ Changes are recorded under Unreleased until a release is published to npm.
 
 - `Mark*` components (for example `MarkRegular`) are now `MarkerPinAdd*`,
   following the core `mark` → `marker-pin-add` rename. Update the imports.
-  `MarkerPin*` and `MarkerPinAdd*` are redrawn with a symmetric pin.
+  `MarkerPin*` and `MarkerPinAdd*` are redrawn with a symmetric pin and a rounded tip.
 
 ### Changed
 
