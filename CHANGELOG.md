@@ -63,6 +63,9 @@ Changes are recorded under Unreleased until a release is tagged.
 - Redrew `scissors`, `scissors-dashed`, `scissors-sparkles`, `eyedropper`,
   `scale`, `piggy-bank`, `paint-roller`, `paintbrush`, `paintbrush-round`, and
   `paint-pour`.
+- Redrew `marker-pin` and `marker-pin-add` (formerly `mark`) at every size
+  and style: the head is a true circle and the pin is symmetric (the old top
+  curve leaned right). Both icons now share one outline.
 
 ### Breaking
 
@@ -81,6 +84,9 @@ Changes are recorded under Unreleased until a release is tagged.
   `calendar-day` is now `calendar-month-1`, `calendar-week` is now
   `calendar-month-7`, and `calendar-month` is now `calendar-month-31`. The old
   names stay in each icon's `aliases`; the old SVG files are removed.
+- Renamed `mark` to `marker-pin-add`, following the `<base>-add` convention
+  and avoiding a clash with the `marker` highlighter. `mark` stays in its
+  `aliases`; the `icons/**/mark.svg` files are now `marker-pin-add.svg`.
 
 ### Added
 
