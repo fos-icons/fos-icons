@@ -13,6 +13,12 @@ Changes are recorded under Unreleased until a release is tagged.
   gains `sizes`, `sizePath`, `strokeWidths`, and per-icon `sizes` digests.
   The 24px paths and digests are unchanged.
 
+- `badge-verified`: the `badge-minus` seal with a check, in every style and
+  size (Essentials).
+- `window`: an app window with a title bar and two dots, on the `calendar`
+  frame (Interfaces). It is the base of every `*-window` preset.
+- **Home** modifier: a solid house, at every corner and size. `home-window`
+  uses it.
 - 57 icons:
   - Navigation: `collapse-reverse`, `collapse-four`, `collapse-dot`,
     `arrows-to-circle`, `collapse-circle`, `collapse-circle-reverse`,
@@ -45,11 +51,25 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Fixed
 
+- The **Edit** modifier's clearance at the bottom-right and top-left corners
+  was a leftover square, leaving a notch in Filled and Duotone presets such as
+  `credit-card-edit`, `filter-edit`, and `user-edit`. It now follows the
+  pencil at every corner.
 - `burger` and `ufo` Filled were missing parts (the top bun and the dome)
   at 24px; both are complete again.
 
 ### Changed
 
+- `download-window`, `upload-window`, `edit-window`, `plus-window`,
+  `minus-window`, `close-window`, `refresh-window`, `search-window`, and
+  `home-window` are now presets: the new `window` with the matching modifier
+  at the bottom right, instead of a glyph drawn inside a squircle.
+- Redrew `wand`: three even rays fan out from the tip instead of uneven
+  sparks.
+- `edit-sparkles` is now a preset: the `edit` pencil with the shared Sparkle
+  modifier at the bottom right, replacing the hand-drawn version whose sparks
+  looked unbalanced. `message-sparkles` moves its sparkle to the bottom right,
+  and the Sparkle modifier now defaults to the bottom right.
 - The **Edit** modifier is now a bare solid pencil instead of a pencil
   cut out of a squircle. Its clearance follows the pencil, so `user-edit`,
   `users-edit`, `credit-card-edit`, `filter-edit`, and `filter-lines-edit`

@@ -1,6 +1,6 @@
 # Fos Icons
 
-1,587 icons in Regular, Filled, Duocolor, and Duotone styles, each drawn at five
+1,589 icons in Regular, Filled, Duocolor, and Duotone styles, each drawn at five
 optical sizes (16, 24, 32, 48, and 64px): **31,740 SVGs**. The canonical 24 x 24
 grid uses 1.25px strokes; each other size has its own grid and stroke (see
 [Optical sizes](#optical-sizes)). Negative space and modifier clearances are
@@ -343,7 +343,7 @@ print(matches)
 
 ## Figma source
 
-The Fos Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`) has 1,587 core sets on
+The Fos Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`) has 1,589 core sets on
 the Components page with
 `Style=Regular/Filled/Duocolor/Duotone` and `Size=24`, with original
 Regular/Filled component IDs preserved. The separate Brands page contains the

@@ -1985,6 +1985,19 @@
       "aliases": []
     },
     {
+      "name": "badge-verified",
+      "category": "Essentials",
+      "tags": [
+        "approved",
+        "certified",
+        "authentic",
+        "trusted",
+        "seal",
+        "check"
+      ],
+      "aliases": []
+    },
+    {
       "name": "ball-american-football",
       "category": "Sports & fitness",
       "tags": [
@@ -21202,6 +21215,21 @@
       ]
     },
     {
+      "name": "window",
+      "category": "Interfaces",
+      "tags": [
+        "app",
+        "browser",
+        "screen",
+        "desktop",
+        "program",
+        "frame"
+      ],
+      "aliases": [
+        "app-window"
+      ]
+    },
+    {
       "name": "wine-glass",
       "category": "Food & drink",
       "tags": [
@@ -21443,7 +21471,7 @@
     },
     {
       "name": "Essentials",
-      "count": 93
+      "count": 94
     },
     {
       "name": "Files",
@@ -21459,7 +21487,7 @@
     },
     {
       "name": "Interfaces",
-      "count": 148
+      "count": 149
     },
     {
       "name": "Media & devices",

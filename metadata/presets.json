@@ -1131,7 +1131,7 @@
       "name": "message-sparkles",
       "base": "message-dots-square",
       "modifier": "sparkle",
-      "position": "top-right",
+      "position": "bottom-right",
       "fit": null,
       "source": {
         "regular": "34:96404",
@@ -1167,6 +1167,20 @@
         "filled": "54:71754",
         "duocolor": "54:71763",
         "duotone": "54:71770"
+      }
+    },
+    {
+      "name": "edit-sparkles",
+      "base": "edit",
+      "modifier": "sparkle",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43946",
+      "source": {
+        "regular": "34:95929",
+        "filled": "34:95930",
+        "duocolor": "49:57088",
+        "duotone": "49:57093"
       }
     },
     {
@@ -2238,6 +2252,132 @@
         "duotone": "209:74420"
       },
       "componentSet": "209:74413"
+    },
+    {
+      "name": "download-window",
+      "base": "window",
+      "modifier": "download",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39178",
+      "source": {
+        "regular": "31:5461",
+        "filled": "33:42127",
+        "duocolor": "49:66605",
+        "duotone": "49:66621"
+      }
+    },
+    {
+      "name": "edit-window",
+      "base": "window",
+      "modifier": "edit",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43751",
+      "source": {
+        "regular": "34:93451",
+        "filled": "34:93471",
+        "duocolor": "49:68100",
+        "duotone": "49:68110"
+      }
+    },
+    {
+      "name": "upload-window",
+      "base": "window",
+      "modifier": "upload",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39209",
+      "source": {
+        "regular": "31:5483",
+        "filled": "33:42144",
+        "duocolor": "49:66656",
+        "duotone": "49:66671"
+      }
+    },
+    {
+      "name": "plus-window",
+      "base": "window",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43771",
+      "source": {
+        "regular": "34:93620",
+        "filled": "34:93640",
+        "duocolor": "49:68174",
+        "duotone": "49:68186"
+      }
+    },
+    {
+      "name": "minus-window",
+      "base": "window",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43761",
+      "source": {
+        "regular": "34:93535",
+        "filled": "34:93555",
+        "duocolor": "49:68137",
+        "duotone": "49:68147"
+      }
+    },
+    {
+      "name": "close-window",
+      "base": "window",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43811",
+      "source": {
+        "regular": "34:94080",
+        "filled": "34:94100",
+        "duocolor": "49:68297",
+        "duotone": "49:68309"
+      }
+    },
+    {
+      "name": "refresh-window",
+      "base": "window",
+      "modifier": "refresh",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43781",
+      "source": {
+        "regular": "34:93720",
+        "filled": "34:93740",
+        "duocolor": "49:68213",
+        "duotone": "49:68226"
+      }
+    },
+    {
+      "name": "search-window",
+      "base": "window",
+      "modifier": "search",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43792",
+      "source": {
+        "regular": "34:93811",
+        "filled": "34:93831",
+        "duocolor": "49:68253",
+        "duotone": "49:68265"
+      }
+    },
+    {
+      "name": "home-window",
+      "base": "window",
+      "modifier": "home",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43801",
+      "source": {
+        "regular": "34:93969",
+        "filled": "34:93989",
+        "duocolor": "49:71133",
+        "duotone": "49:71145"
+      }
     }
   ],
   "styleSafeFamilyAudit": {
