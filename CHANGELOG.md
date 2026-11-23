@@ -64,8 +64,9 @@ Changes are recorded under Unreleased until a release is tagged.
   `scale`, `piggy-bank`, `paint-roller`, `paintbrush`, `paintbrush-round`, and
   `paint-pour`.
 - Redrew `marker-pin` and `marker-pin-add` (formerly `mark`) at every size
-  and style: the head is a true circle and the pin is symmetric (the old top
-  curve leaned right). Both icons now share one outline.
+  and style: the head is a true circle, the pin is symmetric (the old top
+  curve leaned right), and the tip is rounded. Both icons now share one
+  outline.
 
 ### Breaking
 
