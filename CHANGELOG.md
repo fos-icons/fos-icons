@@ -19,6 +19,7 @@ Changes are recorded under Unreleased until a release is tagged.
   frame (Interfaces). It is the base of every `*-window` preset.
 - **Home** modifier: a solid house, at every corner and size. `home-window`
   uses it.
+- **Forward** modifier: the Reply arrow mirrored, at every corner and size.
 - 57 icons:
   - Navigation: `collapse-reverse`, `collapse-four`, `collapse-dot`,
     `arrows-to-circle`, `collapse-circle`, `collapse-circle-reverse`,
