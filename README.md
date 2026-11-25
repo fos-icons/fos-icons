@@ -161,13 +161,10 @@ Light/Dark proof verification.
 wallet flap are recorded in `metadata/commerce-refinements.json`.
 
 Modifiers compose a base icon with a reusable glyph rather than requiring a
-separate drawing for every combination. The chooser will group actions
-(Add, Delete, Remove, Block, Edit, and four directional arrows), statuses
-(Warning, Check, Dot), access/identity (Key, Lock, User, Clip), commerce
-(Money, a curled bank note; Coins), time (24), and file-type labels.
-All of them are reusable Figma components and SVG assets, including
-Sparkle, Download, Upload, Refresh, Search, Shield, and the scheduling badges
-Reply, Note, Record, Link, and Phone.
+separate drawing for every combination. There are 70 modifiers in seven
+groups: actions, statuses, access and identity, commerce, time, image quality,
+and file-type labels (see [the full list](#compose-an-svg-with-a-modifier)).
+All of them are reusable Figma components and SVG assets.
 Glyphs remain solid independently of the base style. The six new glyphs,
 Key, Lock, User, and Clip have no colored backplate.
 
@@ -187,11 +184,11 @@ Remove uses a minus, Delete uses a cross, and Block uses a prohibition mark.
 Structural details remain part of the base icon.
 Automatic semantic/geometric conflict handling is deferred.
 
-The website's primary action will be **Download SVG**, with **Download PNG**,
-**Download XAML**, **Copy SVG**, **Copy image**, and **Copy name** also available.
-Users choose the base icon, style, and optional glyph before exporting. Every
-export should reflect the selected style, colors, modifier, and position. The
-supported XAML dialect still needs to be established.
+On [fosicons.com](https://www.fosicons.com) you choose an icon, style, size,
+colors, and an optional modifier and corner, then copy SVG, framework code, or
+a PNG, or download SVG, PNG, or JPG. Every export reflects those choices.
+Regular is free; Pro adds Solid, Duocolor, and Duotone and bulk ZIP exports;
+Advanced adds the modifier picker. XAML export is not available.
 
 ## Use
 
@@ -300,11 +297,21 @@ python3 scripts/compose_svg.py home-smile --modifier key --position bottom-right
   --color '#212121' --modifier-color '#245B9E' --output home-key.svg
 ```
 
-Available modifiers: `add`, `delete`, `warning`, `check`, `key`, `lock`, `user`,
-`clip`, `pdf`, `svg`, `eps`, `psd`, `remove`, `block`, `edit`, `arrow-up`,
-`arrow-down`, `arrow-left`, `arrow-right`, `sparkle`, `download`, `upload`,
-`refresh`, `search`, `shield`, `reply`, `note`, `record`, `link`, `phone`, `dot`, `money`, `coins`, and `24`. `auto` uses the approved Add/Delete and
-file-type defaults. Other modifiers require an explicit `--position`:
+Available modifiers (70, grouped as in `metadata/modifiers.json`):
+
+| Group | Modifiers |
+| --- | --- |
+| Actions | `add`, `arrow-down`, `arrow-left`, `arrow-right`, `arrow-up`, `block`, `chat`, `code`, `copy`, `delete`, `download`, `edit`, `forward`, `hash`, `home`, `link`, `list`, `note`, `phone`, `question`, `record`, `refresh`, `remove`, `reply`, `search`, `shield`, `sparkle`, `upload` |
+| Status | `check`, `dot`, `warning` |
+| Access and identity | `clip`, `key`, `lock`, `user` |
+| Commerce | `coins`, `money`, `tag` |
+| Time | `24` |
+| Image | `hd`, `indent-left`, `indent-right`, `4k` |
+| File types | `ai`, `css`, `csv`, `doc`, `eps`, `fig`, `gif`, `html`, `jpg`, `js`, `json`, `md`, `mov`, `mp3`, `mp4`, `pdf`, `png`, `ppt`, `psd`, `sql`, `svg`, `ts`, `txt`, `wav`, `xls`, `xml`, `zip` |
+
+`auto` (the default) uses the modifier's approved corner where it has one:
+Add top-left; Delete, Sparkle, and `24` bottom-right; Dot top-right; file
+types bottom-left. Other modifiers require an explicit `--position`:
 `top-left`, `top-right`, `bottom-left`, or `bottom-right`.
 
 Use `--theme dark` for dark-theme modifier and duo colors. `--color` controls the base;
@@ -324,7 +331,8 @@ the selected theme or custom colors into the output.
 `metadata/modifiers.json` is the shared source contract for downstream generators:
 native dimensions, glyph provenance, theme colors, approved defaults, four corner
 origins, and actual 1.25px clearance contours. The Python composer supports all
-four styles. React and website integration, additional file types, and modifier
+four styles. The website's modifier picker composes them in the browser.
+Runtime modifier composition in the framework packages and automatic modifier
 conflict rules have not shipped.
 
 ### Compatible named presets
@@ -336,7 +344,7 @@ and `message-sparkles`. Their names, paths, and canonical component IDs are unch
 `user-circle`, `user-square`, `user-focus`, `user-identity`, and `user-badge`
 retain their structural artwork.
 
-The catalog now contains **141 named presets**, including the paper/file families,
+The catalog now contains **174 named compositions**, including the paper/file families,
 `palette-sparkles`, `scissors-sparkles`, and the calendar actions (`calendar-add`,
 `calendar-reply`, `calendar-phone`, and others, each with a bottom-right badge), and
 `clock-check` / `clock-plus` (`clock` with a bottom-left badge, so neither hand is clipped). Native family-specific wrappers keep
@@ -485,7 +493,7 @@ python3 -m unittest discover -s tests
 ```
 
 The modifier importer preserves the core; the preset builder updates only the
-109 declared named compositions. `exportFosPresets()` in the same JavaScript
+151 compositions declared in `metadata/presets.json`. `exportFosPresets()` in the same JavaScript
 file exports the live preset definitions after checking their nested sources.
 Import an updated preset snapshot with
 `python3 scripts/build_presets.py --snapshot /path/to/preset-export.json`.
