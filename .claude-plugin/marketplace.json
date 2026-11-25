@@ -1,0 +1,18 @@
+{
+  "name": "fos-icons",
+  "owner": {
+    "name": "Fos Icons"
+  },
+  "metadata": {
+    "description": "Fos Icons for AI coding agents: find icons and write correct code instead of guessing names or drawing SVG."
+  },
+  "plugins": [
+    {
+      "name": "fos-icons",
+      "source": "./plugins/claude",
+      "description": "Fos Icons MCP server and skills: search ~1,600 MIT icons, get exact imports for React, Vue, Svelte, SolidJS, Angular and Flutter, and migrate from lucide or heroicons.",
+      "category": "design",
+      "homepage": "https://www.fosicons.com"
+    }
+  ]
+}
