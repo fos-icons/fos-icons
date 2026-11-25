@@ -1,0 +1,97 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fos-icons",
+  "version": "0.1.0",
+  "description": "Find Fos Icons by meaning and get exact install and import code for React, Vue, Svelte, SolidJS, Angular, Flutter or plain SVG, instead of guessing icon names or drawing SVG.",
+  "author": {
+    "name": "Fos Icons",
+    "url": "https://www.fosicons.com"
+  },
+  "homepage": "https://www.fosicons.com",
+  "repository": "https://github.com/fos-icons/fos-icons",
+  "license": "MIT",
+  "keywords": ["icons", "icon library", "svg icons", "svg", "ui", "frontend", "design system", "react", "vue", "svelte", "solidjs", "angular", "flutter", "lucide", "heroicons", "react-icons"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Fos Icons",
+        "shortDescription": "Find icons, get exact code",
+        "longDescription": "Fos Icons helps ChatGPT and Codex add icons to your app correctly. Instead of guessing icon names from memory or drawing SVG by hand, the agent searches the real Fos Icons catalog by meaning, uses names that exist, and writes the right import for your framework.\n\nThe library:\n- About 1,600 open-source icons under the MIT license\n- Four styles: Regular, Solid (Filled in code), Duocolor and Duotone\n- Packages for React, Vue, Svelte, SolidJS, Angular and Flutter, plus plain SVG\n\nWhat it does:\n- Search icons by name, tag or purpose, several at once (\"settings, profile, sign out\")\n- Browse icons by category\n- Give the exact install command, import and usage for one icon in your framework and style\n- Check icon names in your code and suggest the closest real icon when one is wrong\n- In Codex, switch a project from lucide, heroicons or react-icons using name maps, and report anything it couldn't match\n\nLimitations: the plugin is read-only. It returns names, code and setup steps, and plain SVG for the Regular style only. It doesn't change your account or anything outside your project. Downloads, bulk exports and icons with modifiers are on fosicons.com. No account needed.",
+        "developerName": "Fos Icons",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Search icons by name or purpose",
+          "Browse icon categories",
+          "Install and import code for six frameworks and SVG",
+          "Check icon names in code",
+          "Migrate from lucide, heroicons or react-icons"
+        ],
+        "websiteURL": "https://www.fosicons.com",
+        "supportURL": "https://github.com/fos-icons/fos-icons/issues",
+        "privacyPolicyURL": "https://www.fosicons.com/docs#privacy",
+        "termsOfServiceURL": "https://www.fosicons.com/docs#terms",
+        "defaultPrompt": [
+          "Find icons for a settings page: profile, notifications, security, sign out",
+          "Add a trash icon to the delete button in my React app",
+          "Set up Fos Icons in my Flutter app"
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      },
+      "onboardingSkill": "./skills/get-started/SKILL.md",
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Find several icons for one screen in a single search",
+              "prompt": "Find Fos Icons for a project management app: tasks, calendar, team, settings",
+              "tools_triggered": "search_icons",
+              "expected_behavior": "Runs one search_icons call with all four terms and returns real icon names for each (for example calendar, users, settings) with their component names, keeping one style."
+            },
+            {
+              "description": "Set up the React package and add one icon",
+              "prompt": "Add Fos Icons to my React app and put a notification bell in the header",
+              "tools_triggered": "get_framework_setup, search_icons, get_icon_code",
+              "expected_behavior": "Gives npm install @fos-icons/react, finds the bell icon, and shows code importing BellRegular from @fos-icons/react, with an aria-label on the button if it is icon-only."
+            },
+            {
+              "description": "Check names written from memory and correct a wrong one",
+              "prompt": "Are TrashRegular, GearRegular and UserCircleRegular real Fos Icons?",
+              "tools_triggered": "check_icon_names",
+              "expected_behavior": "Confirms TrashRegular and UserCircleRegular, reports GearRegular as not a Fos icon, and suggests settings (SettingsRegular) instead of inventing a name."
+            },
+            {
+              "description": "Use a specific style in Flutter",
+              "prompt": "Show me how to use the duocolor telescope icon in Flutter at 32px",
+              "tools_triggered": "get_icon_code",
+              "expected_behavior": "Shows the pubspec.yaml path dependency (the package is not on pub.dev yet) and FosIcon(FosIcons.telescopeDuocolor, size: 32) code."
+            },
+            {
+              "description": "Browse a category",
+              "prompt": "What Fos Icons are there for files and documents?",
+              "tools_triggered": "list_icons",
+              "expected_behavior": "Lists icons from the Files category with their names, and mentions how many there are in total."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Unrelated coding question",
+              "prompt": "Write a Python function that removes duplicates from a list"
+            },
+            {
+              "description": "Unrelated general question",
+              "prompt": "What's a good weekend itinerary for Lisbon?"
+            },
+            {
+              "description": "Design question that isn't about icons",
+              "prompt": "Suggest a color palette and font pairing for a bakery website"
+            }
+          ]
+        }
+      },
+      "publication": {
+        "release_notes": "First release: search the Fos Icons catalog, get install and import code for React, Vue, Svelte, SolidJS, Angular, Flutter and SVG, check icon names, and migrate from lucide, heroicons or react-icons."
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "fos-icons",
+  "interface": {
+    "displayName": "Fos Icons"
+  },
+  "plugins": [
+    {
+      "name": "fos-icons",
+      "source": { "source": "local", "path": "./plugins/openai" },
+      "policy": { "installation": "AVAILABLE" },
+      "category": "Developer Tools"
+    }
+  ]
+}

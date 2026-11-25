@@ -13,6 +13,10 @@ Changes are recorded under Unreleased until a release is tagged.
 - **Claude Code plugin.** `plugins/claude` bundles both skills and the MCP
   server; this repository is its marketplace
   (`claude plugin marketplace add fos-icons/fos-icons`).
+- **ChatGPT and Codex plugin.** `plugins/openai` packages the MCP server and
+  skills for OpenAI's plugin directory, with an onboarding skill and review
+  test cases; `scripts/openai_plugin.py` checks it and builds the upload ZIP.
+  `.agents/plugins/marketplace.json` makes this repository a Codex marketplace.
 
 - **Optical sizes.** Every icon in every style is now also drawn at 16, 32,
   48, and 64px (`icons/<size>/<style>/<name>.svg`), beside the canonical 24px
