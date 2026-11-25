@@ -54,3 +54,12 @@ test('plugin and marketplace manifests agree', async () => {
   assert.equal(entry.description, plugin.description);
   assert.equal(mcp.mcpServers['fos-icons'].url, 'https://www.fosicons.com/mcp');
 });
+
+test('the Cursor rule has Cursor frontmatter and points at the MCP server', async () => {
+  const text = await readFile(new URL('plugins/cursor/fos-icons.mdc', root), 'utf8');
+  const front = /^---\n([\s\S]+?)\n---\n/.exec(text);
+  assert.ok(front, 'missing frontmatter');
+  assert.match(front[1], /^description: .{20,}$/m);
+  assert.match(front[1], /^alwaysApply: false$/m);
+  assert.match(text, /https:\/\/www\.fosicons\.com\/mcp/);
+});

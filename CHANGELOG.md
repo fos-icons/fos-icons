@@ -17,6 +17,8 @@ Changes are recorded under Unreleased until a release is tagged.
   skills for OpenAI's plugin directory, with an onboarding skill and review
   test cases; `scripts/openai_plugin.py` checks it and builds the upload ZIP.
   `.agents/plugins/marketplace.json` makes this repository a Codex marketplace.
+- **Cursor rule.** `plugins/cursor/fos-icons.mdc` gives agents without MCP the
+  naming scheme, packages, and accessibility rules.
 
 - **Optical sizes.** Every icon in every style is now also drawn at 16, 32,
   48, and 64px (`icons/<size>/<style>/<name>.svg`), beside the canonical 24px

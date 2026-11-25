@@ -29,6 +29,10 @@ consistently, from design to code. Icon count is not the success metric.
 | Framer | Search, customize, and insert Fos Icons in the editor | [plugins/framer](plugins/framer/) |
 | Claude Code | The MCP server plus both agent skills in one install | [plugins/claude](plugins/claude/) |
 | ChatGPT and Codex | The same, packaged for OpenAI's plugin directory | [plugins/openai](plugins/openai/) |
+| Cursor | A rule file for agents without MCP: names, packages, and accessibility | [plugins/cursor](plugins/cursor/fos-icons.mdc) |
+
+Setup for every agent, including one-click MCP installs for Cursor and VS Code,
+is at [fosicons.com/ai-agents](https://www.fosicons.com/ai-agents).
 
 ## AI agent skills
 
@@ -53,6 +57,12 @@ In Codex, without waiting for the directory listing:
 ```sh
 codex plugin marketplace add fos-icons/fos-icons
 codex plugin add fos-icons@fos-icons
+```
+
+In any other agent that reads `SKILL.md` files:
+
+```sh
+npx skills add fos-icons/fos-icons
 ```
 
 Both plugins carry a copy of `skills/`. After editing a skill, run
