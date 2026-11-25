@@ -5,10 +5,11 @@ import CameraRegular from '@fos-icons/angular/regular/camera';
 import CameraFilled from '@fos-icons/angular/filled/camera';
 import CalendarAddDuocolor from '@fos-icons/angular/duocolor/calendar-add';
 import CameraDuotone from '@fos-icons/angular/duotone/camera';
+import SlashDividerRegular from '@fos-icons/angular/regular/slash-divider';
 
 @Component({
   selector: 'icon-test',
-  imports: [CameraRegular, CameraFilled, CalendarAddDuocolor, CameraDuotone],
+  imports: [CameraRegular, CameraFilled, CalendarAddDuocolor, CameraDuotone, SlashDividerRegular],
   template: `
     <svg fos-camera-regular class="camera"></svg>
     <svg fos-camera-regular [size]="32" title="Camera &amp; lens" [strokeWidth]="2" color="red"></svg>
@@ -17,6 +18,8 @@ import CameraDuotone from '@fos-icons/angular/duotone/camera';
     <svg fos-calendar-add-duocolor></svg>
     <svg fos-calendar-add-duocolor></svg>
     <svg fos-camera-duotone></svg>
+    <svg fos-slash-regular></svg>
+    <svg fos-slash-divider-regular></svg>
   `,
 })
 class Consumer {}

@@ -43267,38 +43267,6 @@ abstract final class FosIcons {
     null,
   );
 
-  /// slash-divider: regular.
-  static const slashDividerRegular = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M584.25 3285.37L591.75 3266.63" transform="translate(-576 -3264)" /></svg>''',
-    null,
-    null,
-    null,
-  );
-
-  /// slash-divider: filled.
-  static const slashDividerFilled = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" d="M622.719 3266.61C622.917 3266.11 623.478 3265.87 623.972 3266.07C624.466 3266.27 624.707 3266.83 624.51 3267.32L617.281 3285.39C617.083 3285.89 616.522 3286.13 616.028 3285.93C615.534 3285.73 615.293 3285.17 615.491 3284.68L622.719 3266.61Z" transform="translate(-608 -3264)" /></svg>''',
-    null,
-    null,
-    null,
-  );
-
-  /// slash-divider: duocolor.
-  static const slashDividerDuocolor = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M8.25 245.375L15.7499 226.625" transform="translate(0 -224)" /></svg>''',
-    Color(0xFF245B9E),
-    null,
-    null,
-  );
-
-  /// slash-divider: duotone.
-  static const slashDividerDuotone = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M40.25 245.375L47.7499 226.625" transform="translate(-32 -224)" /></svg>''',
-    Color(0xFF245B9E),
-    null,
-    null,
-  );
-
   /// slash-octagon: regular.
   static const slashOctagonRegular = FosGlyph._(
     r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M6.41668 3302.42L17.5833 3313.58M8.27779 3299.62H15.7223L20.375 3304.28V3311.72L15.7223 3316.38H8.27779L3.625 3311.72V3304.28L8.27779 3299.62Z" transform="translate(0 -3296)" /></svg>''',
@@ -50850,4 +50818,16 @@ abstract final class FosIcons {
     null,
     null,
   );
+
+  /// Legacy alias for slash: regular.
+  static const slashDividerRegular = slashRegular;
+
+  /// Legacy alias for slash: filled.
+  static const slashDividerFilled = slashFilled;
+
+  /// Legacy alias for slash: duocolor.
+  static const slashDividerDuocolor = slashDuocolor;
+
+  /// Legacy alias for slash: duotone.
+  static const slashDividerDuotone = slashDuotone;
 }

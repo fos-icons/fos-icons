@@ -152,16 +152,12 @@ def generate():
         names.add(name)
         if set(icon["files"]) != set(STYLES) or set(icon["sha256"]) != set(STYLES):
             raise ValueError(f"{name}: missing or extra icon styles")
-        first, *rest = name.split("-")
-        stem = first + "".join(part.capitalize() for part in rest)
-        if stem[0].isdigit():
-            stem = "icon" + stem
         for style in STYLES:
             filename = f"icons/{style}/{name}.svg"
             raw = (ROOT / filename).read_bytes()
             if icon["files"][style] != filename or hashlib.sha256(raw).hexdigest() != icon["sha256"][style]:
                 raise ValueError(f"{filename}: does not match the canonical manifest")
-            symbol = stem + style.capitalize()
+            symbol = glyph_symbol(name, style)
             if symbol in symbols:
                 raise ValueError(f"{filename}: Dart constant collision: {symbol}")
             symbols.add(symbol)
@@ -177,11 +173,32 @@ def generate():
             key, value = f"  '{style}/{name}':", f"FosIcons.{symbol},"
             entry = f"{key} {value}"
             inventory.append(entry if len(entry) <= 80 else f"{key}\n      {value}")
+    for alias, target in manifest.get("iconAliases", {}).items():
+        if not NAME.fullmatch(alias) or alias in names or alias in excluded or target not in names:
+            raise ValueError(f"Invalid icon alias: {alias} → {target}")
+        for style in STYLES:
+            symbol = glyph_symbol(alias, style)
+            if symbol in symbols:
+                raise ValueError(f"Dart constant collision: {symbol}")
+            symbols.add(symbol)
+            output.extend([
+                f"  /// Legacy alias for {target}: {style}.",
+                f"  static const {symbol} = {glyph_symbol(target, style)};",
+                "",
+            ])
     output.pop()
     return {
         "lib/src/glyphs.g.dart": "\n".join([*output, "}", ""]),
         "test/catalog.g.dart": "\n".join([*inventory, "};", ""]),
     }
+
+
+def glyph_symbol(name, style):
+    first, *rest = name.split("-")
+    stem = first + "".join(part.capitalize() for part in rest)
+    if stem[0].isdigit():
+        stem = "icon" + stem
+    return stem + style.capitalize()
 
 
 if __name__ == "__main__":

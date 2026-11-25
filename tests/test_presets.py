@@ -26,6 +26,7 @@ def fixture(root):
         row for row in manifest["icons"] if row["name"] in ("user", "user-add")
     ]
     manifest["iconCount"] = 2
+    manifest.pop("iconAliases", None)
     for row in manifest["icons"]:
         row.pop("composition", None)
         paths = list(row["files"].values()) + [

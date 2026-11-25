@@ -51,13 +51,14 @@ test('pixel parity gate detects geometry and tint regressions', () => {
     fixture.replace('opacity="0.16"', 'opacity="1"'), 'tint'), /Visual change/);
 });
 
-test('library optimization refreshes both hash contracts; check mode never writes', async t => {
+test('library optimization refreshes hashes and legacy SVG copies; check mode never writes', async t => {
   const root = await mkdtemp(join(tmpdir(), 'fos-svgo-'));
   t.after(() => rm(root, { recursive: true, force: true }));
   await mkdir(join(root, 'icons/regular'), { recursive: true });
   await mkdir(join(root, 'modifiers'));
   await mkdir(join(root, 'metadata'));
   const iconPath = join(root, 'icons/regular/fixture.svg');
+  const legacyPath = join(root, 'icons/regular/old-fixture.svg');
   const modifierPath = join(root, 'modifiers/fixture.svg');
   const manifestPath = join(root, 'manifest.json');
   const metadataPath = join(root, 'metadata/modifiers.json');
@@ -65,6 +66,7 @@ test('library optimization refreshes both hash contracts; check mode never write
   await writeFile(modifierPath, fixture);
   await writeFile(manifestPath, JSON.stringify({
     styles: ['regular'],
+    iconAliases: { 'old-fixture': 'fixture' },
     icons: [{ name: 'fixture', files: { regular: 'icons/regular/fixture.svg' },
       sha256: { regular: 'stale' } }],
   }));
@@ -75,9 +77,11 @@ test('library optimization refreshes both hash contracts; check mode never write
   const before = await Promise.all(paths.map(path => readFile(path)));
   await assert.rejects(optimizeLibrary(root, { check: true }), /Optimization\/hash drift/);
   assert.deepEqual(await Promise.all(paths.map(path => readFile(path))), before);
+  await assert.rejects(readFile(legacyPath), { code: 'ENOENT' });
   const report = await optimizeLibrary(root);
   assert.equal(report.assets, 2);
-  assert.equal(report.changed, 2);
+  assert.equal(report.changed, 3);
+  assert.deepEqual(await readFile(legacyPath), await readFile(iconPath));
   assert.ok(report.bytesAfter < report.bytesBefore);
   const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
   const modifiers = JSON.parse(await readFile(metadataPath, 'utf8'));
@@ -88,6 +92,10 @@ test('library optimization refreshes both hash contracts; check mode never write
   assert.equal((await optimizeLibrary(root, { check: true })).changed, 0);
   assert.equal((await optimizeLibrary(root)).changed, 0);
   assert.deepEqual(await Promise.all(paths.map(path => readFile(path))), optimized);
+  await writeFile(legacyPath, fixture);
+  await assert.rejects(optimizeLibrary(root, { check: true }), /old-fixture\.svg/);
+  assert.equal(await readFile(legacyPath, 'utf8'), fixture);
+  await optimizeLibrary(root);
   manifest.icons[0].sha256.regular = 'tampered';
   await writeFile(manifestPath, JSON.stringify(manifest));
   await assert.rejects(optimizeLibrary(root, { check: true }), /Optimization\/hash drift/);

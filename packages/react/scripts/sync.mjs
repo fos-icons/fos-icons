@@ -39,6 +39,7 @@ const snapshot = JSON.stringify({
   license: manifest.license,
   styles: manifest.styles,
   iconCount: icons.length,
+  iconAliases: manifest.iconAliases,
   excludedBrands: manifest.source.excludedBrands,
   icons,
 }) + '\n';

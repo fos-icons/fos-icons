@@ -130,7 +130,8 @@ def import_sheet(payload, output):
     if styles not in (["regular", "filled"], ["regular", "filled", *DUO_STYLES]):
         raise ValueError("Expected the two-style or complete four-style library")
     previous = output / "manifest.json"
-    if previous.exists() and len(json.loads(previous.read_text())["styles"]) > len(styles):
+    before = json.loads(previous.read_text(encoding="utf-8")) if previous.exists() else {}
+    if len(before.get("styles", [])) > len(styles):
         raise ValueError("A two-style snapshot cannot replace a four-style library")
     presets_path = output / "metadata/presets.json"
     preset_names = {
@@ -140,6 +141,12 @@ def import_sheet(payload, output):
     names = [row["name"] for row in records]
     if len(names) != len(set(names)) or set(names) & set(BRANDS):
         raise ValueError("Duplicate names or excluded brand artwork")
+    aliases = before.get("iconAliases", {})
+    if set(aliases) & set(names) or not set(aliases.values()) <= set(names):
+        raise ValueError("Re-export must preserve canonical icon alias targets, not alias rows")
+    aliases_by_target = {}
+    for alias, target in aliases.items():
+        aliases_by_target.setdefault(target, []).append(alias)
     sheet = ET.fromstring(payload["svg"])
     manifest = {
         "schemaVersion": 1,
@@ -158,10 +165,14 @@ def import_sheet(payload, output):
         },
         "icons": [],
     }
+    if aliases:
+        manifest["iconAliases"] = aliases
     for row in sorted(records, key=lambda row: row["name"]):
         if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", row["name"]):
             raise ValueError(f"Invalid canonical name: {row['name']}")
         record = {key: value for key, value in row.items() if key != "positions"}
+        if row["name"] in aliases_by_target:
+            record["aliases"] = list(dict.fromkeys([*record.get("aliases", []), *aliases_by_target[row["name"]]]))
         record["files"], record["sha256"] = {}, {}
         for style in manifest["styles"]:
             relative = f"icons/{style}/{row['name']}.svg"
@@ -180,10 +191,9 @@ def import_sheet(payload, output):
             record["files"][style] = relative
             record["sha256"][style] = hashlib.sha256(data).hexdigest()
         manifest["icons"].append(record)
-    if previous.exists():
+    if before:
         # Optical sizes come from a separate export (scripts/import_sizes.py);
         # a 24px re-import keeps them. Presets are recomposed below.
-        before = json.loads(previous.read_text(encoding="utf-8"))
         if "sizes" in before:
             for key in ("sizes", "sizePath", "strokeWidths"):
                 manifest[key] = before[key]

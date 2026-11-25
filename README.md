@@ -1,6 +1,6 @@
 # Fos Icons
 
-1,589 icons in Regular, Filled, Duocolor, and Duotone styles, each drawn at five
+1,588 icons in Regular, Filled, Duocolor, and Duotone styles, each drawn at five
 optical sizes (16, 24, 32, 48, and 64px): **31,740 SVGs**. The canonical 24 x 24
 grid uses 1.25px strokes; each other size has its own grid and stroke (see
 [Optical sizes](#optical-sizes)). Negative space and modifier clearances are
@@ -400,7 +400,15 @@ python3 scripts/build_presets.py
 
 `manifest.json` contains canonical kebab-case names, categories, semantic tags,
 legacy search aliases, paths, SHA-256 digests, keylines, and Figma source IDs.
-Aliases are search terms, not additional files or guaranteed one-to-one names.
+Per-icon `aliases` are search terms, not guaranteed one-to-one names.
+For exact legacy names, use the separate `iconAliases` map (old name →
+canonical name). Resolve through that map before looking up artwork or icon
+metadata, but enumerate only `icons` when building a catalog.
+
+`slash-divider` resolves to `slash`. The old component imports, Angular
+selectors, Flutter constants, and raw SVG paths still work and use `slash`
+artwork. The old SVG paths are compatibility copies at every size and style;
+edit only `slash.svg` and run `npm run optimize` to refresh them.
 
 Tags are hand-curated search keywords: synonyms, alternate and glyph names, and
 common uses that the name and category don't already cover. Edit them in

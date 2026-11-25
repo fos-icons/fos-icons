@@ -2,6 +2,8 @@ import { defineComponent, h, ref } from 'vue';
 import { CameraRegular, type FosIcon, type IconProps } from '@fos-icons/vue';
 import Camera from '@fos-icons/vue/regular/camera';
 import { CameraDuotone } from '@fos-icons/vue/duotone';
+import SlashDivider, { SlashDividerRegular } from '@fos-icons/vue/regular/slash-divider';
+export const legacySlash: typeof SlashDividerRegular = SlashDivider;
 
 const props: IconProps = {
   size: '1em',

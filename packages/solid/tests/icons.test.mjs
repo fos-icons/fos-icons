@@ -19,7 +19,7 @@ const manifest = JSON.parse(readFileSync(new URL('../../../manifest.json', impor
 const cardProps = { title: 'Download card', size: 24, strokeWidth: 1.25 };
 
 test('exports every canonical icon and selects the server renderer for SSR', () => {
-  assert.equal(Object.keys(icons).length, manifest.iconCount * 4);
+  assert.equal(Object.keys(icons).length, (manifest.iconCount + Object.keys(manifest.iconAliases ?? {}).length) * 4);
   assert.equal(icons.BinocularsRegular, BinocularsRegular);
   assert.equal(icons.TelescopeDuocolor, TelescopeDuocolor);
   const html = renderToString(() => [
@@ -46,6 +46,17 @@ test('exports every canonical icon and selects the server renderer for SSR', () 
   assert.equal(elements[3].getAttribute('aria-label'), 'Observe');
   assert.equal(elements[3].querySelector('path').getAttribute('stroke-width'), '2');
   assert.equal(elements[3].style.getPropertyValue('--fos-secondary'), '#654321');
+});
+
+test('slash-divider re-exports slash in each style', async () => {
+  for (const style of manifest.styles) {
+    const suffix = style[0].toUpperCase() + style.slice(1);
+    const target = icons[`Slash${suffix}`];
+    assert.ok(target);
+    assert.equal(icons[`SlashDivider${suffix}`], target);
+    assert.equal((await import(`@fos-icons/solid/${style}`))[`SlashDivider${suffix}`], target);
+    assert.equal((await import(`@fos-icons/solid/${style}/slash-divider`)).default, target);
+  }
 });
 
 test('hydrates the existing SVG, then updates reactive attributes and handles events', () => {

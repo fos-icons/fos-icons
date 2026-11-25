@@ -10,7 +10,7 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1589,
+  "iconCount": 1588,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
@@ -24,6 +24,9 @@
       "youtube"
     ],
     "duoExportedOn": "2026-11-21"
+  },
+  "iconAliases": {
+    "slash-divider": "slash"
   },
   "icons": [
     {
@@ -106556,12 +106559,15 @@
         "forward slash",
         "divide",
         "division",
-        "or",
         "separator",
-        "stroke",
-        "line"
+        "line",
+        "breadcrumb",
+        "path",
+        "delimiter"
       ],
-      "aliases": [],
+      "aliases": [
+        "slash-divider"
+      ],
       "componentSet": "45:37459",
       "source": {
         "regular": "1:1217",
@@ -106706,86 +106712,6 @@
           "filled": "6be5755c2bef4bd3237b8c9d6d656b1967fce8716c0126219b2f97233a2d3695",
           "duocolor": "0161ca95a64151d2e71f56ba673302e021ceb958fc9b92e915e0fd38bb750010",
           "duotone": "50c13299914df706a2bf9b7a02bd67b14a67587f2d2b46c289170d7b0583a172"
-        }
-      }
-    },
-    {
-      "name": "slash-divider",
-      "category": "Essentials",
-      "tags": [
-        "separator",
-        "breadcrumb",
-        "divide",
-        "path",
-        "forward slash",
-        "or",
-        "delimiter"
-      ],
-      "aliases": [],
-      "componentSet": "45:41744",
-      "source": {
-        "regular": "33:19583",
-        "filled": "33:38757",
-        "duocolor": "49:56729",
-        "duotone": "49:56732"
-      },
-      "keyline": {
-        "key": "Vertical",
-        "width": 16,
-        "height": 20,
-        "stroke": 1.25,
-        "margin": 2
-      },
-      "files": {
-        "regular": "icons/regular/slash-divider.svg",
-        "filled": "icons/filled/slash-divider.svg",
-        "duocolor": "icons/duocolor/slash-divider.svg",
-        "duotone": "icons/duotone/slash-divider.svg"
-      },
-      "sha256": {
-        "regular": "149222ab7bff007001a359b173c62ab6b18c0db2ff4c4e9428c4b5b330a78d79",
-        "filled": "f9ca1adc33c3e24358b5155092d6b5a535b03b6f13b08625a1146a5a6fda8565",
-        "duocolor": "ae173694ab146a7b7fc49557eb49992b79897c3e9703b71d2798ba22ccffe4cd",
-        "duotone": "748b114873e20fa43d6c3330c11eac4a4154f35844846e6c38863b2474e9bc7b"
-      },
-      "duoAuthoring": {
-        "version": 2,
-        "approvedPrototype": false,
-        "duocolor": {
-          "contours": 1,
-          "accents": 0,
-          "policy": "dominant-contours-and-details"
-        },
-        "duotone": {
-          "regions": 0,
-          "opacity": 0.16,
-          "policy": "explicit-closed-contours"
-        }
-      },
-      "sizes": {
-        "16": {
-          "regular": "2d96cd039ea121a3c0912c162d76e89d1c88072bb5c668f9883c20213a860cb4",
-          "filled": "9fdc914362427850eb87046ac5b1b6a0b0275d0d742c4e8bd76b963fc017d987",
-          "duocolor": "4bd002f4240704d5b326829bee5e8cd0524190c3e2a24f01b1f4b44ed975b036",
-          "duotone": "4bd002f4240704d5b326829bee5e8cd0524190c3e2a24f01b1f4b44ed975b036"
-        },
-        "32": {
-          "regular": "a5fdd9b27c06aebc34acf86d10d921149e6cf4d2b0b4cad6b43fafc7e310edb5",
-          "filled": "a9fb93399ae7a3a99f9a910f2f85c39544c81eda6222579e7617aa65dbd218f4",
-          "duocolor": "9251d2966d85948c6a2487c09b6956c278ecfbbdc5b6fbc90ecfac3dfd6b3a75",
-          "duotone": "9251d2966d85948c6a2487c09b6956c278ecfbbdc5b6fbc90ecfac3dfd6b3a75"
-        },
-        "48": {
-          "regular": "80ea9d0ecd8252c72d6bd96c126e1cc0692a93ba41346312e8e6a0ac0177d5ed",
-          "filled": "c95b6309342745856f23a3e84ab4fd5cfbe2453d419e6ba6e7bd03e2f9861a8f",
-          "duocolor": "5c090e29b3307886edbdcdcd0bc84d2a9eb07b3de27ac33b01f5c608bb31f9df",
-          "duotone": "5c090e29b3307886edbdcdcd0bc84d2a9eb07b3de27ac33b01f5c608bb31f9df"
-        },
-        "64": {
-          "regular": "2cd84e78bd2c1f24956a142989ce8601ebb3499975cfea94eebc07939c007406",
-          "filled": "c897edf6105839f0b4d679eb84fdb0f9769fb54ca4f23e874e99ef3a747283b9",
-          "duocolor": "3b0063049db302d8ee025fbab8c46afe5f9d7b0e73b4851ce615a9c69d398af9",
-          "duotone": "3b0063049db302d8ee025fbab8c46afe5f9d7b0e73b4851ce615a9c69d398af9"
         }
       }
     },

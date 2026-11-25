@@ -6,6 +6,7 @@ import { transformAsync } from '@babel/core';
 import solid from '@solidjs/babel-plugin';
 import { DOMParser } from '@xmldom/xmldom';
 import { componentName, parseSvg, styles } from '../../../scripts/framework-svg.mjs';
+import { aliasModule, iconAliasExports } from '../../../scripts/icon-aliases.mjs';
 
 const packageRoot = fileURLToPath(new URL('../', import.meta.url));
 const repoRoot = fileURLToPath(new URL('../../../', import.meta.url));
@@ -40,6 +41,12 @@ for (const style of styles) {
     outputs.set(`${style}/${icon.name}.js`, `import { createIcon } from '#fos-renderer';\nexport const ${name} = /*#__PURE__*/ createIcon(${data});\nexport default ${name};\n`);
     outputs.set(`${style}/${icon.name}.d.ts`, `import type { FosIcon } from '../types.js';\nexport declare const ${name}: FosIcon;\nexport default ${name};\n`);
     exports.push(`export { ${name} } from './${icon.name}.js';`);
+  }
+  for (const { alias, target, name, original } of iconAliasExports(source, style, componentName, names)) {
+    const module = aliasModule(target, original, name);
+    outputs.set(`${style}/${alias}.js`, module);
+    outputs.set(`${style}/${alias}.d.ts`, module);
+    exports.push(`export { ${name} } from './${alias}.js';`);
   }
   const index = `${exports.join('\n')}\n`;
   outputs.set(`${style}/index.js`, index);

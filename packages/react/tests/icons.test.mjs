@@ -60,6 +60,9 @@ test('every component preserves the canonical SVG geometry, paints, and nested v
         assert.deepEqual(canonical(rendered, idMap), canonical(source), name);
       }
     }
+    for (const alias of Object.keys(manifest.iconAliases ?? {})) {
+      expected.push(...manifest.styles.map(style => componentName(alias, style)));
+    }
     assert.deepEqual(Object.keys(icons).sort(), expected.sort());
     assert.deepEqual(warnings, [], 'React emitted SVG property warnings');
   } finally {
@@ -80,6 +83,21 @@ test('root, style, per-icon, and CommonJS imports resolve consistently', () => {
     require('@fos-icons/react/regular/camera').default,
     require('@fos-icons/react/regular').CameraRegular,
   );
+});
+
+test('slash-divider exports the same slash component in every style and module format', async () => {
+  for (const style of manifest.styles) {
+    const alias = componentName('slash-divider', style);
+    const canonical = componentName('slash', style);
+    const stylePath = `@fos-icons/react/${style}`;
+    assert.equal(icons[alias], icons[canonical]);
+    assert.equal((await import(stylePath))[alias], icons[canonical]);
+    assert.equal((await import(`${stylePath}/slash-divider`)).default, icons[canonical]);
+    const target = require('@fos-icons/react')[canonical];
+    assert.equal(require('@fos-icons/react')[alias], target);
+    assert.equal(require(stylePath)[alias], target);
+    assert.equal(require(`${stylePath}/slash-divider`).default, target);
+  }
 });
 
 test('repeated icons have unique, locally resolving mask and clip IDs', () => {
