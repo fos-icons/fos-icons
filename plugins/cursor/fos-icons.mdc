@@ -1,0 +1,52 @@
+---
+description: Use when adding or changing icons in UI code with Fos Icons (@fos-icons/react, @fos-icons/vue, Svelte, SolidJS, Angular, or fos_icons for Flutter). Never guess icon names or draw SVG.
+globs:
+alwaysApply: false
+---
+
+# Fos Icons
+
+Fos Icons is an MIT icon library: about 1,600 icons in four styles (Regular,
+Filled, Duocolor, Duotone) on a 24px grid. Save this file as
+`.cursor/rules/fos-icons.mdc`. For live icon search, also add the MCP server
+`https://www.fosicons.com/mcp` (https://www.fosicons.com/ai-agents).
+
+## Rules
+
+1. **Never guess an icon name.** Confirm every name with the Fos Icons MCP tools
+   (`search_icons`, `check_icon_names`) when they're connected. Otherwise look it
+   up in `node_modules/@fos-icons/react/dist/types/index.d.ts`, or check that
+   `https://www.fosicons.com/icons/<name>` exists.
+2. **Never draw or edit SVG paths.** Use the package component. If no icon
+   fits, say so.
+3. **Keep the project's icon library.** Only switch to Fos Icons when the user
+   asks, or when the project has no icon library.
+
+## Names
+
+Component = icon name in PascalCase + style suffix:
+
+- `fuel-pump` → `FuelPumpRegular`, `FuelPumpFilled`, `FuelPumpDuocolor`, `FuelPumpDuotone`
+- Flutter: `FosIcons.fuelPumpRegular`
+- The website calls Filled "Solid"; in code it is always `Filled`.
+
+## Packages
+
+- React: `npm install @fos-icons/react`, then `import { CameraRegular } from '@fos-icons/react'`
+- Vue 3: `npm install @fos-icons/vue`, same names
+- Svelte, SolidJS, Angular, and Flutter aren't on a registry yet; see
+  https://www.fosicons.com/docs for setup, and tell the user before installing.
+
+## Usage
+
+- `size` sets width and height (default 24). Use 16 or 20 in dense UI.
+- Regular and Filled inherit `currentColor`; set color on the parent.
+- Duocolor and Duotone take `primaryColor` and `secondaryColor`; use them for
+  large, illustrative spots, not toolbars.
+- One style per UI. Regular by default, Filled for a selected or active state.
+
+## Accessibility
+
+- Icons are `aria-hidden` by default. Leave them decorative next to a text label.
+- Icon-only button: put `aria-label` on the button, not the icon.
+- A standalone icon that carries meaning: pass `title` (`semanticLabel` in Flutter).
