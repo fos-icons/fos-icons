@@ -1,0 +1,1054 @@
+{
+  "library": "heroicons",
+  "source": "heroicons@2.2.0",
+  "fosIcons": {
+    "iconCount": 1589,
+    "manifestSha256": "ddac308c89c2f3c97d9f1c6a7ceecb4a152ece3251c7c235144e04cc0177c168"
+  },
+  "usage": "Keys are heroicons names (kebab-case). `component` is the @heroicons/react and @heroicons/vue name (24/outline, 24/solid, 20/solid, 16/solid). react-icons/hi2 uses HiOutline<Name>, Hi<Name> and HiMini<Name> without the Icon suffix.",
+  "counts": {
+    "exact": 115,
+    "alias": 0,
+    "curated": 32,
+    "normalized": 1,
+    "reordered": 5,
+    "suggested": 24,
+    "unmapped": 147
+  },
+  "map": {
+    "archive-box": {
+      "component": "ArchiveBoxIcon",
+      "to": "archive",
+      "match": "suggested"
+    },
+    "arrow-down": {
+      "component": "ArrowDownIcon",
+      "to": "arrow-down",
+      "match": "exact"
+    },
+    "arrow-down-circle": {
+      "component": "ArrowDownCircleIcon",
+      "to": "arrow-circle-down",
+      "match": "reordered"
+    },
+    "arrow-down-left": {
+      "component": "ArrowDownLeftIcon",
+      "to": "arrow-down-left",
+      "match": "exact"
+    },
+    "arrow-down-right": {
+      "component": "ArrowDownRightIcon",
+      "to": "arrow-down-right",
+      "match": "exact"
+    },
+    "arrow-down-tray": {
+      "component": "ArrowDownTrayIcon",
+      "to": "download",
+      "match": "curated"
+    },
+    "arrow-left": {
+      "component": "ArrowLeftIcon",
+      "to": "arrow-left",
+      "match": "exact"
+    },
+    "arrow-left-circle": {
+      "component": "ArrowLeftCircleIcon",
+      "to": "arrow-circle-left",
+      "match": "reordered"
+    },
+    "arrow-left-on-rectangle": {
+      "component": "ArrowLeftOnRectangleIcon",
+      "to": "log-in",
+      "match": "curated"
+    },
+    "arrow-path": {
+      "component": "ArrowPathIcon",
+      "to": "refresh",
+      "match": "curated"
+    },
+    "arrow-right": {
+      "component": "ArrowRightIcon",
+      "to": "arrow-right",
+      "match": "exact"
+    },
+    "arrow-right-circle": {
+      "component": "ArrowRightCircleIcon",
+      "to": "arrow-circle-right",
+      "match": "reordered"
+    },
+    "arrow-right-end-on-rectangle": {
+      "component": "ArrowRightEndOnRectangleIcon",
+      "to": "log-in",
+      "match": "curated"
+    },
+    "arrow-right-on-rectangle": {
+      "component": "ArrowRightOnRectangleIcon",
+      "to": "log-out",
+      "match": "curated"
+    },
+    "arrow-right-start-on-rectangle": {
+      "component": "ArrowRightStartOnRectangleIcon",
+      "to": "log-out",
+      "match": "curated"
+    },
+    "arrow-top-right-on-square": {
+      "component": "ArrowTopRightOnSquareIcon",
+      "to": "link-external",
+      "match": "curated"
+    },
+    "arrow-turn-down-left": {
+      "component": "ArrowTurnDownLeftIcon",
+      "to": "arrow-turn-down-left",
+      "match": "exact"
+    },
+    "arrow-turn-down-right": {
+      "component": "ArrowTurnDownRightIcon",
+      "to": "arrow-turn-down-right",
+      "match": "exact"
+    },
+    "arrow-turn-left-down": {
+      "component": "ArrowTurnLeftDownIcon",
+      "to": "arrow-turn-left-down",
+      "match": "exact"
+    },
+    "arrow-turn-left-up": {
+      "component": "ArrowTurnLeftUpIcon",
+      "to": "arrow-turn-left-up",
+      "match": "exact"
+    },
+    "arrow-turn-right-down": {
+      "component": "ArrowTurnRightDownIcon",
+      "to": "arrow-turn-right-down",
+      "match": "exact"
+    },
+    "arrow-turn-right-up": {
+      "component": "ArrowTurnRightUpIcon",
+      "to": "arrow-turn-right-up",
+      "match": "exact"
+    },
+    "arrow-turn-up-left": {
+      "component": "ArrowTurnUpLeftIcon",
+      "to": "arrow-turn-up-left",
+      "match": "exact"
+    },
+    "arrow-turn-up-right": {
+      "component": "ArrowTurnUpRightIcon",
+      "to": "arrow-turn-up-right",
+      "match": "exact"
+    },
+    "arrow-up": {
+      "component": "ArrowUpIcon",
+      "to": "arrow-up",
+      "match": "exact"
+    },
+    "arrow-up-circle": {
+      "component": "ArrowUpCircleIcon",
+      "to": "arrow-circle-up",
+      "match": "reordered"
+    },
+    "arrow-up-left": {
+      "component": "ArrowUpLeftIcon",
+      "to": "arrow-up-left",
+      "match": "exact"
+    },
+    "arrow-up-right": {
+      "component": "ArrowUpRightIcon",
+      "to": "arrow-up-right",
+      "match": "exact"
+    },
+    "arrow-up-tray": {
+      "component": "ArrowUpTrayIcon",
+      "to": "upload",
+      "match": "curated"
+    },
+    "arrow-uturn-down": {
+      "component": "ArrowUturnDownIcon",
+      "to": "arrow-uturn-down",
+      "match": "exact"
+    },
+    "arrow-uturn-left": {
+      "component": "ArrowUturnLeftIcon",
+      "to": "arrow-uturn-left",
+      "match": "exact"
+    },
+    "arrow-uturn-right": {
+      "component": "ArrowUturnRightIcon",
+      "to": "arrow-uturn-right",
+      "match": "exact"
+    },
+    "arrow-uturn-up": {
+      "component": "ArrowUturnUpIcon",
+      "to": "arrow-uturn-up",
+      "match": "exact"
+    },
+    "backward": {
+      "component": "BackwardIcon",
+      "to": "fast-backward",
+      "match": "suggested"
+    },
+    "bars-3": {
+      "component": "Bars3Icon",
+      "to": "menu",
+      "match": "curated"
+    },
+    "battery-0": {
+      "component": "Battery0Icon",
+      "to": "battery-charging",
+      "match": "suggested"
+    },
+    "battery-100": {
+      "component": "Battery100Icon",
+      "to": "battery-charging",
+      "match": "suggested"
+    },
+    "battery-50": {
+      "component": "Battery50Icon",
+      "to": "battery-charging",
+      "match": "suggested"
+    },
+    "beaker": {
+      "component": "BeakerIcon",
+      "to": "beaker",
+      "match": "exact"
+    },
+    "bell": {
+      "component": "BellIcon",
+      "to": "bell",
+      "match": "exact"
+    },
+    "bell-alert": {
+      "component": "BellAlertIcon",
+      "to": "bell",
+      "match": "suggested"
+    },
+    "bell-snooze": {
+      "component": "BellSnoozeIcon",
+      "to": "bell-off",
+      "match": "suggested"
+    },
+    "bold": {
+      "component": "BoldIcon",
+      "to": "bold",
+      "match": "exact"
+    },
+    "bolt": {
+      "component": "BoltIcon",
+      "to": "zap",
+      "match": "curated"
+    },
+    "book-open": {
+      "component": "BookOpenIcon",
+      "to": "book-open",
+      "match": "exact"
+    },
+    "bookmark": {
+      "component": "BookmarkIcon",
+      "to": "bookmark",
+      "match": "exact"
+    },
+    "bookmark-square": {
+      "component": "BookmarkSquareIcon",
+      "to": "bookmark-square",
+      "match": "exact"
+    },
+    "briefcase": {
+      "component": "BriefcaseIcon",
+      "to": "briefcase",
+      "match": "exact"
+    },
+    "building-office": {
+      "component": "BuildingOfficeIcon",
+      "to": "building-office",
+      "match": "exact"
+    },
+    "building-office-2": {
+      "component": "BuildingOffice2Icon",
+      "to": "building-office",
+      "match": "normalized"
+    },
+    "building-storefront": {
+      "component": "BuildingStorefrontIcon",
+      "to": "building-store",
+      "match": "suggested"
+    },
+    "cake": {
+      "component": "CakeIcon",
+      "to": "cake",
+      "match": "exact"
+    },
+    "calculator": {
+      "component": "CalculatorIcon",
+      "to": "calculator",
+      "match": "exact"
+    },
+    "calendar": {
+      "component": "CalendarIcon",
+      "to": "calendar",
+      "match": "exact"
+    },
+    "calendar-days": {
+      "component": "CalendarDaysIcon",
+      "to": "calendar-dots",
+      "match": "suggested"
+    },
+    "camera": {
+      "component": "CameraIcon",
+      "to": "camera",
+      "match": "exact"
+    },
+    "chart-bar": {
+      "component": "ChartBarIcon",
+      "to": "chart-bar",
+      "match": "exact"
+    },
+    "chart-bar-square": {
+      "component": "ChartBarSquareIcon",
+      "to": "bar-chart-square",
+      "match": "reordered"
+    },
+    "chart-pie": {
+      "component": "ChartPieIcon",
+      "to": "chart-pie",
+      "match": "exact"
+    },
+    "check": {
+      "component": "CheckIcon",
+      "to": "check",
+      "match": "exact"
+    },
+    "check-badge": {
+      "component": "CheckBadgeIcon",
+      "to": "badge-verified",
+      "match": "suggested"
+    },
+    "check-circle": {
+      "component": "CheckCircleIcon",
+      "to": "check-circle",
+      "match": "exact"
+    },
+    "chevron-down": {
+      "component": "ChevronDownIcon",
+      "to": "chevron-down",
+      "match": "exact"
+    },
+    "chevron-left": {
+      "component": "ChevronLeftIcon",
+      "to": "chevron-left",
+      "match": "exact"
+    },
+    "chevron-right": {
+      "component": "ChevronRightIcon",
+      "to": "chevron-right",
+      "match": "exact"
+    },
+    "chevron-up": {
+      "component": "ChevronUpIcon",
+      "to": "chevron-up",
+      "match": "exact"
+    },
+    "clipboard": {
+      "component": "ClipboardIcon",
+      "to": "clipboard",
+      "match": "exact"
+    },
+    "clock": {
+      "component": "ClockIcon",
+      "to": "clock",
+      "match": "exact"
+    },
+    "cloud": {
+      "component": "CloudIcon",
+      "to": "cloud",
+      "match": "exact"
+    },
+    "cog-6-tooth": {
+      "component": "Cog6ToothIcon",
+      "to": "settings",
+      "match": "curated"
+    },
+    "cog-8-tooth": {
+      "component": "Cog8ToothIcon",
+      "to": "settings",
+      "match": "curated"
+    },
+    "cpu-chip": {
+      "component": "CpuChipIcon",
+      "to": "cpu-chip",
+      "match": "exact"
+    },
+    "credit-card": {
+      "component": "CreditCardIcon",
+      "to": "credit-card",
+      "match": "exact"
+    },
+    "cube": {
+      "component": "CubeIcon",
+      "to": "cube",
+      "match": "exact"
+    },
+    "currency-dollar": {
+      "component": "CurrencyDollarIcon",
+      "to": "currency-dollar",
+      "match": "exact"
+    },
+    "currency-euro": {
+      "component": "CurrencyEuroIcon",
+      "to": "currency-euro",
+      "match": "exact"
+    },
+    "currency-pound": {
+      "component": "CurrencyPoundIcon",
+      "to": "currency-pound",
+      "match": "exact"
+    },
+    "currency-rupee": {
+      "component": "CurrencyRupeeIcon",
+      "to": "currency-rupee",
+      "match": "exact"
+    },
+    "currency-yen": {
+      "component": "CurrencyYenIcon",
+      "to": "currency-yen",
+      "match": "exact"
+    },
+    "device-phone-mobile": {
+      "component": "DevicePhoneMobileIcon",
+      "to": "mobile-phone",
+      "match": "curated"
+    },
+    "device-tablet": {
+      "component": "DeviceTabletIcon",
+      "to": "tablet",
+      "match": "suggested"
+    },
+    "divide": {
+      "component": "DivideIcon",
+      "to": "divide",
+      "match": "exact"
+    },
+    "document": {
+      "component": "DocumentIcon",
+      "to": "file",
+      "match": "curated"
+    },
+    "document-check": {
+      "component": "DocumentCheckIcon",
+      "to": "file-check",
+      "match": "suggested"
+    },
+    "document-minus": {
+      "component": "DocumentMinusIcon",
+      "to": "file-minus",
+      "match": "suggested"
+    },
+    "document-text": {
+      "component": "DocumentTextIcon",
+      "to": "file-text",
+      "match": "curated"
+    },
+    "ellipsis-horizontal": {
+      "component": "EllipsisHorizontalIcon",
+      "to": "dots-horizontal",
+      "match": "curated"
+    },
+    "ellipsis-vertical": {
+      "component": "EllipsisVerticalIcon",
+      "to": "dots-vertical",
+      "match": "curated"
+    },
+    "envelope": {
+      "component": "EnvelopeIcon",
+      "to": "mail",
+      "match": "curated"
+    },
+    "envelope-open": {
+      "component": "EnvelopeOpenIcon",
+      "to": "mail-open",
+      "match": "curated"
+    },
+    "exclamation-circle": {
+      "component": "ExclamationCircleIcon",
+      "to": "alert-circle",
+      "match": "curated"
+    },
+    "exclamation-triangle": {
+      "component": "ExclamationTriangleIcon",
+      "to": "alert-triangle",
+      "match": "curated"
+    },
+    "eye": {
+      "component": "EyeIcon",
+      "to": "eye",
+      "match": "exact"
+    },
+    "face-frown": {
+      "component": "FaceFrownIcon",
+      "to": "face-frown",
+      "match": "exact"
+    },
+    "face-smile": {
+      "component": "FaceSmileIcon",
+      "to": "face-smile",
+      "match": "exact"
+    },
+    "film": {
+      "component": "FilmIcon",
+      "to": "film",
+      "match": "exact"
+    },
+    "flag": {
+      "component": "FlagIcon",
+      "to": "flag",
+      "match": "exact"
+    },
+    "folder": {
+      "component": "FolderIcon",
+      "to": "folder",
+      "match": "exact"
+    },
+    "folder-minus": {
+      "component": "FolderMinusIcon",
+      "to": "folder-minus",
+      "match": "exact"
+    },
+    "folder-open": {
+      "component": "FolderOpenIcon",
+      "to": "folder-open",
+      "match": "exact"
+    },
+    "folder-plus": {
+      "component": "FolderPlusIcon",
+      "to": "folder-add",
+      "match": "suggested"
+    },
+    "forward": {
+      "component": "ForwardIcon",
+      "to": "clock-forward",
+      "match": "suggested"
+    },
+    "funnel": {
+      "component": "FunnelIcon",
+      "to": "chart-funnel",
+      "match": "suggested"
+    },
+    "gif": {
+      "component": "GifIcon",
+      "to": "file-gif",
+      "match": "suggested"
+    },
+    "gift": {
+      "component": "GiftIcon",
+      "to": "gift",
+      "match": "exact"
+    },
+    "heart": {
+      "component": "HeartIcon",
+      "to": "heart",
+      "match": "exact"
+    },
+    "home": {
+      "component": "HomeIcon",
+      "to": "home",
+      "match": "exact"
+    },
+    "inbox": {
+      "component": "InboxIcon",
+      "to": "inbox",
+      "match": "exact"
+    },
+    "information-circle": {
+      "component": "InformationCircleIcon",
+      "to": "info-circle",
+      "match": "curated"
+    },
+    "italic": {
+      "component": "ItalicIcon",
+      "to": "italic",
+      "match": "exact"
+    },
+    "key": {
+      "component": "KeyIcon",
+      "to": "key",
+      "match": "exact"
+    },
+    "link": {
+      "component": "LinkIcon",
+      "to": "link",
+      "match": "exact"
+    },
+    "lock-open": {
+      "component": "LockOpenIcon",
+      "to": "unlock",
+      "match": "curated"
+    },
+    "magnifying-glass": {
+      "component": "MagnifyingGlassIcon",
+      "to": "search",
+      "match": "curated"
+    },
+    "map": {
+      "component": "MapIcon",
+      "to": "map",
+      "match": "exact"
+    },
+    "map-pin": {
+      "component": "MapPinIcon",
+      "to": "marker-pin",
+      "match": "curated"
+    },
+    "megaphone": {
+      "component": "MegaphoneIcon",
+      "to": "megaphone",
+      "match": "exact"
+    },
+    "microphone": {
+      "component": "MicrophoneIcon",
+      "to": "microphone",
+      "match": "exact"
+    },
+    "minus": {
+      "component": "MinusIcon",
+      "to": "minus",
+      "match": "exact"
+    },
+    "minus-circle": {
+      "component": "MinusCircleIcon",
+      "to": "minus-circle",
+      "match": "exact"
+    },
+    "moon": {
+      "component": "MoonIcon",
+      "to": "moon",
+      "match": "exact"
+    },
+    "numbered-list": {
+      "component": "NumberedListIcon",
+      "to": "list-ordered",
+      "match": "suggested"
+    },
+    "paint-brush": {
+      "component": "PaintBrushIcon",
+      "to": "brush",
+      "match": "suggested"
+    },
+    "paper-airplane": {
+      "component": "PaperAirplaneIcon",
+      "to": "send",
+      "match": "curated"
+    },
+    "paper-clip": {
+      "component": "PaperClipIcon",
+      "to": "binder-clip",
+      "match": "suggested"
+    },
+    "pause": {
+      "component": "PauseIcon",
+      "to": "pause",
+      "match": "exact"
+    },
+    "pause-circle": {
+      "component": "PauseCircleIcon",
+      "to": "pause-circle",
+      "match": "exact"
+    },
+    "pencil-square": {
+      "component": "PencilSquareIcon",
+      "to": "edit",
+      "match": "curated"
+    },
+    "percent-badge": {
+      "component": "PercentBadgeIcon",
+      "to": "percent-circle",
+      "match": "suggested"
+    },
+    "phone": {
+      "component": "PhoneIcon",
+      "to": "phone",
+      "match": "exact"
+    },
+    "play": {
+      "component": "PlayIcon",
+      "to": "play",
+      "match": "exact"
+    },
+    "play-circle": {
+      "component": "PlayCircleIcon",
+      "to": "play-circle",
+      "match": "exact"
+    },
+    "plus": {
+      "component": "PlusIcon",
+      "to": "plus",
+      "match": "exact"
+    },
+    "plus-circle": {
+      "component": "PlusCircleIcon",
+      "to": "plus-circle",
+      "match": "exact"
+    },
+    "power": {
+      "component": "PowerIcon",
+      "to": "power",
+      "match": "exact"
+    },
+    "presentation-chart-line": {
+      "component": "PresentationChartLineIcon",
+      "to": "presentation-chart",
+      "match": "suggested"
+    },
+    "printer": {
+      "component": "PrinterIcon",
+      "to": "printer",
+      "match": "exact"
+    },
+    "puzzle-piece": {
+      "component": "PuzzlePieceIcon",
+      "to": "puzzle-piece",
+      "match": "exact"
+    },
+    "qr-code": {
+      "component": "QrCodeIcon",
+      "to": "qr-code",
+      "match": "exact"
+    },
+    "question-mark-circle": {
+      "component": "QuestionMarkCircleIcon",
+      "to": "help-circle",
+      "match": "curated"
+    },
+    "rocket-launch": {
+      "component": "RocketLaunchIcon",
+      "to": "rocket",
+      "match": "suggested"
+    },
+    "rss": {
+      "component": "RssIcon",
+      "to": "rss",
+      "match": "exact"
+    },
+    "scale": {
+      "component": "ScaleIcon",
+      "to": "scale",
+      "match": "exact"
+    },
+    "scissors": {
+      "component": "ScissorsIcon",
+      "to": "scissors",
+      "match": "exact"
+    },
+    "server": {
+      "component": "ServerIcon",
+      "to": "server",
+      "match": "exact"
+    },
+    "share": {
+      "component": "ShareIcon",
+      "to": "share",
+      "match": "exact"
+    },
+    "shopping-bag": {
+      "component": "ShoppingBagIcon",
+      "to": "shopping-bag",
+      "match": "exact"
+    },
+    "shopping-cart": {
+      "component": "ShoppingCartIcon",
+      "to": "shopping-cart",
+      "match": "exact"
+    },
+    "signal": {
+      "component": "SignalIcon",
+      "to": "signal",
+      "match": "exact"
+    },
+    "slash": {
+      "component": "SlashIcon",
+      "to": "slash",
+      "match": "exact"
+    },
+    "sparkles": {
+      "component": "SparklesIcon",
+      "to": "sparkles",
+      "match": "exact"
+    },
+    "squares-2x2": {
+      "component": "Squares2x2Icon",
+      "to": "grid-2x2",
+      "match": "curated"
+    },
+    "star": {
+      "component": "StarIcon",
+      "to": "star",
+      "match": "exact"
+    },
+    "stop": {
+      "component": "StopIcon",
+      "to": "stop",
+      "match": "exact"
+    },
+    "stop-circle": {
+      "component": "StopCircleIcon",
+      "to": "stop-circle",
+      "match": "exact"
+    },
+    "strikethrough": {
+      "component": "StrikethroughIcon",
+      "to": "strikethrough",
+      "match": "exact"
+    },
+    "sun": {
+      "component": "SunIcon",
+      "to": "sun",
+      "match": "exact"
+    },
+    "table-cells": {
+      "component": "TableCellsIcon",
+      "to": "table",
+      "match": "suggested"
+    },
+    "tag": {
+      "component": "TagIcon",
+      "to": "tag",
+      "match": "exact"
+    },
+    "ticket": {
+      "component": "TicketIcon",
+      "to": "ticket",
+      "match": "exact"
+    },
+    "trash": {
+      "component": "TrashIcon",
+      "to": "trash",
+      "match": "exact"
+    },
+    "trophy": {
+      "component": "TrophyIcon",
+      "to": "trophy",
+      "match": "exact"
+    },
+    "truck": {
+      "component": "TruckIcon",
+      "to": "truck",
+      "match": "exact"
+    },
+    "tv": {
+      "component": "TvIcon",
+      "to": "tv",
+      "match": "exact"
+    },
+    "underline": {
+      "component": "UnderlineIcon",
+      "to": "underline",
+      "match": "exact"
+    },
+    "user": {
+      "component": "UserIcon",
+      "to": "user",
+      "match": "exact"
+    },
+    "user-circle": {
+      "component": "UserCircleIcon",
+      "to": "user-circle",
+      "match": "exact"
+    },
+    "user-minus": {
+      "component": "UserMinusIcon",
+      "to": "user-minus",
+      "match": "exact"
+    },
+    "user-plus": {
+      "component": "UserPlusIcon",
+      "to": "user-add",
+      "match": "curated"
+    },
+    "users": {
+      "component": "UsersIcon",
+      "to": "users",
+      "match": "exact"
+    },
+    "variable": {
+      "component": "VariableIcon",
+      "to": "variable",
+      "match": "exact"
+    },
+    "video-camera": {
+      "component": "VideoCameraIcon",
+      "to": "video-recorder",
+      "match": "curated"
+    },
+    "wallet": {
+      "component": "WalletIcon",
+      "to": "wallet",
+      "match": "exact"
+    },
+    "wifi": {
+      "component": "WifiIcon",
+      "to": "wifi",
+      "match": "exact"
+    },
+    "window": {
+      "component": "WindowIcon",
+      "to": "window",
+      "match": "exact"
+    },
+    "x-circle": {
+      "component": "XCircleIcon",
+      "to": "x-circle",
+      "match": "exact"
+    },
+    "x-mark": {
+      "component": "XMarkIcon",
+      "to": "x",
+      "match": "curated"
+    }
+  },
+  "unmapped": [
+    "academic-cap",
+    "adjustments-horizontal",
+    "adjustments-vertical",
+    "archive-box-arrow-down",
+    "archive-box-x-mark",
+    "arrow-down-on-square",
+    "arrow-down-on-square-stack",
+    "arrow-left-end-on-rectangle",
+    "arrow-left-start-on-rectangle",
+    "arrow-long-down",
+    "arrow-long-left",
+    "arrow-long-right",
+    "arrow-long-up",
+    "arrow-path-rounded-square",
+    "arrow-small-down",
+    "arrow-small-left",
+    "arrow-small-right",
+    "arrow-small-up",
+    "arrow-trending-down",
+    "arrow-trending-up",
+    "arrow-up-on-square",
+    "arrow-up-on-square-stack",
+    "arrows-pointing-in",
+    "arrows-pointing-out",
+    "arrows-right-left",
+    "arrows-up-down",
+    "at-symbol",
+    "backspace",
+    "banknotes",
+    "bars-2",
+    "bars-3-bottom-left",
+    "bars-3-bottom-right",
+    "bars-3-center-left",
+    "bars-4",
+    "bars-arrow-down",
+    "bars-arrow-up",
+    "bell-slash",
+    "bolt-slash",
+    "bookmark-slash",
+    "bug-ant",
+    "building-library",
+    "calendar-date-range",
+    "chat-bubble-bottom-center",
+    "chat-bubble-bottom-center-text",
+    "chat-bubble-left",
+    "chat-bubble-left-ellipsis",
+    "chat-bubble-left-right",
+    "chat-bubble-oval-left",
+    "chat-bubble-oval-left-ellipsis",
+    "chevron-double-down",
+    "chevron-double-left",
+    "chevron-double-right",
+    "chevron-double-up",
+    "chevron-up-down",
+    "circle-stack",
+    "clipboard-document",
+    "clipboard-document-check",
+    "clipboard-document-list",
+    "cloud-arrow-down",
+    "cloud-arrow-up",
+    "code-bracket",
+    "code-bracket-square",
+    "cog",
+    "command-line",
+    "computer-desktop",
+    "cube-transparent",
+    "currency-bangladeshi",
+    "cursor-arrow-rays",
+    "cursor-arrow-ripple",
+    "document-arrow-down",
+    "document-arrow-up",
+    "document-chart-bar",
+    "document-currency-bangladeshi",
+    "document-currency-dollar",
+    "document-currency-euro",
+    "document-currency-pound",
+    "document-currency-rupee",
+    "document-currency-yen",
+    "document-duplicate",
+    "document-magnifying-glass",
+    "document-plus",
+    "ellipsis-horizontal-circle",
+    "equals",
+    "eye-dropper",
+    "eye-slash",
+    "finger-print",
+    "fire",
+    "folder-arrow-down",
+    "gift-top",
+    "globe-alt",
+    "globe-americas",
+    "globe-asia-australia",
+    "globe-europe-africa",
+    "h1",
+    "h2",
+    "h3",
+    "hand-raised",
+    "hand-thumb-down",
+    "hand-thumb-up",
+    "hashtag",
+    "home-modern",
+    "identification",
+    "inbox-arrow-down",
+    "inbox-stack",
+    "language",
+    "lifebuoy",
+    "light-bulb",
+    "link-slash",
+    "list-bullet",
+    "lock-closed",
+    "magnifying-glass-circle",
+    "magnifying-glass-minus",
+    "magnifying-glass-plus",
+    "minus-small",
+    "musical-note",
+    "newspaper",
+    "no-symbol",
+    "pencil",
+    "phone-arrow-down-left",
+    "phone-arrow-up-right",
+    "phone-x-mark",
+    "photo",
+    "play-pause",
+    "plus-small",
+    "presentation-chart-bar",
+    "queue-list",
+    "radio",
+    "receipt-percent",
+    "receipt-refund",
+    "rectangle-group",
+    "rectangle-stack",
+    "server-stack",
+    "shield-check",
+    "shield-exclamation",
+    "signal-slash",
+    "speaker-wave",
+    "speaker-x-mark",
+    "square-2-stack",
+    "square-3-stack-3d",
+    "squares-plus",
+    "swatch",
+    "user-group",
+    "video-camera-slash",
+    "view-columns",
+    "viewfinder-circle",
+    "wrench",
+    "wrench-screwdriver"
+  ]
+}
