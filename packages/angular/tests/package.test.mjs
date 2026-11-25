@@ -17,7 +17,7 @@ test('ships a tree-shakeable root, style indexes, and individual imports', async
   for (const style of manifest.styles) {
     assert.match(rootIndex, new RegExp(`\\./${style}/index\\.js`));
     const index = await readFile(path.join(root, 'dist', style, 'index.js'), 'utf8');
-    assert.equal(index.match(/^export /gm).length, manifest.iconCount);
+    assert.equal(index.match(/^export /gm).length, manifest.iconCount + Object.keys(manifest.iconAliases ?? {}).length);
   }
   const result = await build({
     stdin: {
@@ -84,7 +84,7 @@ test('Angular AOT consumers link and render native, accessible SVGs on the serve
       `<icons xmlns="http://www.w3.org/2000/svg">${html.match(/<icon-test[^>]*>([\s\S]*)<\/icon-test>/)[1]}</icons>`,
       'image/svg+xml',
     );
-    const [decorative, titled, filled, custom, first, second, duotone] = Array.from(dom.documentElement.children);
+    const [decorative, titled, filled, custom, first, second, duotone, slash, alias] = Array.from(dom.documentElement.children);
     assert.equal(decorative.getAttribute('aria-hidden'), 'true');
     assert.equal(decorative.getAttribute('focusable'), 'false');
     assert.equal(decorative.getAttribute('class'), 'camera');
@@ -106,6 +106,9 @@ test('Angular AOT consumers link and render native, accessible SVGs on the serve
     assert.match(custom.getAttribute('style'), /--fos-primary:\s*navy/);
     assert.match(custom.getAttribute('style'), /--fos-secondary:\s*skyblue/);
     assert.equal(duotone.getAttribute('color'), 'var(--fos-primary, #245B9E)');
+    const slashPath = slash.getElementsByTagName('path')[0].getAttribute('d');
+    assert.ok(slashPath);
+    assert.equal(alias.getElementsByTagName('path')[0].getAttribute('d'), slashPath);
 
     const fragmentIds = new Set();
     for (const icon of [custom, first, second]) {

@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { optimize } from 'svgo';
 import config from '../svgo.config.mjs';
 import { assertVisualParity } from './svg_parity.mjs';
+import { iconAliasEntries } from './icon-aliases.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const digest = value => createHash('sha256').update(value).digest('hex');
@@ -20,17 +21,19 @@ export async function optimizeLibrary(root = ROOT, { check = false } = {}) {
   const modifierPath = resolve(root, 'metadata/modifiers.json');
   const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
   const modifiers = JSON.parse(await readFile(modifierPath, 'utf8'));
+  const aliases = iconAliasEntries(manifest);
   const assets = [];
   for (const row of manifest.icons) {
+    const copies = aliases.filter(([, target]) => target === row.name).map(([alias]) => alias);
     for (const style of manifest.styles) {
-      assets.push({ relative: row.files[style], hashes: row.sha256, key: style });
+      assets.push({ relative: row.files[style], hashes: row.sha256, key: style, copies });
       for (const size of manifest.sizes ?? [24]) {
         if (size === 24) continue;
         const hashes = row.sizes?.[size];
         if (!hashes) throw new Error(`Missing ${size}px digests: ${row.name}`);
         const relative = manifest.sizePath
           .replace('{size}', size).replace('{style}', style).replace('{name}', row.name);
-        assets.push({ relative, hashes, key: style });
+        assets.push({ relative, hashes, key: style, copies });
       }
     }
   }
@@ -43,7 +46,7 @@ export async function optimizeLibrary(root = ROOT, { check = false } = {}) {
   const seen = new Set();
   let bytesBefore = 0;
   let bytesAfter = 0;
-  for (const { relative, hashes, key } of assets) {
+  for (const { relative, hashes, key, copies = [] } of assets) {
     const path = resolve(root, relative);
     if (isAbsolute(relative) || !path.startsWith(`${root}${sep}`) || seen.has(path)) {
       throw new Error(`Invalid or duplicate asset path: ${relative}`);
@@ -61,6 +64,18 @@ export async function optimizeLibrary(root = ROOT, { check = false } = {}) {
     if (before !== after) {
       if (!check) assertVisualParity(before, after, relative);
       staged.set(path, after);
+    }
+    for (const alias of copies) {
+      const copy = `${dirname(relative)}/${alias}.svg`;
+      const copyPath = resolve(root, copy);
+      const legacy = await readFile(copyPath).catch(error => {
+        if (error.code !== 'ENOENT') throw error;
+        return null;
+      });
+      if (!legacy?.equals(Buffer.from(after))) {
+        drift.push(copy);
+        staged.set(copyPath, after);
+      }
     }
     hashes[key] = sha256;
   }

@@ -75,6 +75,10 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Changed
 
+- Made `slash-divider` an alias of `slash`. Only `slash` is listed in the
+  canonical catalog, while old component imports, selectors, Flutter
+  constants, and raw SVG paths now use the `slash` artwork.
+
 - `download-window`, `upload-window`, `edit-window`, `plus-window`,
   `minus-window`, `close-window`, `refresh-window`, `search-window`, and
   `home-window` are now presets: the new `window` with the matching modifier

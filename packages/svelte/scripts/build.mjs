@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { DOMParser } from '@xmldom/xmldom';
 import { compile } from 'svelte/compiler';
+import { aliasModule, iconAliasExports } from '../../../scripts/icon-aliases.mjs';
 
 export const packageRoot = fileURLToPath(new URL('../', import.meta.url));
 const styles = ['regular', 'filled', 'duocolor', 'duotone'];
@@ -106,6 +107,12 @@ export async function build() {
       outputs.set(`${style}/${icon.name}.d.ts`,
         `import type { FosIcon } from '../types.js';\nexport declare const ${name}: FosIcon;\nexport default ${name};\n`);
       exports.push(`export { ${name} } from './${icon.name}.js';`);
+    }
+    for (const { alias, target, name, original } of iconAliasExports(manifest, style, componentName, names)) {
+      const source = aliasModule(target, original, name);
+      outputs.set(`${style}/${alias}.js`, source);
+      outputs.set(`${style}/${alias}.d.ts`, source);
+      exports.push(`export { ${name} } from './${alias}.js';`);
     }
     const index = `${exports.join('\n')}\n`;
     outputs.set(`${style}/index.js`, index);

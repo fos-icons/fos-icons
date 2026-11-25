@@ -3,6 +3,7 @@ import { mkdir, readFile, readdir, unlink, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { DOMParser } from '@xmldom/xmldom';
+import { aliasModule, iconAliasExports } from '../../../scripts/icon-aliases.mjs';
 
 const packageRoot = fileURLToPath(new URL('../', import.meta.url));
 const styles = ['regular', 'filled', 'duocolor', 'duotone'];
@@ -115,6 +116,16 @@ export async function build() {
 
   const rootExports = { esm: [], cjs: [], ts: [], cts: [] };
   for (const style of styles) {
+    for (const { alias, target, name, original } of iconAliasExports(manifest, style, componentName, allNames)) {
+      const esm = aliasModule(target, original, name);
+      outputs.set(`dist/esm/${style}/${alias}.js`, esm);
+      outputs.set(`dist/cjs/${style}/${alias}.cjs`,
+        `'use strict';\nconst { ${original} } = require('./${target}.cjs');\n`
+        + `exports.${name} = ${original};\nexports.default = ${original};\n`);
+      outputs.set(`dist/types/${style}/${alias}.d.ts`, esm);
+      outputs.set(`dist/types/${style}/${alias}.d.cts`, aliasModule(target, original, name, 'cjs'));
+      indexes[style].push({ canonical: alias, name });
+    }
     const esm = indexes[style].map(({ canonical, name }) =>
       `export { ${name} } from './${canonical}.js';`).join('\n') + '\n';
     const cjs = indexes[style].map(({ canonical, name }) =>

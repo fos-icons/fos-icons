@@ -17,10 +17,11 @@ test('packed package uses one Svelte source for mixed imports in Vite optimizati
   ], { cwd: packageRoot, encoding: 'utf8', maxBuffer: 8 * 1024 * 1024 }))[0];
   const packageFiles = packed.files.map(file => file.path);
   const snapshot = JSON.parse(await readFile(path.join(packageRoot, 'source/icons.json'), 'utf8'));
+  const exportCount = snapshot.iconCount + Object.keys(snapshot.iconAliases ?? {}).length;
   assert.deepEqual(packageFiles.filter(file => file.endsWith('.svelte')), ['dist/Icon.svelte']);
   assert.equal(packageFiles.filter(file => file.endsWith('.svelte.d.ts')).length, 0);
   assert.equal(packageFiles.filter(file => /^dist\/(?:regular|filled|duocolor|duotone)\/[^/]+\.js$/.test(file)
-    && !file.endsWith('/index.js')).length, snapshot.iconCount * snapshot.styles.length);
+    && !file.endsWith('/index.js')).length, exportCount * snapshot.styles.length);
   assert.ok(!packageFiles.some(file => /^(?:source|src|tests|node_modules)\//.test(file)));
 
   const root = path.join(directory, 'app');
@@ -37,9 +38,11 @@ test('packed package uses one Svelte source for mixed imports in Vite optimizati
   await writeFile(path.join(root, 'main.js'), `
 import App from './App.svelte';
 import { hydrate, flushSync, unmount } from 'svelte';
-import { CameraRegular } from '@fos-icons/svelte';
+import { CameraRegular, SlashRegular } from '@fos-icons/svelte';
 import Camera from '@fos-icons/svelte/regular/camera';
+import SlashDivider from '@fos-icons/svelte/regular/slash-divider';
 if (CameraRegular !== Camera) throw new Error('Mixed imports must resolve to the same component');
+if (SlashRegular !== SlashDivider) throw new Error('Legacy imports must resolve to the canonical component');
 window.app = hydrate(App, { target: document.querySelector('main') });
 window.flush = flushSync;
 window.cleanup = () => unmount(window.app);

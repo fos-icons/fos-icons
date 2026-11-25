@@ -39,13 +39,14 @@ test('exports cover every canonical icon and style with matching declarations', 
   const lock = JSON.parse(await readFile(path.join(packageRoot, 'source/lock.json'), 'utf8'));
   assert.equal(createHash('sha256').update(snapshot).digest('hex'), lock.snapshotSha256);
   const root = await readFile(path.join(packageRoot, 'dist/index.js'), 'utf8');
+  const exportCount = manifest.iconCount + Object.keys(manifest.iconAliases ?? {}).length;
   for (const style of styles) {
     assert.ok(root.includes(`./${style}/index.js`));
     const index = await readFile(path.join(packageRoot, `dist/${style}/index.js`), 'utf8');
     const files = await readdir(path.join(packageRoot, 'dist', style));
     assert.equal(files.filter(file => file.endsWith('.svelte')).length, 0);
-    assert.equal(files.filter(file => file.endsWith('.js') && file !== 'index.js').length, manifest.iconCount);
-    assert.equal(files.filter(file => file.endsWith('.d.ts') && file !== 'index.d.ts').length, manifest.iconCount);
+    assert.equal(files.filter(file => file.endsWith('.js') && file !== 'index.js').length, exportCount);
+    assert.equal(files.filter(file => file.endsWith('.d.ts') && file !== 'index.d.ts').length, exportCount);
     for (const icon of manifest.icons) {
       assert.ok(index.includes(`${componentName(icon.name, style)} } from './${icon.name}.js'`));
       assert.equal(createHash('sha256').update(icon.svg[style]).digest('hex'), icon.sha256[style]);
@@ -57,10 +58,15 @@ test('exports cover every canonical icon and style with matching declarations', 
   assert.equal(componentName('4k-camera', 'regular'), 'Icon4kCameraRegular');
 });
 
-test('root imports tree-shake unused icons and do not bundle the Svelte runtime', async () => {
+test('legacy imports bundle only the canonical icon and do not bundle the Svelte runtime', async () => {
   const result = await bundle({
     stdin: {
-      contents: "import { CameraRegular } from '@fos-icons/svelte'; export default CameraRegular;",
+      contents: `
+        import { SlashDividerRegular } from '@fos-icons/svelte';
+        import { SlashDividerRegular as styled } from '@fos-icons/svelte/regular';
+        import individual from '@fos-icons/svelte/regular/slash-divider';
+        export const sameIcon = SlashDividerRegular === styled && styled === individual;
+      `,
       resolveDir: packageRoot,
     },
     bundle: true, platform: 'node', format: 'esm', write: false, metafile: true,
@@ -69,7 +75,7 @@ test('root imports tree-shake unused icons and do not bundle the Svelte runtime'
   const included = Object.entries(Object.values(result.metafile.outputs)[0].inputs)
     .filter(([, details]) => details.bytesInOutput > 0).map(([filename]) => filename);
   assert.deepEqual(included.filter(filename => /dist\/(?:regular|filled|duocolor|duotone)\/.*\.js$/.test(filename)),
-    ['dist/regular/camera.js']);
+    ['dist/regular/slash.js']);
   assert.deepEqual(included.filter(filename => filename.endsWith('.svelte')), ['dist/Icon.svelte']);
   assert.ok(included.every(filename => !filename.includes('node_modules/svelte/')));
 });

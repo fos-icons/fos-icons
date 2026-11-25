@@ -22,6 +22,13 @@ void main() {
     expect(catalog.keys.toSet(), expected);
   });
 
+  test('legacy slashDivider constants refer to the canonical glyphs', () {
+    expect(FosIcons.slashDividerRegular, same(FosIcons.slashRegular));
+    expect(FosIcons.slashDividerFilled, same(FosIcons.slashFilled));
+    expect(FosIcons.slashDividerDuocolor, same(FosIcons.slashDuocolor));
+    expect(FosIcons.slashDividerDuotone, same(FosIcons.slashDuotone));
+  });
+
   for (final style in styles) {
     testWidgets('decodes every $style glyph with the Flutter renderer', (
       tester,

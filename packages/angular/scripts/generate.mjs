@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { copyFile, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { componentName, packageRoot, parseSvg, styles } from './svg.mjs';
+import { aliasModule, iconAliasEntries, iconAliasExports } from '../../../scripts/icon-aliases.mjs';
 
 const digest = value => createHash('sha256').update(value).digest('hex');
 const generated = path.join(packageRoot, '.generated');
@@ -47,7 +48,7 @@ function renderNode({ tag, attributes, children }) {
   return `<svg:${tag}${attrs}>${children.map(renderNode).join('')}</svg:${tag}>`;
 }
 
-function componentSource(name, icon, style, svg) {
+function componentSource(name, selector, svg) {
   const defaultColor = JSON.stringify(svg.attributes.color ?? null);
   const template = '@if (title(); as text) { <svg:title>{{ text }}</svg:title> }'
     + svg.children.map(renderNode).join('');
@@ -55,7 +56,7 @@ function componentSource(name, icon, style, svg) {
 import { IconBase } from '../icon-base.js';
 
 @Component({
-  selector: 'svg[fos-${icon}-${style}]',
+  selector: '${selector}',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
@@ -76,6 +77,11 @@ const outputs = new Map();
 const names = new Set();
 const iconNames = new Set();
 const rootExports = [];
+const aliasesByTarget = new Map();
+for (const [alias, target] of iconAliasEntries(manifest)) {
+  const aliases = aliasesByTarget.get(target) ?? [];
+  aliasesByTarget.set(target, [...aliases, alias]);
+}
 for (const style of styles) {
   const exports = [];
   for (const icon of manifest.icons) {
@@ -94,8 +100,14 @@ for (const style of styles) {
     const name = componentName(icon.name, style);
     if (names.has(name)) throw new Error(`Component name collision: ${name}`);
     names.add(name);
-    outputs.set(`${style}/${icon.name}.ts`, componentSource(name, icon.name, style, parseSvg(source, filename)));
+    const selectors = [icon.name, ...(aliasesByTarget.get(icon.name) ?? [])]
+      .map(iconName => `svg[fos-${iconName}-${style}]`).join(', ');
+    outputs.set(`${style}/${icon.name}.ts`, componentSource(name, selectors, parseSvg(source, filename)));
     exports.push(`export { ${name} } from './${icon.name}.js';`);
+  }
+  for (const { alias, target, name, original } of iconAliasExports(manifest, style, componentName, names)) {
+    outputs.set(`${style}/${alias}.ts`, aliasModule(target, original, name));
+    exports.push(`export { ${name} } from './${alias}.js';`);
   }
   outputs.set(`${style}/index.ts`, exports.join('\n') + '\n');
   rootExports.push(`export * from './${style}/index.js';`);

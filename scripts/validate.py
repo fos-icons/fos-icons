@@ -183,6 +183,28 @@ def validate_library(root):
             errors.append(f"Missing optical sizes: {name}")
     if len(source_ids) != len(set(source_ids)):
         errors.append("Figma source IDs must be unique")
+    aliases = manifest.get("iconAliases", {})
+    if not isinstance(aliases, dict):
+        errors.append("iconAliases must map legacy names to canonical names")
+        aliases = {}
+    by_name = {row.get("name"): row for row in icons}
+    for alias, target in aliases.items():
+        if (not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", alias)
+                or alias in by_name or alias in exclusions
+                or not isinstance(target, str) or target not in by_name):
+            errors.append(f"Invalid icon alias: {alias} → {target}")
+            continue
+        if alias not in by_name[target].get("aliases", []):
+            errors.append(f"Icon alias missing from {target} search aliases: {alias}")
+        for size in sizes:
+            for style in styles:
+                relative = icon_path(alias, style, size)
+                expected.add(relative)
+                try:
+                    if (root / relative).read_bytes() != (root / icon_path(target, style, size)).read_bytes():
+                        errors.append(f"Icon alias SVG differs from canonical artwork: {relative}")
+                except OSError as error:
+                    errors.append(f"{relative}: {error}")
     # Animated icons (scripts/animate.mjs) are generated from Regular artwork;
     # npm run animate:check verifies their content, this only their presence.
     animated_spec = root / "metadata" / "animated.json"

@@ -1,4 +1,5 @@
 import copy
+import json
 import sys
 import tempfile
 import unittest
@@ -94,6 +95,23 @@ class SvgPackageTests(unittest.TestCase):
             self.assertTrue(any("Digest mismatch" in error for error in errors))
             self.assertTrue(any("Non-themable" in error for error in errors))
             self.assertTrue(any("Unmanifested" in error for error in errors))
+
+    def test_round_trip_keeps_legacy_names_out_of_the_catalog(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            manifest = import_sheet(payload(), root)
+            manifest["iconAliases"] = {"old-sample": "sample"}
+            (root / "manifest.json").write_text(json.dumps(manifest), encoding="utf-8")
+            rebuilt = import_sheet(payload(), root)
+            self.assertEqual(rebuilt["iconCount"], 1)
+            self.assertEqual(rebuilt["iconAliases"], manifest["iconAliases"])
+            self.assertEqual(rebuilt["icons"][0]["aliases"], ["old-sample"])
+            for style in rebuilt["styles"]:
+                artwork = root / rebuilt["icons"][0]["files"][style]
+                artwork.with_name("old-sample.svg").write_bytes(artwork.read_bytes())
+            self.assertEqual(validate_library(root), [])
+            (root / "icons/regular/old-sample.svg").write_text("<svg/>", encoding="utf-8")
+            self.assertTrue(any("alias SVG differs" in error for error in validate_library(root)))
 
     def test_validator_rejects_active_external_and_nonfinite_svg(self):
         for content in (

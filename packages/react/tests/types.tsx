@@ -2,6 +2,8 @@ import { createRef } from 'react';
 import { CameraRegular, type FosIcon, type IconProps } from '@fos-icons/react';
 import Camera from '@fos-icons/react/regular/camera';
 import { CameraDuotone } from '@fos-icons/react/duotone';
+import SlashDivider, { SlashDividerRegular } from '@fos-icons/react/regular/slash-divider';
+export const legacySlash: typeof SlashDividerRegular = SlashDivider;
 
 const props: IconProps = {
   size: '1em',
