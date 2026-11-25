@@ -28,6 +28,7 @@ consistently, from design to code. Icon count is not the success metric.
 | --- | --- | --- |
 | Framer | Search, customize, and insert Fos Icons in the editor | [plugins/framer](plugins/framer/) |
 | Claude Code | The MCP server plus both agent skills in one install | [plugins/claude](plugins/claude/) |
+| ChatGPT and Codex | The same, packaged for OpenAI's plugin directory | [plugins/openai](plugins/openai/) |
 
 ## AI agent skills
 
@@ -47,8 +48,15 @@ claude plugin marketplace add fos-icons/fos-icons
 claude plugin install fos-icons@fos-icons
 ```
 
-The plugin carries a copy of `skills/`. After editing a skill, run
-`npm run sync:plugin`; `npm test` fails if the copy is out of date.
+In Codex, without waiting for the directory listing:
+
+```sh
+codex plugin marketplace add fos-icons/fos-icons
+codex plugin add fos-icons@fos-icons
+```
+
+Both plugins carry a copy of `skills/`. After editing a skill, run
+`npm run sync:plugin`; `npm test` fails if a copy is out of date.
 
 The migration maps in `skills/fos-icons-migrate/maps/` are generated. To
 refresh them after icons are added or renamed, unpack `lucide-static` and
