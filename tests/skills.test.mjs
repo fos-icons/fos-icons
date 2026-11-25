@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
 import test from 'node:test';
+import { differences } from '../scripts/sync-plugin-skills.mjs';
 
 const root = new URL('../', import.meta.url);
 const manifest = JSON.parse(await readFile(new URL('manifest.json', root), 'utf8'));
@@ -38,3 +39,18 @@ for (const library of ['lucide', 'heroicons']) {
     assert.equal(counted, entries.length + data.unmapped.length);
   });
 }
+
+test('the Claude Code plugin carries the current skills', () => {
+  assert.deepEqual(differences(), [], 'run npm run sync:plugin');
+});
+
+test('plugin and marketplace manifests agree', async () => {
+  const marketplace = JSON.parse(await readFile(new URL('.claude-plugin/marketplace.json', root), 'utf8'));
+  const plugin = JSON.parse(await readFile(new URL('plugins/claude/.claude-plugin/plugin.json', root), 'utf8'));
+  const mcp = JSON.parse(await readFile(new URL('plugins/claude/.mcp.json', root), 'utf8'));
+  const entry = marketplace.plugins.find((p) => p.name === plugin.name);
+  assert.ok(entry, 'marketplace lists the plugin');
+  assert.equal(entry.source, './plugins/claude');
+  assert.equal(entry.description, plugin.description);
+  assert.equal(mcp.mcpServers['fos-icons'].url, 'https://www.fosicons.com/mcp');
+});

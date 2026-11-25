@@ -1,0 +1,6153 @@
+{
+  "library": "lucide",
+  "source": "lucide-static@1.75.0",
+  "fosIcons": {
+    "iconCount": 1589,
+    "manifestSha256": "ddac308c89c2f3c97d9f1c6a7ceecb4a152ece3251c7c235144e04cc0177c168"
+  },
+  "usage": "Keys are lucide names (kebab-case). `component` is the PascalCase name used by lucide-react, lucide-vue-next, lucide-svelte and lucide-angular (also with an Icon suffix or Lucide prefix), and by react-icons/lu with an Lu prefix.",
+  "counts": {
+    "exact": 476,
+    "alias": 1,
+    "curated": 23,
+    "normalized": 46,
+    "reordered": 93,
+    "suggested": 293,
+    "unmapped": 1471
+  },
+  "map": {
+    "a-arrow-down": {
+      "component": "AArrowDown",
+      "to": "arrow-sort-down",
+      "match": "suggested"
+    },
+    "a-arrow-up": {
+      "component": "AArrowUp",
+      "to": "arrow-sort-up",
+      "match": "suggested"
+    },
+    "activity": {
+      "component": "Activity",
+      "to": "activity",
+      "match": "exact"
+    },
+    "activity-square": {
+      "component": "ActivitySquare",
+      "to": "activity-square",
+      "match": "exact"
+    },
+    "airplay": {
+      "component": "Airplay",
+      "to": "airplay",
+      "match": "exact"
+    },
+    "alarm-check": {
+      "component": "AlarmCheck",
+      "to": "alarm-clock-check",
+      "match": "suggested"
+    },
+    "alarm-clock": {
+      "component": "AlarmClock",
+      "to": "alarm-clock-check",
+      "match": "suggested"
+    },
+    "alarm-clock-check": {
+      "component": "AlarmClockCheck",
+      "to": "alarm-clock-check",
+      "match": "exact"
+    },
+    "alarm-clock-minus": {
+      "component": "AlarmClockMinus",
+      "to": "alarm-clock-minus",
+      "match": "exact"
+    },
+    "alarm-clock-off": {
+      "component": "AlarmClockOff",
+      "to": "alarm-clock-off",
+      "match": "exact"
+    },
+    "alarm-clock-plus": {
+      "component": "AlarmClockPlus",
+      "to": "alarm-clock-plus",
+      "match": "exact"
+    },
+    "alarm-minus": {
+      "component": "AlarmMinus",
+      "to": "alarm-clock-minus",
+      "match": "suggested"
+    },
+    "alarm-plus": {
+      "component": "AlarmPlus",
+      "to": "alarm-clock-plus",
+      "match": "suggested"
+    },
+    "alert-circle": {
+      "component": "AlertCircle",
+      "to": "alert-circle",
+      "match": "exact"
+    },
+    "alert-octagon": {
+      "component": "AlertOctagon",
+      "to": "alert-octagon",
+      "match": "exact"
+    },
+    "alert-triangle": {
+      "component": "AlertTriangle",
+      "to": "alert-triangle",
+      "match": "exact"
+    },
+    "align-center": {
+      "component": "AlignCenter",
+      "to": "align-center",
+      "match": "exact"
+    },
+    "align-center-horizontal": {
+      "component": "AlignCenterHorizontal",
+      "to": "grid-dots-horizontal-center",
+      "match": "suggested"
+    },
+    "align-center-vertical": {
+      "component": "AlignCenterVertical",
+      "to": "align-center-vertical",
+      "match": "exact"
+    },
+    "align-justify": {
+      "component": "AlignJustify",
+      "to": "align-justify",
+      "match": "exact"
+    },
+    "align-left": {
+      "component": "AlignLeft",
+      "to": "align-left",
+      "match": "exact"
+    },
+    "align-right": {
+      "component": "AlignRight",
+      "to": "align-right",
+      "match": "exact"
+    },
+    "ambulance": {
+      "component": "Ambulance",
+      "to": "ambulance",
+      "match": "exact"
+    },
+    "anchor": {
+      "component": "Anchor",
+      "to": "anchor",
+      "match": "exact"
+    },
+    "angle": {
+      "component": "Angle",
+      "to": "angle",
+      "match": "exact"
+    },
+    "app-window": {
+      "component": "AppWindow",
+      "to": "window",
+      "match": "alias"
+    },
+    "apple": {
+      "component": "Apple",
+      "to": "apple",
+      "match": "exact"
+    },
+    "archive": {
+      "component": "Archive",
+      "to": "archive",
+      "match": "exact"
+    },
+    "area-chart": {
+      "component": "AreaChart",
+      "to": "chart-area",
+      "match": "reordered"
+    },
+    "arrow-down": {
+      "component": "ArrowDown",
+      "to": "arrow-down",
+      "match": "exact"
+    },
+    "arrow-down-0-1": {
+      "component": "ArrowDown01",
+      "to": "arrow-down",
+      "match": "suggested"
+    },
+    "arrow-down-01": {
+      "component": "ArrowDown01",
+      "to": "arrow-down",
+      "match": "suggested"
+    },
+    "arrow-down-1-0": {
+      "component": "ArrowDown10",
+      "to": "arrow-down",
+      "match": "suggested"
+    },
+    "arrow-down-10": {
+      "component": "ArrowDown10",
+      "to": "arrow-down",
+      "match": "suggested"
+    },
+    "arrow-down-a-z": {
+      "component": "ArrowDownAZ",
+      "to": "sort-a-z-down",
+      "match": "suggested"
+    },
+    "arrow-down-circle": {
+      "component": "ArrowDownCircle",
+      "to": "arrow-circle-down",
+      "match": "reordered"
+    },
+    "arrow-down-left": {
+      "component": "ArrowDownLeft",
+      "to": "arrow-down-left",
+      "match": "exact"
+    },
+    "arrow-down-left-square": {
+      "component": "ArrowDownLeftSquare",
+      "to": "arrow-square-down-left",
+      "match": "reordered"
+    },
+    "arrow-down-right": {
+      "component": "ArrowDownRight",
+      "to": "arrow-down-right",
+      "match": "exact"
+    },
+    "arrow-down-right-square": {
+      "component": "ArrowDownRightSquare",
+      "to": "arrow-square-down-right",
+      "match": "reordered"
+    },
+    "arrow-down-square": {
+      "component": "ArrowDownSquare",
+      "to": "arrow-square-down",
+      "match": "reordered"
+    },
+    "arrow-down-to-line": {
+      "component": "ArrowDownToLine",
+      "to": "arrow-down-to-line",
+      "match": "exact"
+    },
+    "arrow-down-z-a": {
+      "component": "ArrowDownZA",
+      "to": "sort-a-z-down",
+      "match": "suggested"
+    },
+    "arrow-left": {
+      "component": "ArrowLeft",
+      "to": "arrow-left",
+      "match": "exact"
+    },
+    "arrow-left-circle": {
+      "component": "ArrowLeftCircle",
+      "to": "arrow-circle-left",
+      "match": "reordered"
+    },
+    "arrow-left-square": {
+      "component": "ArrowLeftSquare",
+      "to": "arrow-square-left",
+      "match": "reordered"
+    },
+    "arrow-left-to-line": {
+      "component": "ArrowLeftToLine",
+      "to": "arrow-left-to-line",
+      "match": "exact"
+    },
+    "arrow-right": {
+      "component": "ArrowRight",
+      "to": "arrow-right",
+      "match": "exact"
+    },
+    "arrow-right-circle": {
+      "component": "ArrowRightCircle",
+      "to": "arrow-circle-right",
+      "match": "reordered"
+    },
+    "arrow-right-square": {
+      "component": "ArrowRightSquare",
+      "to": "arrow-square-right",
+      "match": "reordered"
+    },
+    "arrow-right-to-line": {
+      "component": "ArrowRightToLine",
+      "to": "arrow-right-to-line",
+      "match": "exact"
+    },
+    "arrow-up": {
+      "component": "ArrowUp",
+      "to": "arrow-up",
+      "match": "exact"
+    },
+    "arrow-up-0-1": {
+      "component": "ArrowUp01",
+      "to": "arrow-up",
+      "match": "suggested"
+    },
+    "arrow-up-01": {
+      "component": "ArrowUp01",
+      "to": "arrow-up",
+      "match": "suggested"
+    },
+    "arrow-up-1-0": {
+      "component": "ArrowUp10",
+      "to": "arrow-up",
+      "match": "suggested"
+    },
+    "arrow-up-10": {
+      "component": "ArrowUp10",
+      "to": "arrow-up",
+      "match": "suggested"
+    },
+    "arrow-up-a-z": {
+      "component": "ArrowUpAZ",
+      "to": "sort-a-z-up",
+      "match": "suggested"
+    },
+    "arrow-up-circle": {
+      "component": "ArrowUpCircle",
+      "to": "arrow-circle-up",
+      "match": "reordered"
+    },
+    "arrow-up-left": {
+      "component": "ArrowUpLeft",
+      "to": "arrow-up-left",
+      "match": "exact"
+    },
+    "arrow-up-left-square": {
+      "component": "ArrowUpLeftSquare",
+      "to": "arrow-square-up-left",
+      "match": "reordered"
+    },
+    "arrow-up-right": {
+      "component": "ArrowUpRight",
+      "to": "arrow-up-right",
+      "match": "exact"
+    },
+    "arrow-up-right-square": {
+      "component": "ArrowUpRightSquare",
+      "to": "arrow-square-up-right",
+      "match": "reordered"
+    },
+    "arrow-up-square": {
+      "component": "ArrowUpSquare",
+      "to": "arrow-square-up",
+      "match": "reordered"
+    },
+    "arrow-up-to-line": {
+      "component": "ArrowUpToLine",
+      "to": "arrow-up-to-line",
+      "match": "exact"
+    },
+    "arrow-up-z-a": {
+      "component": "ArrowUpZA",
+      "to": "sort-a-z-up",
+      "match": "suggested"
+    },
+    "asterisk": {
+      "component": "Asterisk",
+      "to": "asterisk",
+      "match": "exact"
+    },
+    "at-sign": {
+      "component": "AtSign",
+      "to": "at-sign",
+      "match": "exact"
+    },
+    "atom": {
+      "component": "Atom",
+      "to": "atom",
+      "match": "exact"
+    },
+    "award": {
+      "component": "Award",
+      "to": "award",
+      "match": "exact"
+    },
+    "backpack": {
+      "component": "Backpack",
+      "to": "backpack",
+      "match": "exact"
+    },
+    "badge": {
+      "component": "Badge",
+      "to": "badge-minus",
+      "match": "suggested"
+    },
+    "badge-check": {
+      "component": "BadgeCheck",
+      "to": "badge-verified",
+      "match": "suggested"
+    },
+    "badge-info": {
+      "component": "BadgeInfo",
+      "to": "info-hexagon",
+      "match": "suggested"
+    },
+    "badge-minus": {
+      "component": "BadgeMinus",
+      "to": "badge-minus",
+      "match": "exact"
+    },
+    "badge-percent": {
+      "component": "BadgePercent",
+      "to": "percent-circle",
+      "match": "suggested"
+    },
+    "banana": {
+      "component": "Banana",
+      "to": "banana",
+      "match": "exact"
+    },
+    "bandage": {
+      "component": "Bandage",
+      "to": "bandage",
+      "match": "exact"
+    },
+    "bar-chart": {
+      "component": "BarChart",
+      "to": "chart-bar",
+      "match": "reordered"
+    },
+    "bar-chart-2": {
+      "component": "BarChart2",
+      "to": "chart-bar",
+      "match": "suggested"
+    },
+    "bar-chart-3": {
+      "component": "BarChart3",
+      "to": "chart-bar",
+      "match": "suggested"
+    },
+    "bar-chart-4": {
+      "component": "BarChart4",
+      "to": "chart-bar",
+      "match": "suggested"
+    },
+    "bar-chart-horizontal": {
+      "component": "BarChartHorizontal",
+      "to": "chart-bar-horizontal",
+      "match": "reordered"
+    },
+    "barcode": {
+      "component": "Barcode",
+      "to": "barcode",
+      "match": "exact"
+    },
+    "battery": {
+      "component": "Battery",
+      "to": "battery-charging",
+      "match": "suggested"
+    },
+    "battery-charging": {
+      "component": "BatteryCharging",
+      "to": "battery-charging",
+      "match": "exact"
+    },
+    "battery-full": {
+      "component": "BatteryFull",
+      "to": "battery-full",
+      "match": "exact"
+    },
+    "battery-low": {
+      "component": "BatteryLow",
+      "to": "battery-low",
+      "match": "exact"
+    },
+    "battery-medium": {
+      "component": "BatteryMedium",
+      "to": "battery-mid",
+      "match": "suggested"
+    },
+    "battery-warning": {
+      "component": "BatteryWarning",
+      "to": "battery-low",
+      "match": "suggested"
+    },
+    "beaker": {
+      "component": "Beaker",
+      "to": "beaker",
+      "match": "exact"
+    },
+    "beer": {
+      "component": "Beer",
+      "to": "beer-mug",
+      "match": "suggested"
+    },
+    "bell": {
+      "component": "Bell",
+      "to": "bell",
+      "match": "exact"
+    },
+    "bell-minus": {
+      "component": "BellMinus",
+      "to": "bell-minus",
+      "match": "exact"
+    },
+    "bell-off": {
+      "component": "BellOff",
+      "to": "bell-off",
+      "match": "exact"
+    },
+    "bell-plus": {
+      "component": "BellPlus",
+      "to": "bell-plus",
+      "match": "exact"
+    },
+    "bell-ring": {
+      "component": "BellRing",
+      "to": "bell",
+      "match": "suggested"
+    },
+    "binoculars": {
+      "component": "Binoculars",
+      "to": "binoculars",
+      "match": "exact"
+    },
+    "biohazard": {
+      "component": "Biohazard",
+      "to": "biohazard",
+      "match": "exact"
+    },
+    "bird": {
+      "component": "Bird",
+      "to": "bird",
+      "match": "exact"
+    },
+    "bitcoin": {
+      "component": "Bitcoin",
+      "to": "currency-bitcoin",
+      "match": "suggested"
+    },
+    "blocks": {
+      "component": "Blocks",
+      "to": "menu-blocks",
+      "match": "suggested"
+    },
+    "bluetooth": {
+      "component": "Bluetooth",
+      "to": "bluetooth-connect",
+      "match": "suggested"
+    },
+    "bluetooth-connected": {
+      "component": "BluetoothConnected",
+      "to": "bluetooth-connect",
+      "match": "suggested"
+    },
+    "bluetooth-off": {
+      "component": "BluetoothOff",
+      "to": "bluetooth-off",
+      "match": "exact"
+    },
+    "bluetooth-searching": {
+      "component": "BluetoothSearching",
+      "to": "bluetooth-signal",
+      "match": "suggested"
+    },
+    "bold": {
+      "component": "Bold",
+      "to": "bold",
+      "match": "exact"
+    },
+    "bolt": {
+      "component": "Bolt",
+      "to": "lightbulb-bolt",
+      "match": "suggested"
+    },
+    "bone": {
+      "component": "Bone",
+      "to": "bone",
+      "match": "exact"
+    },
+    "bone-fracture": {
+      "component": "BoneFracture",
+      "to": "bone",
+      "match": "suggested"
+    },
+    "book": {
+      "component": "Book",
+      "to": "book-bookmark",
+      "match": "suggested"
+    },
+    "book-bookmark": {
+      "component": "BookBookmark",
+      "to": "book-bookmark",
+      "match": "exact"
+    },
+    "book-open": {
+      "component": "BookOpen",
+      "to": "book-open",
+      "match": "exact"
+    },
+    "bookmark": {
+      "component": "Bookmark",
+      "to": "bookmark",
+      "match": "exact"
+    },
+    "bookmark-check": {
+      "component": "BookmarkCheck",
+      "to": "bookmark-check",
+      "match": "exact"
+    },
+    "bookmark-minus": {
+      "component": "BookmarkMinus",
+      "to": "bookmark-minus",
+      "match": "exact"
+    },
+    "bookmark-off": {
+      "component": "BookmarkOff",
+      "to": "bookmark-off",
+      "match": "exact"
+    },
+    "bookmark-plus": {
+      "component": "BookmarkPlus",
+      "to": "bookmark-add",
+      "match": "suggested"
+    },
+    "bookmark-x": {
+      "component": "BookmarkX",
+      "to": "bookmark-x",
+      "match": "exact"
+    },
+    "bot": {
+      "component": "Bot",
+      "to": "bot",
+      "match": "exact"
+    },
+    "box": {
+      "component": "Box",
+      "to": "box",
+      "match": "exact"
+    },
+    "box-select": {
+      "component": "BoxSelect",
+      "to": "cursor-box",
+      "match": "suggested"
+    },
+    "brackets": {
+      "component": "Brackets",
+      "to": "brackets",
+      "match": "exact"
+    },
+    "brain": {
+      "component": "Brain",
+      "to": "brain",
+      "match": "exact"
+    },
+    "brick-wall": {
+      "component": "BrickWall",
+      "to": "brick-wall",
+      "match": "exact"
+    },
+    "bridge": {
+      "component": "Bridge",
+      "to": "bridge",
+      "match": "exact"
+    },
+    "briefcase": {
+      "component": "Briefcase",
+      "to": "briefcase",
+      "match": "exact"
+    },
+    "briefcase-business": {
+      "component": "BriefcaseBusiness",
+      "to": "briefcase",
+      "match": "suggested"
+    },
+    "brush": {
+      "component": "Brush",
+      "to": "brush",
+      "match": "exact"
+    },
+    "bug": {
+      "component": "Bug",
+      "to": "bug-shield",
+      "match": "suggested"
+    },
+    "building": {
+      "component": "Building",
+      "to": "building",
+      "match": "exact"
+    },
+    "building-2": {
+      "component": "Building2",
+      "to": "building",
+      "match": "normalized"
+    },
+    "bus": {
+      "component": "Bus",
+      "to": "bus",
+      "match": "exact"
+    },
+    "cake": {
+      "component": "Cake",
+      "to": "cake",
+      "match": "exact"
+    },
+    "calculator": {
+      "component": "Calculator",
+      "to": "calculator",
+      "match": "exact"
+    },
+    "calendar": {
+      "component": "Calendar",
+      "to": "calendar",
+      "match": "exact"
+    },
+    "calendar-1": {
+      "component": "Calendar1",
+      "to": "calendar",
+      "match": "suggested"
+    },
+    "calendar-check": {
+      "component": "CalendarCheck",
+      "to": "calendar-check",
+      "match": "exact"
+    },
+    "calendar-check-2": {
+      "component": "CalendarCheck2",
+      "to": "calendar-check",
+      "match": "normalized"
+    },
+    "calendar-clock": {
+      "component": "CalendarClock",
+      "to": "calendar-clock",
+      "match": "exact"
+    },
+    "calendar-days": {
+      "component": "CalendarDays",
+      "to": "calendar-dots",
+      "match": "suggested"
+    },
+    "calendar-heart": {
+      "component": "CalendarHeart",
+      "to": "calendar-heart",
+      "match": "exact"
+    },
+    "calendar-minus": {
+      "component": "CalendarMinus",
+      "to": "calendar-minus",
+      "match": "exact"
+    },
+    "calendar-minus-2": {
+      "component": "CalendarMinus2",
+      "to": "calendar-minus",
+      "match": "normalized"
+    },
+    "calendar-off": {
+      "component": "CalendarOff",
+      "to": "calendar-disabled",
+      "match": "suggested"
+    },
+    "calendar-sync": {
+      "component": "CalendarSync",
+      "to": "calendar-download",
+      "match": "suggested"
+    },
+    "camera": {
+      "component": "Camera",
+      "to": "camera",
+      "match": "exact"
+    },
+    "camera-off": {
+      "component": "CameraOff",
+      "to": "camera-off",
+      "match": "exact"
+    },
+    "candlestick-chart": {
+      "component": "CandlestickChart",
+      "to": "chart-candlestick",
+      "match": "reordered"
+    },
+    "cap": {
+      "component": "Cap",
+      "to": "police-cap",
+      "match": "suggested"
+    },
+    "car": {
+      "component": "Car",
+      "to": "car",
+      "match": "exact"
+    },
+    "carrot": {
+      "component": "Carrot",
+      "to": "carrot",
+      "match": "exact"
+    },
+    "castle": {
+      "component": "Castle",
+      "to": "castle",
+      "match": "exact"
+    },
+    "cat": {
+      "component": "Cat",
+      "to": "cat",
+      "match": "exact"
+    },
+    "cctv": {
+      "component": "Cctv",
+      "to": "cctv-camera",
+      "match": "suggested"
+    },
+    "certificate": {
+      "component": "Certificate",
+      "to": "certificate",
+      "match": "exact"
+    },
+    "chart-area": {
+      "component": "ChartArea",
+      "to": "chart-area",
+      "match": "exact"
+    },
+    "chart-bar": {
+      "component": "ChartBar",
+      "to": "chart-bar",
+      "match": "exact"
+    },
+    "chart-bar-stacked": {
+      "component": "ChartBarStacked",
+      "to": "chart-bar-stacked",
+      "match": "exact"
+    },
+    "chart-candlestick": {
+      "component": "ChartCandlestick",
+      "to": "chart-candlestick",
+      "match": "exact"
+    },
+    "chart-column": {
+      "component": "ChartColumn",
+      "to": "chart-bar",
+      "match": "suggested"
+    },
+    "chart-gantt": {
+      "component": "ChartGantt",
+      "to": "chart-gantt",
+      "match": "exact"
+    },
+    "chart-line": {
+      "component": "ChartLine",
+      "to": "chart-line",
+      "match": "exact"
+    },
+    "chart-pie": {
+      "component": "ChartPie",
+      "to": "chart-pie",
+      "match": "exact"
+    },
+    "chart-radar": {
+      "component": "ChartRadar",
+      "to": "chart-radar",
+      "match": "exact"
+    },
+    "chart-scatter": {
+      "component": "ChartScatter",
+      "to": "chart-scatter",
+      "match": "exact"
+    },
+    "check": {
+      "component": "Check",
+      "to": "check",
+      "match": "exact"
+    },
+    "check-check": {
+      "component": "CheckCheck",
+      "to": "check",
+      "match": "suggested"
+    },
+    "check-circle": {
+      "component": "CheckCircle",
+      "to": "check-circle",
+      "match": "exact"
+    },
+    "check-circle-2": {
+      "component": "CheckCircle2",
+      "to": "check-circle",
+      "match": "normalized"
+    },
+    "check-square": {
+      "component": "CheckSquare",
+      "to": "check-square",
+      "match": "exact"
+    },
+    "check-square-2": {
+      "component": "CheckSquare2",
+      "to": "check-square",
+      "match": "normalized"
+    },
+    "chef-hat": {
+      "component": "ChefHat",
+      "to": "chef-hat",
+      "match": "exact"
+    },
+    "chevron-down": {
+      "component": "ChevronDown",
+      "to": "chevron-down",
+      "match": "exact"
+    },
+    "chevron-down-circle": {
+      "component": "ChevronDownCircle",
+      "to": "chevron-circle-down",
+      "match": "reordered"
+    },
+    "chevron-down-square": {
+      "component": "ChevronDownSquare",
+      "to": "chevron-square-down",
+      "match": "reordered"
+    },
+    "chevron-left": {
+      "component": "ChevronLeft",
+      "to": "chevron-left",
+      "match": "exact"
+    },
+    "chevron-left-circle": {
+      "component": "ChevronLeftCircle",
+      "to": "chevron-circle-left",
+      "match": "reordered"
+    },
+    "chevron-left-square": {
+      "component": "ChevronLeftSquare",
+      "to": "chevron-square-left",
+      "match": "reordered"
+    },
+    "chevron-right": {
+      "component": "ChevronRight",
+      "to": "chevron-right",
+      "match": "exact"
+    },
+    "chevron-right-circle": {
+      "component": "ChevronRightCircle",
+      "to": "chevron-circle-right",
+      "match": "reordered"
+    },
+    "chevron-right-square": {
+      "component": "ChevronRightSquare",
+      "to": "chevron-square-right",
+      "match": "reordered"
+    },
+    "chevron-up": {
+      "component": "ChevronUp",
+      "to": "chevron-up",
+      "match": "exact"
+    },
+    "chevron-up-circle": {
+      "component": "ChevronUpCircle",
+      "to": "chevron-circle-up",
+      "match": "reordered"
+    },
+    "chevron-up-square": {
+      "component": "ChevronUpSquare",
+      "to": "chevron-square-up",
+      "match": "reordered"
+    },
+    "chevrons-down": {
+      "component": "ChevronsDown",
+      "to": "chevrons-down",
+      "match": "exact"
+    },
+    "chevrons-left": {
+      "component": "ChevronsLeft",
+      "to": "chevrons-left",
+      "match": "exact"
+    },
+    "chevrons-right": {
+      "component": "ChevronsRight",
+      "to": "chevrons-right",
+      "match": "exact"
+    },
+    "chevrons-up": {
+      "component": "ChevronsUp",
+      "to": "chevrons-up",
+      "match": "exact"
+    },
+    "church": {
+      "component": "Church",
+      "to": "church",
+      "match": "exact"
+    },
+    "circle": {
+      "component": "Circle",
+      "to": "circle",
+      "match": "exact"
+    },
+    "circle-alert": {
+      "component": "CircleAlert",
+      "to": "alert-circle",
+      "match": "curated"
+    },
+    "circle-arrow-down": {
+      "component": "CircleArrowDown",
+      "to": "arrow-circle-down",
+      "match": "reordered"
+    },
+    "circle-arrow-left": {
+      "component": "CircleArrowLeft",
+      "to": "arrow-circle-left",
+      "match": "reordered"
+    },
+    "circle-arrow-right": {
+      "component": "CircleArrowRight",
+      "to": "arrow-circle-right",
+      "match": "reordered"
+    },
+    "circle-arrow-up": {
+      "component": "CircleArrowUp",
+      "to": "arrow-circle-up",
+      "match": "reordered"
+    },
+    "circle-check": {
+      "component": "CircleCheck",
+      "to": "check-circle",
+      "match": "curated"
+    },
+    "circle-chevron-down": {
+      "component": "CircleChevronDown",
+      "to": "chevron-circle-down",
+      "match": "reordered"
+    },
+    "circle-chevron-left": {
+      "component": "CircleChevronLeft",
+      "to": "chevron-circle-left",
+      "match": "reordered"
+    },
+    "circle-chevron-right": {
+      "component": "CircleChevronRight",
+      "to": "chevron-circle-right",
+      "match": "reordered"
+    },
+    "circle-chevron-up": {
+      "component": "CircleChevronUp",
+      "to": "chevron-circle-up",
+      "match": "reordered"
+    },
+    "circle-chevrons-down": {
+      "component": "CircleChevronsDown",
+      "to": "chevrons-circle-down",
+      "match": "reordered"
+    },
+    "circle-dashed": {
+      "component": "CircleDashed",
+      "to": "shape-circle-dashed",
+      "match": "suggested"
+    },
+    "circle-dashed-check": {
+      "component": "CircleDashedCheck",
+      "to": "check-circle-broken",
+      "match": "suggested"
+    },
+    "circle-dot": {
+      "component": "CircleDot",
+      "to": "circle",
+      "match": "suggested"
+    },
+    "circle-ellipsis": {
+      "component": "CircleEllipsis",
+      "to": "more-circle",
+      "match": "suggested"
+    },
+    "circle-euro": {
+      "component": "CircleEuro",
+      "to": "currency-euro-circle",
+      "match": "suggested"
+    },
+    "circle-gauge": {
+      "component": "CircleGauge",
+      "to": "gauge-circle-low",
+      "match": "suggested"
+    },
+    "circle-help": {
+      "component": "CircleHelp",
+      "to": "help-circle",
+      "match": "curated"
+    },
+    "circle-minus": {
+      "component": "CircleMinus",
+      "to": "minus-circle",
+      "match": "reordered"
+    },
+    "circle-pause": {
+      "component": "CirclePause",
+      "to": "pause-circle",
+      "match": "reordered"
+    },
+    "circle-percent": {
+      "component": "CirclePercent",
+      "to": "percent-circle",
+      "match": "reordered"
+    },
+    "circle-play": {
+      "component": "CirclePlay",
+      "to": "play-circle",
+      "match": "reordered"
+    },
+    "circle-plus": {
+      "component": "CirclePlus",
+      "to": "plus-circle",
+      "match": "curated"
+    },
+    "circle-pound-sterling": {
+      "component": "CirclePoundSterling",
+      "to": "currency-pound-circle",
+      "match": "suggested"
+    },
+    "circle-power": {
+      "component": "CirclePower",
+      "to": "zap-circle",
+      "match": "suggested"
+    },
+    "circle-question-mark": {
+      "component": "CircleQuestionMark",
+      "to": "message-question-circle",
+      "match": "suggested"
+    },
+    "circle-slash": {
+      "component": "CircleSlash",
+      "to": "slash-circle",
+      "match": "reordered"
+    },
+    "circle-slash-2": {
+      "component": "CircleSlash2",
+      "to": "slash-circle",
+      "match": "suggested"
+    },
+    "circle-stop": {
+      "component": "CircleStop",
+      "to": "stop-circle",
+      "match": "reordered"
+    },
+    "circle-user": {
+      "component": "CircleUser",
+      "to": "user-circle",
+      "match": "reordered"
+    },
+    "circle-user-round": {
+      "component": "CircleUserRound",
+      "to": "user-circle",
+      "match": "suggested"
+    },
+    "circle-x": {
+      "component": "CircleX",
+      "to": "x-circle",
+      "match": "curated"
+    },
+    "clapperboard": {
+      "component": "Clapperboard",
+      "to": "clapperboard",
+      "match": "exact"
+    },
+    "clef-treble": {
+      "component": "ClefTreble",
+      "to": "music-clef-treble",
+      "match": "suggested"
+    },
+    "clipboard": {
+      "component": "Clipboard",
+      "to": "clipboard",
+      "match": "exact"
+    },
+    "clipboard-check": {
+      "component": "ClipboardCheck",
+      "to": "clipboard-check",
+      "match": "exact"
+    },
+    "clipboard-copy": {
+      "component": "ClipboardCopy",
+      "to": "clipboard-copy",
+      "match": "exact"
+    },
+    "clipboard-list": {
+      "component": "ClipboardList",
+      "to": "clipboard-list",
+      "match": "exact"
+    },
+    "clipboard-minus": {
+      "component": "ClipboardMinus",
+      "to": "clipboard-minus",
+      "match": "exact"
+    },
+    "clipboard-paste": {
+      "component": "ClipboardPaste",
+      "to": "clipboard",
+      "match": "suggested"
+    },
+    "clipboard-plus": {
+      "component": "ClipboardPlus",
+      "to": "clipboard-add",
+      "match": "suggested"
+    },
+    "clock": {
+      "component": "Clock",
+      "to": "clock",
+      "match": "exact"
+    },
+    "clock-1": {
+      "component": "Clock1",
+      "to": "clock",
+      "match": "suggested"
+    },
+    "clock-10": {
+      "component": "Clock10",
+      "to": "clock",
+      "match": "suggested"
+    },
+    "clock-11": {
+      "component": "Clock11",
+      "to": "clock",
+      "match": "suggested"
+    },
+    "clock-12": {
+      "component": "Clock12",
+      "to": "clock",
+      "match": "suggested"
+    },
+    "clock-2": {
+      "component": "Clock2",
+      "to": "clock",
+      "match": "suggested"
+    },
+    "clock-3": {
+      "component": "Clock3",
+      "to": "clock",
+      "match": "suggested"
+    },
+    "clock-4": {
+      "component": "Clock4",
+      "to": "clock",
+      "match": "suggested"
+    },
+    "clock-5": {
+      "component": "Clock5",
+      "to": "clock",
+      "match": "suggested"
+    },
+    "clock-6": {
+      "component": "Clock6",
+      "to": "clock",
+      "match": "suggested"
+    },
+    "clock-7": {
+      "component": "Clock7",
+      "to": "clock",
+      "match": "suggested"
+    },
+    "clock-8": {
+      "component": "Clock8",
+      "to": "clock",
+      "match": "suggested"
+    },
+    "clock-9": {
+      "component": "Clock9",
+      "to": "clock",
+      "match": "suggested"
+    },
+    "clock-check": {
+      "component": "ClockCheck",
+      "to": "clock-check",
+      "match": "exact"
+    },
+    "clock-plus": {
+      "component": "ClockPlus",
+      "to": "clock-plus",
+      "match": "exact"
+    },
+    "cloud": {
+      "component": "Cloud",
+      "to": "cloud",
+      "match": "exact"
+    },
+    "cloud-alert": {
+      "component": "CloudAlert",
+      "to": "cloud-lightning",
+      "match": "suggested"
+    },
+    "cloud-backup": {
+      "component": "CloudBackup",
+      "to": "upload-cloud",
+      "match": "suggested"
+    },
+    "cloud-download": {
+      "component": "CloudDownload",
+      "to": "download-cloud",
+      "match": "reordered"
+    },
+    "cloud-drizzle": {
+      "component": "CloudDrizzle",
+      "to": "cloud-drizzle",
+      "match": "exact"
+    },
+    "cloud-fog": {
+      "component": "CloudFog",
+      "to": "cloud-fog",
+      "match": "exact"
+    },
+    "cloud-hail": {
+      "component": "CloudHail",
+      "to": "cloud-hail",
+      "match": "exact"
+    },
+    "cloud-lightning": {
+      "component": "CloudLightning",
+      "to": "cloud-lightning",
+      "match": "exact"
+    },
+    "cloud-moon": {
+      "component": "CloudMoon",
+      "to": "cloud-moon",
+      "match": "exact"
+    },
+    "cloud-moon-rain": {
+      "component": "CloudMoonRain",
+      "to": "cloud-moon-rain",
+      "match": "exact"
+    },
+    "cloud-off": {
+      "component": "CloudOff",
+      "to": "cloud-off",
+      "match": "exact"
+    },
+    "cloud-rain": {
+      "component": "CloudRain",
+      "to": "cloud-rain",
+      "match": "exact"
+    },
+    "cloud-snow": {
+      "component": "CloudSnow",
+      "to": "cloud-moon-snow",
+      "match": "suggested"
+    },
+    "cloud-sun": {
+      "component": "CloudSun",
+      "to": "cloud-sun",
+      "match": "exact"
+    },
+    "cloud-sun-rain": {
+      "component": "CloudSunRain",
+      "to": "cloud-sun-rain",
+      "match": "exact"
+    },
+    "cloud-sync": {
+      "component": "CloudSync",
+      "to": "cloud-off",
+      "match": "suggested"
+    },
+    "cloud-upload": {
+      "component": "CloudUpload",
+      "to": "upload-cloud",
+      "match": "reordered"
+    },
+    "club": {
+      "component": "Club",
+      "to": "golf-club",
+      "match": "suggested"
+    },
+    "code": {
+      "component": "Code",
+      "to": "code",
+      "match": "exact"
+    },
+    "code-2": {
+      "component": "Code2",
+      "to": "code",
+      "match": "normalized"
+    },
+    "code-square": {
+      "component": "CodeSquare",
+      "to": "code-square",
+      "match": "exact"
+    },
+    "code-xml": {
+      "component": "CodeXml",
+      "to": "file-xml",
+      "match": "suggested"
+    },
+    "coffee": {
+      "component": "Coffee",
+      "to": "coffee",
+      "match": "exact"
+    },
+    "coins": {
+      "component": "Coins",
+      "to": "coins",
+      "match": "exact"
+    },
+    "columns": {
+      "component": "Columns",
+      "to": "layout-columns-header",
+      "match": "suggested"
+    },
+    "columns-2": {
+      "component": "Columns2",
+      "to": "layout-columns-header",
+      "match": "suggested"
+    },
+    "columns-3": {
+      "component": "Columns3",
+      "to": "layout-columns-header",
+      "match": "suggested"
+    },
+    "columns-4": {
+      "component": "Columns4",
+      "to": "layout-columns-header",
+      "match": "suggested"
+    },
+    "command": {
+      "component": "Command",
+      "to": "command",
+      "match": "exact"
+    },
+    "compass": {
+      "component": "Compass",
+      "to": "compass",
+      "match": "exact"
+    },
+    "cone": {
+      "component": "Cone",
+      "to": "cone",
+      "match": "exact"
+    },
+    "container": {
+      "component": "Container",
+      "to": "container",
+      "match": "exact"
+    },
+    "contrast": {
+      "component": "Contrast",
+      "to": "contrast",
+      "match": "exact"
+    },
+    "cookie": {
+      "component": "Cookie",
+      "to": "cookie",
+      "match": "exact"
+    },
+    "copy": {
+      "component": "Copy",
+      "to": "copy",
+      "match": "exact"
+    },
+    "copy-plus": {
+      "component": "CopyPlus",
+      "to": "cursor-plus",
+      "match": "suggested"
+    },
+    "copyright": {
+      "component": "Copyright",
+      "to": "copyright",
+      "match": "exact"
+    },
+    "corner-down-left": {
+      "component": "CornerDownLeft",
+      "to": "arrow-down-left",
+      "match": "suggested"
+    },
+    "corner-down-right": {
+      "component": "CornerDownRight",
+      "to": "arrow-down-right",
+      "match": "suggested"
+    },
+    "corner-left-down": {
+      "component": "CornerLeftDown",
+      "to": "arrow-down-left",
+      "match": "suggested"
+    },
+    "corner-left-up": {
+      "component": "CornerLeftUp",
+      "to": "arrow-up-left",
+      "match": "suggested"
+    },
+    "corner-right-down": {
+      "component": "CornerRightDown",
+      "to": "arrow-down-right",
+      "match": "suggested"
+    },
+    "corner-right-up": {
+      "component": "CornerRightUp",
+      "to": "arrow-turn-right-up",
+      "match": "suggested"
+    },
+    "corner-up-left": {
+      "component": "CornerUpLeft",
+      "to": "arrow-up-left",
+      "match": "suggested"
+    },
+    "corner-up-right": {
+      "component": "CornerUpRight",
+      "to": "arrow-turn-right-up",
+      "match": "suggested"
+    },
+    "cpu": {
+      "component": "Cpu",
+      "to": "cpu-chip",
+      "match": "suggested"
+    },
+    "cpu-ai": {
+      "component": "CpuAi",
+      "to": "ai-chip",
+      "match": "suggested"
+    },
+    "credit-card": {
+      "component": "CreditCard",
+      "to": "credit-card",
+      "match": "exact"
+    },
+    "credit-card-check": {
+      "component": "CreditCardCheck",
+      "to": "credit-card-check",
+      "match": "exact"
+    },
+    "credit-card-minus": {
+      "component": "CreditCardMinus",
+      "to": "credit-card-minus",
+      "match": "exact"
+    },
+    "credit-card-plus": {
+      "component": "CreditCardPlus",
+      "to": "credit-card-plus",
+      "match": "exact"
+    },
+    "credit-card-x": {
+      "component": "CreditCardX",
+      "to": "credit-card-x",
+      "match": "exact"
+    },
+    "croissant": {
+      "component": "Croissant",
+      "to": "croissant",
+      "match": "exact"
+    },
+    "crop": {
+      "component": "Crop",
+      "to": "crop",
+      "match": "exact"
+    },
+    "cross": {
+      "component": "Cross",
+      "to": "christian-cross",
+      "match": "suggested"
+    },
+    "crosshair": {
+      "component": "Crosshair",
+      "to": "target-crosshair",
+      "match": "suggested"
+    },
+    "crown": {
+      "component": "Crown",
+      "to": "crown",
+      "match": "exact"
+    },
+    "cuboid": {
+      "component": "Cuboid",
+      "to": "cuboid",
+      "match": "exact"
+    },
+    "currency": {
+      "component": "Currency",
+      "to": "currency-bitcoin",
+      "match": "suggested"
+    },
+    "cylinder": {
+      "component": "Cylinder",
+      "to": "cylinder",
+      "match": "exact"
+    },
+    "database": {
+      "component": "Database",
+      "to": "database",
+      "match": "exact"
+    },
+    "delete": {
+      "component": "Delete",
+      "to": "delete",
+      "match": "exact"
+    },
+    "diamond": {
+      "component": "Diamond",
+      "to": "diamond",
+      "match": "exact"
+    },
+    "dice-1": {
+      "component": "Dice1",
+      "to": "dice-1",
+      "match": "exact"
+    },
+    "dice-2": {
+      "component": "Dice2",
+      "to": "dice-2",
+      "match": "exact"
+    },
+    "dice-3": {
+      "component": "Dice3",
+      "to": "dice-3",
+      "match": "exact"
+    },
+    "dice-4": {
+      "component": "Dice4",
+      "to": "dice-4",
+      "match": "exact"
+    },
+    "dice-5": {
+      "component": "Dice5",
+      "to": "dice-5",
+      "match": "exact"
+    },
+    "dice-6": {
+      "component": "Dice6",
+      "to": "dice-6",
+      "match": "exact"
+    },
+    "disc": {
+      "component": "Disc",
+      "to": "disc",
+      "match": "exact"
+    },
+    "disc-2": {
+      "component": "Disc2",
+      "to": "disc",
+      "match": "normalized"
+    },
+    "disc-3": {
+      "component": "Disc3",
+      "to": "disc",
+      "match": "normalized"
+    },
+    "disc-album": {
+      "component": "DiscAlbum",
+      "to": "disc",
+      "match": "suggested"
+    },
+    "divide": {
+      "component": "Divide",
+      "to": "divide",
+      "match": "exact"
+    },
+    "dna": {
+      "component": "Dna",
+      "to": "dna",
+      "match": "exact"
+    },
+    "dog": {
+      "component": "Dog",
+      "to": "dog",
+      "match": "exact"
+    },
+    "donut": {
+      "component": "Donut",
+      "to": "chart-donut",
+      "match": "suggested"
+    },
+    "dot": {
+      "component": "Dot",
+      "to": "collapse-dot",
+      "match": "suggested"
+    },
+    "download": {
+      "component": "Download",
+      "to": "download",
+      "match": "exact"
+    },
+    "download-cloud": {
+      "component": "DownloadCloud",
+      "to": "download-cloud",
+      "match": "exact"
+    },
+    "drafting-compass": {
+      "component": "DraftingCompass",
+      "to": "drafting-compass",
+      "match": "exact"
+    },
+    "drill": {
+      "component": "Drill",
+      "to": "drill",
+      "match": "exact"
+    },
+    "drone": {
+      "component": "Drone",
+      "to": "drone",
+      "match": "exact"
+    },
+    "droplets": {
+      "component": "Droplets",
+      "to": "droplets",
+      "match": "exact"
+    },
+    "drum": {
+      "component": "Drum",
+      "to": "drum",
+      "match": "exact"
+    },
+    "dumbbell": {
+      "component": "Dumbbell",
+      "to": "dumbbell",
+      "match": "exact"
+    },
+    "ear": {
+      "component": "Ear",
+      "to": "ear",
+      "match": "exact"
+    },
+    "earbuds": {
+      "component": "Earbuds",
+      "to": "earbuds",
+      "match": "exact"
+    },
+    "eclipse": {
+      "component": "Eclipse",
+      "to": "moon-eclipse",
+      "match": "suggested"
+    },
+    "edit": {
+      "component": "Edit",
+      "to": "edit",
+      "match": "exact"
+    },
+    "edit-2": {
+      "component": "Edit2",
+      "to": "edit",
+      "match": "normalized"
+    },
+    "edit-3": {
+      "component": "Edit3",
+      "to": "edit",
+      "match": "normalized"
+    },
+    "egg": {
+      "component": "Egg",
+      "to": "egg",
+      "match": "exact"
+    },
+    "eighth-note": {
+      "component": "EighthNote",
+      "to": "music-note",
+      "match": "suggested"
+    },
+    "ellipse": {
+      "component": "Ellipse",
+      "to": "ellipse-horizontal",
+      "match": "suggested"
+    },
+    "ellipsis": {
+      "component": "Ellipsis",
+      "to": "dots-horizontal",
+      "match": "curated"
+    },
+    "ellipsis-vertical": {
+      "component": "EllipsisVertical",
+      "to": "dots-vertical",
+      "match": "curated"
+    },
+    "equal": {
+      "component": "Equal",
+      "to": "equal",
+      "match": "exact"
+    },
+    "equal-not": {
+      "component": "EqualNot",
+      "to": "equal-not",
+      "match": "exact"
+    },
+    "eraser": {
+      "component": "Eraser",
+      "to": "eraser",
+      "match": "exact"
+    },
+    "euro": {
+      "component": "Euro",
+      "to": "currency-euro",
+      "match": "suggested"
+    },
+    "expand": {
+      "component": "Expand",
+      "to": "expand",
+      "match": "exact"
+    },
+    "external-link": {
+      "component": "ExternalLink",
+      "to": "link-external",
+      "match": "curated"
+    },
+    "eye": {
+      "component": "Eye",
+      "to": "eye",
+      "match": "exact"
+    },
+    "eye-off": {
+      "component": "EyeOff",
+      "to": "eye-off",
+      "match": "exact"
+    },
+    "face-expressionless": {
+      "component": "FaceExpressionless",
+      "to": "face-neutral",
+      "match": "suggested"
+    },
+    "face-neutral": {
+      "component": "FaceNeutral",
+      "to": "face-neutral",
+      "match": "exact"
+    },
+    "factory": {
+      "component": "Factory",
+      "to": "factory",
+      "match": "exact"
+    },
+    "fan": {
+      "component": "Fan",
+      "to": "fan",
+      "match": "exact"
+    },
+    "fast-forward": {
+      "component": "FastForward",
+      "to": "fast-forward",
+      "match": "exact"
+    },
+    "feather": {
+      "component": "Feather",
+      "to": "feather",
+      "match": "exact"
+    },
+    "fence": {
+      "component": "Fence",
+      "to": "fence",
+      "match": "exact"
+    },
+    "ferris-wheel": {
+      "component": "FerrisWheel",
+      "to": "ferris-wheel",
+      "match": "exact"
+    },
+    "file": {
+      "component": "File",
+      "to": "file",
+      "match": "exact"
+    },
+    "file-archive": {
+      "component": "FileArchive",
+      "to": "file-zip",
+      "match": "suggested"
+    },
+    "file-audio": {
+      "component": "FileAudio",
+      "to": "file-mp3",
+      "match": "suggested"
+    },
+    "file-audio-2": {
+      "component": "FileAudio2",
+      "to": "file-mp3",
+      "match": "suggested"
+    },
+    "file-check": {
+      "component": "FileCheck",
+      "to": "file-check",
+      "match": "exact"
+    },
+    "file-check-2": {
+      "component": "FileCheck2",
+      "to": "file-check",
+      "match": "normalized"
+    },
+    "file-code": {
+      "component": "FileCode",
+      "to": "file-code",
+      "match": "exact"
+    },
+    "file-code-2": {
+      "component": "FileCode2",
+      "to": "file-code",
+      "match": "normalized"
+    },
+    "file-database": {
+      "component": "FileDatabase",
+      "to": "file-sql",
+      "match": "suggested"
+    },
+    "file-heart": {
+      "component": "FileHeart",
+      "to": "file-heart",
+      "match": "exact"
+    },
+    "file-image": {
+      "component": "FileImage",
+      "to": "file-gif",
+      "match": "suggested"
+    },
+    "file-json": {
+      "component": "FileJson",
+      "to": "file-json",
+      "match": "exact"
+    },
+    "file-json-2": {
+      "component": "FileJson2",
+      "to": "file-json",
+      "match": "normalized"
+    },
+    "file-lock": {
+      "component": "FileLock",
+      "to": "file-lock",
+      "match": "exact"
+    },
+    "file-lock-2": {
+      "component": "FileLock2",
+      "to": "file-lock",
+      "match": "normalized"
+    },
+    "file-minus": {
+      "component": "FileMinus",
+      "to": "file-minus",
+      "match": "exact"
+    },
+    "file-minus-2": {
+      "component": "FileMinus2",
+      "to": "file-minus",
+      "match": "normalized"
+    },
+    "file-music": {
+      "component": "FileMusic",
+      "to": "file-mp3",
+      "match": "suggested"
+    },
+    "file-output": {
+      "component": "FileOutput",
+      "to": "file-export",
+      "match": "suggested"
+    },
+    "file-plus": {
+      "component": "FilePlus",
+      "to": "file-plus-corner",
+      "match": "suggested"
+    },
+    "file-plus-2": {
+      "component": "FilePlus2",
+      "to": "file-plus-corner",
+      "match": "suggested"
+    },
+    "file-plus-corner": {
+      "component": "FilePlusCorner",
+      "to": "file-plus-corner",
+      "match": "exact"
+    },
+    "file-question": {
+      "component": "FileQuestion",
+      "to": "file-question",
+      "match": "exact"
+    },
+    "file-question-mark": {
+      "component": "FileQuestionMark",
+      "to": "file-question",
+      "match": "suggested"
+    },
+    "file-search": {
+      "component": "FileSearch",
+      "to": "file-search",
+      "match": "exact"
+    },
+    "file-search-2": {
+      "component": "FileSearch2",
+      "to": "file-search",
+      "match": "normalized"
+    },
+    "file-spreadsheet": {
+      "component": "FileSpreadsheet",
+      "to": "file-csv",
+      "match": "suggested"
+    },
+    "file-text": {
+      "component": "FileText",
+      "to": "file-text",
+      "match": "exact"
+    },
+    "file-video": {
+      "component": "FileVideo",
+      "to": "file-mov",
+      "match": "suggested"
+    },
+    "file-video-2": {
+      "component": "FileVideo2",
+      "to": "file-mov",
+      "match": "suggested"
+    },
+    "file-x": {
+      "component": "FileX",
+      "to": "file-cancel",
+      "match": "suggested"
+    },
+    "file-x-2": {
+      "component": "FileX2",
+      "to": "file-cancel",
+      "match": "suggested"
+    },
+    "files": {
+      "component": "Files",
+      "to": "files",
+      "match": "exact"
+    },
+    "film": {
+      "component": "Film",
+      "to": "film",
+      "match": "exact"
+    },
+    "filter": {
+      "component": "Filter",
+      "to": "filter",
+      "match": "exact"
+    },
+    "filter-x": {
+      "component": "FilterX",
+      "to": "filter-x",
+      "match": "exact"
+    },
+    "fingerprint": {
+      "component": "Fingerprint",
+      "to": "fingerprint",
+      "match": "exact"
+    },
+    "fish": {
+      "component": "Fish",
+      "to": "fish",
+      "match": "exact"
+    },
+    "flag": {
+      "component": "Flag",
+      "to": "flag",
+      "match": "exact"
+    },
+    "flip-horizontal": {
+      "component": "FlipHorizontal",
+      "to": "flip-horizontal",
+      "match": "exact"
+    },
+    "flip-horizontal-2": {
+      "component": "FlipHorizontal2",
+      "to": "flip-horizontal",
+      "match": "normalized"
+    },
+    "flower": {
+      "component": "Flower",
+      "to": "flower",
+      "match": "exact"
+    },
+    "flower-2": {
+      "component": "Flower2",
+      "to": "flower",
+      "match": "normalized"
+    },
+    "focus": {
+      "component": "Focus",
+      "to": "focus",
+      "match": "exact"
+    },
+    "fold-horizontal": {
+      "component": "FoldHorizontal",
+      "to": "fold-horizontal",
+      "match": "exact"
+    },
+    "fold-vertical": {
+      "component": "FoldVertical",
+      "to": "fold-vertical",
+      "match": "exact"
+    },
+    "folder": {
+      "component": "Folder",
+      "to": "folder",
+      "match": "exact"
+    },
+    "folder-check": {
+      "component": "FolderCheck",
+      "to": "folder-check",
+      "match": "exact"
+    },
+    "folder-code": {
+      "component": "FolderCode",
+      "to": "folder-code",
+      "match": "exact"
+    },
+    "folder-lock": {
+      "component": "FolderLock",
+      "to": "folder-lock",
+      "match": "exact"
+    },
+    "folder-minus": {
+      "component": "FolderMinus",
+      "to": "folder-minus",
+      "match": "exact"
+    },
+    "folder-open": {
+      "component": "FolderOpen",
+      "to": "folder-open",
+      "match": "exact"
+    },
+    "folder-plus": {
+      "component": "FolderPlus",
+      "to": "folder-add",
+      "match": "suggested"
+    },
+    "folder-search": {
+      "component": "FolderSearch",
+      "to": "folder-search",
+      "match": "exact"
+    },
+    "folder-search-2": {
+      "component": "FolderSearch2",
+      "to": "folder-search",
+      "match": "normalized"
+    },
+    "form-input": {
+      "component": "FormInput",
+      "to": "text-input",
+      "match": "suggested"
+    },
+    "forward": {
+      "component": "Forward",
+      "to": "clock-forward",
+      "match": "suggested"
+    },
+    "frown": {
+      "component": "Frown",
+      "to": "face-frown",
+      "match": "suggested"
+    },
+    "fuel": {
+      "component": "Fuel",
+      "to": "fuel-pump",
+      "match": "suggested"
+    },
+    "funnel": {
+      "component": "Funnel",
+      "to": "chart-funnel",
+      "match": "suggested"
+    },
+    "funnel-plus": {
+      "component": "FunnelPlus",
+      "to": "filter-plus",
+      "match": "suggested"
+    },
+    "funnel-x": {
+      "component": "FunnelX",
+      "to": "filter-x",
+      "match": "suggested"
+    },
+    "gantt-chart": {
+      "component": "GanttChart",
+      "to": "chart-gantt",
+      "match": "reordered"
+    },
+    "gauge": {
+      "component": "Gauge",
+      "to": "chart-gauge",
+      "match": "suggested"
+    },
+    "gauge-circle": {
+      "component": "GaugeCircle",
+      "to": "gauge-circle-low",
+      "match": "suggested"
+    },
+    "gavel": {
+      "component": "Gavel",
+      "to": "gavel",
+      "match": "exact"
+    },
+    "gift": {
+      "component": "Gift",
+      "to": "gift",
+      "match": "exact"
+    },
+    "git-branch": {
+      "component": "GitBranch",
+      "to": "git-branch",
+      "match": "exact"
+    },
+    "git-commit": {
+      "component": "GitCommit",
+      "to": "git-commit",
+      "match": "exact"
+    },
+    "git-fork": {
+      "component": "GitFork",
+      "to": "git-branch",
+      "match": "suggested"
+    },
+    "git-merge": {
+      "component": "GitMerge",
+      "to": "git-merge",
+      "match": "exact"
+    },
+    "git-pull-request": {
+      "component": "GitPullRequest",
+      "to": "git-pull-request",
+      "match": "exact"
+    },
+    "glass-water": {
+      "component": "GlassWater",
+      "to": "glass-water",
+      "match": "exact"
+    },
+    "glasses": {
+      "component": "Glasses",
+      "to": "glasses",
+      "match": "exact"
+    },
+    "globe": {
+      "component": "Globe",
+      "to": "globe",
+      "match": "exact"
+    },
+    "globe-2": {
+      "component": "Globe2",
+      "to": "globe",
+      "match": "normalized"
+    },
+    "goal": {
+      "component": "Goal",
+      "to": "goal-soccer",
+      "match": "suggested"
+    },
+    "graduation-cap": {
+      "component": "GraduationCap",
+      "to": "graduation-hat",
+      "match": "suggested"
+    },
+    "grid": {
+      "component": "Grid",
+      "to": "dots-grid",
+      "match": "suggested"
+    },
+    "grid-2x2": {
+      "component": "Grid2x2",
+      "to": "grid-2x2",
+      "match": "exact"
+    },
+    "grip": {
+      "component": "Grip",
+      "to": "grip-drag",
+      "match": "suggested"
+    },
+    "guitar": {
+      "component": "Guitar",
+      "to": "guitar",
+      "match": "exact"
+    },
+    "guitar-electric": {
+      "component": "GuitarElectric",
+      "to": "guitar-electric",
+      "match": "exact"
+    },
+    "half-note": {
+      "component": "HalfNote",
+      "to": "music-note-half",
+      "match": "suggested"
+    },
+    "hammer": {
+      "component": "Hammer",
+      "to": "hammer",
+      "match": "exact"
+    },
+    "hand": {
+      "component": "Hand",
+      "to": "hand",
+      "match": "exact"
+    },
+    "hand-coins": {
+      "component": "HandCoins",
+      "to": "coins-hand",
+      "match": "reordered"
+    },
+    "hand-heart": {
+      "component": "HandHeart",
+      "to": "heart-hand",
+      "match": "reordered"
+    },
+    "handshake": {
+      "component": "Handshake",
+      "to": "handshake",
+      "match": "exact"
+    },
+    "hard-drive": {
+      "component": "HardDrive",
+      "to": "hard-drive",
+      "match": "exact"
+    },
+    "hard-hat": {
+      "component": "HardHat",
+      "to": "hard-hat",
+      "match": "exact"
+    },
+    "hash": {
+      "component": "Hash",
+      "to": "hash",
+      "match": "exact"
+    },
+    "hd": {
+      "component": "Hd",
+      "to": "image-hd",
+      "match": "suggested"
+    },
+    "heading": {
+      "component": "Heading",
+      "to": "heading",
+      "match": "exact"
+    },
+    "heading-1": {
+      "component": "Heading1",
+      "to": "heading",
+      "match": "suggested"
+    },
+    "heading-2": {
+      "component": "Heading2",
+      "to": "heading",
+      "match": "suggested"
+    },
+    "heading-3": {
+      "component": "Heading3",
+      "to": "heading",
+      "match": "suggested"
+    },
+    "heading-4": {
+      "component": "Heading4",
+      "to": "heading",
+      "match": "suggested"
+    },
+    "heading-5": {
+      "component": "Heading5",
+      "to": "heading",
+      "match": "suggested"
+    },
+    "heading-6": {
+      "component": "Heading6",
+      "to": "heading",
+      "match": "suggested"
+    },
+    "headphones": {
+      "component": "Headphones",
+      "to": "headphones",
+      "match": "exact"
+    },
+    "headset": {
+      "component": "Headset",
+      "to": "headset",
+      "match": "exact"
+    },
+    "heart": {
+      "component": "Heart",
+      "to": "heart",
+      "match": "exact"
+    },
+    "heart-pulse": {
+      "component": "HeartPulse",
+      "to": "heart-pulse",
+      "match": "exact"
+    },
+    "helicopter": {
+      "component": "Helicopter",
+      "to": "helicopter",
+      "match": "exact"
+    },
+    "help-circle": {
+      "component": "HelpCircle",
+      "to": "help-circle",
+      "match": "exact"
+    },
+    "hexagon": {
+      "component": "Hexagon",
+      "to": "hexagon",
+      "match": "exact"
+    },
+    "highlighter": {
+      "component": "Highlighter",
+      "to": "highlighter",
+      "match": "exact"
+    },
+    "hiking-stick": {
+      "component": "HikingStick",
+      "to": "person-hiking",
+      "match": "suggested"
+    },
+    "history": {
+      "component": "History",
+      "to": "history",
+      "match": "exact"
+    },
+    "hockey-stick": {
+      "component": "HockeyStick",
+      "to": "hockey-stick",
+      "match": "exact"
+    },
+    "home": {
+      "component": "Home",
+      "to": "home",
+      "match": "exact"
+    },
+    "hospital": {
+      "component": "Hospital",
+      "to": "hospital",
+      "match": "exact"
+    },
+    "hotel": {
+      "component": "Hotel",
+      "to": "hotel",
+      "match": "exact"
+    },
+    "hourglass": {
+      "component": "Hourglass",
+      "to": "hourglass",
+      "match": "exact"
+    },
+    "house": {
+      "component": "House",
+      "to": "home",
+      "match": "curated"
+    },
+    "house-wifi": {
+      "component": "HouseWifi",
+      "to": "home-wifi",
+      "match": "suggested"
+    },
+    "ice-cream": {
+      "component": "IceCream",
+      "to": "ice-cream",
+      "match": "exact"
+    },
+    "ice-cream-2": {
+      "component": "IceCream2",
+      "to": "ice-cream",
+      "match": "normalized"
+    },
+    "ice-cream-cone": {
+      "component": "IceCreamCone",
+      "to": "ice-cream",
+      "match": "suggested"
+    },
+    "id-card": {
+      "component": "IdCard",
+      "to": "id-card",
+      "match": "exact"
+    },
+    "image": {
+      "component": "Image",
+      "to": "image",
+      "match": "exact"
+    },
+    "image-down": {
+      "component": "ImageDown",
+      "to": "image-down",
+      "match": "exact"
+    },
+    "image-plus": {
+      "component": "ImagePlus",
+      "to": "image-plus",
+      "match": "exact"
+    },
+    "image-up": {
+      "component": "ImageUp",
+      "to": "image-up",
+      "match": "exact"
+    },
+    "image-upscale": {
+      "component": "ImageUpscale",
+      "to": "image-hd-sparkles",
+      "match": "suggested"
+    },
+    "inbox": {
+      "component": "Inbox",
+      "to": "inbox",
+      "match": "exact"
+    },
+    "indent": {
+      "component": "Indent",
+      "to": "left-indent",
+      "match": "suggested"
+    },
+    "indent-increase": {
+      "component": "IndentIncrease",
+      "to": "left-indent",
+      "match": "suggested"
+    },
+    "indian-rupee": {
+      "component": "IndianRupee",
+      "to": "currency-rupee",
+      "match": "suggested"
+    },
+    "infinity": {
+      "component": "Infinity",
+      "to": "infinity",
+      "match": "exact"
+    },
+    "info": {
+      "component": "Info",
+      "to": "info",
+      "match": "exact"
+    },
+    "italic": {
+      "component": "Italic",
+      "to": "italic",
+      "match": "exact"
+    },
+    "japanese-yen": {
+      "component": "JapaneseYen",
+      "to": "currency-yen",
+      "match": "suggested"
+    },
+    "joystick": {
+      "component": "Joystick",
+      "to": "joystick",
+      "match": "exact"
+    },
+    "key": {
+      "component": "Key",
+      "to": "key",
+      "match": "exact"
+    },
+    "keyboard": {
+      "component": "Keyboard",
+      "to": "keyboard",
+      "match": "exact"
+    },
+    "laptop": {
+      "component": "Laptop",
+      "to": "laptop",
+      "match": "exact"
+    },
+    "laptop-2": {
+      "component": "Laptop2",
+      "to": "laptop",
+      "match": "normalized"
+    },
+    "lasso": {
+      "component": "Lasso",
+      "to": "cursor-lasso",
+      "match": "suggested"
+    },
+    "lasso-select": {
+      "component": "LassoSelect",
+      "to": "cursor-lasso",
+      "match": "suggested"
+    },
+    "layers": {
+      "component": "Layers",
+      "to": "layers",
+      "match": "exact"
+    },
+    "layers-2": {
+      "component": "Layers2",
+      "to": "layers",
+      "match": "normalized"
+    },
+    "layers-3": {
+      "component": "Layers3",
+      "to": "layers",
+      "match": "normalized"
+    },
+    "layout": {
+      "component": "Layout",
+      "to": "layout-bento",
+      "match": "suggested"
+    },
+    "layout-dashboard": {
+      "component": "LayoutDashboard",
+      "to": "layout-dashboard",
+      "match": "exact"
+    },
+    "layout-grid": {
+      "component": "LayoutGrid",
+      "to": "layout-grid-four",
+      "match": "suggested"
+    },
+    "layout-panel-left": {
+      "component": "LayoutPanelLeft",
+      "to": "layout-sidebar-left",
+      "match": "suggested"
+    },
+    "layout-panel-top": {
+      "component": "LayoutPanelTop",
+      "to": "layout-panel-top-close",
+      "match": "suggested"
+    },
+    "leaf": {
+      "component": "Leaf",
+      "to": "leaf",
+      "match": "exact"
+    },
+    "lens": {
+      "component": "Lens",
+      "to": "camera-lens",
+      "match": "suggested"
+    },
+    "letter-e": {
+      "component": "LetterE",
+      "to": "mail-letter",
+      "match": "suggested"
+    },
+    "letter-spacing": {
+      "component": "LetterSpacing",
+      "to": "letter-spacing",
+      "match": "exact"
+    },
+    "letter-text": {
+      "component": "LetterText",
+      "to": "letter-spacing",
+      "match": "suggested"
+    },
+    "library": {
+      "component": "Library",
+      "to": "library",
+      "match": "exact"
+    },
+    "life-buoy": {
+      "component": "LifeBuoy",
+      "to": "life-buoy",
+      "match": "exact"
+    },
+    "lightbulb": {
+      "component": "Lightbulb",
+      "to": "lightbulb",
+      "match": "exact"
+    },
+    "lightbulb-off": {
+      "component": "LightbulbOff",
+      "to": "lightbulb-off",
+      "match": "exact"
+    },
+    "lighthouse": {
+      "component": "Lighthouse",
+      "to": "lighthouse",
+      "match": "exact"
+    },
+    "line-chart": {
+      "component": "LineChart",
+      "to": "chart-line",
+      "match": "reordered"
+    },
+    "line-height": {
+      "component": "LineHeight",
+      "to": "line-height",
+      "match": "exact"
+    },
+    "link": {
+      "component": "Link",
+      "to": "link",
+      "match": "exact"
+    },
+    "link-2": {
+      "component": "Link2",
+      "to": "link",
+      "match": "normalized"
+    },
+    "link-2-off": {
+      "component": "Link2Off",
+      "to": "link-off",
+      "match": "suggested"
+    },
+    "list": {
+      "component": "List",
+      "to": "clipboard-list",
+      "match": "suggested"
+    },
+    "list-ordered": {
+      "component": "ListOrdered",
+      "to": "list-ordered",
+      "match": "exact"
+    },
+    "list-sort-ascending": {
+      "component": "ListSortAscending",
+      "to": "sort-lines-ascending",
+      "match": "suggested"
+    },
+    "list-sort-descending": {
+      "component": "ListSortDescending",
+      "to": "sort-lines-descending",
+      "match": "suggested"
+    },
+    "list-todo": {
+      "component": "ListTodo",
+      "to": "clipboard-list",
+      "match": "suggested"
+    },
+    "loader": {
+      "component": "Loader",
+      "to": "loader-rays",
+      "match": "curated"
+    },
+    "loader-2": {
+      "component": "Loader2",
+      "to": "loader-spinner",
+      "match": "curated"
+    },
+    "loader-circle": {
+      "component": "LoaderCircle",
+      "to": "loader-spinner",
+      "match": "curated"
+    },
+    "lock": {
+      "component": "Lock",
+      "to": "lock",
+      "match": "exact"
+    },
+    "lock-keyhole": {
+      "component": "LockKeyhole",
+      "to": "keyhole-circle",
+      "match": "suggested"
+    },
+    "lock-open": {
+      "component": "LockOpen",
+      "to": "unlock",
+      "match": "curated"
+    },
+    "log-in": {
+      "component": "LogIn",
+      "to": "log-in",
+      "match": "exact"
+    },
+    "log-out": {
+      "component": "LogOut",
+      "to": "log-out",
+      "match": "exact"
+    },
+    "luggage": {
+      "component": "Luggage",
+      "to": "luggage",
+      "match": "exact"
+    },
+    "magnet": {
+      "component": "Magnet",
+      "to": "magnet",
+      "match": "exact"
+    },
+    "mail": {
+      "component": "Mail",
+      "to": "mail",
+      "match": "exact"
+    },
+    "mail-open": {
+      "component": "MailOpen",
+      "to": "mail-open",
+      "match": "exact"
+    },
+    "map": {
+      "component": "Map",
+      "to": "map",
+      "match": "exact"
+    },
+    "map-pin": {
+      "component": "MapPin",
+      "to": "marker-pin",
+      "match": "curated"
+    },
+    "maximize": {
+      "component": "Maximize",
+      "to": "maximize",
+      "match": "exact"
+    },
+    "maximize-2": {
+      "component": "Maximize2",
+      "to": "maximize",
+      "match": "normalized"
+    },
+    "medal": {
+      "component": "Medal",
+      "to": "medal",
+      "match": "exact"
+    },
+    "megaphone": {
+      "component": "Megaphone",
+      "to": "megaphone",
+      "match": "exact"
+    },
+    "menu": {
+      "component": "Menu",
+      "to": "menu",
+      "match": "exact"
+    },
+    "menu-square": {
+      "component": "MenuSquare",
+      "to": "menu-square",
+      "match": "exact"
+    },
+    "merge": {
+      "component": "Merge",
+      "to": "arrow-merge",
+      "match": "suggested"
+    },
+    "message-circle": {
+      "component": "MessageCircle",
+      "to": "message-circle",
+      "match": "exact"
+    },
+    "message-circle-alert": {
+      "component": "MessageCircleAlert",
+      "to": "message-alert-circle",
+      "match": "reordered"
+    },
+    "message-circle-check": {
+      "component": "MessageCircleCheck",
+      "to": "message-check-circle",
+      "match": "reordered"
+    },
+    "message-circle-heart": {
+      "component": "MessageCircleHeart",
+      "to": "message-heart-circle",
+      "match": "reordered"
+    },
+    "message-circle-more": {
+      "component": "MessageCircleMore",
+      "to": "message-dots-circle",
+      "match": "suggested"
+    },
+    "message-circle-plus": {
+      "component": "MessageCirclePlus",
+      "to": "message-plus-circle",
+      "match": "reordered"
+    },
+    "message-circle-question": {
+      "component": "MessageCircleQuestion",
+      "to": "message-question-circle",
+      "match": "reordered"
+    },
+    "message-circle-question-mark": {
+      "component": "MessageCircleQuestionMark",
+      "to": "message-question-circle",
+      "match": "suggested"
+    },
+    "message-circle-reply": {
+      "component": "MessageCircleReply",
+      "to": "message-chat-circle",
+      "match": "suggested"
+    },
+    "message-circle-text": {
+      "component": "MessageCircleText",
+      "to": "message-text-circle",
+      "match": "reordered"
+    },
+    "message-circle-warning": {
+      "component": "MessageCircleWarning",
+      "to": "message-alert-circle",
+      "match": "suggested"
+    },
+    "message-square": {
+      "component": "MessageSquare",
+      "to": "message-square",
+      "match": "exact"
+    },
+    "message-square-alert": {
+      "component": "MessageSquareAlert",
+      "to": "message-alert-square",
+      "match": "reordered"
+    },
+    "message-square-check": {
+      "component": "MessageSquareCheck",
+      "to": "message-check-square",
+      "match": "reordered"
+    },
+    "message-square-dot": {
+      "component": "MessageSquareDot",
+      "to": "message-unread-square",
+      "match": "suggested"
+    },
+    "message-square-heart": {
+      "component": "MessageSquareHeart",
+      "to": "message-heart-square",
+      "match": "reordered"
+    },
+    "message-square-more": {
+      "component": "MessageSquareMore",
+      "to": "message-dots-square",
+      "match": "suggested"
+    },
+    "message-square-plus": {
+      "component": "MessageSquarePlus",
+      "to": "message-plus-square",
+      "match": "reordered"
+    },
+    "message-square-reply": {
+      "component": "MessageSquareReply",
+      "to": "message-chat-square",
+      "match": "suggested"
+    },
+    "message-square-text": {
+      "component": "MessageSquareText",
+      "to": "message-text-square",
+      "match": "reordered"
+    },
+    "message-square-warning": {
+      "component": "MessageSquareWarning",
+      "to": "message-alert-square",
+      "match": "suggested"
+    },
+    "mic": {
+      "component": "Mic",
+      "to": "headset-mic",
+      "match": "suggested"
+    },
+    "mic-2": {
+      "component": "Mic2",
+      "to": "headset-mic",
+      "match": "suggested"
+    },
+    "mic-off": {
+      "component": "MicOff",
+      "to": "microphone-off",
+      "match": "suggested"
+    },
+    "microscope": {
+      "component": "Microscope",
+      "to": "microscope",
+      "match": "exact"
+    },
+    "minimize": {
+      "component": "Minimize",
+      "to": "minimize",
+      "match": "exact"
+    },
+    "minimize-2": {
+      "component": "Minimize2",
+      "to": "minimize",
+      "match": "normalized"
+    },
+    "minus": {
+      "component": "Minus",
+      "to": "minus",
+      "match": "exact"
+    },
+    "minus-circle": {
+      "component": "MinusCircle",
+      "to": "minus-circle",
+      "match": "exact"
+    },
+    "minus-square": {
+      "component": "MinusSquare",
+      "to": "minus-square",
+      "match": "exact"
+    },
+    "monitor": {
+      "component": "Monitor",
+      "to": "monitor",
+      "match": "exact"
+    },
+    "monitor-activity": {
+      "component": "MonitorActivity",
+      "to": "activity",
+      "match": "suggested"
+    },
+    "moon": {
+      "component": "Moon",
+      "to": "moon",
+      "match": "exact"
+    },
+    "moon-star": {
+      "component": "MoonStar",
+      "to": "moon-star",
+      "match": "exact"
+    },
+    "more-horizontal": {
+      "component": "MoreHorizontal",
+      "to": "dots-horizontal",
+      "match": "curated"
+    },
+    "more-vertical": {
+      "component": "MoreVertical",
+      "to": "dots-vertical",
+      "match": "curated"
+    },
+    "mosque": {
+      "component": "Mosque",
+      "to": "mosque",
+      "match": "exact"
+    },
+    "mouse": {
+      "component": "Mouse",
+      "to": "mouse",
+      "match": "exact"
+    },
+    "mouse-left": {
+      "component": "MouseLeft",
+      "to": "mouse-left-click",
+      "match": "suggested"
+    },
+    "mouse-pointer": {
+      "component": "MousePointer",
+      "to": "mouse",
+      "match": "suggested"
+    },
+    "mouse-pointer-2": {
+      "component": "MousePointer2",
+      "to": "mouse",
+      "match": "suggested"
+    },
+    "mouse-pointer-click": {
+      "component": "MousePointerClick",
+      "to": "mouse-left-click",
+      "match": "suggested"
+    },
+    "mouse-right": {
+      "component": "MouseRight",
+      "to": "mouse-right-click",
+      "match": "suggested"
+    },
+    "move": {
+      "component": "Move",
+      "to": "move",
+      "match": "exact"
+    },
+    "move-left": {
+      "component": "MoveLeft",
+      "to": "image-left",
+      "match": "suggested"
+    },
+    "move-right": {
+      "component": "MoveRight",
+      "to": "image-right",
+      "match": "suggested"
+    },
+    "music": {
+      "component": "Music",
+      "to": "music-note",
+      "match": "suggested"
+    },
+    "music-2": {
+      "component": "Music2",
+      "to": "music-note",
+      "match": "suggested"
+    },
+    "music-3": {
+      "component": "Music3",
+      "to": "music-note",
+      "match": "suggested"
+    },
+    "music-4": {
+      "component": "Music4",
+      "to": "music-note",
+      "match": "suggested"
+    },
+    "navigation": {
+      "component": "Navigation",
+      "to": "navigation-pointer",
+      "match": "suggested"
+    },
+    "navigation-2": {
+      "component": "Navigation2",
+      "to": "navigation-pointer",
+      "match": "suggested"
+    },
+    "navigation-2-off": {
+      "component": "Navigation2Off",
+      "to": "navigation-pointer-off",
+      "match": "suggested"
+    },
+    "navigation-off": {
+      "component": "NavigationOff",
+      "to": "navigation-pointer-off",
+      "match": "suggested"
+    },
+    "network": {
+      "component": "Network",
+      "to": "network-3g",
+      "match": "suggested"
+    },
+    "notebook": {
+      "component": "Notebook",
+      "to": "notebook",
+      "match": "exact"
+    },
+    "octagon": {
+      "component": "Octagon",
+      "to": "octagon",
+      "match": "exact"
+    },
+    "octagon-alert": {
+      "component": "OctagonAlert",
+      "to": "alert-octagon",
+      "match": "reordered"
+    },
+    "package": {
+      "component": "Package",
+      "to": "package",
+      "match": "exact"
+    },
+    "package-2": {
+      "component": "Package2",
+      "to": "package",
+      "match": "normalized"
+    },
+    "package-check": {
+      "component": "PackageCheck",
+      "to": "package-check",
+      "match": "exact"
+    },
+    "package-minus": {
+      "component": "PackageMinus",
+      "to": "package-minus",
+      "match": "exact"
+    },
+    "package-plus": {
+      "component": "PackagePlus",
+      "to": "package-plus",
+      "match": "exact"
+    },
+    "package-search": {
+      "component": "PackageSearch",
+      "to": "package-search",
+      "match": "exact"
+    },
+    "package-x": {
+      "component": "PackageX",
+      "to": "package-x",
+      "match": "exact"
+    },
+    "paint-bucket": {
+      "component": "PaintBucket",
+      "to": "paint-pour",
+      "match": "suggested"
+    },
+    "paint-roller": {
+      "component": "PaintRoller",
+      "to": "paint-roller",
+      "match": "exact"
+    },
+    "paintbrush": {
+      "component": "Paintbrush",
+      "to": "paintbrush",
+      "match": "exact"
+    },
+    "paintbrush-2": {
+      "component": "Paintbrush2",
+      "to": "paintbrush",
+      "match": "normalized"
+    },
+    "palette": {
+      "component": "Palette",
+      "to": "palette",
+      "match": "exact"
+    },
+    "panel-bottom": {
+      "component": "PanelBottom",
+      "to": "layout-panel-bottom-open",
+      "match": "suggested"
+    },
+    "panel-bottom-open": {
+      "component": "PanelBottomOpen",
+      "to": "layout-panel-bottom-open",
+      "match": "suggested"
+    },
+    "panel-left-close": {
+      "component": "PanelLeftClose",
+      "to": "layout-sidebar-left-close-dashed",
+      "match": "suggested"
+    },
+    "panel-left-dashed": {
+      "component": "PanelLeftDashed",
+      "to": "layout-dashed-columns-left",
+      "match": "suggested"
+    },
+    "panel-left-open": {
+      "component": "PanelLeftOpen",
+      "to": "layout-sidebar-left-open",
+      "match": "suggested"
+    },
+    "panel-right-close": {
+      "component": "PanelRightClose",
+      "to": "layout-sidebar-right-close",
+      "match": "suggested"
+    },
+    "panel-right-dashed": {
+      "component": "PanelRightDashed",
+      "to": "layout-dashed-columns-right",
+      "match": "suggested"
+    },
+    "panel-top": {
+      "component": "PanelTop",
+      "to": "layout-panel-top-close",
+      "match": "suggested"
+    },
+    "panel-top-close": {
+      "component": "PanelTopClose",
+      "to": "layout-panel-top-close",
+      "match": "suggested"
+    },
+    "paperclip": {
+      "component": "Paperclip",
+      "to": "paperclip",
+      "match": "exact"
+    },
+    "pause": {
+      "component": "Pause",
+      "to": "pause",
+      "match": "exact"
+    },
+    "pause-circle": {
+      "component": "PauseCircle",
+      "to": "pause-circle",
+      "match": "exact"
+    },
+    "pen": {
+      "component": "Pen",
+      "to": "pen-tool",
+      "match": "suggested"
+    },
+    "pen-tool": {
+      "component": "PenTool",
+      "to": "pen-tool",
+      "match": "exact"
+    },
+    "pencil-sparkles": {
+      "component": "PencilSparkles",
+      "to": "edit-sparkles",
+      "match": "suggested"
+    },
+    "pentagon": {
+      "component": "Pentagon",
+      "to": "pentagon",
+      "match": "exact"
+    },
+    "percent": {
+      "component": "Percent",
+      "to": "percent",
+      "match": "exact"
+    },
+    "percent-circle": {
+      "component": "PercentCircle",
+      "to": "percent-circle",
+      "match": "exact"
+    },
+    "phone": {
+      "component": "Phone",
+      "to": "phone",
+      "match": "exact"
+    },
+    "phone-call": {
+      "component": "PhoneCall",
+      "to": "phone-call",
+      "match": "exact"
+    },
+    "phone-incoming": {
+      "component": "PhoneIncoming",
+      "to": "phone-incoming",
+      "match": "exact"
+    },
+    "phone-missed": {
+      "component": "PhoneMissed",
+      "to": "phone-dismiss",
+      "match": "suggested"
+    },
+    "phone-outgoing": {
+      "component": "PhoneOutgoing",
+      "to": "phone-outgoing",
+      "match": "exact"
+    },
+    "piano": {
+      "component": "Piano",
+      "to": "piano",
+      "match": "exact"
+    },
+    "pickaxe": {
+      "component": "Pickaxe",
+      "to": "pickaxe",
+      "match": "exact"
+    },
+    "pie-chart": {
+      "component": "PieChart",
+      "to": "chart-pie",
+      "match": "reordered"
+    },
+    "piggy-bank": {
+      "component": "PiggyBank",
+      "to": "piggy-bank",
+      "match": "exact"
+    },
+    "pilcrow": {
+      "component": "Pilcrow",
+      "to": "pilcrow",
+      "match": "exact"
+    },
+    "pilcrow-square": {
+      "component": "PilcrowSquare",
+      "to": "pilcrow-square",
+      "match": "exact"
+    },
+    "pill": {
+      "component": "Pill",
+      "to": "pill",
+      "match": "exact"
+    },
+    "pin": {
+      "component": "Pin",
+      "to": "pin",
+      "match": "exact"
+    },
+    "pizza": {
+      "component": "Pizza",
+      "to": "pizza",
+      "match": "exact"
+    },
+    "plane": {
+      "component": "Plane",
+      "to": "plane",
+      "match": "exact"
+    },
+    "plane-landing": {
+      "component": "PlaneLanding",
+      "to": "plane-landing",
+      "match": "exact"
+    },
+    "plane-takeoff": {
+      "component": "PlaneTakeoff",
+      "to": "plane-takeoff",
+      "match": "exact"
+    },
+    "play": {
+      "component": "Play",
+      "to": "play",
+      "match": "exact"
+    },
+    "play-circle": {
+      "component": "PlayCircle",
+      "to": "play-circle",
+      "match": "exact"
+    },
+    "play-square": {
+      "component": "PlaySquare",
+      "to": "play-square",
+      "match": "exact"
+    },
+    "plus": {
+      "component": "Plus",
+      "to": "plus",
+      "match": "exact"
+    },
+    "plus-circle": {
+      "component": "PlusCircle",
+      "to": "plus-circle",
+      "match": "exact"
+    },
+    "plus-square": {
+      "component": "PlusSquare",
+      "to": "plus-square",
+      "match": "exact"
+    },
+    "podcast": {
+      "component": "Podcast",
+      "to": "podcast",
+      "match": "exact"
+    },
+    "podium": {
+      "component": "Podium",
+      "to": "podium",
+      "match": "exact"
+    },
+    "pointer": {
+      "component": "Pointer",
+      "to": "navigation-pointer",
+      "match": "suggested"
+    },
+    "pointer-off": {
+      "component": "PointerOff",
+      "to": "navigation-pointer-off",
+      "match": "suggested"
+    },
+    "pound-sterling": {
+      "component": "PoundSterling",
+      "to": "currency-pound",
+      "match": "suggested"
+    },
+    "power": {
+      "component": "Power",
+      "to": "power",
+      "match": "exact"
+    },
+    "power-circle": {
+      "component": "PowerCircle",
+      "to": "zap-circle",
+      "match": "suggested"
+    },
+    "power-off": {
+      "component": "PowerOff",
+      "to": "power",
+      "match": "suggested"
+    },
+    "power-square": {
+      "component": "PowerSquare",
+      "to": "zap-square",
+      "match": "suggested"
+    },
+    "presentation": {
+      "component": "Presentation",
+      "to": "presentation",
+      "match": "exact"
+    },
+    "printer": {
+      "component": "Printer",
+      "to": "printer",
+      "match": "exact"
+    },
+    "puzzle": {
+      "component": "Puzzle",
+      "to": "puzzle-piece",
+      "match": "suggested"
+    },
+    "pyramid": {
+      "component": "Pyramid",
+      "to": "pyramid",
+      "match": "exact"
+    },
+    "qr-code": {
+      "component": "QrCode",
+      "to": "qr-code",
+      "match": "exact"
+    },
+    "question-mark": {
+      "component": "QuestionMark",
+      "to": "annotation-question",
+      "match": "suggested"
+    },
+    "quote": {
+      "component": "Quote",
+      "to": "quote",
+      "match": "exact"
+    },
+    "rabbit": {
+      "component": "Rabbit",
+      "to": "rabbit",
+      "match": "exact"
+    },
+    "radar": {
+      "component": "Radar",
+      "to": "chart-radar",
+      "match": "suggested"
+    },
+    "radiation": {
+      "component": "Radiation",
+      "to": "radiation",
+      "match": "exact"
+    },
+    "rainbow": {
+      "component": "Rainbow",
+      "to": "cloud-rainbow",
+      "match": "suggested"
+    },
+    "receipt": {
+      "component": "Receipt",
+      "to": "receipt",
+      "match": "exact"
+    },
+    "rectangle-horizontal": {
+      "component": "RectangleHorizontal",
+      "to": "capsule-horizontal",
+      "match": "suggested"
+    },
+    "rectangle-vertical": {
+      "component": "RectangleVertical",
+      "to": "capsule-vertical",
+      "match": "suggested"
+    },
+    "recycle": {
+      "component": "Recycle",
+      "to": "trash-recycle",
+      "match": "suggested"
+    },
+    "redo": {
+      "component": "Redo",
+      "to": "redo",
+      "match": "exact"
+    },
+    "redo-2": {
+      "component": "Redo2",
+      "to": "redo",
+      "match": "normalized"
+    },
+    "refresh-cw": {
+      "component": "RefreshCw",
+      "to": "refresh",
+      "match": "curated"
+    },
+    "remove-formatting": {
+      "component": "RemoveFormatting",
+      "to": "clear-formatting",
+      "match": "suggested"
+    },
+    "repeat": {
+      "component": "Repeat",
+      "to": "repeat",
+      "match": "exact"
+    },
+    "repeat-1": {
+      "component": "Repeat1",
+      "to": "repeat",
+      "match": "suggested"
+    },
+    "repeat-2": {
+      "component": "Repeat2",
+      "to": "repeat",
+      "match": "suggested"
+    },
+    "replace": {
+      "component": "Replace",
+      "to": "content-replace-sparkles",
+      "match": "suggested"
+    },
+    "reply": {
+      "component": "Reply",
+      "to": "calendar-reply",
+      "match": "suggested"
+    },
+    "rewind": {
+      "component": "Rewind",
+      "to": "rewind-clock",
+      "match": "suggested"
+    },
+    "road": {
+      "component": "Road",
+      "to": "road-barrier",
+      "match": "suggested"
+    },
+    "rocket": {
+      "component": "Rocket",
+      "to": "rocket",
+      "match": "exact"
+    },
+    "rotate-ccw": {
+      "component": "RotateCcw",
+      "to": "rotate-counterclockwise",
+      "match": "curated"
+    },
+    "rotate-cw": {
+      "component": "RotateCw",
+      "to": "rotate-clockwise",
+      "match": "curated"
+    },
+    "route": {
+      "component": "Route",
+      "to": "route",
+      "match": "exact"
+    },
+    "rows": {
+      "component": "Rows",
+      "to": "menu-rows",
+      "match": "suggested"
+    },
+    "rows-2": {
+      "component": "Rows2",
+      "to": "menu-rows",
+      "match": "suggested"
+    },
+    "rows-3": {
+      "component": "Rows3",
+      "to": "menu-rows",
+      "match": "suggested"
+    },
+    "rows-4": {
+      "component": "Rows4",
+      "to": "menu-rows",
+      "match": "suggested"
+    },
+    "rss": {
+      "component": "Rss",
+      "to": "rss",
+      "match": "exact"
+    },
+    "rugby-ball": {
+      "component": "RugbyBall",
+      "to": "ball-rugby",
+      "match": "reordered"
+    },
+    "ruler": {
+      "component": "Ruler",
+      "to": "ruler",
+      "match": "exact"
+    },
+    "russian-ruble": {
+      "component": "RussianRuble",
+      "to": "currency-ruble",
+      "match": "suggested"
+    },
+    "salad": {
+      "component": "Salad",
+      "to": "salad",
+      "match": "exact"
+    },
+    "sandwich": {
+      "component": "Sandwich",
+      "to": "sandwich",
+      "match": "exact"
+    },
+    "satellite": {
+      "component": "Satellite",
+      "to": "satellite",
+      "match": "exact"
+    },
+    "satellite-dish": {
+      "component": "SatelliteDish",
+      "to": "satellite-dish",
+      "match": "exact"
+    },
+    "save": {
+      "component": "Save",
+      "to": "save",
+      "match": "exact"
+    },
+    "scale": {
+      "component": "Scale",
+      "to": "scale",
+      "match": "exact"
+    },
+    "scan": {
+      "component": "Scan",
+      "to": "scan",
+      "match": "exact"
+    },
+    "scan-barcode": {
+      "component": "ScanBarcode",
+      "to": "scan-barcode",
+      "match": "exact"
+    },
+    "scan-eye": {
+      "component": "ScanEye",
+      "to": "iris-scan",
+      "match": "suggested"
+    },
+    "scan-face": {
+      "component": "ScanFace",
+      "to": "face-id",
+      "match": "suggested"
+    },
+    "scan-qr-code": {
+      "component": "ScanQrCode",
+      "to": "qr-code",
+      "match": "suggested"
+    },
+    "scan-search": {
+      "component": "ScanSearch",
+      "to": "search-scan",
+      "match": "reordered"
+    },
+    "scatter-chart": {
+      "component": "ScatterChart",
+      "to": "chart-scatter",
+      "match": "reordered"
+    },
+    "school": {
+      "component": "School",
+      "to": "school",
+      "match": "exact"
+    },
+    "school-2": {
+      "component": "School2",
+      "to": "school",
+      "match": "normalized"
+    },
+    "scissors": {
+      "component": "Scissors",
+      "to": "scissors",
+      "match": "exact"
+    },
+    "scissors-line-dashed": {
+      "component": "ScissorsLineDashed",
+      "to": "scissors-dashed",
+      "match": "suggested"
+    },
+    "scooter": {
+      "component": "Scooter",
+      "to": "scooter",
+      "match": "exact"
+    },
+    "scroll": {
+      "component": "Scroll",
+      "to": "mouse-scroll",
+      "match": "suggested"
+    },
+    "search": {
+      "component": "Search",
+      "to": "search",
+      "match": "exact"
+    },
+    "send": {
+      "component": "Send",
+      "to": "send",
+      "match": "exact"
+    },
+    "server": {
+      "component": "Server",
+      "to": "server",
+      "match": "exact"
+    },
+    "settings": {
+      "component": "Settings",
+      "to": "settings",
+      "match": "exact"
+    },
+    "settings-2": {
+      "component": "Settings2",
+      "to": "settings",
+      "match": "normalized"
+    },
+    "shapes": {
+      "component": "Shapes",
+      "to": "shapes",
+      "match": "exact"
+    },
+    "share": {
+      "component": "Share",
+      "to": "share",
+      "match": "exact"
+    },
+    "share-2": {
+      "component": "Share2",
+      "to": "share",
+      "match": "normalized"
+    },
+    "shield": {
+      "component": "Shield",
+      "to": "shield",
+      "match": "exact"
+    },
+    "shield-alert": {
+      "component": "ShieldAlert",
+      "to": "shield-alert",
+      "match": "exact"
+    },
+    "shield-keyhole": {
+      "component": "ShieldKeyhole",
+      "to": "shield-keyhole",
+      "match": "exact"
+    },
+    "shield-lock": {
+      "component": "ShieldLock",
+      "to": "shield-lock",
+      "match": "exact"
+    },
+    "shield-off": {
+      "component": "ShieldOff",
+      "to": "shield-off",
+      "match": "exact"
+    },
+    "shield-plus": {
+      "component": "ShieldPlus",
+      "to": "shield-plus",
+      "match": "exact"
+    },
+    "shield-user": {
+      "component": "ShieldUser",
+      "to": "shield-user",
+      "match": "exact"
+    },
+    "ship": {
+      "component": "Ship",
+      "to": "ship",
+      "match": "exact"
+    },
+    "ship-cargo": {
+      "component": "ShipCargo",
+      "to": "tanker-ship",
+      "match": "suggested"
+    },
+    "ship-wheel": {
+      "component": "ShipWheel",
+      "to": "dharma-wheel",
+      "match": "suggested"
+    },
+    "shopping-bag": {
+      "component": "ShoppingBag",
+      "to": "shopping-bag",
+      "match": "exact"
+    },
+    "shopping-basket": {
+      "component": "ShoppingBasket",
+      "to": "shopping-basket",
+      "match": "exact"
+    },
+    "shopping-cart": {
+      "component": "ShoppingCart",
+      "to": "shopping-cart",
+      "match": "exact"
+    },
+    "shovel": {
+      "component": "Shovel",
+      "to": "shovel",
+      "match": "exact"
+    },
+    "shuffle": {
+      "component": "Shuffle",
+      "to": "shuffle",
+      "match": "exact"
+    },
+    "sidebar": {
+      "component": "Sidebar",
+      "to": "layout-dashed-sidebar",
+      "match": "suggested"
+    },
+    "sidebar-close": {
+      "component": "SidebarClose",
+      "to": "layout-sidebar-right-close",
+      "match": "suggested"
+    },
+    "sidebar-open": {
+      "component": "SidebarOpen",
+      "to": "layout-sidebar-left-open",
+      "match": "suggested"
+    },
+    "sigma": {
+      "component": "Sigma",
+      "to": "sigma",
+      "match": "exact"
+    },
+    "signal": {
+      "component": "Signal",
+      "to": "signal",
+      "match": "exact"
+    },
+    "signature": {
+      "component": "Signature",
+      "to": "signature",
+      "match": "exact"
+    },
+    "siren": {
+      "component": "Siren",
+      "to": "siren",
+      "match": "exact"
+    },
+    "skip-back": {
+      "component": "SkipBack",
+      "to": "skip-back",
+      "match": "exact"
+    },
+    "skip-forward": {
+      "component": "SkipForward",
+      "to": "skip-forward",
+      "match": "exact"
+    },
+    "skull": {
+      "component": "Skull",
+      "to": "skull",
+      "match": "exact"
+    },
+    "slash": {
+      "component": "Slash",
+      "to": "slash",
+      "match": "exact"
+    },
+    "sliders": {
+      "component": "Sliders",
+      "to": "settings-sliders",
+      "match": "suggested"
+    },
+    "sliders-vertical": {
+      "component": "SlidersVertical",
+      "to": "sliders-vertical",
+      "match": "exact"
+    },
+    "smile": {
+      "component": "Smile",
+      "to": "face-smile",
+      "match": "suggested"
+    },
+    "snowflake": {
+      "component": "Snowflake",
+      "to": "snowflake",
+      "match": "exact"
+    },
+    "space": {
+      "component": "Space",
+      "to": "space-shuttle",
+      "match": "suggested"
+    },
+    "sparkle": {
+      "component": "Sparkle",
+      "to": "sparkle",
+      "match": "exact"
+    },
+    "sparkles": {
+      "component": "Sparkles",
+      "to": "sparkles",
+      "match": "exact"
+    },
+    "speaker": {
+      "component": "Speaker",
+      "to": "speaker",
+      "match": "exact"
+    },
+    "split": {
+      "component": "Split",
+      "to": "arrow-split",
+      "match": "suggested"
+    },
+    "square": {
+      "component": "Square",
+      "to": "square",
+      "match": "exact"
+    },
+    "square-activity": {
+      "component": "SquareActivity",
+      "to": "activity-square",
+      "match": "reordered"
+    },
+    "square-arrow-down": {
+      "component": "SquareArrowDown",
+      "to": "arrow-square-down",
+      "match": "reordered"
+    },
+    "square-arrow-down-left": {
+      "component": "SquareArrowDownLeft",
+      "to": "arrow-square-down-left",
+      "match": "reordered"
+    },
+    "square-arrow-down-right": {
+      "component": "SquareArrowDownRight",
+      "to": "arrow-square-down-right",
+      "match": "reordered"
+    },
+    "square-arrow-left": {
+      "component": "SquareArrowLeft",
+      "to": "arrow-square-left",
+      "match": "reordered"
+    },
+    "square-arrow-out-up-right": {
+      "component": "SquareArrowOutUpRight",
+      "to": "link-external",
+      "match": "curated"
+    },
+    "square-arrow-right": {
+      "component": "SquareArrowRight",
+      "to": "arrow-square-right",
+      "match": "reordered"
+    },
+    "square-arrow-up": {
+      "component": "SquareArrowUp",
+      "to": "arrow-square-up",
+      "match": "reordered"
+    },
+    "square-arrow-up-left": {
+      "component": "SquareArrowUpLeft",
+      "to": "arrow-square-up-left",
+      "match": "reordered"
+    },
+    "square-arrow-up-right": {
+      "component": "SquareArrowUpRight",
+      "to": "arrow-square-up-right",
+      "match": "reordered"
+    },
+    "square-bookmark": {
+      "component": "SquareBookmark",
+      "to": "bookmark-square",
+      "match": "reordered"
+    },
+    "square-check": {
+      "component": "SquareCheck",
+      "to": "check-square",
+      "match": "reordered"
+    },
+    "square-chevron-down": {
+      "component": "SquareChevronDown",
+      "to": "chevron-square-down",
+      "match": "reordered"
+    },
+    "square-chevron-left": {
+      "component": "SquareChevronLeft",
+      "to": "chevron-square-left",
+      "match": "reordered"
+    },
+    "square-chevron-right": {
+      "component": "SquareChevronRight",
+      "to": "chevron-square-right",
+      "match": "reordered"
+    },
+    "square-chevron-up": {
+      "component": "SquareChevronUp",
+      "to": "chevron-square-up",
+      "match": "reordered"
+    },
+    "square-chevrons-down": {
+      "component": "SquareChevronsDown",
+      "to": "chevrons-square-down",
+      "match": "reordered"
+    },
+    "square-chevrons-left": {
+      "component": "SquareChevronsLeft",
+      "to": "chevrons-square-left",
+      "match": "reordered"
+    },
+    "square-code": {
+      "component": "SquareCode",
+      "to": "code-square",
+      "match": "reordered"
+    },
+    "square-dashed": {
+      "component": "SquareDashed",
+      "to": "selection-square",
+      "match": "suggested"
+    },
+    "square-menu": {
+      "component": "SquareMenu",
+      "to": "menu-square",
+      "match": "reordered"
+    },
+    "square-minus": {
+      "component": "SquareMinus",
+      "to": "minus-square",
+      "match": "reordered"
+    },
+    "square-pause": {
+      "component": "SquarePause",
+      "to": "pause-square",
+      "match": "reordered"
+    },
+    "square-pilcrow": {
+      "component": "SquarePilcrow",
+      "to": "pilcrow-square",
+      "match": "reordered"
+    },
+    "square-play": {
+      "component": "SquarePlay",
+      "to": "play-square",
+      "match": "reordered"
+    },
+    "square-plus": {
+      "component": "SquarePlus",
+      "to": "plus-square",
+      "match": "reordered"
+    },
+    "square-power": {
+      "component": "SquarePower",
+      "to": "zap-square",
+      "match": "suggested"
+    },
+    "square-square": {
+      "component": "SquareSquare",
+      "to": "square",
+      "match": "suggested"
+    },
+    "square-stop": {
+      "component": "SquareStop",
+      "to": "stop-square",
+      "match": "reordered"
+    },
+    "square-terminal": {
+      "component": "SquareTerminal",
+      "to": "terminal-square",
+      "match": "reordered"
+    },
+    "square-text": {
+      "component": "SquareText",
+      "to": "message-text-square",
+      "match": "suggested"
+    },
+    "square-user": {
+      "component": "SquareUser",
+      "to": "user-square",
+      "match": "reordered"
+    },
+    "square-x": {
+      "component": "SquareX",
+      "to": "x-square",
+      "match": "reordered"
+    },
+    "squircle": {
+      "component": "Squircle",
+      "to": "squircle",
+      "match": "exact"
+    },
+    "stamp": {
+      "component": "Stamp",
+      "to": "stamp",
+      "match": "exact"
+    },
+    "star": {
+      "component": "Star",
+      "to": "star",
+      "match": "exact"
+    },
+    "stars": {
+      "component": "Stars",
+      "to": "stars",
+      "match": "exact"
+    },
+    "stethoscope": {
+      "component": "Stethoscope",
+      "to": "stethoscope",
+      "match": "exact"
+    },
+    "sticker": {
+      "component": "Sticker",
+      "to": "sticker-circle",
+      "match": "suggested"
+    },
+    "sticky-note": {
+      "component": "StickyNote",
+      "to": "note",
+      "match": "suggested"
+    },
+    "stop-circle": {
+      "component": "StopCircle",
+      "to": "stop-circle",
+      "match": "exact"
+    },
+    "store": {
+      "component": "Store",
+      "to": "building-store",
+      "match": "suggested"
+    },
+    "stretch-horizontal": {
+      "component": "StretchHorizontal",
+      "to": "arrows-horizontal",
+      "match": "suggested"
+    },
+    "stretch-vertical": {
+      "component": "StretchVertical",
+      "to": "arrows-vertical",
+      "match": "suggested"
+    },
+    "strikethrough": {
+      "component": "Strikethrough",
+      "to": "strikethrough",
+      "match": "exact"
+    },
+    "subscript": {
+      "component": "Subscript",
+      "to": "subscript",
+      "match": "exact"
+    },
+    "sun": {
+      "component": "Sun",
+      "to": "sun",
+      "match": "exact"
+    },
+    "sun-snow": {
+      "component": "SunSnow",
+      "to": "cloud-sun-snow",
+      "match": "suggested"
+    },
+    "sunrise": {
+      "component": "Sunrise",
+      "to": "sunrise",
+      "match": "exact"
+    },
+    "sunset": {
+      "component": "Sunset",
+      "to": "sunset",
+      "match": "exact"
+    },
+    "superscript": {
+      "component": "Superscript",
+      "to": "superscript",
+      "match": "exact"
+    },
+    "swiss-franc": {
+      "component": "SwissFranc",
+      "to": "currency-franc",
+      "match": "suggested"
+    },
+    "syringe": {
+      "component": "Syringe",
+      "to": "syringe",
+      "match": "exact"
+    },
+    "table": {
+      "component": "Table",
+      "to": "table",
+      "match": "exact"
+    },
+    "table-2": {
+      "component": "Table2",
+      "to": "table",
+      "match": "normalized"
+    },
+    "tablet": {
+      "component": "Tablet",
+      "to": "tablet",
+      "match": "exact"
+    },
+    "tag": {
+      "component": "Tag",
+      "to": "tag",
+      "match": "exact"
+    },
+    "target": {
+      "component": "Target",
+      "to": "target",
+      "match": "exact"
+    },
+    "telescope": {
+      "component": "Telescope",
+      "to": "telescope",
+      "match": "exact"
+    },
+    "tent": {
+      "component": "Tent",
+      "to": "tent",
+      "match": "exact"
+    },
+    "terminal": {
+      "component": "Terminal",
+      "to": "terminal",
+      "match": "exact"
+    },
+    "terminal-square": {
+      "component": "TerminalSquare",
+      "to": "terminal-square",
+      "match": "exact"
+    },
+    "test-tube": {
+      "component": "TestTube",
+      "to": "test-tube",
+      "match": "exact"
+    },
+    "test-tube-2": {
+      "component": "TestTube2",
+      "to": "test-tube",
+      "match": "normalized"
+    },
+    "text": {
+      "component": "Text",
+      "to": "cursor-text",
+      "match": "suggested"
+    },
+    "text-align-center": {
+      "component": "TextAlignCenter",
+      "to": "align-center",
+      "match": "suggested"
+    },
+    "text-align-justify": {
+      "component": "TextAlignJustify",
+      "to": "align-justify",
+      "match": "suggested"
+    },
+    "text-align-justify-center": {
+      "component": "TextAlignJustifyCenter",
+      "to": "align-center",
+      "match": "suggested"
+    },
+    "text-cursor": {
+      "component": "TextCursor",
+      "to": "cursor-text",
+      "match": "reordered"
+    },
+    "text-cursor-input": {
+      "component": "TextCursorInput",
+      "to": "cursor-text",
+      "match": "suggested"
+    },
+    "text-pen": {
+      "component": "TextPen",
+      "to": "underline-pen",
+      "match": "suggested"
+    },
+    "text-wrap": {
+      "component": "TextWrap",
+      "to": "paragraph-wrap",
+      "match": "suggested"
+    },
+    "thermometer": {
+      "component": "Thermometer",
+      "to": "thermometer",
+      "match": "exact"
+    },
+    "thermometer-snowflake": {
+      "component": "ThermometerSnowflake",
+      "to": "thermometer-cold",
+      "match": "suggested"
+    },
+    "thermometer-sun": {
+      "component": "ThermometerSun",
+      "to": "thermometer-warm",
+      "match": "suggested"
+    },
+    "thumbs-down": {
+      "component": "ThumbsDown",
+      "to": "thumb-down",
+      "match": "suggested"
+    },
+    "thumbs-up": {
+      "component": "ThumbsUp",
+      "to": "thumb-up",
+      "match": "suggested"
+    },
+    "ticket": {
+      "component": "Ticket",
+      "to": "ticket",
+      "match": "exact"
+    },
+    "timer": {
+      "component": "Timer",
+      "to": "timer",
+      "match": "exact"
+    },
+    "tornado": {
+      "component": "Tornado",
+      "to": "tornado",
+      "match": "exact"
+    },
+    "traffic-cone": {
+      "component": "TrafficCone",
+      "to": "traffic-cone",
+      "match": "exact"
+    },
+    "train": {
+      "component": "Train",
+      "to": "train",
+      "match": "exact"
+    },
+    "trash": {
+      "component": "Trash",
+      "to": "trash",
+      "match": "exact"
+    },
+    "trash-2": {
+      "component": "Trash2",
+      "to": "trash",
+      "match": "normalized"
+    },
+    "tree-palm": {
+      "component": "TreePalm",
+      "to": "palm-tree",
+      "match": "reordered"
+    },
+    "tree-pine": {
+      "component": "TreePine",
+      "to": "tree-pine",
+      "match": "exact"
+    },
+    "triangle": {
+      "component": "Triangle",
+      "to": "triangle",
+      "match": "exact"
+    },
+    "triangle-alert": {
+      "component": "TriangleAlert",
+      "to": "alert-triangle",
+      "match": "curated"
+    },
+    "triangle-right": {
+      "component": "TriangleRight",
+      "to": "triangle-right",
+      "match": "exact"
+    },
+    "trophy": {
+      "component": "Trophy",
+      "to": "trophy",
+      "match": "exact"
+    },
+    "truck": {
+      "component": "Truck",
+      "to": "truck",
+      "match": "exact"
+    },
+    "turkish-lira": {
+      "component": "TurkishLira",
+      "to": "currency-lira",
+      "match": "suggested"
+    },
+    "turtle": {
+      "component": "Turtle",
+      "to": "turtle",
+      "match": "exact"
+    },
+    "tv": {
+      "component": "Tv",
+      "to": "tv",
+      "match": "exact"
+    },
+    "tv-2": {
+      "component": "Tv2",
+      "to": "tv",
+      "match": "normalized"
+    },
+    "type": {
+      "component": "Type",
+      "to": "type",
+      "match": "exact"
+    },
+    "umbrella": {
+      "component": "Umbrella",
+      "to": "umbrella",
+      "match": "exact"
+    },
+    "underline": {
+      "component": "Underline",
+      "to": "underline",
+      "match": "exact"
+    },
+    "undo": {
+      "component": "Undo",
+      "to": "undo",
+      "match": "exact"
+    },
+    "undo-2": {
+      "component": "Undo2",
+      "to": "undo",
+      "match": "normalized"
+    },
+    "unfold-vertical": {
+      "component": "UnfoldVertical",
+      "to": "unfold-vertical",
+      "match": "exact"
+    },
+    "unlock": {
+      "component": "Unlock",
+      "to": "unlock",
+      "match": "exact"
+    },
+    "unlock-keyhole": {
+      "component": "UnlockKeyhole",
+      "to": "keyhole-circle",
+      "match": "suggested"
+    },
+    "upload": {
+      "component": "Upload",
+      "to": "upload",
+      "match": "exact"
+    },
+    "upload-cloud": {
+      "component": "UploadCloud",
+      "to": "upload-cloud",
+      "match": "exact"
+    },
+    "usb": {
+      "component": "Usb",
+      "to": "usb-lock",
+      "match": "suggested"
+    },
+    "user": {
+      "component": "User",
+      "to": "user",
+      "match": "exact"
+    },
+    "user-2": {
+      "component": "User2",
+      "to": "user",
+      "match": "normalized"
+    },
+    "user-check": {
+      "component": "UserCheck",
+      "to": "user-check",
+      "match": "exact"
+    },
+    "user-check-2": {
+      "component": "UserCheck2",
+      "to": "user-check",
+      "match": "normalized"
+    },
+    "user-circle": {
+      "component": "UserCircle",
+      "to": "user-circle",
+      "match": "exact"
+    },
+    "user-circle-2": {
+      "component": "UserCircle2",
+      "to": "user-circle",
+      "match": "normalized"
+    },
+    "user-cog": {
+      "component": "UserCog",
+      "to": "settings-user",
+      "match": "suggested"
+    },
+    "user-cog-2": {
+      "component": "UserCog2",
+      "to": "settings-user",
+      "match": "suggested"
+    },
+    "user-lock": {
+      "component": "UserLock",
+      "to": "user-lock",
+      "match": "exact"
+    },
+    "user-minus": {
+      "component": "UserMinus",
+      "to": "user-minus",
+      "match": "exact"
+    },
+    "user-minus-2": {
+      "component": "UserMinus2",
+      "to": "user-minus",
+      "match": "normalized"
+    },
+    "user-plus": {
+      "component": "UserPlus",
+      "to": "user-add",
+      "match": "curated"
+    },
+    "user-plus-2": {
+      "component": "UserPlus2",
+      "to": "image-user-plus",
+      "match": "suggested"
+    },
+    "user-round": {
+      "component": "UserRound",
+      "to": "user-circle",
+      "match": "suggested"
+    },
+    "user-shield": {
+      "component": "UserShield",
+      "to": "shield-user",
+      "match": "reordered"
+    },
+    "user-square": {
+      "component": "UserSquare",
+      "to": "user-square",
+      "match": "exact"
+    },
+    "user-square-2": {
+      "component": "UserSquare2",
+      "to": "user-square",
+      "match": "normalized"
+    },
+    "user-x": {
+      "component": "UserX",
+      "to": "image-user-x",
+      "match": "suggested"
+    },
+    "user-x-2": {
+      "component": "UserX2",
+      "to": "image-user-x",
+      "match": "suggested"
+    },
+    "users": {
+      "component": "Users",
+      "to": "users",
+      "match": "exact"
+    },
+    "users-2": {
+      "component": "Users2",
+      "to": "users",
+      "match": "normalized"
+    },
+    "variable": {
+      "component": "Variable",
+      "to": "variable",
+      "match": "exact"
+    },
+    "verified": {
+      "component": "Verified",
+      "to": "badge-verified",
+      "match": "suggested"
+    },
+    "video": {
+      "component": "Video",
+      "to": "video-recorder",
+      "match": "curated"
+    },
+    "video-off": {
+      "component": "VideoOff",
+      "to": "video-recorder-off",
+      "match": "suggested"
+    },
+    "virus": {
+      "component": "Virus",
+      "to": "virus",
+      "match": "exact"
+    },
+    "voicemail": {
+      "component": "Voicemail",
+      "to": "voicemail",
+      "match": "exact"
+    },
+    "volleyball": {
+      "component": "Volleyball",
+      "to": "ball-volleyball",
+      "match": "suggested"
+    },
+    "volume": {
+      "component": "Volume",
+      "to": "volume-max",
+      "match": "suggested"
+    },
+    "volume-1": {
+      "component": "Volume1",
+      "to": "volume-max",
+      "match": "suggested"
+    },
+    "volume-2": {
+      "component": "Volume2",
+      "to": "volume-max",
+      "match": "suggested"
+    },
+    "volume-off": {
+      "component": "VolumeOff",
+      "to": "volume-x",
+      "match": "suggested"
+    },
+    "volume-x": {
+      "component": "VolumeX",
+      "to": "volume-x",
+      "match": "exact"
+    },
+    "wallet": {
+      "component": "Wallet",
+      "to": "wallet",
+      "match": "exact"
+    },
+    "wallet-2": {
+      "component": "Wallet2",
+      "to": "wallet",
+      "match": "normalized"
+    },
+    "wand": {
+      "component": "Wand",
+      "to": "wand",
+      "match": "exact"
+    },
+    "wand-2": {
+      "component": "Wand2",
+      "to": "wand",
+      "match": "normalized"
+    },
+    "wand-sparkles": {
+      "component": "WandSparkles",
+      "to": "wand-sparkles",
+      "match": "exact"
+    },
+    "warehouse": {
+      "component": "Warehouse",
+      "to": "warehouse",
+      "match": "exact"
+    },
+    "watch": {
+      "component": "Watch",
+      "to": "watch-circle",
+      "match": "suggested"
+    },
+    "waves": {
+      "component": "Waves",
+      "to": "waves",
+      "match": "exact"
+    },
+    "webcam": {
+      "component": "Webcam",
+      "to": "webcam",
+      "match": "exact"
+    },
+    "whistle": {
+      "component": "Whistle",
+      "to": "whistle",
+      "match": "exact"
+    },
+    "wifi": {
+      "component": "Wifi",
+      "to": "wifi",
+      "match": "exact"
+    },
+    "wifi-off": {
+      "component": "WifiOff",
+      "to": "wifi-off",
+      "match": "exact"
+    },
+    "wind": {
+      "component": "Wind",
+      "to": "wind",
+      "match": "exact"
+    },
+    "wine": {
+      "component": "Wine",
+      "to": "wine-glass",
+      "match": "suggested"
+    },
+    "workflow": {
+      "component": "Workflow",
+      "to": "agent-workflow",
+      "match": "suggested"
+    },
+    "wrap-text": {
+      "component": "WrapText",
+      "to": "paragraph-wrap",
+      "match": "suggested"
+    },
+    "x": {
+      "component": "X",
+      "to": "x",
+      "match": "exact"
+    },
+    "x-circle": {
+      "component": "XCircle",
+      "to": "x-circle",
+      "match": "exact"
+    },
+    "x-square": {
+      "component": "XSquare",
+      "to": "x-square",
+      "match": "exact"
+    },
+    "zap": {
+      "component": "Zap",
+      "to": "zap",
+      "match": "exact"
+    },
+    "zap-off": {
+      "component": "ZapOff",
+      "to": "zap-off",
+      "match": "exact"
+    },
+    "zoom-in": {
+      "component": "ZoomIn",
+      "to": "zoom-in",
+      "match": "exact"
+    },
+    "zoom-out": {
+      "component": "ZoomOut",
+      "to": "zoom-out",
+      "match": "exact"
+    }
+  },
+  "unmapped": [
+    "a-large-small",
+    "accessibility",
+    "ad",
+    "air-vent",
+    "alarm-smoke",
+    "album",
+    "align-end-horizontal",
+    "align-end-vertical",
+    "align-horizontal-distribute-center",
+    "align-horizontal-distribute-end",
+    "align-horizontal-distribute-start",
+    "align-horizontal-justify-center",
+    "align-horizontal-justify-end",
+    "align-horizontal-justify-start",
+    "align-horizontal-space-around",
+    "align-horizontal-space-between",
+    "align-start-horizontal",
+    "align-start-vertical",
+    "align-vertical-distribute-center",
+    "align-vertical-distribute-end",
+    "align-vertical-distribute-start",
+    "align-vertical-justify-center",
+    "align-vertical-justify-end",
+    "align-vertical-justify-start",
+    "align-vertical-space-around",
+    "align-vertical-space-between",
+    "ampersand",
+    "ampersands",
+    "amphora",
+    "angry",
+    "annoyed",
+    "antenna",
+    "anvil",
+    "aperture",
+    "app-window-mac",
+    "archive-arrow-down",
+    "archive-arrow-up",
+    "archive-restore",
+    "archive-x",
+    "armchair",
+    "armenian-dram",
+    "arrow-big-down",
+    "arrow-big-down-dash",
+    "arrow-big-left",
+    "arrow-big-left-dash",
+    "arrow-big-right",
+    "arrow-big-right-dash",
+    "arrow-big-up",
+    "arrow-big-up-dash",
+    "arrow-down-az",
+    "arrow-down-from-line",
+    "arrow-down-left-from-circle",
+    "arrow-down-left-from-square",
+    "arrow-down-narrow-wide",
+    "arrow-down-right-from-circle",
+    "arrow-down-right-from-square",
+    "arrow-down-to-dot",
+    "arrow-down-up",
+    "arrow-down-wide-narrow",
+    "arrow-down-za",
+    "arrow-left-from-line",
+    "arrow-left-right",
+    "arrow-right-from-line",
+    "arrow-right-left",
+    "arrow-up-az",
+    "arrow-up-down",
+    "arrow-up-from-dot",
+    "arrow-up-from-line",
+    "arrow-up-left-from-circle",
+    "arrow-up-left-from-square",
+    "arrow-up-narrow-wide",
+    "arrow-up-right-from-circle",
+    "arrow-up-right-from-square",
+    "arrow-up-wide-narrow",
+    "arrow-up-za",
+    "arrows-from-axis-dashed-horizontal",
+    "arrows-from-axis-dashed-vertical",
+    "arrows-from-axis-horizontal",
+    "arrows-from-axis-vertical",
+    "arrows-to-axis-dashed-horizontal",
+    "arrows-to-axis-dashed-vertical",
+    "arrows-to-axis-horizontal",
+    "arrows-to-axis-vertical",
+    "arrows-up-from-line",
+    "asterisk-square",
+    "asterism",
+    "astroid",
+    "audio-lines",
+    "audio-lines-off",
+    "audio-lines-x",
+    "audio-waveform",
+    "avocado",
+    "axe",
+    "axis-3-d",
+    "axis-3d",
+    "azerbaijani-manat",
+    "baby",
+    "bacon",
+    "badge-alert",
+    "badge-cent",
+    "badge-dollar-sign",
+    "badge-euro",
+    "badge-exclamation-point",
+    "badge-help",
+    "badge-indian-rupee",
+    "badge-japanese-yen",
+    "badge-plus",
+    "badge-pound-sterling",
+    "badge-question-mark",
+    "badge-russian-ruble",
+    "badge-swiss-franc",
+    "badge-turkish-lira",
+    "badge-x",
+    "baggage-claim",
+    "ball-wave",
+    "balloon",
+    "ban",
+    "bangladeshi-taka",
+    "banknote",
+    "banknote-arrow-down",
+    "banknote-arrow-up",
+    "banknote-check",
+    "banknote-x",
+    "bar-chart-big",
+    "bar-chart-horizontal-big",
+    "barrel",
+    "baseline",
+    "bath",
+    "battery-exclamation-point",
+    "battery-plus",
+    "bean",
+    "bean-off",
+    "bed",
+    "bed-double",
+    "bed-single",
+    "beef",
+    "beef-off",
+    "beer-off",
+    "belarusian-ruble",
+    "bell-check",
+    "bell-dot",
+    "bell-electric",
+    "between-horizonal-end",
+    "between-horizonal-start",
+    "between-horizontal-end",
+    "between-horizontal-start",
+    "between-vertical-end",
+    "between-vertical-start",
+    "biceps-flexed",
+    "bike",
+    "binary",
+    "birdhouse",
+    "blend",
+    "blender",
+    "blinds",
+    "bomb",
+    "book-a",
+    "book-alert",
+    "book-audio",
+    "book-check",
+    "book-copy",
+    "book-dashed",
+    "book-down",
+    "book-exclamation-point",
+    "book-headphones",
+    "book-heart",
+    "book-image",
+    "book-key",
+    "book-lock",
+    "book-marked",
+    "book-minus",
+    "book-open-check",
+    "book-open-text",
+    "book-plus",
+    "book-search",
+    "book-template",
+    "book-text",
+    "book-type",
+    "book-up",
+    "book-up-2",
+    "book-user",
+    "book-x",
+    "boom-box",
+    "bot-check",
+    "bot-message-square",
+    "bot-minus",
+    "bot-off",
+    "bot-plus",
+    "bot-x",
+    "bottle-wine",
+    "bow-arrow",
+    "boxes",
+    "boxes-linked",
+    "braces",
+    "brain-circuit",
+    "brain-cog",
+    "brain-off",
+    "brick-wall-fire",
+    "brick-wall-shield",
+    "briefcase-conveyor-belt",
+    "briefcase-medical",
+    "briefcase-plus",
+    "bring-to-front",
+    "broccoli",
+    "broom",
+    "broom-sparkles",
+    "brush-cleaning",
+    "bubbles",
+    "bug-off",
+    "bug-play",
+    "building-complex",
+    "building-complex-plus",
+    "bus-front",
+    "cable",
+    "cable-car",
+    "cake-slice",
+    "calendar-arrow-down",
+    "calendar-arrow-left",
+    "calendar-arrow-right",
+    "calendar-arrow-up",
+    "calendar-chevrons-left",
+    "calendar-chevrons-right",
+    "calendar-cog",
+    "calendar-fold",
+    "calendar-plus",
+    "calendar-plus-2",
+    "calendar-range",
+    "calendar-search",
+    "calendar-x",
+    "calendar-x-2",
+    "calendars",
+    "can",
+    "can-soda",
+    "candy",
+    "candy-cane",
+    "candy-off",
+    "cannabis",
+    "cannabis-off",
+    "captions",
+    "captions-off",
+    "car-battery",
+    "car-front",
+    "car-taxi-front",
+    "caravan",
+    "card-sim",
+    "carets-from-axis-dashed-horizontal",
+    "carets-from-axis-dashed-vertical",
+    "carets-from-axis-horizontal",
+    "carets-from-axis-vertical",
+    "carets-to-axis-dashed-horizontal",
+    "carets-to-axis-dashed-vertical",
+    "carets-to-axis-horizontal",
+    "carets-to-axis-vertical",
+    "carton",
+    "carton-off",
+    "case-lower",
+    "case-sensitive",
+    "case-upper",
+    "cassette-tape",
+    "cast",
+    "cctv-off",
+    "chart-bar-big",
+    "chart-bar-decreasing",
+    "chart-bar-increasing",
+    "chart-bell-curve",
+    "chart-column-big",
+    "chart-column-decreasing",
+    "chart-column-increasing",
+    "chart-column-stacked",
+    "chart-network",
+    "chart-no-axes-column",
+    "chart-no-axes-column-decreasing",
+    "chart-no-axes-column-increasing",
+    "chart-no-axes-combined",
+    "chart-no-axes-gantt",
+    "chart-quadrant",
+    "chart-spline",
+    "check-line",
+    "cheese",
+    "cherry",
+    "chess-bishop",
+    "chess-king",
+    "chess-knight",
+    "chess-pawn",
+    "chess-queen",
+    "chess-rook",
+    "chevron-first",
+    "chevron-last",
+    "chevrons-down-up",
+    "chevrons-from-axis-dashed-horizontal",
+    "chevrons-from-axis-dashed-vertical",
+    "chevrons-from-axis-horizontal",
+    "chevrons-from-axis-vertical",
+    "chevrons-left-right",
+    "chevrons-left-right-ellipsis",
+    "chevrons-right-left",
+    "chevrons-to-axis-dashed-horizontal",
+    "chevrons-to-axis-dashed-vertical",
+    "chevrons-to-axis-horizontal",
+    "chevrons-to-axis-vertical",
+    "chevrons-up-down",
+    "cigarette",
+    "cigarette-off",
+    "cinema",
+    "circle-arrow-down-left-exit",
+    "circle-arrow-down-right-exit",
+    "circle-arrow-out-down-left",
+    "circle-arrow-out-down-right",
+    "circle-arrow-out-up-left",
+    "circle-arrow-out-up-right",
+    "circle-arrow-up-left-exit",
+    "circle-arrow-up-right-exit",
+    "circle-bounce",
+    "circle-check-big",
+    "circle-chevrons-left",
+    "circle-chevrons-right",
+    "circle-chevrons-up",
+    "circle-divide",
+    "circle-dollar-sign",
+    "circle-dot-dashed",
+    "circle-equal",
+    "circle-exclamation-point",
+    "circle-fading-arrow-up",
+    "circle-fading-check",
+    "circle-fading-play",
+    "circle-fading-plus",
+    "circle-letter-a",
+    "circle-letter-b",
+    "circle-letter-c",
+    "circle-letter-d",
+    "circle-letter-e",
+    "circle-letter-f",
+    "circle-letter-g",
+    "circle-letter-h",
+    "circle-letter-i",
+    "circle-letter-j",
+    "circle-letter-k",
+    "circle-letter-l",
+    "circle-letter-m",
+    "circle-letter-n",
+    "circle-letter-o",
+    "circle-letter-p",
+    "circle-letter-p-off",
+    "circle-letter-q",
+    "circle-letter-r",
+    "circle-letter-s",
+    "circle-letter-t",
+    "circle-letter-u",
+    "circle-letter-v",
+    "circle-letter-w",
+    "circle-letter-x",
+    "circle-letter-y",
+    "circle-letter-z",
+    "circle-off",
+    "circle-parking",
+    "circle-parking-off",
+    "circle-person-arms-spread",
+    "circle-pile",
+    "circle-slashed",
+    "circle-small",
+    "circle-star",
+    "circuit-board",
+    "citrus",
+    "clef-alto",
+    "clef-bass",
+    "clipboard-clock",
+    "clipboard-edit",
+    "clipboard-pen",
+    "clipboard-pen-line",
+    "clipboard-signature",
+    "clipboard-type",
+    "clipboard-x",
+    "clock-alert",
+    "clock-arrow-down",
+    "clock-arrow-left",
+    "clock-arrow-right",
+    "clock-arrow-up",
+    "clock-exclamation-point",
+    "clock-fading",
+    "closed-caption",
+    "cloud-check",
+    "cloud-cog",
+    "cloud-exclamation-point",
+    "cloud-rain-wind",
+    "cloudy",
+    "clover",
+    "cog",
+    "columns-3-cog",
+    "columns-settings",
+    "combine",
+    "component",
+    "computer",
+    "concierge-bell",
+    "construction",
+    "contact",
+    "contact-2",
+    "contact-round",
+    "cooking-pot",
+    "copy-check",
+    "copy-minus",
+    "copy-slash",
+    "copy-x",
+    "copyleft",
+    "creative-commons",
+    "credit-card-reader",
+    "cup-soda",
+    "cupcake",
+    "curly-braces",
+    "dam",
+    "database-arrow-down",
+    "database-arrow-up",
+    "database-backup",
+    "database-check",
+    "database-cog",
+    "database-minus",
+    "database-plus",
+    "database-search",
+    "database-x",
+    "database-zap",
+    "decimals-arrow-left",
+    "decimals-arrow-right",
+    "dessert",
+    "diagram-flow-horizontal",
+    "diagram-flow-vertical",
+    "diameter",
+    "diamond-minus",
+    "diamond-percent",
+    "diamond-plus",
+    "dices",
+    "diff",
+    "divide-circle",
+    "divide-square",
+    "dna-off",
+    "dock",
+    "doghouse",
+    "dollar-sign",
+    "dome",
+    "door-closed",
+    "door-closed-cog",
+    "door-closed-locked",
+    "door-closed-package",
+    "door-open",
+    "door-stairwell",
+    "dot-square",
+    "drama",
+    "droplet",
+    "droplet-off",
+    "drumstick",
+    "ear-off",
+    "earbuds-off",
+    "earth",
+    "earth-lock",
+    "egg-fried",
+    "egg-off",
+    "eighth-notes",
+    "eject",
+    "emirati-dirham",
+    "engine",
+    "equal-approximately",
+    "equal-approximately-not",
+    "equal-square",
+    "ethernet-port",
+    "ev-charger",
+    "exclamation-mark",
+    "eye-closed",
+    "eye-dashed",
+    "face-angry",
+    "face-grinning",
+    "face-slightly-frowning",
+    "face-slightly-smiling",
+    "face-slightly-smiling-plus",
+    "faucet",
+    "file-axis-3-d",
+    "file-axis-3d",
+    "file-badge",
+    "file-badge-2",
+    "file-bar-chart",
+    "file-bar-chart-2",
+    "file-box",
+    "file-braces",
+    "file-braces-corner",
+    "file-chart-column",
+    "file-chart-column-increasing",
+    "file-chart-line",
+    "file-chart-pie",
+    "file-check-corner",
+    "file-clock",
+    "file-code-corner",
+    "file-cog",
+    "file-cog-2",
+    "file-diff",
+    "file-digit",
+    "file-down",
+    "file-edit",
+    "file-exclamation-point",
+    "file-headphone",
+    "file-input",
+    "file-key",
+    "file-key-2",
+    "file-line-chart",
+    "file-minus-corner",
+    "file-pen",
+    "file-pen-line",
+    "file-pie-chart",
+    "file-play",
+    "file-scan",
+    "file-search-corner",
+    "file-signal",
+    "file-signature",
+    "file-sliders",
+    "file-stack",
+    "file-symlink",
+    "file-terminal",
+    "file-type",
+    "file-type-2",
+    "file-type-corner",
+    "file-up",
+    "file-user",
+    "file-video-camera",
+    "file-volume",
+    "file-volume-2",
+    "file-warning",
+    "file-x-corner",
+    "fingerprint-pattern",
+    "fire-extinguisher",
+    "fish-off",
+    "fish-symbol",
+    "fishing-hook",
+    "fishing-rod",
+    "flag-off",
+    "flag-triangle-left",
+    "flag-triangle-right",
+    "flame",
+    "flame-kindling",
+    "flashlight",
+    "flashlight-off",
+    "flask-conical",
+    "flask-conical-off",
+    "flask-round",
+    "flip-vertical",
+    "flip-vertical-2",
+    "folder-archive",
+    "folder-bookmark",
+    "folder-clock",
+    "folder-closed",
+    "folder-cog",
+    "folder-cog-2",
+    "folder-dot",
+    "folder-down",
+    "folder-edit",
+    "folder-git",
+    "folder-git-2",
+    "folder-heart",
+    "folder-input",
+    "folder-kanban",
+    "folder-key",
+    "folder-open-dot",
+    "folder-output",
+    "folder-pen",
+    "folder-root",
+    "folder-symlink",
+    "folder-sync",
+    "folder-tree",
+    "folder-up",
+    "folder-user",
+    "folder-users",
+    "folder-x",
+    "folders",
+    "footprints",
+    "fork-knife",
+    "fork-knife-crossed",
+    "forklift",
+    "form",
+    "frame",
+    "fullscreen",
+    "function-square",
+    "galaxy",
+    "gallery-horizontal",
+    "gallery-horizontal-end",
+    "gallery-thumbnails",
+    "gallery-vertical",
+    "gallery-vertical-end",
+    "gamepad",
+    "gamepad-2",
+    "gamepad-directional",
+    "gantt-chart-square",
+    "gap-horizontal",
+    "gap-vertical",
+    "gem",
+    "georgian-lari",
+    "germ",
+    "germ-off",
+    "ghost",
+    "git-branch-minus",
+    "git-branch-plus",
+    "git-commit-horizontal",
+    "git-commit-vertical",
+    "git-compare",
+    "git-compare-arrows",
+    "git-graph",
+    "git-merge-conflict",
+    "git-pull-request-arrow",
+    "git-pull-request-closed",
+    "git-pull-request-create",
+    "git-pull-request-create-arrow",
+    "git-pull-request-draft",
+    "globe-ban",
+    "globe-check",
+    "globe-code",
+    "globe-lock",
+    "globe-off",
+    "globe-plus",
+    "globe-x",
+    "gpu",
+    "grab",
+    "grape",
+    "graph-hub",
+    "graph-ring",
+    "graph-star",
+    "grid-2-x-2",
+    "grid-2-x-2-check",
+    "grid-2-x-2-plus",
+    "grid-2-x-2-x",
+    "grid-2x2-check",
+    "grid-2x2-plus",
+    "grid-2x2-x",
+    "grid-3-x-2",
+    "grid-3-x-3",
+    "grid-3-x-3-off",
+    "grid-3x2",
+    "grid-3x3",
+    "grid-3x3-off",
+    "grip-horizontal",
+    "grip-vertical",
+    "groceries",
+    "group",
+    "ham",
+    "hamburger",
+    "hand-fist",
+    "hand-grab",
+    "hand-helping",
+    "hand-metal",
+    "hand-platter",
+    "hand-truck",
+    "handbag",
+    "handle-bottom-right",
+    "hard-drive-download",
+    "hard-drive-upload",
+    "hat-glasses",
+    "haze",
+    "hdmi-port",
+    "headphone-off",
+    "heart-crack",
+    "heart-handshake",
+    "heart-minus",
+    "heart-off",
+    "heart-plus",
+    "heart-x",
+    "heater",
+    "helping-hand",
+    "hop",
+    "hop-off",
+    "hot-air-balloon",
+    "hourglass-cog",
+    "house-arrow-left",
+    "house-arrow-right",
+    "house-cog",
+    "house-heart",
+    "house-plug",
+    "house-plus",
+    "houses",
+    "ice-cream-bowl",
+    "id-card-lanyard",
+    "image-minus",
+    "image-off",
+    "image-play",
+    "images",
+    "import",
+    "indent-decrease",
+    "inspect",
+    "inspection-panel",
+    "iteration-ccw",
+    "iteration-cw",
+    "iv-bag",
+    "jacket",
+    "kanban",
+    "kanban-square",
+    "kanban-square-dashed",
+    "kayak",
+    "kazakh-tenge",
+    "key-round",
+    "key-square",
+    "keyboard-music",
+    "keyboard-off",
+    "lambda",
+    "lamp",
+    "lamp-ceiling",
+    "lamp-desk",
+    "lamp-floor",
+    "lamp-wall-down",
+    "lamp-wall-up",
+    "land-plot",
+    "landmark",
+    "languages",
+    "laptop-minimal",
+    "laptop-minimal-check",
+    "laser",
+    "laugh",
+    "layer-arrow-down",
+    "layer-arrow-up",
+    "layers-arrow-down",
+    "layers-arrow-up",
+    "layers-minus",
+    "layers-plus",
+    "layout-arrow-down",
+    "layout-arrow-right",
+    "layout-freeform",
+    "layout-grid-circles",
+    "layout-grid-plus",
+    "layout-list",
+    "layout-template",
+    "leafy-green",
+    "lectern",
+    "lens-concave",
+    "lens-convex",
+    "letter-a",
+    "letter-b",
+    "letter-c",
+    "letter-d",
+    "letter-f",
+    "letter-g",
+    "letter-h",
+    "letter-i",
+    "letter-j",
+    "letter-k",
+    "letter-l",
+    "letter-m",
+    "letter-n",
+    "letter-o",
+    "letter-p",
+    "letter-q",
+    "letter-r",
+    "letter-s",
+    "letter-t",
+    "letter-u",
+    "letter-v",
+    "letter-w",
+    "letter-x",
+    "letter-y",
+    "letter-z",
+    "letters",
+    "library-big",
+    "library-square",
+    "ligature",
+    "line-dot-bottom-vertical",
+    "line-dot-left-horizontal",
+    "line-dot-right-horizontal",
+    "line-dot-top-vertical",
+    "line-squiggle",
+    "line-style",
+    "list-check",
+    "list-checks",
+    "list-chevrons-down-up",
+    "list-chevrons-up-down",
+    "list-clock",
+    "list-collapse",
+    "list-end",
+    "list-filter",
+    "list-filter-plus",
+    "list-indent-decrease",
+    "list-indent-increase",
+    "list-minus",
+    "list-music",
+    "list-plus",
+    "list-restart",
+    "list-start",
+    "list-tree",
+    "list-video",
+    "list-x",
+    "loader-pinwheel",
+    "locate",
+    "locate-fixed",
+    "locate-off",
+    "location-edit",
+    "lock-keyhole-open",
+    "logs",
+    "lollipop",
+    "m-square",
+    "mail-alert",
+    "mail-badge",
+    "mail-check",
+    "mail-clock",
+    "mail-dot",
+    "mail-exclamation-point",
+    "mail-minus",
+    "mail-pen",
+    "mail-plus",
+    "mail-question",
+    "mail-question-mark",
+    "mail-search",
+    "mail-warning",
+    "mail-x",
+    "mailbox",
+    "mails",
+    "mango",
+    "map-minus",
+    "map-pin-check",
+    "map-pin-check-inside",
+    "map-pin-house",
+    "map-pin-minus",
+    "map-pin-minus-inside",
+    "map-pin-off",
+    "map-pin-pen",
+    "map-pin-plus",
+    "map-pin-plus-inside",
+    "map-pin-search",
+    "map-pin-x",
+    "map-pin-x-inside",
+    "map-pinned",
+    "map-plus",
+    "margin",
+    "margin-bottom",
+    "margin-horizontal",
+    "margin-left",
+    "margin-right",
+    "margin-top",
+    "margin-vertical",
+    "mars",
+    "mars-stroke",
+    "martini",
+    "megaphone-off",
+    "meh",
+    "memory-stick",
+    "message-circle-code",
+    "message-circle-dashed",
+    "message-circle-dashed-check",
+    "message-circle-exclamation-point",
+    "message-circle-off",
+    "message-circle-x",
+    "message-square-code",
+    "message-square-dashed",
+    "message-square-diff",
+    "message-square-exclamation-point",
+    "message-square-lock",
+    "message-square-off",
+    "message-square-quote",
+    "message-square-share",
+    "message-square-x",
+    "messages-circle",
+    "messages-square",
+    "metronome",
+    "mic-audio-lines",
+    "mic-signal",
+    "mic-vocal",
+    "microchip",
+    "microwave",
+    "midi-port",
+    "milestone",
+    "milk",
+    "milk-off",
+    "mirror-rectangular",
+    "mirror-round",
+    "monitor-check",
+    "monitor-cloud",
+    "monitor-cog",
+    "monitor-dot",
+    "monitor-down",
+    "monitor-off",
+    "monitor-pause",
+    "monitor-pc",
+    "monitor-play",
+    "monitor-smartphone",
+    "monitor-speaker",
+    "monitor-stop",
+    "monitor-up",
+    "monitor-x",
+    "mop",
+    "mop-sparkles",
+    "moped",
+    "motorbike",
+    "mound-shovel",
+    "mountain",
+    "mountain-snow",
+    "mouse-off",
+    "mouse-pointer-2-off",
+    "mouse-pointer-ban",
+    "mouse-pointer-square-dashed",
+    "mouth",
+    "mouth-off",
+    "move-3-d",
+    "move-3d",
+    "move-diagonal",
+    "move-diagonal-2",
+    "move-down",
+    "move-down-left",
+    "move-down-right",
+    "move-horizontal",
+    "move-up",
+    "move-up-left",
+    "move-up-right",
+    "move-vertical",
+    "nepali-rupee",
+    "newspaper",
+    "nfc",
+    "nigerian-naira",
+    "non-binary",
+    "notebook-dot",
+    "notebook-pen",
+    "notebook-tabs",
+    "notebook-text",
+    "notepad-text",
+    "notepad-text-dashed",
+    "numbers",
+    "nut",
+    "nut-off",
+    "octagon-exclamation-point",
+    "octagon-minus",
+    "octagon-pause",
+    "octagon-x",
+    "omega",
+    "opacity",
+    "option",
+    "orbit",
+    "origami",
+    "outdent",
+    "package-open",
+    "package-pen",
+    "package-question-mark",
+    "paint-gun",
+    "paintbrush-vertical",
+    "palmtree",
+    "panda",
+    "panel-bottom-close",
+    "panel-bottom-dashed",
+    "panel-bottom-inactive",
+    "panel-left",
+    "panel-left-inactive",
+    "panel-left-right-dashed",
+    "panel-right",
+    "panel-right-inactive",
+    "panel-right-open",
+    "panel-top-bottom-dashed",
+    "panel-top-dashed",
+    "panel-top-inactive",
+    "panel-top-open",
+    "panels-left-bottom",
+    "panels-left-right",
+    "panels-right-bottom",
+    "panels-top-bottom",
+    "panels-top-left",
+    "paper-bag",
+    "parasol",
+    "parentheses",
+    "park",
+    "parking-circle",
+    "parking-circle-off",
+    "parking-meter",
+    "parking-square",
+    "parking-square-off",
+    "party-popper",
+    "pause-octagon",
+    "paw-print",
+    "pc-case",
+    "pen-box",
+    "pen-line",
+    "pen-off",
+    "pen-square",
+    "pencil",
+    "pencil-line",
+    "pencil-off",
+    "pencil-ruler",
+    "percent-diamond",
+    "percent-square",
+    "perfume-bottle",
+    "person-standing",
+    "phi",
+    "philippine-peso",
+    "phone-forwarded",
+    "phone-log",
+    "phone-off",
+    "pi",
+    "pi-square",
+    "picture-in-picture",
+    "picture-in-picture-2",
+    "pilcrow-left",
+    "pilcrow-right",
+    "pill-bottle",
+    "pin-off",
+    "pipette",
+    "plant-pot",
+    "play-off",
+    "playing-card",
+    "playing-cards",
+    "playing-cards-fan",
+    "plug",
+    "plug-2",
+    "plug-zap",
+    "plug-zap-2",
+    "pocket-knife",
+    "popcorn",
+    "popsicle",
+    "printer-3-d",
+    "printer-3d",
+    "printer-check",
+    "printer-x",
+    "projector",
+    "proportions",
+    "radical",
+    "radio",
+    "radio-off",
+    "radio-receiver",
+    "radio-tower",
+    "radius",
+    "rat",
+    "ratio",
+    "receipt-cent",
+    "receipt-euro",
+    "receipt-indian-rupee",
+    "receipt-japanese-yen",
+    "receipt-pound-sterling",
+    "receipt-russian-ruble",
+    "receipt-swiss-franc",
+    "receipt-text",
+    "receipt-turkish-lira",
+    "rectangle-circle",
+    "rectangle-ellipsis",
+    "rectangle-goggles",
+    "redo-dot",
+    "refresh-ccw",
+    "refresh-ccw-dot",
+    "refresh-cw-off",
+    "refrigerator",
+    "regex",
+    "repeat-off",
+    "replace-all",
+    "reply-all",
+    "ribbon",
+    "robot-arm",
+    "robot-vacuum",
+    "rocking-chair",
+    "roller-coaster",
+    "rose",
+    "rotate-3-d",
+    "rotate-3d",
+    "rotate-ccw-clock",
+    "rotate-ccw-key",
+    "rotate-ccw-square",
+    "rotate-cw-clock",
+    "rotate-cw-fading-clock",
+    "rotate-cw-square",
+    "route-arrow-right",
+    "route-off",
+    "router",
+    "ruler-dimension-line",
+    "sailboat",
+    "saudi-riyal",
+    "save-all",
+    "save-check",
+    "save-off",
+    "save-pen",
+    "save-plus",
+    "scale-3-d",
+    "scale-3d",
+    "scaling",
+    "scan-box",
+    "scan-heart",
+    "scan-line",
+    "scan-square",
+    "scan-text",
+    "scissors-square",
+    "scissors-square-dashed-bottom",
+    "scratch-blocks",
+    "screen-share",
+    "screen-share-off",
+    "screw",
+    "scroll-text",
+    "search-alert",
+    "search-check",
+    "search-code",
+    "search-exclamation-point",
+    "search-slash",
+    "search-x",
+    "section",
+    "send-horizonal",
+    "send-horizontal",
+    "send-to-back",
+    "separator-horizontal",
+    "separator-vertical",
+    "server-cog",
+    "server-crash",
+    "server-nas",
+    "server-off",
+    "server-plus",
+    "sheet",
+    "shell",
+    "shelving-unit",
+    "shield-ban",
+    "shield-check",
+    "shield-close",
+    "shield-cog",
+    "shield-cog-corner",
+    "shield-ellipsis",
+    "shield-exclamation-point",
+    "shield-half",
+    "shield-house",
+    "shield-minus",
+    "shield-question",
+    "shield-question-mark",
+    "shield-x",
+    "shirt",
+    "shopping-cart-minus",
+    "shopping-cart-plus",
+    "shower-head",
+    "shredder",
+    "shrimp",
+    "shrimp-off",
+    "shrink",
+    "shrub",
+    "sigma-square",
+    "signal-high",
+    "signal-low",
+    "signal-medium",
+    "signal-zero",
+    "signpost",
+    "signpost-big",
+    "siren-off",
+    "sixteenth-notes",
+    "slash-square",
+    "slice",
+    "sliders-horizontal",
+    "smartphone",
+    "smartphone-charging",
+    "smartphone-nfc",
+    "smartphone-user-round",
+    "smile-plus",
+    "snail",
+    "soap-dispenser-droplet",
+    "sofa",
+    "solar-panel",
+    "sort-asc",
+    "sort-desc",
+    "soup",
+    "spade",
+    "speech",
+    "spell-check",
+    "spell-check-2",
+    "spline",
+    "spline-pointer",
+    "split-square-horizontal",
+    "split-square-vertical",
+    "spool",
+    "sport-shoe",
+    "spotlight",
+    "spray-can",
+    "sprout",
+    "square-arrow-down-enter",
+    "square-arrow-down-exit",
+    "square-arrow-down-left-enter",
+    "square-arrow-down-left-exit",
+    "square-arrow-down-right-enter",
+    "square-arrow-down-right-exit",
+    "square-arrow-left-enter",
+    "square-arrow-left-exit",
+    "square-arrow-out-down-left",
+    "square-arrow-out-down-right",
+    "square-arrow-out-up-left",
+    "square-arrow-right-enter",
+    "square-arrow-right-exit",
+    "square-arrow-up-enter",
+    "square-arrow-up-exit",
+    "square-arrow-up-left-enter",
+    "square-arrow-up-left-exit",
+    "square-arrow-up-right-enter",
+    "square-arrow-up-right-exit",
+    "square-asterisk",
+    "square-axis-dashed-horizontal",
+    "square-axis-dashed-vertical",
+    "square-axis-horizontal",
+    "square-axis-vertical",
+    "square-bottom-dashed-scissors",
+    "square-centerline-dashed-horizontal",
+    "square-centerline-dashed-vertical",
+    "square-chart-gantt",
+    "square-check-big",
+    "square-chevrons-right",
+    "square-chevrons-up",
+    "square-dashed-bottom",
+    "square-dashed-bottom-code",
+    "square-dashed-kanban",
+    "square-dashed-mouse-pointer",
+    "square-dashed-plus",
+    "square-dashed-search",
+    "square-dashed-text",
+    "square-dashed-top-solid",
+    "square-dashed-x",
+    "square-dashed-x-corner",
+    "square-dimensions",
+    "square-divide",
+    "square-dot",
+    "square-equal",
+    "square-exclamation-point",
+    "square-function",
+    "square-gantt-chart",
+    "square-kanban",
+    "square-kanban-plus",
+    "square-letter-a",
+    "square-letter-b",
+    "square-letter-c",
+    "square-letter-d",
+    "square-letter-e",
+    "square-letter-f",
+    "square-letter-g",
+    "square-letter-h",
+    "square-letter-i",
+    "square-letter-j",
+    "square-letter-k",
+    "square-letter-l",
+    "square-letter-m",
+    "square-letter-n",
+    "square-letter-o",
+    "square-letter-p",
+    "square-letter-p-off",
+    "square-letter-q",
+    "square-letter-r",
+    "square-letter-s",
+    "square-letter-t",
+    "square-letter-u",
+    "square-letter-v",
+    "square-letter-w",
+    "square-letter-x",
+    "square-letter-y",
+    "square-letter-z",
+    "square-library",
+    "square-m",
+    "square-mouse-pointer",
+    "square-off",
+    "square-padding",
+    "square-padding-bottom",
+    "square-padding-horizontal",
+    "square-padding-left",
+    "square-padding-right",
+    "square-padding-top",
+    "square-padding-vertical",
+    "square-parking",
+    "square-parking-off",
+    "square-pen",
+    "square-percent",
+    "square-pi",
+    "square-radical",
+    "square-round-corner",
+    "square-scissors",
+    "square-sigma",
+    "square-slash",
+    "square-sparkles",
+    "square-split-horizontal",
+    "square-split-vertical",
+    "square-stack",
+    "square-star",
+    "square-user-round",
+    "squares-exclude",
+    "squares-intersect",
+    "squares-subtract",
+    "squares-unite",
+    "squircle-dashed",
+    "squirrel",
+    "star-check",
+    "star-half",
+    "star-minus",
+    "star-off",
+    "star-plus",
+    "star-x",
+    "step-back",
+    "step-forward",
+    "sticky-note-check",
+    "sticky-note-minus",
+    "sticky-note-off",
+    "sticky-note-plus",
+    "sticky-note-x",
+    "sticky-notes",
+    "stone",
+    "stroke-line-cap-butt",
+    "stroke-line-cap-round",
+    "stroke-line-cap-square",
+    "stroke-line-join-bevel",
+    "stroke-line-join-miter",
+    "stroke-line-join-round",
+    "stroke-width",
+    "subtitles",
+    "summary",
+    "sun-dim",
+    "sun-medium",
+    "sun-moon",
+    "swatch-book",
+    "switch-camera",
+    "sword",
+    "swords",
+    "table-cells-merge",
+    "table-cells-split",
+    "table-columns-split",
+    "table-config",
+    "table-of-contents",
+    "table-properties",
+    "table-rows-split",
+    "tablet-smartphone",
+    "tablets",
+    "tag-plus",
+    "tag-x",
+    "tags",
+    "tally-1",
+    "tally-2",
+    "tally-3",
+    "tally-4",
+    "tally-5",
+    "tangent",
+    "tent-tree",
+    "test-tube-diagonal",
+    "test-tubes",
+    "text-align-end",
+    "text-align-justify-end",
+    "text-align-justify-start",
+    "text-align-start",
+    "text-initial",
+    "text-quote",
+    "text-search",
+    "text-select",
+    "text-selection",
+    "theater",
+    "tic-tac-toe",
+    "ticket-check",
+    "ticket-minus",
+    "ticket-percent",
+    "ticket-plus",
+    "ticket-slash",
+    "ticket-x",
+    "tickets",
+    "tickets-plane",
+    "timeline",
+    "timer-off",
+    "timer-reset",
+    "toggle-left",
+    "toggle-right",
+    "toilet",
+    "tombstone",
+    "tool-case",
+    "toolbox",
+    "toothbrush",
+    "toothbrush-sparkles",
+    "torus",
+    "touchpad",
+    "touchpad-off",
+    "towel-rack",
+    "tower-control",
+    "toy-brick",
+    "tractor",
+    "trailer",
+    "train-front",
+    "train-front-tunnel",
+    "train-track",
+    "tram-front",
+    "transgender",
+    "trash-off",
+    "tree-deciduous",
+    "trees",
+    "trending-down",
+    "trending-up",
+    "trending-up-down",
+    "triangle-dashed",
+    "triangle-exclamation-point",
+    "triangles-centerline-dashed-horizontal",
+    "triangles-centerline-dashed-vertical",
+    "truck-electric",
+    "tube-lotion",
+    "turntable",
+    "tv-minimal",
+    "tv-minimal-play",
+    "type-outline",
+    "umbrella-off",
+    "undo-dot",
+    "unfold-horizontal",
+    "ungroup",
+    "university",
+    "unlink",
+    "unlink-2",
+    "unplug",
+    "usb-c-port",
+    "user-exclamation-point",
+    "user-group",
+    "user-key",
+    "user-pen",
+    "user-round-arrow-left",
+    "user-round-check",
+    "user-round-cog",
+    "user-round-exclamation-point",
+    "user-round-group",
+    "user-round-key",
+    "user-round-minus",
+    "user-round-pen",
+    "user-round-plus",
+    "user-round-search",
+    "user-round-shield",
+    "user-round-star",
+    "user-round-x",
+    "user-search",
+    "user-star",
+    "users-collaboration",
+    "users-round",
+    "users-round-collaboration",
+    "utensils",
+    "utensils-crossed",
+    "utility-pole",
+    "van",
+    "vault",
+    "vector-polygon",
+    "vector-square",
+    "vegan",
+    "venetian-mask",
+    "venus",
+    "venus-and-mars",
+    "vibrate",
+    "vibrate-off",
+    "videotape",
+    "view",
+    "virus-off",
+    "vote",
+    "wallet-cards",
+    "wallet-minimal",
+    "wallpaper",
+    "warehouse-waves",
+    "washing-machine",
+    "waves-arrow-down",
+    "waves-arrow-up",
+    "waves-horizontal",
+    "waves-ladder",
+    "waves-vertical",
+    "waypoints",
+    "webcam-off",
+    "webhook",
+    "webhook-off",
+    "weight",
+    "weight-tilde",
+    "wheat",
+    "wheat-off",
+    "whole-word",
+    "wifi-cog",
+    "wifi-high",
+    "wifi-lock",
+    "wifi-low",
+    "wifi-pen",
+    "wifi-sync",
+    "wifi-zero",
+    "wind-arrow-down",
+    "wind-arrow-up",
+    "wine-off",
+    "worm",
+    "wrench",
+    "wrench-off",
+    "x-line-top",
+    "x-octagon",
+    "zodiac-aquarius",
+    "zodiac-aries",
+    "zodiac-cancer",
+    "zodiac-capricorn",
+    "zodiac-gemini",
+    "zodiac-leo",
+    "zodiac-libra",
+    "zodiac-ophiuchus",
+    "zodiac-pisces",
+    "zodiac-sagittarius",
+    "zodiac-scorpio",
+    "zodiac-taurus",
+    "zodiac-virgo"
+  ]
+}

@@ -27,6 +27,7 @@ consistently, from design to code. Icon count is not the success metric.
 | Plugin | What it does | Source |
 | --- | --- | --- |
 | Framer | Search, customize, and insert Fos Icons in the editor | [plugins/framer](plugins/framer/) |
+| Claude Code | The MCP server plus both agent skills in one install | [plugins/claude](plugins/claude/) |
 
 ## AI agent skills
 
@@ -38,6 +39,16 @@ without guessing names or drawing SVG. They pair with the MCP server at
 | --- | --- |
 | [fos-icons](skills/fos-icons/SKILL.md) | Picks the library, finds icons through the MCP tools, writes the right import, style, size and accessibility |
 | [fos-icons-migrate](skills/fos-icons-migrate/SKILL.md) | Switches a project from lucide, heroicons or react-icons, using generated name maps |
+
+In Claude Code, install both skills and the MCP server as one plugin:
+
+```sh
+claude plugin marketplace add fos-icons/fos-icons
+claude plugin install fos-icons@fos-icons
+```
+
+The plugin carries a copy of `skills/`. After editing a skill, run
+`npm run sync:plugin`; `npm test` fails if the copy is out of date.
 
 The migration maps in `skills/fos-icons-migrate/maps/` are generated. To
 refresh them after icons are added or renamed, unpack `lucide-static` and
