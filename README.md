@@ -28,6 +28,25 @@ consistently, from design to code. Icon count is not the success metric.
 | --- | --- | --- |
 | Framer | Search, customize, and insert Fos Icons in the editor | [plugins/framer](plugins/framer/) |
 
+## AI agent skills
+
+Two [Agent Skills](https://agentskills.io) teach coding agents to use Fos Icons
+without guessing names or drawing SVG. They pair with the MCP server at
+`https://www.fosicons.com/mcp`.
+
+| Skill | What it does |
+| --- | --- |
+| [fos-icons](skills/fos-icons/SKILL.md) | Picks the library, finds icons through the MCP tools, writes the right import, style, size and accessibility |
+| [fos-icons-migrate](skills/fos-icons-migrate/SKILL.md) | Switches a project from lucide, heroicons or react-icons, using generated name maps |
+
+The migration maps in `skills/fos-icons-migrate/maps/` are generated. To
+refresh them after icons are added or renamed, unpack `lucide-static` and
+`heroicons` from npm and run:
+
+```sh
+node scripts/migration-maps.mjs --lucide <lucide-static dir> --heroicons <heroicons dir>
+```
+
 ## Source files
 
 | Path | What's inside |
