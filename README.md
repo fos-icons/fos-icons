@@ -36,7 +36,7 @@ is at [fosicons.com/ai-agents](https://www.fosicons.com/ai-agents).
 
 ## AI agent skills
 
-Two [Agent Skills](https://agentskills.io) teach coding agents to use Fos Icons
+Three [Agent Skills](https://agentskills.io) teach coding agents to use Fos Icons
 without guessing names or drawing SVG. They pair with the MCP server at
 `https://www.fosicons.com/mcp`.
 
@@ -44,8 +44,9 @@ without guessing names or drawing SVG. They pair with the MCP server at
 | --- | --- |
 | [fos-icons](skills/fos-icons/SKILL.md) | Picks the library, finds icons through the MCP tools, writes the right import, style, size and accessibility |
 | [fos-icons-migrate](skills/fos-icons-migrate/SKILL.md) | Switches a project from lucide, heroicons or react-icons, using generated name maps |
+| [fos-icons-animate](skills/fos-icons-animate/SKILL.md) | Adds a curated animated icon, or animates any icon with a motion through the MCP server |
 
-In Claude Code, install both skills and the MCP server as one plugin:
+In Claude Code, install the skills and the MCP server as one plugin:
 
 ```sh
 claude plugin marketplace add fos-icons/fos-icons
@@ -76,11 +77,36 @@ refresh them after icons are added or renamed, unpack `lucide-static` and
 node scripts/migration-maps.mjs --lucide <lucide-static dir> --heroicons <heroicons dir>
 ```
 
+## Animated icons
+
+[icons/animated/](icons/animated/) holds a curated set of common icons with a
+CSS animation inside the SVG: check, heart, wifi, bell, refresh, loaders,
+download, upload, and more. They are built from the Regular artwork by
+[scripts/animate.mjs](scripts/animate.mjs), using the motions listed in
+[metadata/animated.json](metadata/animated.json).
+
+```sh
+npm run animate        # regenerate icons/animated/*.svg
+npm run animate:check  # CI: fail if a file is stale
+```
+
+- Every class and keyframe is prefixed `fa-<name>-`, so many inline icons can
+  share a page without their styles colliding.
+- The un-animated frame is the normal icon. Reduced motion, or a host that
+  sets `animation: none` until hover, shows it unchanged.
+- **Don't run SVGO on these files.** Its `collapseGroups` merges the animated
+  groups into transformed paths, which sends rotations off-canvas. `npm run
+  optimize` only touches the four static styles.
+
+To add one, add an entry to `metadata/animated.json` and run
+`npm run animate`. The motions are documented in
+[skills/fos-icons-animate](skills/fos-icons-animate/SKILL.md).
+
 ## Source files
 
 | Path | What's inside |
 | --- | --- |
-| [icons/](icons/) | Canonical SVGs in Regular, Filled, Duocolor, and Duotone |
+| [icons/](icons/) | Canonical SVGs in Regular, Filled, Duocolor, and Duotone, plus generated animated icons |
 | [modifiers/](modifiers/) | Reusable modifier glyphs and backplates |
 | [manifest.json](manifest.json) | Icon names, categories, tags, and Figma source IDs |
 

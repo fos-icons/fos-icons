@@ -22,6 +22,7 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run optimize:check
+      - run: npm run animate:check
       - run: python3 -m unittest discover -s tests
       - run: python3 scripts/validate.py
 

@@ -1,0 +1,1112 @@
+{
+  "schemaVersion": 1,
+  "description": "Animated icons built from Regular artwork by scripts/animate.mjs. `source` builds from another Regular icon; `add` borrows parts from others. Parts are paths in source order (subpaths too when split is true), then added parts; origins are 24px-grid coordinates.",
+  "icons": {
+    "alert-triangle": {
+      "motions": [
+        {
+          "type": "swing",
+          "parts": [
+            0,
+            1,
+            2
+          ],
+          "origin": [
+            12,
+            20.5
+          ],
+          "deg": 8,
+          "dur": 1.8
+        }
+      ]
+    },
+    "arrow-right": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0,
+            1
+          ],
+          "x": 2.5,
+          "dur": 1.2
+        }
+      ]
+    },
+    "battery-charging": {
+      "source": "battery-full",
+      "motions": [
+        {
+          "type": "reveal",
+          "parts": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "dur": 2.4,
+          "span": 0.7
+        }
+      ]
+    },
+    "bell": {
+      "split": true,
+      "motions": [
+        {
+          "type": "swing",
+          "parts": [
+            1
+          ],
+          "origin": [
+            12,
+            3.5
+          ],
+          "dur": 2
+        },
+        {
+          "type": "swing",
+          "parts": [
+            0
+          ],
+          "origin": [
+            12,
+            3.5
+          ],
+          "dur": 2,
+          "delay": 0.08
+        }
+      ]
+    },
+    "bookmark": {
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0
+          ],
+          "origin": [
+            12,
+            2.625
+          ],
+          "dur": 1.6,
+          "frames": {
+            "20%": "transform:scaleY(.85)",
+            "40%": "transform:scaleY(1.06)",
+            "55%,100%": "transform:none"
+          }
+        }
+      ]
+    },
+    "check": {
+      "motions": [
+        {
+          "type": "draw",
+          "parts": [
+            0
+          ]
+        }
+      ]
+    },
+    "check-circle": {
+      "split": true,
+      "motions": [
+        {
+          "type": "draw",
+          "parts": [
+            1,
+            0
+          ],
+          "span": 0.6
+        }
+      ]
+    },
+    "chevron-circle-down": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            1
+          ],
+          "dur": 1.2,
+          "y": 1.5
+        }
+      ]
+    },
+    "chevron-circle-left": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            1
+          ],
+          "dur": 1.2,
+          "x": -1.5
+        }
+      ]
+    },
+    "chevron-circle-right": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            1
+          ],
+          "dur": 1.2,
+          "x": 1.5
+        }
+      ]
+    },
+    "chevron-circle-up": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            1
+          ],
+          "dur": 1.2,
+          "y": -1.5
+        }
+      ]
+    },
+    "chevron-down": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "y": 2
+        }
+      ]
+    },
+    "chevron-large-down": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "y": 1.5
+        }
+      ]
+    },
+    "chevron-large-left": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "x": -1.5
+        }
+      ]
+    },
+    "chevron-large-right": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "x": 1.5
+        }
+      ]
+    },
+    "chevron-large-up": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "y": -1.5
+        }
+      ]
+    },
+    "chevron-left": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "x": -2
+        }
+      ]
+    },
+    "chevron-outline-down": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "y": 1.5
+        }
+      ]
+    },
+    "chevron-outline-left": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "x": -1.5
+        }
+      ]
+    },
+    "chevron-outline-right": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "x": 1.5
+        }
+      ]
+    },
+    "chevron-outline-up": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "y": -1.5
+        }
+      ]
+    },
+    "chevron-right": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "x": 2
+        }
+      ]
+    },
+    "chevron-selector-horizontal": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "x": -1.5
+        },
+        {
+          "type": "nudge",
+          "parts": [
+            1
+          ],
+          "dur": 1.2,
+          "x": 1.5
+        }
+      ]
+    },
+    "chevron-selector-vertical": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "y": -1.5
+        },
+        {
+          "type": "nudge",
+          "parts": [
+            1
+          ],
+          "dur": 1.2,
+          "y": 1.5
+        }
+      ]
+    },
+    "chevron-square-down": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            1
+          ],
+          "dur": 1.2,
+          "y": 1.5
+        }
+      ]
+    },
+    "chevron-square-left": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            1
+          ],
+          "dur": 1.2,
+          "x": -1.5
+        }
+      ]
+    },
+    "chevron-square-right": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            1
+          ],
+          "dur": 1.2,
+          "x": 1.5
+        }
+      ]
+    },
+    "chevron-square-up": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            1
+          ],
+          "dur": 1.2,
+          "y": -1.5
+        }
+      ]
+    },
+    "chevron-up": {
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "y": -2
+        }
+      ]
+    },
+    "chevrons-circle-down": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            1,
+            2
+          ],
+          "dur": 1.2,
+          "stagger": 0.12,
+          "frames": {
+            "40%": "transform:translate(0.0px,1.25px)",
+            "80%": "transform:none"
+          }
+        }
+      ]
+    },
+    "chevrons-collapse-horizontal": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "x": -1.5
+        },
+        {
+          "type": "nudge",
+          "parts": [
+            1
+          ],
+          "dur": 1.2,
+          "x": 1.5
+        }
+      ]
+    },
+    "chevrons-collapse-vertical": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0
+          ],
+          "dur": 1.2,
+          "y": 1.5
+        },
+        {
+          "type": "nudge",
+          "parts": [
+            1
+          ],
+          "dur": 1.2,
+          "y": -1.5
+        }
+      ]
+    },
+    "chevrons-down": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            1
+          ],
+          "dur": 1.2,
+          "stagger": 0.12,
+          "frames": {
+            "40%": "transform:translate(0.0px,1.25px)",
+            "80%": "transform:none"
+          }
+        }
+      ]
+    },
+    "chevrons-left": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            1
+          ],
+          "dur": 1.2,
+          "stagger": 0.12,
+          "frames": {
+            "40%": "transform:translate(-1.25px,0.0px)",
+            "80%": "transform:none"
+          }
+        }
+      ]
+    },
+    "chevrons-right": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            1
+          ],
+          "dur": 1.2,
+          "stagger": 0.12,
+          "frames": {
+            "40%": "transform:translate(1.25px,0.0px)",
+            "80%": "transform:none"
+          }
+        }
+      ]
+    },
+    "chevrons-square-down": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            1,
+            2
+          ],
+          "dur": 1.2,
+          "stagger": 0.12,
+          "frames": {
+            "40%": "transform:translate(0.0px,1.25px)",
+            "80%": "transform:none"
+          }
+        }
+      ]
+    },
+    "chevrons-square-left": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            1,
+            2
+          ],
+          "dur": 1.2,
+          "stagger": 0.12,
+          "frames": {
+            "40%": "transform:translate(-1.25px,0.0px)",
+            "80%": "transform:none"
+          }
+        }
+      ]
+    },
+    "chevrons-up": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            1
+          ],
+          "dur": 1.2,
+          "stagger": 0.12,
+          "frames": {
+            "40%": "transform:translate(0.0px,-1.25px)",
+            "80%": "transform:none"
+          }
+        }
+      ]
+    },
+    "clock": {
+      "cuts": {
+        "1": 3
+      },
+      "motions": [
+        {
+          "type": "spin",
+          "parts": [
+            1
+          ],
+          "origin": [
+            12.1,
+            12
+          ],
+          "dur": 3
+        },
+        {
+          "type": "spin",
+          "parts": [
+            2
+          ],
+          "origin": [
+            12.1,
+            12
+          ],
+          "dur": 36
+        }
+      ]
+    },
+    "copy": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0
+          ],
+          "dur": 1.8,
+          "frames": {
+            "0%": "transform:translate(4.434px,4.434px);opacity:0",
+            "50%,100%": "transform:none;opacity:1"
+          }
+        }
+      ]
+    },
+    "download": {
+      "split": true,
+      "motions": [
+        {
+          "type": "travel",
+          "parts": [
+            0,
+            1
+          ],
+          "y": 3
+        }
+      ]
+    },
+    "eye": {
+      "split": true,
+      "motions": [
+        {
+          "type": "blink",
+          "parts": [
+            0,
+            1
+          ],
+          "dur": 3.2
+        }
+      ]
+    },
+    "heart": {
+      "motions": [
+        {
+          "type": "pulse",
+          "parts": [
+            0
+          ],
+          "dur": 1.2
+        }
+      ]
+    },
+    "hourglass": {
+      "source": "hourglass-start",
+      "add": [
+        {
+          "icon": "hourglass-end",
+          "parts": [
+            4
+          ]
+        }
+      ],
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "dur": 2.4,
+          "frames": {
+            "0%,55%": "transform:none",
+            "80%,100%": "transform:rotate(180deg)"
+          }
+        },
+        {
+          "type": "keyframes",
+          "parts": [
+            4
+          ],
+          "dur": 2.4,
+          "frames": {
+            "0%": "transform:none",
+            "50%,55%": "transform:translateY(-1.524px) scaleY(0) translateY(1.524px)",
+            "80%,100%": "transform:rotate(180deg) translateY(-1.524px) scaleY(0) translateY(1.524px)"
+          }
+        },
+        {
+          "type": "keyframes",
+          "parts": [
+            5
+          ],
+          "dur": 2.4,
+          "base": "transform:translateY(1.524px) scaleY(0) translateY(-1.524px)",
+          "frames": {
+            "0%": "transform:translateY(1.524px) scaleY(0) translateY(-1.524px)",
+            "50%,55%": "transform:none",
+            "80%,100%": "transform:rotate(180deg)"
+          }
+        }
+      ]
+    },
+    "loader-rays": {
+      "motions": [
+        {
+          "type": "fade",
+          "parts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "dur": 0.8,
+          "stagger": 0.1,
+          "min": 0.15
+        }
+      ]
+    },
+    "loader-spinner": {
+      "motions": [
+        {
+          "type": "spin",
+          "parts": [
+            0
+          ],
+          "dur": 0.9
+        }
+      ]
+    },
+    "loading-dots": {
+      "split": true,
+      "motions": [
+        {
+          "type": "spin",
+          "parts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "origin": [
+            11.765,
+            12.26
+          ],
+          "steps": 6,
+          "dur": 1.2
+        }
+      ]
+    },
+    "lock": {
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            1
+          ],
+          "dur": 1.8,
+          "frames": {
+            "25%,55%": "transform:translateY(-1.5px)",
+            "75%": "transform:none"
+          }
+        }
+      ]
+    },
+    "log-out": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            1,
+            2
+          ],
+          "x": 2,
+          "dur": 1.2
+        }
+      ]
+    },
+    "mail": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "dur": 2,
+          "frames": {
+            "15%": "transform:translateY(-2px) rotate(-8deg)",
+            "30%": "transform:translateY(-2px) rotate(6deg)",
+            "45%": "transform:translateY(-1px) rotate(-3deg)",
+            "60%": "transform:none"
+          }
+        }
+      ]
+    },
+    "menu": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            1,
+            2
+          ],
+          "origin": [
+            3.045,
+            12
+          ],
+          "dur": 1.4,
+          "stagger": 0.12,
+          "frames": {
+            "50%": "transform:scaleX(.55)"
+          }
+        }
+      ]
+    },
+    "moon": {
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0
+          ],
+          "dur": 3,
+          "frames": {
+            "30%": "transform:rotate(-12deg)",
+            "70%": "transform:rotate(8deg)"
+          }
+        }
+      ]
+    },
+    "plus": {
+      "motions": [
+        {
+          "type": "spin",
+          "parts": [
+            0
+          ],
+          "deg": 90,
+          "hold": 0.4,
+          "dur": 1.4
+        }
+      ]
+    },
+    "refresh": {
+      "motions": [
+        {
+          "type": "spin",
+          "parts": [
+            0,
+            1,
+            2
+          ],
+          "hold": 0.3,
+          "dur": 1.6
+        }
+      ]
+    },
+    "search": {
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0
+          ],
+          "dur": 2,
+          "frames": {
+            "25%": "transform:translate(-1.5px,-1px)",
+            "50%": "transform:translate(1px,-1.5px)",
+            "75%": "transform:translate(1px,1px)"
+          }
+        }
+      ]
+    },
+    "send": {
+      "split": true,
+      "motions": [
+        {
+          "type": "travel",
+          "parts": [
+            0,
+            1
+          ],
+          "x": 3,
+          "y": -3,
+          "dur": 1.8
+        }
+      ]
+    },
+    "settings": {
+      "motions": [
+        {
+          "type": "spin",
+          "parts": [
+            0
+          ],
+          "deg": 90,
+          "hold": 0.4,
+          "dur": 1.8
+        }
+      ]
+    },
+    "sparkles": {
+      "motions": [
+        {
+          "type": "twinkle",
+          "parts": [
+            0,
+            1,
+            2
+          ],
+          "origins": [
+            [
+              9.656,
+              13.93
+            ],
+            [
+              18.48,
+              5.105
+            ],
+            [
+              19.031,
+              20
+            ]
+          ],
+          "dur": 1.6
+        }
+      ]
+    },
+    "star": {
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0
+          ],
+          "origin": [
+            12,
+            12.8
+          ],
+          "dur": 1.8,
+          "frames": {
+            "0%": "transform:rotate(0)",
+            "25%": "transform:rotate(36deg) scale(1.15)",
+            "50%,100%": "transform:rotate(72deg)"
+          }
+        }
+      ]
+    },
+    "sun": {
+      "motions": [
+        {
+          "type": "spin",
+          "parts": [
+            1
+          ],
+          "deg": 45,
+          "hold": 0.3,
+          "dur": 2
+        },
+        {
+          "type": "keyframes",
+          "parts": [
+            0
+          ],
+          "dur": 2,
+          "frames": {
+            "35%": "transform:scale(.85)"
+          }
+        }
+      ]
+    },
+    "thumb-up": {
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0
+          ],
+          "origin": [
+            6,
+            20
+          ],
+          "dur": 1.6,
+          "frames": {
+            "20%": "transform:translateY(-1px) rotate(-12deg)",
+            "40%,100%": "transform:none"
+          }
+        }
+      ]
+    },
+    "trash": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "origin": [
+            20.375,
+            6.88
+          ],
+          "dur": 1.6,
+          "frames": {
+            "25%,55%": "transform:translateY(-0.75px) rotate(9deg)",
+            "75%": "transform:none"
+          }
+        }
+      ]
+    },
+    "upload": {
+      "split": true,
+      "motions": [
+        {
+          "type": "travel",
+          "parts": [
+            0,
+            1
+          ],
+          "y": -3
+        }
+      ]
+    },
+    "volume-max": {
+      "split": true,
+      "motions": [
+        {
+          "type": "fade",
+          "parts": [
+            1,
+            2
+          ],
+          "dur": 1.4,
+          "stagger": 0.2,
+          "min": 0.15
+        }
+      ]
+    },
+    "wifi": {
+      "split": true,
+      "motions": [
+        {
+          "type": "fade",
+          "parts": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "dur": 1.8
+        }
+      ]
+    },
+    "x": {
+      "split": true,
+      "motions": [
+        {
+          "type": "draw",
+          "parts": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "reverse": [
+            2
+          ],
+          "span": 0.55
+        }
+      ]
+    },
+    "zap": {
+      "motions": [
+        {
+          "type": "flicker",
+          "parts": [
+            0
+          ],
+          "dur": 1.6
+        }
+      ]
+    }
+  }
+}

@@ -183,6 +183,16 @@ def validate_library(root):
             errors.append(f"Missing optical sizes: {name}")
     if len(source_ids) != len(set(source_ids)):
         errors.append("Figma source IDs must be unique")
+    # Animated icons (scripts/animate.mjs) are generated from Regular artwork;
+    # npm run animate:check verifies their content, this only their presence.
+    animated_spec = root / "metadata" / "animated.json"
+    if animated_spec.exists():
+        animated = json.loads(animated_spec.read_text(encoding="utf-8")).get("icons", {})
+        names = {row.get("name") for row in icons}
+        for name in animated:
+            if name not in names:
+                errors.append(f"Animated icon has no Regular source: {name}")
+            expected.add(f"icons/animated/{name}.svg")
     actual = {str(path.relative_to(root)) for path in (root / "icons").rglob("*.svg")}
     if actual != expected:
         errors.append(f"Unmanifested/missing SVGs: {sorted(actual ^ expected)}")
