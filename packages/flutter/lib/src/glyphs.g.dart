@@ -33381,7 +33381,7 @@ abstract final class FosIcons {
 
   /// moon: regular.
   static const moonRegular = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M457.938 2531.62C447.969 2535.78 450.461 2549.9 461.261 2548.24C466.246 2548.24 469.569 2543.26 467.907 2539.93C460.43 2543.26 454.615 2537.44 457.938 2531.62Z" transform="translate(-448 -2528)" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M10.912 3.318C6.397 3.884 3.069 7.816 3.258 12.363C3.447 16.91 7.09 20.553 11.637 20.742C16.184 20.931 20.116 17.603 20.682 13.088C17.897 15.09 14.072 14.779 11.646 12.354C9.221 9.928 8.91 6.103 10.912 3.318Z" /></svg>''',
     null,
     null,
     null,
@@ -33389,7 +33389,7 @@ abstract final class FosIcons {
 
   /// moon: filled.
   static const moonFilled = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" d="M490.521 2532.51C489.047 2535.09 489.616 2537.59 491.305 2539.1C493.007 2540.62 495.961 2541.23 499.404 2539.7L499.921 2539.48L500.174 2539.98C501.107 2541.85 500.61 2544.1 499.315 2545.82C498.017 2547.55 495.859 2548.85 493.266 2548.87C490.541 2549.28 488.286 2548.7 486.61 2547.49C484.931 2546.28 483.878 2544.45 483.502 2542.47C482.748 2538.48 484.696 2533.79 489.779 2531.67L491.384 2531L490.521 2532.51Z" transform="translate(-480 -2528)" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" d="M10.835 2.698C5.997 3.304 2.431 7.517 2.633 12.389C2.836 17.261 6.739 21.164 11.611 21.367C16.483 21.569 20.696 18.003 21.302 13.165C21.333 12.919 21.215 12.677 21.001 12.55C20.788 12.423 20.519 12.435 20.317 12.58C17.781 14.403 14.297 14.12 12.088 11.912C9.88 9.703 9.597 6.219 11.42 3.683C11.565 3.481 11.577 3.212 11.45 2.999C11.323 2.785 11.081 2.667 10.835 2.698Z" /></svg>''',
     null,
     null,
     null,
@@ -33397,7 +33397,7 @@ abstract final class FosIcons {
 
   /// moon: duocolor.
   static const moonDuocolor = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M9.93813 3683.62C-0.0307723 3687.78 2.46146 3701.9 13.2611 3700.24C18.2456 3700.24 21.5685 3695.26 19.907 3691.93C12.4303 3695.26 6.61516 3689.44 9.93813 3683.62Z" transform="translate(0 -3680)" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M10.912 3.318C6.397 3.884 3.069 7.816 3.258 12.363C3.447 16.91 7.09 20.553 11.637 20.742C16.184 20.931 20.116 17.603 20.682 13.088C17.897 15.09 14.072 14.779 11.646 12.354C9.221 9.928 8.91 6.103 10.912 3.318Z" /></svg>''',
     Color(0xFF245B9E),
     null,
     null,
@@ -33405,7 +33405,7 @@ abstract final class FosIcons {
 
   /// moon: duotone.
   static const moonDuotone = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-32 -3680)"><path fill="#0102A1" fill-rule="evenodd" d="M41.9381 3683.62C31.9692 3687.78 34.4615 3701.9 45.2611 3700.24C50.2456 3700.24 53.5685 3695.26 51.907 3691.93C44.4303 3695.26 38.6152 3689.44 41.9381 3683.62Z" clip-rule="evenodd" opacity="0.16" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M41.9381 3683.62C31.9692 3687.78 34.4615 3701.9 45.2611 3700.24C50.2456 3700.24 53.5685 3695.26 51.907 3691.93C44.4303 3695.26 38.6152 3689.44 41.9381 3683.62Z" /></g></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" fill-rule="evenodd" d="M10.912 3.318C6.397 3.884 3.069 7.816 3.258 12.363C3.447 16.91 7.09 20.553 11.637 20.742C16.184 20.931 20.116 17.603 20.682 13.088C17.897 15.09 14.072 14.779 11.646 12.354C9.221 9.928 8.91 6.103 10.912 3.318Z" clip-rule="evenodd" opacity="0.16" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M10.912 3.318C6.397 3.884 3.069 7.816 3.258 12.363C3.447 16.91 7.09 20.553 11.637 20.742C16.184 20.931 20.116 17.603 20.682 13.088C17.897 15.09 14.072 14.779 11.646 12.354C9.221 9.928 8.91 6.103 10.912 3.318Z" /></svg>''',
     Color(0xFF245B9E),
     null,
     null,
