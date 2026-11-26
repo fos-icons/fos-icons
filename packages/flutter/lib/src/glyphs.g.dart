@@ -38533,7 +38533,7 @@ abstract final class FosIcons {
 
   /// power: regular.
   static const powerRegular = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M75.9999 2916.15V2923.98M71.3025 2918.5C64.2564 2923.19 68.1709 2932.59 75.9999 2931.81C83.8289 2932.59 87.7434 2923.19 80.6973 2918.5" transform="translate(-64 -2912)" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 3V12M6.697 6.18C4.04 8.41 3.061 12.063 4.248 15.322C5.434 18.581 8.532 20.75 12 20.75C15.468 20.75 18.566 18.581 19.752 15.322C20.939 12.063 19.96 8.41 17.303 6.18" /></svg>''',
     null,
     null,
     null,
@@ -38541,7 +38541,7 @@ abstract final class FosIcons {
 
   /// power: filled.
   static const powerFilled = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-96 -2912)"><path fill="#0102A1" d="M111.734 2918.18C112.023 2917.75 112.608 2917.63 113.042 2917.92C116.787 2920.42 117.703 2924.27 116.508 2927.42C115.331 2930.52 112.147 2932.83 108 2932.46C103.853 2932.83 100.669 2930.52 99.4922 2927.42C98.2972 2924.27 99.213 2920.42 102.958 2917.92C103.392 2917.63 103.977 2917.75 104.266 2918.18C104.555 2918.62 104.438 2919.2 104.005 2919.49C100.973 2921.51 100.381 2924.44 101.256 2926.75C102.141 2929.08 104.568 2930.91 107.907 2930.57L108 2930.57C108.031 2930.57 108.063 2930.57 108.093 2930.57C111.432 2930.91 113.858 2929.08 114.744 2926.75C115.62 2924.44 115.028 2921.51 111.995 2919.49C111.562 2919.2 111.445 2918.62 111.734 2918.18Z" /><path fill="#0102A1" d="M108 2915.5C108.521 2915.5 108.944 2915.93 108.944 2916.45V2923.98C108.944 2924.5 108.521 2924.92 108 2924.92C107.48 2924.92 107.057 2924.5 107.057 2923.98V2916.45C107.057 2915.93 107.48 2915.5 108 2915.5Z" /></g></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#0102A1" d="M6.09 5.457C3.129 7.941 2.039 12.012 3.36 15.645C4.682 19.277 8.135 21.694 12 21.694C15.865 21.694 19.318 19.277 20.64 15.645C21.961 12.012 20.871 7.941 17.91 5.457C17.51 5.122 16.915 5.174 16.58 5.573C16.245 5.973 16.297 6.568 16.696 6.903C19.049 8.878 19.916 12.113 18.865 14.999C17.815 17.885 15.071 19.806 12 19.806C8.929 19.806 6.185 17.885 5.135 14.999C4.084 12.113 4.951 8.878 7.304 6.903C7.703 6.568 7.755 5.973 7.42 5.573C7.085 5.174 6.49 5.122 6.09 5.457Z" /><path fill="#0102A1" d="M11.056 3C11.056 2.479 11.479 2.056 12 2.056C12.521 2.056 12.944 2.479 12.944 3V12C12.944 12.521 12.521 12.944 12 12.944C11.479 12.944 11.056 12.521 11.056 12Z" /></svg>''',
     null,
     null,
     null,
@@ -38549,7 +38549,7 @@ abstract final class FosIcons {
 
   /// power: duocolor.
   static const powerDuocolor = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-448 -2592)"><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M460 2596.15V2603.98" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M455.302 2598.5C448.256 2603.19 452.171 2612.59 460 2611.81C467.829 2612.59 471.743 2603.19 464.697 2598.5" /></g></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 3V12" /><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M6.697 6.18C4.04 8.41 3.061 12.063 4.248 15.322C5.434 18.581 8.532 20.75 12 20.75C15.468 20.75 18.566 18.581 19.752 15.322C20.939 12.063 19.96 8.41 17.303 6.18" /></svg>''',
     Color(0xFF245B9E),
     Color(0xFF5B87B7),
     null,
@@ -38557,7 +38557,7 @@ abstract final class FosIcons {
 
   /// power: duotone.
   static const powerDuotone = FosGlyph._(
-    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M492 2596.15V2603.98M487.302 2598.5C480.256 2603.19 484.171 2612.59 492 2611.81C499.829 2612.59 503.743 2603.19 496.697 2598.5" transform="translate(-480 -2592)" /></svg>''',
+    r'''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#0102A1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 3V12M6.697 6.18C4.04 8.41 3.061 12.063 4.248 15.322C5.434 18.581 8.532 20.75 12 20.75C15.468 20.75 18.566 18.581 19.752 15.322C20.939 12.063 19.96 8.41 17.303 6.18" /></svg>''',
     Color(0xFF245B9E),
     null,
     null,
