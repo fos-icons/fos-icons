@@ -3175,6 +3175,21 @@
       "aliases": []
     },
     {
+      "name": "browser-code",
+      "category": "Interfaces",
+      "tags": [
+        "web development",
+        "devtools",
+        "frontend",
+        "html",
+        "programming",
+        "window"
+      ],
+      "aliases": [
+        "code-browser"
+      ]
+    },
+    {
       "name": "brush",
       "category": "Workspace",
       "tags": [
@@ -5253,6 +5268,19 @@
       ]
     },
     {
+      "name": "clock-12",
+      "category": "Time & calendar",
+      "tags": [
+        "hour",
+        "noon",
+        "midday",
+        "midnight",
+        "twelve",
+        "schedule"
+      ],
+      "aliases": []
+    },
+    {
       "name": "clock-24",
       "category": "Time & calendar",
       "tags": [
@@ -5625,19 +5653,6 @@
         "angle brackets",
         "markup",
         "dev"
-      ],
-      "aliases": []
-    },
-    {
-      "name": "code-browser",
-      "category": "Interfaces",
-      "tags": [
-        "web development",
-        "devtools",
-        "frontend",
-        "html",
-        "programming",
-        "window"
       ],
       "aliases": []
     },
@@ -8752,6 +8767,19 @@
       "aliases": []
     },
     {
+      "name": "file-sms",
+      "category": "Files",
+      "tags": [
+        "text message",
+        "short message",
+        "mobile",
+        "chat",
+        "export",
+        "format"
+      ],
+      "aliases": []
+    },
+    {
       "name": "file-sparkles",
       "category": "Files",
       "tags": [
@@ -10733,6 +10761,19 @@
       "aliases": [
         "interface/home-profile"
       ]
+    },
+    {
+      "name": "home-signal",
+      "category": "Navigation",
+      "tags": [
+        "house",
+        "signal bars",
+        "reception",
+        "smart home",
+        "connectivity",
+        "network"
+      ],
+      "aliases": []
     },
     {
       "name": "home-smile",
@@ -18141,12 +18182,15 @@
         "forward slash",
         "divide",
         "division",
-        "or",
         "separator",
-        "stroke",
-        "line"
+        "line",
+        "breadcrumb",
+        "path",
+        "delimiter"
       ],
-      "aliases": []
+      "aliases": [
+        "slash-divider"
+      ]
     },
     {
       "name": "slash-circle",
@@ -18159,20 +18203,6 @@
         "disabled",
         "block",
         "ban"
-      ],
-      "aliases": []
-    },
-    {
-      "name": "slash-divider",
-      "category": "Essentials",
-      "tags": [
-        "separator",
-        "breadcrumb",
-        "divide",
-        "path",
-        "forward slash",
-        "or",
-        "delimiter"
       ],
       "aliases": []
     },
@@ -19443,6 +19473,19 @@
         "caret",
         "edit text",
         "input field"
+      ],
+      "aliases": []
+    },
+    {
+      "name": "text-square",
+      "category": "Interfaces",
+      "tags": [
+        "paragraph",
+        "lines",
+        "note",
+        "block",
+        "content",
+        "body copy"
       ],
       "aliases": []
     },
@@ -21471,11 +21514,11 @@
     },
     {
       "name": "Essentials",
-      "count": 94
+      "count": 93
     },
     {
       "name": "Files",
-      "count": 111
+      "count": 112
     },
     {
       "name": "Food & drink",
@@ -21487,7 +21530,7 @@
     },
     {
       "name": "Interfaces",
-      "count": 149
+      "count": 150
     },
     {
       "name": "Media & devices",
@@ -21503,7 +21546,7 @@
     },
     {
       "name": "Navigation",
-      "count": 176
+      "count": 177
     },
     {
       "name": "Professions",
@@ -21527,7 +21570,7 @@
     },
     {
       "name": "Time & calendar",
-      "count": 64
+      "count": 65
     },
     {
       "name": "Transport & space",
