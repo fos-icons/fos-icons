@@ -6,6 +6,19 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- **Redraw batch (2026-11-26).** Redrawn: copy, copy-doc, edit-circle,
+  edit-square, infinity, trash-open, whistle, wand-sparkles, folder-open,
+  inbox-full, swatchbook, tool-crossed, dumbbell, table-tennis, surfboard,
+  signal, ai-chip, robot-dog, person-boxing, ball-soccer, piano, trombone,
+  trophy and trophy-star. info-* and help-* share one "i" and one "?", and the
+  message-dots/smile/question squares share glyph sizes. New icons:
+  home-signal and text-square. New modifiers: `12`, `settings`, `bug` and
+  `sms`, used by the new clock-12 and file-sms presets and by file-settings and
+  bug-shield. file-shield, the unread/notification icons and bug-shield are now
+  presets; the `dot` modifier sits further into the top-right corner, with a
+  gap so strokes never touch it. Animations for copy, edit-circle, edit-square
+  and wand-sparkles follow the new artwork.
+
 - **AI agent skills.** `skills/fos-icons` teaches coding agents to find icons
   through the Fos Icons MCP server and write correct imports, and
   `skills/fos-icons-migrate` switches projects from lucide, heroicons or
@@ -75,6 +88,8 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Changed
 
+- **`code-browser` is now `browser-code`.** `code-browser` stays as an alias
+  with identical files.
 - Made `slash-divider` an alias of `slash`. Only `slash` is listed in the
   canonical catalog, while old component imports, selectors, Flutter
   constants, and raw SVG paths now use the `slash` artwork.
