@@ -1414,6 +1414,57 @@
         }
       ]
     },
+    "face-id": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "origin": [
+            12,
+            12
+          ],
+          "dur": 2.4,
+          "frames": {
+            "25%": "transform:scale(0.92)",
+            "55%,100%": "transform:none"
+          }
+        },
+        {
+          "type": "blink",
+          "parts": [
+            4,
+            5
+          ],
+          "origin": [
+            12,
+            8.88
+          ],
+          "dur": 2.4,
+          "delay": 0.55
+        },
+        {
+          "type": "keyframes",
+          "parts": [
+            7
+          ],
+          "origin": [
+            12,
+            16.8
+          ],
+          "dur": 2.4,
+          "frames": {
+            "38%": "transform:scale(1.06)",
+            "62%,100%": "transform:none"
+          }
+        }
+      ]
+    },
     "filter-lines": {
       "split": true,
       "motions": [
@@ -1781,24 +1832,28 @@
         }
       ]
     },
-    "microphone": {
+    "microphone-live": {
+      "split": true,
       "motions": [
         {
-          "type": "keyframes",
+          "type": "fade",
           "parts": [
-            0
-          ],
-          "origin": [
-            12,
-            13.6
+            4,
+            5
           ],
           "dur": 1.6,
-          "frames": {
-            "22%": "transform:scale(1.06)",
-            "44%": "transform:none",
-            "66%": "transform:scale(1.04)",
-            "86%,100%": "transform:none"
-          }
+          "stagger": 0.2,
+          "min": 0.2
+        },
+        {
+          "type": "fade",
+          "parts": [
+            6,
+            7
+          ],
+          "dur": 1.6,
+          "stagger": 0.2,
+          "min": 0.2
         }
       ]
     },
