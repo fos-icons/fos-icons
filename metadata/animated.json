@@ -2,6 +2,44 @@
   "schemaVersion": 1,
   "description": "Animated icons built from Regular artwork by scripts/animate.mjs. `source` builds from another Regular icon; `add` borrows parts from others. Parts are paths in source order (subpaths too when split is true), then added parts; origins are 24px-grid coordinates.",
   "icons": {
+    "activity": {
+      "motions": [
+        {
+          "type": "draw",
+          "parts": [
+            0
+          ],
+          "dur": 2,
+          "span": 0.65
+        }
+      ]
+    },
+    "alarm": {
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            1,
+            2,
+            5
+          ],
+          "origin": [
+            12,
+            12.75
+          ],
+          "dur": 1.8,
+          "frames": {
+            "8%": "transform:translateY(-0.5px) rotate(5deg)",
+            "16%": "transform:translateY(-0.5px) rotate(-5deg)",
+            "24%": "transform:translateY(-0.5px) rotate(4deg)",
+            "32%": "transform:translateY(-0.5px) rotate(-4deg)",
+            "40%": "transform:translateY(-0.25px) rotate(2deg)",
+            "48%,100%": "transform:none"
+          }
+        }
+      ]
+    },
     "alert-triangle": {
       "motions": [
         {
@@ -20,6 +58,40 @@
         }
       ]
     },
+    "annotation-dots": {
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            1,
+            2,
+            3
+          ],
+          "dur": 1.5,
+          "stagger": 0.18,
+          "frames": {
+            "20%": "transform:translateY(-1.5px)",
+            "42%,100%": "transform:none"
+          }
+        }
+      ]
+    },
+    "archive": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            2
+          ],
+          "dur": 1.8,
+          "frames": {
+            "28%,52%": "transform:translateY(-1.6px)",
+            "75%,100%": "transform:none"
+          }
+        }
+      ]
+    },
     "arrow-right": {
       "motions": [
         {
@@ -30,6 +102,37 @@
           ],
           "x": 2.5,
           "dur": 1.2
+        }
+      ]
+    },
+    "atom": {
+      "motions": [
+        {
+          "type": "spin",
+          "parts": [
+            0,
+            1,
+            2
+          ],
+          "deg": 180,
+          "origin": [
+            12,
+            12
+          ],
+          "dur": 3,
+          "ease": "linear"
+        },
+        {
+          "type": "pulse",
+          "parts": [
+            3
+          ],
+          "scale": 1.3,
+          "origin": [
+            12,
+            12
+          ],
+          "dur": 1.5
         }
       ]
     },
@@ -78,6 +181,30 @@
         }
       ]
     },
+    "boat-sail": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "origin": [
+            12,
+            19
+          ],
+          "dur": 2.8,
+          "ease": "ease-in-out",
+          "frames": {
+            "25%": "transform:rotate(-5deg) translateY(-0.5px)",
+            "75%": "transform:rotate(5deg) translateY(0.3px)"
+          }
+        }
+      ]
+    },
     "bookmark": {
       "motions": [
         {
@@ -94,6 +221,126 @@
             "20%": "transform:scaleY(.85)",
             "40%": "transform:scaleY(1.06)",
             "55%,100%": "transform:none"
+          }
+        }
+      ]
+    },
+    "bot": {
+      "split": true,
+      "motions": [
+        {
+          "type": "blink",
+          "parts": [
+            5,
+            6
+          ],
+          "origin": [
+            12,
+            13.82
+          ],
+          "dur": 2.6
+        },
+        {
+          "type": "keyframes",
+          "parts": [
+            1,
+            4
+          ],
+          "origin": [
+            12,
+            8.09
+          ],
+          "dur": 2.6,
+          "frames": {
+            "15%": "transform:rotate(10deg)",
+            "30%": "transform:rotate(-8deg)",
+            "45%,100%": "transform:none"
+          }
+        }
+      ]
+    },
+    "candle": {
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            1
+          ],
+          "origin": [
+            12,
+            9.23
+          ],
+          "dur": 2.2,
+          "ease": "ease-in-out",
+          "frames": {
+            "25%": "transform:rotate(-5deg) scaleY(1.06) scaleX(0.95);opacity:0.9",
+            "50%": "transform:rotate(4deg) scaleY(0.95) scaleX(1.04);opacity:1",
+            "75%": "transform:rotate(-3deg) scaleY(1.04) scaleX(0.97);opacity:0.92"
+          }
+        }
+      ]
+    },
+    "cctv-camera": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            2,
+            3
+          ],
+          "origin": [
+            10.75,
+            13.24
+          ],
+          "dur": 3,
+          "frames": {
+            "25%,35%": "transform:rotate(-6deg)",
+            "65%,75%": "transform:rotate(5deg)"
+          }
+        },
+        {
+          "type": "keyframes",
+          "parts": [
+            4
+          ],
+          "origin": [
+            10.75,
+            13.24
+          ],
+          "dur": 3,
+          "frames": {
+            "12%": "opacity:0.2",
+            "25%": "transform:rotate(-6deg);opacity:1",
+            "35%": "transform:rotate(-6deg);opacity:0.2",
+            "50%": "transform:none;opacity:1",
+            "65%": "transform:rotate(5deg);opacity:0.2",
+            "75%": "transform:rotate(5deg);opacity:1",
+            "88%": "opacity:0.2"
+          }
+        }
+      ]
+    },
+    "chart-bar": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            3,
+            2,
+            1
+          ],
+          "origin": [
+            12,
+            17.58
+          ],
+          "dur": 2.2,
+          "stagger": 0.18,
+          "frames": {
+            "18%": "transform:scaleY(0.35)",
+            "42%": "transform:scaleY(1.05)",
+            "58%,100%": "transform:none"
           }
         }
       ]
@@ -608,6 +855,92 @@
         }
       ]
     },
+    "cloud-lightning": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            2
+          ],
+          "origin": [
+            12,
+            14.5
+          ],
+          "dur": 2,
+          "ease": "linear",
+          "frames": {
+            "10%": "opacity:0.15",
+            "16%": "opacity:1;transform:scale(1.06)",
+            "24%": "opacity:0.2;transform:none",
+            "30%": "opacity:1;transform:scale(1.06)",
+            "42%,100%": "opacity:1;transform:none"
+          }
+        }
+      ]
+    },
+    "cloud-rain": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            2,
+            3,
+            4
+          ],
+          "dur": 1.5,
+          "stagger": 0.25,
+          "ease": "linear",
+          "frames": {
+            "40%": "transform:translate(-0.35px,1.4px);opacity:0",
+            "41%": "transform:translate(0.25px,-1px);opacity:0",
+            "80%,100%": "transform:none;opacity:1"
+          }
+        }
+      ]
+    },
+    "coffee": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            3,
+            4
+          ],
+          "dur": 2.2,
+          "stagger": 0.45,
+          "ease": "ease-in-out",
+          "frames": {
+            "45%": "transform:translateY(-1.4px);opacity:0.15",
+            "46%": "transform:translateY(0.8px);opacity:0",
+            "85%,100%": "transform:none;opacity:1"
+          }
+        }
+      ]
+    },
+    "compass": {
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            1
+          ],
+          "origin": [
+            12,
+            12
+          ],
+          "dur": 2.4,
+          "frames": {
+            "22%": "transform:rotate(28deg)",
+            "48%": "transform:rotate(-16deg)",
+            "68%": "transform:rotate(7deg)",
+            "82%,100%": "transform:none"
+          }
+        }
+      ]
+    },
     "copy": {
       "split": true,
       "motions": [
@@ -647,6 +980,57 @@
             1
           ],
           "dur": 3.2
+        }
+      ]
+    },
+    "gavel": {
+      "split": true,
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "origin": [
+            19,
+            18
+          ],
+          "dur": 1.8,
+          "frames": {
+            "20%": "transform:rotate(5deg)",
+            "36%": "transform:rotate(-11deg)",
+            "46%": "transform:rotate(-5deg)",
+            "62%,100%": "transform:none"
+          }
+        }
+      ]
+    },
+    "hand-wave": {
+      "motions": [
+        {
+          "type": "swing",
+          "parts": [
+            0
+          ],
+          "origin": [
+            9,
+            19.5
+          ],
+          "deg": 9,
+          "dur": 1.8
+        },
+        {
+          "type": "fade",
+          "parts": [
+            1,
+            2
+          ],
+          "dur": 1.8,
+          "stagger": 0.15,
+          "min": 0.25
         }
       ]
     },
@@ -853,6 +1237,33 @@
         }
       ]
     },
+    "phone-call": {
+      "split": true,
+      "motions": [
+        {
+          "type": "swing",
+          "parts": [
+            0
+          ],
+          "origin": [
+            11.9,
+            12.11
+          ],
+          "deg": 6,
+          "dur": 2
+        },
+        {
+          "type": "fade",
+          "parts": [
+            2,
+            1
+          ],
+          "dur": 2,
+          "stagger": 0.2,
+          "min": 0.2
+        }
+      ]
+    },
     "plus": {
       "motions": [
         {
@@ -877,6 +1288,79 @@
           ],
           "hold": 0.3,
           "dur": 1.6
+        }
+      ]
+    },
+    "rocket": {
+      "split": true,
+      "motions": [
+        {
+          "type": "nudge",
+          "parts": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "x": 1,
+          "y": -1,
+          "dur": 1.8
+        },
+        {
+          "type": "keyframes",
+          "parts": [
+            1
+          ],
+          "origin": [
+            8.98,
+            15.42
+          ],
+          "dur": 1.8,
+          "frames": {
+            "25%": "transform:translate(1px,-1px) scale(1.25);opacity:0.35",
+            "50%": "transform:translate(1px,-1px) scale(0.85);opacity:1",
+            "75%": "transform:translate(0.4px,-0.4px) scale(1.15);opacity:0.45"
+          }
+        }
+      ]
+    },
+    "scissors": {
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            2
+          ],
+          "origin": [
+            12,
+            11.06
+          ],
+          "dur": 1.8,
+          "frames": {
+            "18%": "transform:rotate(-11deg)",
+            "34%": "transform:none",
+            "50%": "transform:rotate(-11deg)",
+            "68%,100%": "transform:none"
+          }
+        },
+        {
+          "type": "keyframes",
+          "parts": [
+            1,
+            3
+          ],
+          "origin": [
+            12,
+            11.06
+          ],
+          "dur": 1.8,
+          "frames": {
+            "18%": "transform:rotate(11deg)",
+            "34%": "transform:none",
+            "50%": "transform:rotate(11deg)",
+            "68%,100%": "transform:none"
+          }
         }
       ]
     },
@@ -1061,6 +1545,51 @@
           "dur": 1.4,
           "stagger": 0.2,
           "min": 0.15
+        }
+      ]
+    },
+    "wand-sparkles": {
+      "motions": [
+        {
+          "type": "keyframes",
+          "parts": [
+            0,
+            1
+          ],
+          "origin": [
+            5.5,
+            19.5
+          ],
+          "dur": 2,
+          "frames": {
+            "25%": "transform:rotate(-5deg)",
+            "55%,100%": "transform:none"
+          }
+        },
+        {
+          "type": "twinkle",
+          "parts": [
+            2,
+            4,
+            3
+          ],
+          "origins": [
+            [
+              5.5,
+              5.5
+            ],
+            [
+              14.5,
+              3.5
+            ],
+            [
+              19.25,
+              18.25
+            ]
+          ],
+          "scale": 0.45,
+          "stagger": 0.22,
+          "dur": 2
         }
       ]
     },
