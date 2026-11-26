@@ -190,6 +190,230 @@
       "componentSet": "45:40210"
     },
     {
+      "name": "bug-shield",
+      "base": "shield",
+      "modifier": "bug",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:94494",
+        "filled": "169:94498",
+        "duocolor": "169:94512",
+        "duotone": "169:94516"
+      },
+      "componentSet": "169:94522"
+    },
+    {
+      "name": "calendar-add",
+      "base": "calendar",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39225",
+      "source": {
+        "regular": "31:5494",
+        "filled": "33:41785",
+        "duocolor": "49:92874",
+        "duotone": "49:92888"
+      }
+    },
+    {
+      "name": "calendar-alert",
+      "base": "calendar",
+      "modifier": "warning",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39372",
+      "source": {
+        "regular": "31:5609",
+        "filled": "33:41876",
+        "duocolor": "49:93504",
+        "duotone": "49:93517"
+      }
+    },
+    {
+      "name": "calendar-check",
+      "base": "calendar",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39243",
+      "source": {
+        "regular": "31:5508",
+        "filled": "33:41797",
+        "duocolor": "49:92951",
+        "duotone": "49:92963"
+      }
+    },
+    {
+      "name": "calendar-disabled",
+      "base": "calendar",
+      "modifier": "block",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39234",
+      "source": {
+        "regular": "31:5501",
+        "filled": "33:41791",
+        "duocolor": "49:92912",
+        "duotone": "49:92925"
+      }
+    },
+    {
+      "name": "calendar-download",
+      "base": "calendar",
+      "modifier": "download",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39285",
+      "source": {
+        "regular": "31:5540",
+        "filled": "33:41824",
+        "duocolor": "49:93126",
+        "duotone": "49:93141"
+      }
+    },
+    {
+      "name": "calendar-link",
+      "base": "calendar",
+      "modifier": "link",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "127:67965",
+      "source": {
+        "regular": "127:67966",
+        "filled": "127:67970",
+        "duocolor": "127:67972",
+        "duotone": "127:67977"
+      }
+    },
+    {
+      "name": "calendar-lock",
+      "base": "calendar",
+      "modifier": "lock",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39324",
+      "source": {
+        "regular": "31:5569",
+        "filled": "33:38639",
+        "duocolor": "49:93280",
+        "duotone": "49:93296"
+      }
+    },
+    {
+      "name": "calendar-note",
+      "base": "calendar",
+      "modifier": "note",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "127:67843",
+      "source": {
+        "regular": "127:67844",
+        "filled": "127:67848",
+        "duocolor": "127:67850",
+        "duotone": "127:67855"
+      }
+    },
+    {
+      "name": "calendar-person",
+      "base": "calendar",
+      "modifier": "user",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "127:68026",
+      "source": {
+        "regular": "127:68027",
+        "filled": "127:68031",
+        "duocolor": "127:68033",
+        "duotone": "127:68038"
+      }
+    },
+    {
+      "name": "calendar-phone",
+      "base": "calendar",
+      "modifier": "phone",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "127:68095",
+      "source": {
+        "regular": "127:68096",
+        "filled": "127:68100",
+        "duocolor": "127:68102",
+        "duotone": "127:68107"
+      }
+    },
+    {
+      "name": "calendar-record",
+      "base": "calendar",
+      "modifier": "record",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "127:67904",
+      "source": {
+        "regular": "127:67905",
+        "filled": "127:67909",
+        "duocolor": "127:67911",
+        "duotone": "127:67916"
+      }
+    },
+    {
+      "name": "calendar-remove",
+      "base": "calendar",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39276",
+      "source": {
+        "regular": "31:5533",
+        "filled": "33:41818",
+        "duocolor": "49:93088",
+        "duotone": "49:93102"
+      }
+    },
+    {
+      "name": "calendar-reply",
+      "base": "calendar",
+      "modifier": "reply",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "127:67782",
+      "source": {
+        "regular": "127:67783",
+        "filled": "127:67787",
+        "duocolor": "127:67789",
+        "duotone": "127:67794"
+      }
+    },
+    {
+      "name": "calendar-sparkles",
+      "base": "calendar",
+      "modifier": "sparkle",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:44040",
+      "source": {
+        "regular": "34:96842",
+        "filled": "34:96843",
+        "duocolor": "49:94798",
+        "duotone": "49:94816"
+      }
+    },
+    {
+      "name": "calendar-upload",
+      "base": "calendar",
+      "modifier": "upload",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39363",
+      "source": {
+        "regular": "31:5602",
+        "filled": "33:41870",
+        "duocolor": "49:93465",
+        "duotone": "49:93480"
+      }
+    },
+    {
       "name": "clipboard-add",
       "base": "clipboard",
       "modifier": "add",
@@ -313,6 +537,62 @@
         "filled": "33:42211",
         "duocolor": "49:78852",
         "duotone": "49:78864"
+      }
+    },
+    {
+      "name": "clock-12",
+      "base": "clock",
+      "modifier": "12",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "266:82635",
+        "filled": "266:82639",
+        "duocolor": "266:82641",
+        "duotone": "266:82645"
+      },
+      "componentSet": "266:82634"
+    },
+    {
+      "name": "clock-check",
+      "base": "clock",
+      "modifier": "check",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:43331",
+      "source": {
+        "regular": "33:27914",
+        "filled": "33:41986",
+        "duocolor": "49:94223",
+        "duotone": "49:94232"
+      }
+    },
+    {
+      "name": "clock-plus",
+      "base": "clock",
+      "modifier": "add",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:43340",
+      "source": {
+        "regular": "33:27947",
+        "filled": "33:41992",
+        "duocolor": "49:94256",
+        "duotone": "49:94267"
+      }
+    },
+    {
+      "name": "close-window",
+      "base": "window",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43811",
+      "source": {
+        "regular": "34:94080",
+        "filled": "34:94100",
+        "duocolor": "49:68297",
+        "duotone": "49:68309"
       }
     },
     {
@@ -496,6 +776,188 @@
         "duotone": "49:87394"
       },
       "componentSet": "45:41487"
+    },
+    {
+      "name": "crown-minus",
+      "base": "crown",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:105505",
+        "filled": "169:105523",
+        "duocolor": "169:105536",
+        "duotone": "169:105554"
+      },
+      "componentSet": "169:105574"
+    },
+    {
+      "name": "crown-plus",
+      "base": "crown",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:105435",
+        "filled": "169:105453",
+        "duocolor": "169:105466",
+        "duotone": "169:105484"
+      },
+      "componentSet": "169:105504"
+    },
+    {
+      "name": "cursor-block",
+      "base": "cursor",
+      "modifier": "block",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100620",
+        "filled": "169:100634",
+        "duocolor": "169:100648",
+        "duotone": "169:100662"
+      },
+      "componentSet": "169:100678"
+    },
+    {
+      "name": "cursor-check",
+      "base": "cursor",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100679",
+        "filled": "169:100692",
+        "duocolor": "169:100705",
+        "duotone": "169:100718"
+      },
+      "componentSet": "169:100733"
+    },
+    {
+      "name": "cursor-hand-block",
+      "base": "cursor-hand",
+      "modifier": "block",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100899",
+        "filled": "169:100913",
+        "duocolor": "169:100927",
+        "duotone": "169:100941"
+      },
+      "componentSet": "169:100957"
+    },
+    {
+      "name": "cursor-hand-plus",
+      "base": "cursor-hand",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100844",
+        "filled": "169:100857",
+        "duocolor": "169:100870",
+        "duotone": "169:100883"
+      },
+      "componentSet": "169:100898"
+    },
+    {
+      "name": "cursor-minus",
+      "base": "cursor",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100565",
+        "filled": "169:100578",
+        "duocolor": "169:100591",
+        "duotone": "169:100604"
+      },
+      "componentSet": "169:100619"
+    },
+    {
+      "name": "cursor-plus",
+      "base": "cursor",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100510",
+        "filled": "169:100523",
+        "duocolor": "169:100536",
+        "duotone": "169:100549"
+      },
+      "componentSet": "169:100564"
+    },
+    {
+      "name": "cursor-question",
+      "base": "cursor",
+      "modifier": "question",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100734",
+        "filled": "169:100748",
+        "duocolor": "169:100762",
+        "duotone": "169:100776"
+      },
+      "componentSet": "169:100792"
+    },
+    {
+      "name": "cursor-sparkle",
+      "base": "cursor",
+      "modifier": "sparkle",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100793",
+        "filled": "169:100805",
+        "duocolor": "169:100817",
+        "duotone": "169:100829"
+      },
+      "componentSet": "169:100843"
+    },
+    {
+      "name": "download-window",
+      "base": "window",
+      "modifier": "download",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39178",
+      "source": {
+        "regular": "31:5461",
+        "filled": "33:42127",
+        "duocolor": "49:66605",
+        "duotone": "49:66621"
+      }
+    },
+    {
+      "name": "edit-sparkles",
+      "base": "edit",
+      "modifier": "sparkle",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43946",
+      "source": {
+        "regular": "34:95929",
+        "filled": "34:95930",
+        "duocolor": "49:57088",
+        "duotone": "49:57093"
+      }
+    },
+    {
+      "name": "edit-window",
+      "base": "window",
+      "modifier": "edit",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43751",
+      "source": {
+        "regular": "34:93451",
+        "filled": "34:93471",
+        "duocolor": "49:68100",
+        "duotone": "49:68110"
+      }
     },
     {
       "name": "file-ai",
@@ -806,6 +1268,48 @@
       }
     },
     {
+      "name": "file-settings",
+      "base": "file",
+      "modifier": "settings",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "31:6075",
+        "filled": "33:42252",
+        "duocolor": "49:79092",
+        "duotone": "49:79103"
+      },
+      "componentSet": "45:40001"
+    },
+    {
+      "name": "file-shield",
+      "base": "file",
+      "modifier": "shield",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:15422",
+        "filled": "33:38670",
+        "duocolor": "49:79386",
+        "duotone": "49:79397"
+      },
+      "componentSet": "45:40685"
+    },
+    {
+      "name": "file-sms",
+      "base": "file",
+      "modifier": "sms",
+      "position": "bottom-left",
+      "fit": null,
+      "source": {
+        "regular": "266:82716",
+        "filled": "266:82718",
+        "duocolor": "266:82720",
+        "duotone": "266:82722"
+      },
+      "componentSet": "266:82715"
+    },
+    {
       "name": "file-sparkles",
       "base": "file-text",
       "modifier": "sparkle",
@@ -930,6 +1434,174 @@
         "duocolor": "49:80844",
         "duotone": "49:80852"
       }
+    },
+    {
+      "name": "filter-check",
+      "base": "filter",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100178",
+        "filled": "169:100192",
+        "duocolor": "169:100205",
+        "duotone": "169:100218"
+      },
+      "componentSet": "169:100233"
+    },
+    {
+      "name": "filter-edit",
+      "base": "filter",
+      "modifier": "edit",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100234",
+        "filled": "169:100248",
+        "duocolor": "169:100261",
+        "duotone": "169:100274"
+      },
+      "componentSet": "169:100289"
+    },
+    {
+      "name": "filter-lines-edit",
+      "base": "filter-lines",
+      "modifier": "edit",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100454",
+        "filled": "169:100468",
+        "duocolor": "169:100481",
+        "duotone": "169:100496"
+      },
+      "componentSet": "169:100509"
+    },
+    {
+      "name": "filter-lines-plus",
+      "base": "filter-lines",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100342",
+        "filled": "169:100356",
+        "duocolor": "169:100369",
+        "duotone": "169:100384"
+      },
+      "componentSet": "169:100397"
+    },
+    {
+      "name": "filter-lines-x",
+      "base": "filter-lines",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100398",
+        "filled": "169:100412",
+        "duocolor": "169:100425",
+        "duotone": "169:100440"
+      },
+      "componentSet": "169:100453"
+    },
+    {
+      "name": "filter-plus",
+      "base": "filter",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100066",
+        "filled": "169:100080",
+        "duocolor": "169:100093",
+        "duotone": "169:100106"
+      },
+      "componentSet": "169:100121"
+    },
+    {
+      "name": "filter-search",
+      "base": "filter",
+      "modifier": "search",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100290",
+        "filled": "169:100303",
+        "duocolor": "169:100315",
+        "duotone": "169:100327"
+      },
+      "componentSet": "169:100341"
+    },
+    {
+      "name": "filter-x",
+      "base": "filter",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:100122",
+        "filled": "169:100136",
+        "duocolor": "169:100149",
+        "duotone": "169:100162"
+      },
+      "componentSet": "169:100177"
+    },
+    {
+      "name": "fingerprint-check",
+      "base": "fingerprint",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95632",
+        "filled": "169:95646",
+        "duocolor": "169:95659",
+        "duotone": "169:95677"
+      },
+      "componentSet": "169:95690"
+    },
+    {
+      "name": "fingerprint-minus",
+      "base": "fingerprint",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95750",
+        "filled": "169:95764",
+        "duocolor": "169:95777",
+        "duotone": "169:95795"
+      },
+      "componentSet": "169:95808"
+    },
+    {
+      "name": "fingerprint-plus",
+      "base": "fingerprint",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95691",
+        "filled": "169:95705",
+        "duocolor": "169:95718",
+        "duotone": "169:95736"
+      },
+      "componentSet": "169:95749"
+    },
+    {
+      "name": "fingerprint-x",
+      "base": "fingerprint",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95809",
+        "filled": "169:95823",
+        "duocolor": "169:95836",
+        "duotone": "169:95854"
+      },
+      "componentSet": "169:95867"
     },
     {
       "name": "folder-add",
@@ -1114,6 +1786,118 @@
       }
     },
     {
+      "name": "hand-lock",
+      "base": "hand",
+      "modifier": "lock",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:38879",
+      "source": {
+        "regular": "31:5244",
+        "filled": "33:38632",
+        "duocolor": "49:92525",
+        "duotone": "49:92539"
+      }
+    },
+    {
+      "name": "home-window",
+      "base": "window",
+      "modifier": "home",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43801",
+      "source": {
+        "regular": "34:93969",
+        "filled": "34:93989",
+        "duocolor": "49:71133",
+        "duotone": "49:71145"
+      }
+    },
+    {
+      "name": "id-card-check",
+      "base": "id-card",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95868",
+        "filled": "169:95884",
+        "duocolor": "169:95897",
+        "duotone": "169:95913"
+      },
+      "componentSet": "169:95931"
+    },
+    {
+      "name": "lock-check",
+      "base": "lock",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95318",
+        "filled": "169:95334",
+        "duocolor": "169:95347",
+        "duotone": "169:95362"
+      },
+      "componentSet": "169:95379"
+    },
+    {
+      "name": "lock-minus",
+      "base": "lock",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95442",
+        "filled": "169:95458",
+        "duocolor": "169:95471",
+        "duotone": "169:95486"
+      },
+      "componentSet": "169:95503"
+    },
+    {
+      "name": "lock-plus",
+      "base": "lock",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95380",
+        "filled": "169:95396",
+        "duocolor": "169:95409",
+        "duotone": "169:95424"
+      },
+      "componentSet": "169:95441"
+    },
+    {
+      "name": "lock-question",
+      "base": "lock",
+      "modifier": "question",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95566",
+        "filled": "169:95583",
+        "duocolor": "169:95597",
+        "duotone": "169:95613"
+      },
+      "componentSet": "169:95631"
+    },
+    {
+      "name": "lock-x",
+      "base": "lock",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:95504",
+        "filled": "169:95520",
+        "duocolor": "169:95533",
+        "duotone": "169:95548"
+      },
+      "componentSet": "169:95565"
+    },
+    {
       "name": "mail-sparkles",
       "base": "mail",
       "modifier": "sparkle",
@@ -1142,6 +1926,118 @@
       "componentSet": "45:43994"
     },
     {
+      "name": "message-unread-circle",
+      "base": "message-circle",
+      "modifier": "dot",
+      "position": "top-right",
+      "fit": null,
+      "source": {
+        "regular": "6:1127",
+        "filled": "33:39857",
+        "duocolor": "49:81559",
+        "duotone": "49:81563"
+      },
+      "componentSet": "45:38405"
+    },
+    {
+      "name": "message-unread-square",
+      "base": "message-square",
+      "modifier": "dot",
+      "position": "top-right",
+      "fit": null,
+      "source": {
+        "regular": "6:1131",
+        "filled": "33:39860",
+        "duocolor": "49:81574",
+        "duotone": "49:81580"
+      },
+      "componentSet": "45:38412"
+    },
+    {
+      "name": "minus-window",
+      "base": "window",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43761",
+      "source": {
+        "regular": "34:93535",
+        "filled": "34:93555",
+        "duocolor": "49:68137",
+        "duotone": "49:68147"
+      }
+    },
+    {
+      "name": "mobile-phone-chat",
+      "base": "mobile-phone",
+      "modifier": "chat",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "209:74319",
+        "filled": "209:74321",
+        "duocolor": "209:74323",
+        "duotone": "209:74325"
+      },
+      "componentSet": "209:74318"
+    },
+    {
+      "name": "mobile-phone-edit",
+      "base": "mobile-phone",
+      "modifier": "edit",
+      "position": "top-right",
+      "fit": null,
+      "source": {
+        "regular": "209:74414",
+        "filled": "209:74416",
+        "duocolor": "209:74418",
+        "duotone": "209:74420"
+      },
+      "componentSet": "209:74413"
+    },
+    {
+      "name": "notification-box",
+      "base": "square-rounded",
+      "modifier": "dot",
+      "position": "top-right",
+      "fit": null,
+      "source": {
+        "regular": "33:20394",
+        "filled": "33:38875",
+        "duocolor": "49:82370",
+        "duotone": "49:82376"
+      },
+      "componentSet": "45:41926"
+    },
+    {
+      "name": "notification-message",
+      "base": "message-text-square",
+      "modifier": "dot",
+      "position": "top-right",
+      "fit": null,
+      "source": {
+        "regular": "33:20421",
+        "filled": "33:38879",
+        "duocolor": "49:82392",
+        "duotone": "49:82398"
+      },
+      "componentSet": "45:41933"
+    },
+    {
+      "name": "notification-text",
+      "base": "text-square",
+      "modifier": "dot",
+      "position": "top-right",
+      "fit": null,
+      "source": {
+        "regular": "33:20449",
+        "filled": "33:38883",
+        "duocolor": "49:82414",
+        "duotone": "49:82425"
+      },
+      "componentSet": "45:41941"
+    },
+    {
       "name": "palette-sparkles",
       "base": "palette",
       "modifier": "sparkle",
@@ -1153,6 +2049,34 @@
         "filled": "34:96659",
         "duocolor": "49:91501",
         "duotone": "49:91513"
+      }
+    },
+    {
+      "name": "plus-window",
+      "base": "window",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43771",
+      "source": {
+        "regular": "34:93620",
+        "filled": "34:93640",
+        "duocolor": "49:68174",
+        "duotone": "49:68186"
+      }
+    },
+    {
+      "name": "refresh-window",
+      "base": "window",
+      "modifier": "refresh",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43781",
+      "source": {
+        "regular": "34:93720",
+        "filled": "34:93740",
+        "duocolor": "49:68213",
+        "duotone": "49:68226"
       }
     },
     {
@@ -1170,17 +2094,17 @@
       }
     },
     {
-      "name": "edit-sparkles",
-      "base": "edit",
-      "modifier": "sparkle",
+      "name": "search-window",
+      "base": "window",
+      "modifier": "search",
       "position": "bottom-right",
       "fit": null,
-      "componentSet": "45:43946",
+      "componentSet": "45:43792",
       "source": {
-        "regular": "34:95929",
-        "filled": "34:95930",
-        "duocolor": "49:57088",
-        "duotone": "49:57093"
+        "regular": "34:93811",
+        "filled": "34:93831",
+        "duocolor": "49:68253",
+        "duotone": "49:68265"
       }
     },
     {
@@ -1196,6 +2120,34 @@
         "duotone": "49:82219"
       },
       "componentSet": "45:40096"
+    },
+    {
+      "name": "trophy-check",
+      "base": "trophy",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "169:105375",
+        "filled": "169:105389",
+        "duocolor": "169:105402",
+        "duotone": "169:105419"
+      },
+      "componentSet": "169:105434"
+    },
+    {
+      "name": "upload-window",
+      "base": "window",
+      "modifier": "upload",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39209",
+      "source": {
+        "regular": "31:5483",
+        "filled": "33:42144",
+        "duocolor": "49:66656",
+        "duotone": "49:66671"
+      }
     },
     {
       "name": "user-add",
@@ -1384,6 +2336,20 @@
       "componentSet": "45:42117"
     },
     {
+      "name": "user-tag",
+      "base": "user",
+      "modifier": "tag",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "206:57183",
+        "filled": "206:57185",
+        "duocolor": "206:57187",
+        "duotone": "206:57189"
+      },
+      "componentSet": "206:57182"
+    },
+    {
       "name": "user-up",
       "base": "user",
       "modifier": "arrow-up",
@@ -1566,832 +2532,6 @@
         "filled": "49:49262"
       },
       "componentSet": "45:42207"
-    },
-    {
-      "name": "calendar-add",
-      "base": "calendar",
-      "modifier": "add",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:39225",
-      "source": {
-        "regular": "31:5494",
-        "filled": "33:41785",
-        "duocolor": "49:92874",
-        "duotone": "49:92888"
-      }
-    },
-    {
-      "name": "calendar-remove",
-      "base": "calendar",
-      "modifier": "remove",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:39276",
-      "source": {
-        "regular": "31:5533",
-        "filled": "33:41818",
-        "duocolor": "49:93088",
-        "duotone": "49:93102"
-      }
-    },
-    {
-      "name": "calendar-check",
-      "base": "calendar",
-      "modifier": "check",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:39243",
-      "source": {
-        "regular": "31:5508",
-        "filled": "33:41797",
-        "duocolor": "49:92951",
-        "duotone": "49:92963"
-      }
-    },
-    {
-      "name": "calendar-download",
-      "base": "calendar",
-      "modifier": "download",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:39285",
-      "source": {
-        "regular": "31:5540",
-        "filled": "33:41824",
-        "duocolor": "49:93126",
-        "duotone": "49:93141"
-      }
-    },
-    {
-      "name": "calendar-upload",
-      "base": "calendar",
-      "modifier": "upload",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:39363",
-      "source": {
-        "regular": "31:5602",
-        "filled": "33:41870",
-        "duocolor": "49:93465",
-        "duotone": "49:93480"
-      }
-    },
-    {
-      "name": "calendar-lock",
-      "base": "calendar",
-      "modifier": "lock",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:39324",
-      "source": {
-        "regular": "31:5569",
-        "filled": "33:38639",
-        "duocolor": "49:93280",
-        "duotone": "49:93296"
-      }
-    },
-    {
-      "name": "calendar-alert",
-      "base": "calendar",
-      "modifier": "warning",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:39372",
-      "source": {
-        "regular": "31:5609",
-        "filled": "33:41876",
-        "duocolor": "49:93504",
-        "duotone": "49:93517"
-      }
-    },
-    {
-      "name": "calendar-disabled",
-      "base": "calendar",
-      "modifier": "block",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:39234",
-      "source": {
-        "regular": "31:5501",
-        "filled": "33:41791",
-        "duocolor": "49:92912",
-        "duotone": "49:92925"
-      }
-    },
-    {
-      "name": "calendar-sparkles",
-      "base": "calendar",
-      "modifier": "sparkle",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:44040",
-      "source": {
-        "regular": "34:96842",
-        "filled": "34:96843",
-        "duocolor": "49:94798",
-        "duotone": "49:94816"
-      }
-    },
-    {
-      "name": "calendar-reply",
-      "base": "calendar",
-      "modifier": "reply",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "127:67782",
-      "source": {
-        "regular": "127:67783",
-        "filled": "127:67787",
-        "duocolor": "127:67789",
-        "duotone": "127:67794"
-      }
-    },
-    {
-      "name": "calendar-note",
-      "base": "calendar",
-      "modifier": "note",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "127:67843",
-      "source": {
-        "regular": "127:67844",
-        "filled": "127:67848",
-        "duocolor": "127:67850",
-        "duotone": "127:67855"
-      }
-    },
-    {
-      "name": "calendar-record",
-      "base": "calendar",
-      "modifier": "record",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "127:67904",
-      "source": {
-        "regular": "127:67905",
-        "filled": "127:67909",
-        "duocolor": "127:67911",
-        "duotone": "127:67916"
-      }
-    },
-    {
-      "name": "calendar-link",
-      "base": "calendar",
-      "modifier": "link",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "127:67965",
-      "source": {
-        "regular": "127:67966",
-        "filled": "127:67970",
-        "duocolor": "127:67972",
-        "duotone": "127:67977"
-      }
-    },
-    {
-      "name": "calendar-person",
-      "base": "calendar",
-      "modifier": "user",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "127:68026",
-      "source": {
-        "regular": "127:68027",
-        "filled": "127:68031",
-        "duocolor": "127:68033",
-        "duotone": "127:68038"
-      }
-    },
-    {
-      "name": "calendar-phone",
-      "base": "calendar",
-      "modifier": "phone",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "127:68095",
-      "source": {
-        "regular": "127:68096",
-        "filled": "127:68100",
-        "duocolor": "127:68102",
-        "duotone": "127:68107"
-      }
-    },
-    {
-      "name": "clock-check",
-      "base": "clock",
-      "modifier": "check",
-      "position": "bottom-left",
-      "fit": null,
-      "componentSet": "45:43331",
-      "source": {
-        "regular": "33:27914",
-        "filled": "33:41986",
-        "duocolor": "49:94223",
-        "duotone": "49:94232"
-      }
-    },
-    {
-      "name": "clock-plus",
-      "base": "clock",
-      "modifier": "add",
-      "position": "bottom-left",
-      "fit": null,
-      "componentSet": "45:43340",
-      "source": {
-        "regular": "33:27947",
-        "filled": "33:41992",
-        "duocolor": "49:94256",
-        "duotone": "49:94267"
-      }
-    },
-    {
-      "name": "lock-check",
-      "base": "lock",
-      "modifier": "check",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:95318",
-        "filled": "169:95334",
-        "duocolor": "169:95347",
-        "duotone": "169:95362"
-      },
-      "componentSet": "169:95379"
-    },
-    {
-      "name": "lock-plus",
-      "base": "lock",
-      "modifier": "add",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:95380",
-        "filled": "169:95396",
-        "duocolor": "169:95409",
-        "duotone": "169:95424"
-      },
-      "componentSet": "169:95441"
-    },
-    {
-      "name": "lock-minus",
-      "base": "lock",
-      "modifier": "remove",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:95442",
-        "filled": "169:95458",
-        "duocolor": "169:95471",
-        "duotone": "169:95486"
-      },
-      "componentSet": "169:95503"
-    },
-    {
-      "name": "lock-x",
-      "base": "lock",
-      "modifier": "delete",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:95504",
-        "filled": "169:95520",
-        "duocolor": "169:95533",
-        "duotone": "169:95548"
-      },
-      "componentSet": "169:95565"
-    },
-    {
-      "name": "lock-question",
-      "base": "lock",
-      "modifier": "question",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:95566",
-        "filled": "169:95583",
-        "duocolor": "169:95597",
-        "duotone": "169:95613"
-      },
-      "componentSet": "169:95631"
-    },
-    {
-      "name": "fingerprint-check",
-      "base": "fingerprint",
-      "modifier": "check",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:95632",
-        "filled": "169:95646",
-        "duocolor": "169:95659",
-        "duotone": "169:95677"
-      },
-      "componentSet": "169:95690"
-    },
-    {
-      "name": "fingerprint-plus",
-      "base": "fingerprint",
-      "modifier": "add",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:95691",
-        "filled": "169:95705",
-        "duocolor": "169:95718",
-        "duotone": "169:95736"
-      },
-      "componentSet": "169:95749"
-    },
-    {
-      "name": "fingerprint-minus",
-      "base": "fingerprint",
-      "modifier": "remove",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:95750",
-        "filled": "169:95764",
-        "duocolor": "169:95777",
-        "duotone": "169:95795"
-      },
-      "componentSet": "169:95808"
-    },
-    {
-      "name": "fingerprint-x",
-      "base": "fingerprint",
-      "modifier": "delete",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:95809",
-        "filled": "169:95823",
-        "duocolor": "169:95836",
-        "duotone": "169:95854"
-      },
-      "componentSet": "169:95867"
-    },
-    {
-      "name": "id-card-check",
-      "base": "id-card",
-      "modifier": "check",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:95868",
-        "filled": "169:95884",
-        "duocolor": "169:95897",
-        "duotone": "169:95913"
-      },
-      "componentSet": "169:95931"
-    },
-    {
-      "name": "filter-plus",
-      "base": "filter",
-      "modifier": "add",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100066",
-        "filled": "169:100080",
-        "duocolor": "169:100093",
-        "duotone": "169:100106"
-      },
-      "componentSet": "169:100121"
-    },
-    {
-      "name": "filter-x",
-      "base": "filter",
-      "modifier": "delete",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100122",
-        "filled": "169:100136",
-        "duocolor": "169:100149",
-        "duotone": "169:100162"
-      },
-      "componentSet": "169:100177"
-    },
-    {
-      "name": "filter-check",
-      "base": "filter",
-      "modifier": "check",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100178",
-        "filled": "169:100192",
-        "duocolor": "169:100205",
-        "duotone": "169:100218"
-      },
-      "componentSet": "169:100233"
-    },
-    {
-      "name": "filter-edit",
-      "base": "filter",
-      "modifier": "edit",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100234",
-        "filled": "169:100248",
-        "duocolor": "169:100261",
-        "duotone": "169:100274"
-      },
-      "componentSet": "169:100289"
-    },
-    {
-      "name": "filter-search",
-      "base": "filter",
-      "modifier": "search",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100290",
-        "filled": "169:100303",
-        "duocolor": "169:100315",
-        "duotone": "169:100327"
-      },
-      "componentSet": "169:100341"
-    },
-    {
-      "name": "filter-lines-plus",
-      "base": "filter-lines",
-      "modifier": "add",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100342",
-        "filled": "169:100356",
-        "duocolor": "169:100369",
-        "duotone": "169:100384"
-      },
-      "componentSet": "169:100397"
-    },
-    {
-      "name": "filter-lines-x",
-      "base": "filter-lines",
-      "modifier": "delete",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100398",
-        "filled": "169:100412",
-        "duocolor": "169:100425",
-        "duotone": "169:100440"
-      },
-      "componentSet": "169:100453"
-    },
-    {
-      "name": "filter-lines-edit",
-      "base": "filter-lines",
-      "modifier": "edit",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100454",
-        "filled": "169:100468",
-        "duocolor": "169:100481",
-        "duotone": "169:100496"
-      },
-      "componentSet": "169:100509"
-    },
-    {
-      "name": "cursor-plus",
-      "base": "cursor",
-      "modifier": "add",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100510",
-        "filled": "169:100523",
-        "duocolor": "169:100536",
-        "duotone": "169:100549"
-      },
-      "componentSet": "169:100564"
-    },
-    {
-      "name": "cursor-minus",
-      "base": "cursor",
-      "modifier": "remove",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100565",
-        "filled": "169:100578",
-        "duocolor": "169:100591",
-        "duotone": "169:100604"
-      },
-      "componentSet": "169:100619"
-    },
-    {
-      "name": "cursor-block",
-      "base": "cursor",
-      "modifier": "block",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100620",
-        "filled": "169:100634",
-        "duocolor": "169:100648",
-        "duotone": "169:100662"
-      },
-      "componentSet": "169:100678"
-    },
-    {
-      "name": "cursor-check",
-      "base": "cursor",
-      "modifier": "check",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100679",
-        "filled": "169:100692",
-        "duocolor": "169:100705",
-        "duotone": "169:100718"
-      },
-      "componentSet": "169:100733"
-    },
-    {
-      "name": "cursor-question",
-      "base": "cursor",
-      "modifier": "question",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100734",
-        "filled": "169:100748",
-        "duocolor": "169:100762",
-        "duotone": "169:100776"
-      },
-      "componentSet": "169:100792"
-    },
-    {
-      "name": "cursor-sparkle",
-      "base": "cursor",
-      "modifier": "sparkle",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100793",
-        "filled": "169:100805",
-        "duocolor": "169:100817",
-        "duotone": "169:100829"
-      },
-      "componentSet": "169:100843"
-    },
-    {
-      "name": "cursor-hand-plus",
-      "base": "cursor-hand",
-      "modifier": "add",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100844",
-        "filled": "169:100857",
-        "duocolor": "169:100870",
-        "duotone": "169:100883"
-      },
-      "componentSet": "169:100898"
-    },
-    {
-      "name": "cursor-hand-block",
-      "base": "cursor-hand",
-      "modifier": "block",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:100899",
-        "filled": "169:100913",
-        "duocolor": "169:100927",
-        "duotone": "169:100941"
-      },
-      "componentSet": "169:100957"
-    },
-    {
-      "name": "trophy-check",
-      "base": "trophy",
-      "modifier": "check",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:105375",
-        "filled": "169:105389",
-        "duocolor": "169:105402",
-        "duotone": "169:105419"
-      },
-      "componentSet": "169:105434"
-    },
-    {
-      "name": "crown-plus",
-      "base": "crown",
-      "modifier": "add",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:105435",
-        "filled": "169:105453",
-        "duocolor": "169:105466",
-        "duotone": "169:105484"
-      },
-      "componentSet": "169:105504"
-    },
-    {
-      "name": "crown-minus",
-      "base": "crown",
-      "modifier": "remove",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "169:105505",
-        "filled": "169:105523",
-        "duocolor": "169:105536",
-        "duotone": "169:105554"
-      },
-      "componentSet": "169:105574"
-    },
-    {
-      "name": "user-tag",
-      "base": "user",
-      "modifier": "tag",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "206:57183",
-        "filled": "206:57185",
-        "duocolor": "206:57187",
-        "duotone": "206:57189"
-      },
-      "componentSet": "206:57182"
-    },
-    {
-      "name": "mobile-phone-chat",
-      "base": "mobile-phone",
-      "modifier": "chat",
-      "position": "bottom-right",
-      "fit": null,
-      "source": {
-        "regular": "209:74319",
-        "filled": "209:74321",
-        "duocolor": "209:74323",
-        "duotone": "209:74325"
-      },
-      "componentSet": "209:74318"
-    },
-    {
-      "name": "mobile-phone-edit",
-      "base": "mobile-phone",
-      "modifier": "edit",
-      "position": "top-right",
-      "fit": null,
-      "source": {
-        "regular": "209:74414",
-        "filled": "209:74416",
-        "duocolor": "209:74418",
-        "duotone": "209:74420"
-      },
-      "componentSet": "209:74413"
-    },
-    {
-      "name": "download-window",
-      "base": "window",
-      "modifier": "download",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:39178",
-      "source": {
-        "regular": "31:5461",
-        "filled": "33:42127",
-        "duocolor": "49:66605",
-        "duotone": "49:66621"
-      }
-    },
-    {
-      "name": "edit-window",
-      "base": "window",
-      "modifier": "edit",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:43751",
-      "source": {
-        "regular": "34:93451",
-        "filled": "34:93471",
-        "duocolor": "49:68100",
-        "duotone": "49:68110"
-      }
-    },
-    {
-      "name": "upload-window",
-      "base": "window",
-      "modifier": "upload",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:39209",
-      "source": {
-        "regular": "31:5483",
-        "filled": "33:42144",
-        "duocolor": "49:66656",
-        "duotone": "49:66671"
-      }
-    },
-    {
-      "name": "plus-window",
-      "base": "window",
-      "modifier": "add",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:43771",
-      "source": {
-        "regular": "34:93620",
-        "filled": "34:93640",
-        "duocolor": "49:68174",
-        "duotone": "49:68186"
-      }
-    },
-    {
-      "name": "minus-window",
-      "base": "window",
-      "modifier": "remove",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:43761",
-      "source": {
-        "regular": "34:93535",
-        "filled": "34:93555",
-        "duocolor": "49:68137",
-        "duotone": "49:68147"
-      }
-    },
-    {
-      "name": "close-window",
-      "base": "window",
-      "modifier": "delete",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:43811",
-      "source": {
-        "regular": "34:94080",
-        "filled": "34:94100",
-        "duocolor": "49:68297",
-        "duotone": "49:68309"
-      }
-    },
-    {
-      "name": "refresh-window",
-      "base": "window",
-      "modifier": "refresh",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:43781",
-      "source": {
-        "regular": "34:93720",
-        "filled": "34:93740",
-        "duocolor": "49:68213",
-        "duotone": "49:68226"
-      }
-    },
-    {
-      "name": "search-window",
-      "base": "window",
-      "modifier": "search",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:43792",
-      "source": {
-        "regular": "34:93811",
-        "filled": "34:93831",
-        "duocolor": "49:68253",
-        "duotone": "49:68265"
-      }
-    },
-    {
-      "name": "home-window",
-      "base": "window",
-      "modifier": "home",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:43801",
-      "source": {
-        "regular": "34:93969",
-        "filled": "34:93989",
-        "duocolor": "49:71133",
-        "duotone": "49:71145"
-      }
-    },
-    {
-      "name": "hand-lock",
-      "base": "hand",
-      "modifier": "lock",
-      "position": "bottom-right",
-      "fit": null,
-      "componentSet": "45:38879",
-      "source": {
-        "regular": "31:5244",
-        "filled": "33:38632",
-        "duocolor": "49:92525",
-        "duotone": "49:92539"
-      }
     }
   ],
   "styleSafeFamilyAudit": {

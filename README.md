@@ -1,6 +1,6 @@
 # Fos Icons
 
-1,588 icons in Regular, Filled, Duocolor, and Duotone styles, each drawn at five
+1,592 icons in Regular, Filled, Duocolor, and Duotone styles, each drawn at five
 optical sizes (16, 24, 32, 48, and 64px): **31,740 SVGs**. The canonical 24 x 24
 grid uses 1.25px strokes; each other size has its own grid and stroke (see
 [Optical sizes](#optical-sizes)). Negative space and modifier clearances are
