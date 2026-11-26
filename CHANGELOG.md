@@ -6,6 +6,11 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- **phone-missed.** A horizontal handset under the missed-call arrow.
+- **Redrawn bone and skull; one skull.** `skull-simple` is now an alias of
+  `skull` with identical files. settings-sliders and sliders-vertical share
+  one knob size.
+
 - **Redraw batch (2026-11-26).** Redrawn: copy, copy-doc, edit-circle,
   edit-square, infinity, trash-open, whistle, wand-sparkles, folder-open,
   inbox-full, swatchbook, tool-crossed, dumbbell, table-tennis, surfboard,
