@@ -932,6 +932,20 @@
       }
     },
     {
+      "name": "edit-circle",
+      "base": "circle",
+      "modifier": "edit",
+      "position": "top-right",
+      "fit": null,
+      "source": {
+        "regular": "31:5937",
+        "filled": "33:40466",
+        "duocolor": "49:56495",
+        "duotone": "49:56504"
+      },
+      "componentSet": "45:39825"
+    },
+    {
       "name": "edit-sparkles",
       "base": "edit",
       "modifier": "sparkle",
@@ -944,6 +958,20 @@
         "duocolor": "49:57088",
         "duotone": "49:57093"
       }
+    },
+    {
+      "name": "edit-square",
+      "base": "square-rounded",
+      "modifier": "edit",
+      "position": "top-right",
+      "fit": null,
+      "source": {
+        "regular": "1:1064",
+        "filled": "33:38476",
+        "duocolor": "49:55737",
+        "duotone": "49:55745"
+      },
+      "componentSet": "45:37152"
     },
     {
       "name": "edit-window",
