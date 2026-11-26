@@ -45780,10 +45780,10 @@
         "duotone": "icons/duotone/edit-circle.svg"
       },
       "sha256": {
-        "regular": "8aab79d299a76673a2c310bb2fd7106cc33250cbe988ae2f7b340c648e0f79c7",
-        "filled": "0ddf5a9607471798a955eeef3ee54c78e746986cb7828459e82189af45178f05",
-        "duocolor": "3eccef5ae2d305ced006cf6aa76acfa6fc5260e7f105db16c49f6269a504e70c",
-        "duotone": "e7a112d91562b173ec851f5e638405521d46d77ad83b5b2de97a3bf39c97cd5c"
+        "regular": "9b1ef2c7ddb8b44745d7eee239196774780cdc10b83f3de5ef48544d15eaf584",
+        "filled": "dc908d5c4fb6f5692c03520d0cf5091a35e015c553ddce09358b3cb0c1d4441c",
+        "duocolor": "79b664c5f3c7368341fe44f339cf43667a3820e599c2f25b354dfbdf2f1d8820",
+        "duotone": "ef662916fda5744983712549061e49022906737c85c8d7b66f085b8220bce512"
       },
       "duoAuthoring": {
         "version": 2,
@@ -45801,29 +45801,35 @@
       },
       "sizes": {
         "16": {
-          "regular": "319b2cbd0f3bcd18ba384d2d05883804baabc9ed3cb54204dc2708d1bc5286dd",
-          "filled": "204f6492821ab66b70f17409803fda42bd1c19cf53bc3884264bdfb754579b8f",
-          "duocolor": "741f7d046bb1ed9cca944658dfd7fb7ef5e55a22d3305b784747627ec968833c",
-          "duotone": "ef4cfc3cd30d94301a286ff7bab76b424c9392e6c7da0300ad9b7b0104b9d028"
+          "regular": "852f1a41458ab29572e49d3ebe58d286046c5c29c24f5e55eff7799c375a2d27",
+          "filled": "a3b4f919bdaa730ff28a2274bd16ce17c203ebb7e5f62e160a565f22cc52904c",
+          "duocolor": "160de271647fa207d6aa1db20f0249c89f0141477f3f599b4bf8179945ac22d3",
+          "duotone": "45a600ab93e98203ee79a8ab421b0657e2b9fd2fa7327fc5bc7c8bb4b1a27fb1"
         },
         "32": {
-          "regular": "cf57a7057377f706e04e5ef34d40edb76fc13e20cab39c2b0c3837fa7c568214",
-          "filled": "a42d5526d0f2ceeb7bae11cc7398aa0190d314204c66841765dab8f589796e4b",
-          "duocolor": "6e1c416a219eccf5b0abbbea3f97bc4f5f3a9ec2cbc58f6112057dd884f16f56",
-          "duotone": "b5b9eba58c7ef06205580f70b832478035dd1922a124bddc743aab4814756085"
+          "regular": "d4dfa4f9bf688500ef0da138fe6eb9c350117413928f5b26e229680823b819ae",
+          "filled": "6e06479683dc1c4890657850458e02c6645111e6fec8eda5c1da4ffe698931ea",
+          "duocolor": "79d9773d712a15a3cdc2eb5dd9ad585b62946c993fb44bf796c984112d4220e4",
+          "duotone": "192e491606aaa5744513f1eb9f748d102895e7cd2cef900a3639204c6069d178"
         },
         "48": {
-          "regular": "2a102fe7ec734859ca6ce3bc30b583dc0b14054e54a5d7b245d89f51790771b4",
-          "filled": "9059dd4fb37d1bf765a103368e19e3b86ec6d4e6551424eb046915e6a7a8c3b0",
-          "duocolor": "7a12f6e4b7ace850a0b5531201c5a299b0dd6f6f2f146b3eb056e1bb242a581d",
-          "duotone": "78bbf2afe768ec21f5243af461e10071d00053c421b9807bc6b506441851e2c5"
+          "regular": "dae5ebe7449f2259df8474bdc87c14f0232690b665ce7935155ac8f37dda1873",
+          "filled": "7a3938b35950d405332df7510c14c87eb44f0a49a5cf06f4681849f24a42704e",
+          "duocolor": "292e162fdb06104dd030fbe97cfbdea30f8e83bf98f7a8d50dcdbfd67152fc25",
+          "duotone": "db52760e36f3dbd41453d8a7269b20116489b92dcc62185556a4027f1d71d257"
         },
         "64": {
-          "regular": "c1d6e4c31db91f2f4761cd01892a814b61517157f75153f7667febcef6fc7140",
-          "filled": "e62227c9a38d81a9bbad4c3933ce6eb65fc241b91f82a028d57d85027d208dd3",
-          "duocolor": "b094a3c8f987fad7bd62f82cc9098ffb4e1b6ea05d1ab8d32cf58306bbe784d9",
-          "duotone": "8a3b88fd239e98f954b419fb2976c23553f660a67a9baa6f9240b32314df4bd4"
+          "regular": "cd3775c3fc9041d22b7efaa4e65f550560bb3b2515ec533b864a4bc6204ad51f",
+          "filled": "67bf6dbc2fc4c751df20867224aa29fae878253349a353d505e9cf6cd2d69366",
+          "duocolor": "6e4bc8f97e5b49e5ddacb446d0b59c637cdaa5f4085f369885d35b06b202faf7",
+          "duotone": "465476c19c5b498524ee6e9874fc0834b64d5d43ce65599d15e8df9c7e3bf8e5"
         }
+      },
+      "composition": {
+        "base": "circle",
+        "modifier": "edit",
+        "position": "top-right",
+        "fit": null
       }
     },
     {
@@ -45947,10 +45953,10 @@
         "duotone": "icons/duotone/edit-square.svg"
       },
       "sha256": {
-        "regular": "3874f1d92614c729226f47859d7028c63e219ac3d9d3b8ae2660ac36ff06e296",
-        "filled": "2a21fba3fe6bcf382b5d886561b183ba33b3bd508dc9b7fae71c87dbd5f5936a",
-        "duocolor": "854d5cf220dae616a974f80c00489e57adbfd3fef2b5cc70ad049382bf38cb9c",
-        "duotone": "3129f11e99a53c13f0c0e67c329e0ef4deee3c4c0e6dab4855eccb76d403dc3e"
+        "regular": "7db1416ebf935a4ae40555adfc9779ab2e257c9fe8ef81a6b01ca46521f75445",
+        "filled": "693da5b9dd26bfe75d585ab78df9fafb5a4914e83eeb8b1bfd29d31c07c80ffb",
+        "duocolor": "66a15b9e066b7fada08a54b6b293ecc3911185a85527c1404d42931deef2db9d",
+        "duotone": "e589f68d15c8a30406dae5ff7a51a5fd59506b49dd7c36d29eaa78bd96793bee"
       },
       "duoAuthoring": {
         "version": 2,
@@ -45968,29 +45974,35 @@
       },
       "sizes": {
         "16": {
-          "regular": "a4693d411b8a4c51ed33973fa4a1868d62eeedc23bcd43a136d01ef091368e8b",
-          "filled": "7b44ba225c3f054deb0f8c18d8c1fc5a70adc92ad566d68571d51c9a5f9ece97",
-          "duocolor": "976ec7a51983536a475390bc991e2af42e9c13ef2334c6779a98adc2b7cf20c9",
-          "duotone": "b6d4707fac5b41b010e43666a0ee1650abbe6eca9557d6c074b7175b16b67bad"
+          "regular": "408a9279e778dc00bfcae8b3a2f1f3949c5386ec6fd9a9e9343d2ab5149eadfb",
+          "filled": "c04876f88ced83e174dd72dfb7d15a3425a4f54eb618d9316b6ca440aeadbad9",
+          "duocolor": "119f292366289c5e072af05cec1dd4289cb42930408c29478e609e86177367f8",
+          "duotone": "9a3e4185bde40ff29a2e5f6987c932808ee4bd6c9596cb0a5edf588ae3a8e4f4"
         },
         "32": {
-          "regular": "7e4722860645529891245de22f961cab45ec175807c63cc58c216bf34d134046",
-          "filled": "337883992ae8433aeeec0ef4ad8b5fcff9e241666507be5c4af9f3a26b5e4b29",
-          "duocolor": "ca1c7ddf2f6620cdf9e94fae370029a00ae5753e53289d095ae0814c0282cd14",
-          "duotone": "7e608b260d1214ca10554e4ae6cf4a00830dfafa897b2dec23908d1f3e9517d0"
+          "regular": "faf64dd88c03931ccd1823e369d01d0044bafdf3d4699b01c01b1dc1eb4a267f",
+          "filled": "fcbd21e7ca885bfe6953e9d28b2af67deff28f5a987270f00fb2df5ee671f36a",
+          "duocolor": "e241b9e169578bafa83ff88b57a4e1cdf79457d91021db3d137657d83af4694a",
+          "duotone": "777140f60c97d501ab6b15c5bb8396079bc4ea01dad6daa2daf713fd042e4d64"
         },
         "48": {
-          "regular": "06197f8e5cdf9e171da02b63e5c6f9d7eb2e1511dc0542202db2a5437e46bbef",
-          "filled": "a54bac624bf3e0ead5e2e899a8988d0da82a87909c0e3205aa5c47017ff551ca",
-          "duocolor": "801a91c5103e37f055d226b5b80291470933a8ec2e5e69e88208d961ac925b88",
-          "duotone": "a1174d8daa510ac1d7900644d9c2140af8e185fd2e5e70f5bcece54a3deb66f8"
+          "regular": "bacc808200d125a3a2de26187992128916443b1c285b53e0639aabd7cac16371",
+          "filled": "69f3155677659d9422b3de6d30bc3b0100896f616f8cbe57d9d41eb67259107a",
+          "duocolor": "c4a2af005a9a6108f5a1034e2d78a0a3b6404bfb16ef4d3e9983eccf2a7314d0",
+          "duotone": "b69a2044ad199cfd0fe30f1e04505c6bf0cbfe78e35cc2e6e84d344552efdf7d"
         },
         "64": {
-          "regular": "734b65a69e6f5467d8b4a513c768f34e5e0bd8d2c2e334490722ad95d0f0be95",
-          "filled": "d0355e0a9e7f0589cfc4c3cf1c5b550afa4186494d13af4f43e57cd5ffe56bee",
-          "duocolor": "64c430d96ad2507ea7c6f5e99b80fc9501e221a3758b592d3b30d44fbd037ca9",
-          "duotone": "8b103fd349758d56ab6ede635674da0a82101f764c84972669e16331e92a7147"
+          "regular": "8a6fd90a099b3a719dea4f2c3c069fbda61442f3b689d4990a2b3c40528c92e8",
+          "filled": "faa2f7e1037e89f5451524d6cc2351259a4fd995f40b4d2227344e42ff5e65e1",
+          "duocolor": "ccd363c431c23393dc8683b6c0795a6f4579e308bf235276487b8fb11159365f",
+          "duotone": "0356f53f4650cbef777c88dd3734ebcfa8868847a2f1c2699738529d4e2f2502"
         }
+      },
+      "composition": {
+        "base": "square-rounded",
+        "modifier": "edit",
+        "position": "top-right",
+        "fit": null
       }
     },
     {

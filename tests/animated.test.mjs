@@ -57,3 +57,15 @@ test('caller CSS cannot escape the style block', () => {
   assert.throws(() => animateSvg('x', svg, { motions: [{ type: 'spin', parts: [0], dur: -1 }] }), /dur/);
   assert.match(frames({ '0%,50%': 'transform:translate(1px,-2px) rotate(-12deg);opacity:.5' })(), /fa-x-m0\{0%,50%\{transform:translate\(1px,-2px\) rotate\(-12deg\);opacity:.5\}/);
 });
+
+test('animated presets keep the modifier clearance and move the badge alone', async () => {
+  for (const name of ['edit-circle', 'edit-square']) {
+    const svg = built[name];
+    const parts = parseParts(await readFile(new URL(`../icons/regular/${name}.svg`, import.meta.url), 'utf8'), { split: true });
+    assert.ok(parts[0].clip, `${name}: base keeps its clearance`);
+    assert.ok(!parts.at(-1).clip, `${name}: badge is not clipped`);
+    assert.match(svg, new RegExp(`<clipPath id="fa-${name}-clip"`));
+    assert.match(svg, new RegExp(`<g class="fa-${name}-0" clip-path="url\\(#fa-${name}-clip\\)">`));
+    assert.doesNotMatch(svg, /fos-[\w-]+-clearance/, `${name}: ids are scoped to the animated icon`);
+  }
+});

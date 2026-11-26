@@ -88,6 +88,11 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Changed
 
+- **edit-circle and edit-square use the `edit` modifier.** They are now
+  presets (circle / square-rounded + edit, top-right) like edit-window and
+  user-edit. Their animations still wiggle the pencil:
+  `scripts/animate-core.mjs` now reads composed presets, keeps the base's
+  clearance clip and animates the badge as its own part.
 - **`code-browser` is now `browser-code`.** `code-browser` stays as an alias
   with identical files.
 - Made `slash-divider` an alias of `slash`. Only `slash` is listed in the
