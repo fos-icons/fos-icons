@@ -2378,6 +2378,20 @@
         "duocolor": "49:71133",
         "duotone": "49:71145"
       }
+    },
+    {
+      "name": "hand-lock",
+      "base": "hand",
+      "modifier": "lock",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:38879",
+      "source": {
+        "regular": "31:5244",
+        "filled": "33:38632",
+        "duocolor": "49:92525",
+        "duotone": "49:92539"
+      }
     }
   ],
   "styleSafeFamilyAudit": {
