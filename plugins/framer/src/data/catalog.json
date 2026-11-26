@@ -15754,6 +15754,19 @@
       "aliases": []
     },
     {
+      "name": "phone-missed",
+      "category": "Communication",
+      "tags": [
+        "missed call",
+        "call log",
+        "unanswered",
+        "hang up",
+        "handset",
+        "notification"
+      ],
+      "aliases": []
+    },
+    {
       "name": "phone-out",
       "category": "Communication",
       "tags": [
@@ -18156,23 +18169,9 @@
         "poison",
         "halloween"
       ],
-      "aliases": []
-    },
-    {
-      "name": "skull-simple",
-      "category": "Interfaces",
-      "tags": [
-        "death",
-        "danger",
-        "dead",
-        "skeleton",
-        "pirate",
-        "poison",
-        "halloween"
-      ],
       "aliases": [
         "interface/skull",
-        "skull"
+        "skull-simple"
       ]
     },
     {
@@ -21506,7 +21505,7 @@
     },
     {
       "name": "Communication",
-      "count": 111
+      "count": 112
     },
     {
       "name": "Data & commerce",
@@ -21530,7 +21529,7 @@
     },
     {
       "name": "Interfaces",
-      "count": 150
+      "count": 149
     },
     {
       "name": "Media & devices",
