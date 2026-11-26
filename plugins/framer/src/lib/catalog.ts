@@ -3,7 +3,7 @@ import data from "../data/catalog.json"
 export const styles = ["regular", "filled", "duocolor", "duotone"] as const
 export type Style = typeof styles[number]
 export const styleLabels: Record<Style, string> = {
-  regular: "Regular", filled: "Solid", duocolor: "Duocolor", duotone: "Duotone",
+  regular: "Regular", filled: "Filled", duocolor: "Duocolor", duotone: "Duotone",
 }
 export interface Icon {
   name: string

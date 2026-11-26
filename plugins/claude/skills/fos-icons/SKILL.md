@@ -52,7 +52,7 @@ one of those.
 
 - **Regular** is the default. Keep one style per UI. Use Filled for a selected
   or active state (the selected tab in a tab bar), not at random.
-- The website calls Filled "Solid". In code it is always the `Filled` suffix.
+- The website and the code both call it Filled (the `Filled` suffix).
 - Duocolor and Duotone are for larger, illustrative spots (empty states,
   feature cards), not dense toolbars.
 - **Size:** 24 is the default. Use 16 or 20 in dense UI and inline with small

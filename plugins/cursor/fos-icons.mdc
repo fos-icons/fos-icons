@@ -28,7 +28,7 @@ Component = icon name in PascalCase + style suffix:
 
 - `fuel-pump` → `FuelPumpRegular`, `FuelPumpFilled`, `FuelPumpDuocolor`, `FuelPumpDuotone`
 - Flutter: `FosIcons.fuelPumpRegular`
-- The website calls Filled "Solid"; in code it is always `Filled`.
+- The website and the code both call it Filled (`Filled` suffix).
 
 ## Packages
 

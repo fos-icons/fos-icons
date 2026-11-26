@@ -1,7 +1,7 @@
 # Fos Icons for Framer
 
 A Framer-native icon picker with Fos branding. Search the bundled library,
-choose Regular, Solid, Duocolor, or Duotone, customize size, colors and applicable
+choose Regular, Filled, Duocolor, or Duotone, customize size, colors and applicable
 stroke weight, then insert an SVG into the canvas.
 
 ## Development
@@ -38,7 +38,7 @@ mark is first-party identity artwork adapted from
 - Multiple selected layers containing an SVG block insertion until the selection
   is unambiguous. Selection and edit permissions are rechecked before a write.
 - Size accepts integer values from 8 to 512 px. Stroke weight applies to line
-  styles, never Solid. Duo styles expose a second color and library palettes.
+  styles, never Filled. Duo styles expose a second color and library palettes.
 - Colors are resolved into the inserted SVG. Later editor theme changes do not
   recolor artwork already inserted.
 - Search covers names, aliases, tags and categories. `/` focuses search; Escape

@@ -55,7 +55,7 @@ describe("picker", () => {
     fireEvent.click(screen.getByRole("button", { name: "Duocolor", exact: true }))
     expect(screen.getByLabelText("Duo palette")).toBeTruthy()
     expect(screen.getByLabelText("Secondary hex")).toBeTruthy()
-    fireEvent.click(screen.getByRole("button", { name: "Solid", exact: true }))
+    fireEvent.click(screen.getByRole("button", { name: "Filled", exact: true }))
     expect((screen.getByLabelText("Stroke weight") as HTMLSelectElement).disabled).toBe(true)
     fireEvent.change(screen.getByLabelText("Icon size"), { target: { value: "0" } })
     expect((screen.getByRole("button", { name: "Insert icon" }) as HTMLButtonElement).disabled).toBe(true)

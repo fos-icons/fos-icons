@@ -213,7 +213,7 @@ Automatic semantic/geometric conflict handling is deferred.
 On [fosicons.com](https://www.fosicons.com) you choose an icon, style, size,
 colors, and an optional modifier and corner, then copy SVG, framework code, or
 a PNG, or download SVG, PNG, or JPG. Every export reflects those choices.
-Regular is free; Pro adds Solid, Duocolor, and Duotone and bulk ZIP exports;
+Regular is free; Pro adds Filled, Duocolor, and Duotone and bulk ZIP exports;
 Advanced adds the modifier picker. XAML export is not available.
 
 ## Use
@@ -237,7 +237,7 @@ Duocolor, and Duotone. Select a frame or instance and apply a collection mode:
 | 64 px | 2.5px |
 
 Edit a mode's value in local variables to customize its weight. All 10,094 live
-core outline strokes are bound; Solid silhouettes, filled accents, and legacy
+core outline strokes are bound; Filled silhouettes, filled accents, and legacy
 brands are excluded. The default 24px appearance is preserved.
 
 Modes change stroke weight, **not icon dimensions**. Each component set also
@@ -257,7 +257,7 @@ panel; there is no need to drill into the layers. The credit-card actions,
 21 action glyphs and four corner positions. Existing user/briefcase presets
 retain their modifier-family choices. The two optically fitted Add presets
 expose the nested Badge's **Glyph** (Add/Delete), not a Position control.
-Credit-card modifiers match the base foreground in Regular and Solid (black in
+Credit-card modifiers match the base foreground in Regular and Filled (black in
 Light mode); duo styles retain their semantic green, red, and other accent colors.
 
 ### SVG
