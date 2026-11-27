@@ -15936,7 +15936,7 @@
       },
       "sha256": {
         "regular": "090143b13855176f12dee7ca4afcc483e1643cf1520f9998a0963aa82177bb0f",
-        "filled": "d64d9fa96bf5d35165abddc703301bcfc596e066eba2d538573c46cdf084e66b",
+        "filled": "db7759605e81271126971c20de6595df5f61c26d5a65ffcc97341a220f06388b",
         "duocolor": "da80a445d9ad2b17143809bc289343446fd7763b6c4ba43d5a5bca8b19b93b31",
         "duotone": "43490f4e0b43c4a04a1e28be542a7dfa0baae77a5e5110760e61c999084038d6"
       },
@@ -15957,25 +15957,25 @@
       "sizes": {
         "16": {
           "regular": "57d8f602855c8609f9d98c11038b0f582f48ea204df3a2b0d9fe435077c2950b",
-          "filled": "2bfc4298d233ce5d7303986097b1bd9773b0610401da10ec3e1e6db160fbca06",
+          "filled": "8987618d518013f32ff94a3463b7d21d19c6f252d426f763db063586763f4c4c",
           "duocolor": "1393e6f29aeca47821c98eaa5aa15f1324496f573c0a518a5cecb81b64230790",
           "duotone": "1328a4ca2f739ec2dff437f1caa6c2ddfdfdac93bed0a4e0363fdbde0e170222"
         },
         "32": {
           "regular": "d841b588b42e16131a95391df4eb56c1c4f3b05ca1b2432b7320694cec318dea",
-          "filled": "81ac67b085a3d5c3ddb47d9e3b7a7c2bcfbc3ed174bbef28463703216eed3f84",
+          "filled": "a6519e2f30843c4d479be4571010fe5aa6a85f09fd646d24da52ca9853b5012d",
           "duocolor": "55d67b5cace902d23d942d010a2137be886c3f90c060ba08729d24a353ebda92",
           "duotone": "5c53f80724aa2302a8a700477139556816e53a596218029aaec37d96a82aa56d"
         },
         "48": {
           "regular": "061966073d992763959cd30b2036126de2591785b0a93a54df27a8f6e7fc96ea",
-          "filled": "13581ca4144ebae9aeed054a4f941d66e488d1cc0ed65fb2b1f39f0e27a7bfc2",
+          "filled": "a40e9cd3da70e5de9b5688258982b42874454e7e646f88a517f2803d00d1bb44",
           "duocolor": "c27838d32c8c6c1f432e566655190d06fe75c39b14df07850d423224c26c36f9",
           "duotone": "26a0ffe95b32f24779e53cbb670088e8ee9e4f2ce4238dc52f5d4f463d0c8d52"
         },
         "64": {
           "regular": "5a3105067325616c7f8b204f7fa9a6bd18446d4a6206f3ec886730226f81484a",
-          "filled": "d205fe6b4a3487a53509de99999f8e72dcba55ce369bf86a31c95b5747321167",
+          "filled": "1d0fdbd3aa090efeddd5a094aff97fe949e06ce275031b137b474e7e8467808f",
           "duocolor": "60156a1394979b17f7016e11dac1e2fc6f9b1720614cd05b30e66d95dfade36c",
           "duotone": "bf317abc1c40c1b01d253823e8610dbb3db0532037ec4fbb6bbbcc12c8da6c52"
         }
@@ -16016,7 +16016,7 @@
       },
       "sha256": {
         "regular": "c1e58ff7d70c7948507d734416e0fdcfee3196a23eef0e675a018047c6e46aa9",
-        "filled": "c5fdb64a174b55e59b51aa7054d157760e375cd2a4684c09ccf5ac495a6074f0",
+        "filled": "b1acab2dbc4fc9114ae5cf2bd459cc0739936e5084b7640dae85178d5d2101ea",
         "duocolor": "3fb19c13c558ef8a35a66ab6c85e238796dbbd6281c0e4c8c1f25645dd5fa8d7",
         "duotone": "e961270a0743ad2c2be7b24dc55b40b1ccf885b3b1a1b52c391468e123066f86"
       },
@@ -16037,25 +16037,25 @@
       "sizes": {
         "16": {
           "regular": "b1c9b46c63eba1fe70086066e23a9fab546a7ed9a7c707aafe6bbf4f2352f274",
-          "filled": "a39d31b15b338f5ab98984b9893424fdb59bbf2b88c485b7eab6179d5f04b44f",
+          "filled": "3fb6a0723ab7fccc96e78dddcb9f8f2e9213dc3fb9cf467bbec3d12deb6a4a50",
           "duocolor": "a2cfd58358f32c4e4766eb349cf343c69bd044623799e8f8bcb5a45a773cbc20",
           "duotone": "9fc9057e070b98a24fff2ad9bc1e5a47515cb42c12f58b994544c014cd0e6e34"
         },
         "32": {
           "regular": "517a591287d889d16db6fe9d3943039e67fb23fbff2217fcf18d7be706f3c3bc",
-          "filled": "5e04902305abd0c7d0e5c1b1e5bf3ced734f34f227472c863237ee7041be8240",
+          "filled": "345196d148170a5d0d86907e47baf647f3941a93f4f2274e9c6c4e817a8d8802",
           "duocolor": "b928891b7e1d008774d6d3cb28f9d756cd4041991385bd8db3fd51b1fb72ad4a",
           "duotone": "7958329167733c8dbcaba75f40432651a228d50e2ea7cb6c333806792f173ca3"
         },
         "48": {
           "regular": "86faa408fbdb0bd9f24edcfde122350190151de768995b385a1e471b8a1eb8f4",
-          "filled": "8846976f4797bc588628f5a29fbc9eabd9dbc742330eb04169d6f8e9d91b32cd",
+          "filled": "6092691f9a9c215f3fdd1165bbb5b81d23ea7a85db98355363e45cdeb642465f",
           "duocolor": "364ab3bd23e7be8f4100a0a96eb535348b5e5bb9241c1b373088274f03d191ff",
           "duotone": "691ccf13aa34bf4dbc26e15a1a6c4c25f2fc89a84af1c306e0d83978e1313c0a"
         },
         "64": {
           "regular": "9cd4c27fc5eeb3cd66d0a835b08f2bfccc535a664ce187b5521c0efde3ad3738",
-          "filled": "f32beb042a147a6da9f758406217d85f0bca8cf0a1beeb6de3aa2a9ca39d3610",
+          "filled": "60435d186fc9411fb7ba5c2fc023a71231523fc204fc5dc4994193859756bb07",
           "duocolor": "0f089750c5201962c22b669cfe850e704df14bba2518548cbd4f7742063a29c7",
           "duotone": "80993d6adb44d4166dc4477ac4cde9cba042ee9355f86723409c11f510a875f2"
         }
