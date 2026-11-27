@@ -6,6 +6,15 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- **Redraw batch (2026-11-28).** Softer, rounder corners on clapperboard,
+  link-external, navigation-pointer(-off), flash(-off), first-aid-kit and
+  tree-pine. Redrawn: attachment (a real gem paperclip), file-attachment (the
+  clip now holds the page), headphones-audio, table-off, certificate, stand,
+  bat-cricket, bat-baseball, barbell, planet-ringed, motorcycle, syringe and
+  harp. The `-off` icons share one slash with a clean gap. New icon:
+  **package-open**, an open box with its flaps folded out. All four styles at
+  every optical size.
+
 - **Megaphone.** Redrew the horn, grip, and sound rays across all four
   styles and five optical sizes.
 

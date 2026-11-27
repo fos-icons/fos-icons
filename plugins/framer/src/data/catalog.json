@@ -14956,6 +14956,20 @@
       "aliases": []
     },
     {
+      "name": "package-open",
+      "category": "Files",
+      "tags": [
+        "open box",
+        "unboxing",
+        "unpack",
+        "parcel",
+        "delivery",
+        "shipping",
+        "contents"
+      ],
+      "aliases": []
+    },
+    {
       "name": "package-plus",
       "category": "Files",
       "tags": [
@@ -21516,7 +21530,7 @@
     },
     {
       "name": "Files",
-      "count": 112
+      "count": 113
     },
     {
       "name": "Food & drink",

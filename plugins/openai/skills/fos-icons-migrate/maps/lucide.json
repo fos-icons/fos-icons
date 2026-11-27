@@ -7,13 +7,13 @@
   },
   "usage": "Keys are lucide names (kebab-case). `component` is the PascalCase name used by lucide-react, lucide-vue-next, lucide-svelte and lucide-angular (also with an Icon suffix or Lucide prefix), and by react-icons/lu with an Lu prefix.",
   "counts": {
-    "exact": 476,
+    "exact": 477,
     "alias": 1,
     "curated": 23,
     "normalized": 46,
     "reordered": 93,
     "suggested": 293,
-    "unmapped": 1471
+    "unmapped": 1470
   },
   "map": {
     "a-arrow-down": {
@@ -3071,6 +3071,11 @@
       "to": "package-minus",
       "match": "exact"
     },
+    "package-open": {
+      "component": "PackageOpen",
+      "to": "package-open",
+      "match": "exact"
+    },
     "package-plus": {
       "component": "PackagePlus",
       "to": "package-plus",
@@ -5603,7 +5608,6 @@
     "orbit",
     "origami",
     "outdent",
-    "package-open",
     "package-pen",
     "package-question-mark",
     "paint-gun",
