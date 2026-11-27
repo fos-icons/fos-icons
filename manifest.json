@@ -78581,49 +78581,49 @@
         "duotone": "icons/duotone/megaphone.svg"
       },
       "sha256": {
-        "regular": "96056775f5dd9b5599cd3a85d8c1384a6c4e6497918b3461063f0dc9503d3e57",
-        "filled": "d2b85c490ad2e97e0a9ea15fa34b1e563d1110b4b8fa49a5b73dafe66b31c1a1",
-        "duocolor": "0f3e27c1d1715507807ce88d699996c9312378e081eabe6f5d5de7f6a8297952",
-        "duotone": "c63f2b64bb99ce745cbdb1ff28dec038b8ceceb9c9a95c4d6a73c2da21220bf0"
+        "regular": "a755db22a3deb13cde7eca6df0a5b2167b16d303877192b84e8640878f8c7c75",
+        "filled": "719b333d3137af963729608cb40e764c7608e4e8a8d79af790c534ec3fa551de",
+        "duocolor": "878b0a2a091fc2874c33bdeebeaf3e1211248aa2f121d5ec54406972c270d82b",
+        "duotone": "6fe8f31a20035223b7471b6dd51b87882d4e245443f021262f4d65a3f34f22e6"
       },
       "duoAuthoring": {
         "version": 2,
-        "approvedPrototype": false,
+        "approvedPrototype": true,
         "duocolor": {
           "contours": 5,
-          "accents": 4,
+          "accents": 2,
           "policy": "dominant-contours-and-details"
         },
         "duotone": {
-          "regions": 0,
-          "opacity": 0.16,
+          "regions": 1,
+          "opacity": 0.24,
           "policy": "explicit-closed-contours"
         }
       },
       "sizes": {
         "16": {
-          "regular": "96d8d1315f36cd315537a945d30ae8fb602362efcf1a7ecc49a0d64bebdcba82",
-          "filled": "c6c347cd5746baba98cf426382ec969700515e4a96e53cd4efa24fe9b0933c43",
-          "duocolor": "9fabd094e272bd203d8b7f7143eb91231d7313fc8f2c2e4fc831ed396eaf757c",
-          "duotone": "7cb371933711beb797b13828622af68c6132706bf2235824fd1506f76ebc15c5"
+          "regular": "89610c44ca11024d801d3091a98aa7672e0b5f84c0cca45b792d4236d37ecfb5",
+          "filled": "2ffb3a9a66060426a0ea076180f2a49b189a83d6b51aef3340cbb2d84b63a08e",
+          "duocolor": "d45fc41b008b28941d1cefa50c635f7e248569968f793a98489139bd5694d2bb",
+          "duotone": "e12dbc0abdd1000402a0556890435d91adb57436a420171f591bea0e0698ac72"
         },
         "32": {
-          "regular": "783221936563892775dc87fee320e03a8b190119236ff302d875f5f6cde26a1c",
-          "filled": "aff50f9ae45b4c5f2bd47dc38f8873a20b2b3082c3863d7fb762e627dca39255",
-          "duocolor": "149c0c6e64dbaaf2b634260c208a284cf74cbec032ef675f3b966e157ebc0d3d",
-          "duotone": "d8489b03c6b58a527da77751760e9e9b664047dcf0dae12912ac2893bb6e8ae5"
+          "regular": "177d3cf7de0f61a8376f1b05c3fe4e9b0850a2f033819ff55315f7e3d54852fd",
+          "filled": "0183c317caaf22c7846112d17d25a9870e0a8073e8e9a919c44290a86e7009cf",
+          "duocolor": "177e2b9e8a77e1f4838c4930e3535ac50176b5310fa7f571d4b2ccf59610a4a0",
+          "duotone": "e6890045bbfc29e6c8a90416f7a8b44722b6380fdc7335d22beff58a3c43b34f"
         },
         "48": {
-          "regular": "bf16be92f77dabf74f2d92ef92a230c6d440f0bb6e779cf83eaea4d6454b547b",
-          "filled": "569d62b0cc9c34dd971f3ea5f7b5907c6f4d4299167dd6f1850df851af03b216",
-          "duocolor": "3dcd88abab804a69ad18130cd51f6245ac6cdfa98b8d5f7b75cce079f2702880",
-          "duotone": "8cf56c13bab34b9ba8ec22bf907b6c1ca192f1ee0889d6ca0f70aafe9a0ad616"
+          "regular": "52bb67c4f772952acc6fa07712a7cdff4accf2a270364940a8a16b49ccc0e0f0",
+          "filled": "55daae90f162d499086d629b962106384ee577ef9dce5581b60b0e4e677c4ee7",
+          "duocolor": "af6b2adebb21d6a7c986b9a207e930da6926afafae818b67fc33cfc37c786bb3",
+          "duotone": "c7358c09698e56ec33ae06856c11f581edb178e778c2a21ac6cb1e8335168f59"
         },
         "64": {
-          "regular": "997c94a18d84b3288c047cffcc1be6e6c185db163959ed8bb6f79f390d0e5bc0",
-          "filled": "15ea3c5db55f6a3ef5725a26e073d35dcfddb81c96f7b4f055f813af61b06d53",
-          "duocolor": "e46e83f7bd172ea7fe9d2bc5bc5342a56b2260d6bc865babe9f4e9fd9ac0cac6",
-          "duotone": "f3178a754f63fcc972106f3d7a1e5601062432dde04ff81dd14d20e05170a427"
+          "regular": "ab80716b285499ac33bd33cff4317588aabfc5a136a569fbc8ebf725d245f0b5",
+          "filled": "6ddf2f6bb37bb4a28604ac8270f44f812048d0c1ccfe78fa169fdb304d7348e7",
+          "duocolor": "6457d71f282bcc18cb81cc6e4c8f33c0bbe7e2d73fe08902084863483d8fdf14",
+          "duotone": "f8899f3a6cbba4bbeb8c53e1907841ab13334a4abd17bdd4fa612d8100d1d475"
         }
       }
     },

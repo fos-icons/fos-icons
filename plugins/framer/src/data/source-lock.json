@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/fos-icons/fos-icons",
-  "revision": "46d55967f34fd14e0ef576630831c3d393405d8f",
-  "manifestSha256": "960f49e85fa98e217c2dfef969d89fecb95949d2cb4cebad3dac3f395abf8cca",
-  "snapshotSha256": "566d1ae0d5edb46337d88b4b811fd39e4e6b480543095f77c849ebde7d895869",
+  "revision": "826525ff93411b3dc0e488dde3090ba4bb2c51a2",
+  "manifestSha256": "173afe26276a2b194db6fc02990c69911b8e84b2f0fd0e5ee25b87c04dd81d07",
+  "snapshotSha256": "ce8e698a489723cd412d23f38669a0efd643663139cb2ca9b583bbd39a8cb374",
   "count": 1592
 }
