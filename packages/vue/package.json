@@ -1,6 +1,6 @@
 {
   "name": "@fos-icons/vue",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Fos Icons' four-style SVG icon library as typed Vue 3 components.",
   "keywords": [
     "fos-icons",

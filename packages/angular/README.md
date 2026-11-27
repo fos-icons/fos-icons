@@ -1,7 +1,7 @@
 # Angular Fos Icons
 
-Fos Icons for Angular ships 1,319 icons in Regular, Filled, Duocolor, and
-Duotone. Each of the 5,276 standalone components renders on a native SVG element
+Fos Icons for Angular ships 1,593 icons in Regular, Filled, Duocolor, and
+Duotone. Each of the 6,372 standalone components renders on a native SVG element
 using the artwork from the core Fos Icons library.
 
 ## Install locally
