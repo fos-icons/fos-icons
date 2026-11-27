@@ -1,7 +1,7 @@
 # Svelte Fos Icons
 
-Fos Icons for Svelte 5.20 and later: 1,319 icons in Regular, Filled, Duocolor,
-and Duotone styles. The 5,276 components are generated from the canonical SVGs
+Fos Icons for Svelte 5.20 and later: 1,593 icons in Regular, Filled, Duocolor,
+and Duotone styles. The 6,372 components are generated from the canonical SVGs
 in `fos-icons/fos-icons` without changing their geometry, transparent cutouts,
 default 1.25px strokes, or duo colors. Third-party brand assets are not included.
 

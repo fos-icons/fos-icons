@@ -4,6 +4,8 @@ Changes are recorded under Unreleased until a release is published to npm.
 
 ## Unreleased
 
+## 0.4.0 - 2026-11-28
+
 ### Breaking
 
 - `Mark*` components (for example `MarkRegular`) are now `MarkerPinAdd*`,
@@ -18,6 +20,12 @@ Changes are recorded under Unreleased until a release is published to npm.
 
 ### Changed
 
+- Synchronized the core snapshot (fos-icons@8f0713c): 1,593 icons and 6,372
+  components. New `PackageOpen*`; redrawn `Attachment*`, `FileAttachment*`,
+  `HeadphonesAudio*`, `TableOff*`, `Certificate*`, `Stand*`, `BatCricket*`,
+  `BatBaseball*`, `Barbell*`, `PlanetRinged*`, `Motorcycle*`, `Syringe*`, `Harp*`;
+  rounder `Clapperboard*`, `LinkExternal*`, `NavigationPointer*`, `Flash*`,
+  `FirstAidKit*`, `TreePine*` (same component names).
 - Synchronized the core snapshot (fos-icons@8af0d8b): 1,319 icons and 5,276
   components.
   - New, in every style: `ArrowUpToLine*`, `ArrowDownToLine*`,
