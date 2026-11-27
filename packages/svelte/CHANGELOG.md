@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-## 0.1.0 - 2026-11-28
+## 0.4.0 - 2026-11-28
 
 - Initial `@fos-icons/svelte` package for Svelte 5.20 and later.
 - 1,593 canonical icons in four styles (fos-icons@8f0713c), generated as 6,372 JavaScript component

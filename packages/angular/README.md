@@ -14,7 +14,7 @@ npm pack
 ```
 
 ```sh
-npm install /path/to/angular-fos/fos-icons-angular-0.1.0.tgz
+npm install /path/to/angular-fos/fos-icons-angular-0.4.0.tgz
 ```
 
 The package targets Angular 20 through 22 and is tested with Angular 20. It
