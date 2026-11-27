@@ -6,7 +6,9 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
-- **phone-missed.** A horizontal handset under the missed-call arrow.
+- **phone-missed.** A diagonal handset with a bent incoming arrow.
+- **Hammer, shovel, and plane.** Redrew the hammer with its striking face
+  pointing down and the shovel with a D-grip. Rotated the plane to face right.
 - **Redrawn bone and skull; one skull.** `skull-simple` is now an alias of
   `skull` with identical files. settings-sliders and sliders-vertical share
   one knob size.
