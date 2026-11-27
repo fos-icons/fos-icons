@@ -6,6 +6,9 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Added
 
+- **Megaphone.** Redrew the horn, grip, and sound rays across all four
+  styles and five optical sizes.
+
 - **phone-missed.** A diagonal handset with a bent incoming arrow.
 - **Hammer, shovel, and plane.** Redrew the hammer with its striking face
   pointing down and the shovel with a D-grip. Rotated the plane to face right.
